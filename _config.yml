@@ -22,7 +22,7 @@ subtitle: Lead The World
 name: "Do-Hyeon Lee"
 description: "Do-Hyeon's blog"
 url: "https://lee-dohyeon.github.io"
-# baseurl: #
+# baseurl: /about
 repository: "https://https://github.com/Lee-DoHyeon/Lee-DoHyeon.github.io"
 teaser: "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # "/assets/images/88x88.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
