@@ -30,9 +30,9 @@ masthead_title: # overrides the website title displayed in the masthead, use " "
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
 comments:
-  provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider: "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: lee-dohyeon.github.io # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -96,18 +96,21 @@ social:
 
 # Analytics
 analytics:
-  provider: false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id:
+    tracking_id: "G-RY2MH84Y4X"
     anonymize_ip: # true, false (default)
 
 # Site Author
 author:
   name: "Do-Hyeon Lee"
   avatar: "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Toward more efficient and responsible AI agent"
-  location: "Daejeon, Korea"
+  bio: "Truly understanding Human Consciousness. Toward efficient and responsible AI."
+  # location: "Daejeon, Korea"
   links:
+    - label: "Location"
+      icon: "fas fa-fw fa-map-marker-alt"
+      url: "https://maps.app.goo.gl/fDF8TMFHnu1fHCBd9"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:lead.o.hyeon@gmail.com"
@@ -267,6 +270,14 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
