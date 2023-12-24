@@ -13,6 +13,4 @@ I believe that fostering a dynamic synergy between human intelligence and artifi
 
 ## Publication
 
----
-
 In preparation
