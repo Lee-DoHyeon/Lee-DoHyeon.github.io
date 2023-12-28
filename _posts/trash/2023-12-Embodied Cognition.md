@@ -38,28 +38,23 @@ values:
   → 행동주의가 심리학에서 마음 개념을 축출한 것을 비판함.
   → 인간 자신, 동물, 컴퓨터, 인간문화체계 등에 대한 새로운 패러다임
   ; **고전적 인지주의Cognitivism** + **정보처리적 접근방식** ← “인지과학”의 발생
-  ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/273a69d2-3ce8-47b7-a60a-02fe38ea484e/8db22e13-d2cb-42a4-86ec-678ce0f82bf7/Untitled.png)
 
 ### 1.2 인지주의, 인지과학의 특성과 의의
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/273a69d2-3ce8-47b7-a60a-02fe38ea484e/85378bce-f126-40c3-97f0-05c7d87a71a7/Untitled.png)
 
 - 인지주의 패러다임: ‘마음’ $\sim$ ‘컴퓨터’ $\sim$ ‘정보처리 체계(Information Processing Paradigm: IPS)’
   ⇒ 인간과 동물의 마음에서 그리고 컴퓨터에서 각종 정보처리가 어떻게 일어나며, 그러한 정보처리를 통해서 마음또는 지知(능)가 어떻게 가능하게 되고 구현되는가?
   → “知란 마음의 작용에서 비롯되는 것이므로 인지과학은 마음의 과학(Science of Mind)이 된다.”
   1. 마음(Mind), 2) 두뇌(Brain), 3) 컴퓨터(Computer), 4) 인공물(Artifact)
      **주요 특징들**
-  1. ‘마음’ $\sim$ ‘컴퓨터’ $\sim$ ‘정보처리 체계(Information Processing Paradigm: IPS)’
-  1. 마음의 **과정**은 정보의 처리, 변환이라는 **계산주의적 관점Computationalism**이다.
-  1. 마음의 **내용**은 지향적 대상의 표상으로 이루어진다는 **표상주의Representationalism**다.
-  1. 마음은 **뇌**의 신경적 상태에 기초한다는 **신경과학적 기반**의 강조이다. (그러나 HW/SW의 분리)
-  1. 마음의 **탐구**는 여러 학문들의 수렴에 의하여 가능하다; **수렴(융합)적** 접근의 강조이다.
+  2. ‘마음’ $$\sim$$ ‘컴퓨터’ $$\sim$$ ‘정보처리 체계(Information Processing Paradigm: IPS)’
+  3. 마음의 **과정**은 정보의 처리, 변환이라는 **계산주의적 관점Computationalism**이다.
+  4. 마음의 **내용**은 지향적 대상의 표상으로 이루어진다는 **표상주의Representationalism**다.
+  5. 마음은 **뇌**의 신경적 상태에 기초한다는 **신경과학적 기반**의 강조이다. (그러나 HW/SW의 분리)
+  6. 마음의 **탐구**는 여러 학문들의 수렴에 의하여 가능하다; **수렴(융합)적** 접근의 강조이다.
 
 ### 1.3 인지과학과 학문 간 연결, 수렴, 융합
 
 → **인공지능, 인지심리학, 철학, 언어학, 인지신경과학**
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/273a69d2-3ce8-47b7-a60a-02fe38ea484e/0f853ad1-49dc-4b3a-b04c-bf85c14b3107/Untitled.png)
 
 ## 2 인지과학 틀의 변천 역사
 
