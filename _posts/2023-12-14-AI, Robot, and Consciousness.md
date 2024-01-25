@@ -59,16 +59,27 @@ OpenAI는 또한 Dall-e와 같은 이미지 생성 서비스도 제공하고 있
 
 <aside>
 👨🏻‍💻 *· Black box problem ← AI 모델의 내부 작동 방식을 확인할 수 없다는 점.*  
+
 *· Alignment problem ← AI 모델의 작동 원리를 인간 윤리에 정렬하는 일반적 방법이 없다는 점.*  
+
 *· Generalizability problem ← AI 모델이 일반화 성능을 달성하기 어렵다는 점.*  
+
 *· Hallucination problem ←  AI 모델이 겪게 되는 환각문제를 해결하기 어렵다는 점.*  
+
 *· Centralization problem — one corporation owning the AI ← 현재 몇개의 테크기업이 인공지능 기술을 독점하고 있다는 점.*  
+
 *· Clean data problem ← 완벽히 개인정보를 지우고 학습에 활용할 일반적인 방법이 없다는 점.*  
+
 *· Energy consumption problem ← 대규모의 데이터를 학습시키는데 엄청난 에너지가 소비된다는 점.*  
+
 *· Data update problem ← 추가적인 데이터를 바탕으로 업데이트하고자 할 때 재앙적 망각 문제를 해결하기 어렵다는 점.*  
+
 *· Financial viability problem ← AI가 상업적으로 활용되었을 때 수익의 소유와 관련해 문제의 소지가 있다는 점,.*  
+
 *· Guardrail problem ← AI가 인간을 뛰어넘었을 때 인간에게 해가 되지 않도록 가드레일을 설계할 필요가 있다는 점.*  
+
 *· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자유로울 수 없다는 점.*  
+
 </aside>
 
 그들은 자신의 회사가 지닌 기반 기술(Active Inference 기반의 인지 컴퓨팅 기술, Scaling하는 것을 넘어서서 자연의 지능을 벤치마크로 활용하는 태도 등)을 바탕으로 극복할 수 있다고 주장했다.  
