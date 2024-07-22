@@ -9,4 +9,6 @@ header:
 
 ### Last update: _Dec, 2023_
 
+**<span style="color:red;">Most items have hyperlinks, so please make sure to click and check them.</span>**
+
 <iframe src="https://drive.google.com/file/d/1rB1GX3eAwgL7cQSdf2mR4td0qEUl_t6V/preview" width="100%" height="1000" allow="autoplay"></iframe>
