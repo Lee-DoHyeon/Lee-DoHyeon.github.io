@@ -26,8 +26,8 @@ header:
 
 <table>
  <tr>
-    <td><b style="font-size:15px">Theoretical Neuroscience Club(2023)</b></td>
-    <td><b style="font-size:15px">Consciousness & AI Media Club(2023)</b></td>
+    <td><b style="font-size:15px">Theoretical Neuroscience Club(2023-2024)</b></td>
+    <td><b style="font-size:15px">Consciousness & AI Media Club(2023-2024)</b></td>
     <td><b style="font-size:15px">AI, Robots and Consciousness(2024)</b></td>
  </tr>
  <tr>

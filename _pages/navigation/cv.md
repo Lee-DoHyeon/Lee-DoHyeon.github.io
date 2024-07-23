@@ -7,7 +7,7 @@ header:
 #   overlay_filter: 0.5
 ---
 
-### Last update: _Dec, 2023_
+### Last update: _Jul, 2024_
 
 **<span style="color:red;">Most items have hyperlinks, so please make sure to click and check them.</span>**
 
