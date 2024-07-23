@@ -22,4 +22,4 @@ In addition to my scientific and technological pursuits, I have a strong interes
 
 I am excited to explore new possibilities at the forefront of technology and to shape the future of AI. Feel free to learn more about my research and interests on my blog, and let's collaborate to pioneer the future of technology together. Thank you!
 
-Join me on [Twitter](https://twitter.com/Lead_The_World_), [LinkedIn](https://www.linkedin.com/in/dohyeon-lee-4793a6244), [YouTube](https://www.youtube.com/@leadh99), and [GitHub](https://github.com/Lee-DoHyeon) as we explore the fascinating realms of the mind and advance AI together!
+Join me on **[Twitter](https://twitter.com/Lead_The_World_)**, **[LinkedIn](https://www.linkedin.com/in/dohyeon-lee-4793a6244)**, **[YouTube](https://www.youtube.com/@leadh99)**, and **[GitHub](https://github.com/Lee-DoHyeon)** as we explore the fascinating realms of the mind and advance AI together!
