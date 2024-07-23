@@ -5,7 +5,7 @@ author_profile: true
 
 # Hello!
 
-I am Do-Hyeon Lee, a [Research Officer for National Defense](https://www.rond.or.kr/CmsHome/MainDefault.aspx). I am currently assigned to the Defense AI Center, a subsidiary of the [Agency for Defense Development](https://www.add.re.kr/eps) in South Korea(Jun 2022 - May 2025). After earning my B.S. degree in Mathematics from [POSTECH](https://www.postech.ac.kr/eng/) in February 2022, I have been dedicated to developing cutting-edge intelligent weapon systems, particularly focusing on _anti-submarine_ and _subterranean_ operations. I am currently preparing for graduate school to further deepen and expand my research.
+I am Do-Hyeon Lee, a **[Research Officer for National Defense](https://www.rond.or.kr/CmsHome/MainDefault.aspx)**. I am currently assigned to the Defense AI Center, a subsidiary of the **[Agency for Defense Development](https://www.add.re.kr/eps)** in South Korea(Jun 2022 - May 2025). After earning my B.S. degree in Mathematics from **[POSTECH](https://www.postech.ac.kr/eng/)** in February 2022, I have been dedicated to developing cutting-edge intelligent weapon systems, particularly focusing on _anti-submarine_ and _subterranean_ operations. I am currently preparing for graduate school to further deepen and expand my research.
 
 ## Research Interests and Goals
 
