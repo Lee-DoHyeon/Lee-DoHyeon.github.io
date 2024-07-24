@@ -50,7 +50,6 @@ header:
 
 As a Content Creator, I played a vital role in crafting educational materials for '**[Mathematics for AI](https://youtube.com/playlist?list=PLfWS6_PaCSutSAC7Vu8VHS2uc594cQigv&si=PUY67hIfze3kvEeO)**' in 2021 and '**[Philosophy of AI](https://youtube.com/playlist?list=PLfWS6_PaCSusXxpOxUSs6ONTln3pHWALy&si=xhr-Y8JY3Y6_xmuw)**' in 2022 at the Innovation Center for Education. Additionally, I actively mentored students in Calculus I, Linear Algebra, and its Application throughout Mar 2020 - Jun 2020, Sep 2020 - Dec 2020, and Mar 2021 - Jun 2021.
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -61,10 +60,10 @@ As a Content Creator, I played a vital role in crafting educational materials fo
             display: flex;
         }
         .image-container {
-            flex: 2;
+            flex: 1;
         }
         .text-container {
-            flex: 6;
+            flex: 8;
             padding-left: 10px;
         }
         .image {
@@ -94,7 +93,6 @@ As a Content Creator, I played a vital role in crafting educational materials fo
 
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -138,12 +136,12 @@ I've authored magazine articles focusing on Mathematics topics crafted for young
 I also wrote an article titled "**[4 Years of University Exploration Record](https://issuu.com/postech-admission/docs/2021_postechian_winter_29/42)**" where I provided advice to undergraduates about navigating university life, drawing from my own experiences as a recent graduate.
 
 <div style="display: flex;">
-  <div style="flex: 1;">
-    <img src="/assets/images/Outreach/TheHiddenSpring.jpeg" alt="Translation Project-The Hidden Spring" style="width: 100%;">
-  </div>
-  <div style="flex: 1; padding-left: 10px;">
+  <div style="flex: 7; padding-right: 10px;">
     <p>
       Furthermore, Additionally, I contributed to the translation of Mark Solms’ book, '<a href="https://product.kyobobook.co.kr/detail/S000213487062"><strong>The Hidden Spring</strong></a>,’ into Korean, which was published by Ha-Na Medical Publishment Center in Jun, 2024.
     </p>
+  </div>
+  <div style="flex: 3;">
+    <img src="/assets/images/Outreach/TheHiddenSpring.jpeg" alt="Translation Project-The Hidden Spring" style="width: 100%;">
   </div>
 </div>
