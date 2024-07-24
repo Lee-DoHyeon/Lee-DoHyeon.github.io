@@ -15,7 +15,7 @@ header:
 
 <div style="display: flex;">
   <div style="flex: 2;">
-    <img src="assets/images/Outreach/LoI_PSSC.png" alt="POSTECH x Peking Joint Conference" style="width: 100%;">
+    <img src="/assets/images/Outreach/LoI_PSSC.png" alt="POSTECH x Peking Joint Conference" style="width: 100%;">
   </div>
   <div style="flex: 8; padding-left: 10px;">
     <p>
@@ -31,7 +31,7 @@ header:
     </p>
   </div>
   <div style="flex: 3;">
-    <img src="assets/images/Outreach/2024KACS_PNC.JPG" alt="KACS x Korean Philosophy of Neuroscience Center Joint Seminar" style="width: 100%;">
+    <img src="/assets/images/Outreach/2024KACS_PNC.JPG" alt="KACS x Korean Philosophy of Neuroscience Center Joint Seminar" style="width: 100%;">
   </div>
 </div>
 
@@ -41,10 +41,10 @@ header:
 
 <div style="display: flex;">
   <div style="flex: 1;">
-    <img src="assets/images/Outreach/MAI.png" alt="Mathematics for AI" style="width: 100%;">
+    <img src="/assets/images/Outreach/MAI.png" alt="Mathematics for AI" style="width: 100%;">
   </div>
   <div style="flex: 1; padding-left: 10px;">
-    <img src="assets/images/Outreach/PAI.png" alt="Philosophy for AI" style="width: 100%;">
+    <img src="/assets/images/Outreach/PAI.png" alt="Philosophy for AI" style="width: 100%;">
   </div>
 </div>
 
@@ -76,10 +76,10 @@ As a Content Creator, I played a vital role in crafting educational materials fo
 <body>
     <div class="container">
         <div class="image-container">
-            <img src="assets/images/Outreach/PSSC_Peking.png" alt="POSTECH x Peking" class="image">
+            <img src="/assets/images/Outreach/PSSC_Peking.png" alt="POSTECH x Peking" class="image">
         </div>
         <div class="image-container">
-            <img src="assets/images/Outreach/PSSC_SummerSchool.png" alt="POSTECH x NIMS" class="image">
+            <img src="/assets/images/Outreach/PSSC_SummerSchool.png" alt="POSTECH x NIMS" class="image">
         </div>
         <div class="text-container">
             <p>
@@ -118,16 +118,16 @@ As a Content Creator, I played a vital role in crafting educational materials fo
 <body>
     <div class="container">
         <div class="image-container">
-            <img src="assets/images/Outreach/Postechian_01.png" alt="Image 1" class="image">
+            <img src="/assets/images/Outreach/Postechian_01.png" alt="Image 1" class="image">
         </div>
         <div class="image-container">
-            <img src="assets/images/Outreach/Postechian_02.png" alt="Image 2" class="image">
+            <img src="/assets/images/Outreach/Postechian_02.png" alt="Image 2" class="image">
         </div>
         <div class="image-container">
-            <img src="assets/images/Outreach/Postechian_03.png" alt="Image 3" class="image">
+            <img src="/assets/images/Outreach/Postechian_03.png" alt="Image 3" class="image">
         </div>
         <div class="image-container">
-            <img src="assets/images/Outreach/Postechian_04.png" alt="Image 4" class="image">
+            <img src="/assets/images/Outreach/Postechian_04.png" alt="Image 4" class="image">
         </div>
     </div>
 </body>
@@ -135,11 +135,11 @@ As a Content Creator, I played a vital role in crafting educational materials fo
 
 I've authored magazine articles focusing on Mathematics topics crafted for young students. These pieces cover diverse subjects like '**[Nonlinear Dynamics and a Weak Critique of the Laplace’s Demon](https://issuu.com/postech-admission/docs/2019_postechian_winter-_17mb_/78)**', '**[Mathematical Analysis of COVID-19](https://issuu.com/postech-admission/docs/2020_postechian_spring__17mb_/78)**', '**[Gödel’s Incompleteness Theorem](https://issuu.com/postech-admission/docs/2020_postechian_summer__22mb_/76)**, and '**[Recipes to Generate Random Numbers](https://issuu.com/postech-admission/docs/2020_postechian_autumn__21mb_.pdf/80)**'.
 
-I also wrote an article titled "[4 Years of University Exploration Record](https://issuu.com/postech-admission/docs/2021_postechian_winter_29/42)" where I provided advice to undergraduates about navigating university life, drawing from my own experiences as a recent graduate.
+I also wrote an article titled "**[4 Years of University Exploration Record](https://issuu.com/postech-admission/docs/2021_postechian_winter_29/42)**" where I provided advice to undergraduates about navigating university life, drawing from my own experiences as a recent graduate.
 
 <div style="display: flex;">
   <div style="flex: 1;">
-    <img src="assets/images/Outreach/TheHiddenSpring.jpeg" alt="Translation Project-The Hidden Spring" style="width: 100%;">
+    <img src="/assets/images/Outreach/TheHiddenSpring.jpeg" alt="Translation Project-The Hidden Spring" style="width: 100%;">
   </div>
   <div style="flex: 1; padding-left: 10px;">
     <p>

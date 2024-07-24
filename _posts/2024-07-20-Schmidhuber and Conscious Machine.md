@@ -25,7 +25,7 @@ At the 2016 AI conference in New York, Jürgen Schmidhuber introduced intriguing
     </p>
   </div>
   <div style="flex: 2;">
-    <img src="assets/images/240720/Untitled.png" alt="Schmidhuber's Thesis" style="width: 100%;">
+    <img src="/assets/images/240720/Untitled.png" alt="Schmidhuber's Thesis" style="width: 100%;">
   </div>
 </div>
 
@@ -37,7 +37,7 @@ General-purpose computers, especially recurrent neural networks, are optimized f
 
 <div style="display: flex;">
   <div style="flex: 2;">
-    <img src="assets/images/240720/Untitled₩1.png" alt="World Model + RL" style="width: 100%;">
+    <img src="/assets/images/240720/Untitled 1.png" alt="World Model + RL" style="width: 100%;">
   </div>
   <div style="flex: 8; padding-left: 10px;">
     <p>
@@ -50,10 +50,10 @@ General-purpose computers, especially recurrent neural networks, are optimized f
 
 <div style="display: flex;">
   <div style="flex: 1;">
-    <img src="assets/images/240720/Untitled₩2.png" alt="Robotics Application" style="width: 100%;">
+    <img src="/assets/images/240720/Untitled 2.png" alt="Robotics Application" style="width: 100%;">
   </div>
   <div style="flex: 1; padding-left: 10px;">
-    <img src="assets/images/240720/Untitled₩3.png" alt="GAN" style="width: 100%;">
+    <img src="/assets/images/240720/Untitled 3.png" alt="GAN" style="width: 100%;">
   </div>
 </div>
 In the process of interacting with the world, artificial systems also compress their own states. This forms the basis for self-awareness. Additionally, Schmidhuber introduced artificial curiosity through Generative Adversarial Networks (GANs), presenting agents that learn via un/self-supervised learning. This is based on a minimax game where the objective function of one neural network is minimized by another.
@@ -67,13 +67,13 @@ In the process of interacting with the world, artificial systems also compress t
     </p>
   </div>
   <div style="flex: 2;">
-    <img src="assets/images/240720/Untitled₩4.png" alt="Neural Economy" style="width: 100%;">
+    <img src="/assets/images/240720/Untitled₩4.png" alt="Neural Economy" style="width: 100%;">
   </div>
 </div>
 6. Predictive World Models and Self-awareness
 <div style="display: flex;">
   <div style="flex: 2;">
-    <img src="assets/images/240720/Untitled₩5.png" alt="On Consciousness" style="width: 100%;">
+    <img src="/assets/images/240720/Untitled₩5.png" alt="On Consciousness" style="width: 100%;">
   </div>
   <div style="flex: 8; padding-left: 10px;">
     <p>
