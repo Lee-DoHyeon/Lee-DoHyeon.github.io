@@ -10,9 +10,9 @@ values:
   related: true
 ---
 
-# 마음의 수학자를 꿈꾸며
+# Mathematician for Mind
 
-### 마크 솜즈 - "숨겨진 샘" 역자 후기
+### After translating _The Hidden Spring_, written by Mark Solms into Korean
 
 Around the age of 9, my mother was quite shaken after a meeting with my homeroom teacher. She learned that I was showing clear symptoms of ADHD. Despite this, I felt somewhat special, perhaps because I hadn't received much attention due to my parents' busy work schedules. As a temporary solution, they sent me to a small Chinese character academy in our neighborhood. Spending most of my days there with the instructor, I would alleviate my loneliness late into the night. Thanks to that experience, I still remember the wise sayings from classics like "Mencius" and "Four Books and Five Classics."
 

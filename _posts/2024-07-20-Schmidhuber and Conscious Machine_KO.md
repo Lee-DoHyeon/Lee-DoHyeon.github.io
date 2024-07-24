@@ -12,15 +12,22 @@ values:
 
 # 슈미트후버의 의식을 지니는 기계
 
-[https://youtu.be/q4fFuZgOZn8?si=7g5nCK04dUgDIVZr](https://youtu.be/q4fFuZgOZn8?si=7g5nCK04dUgDIVZr)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q4fFuZgOZn8?si=PqlGxV8uUUYBd84x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 유르겐 슈미트후버는 2016년 뉴욕에서 열린 AI 컨퍼런스에서 **인공 의식(Artificial Consciousness)**, **월드 모델(World Model)**, **예측 코딩(Predictive Coding)**, 그리고 **데이터 압축(Data Compression)**에 대한 흥미로운 개념을 소개했습니다. 그는 자신의 연구실에서 이미 의식을 가진 인공 시스템이 존재하며, 의식은 문제 해결 과정에서 발생하는 데이터 압축의 부산물이라고 주장합니다. 이제 그의 주요 아이디어를 살펴보겠습니다.
 
 ### 1. 인공 의식의 기초: 데이터 압축(Data Compression)
 
-슈미트후버는 의식을 데이터 압축의 부산물로 설명합니다. 그의 이론에 따르면, 인공 시스템이 문제를 해결하는 과정에서 데이터를 효율적으로 압축하는 능력이 의식의 기초가 됩니다. 이는 인간의 뇌가 복잡한 정보를 처리하고 저장하는 방식과 유사합니다.
-
-![Untitled](assets/images/240720/Untitled.png)
+<div style="display: flex;">
+  <div style="flex: 8; padding-right: 10px;">
+    <p>
+      슈미트후버는 의식을 데이터 압축의 부산물로 설명합니다. 그의 이론에 따르면, 인공 시스템이 문제를 해결하는 과정에서 데이터를 효율적으로 압축하는 능력이 의식의 기초가 됩니다. 이는 인간의 뇌가 복잡한 정보를 처리하고 저장하는 방식과 유사합니다.
+    </p>
+  </div>
+  <div style="flex: 2;">
+    <img src="assets/images/240720/Untitled.png" alt="Shumidhuber's Thesis" style="width: 100%;">
+  </div>
+</div>
 
 ### 2. 범용 컴퓨터(General-Purpose Computer)와 재귀 신경망(Recurrent Neural Network)
 
@@ -28,29 +35,55 @@ values:
 
 ### 3. 월드 모델(World Model)과 예측 코딩(Predictive Coding)
 
-![Untitled](%assets/images/240720/Untitled₩1.png)
-
-슈미트후버는 제어기(controller)와 월드 모델(world model)이라는 두 개의 재귀 신경망을 기반으로 강화학습(reinforcement learning)과 계획(planning)을 풀어내는 시스템을 제안합니다. 제어기는 행동을 생성하고, 월드 모델은 세상에 대한 예측을 통해 데이터를 압축합니다. 모든 물리 법칙과 과학, 화학 법칙은 재귀 신경망의 하위 신경망으로 압축되어 컨트롤러에 의해 사용됩니다.
+<div style="display: flex;">
+  <div style="flex: 2;">
+    <img src="assets/images/240720/Untitled₩1.png" alt="World Model + RL" style="width: 100%;">
+  </div>
+  <div style="flex: 8; padding-left: 10px;">
+    <p>
+      슈미트후버는 제어기(controller)와 월드 모델(world model)이라는 두 개의 재귀 신경망을 기반으로 강화학습(reinforcement learning)과 계획(planning)을 풀어내는 시스템을 제안합니다. 제어기는 행동을 생성하고, 월드 모델은 세상에 대한 예측을 통해 데이터를 압축합니다. 모든 물리 법칙과 과학, 화학 법칙은 재귀 신경망의 하위 신경망으로 압축되어 컨트롤러에 의해 사용됩니다.
+    </p>
+  </div>
+</div>
 
 ### 4. 자기 인식(Self-awareness)과 인공 호기심(Artificial Curiosity)
 
-![Untitled](assets/images/240720/Untitled₩2.png)
-
-![Untitled](assets/images/240720/Untitled₩3.png)
+<div style="display: flex;">
+  <div style="flex: 1;">
+    <img src="assets/images/240720/Untitled₩2.png" alt="Robotics Application" style="width: 100%;">
+  </div>
+  <div style="flex: 1; padding-left: 10px;">
+    <img src="assets/images/240720/Untitled₩3.png" alt="GAN" style="width: 100%;">
+  </div>
+</div>
 
 인공 시스템이 세상과 상호작용하는 과정에서 *자기 자신의 상태*도 압축하게 됩니다. 이는 자기 인식을 형성하는 기초가 됩니다. 또한, 슈미트후버는 적대적 생성 신경망(GAN)을 통해 인공 호기심을 도입하였으며, 내적 동기를 비/자기지도 학습(un/self-supervised learning)하는 에이전트를 소개했습니다. 이는 신경망이 다른 신경망에 의해 최대화되는 목적함수를 최소화하는 미니맥스 게임(minimax game)에 기반한 것입니다.
 
 ### 5. 프로그램으로서의 신경망
 
-슈미트후버는 신경망의 가중치(weights)를 프로그램(program)으로 간주해야 한다고 주장합니다. 심층 신경망의 핵심 목표는 관찰된 데이터의 유용한 내적 표상(internal representations)을 학습하는 것입니다. 신경망의 출력은 프로그램에 대해 미분 가능하며, 이는 더 나은 프로그램을 찾기 위한 방향을 제시합니다.
-
-![Untitled](assets/images/240720/Untitled₩4.png)
+<div style="display: flex;">
+  <div style="flex: 8; padding-right: 10px;">
+    <p>
+      슈미트후버는 신경망의 가중치(weights)를 프로그램(program)으로 간주해야 한다고 주장합니다. 심층 신경망의 핵심 목표는 관찰된 데이터의 유용한 내적 표상(internal representations)을 학습하는 것입니다. 신경망의 출력은 프로그램에 대해 미분 가능하며, 이는 더 나은 프로그램을 찾기 위한 방향을 제시합니다.
+    </p>
+  </div>
+  <div style="flex: 2;">
+    <img src="assets/images/240720/Untitled₩4.png" alt="Neural Economy" style="width: 100%;">
+  </div>
+</div>
 
 ### 6. 예측적 월드 모델과 자기 인식(Self-awareness)
 
-![Untitled](assets/images/240720/Untitled₩5.png)
-
-제어기를 통해 세상과 상호작용하는 예측적 월드 모델은 자신의 생애 동안 예측 코딩을 통해 행동과 관측 결과를 효율적으로 인코딩하는 법을 배웁니다. 이러한 과정에서 월드 모델은 특징의 계층(hierarchy)을 형성하고, 주어진 데이터 구조로부터 특이점을 식별하거나 프로토타입 인코딩(prototype encoding)을 생성합니다.
+<div style="display: flex;">
+  <div style="flex: 2;">
+    <img src="assets/images/240720/Untitled₩5.png" alt="On Consciousness" style="width: 100%;">
+  </div>
+  <div style="flex: 8; padding-left: 10px;">
+    <p>
+      제어기를 통해 세상과 상호작용하는 예측적 월드 모델은 자신의 생애 동안 예측 코딩을 통해 행동과 관측 결과를 효율적으로 인코딩하는 법을 배웁니다. 이러한 과정에서 월드 모델은 특징의 계층(hierarchy)을 형성하고, 주어진 데이터 구조로부터 특이점을 식별하거나 프로토타입 인코딩(prototype encoding)을 생성합니다.
+    </p>
+  </div>
+</div>
 
 ### 결론
 

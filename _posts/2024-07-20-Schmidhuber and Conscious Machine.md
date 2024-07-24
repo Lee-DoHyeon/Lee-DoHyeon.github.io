@@ -12,64 +12,92 @@ values:
 
 # Schmidhuber and Conscious Machine
 
-[https://youtu.be/q4fFuZgOZn8?si=7g5nCK04dUgDIVZr](https://youtu.be/q4fFuZgOZn8?si=7g5nCK04dUgDIVZr)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q4fFuZgOZn8?si=PqlGxV8uUUYBd84x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-In the 2016 AI Conference held in New York, Jürgen Schmidhuber introduced intriguing concepts such as **Artificial Consciousness**, **World Model**, **Predictive Coding**, and **Data Compression**. He claims that artificial systems possessing consciousness already exist in his lab and that consciousness is a byproduct of data compression occurring during problem-solving processes. Let's explore his main ideas.
+At the 2016 AI conference in New York, Jürgen Schmidhuber introduced intriguing concepts such as Artificial Consciousness, World Model, Predictive Coding, and Data Compression. He claims that artificial systems with consciousness already exist in his lab, and consciousness arises as a byproduct of data compression during problem-solving. Let's delve into his main ideas.
 
 ### 1. The Foundation of Artificial Consciousness: Data Compression
 
-Schmidhuber explains consciousness as a byproduct of data compression. According to his theory, an artificial system's ability to efficiently compress data during problem-solving forms the basis of consciousness. This is similar to how the human brain processes and stores complex information.
+<div style="display: flex;">
+  <div style="flex: 8; padding-right: 10px;">
+    <p>
+      Schmidhuber explains consciousness as a byproduct of data compression. According to his theory, the ability of artificial systems to efficiently compress data during problem-solving forms the basis of consciousness. This is similar to how the human brain processes and stores complex information.
+    </p>
+  </div>
+  <div style="flex: 2;">
+    <img src="assets/images/240720/Untitled.png" alt="Schmidhuber's Thesis" style="width: 100%;">
+  </div>
+</div>
 
-![Untitled](assets/images/240720/Untitled.png)
+### 2. General-Purpose Computer and Recurrent Neural Networks
 
-### 2. General-Purpose Computers and Recurrent Neural Networks
+General-purpose computers, especially recurrent neural networks, are optimized for communication costs with many nodes and short wires connecting processors. These computers gather various information from the world to achieve goals or optimize rewards. Recurrent neural networks play a crucial role in this process.
 
-General-purpose computers, especially recurrent neural networks, consist of many nodes connected by short wires to optimize communication costs. These computers gather various information from the world to achieve goals or optimize rewards, with recurrent neural networks playing a crucial role in this process.
+### 3. World Model and Predictive Coding
 
-### 3. World Models and Predictive Coding
+<div style="display: flex;">
+  <div style="flex: 2;">
+    <img src="assets/images/240720/Untitled₩1.png" alt="World Model + RL" style="width: 100%;">
+  </div>
+  <div style="flex: 8; padding-left: 10px;">
+    <p>
+      Schmidhuber proposes a system that solves reinforcement learning and planning based on two recurrent neural networks: the controller and the world model. The controller generates actions, while the world model compresses data by making predictions about the world. All physical laws and scientific principles are compressed into sub-networks of the recurrent neural network, which are utilized by the controller.
+    </p>
+  </div>
+</div>
 
-![Untitled](%assets/images/240720/Untitled₩1.png)
+### 4. Self-awareness and Artificial Curiosity
 
-Schmidhuber proposes a system that solves reinforcement learning and planning problems based on two recurrent neural networks: a controller and a world model. The controller generates actions, and the world model compresses data through predictions about the world. All physical and scientific laws are compressed into sub-networks of the recurrent network, utilized by the controller.
-
-### 4. Self-Awareness and Artificial Curiosity
-
-![Untitled](assets/images/240720/Untitled₩2.png)
-
-![Untitled](assets/images/240720/Untitled₩3.png)
-
-In the interaction process with the world, artificial systems also compress their own states, forming the basis of self-awareness. Additionally, Schmidhuber introduced artificial curiosity through Generative Adversarial Networks (GANs), presenting agents learning intrinsic motivation via un/self-supervised learning. This is based on a minimax game where a neural network minimizes a cost function maximized by another network.
+<div style="display: flex;">
+  <div style="flex: 1;">
+    <img src="assets/images/240720/Untitled₩2.png" alt="Robotics Application" style="width: 100%;">
+  </div>
+  <div style="flex: 1; padding-left: 10px;">
+    <img src="assets/images/240720/Untitled₩3.png" alt="GAN" style="width: 100%;">
+  </div>
+</div>
+In the process of interacting with the world, artificial systems also compress their own states. This forms the basis for self-awareness. Additionally, Schmidhuber introduced artificial curiosity through Generative Adversarial Networks (GANs), presenting agents that learn via un/self-supervised learning. This is based on a minimax game where the objective function of one neural network is minimized by another.
 
 ### 5. Neural Networks as Programs
 
-Schmidhuber argues that the weights of neural networks should be considered as programs. The main goal of deep neural networks is to learn useful internal representations of observed data. The output of neural networks is differentiable with respect to the program, guiding the search for better programs.
-![Untitled](assets/images/240720/Untitled₩4.png)
-
-### 6. Predictive World Models and Self-Awareness
-
-![Untitled](assets/images/240720/Untitled₩5.png)
-
-A predictive world model interacting with the world through a controller learns to efficiently encode behaviors and observations via predictive coding during its lifetime. In this process, the world model forms a hierarchy of features, identifying singularities or generating prototype encodings from the given data structure.
+<div style="display: flex;">
+  <div style="flex: 8; padding-right: 10px;">
+    <p>
+      Schmidhuber argues that the weights of neural networks should be regarded as programs. The main goal of deep neural networks is to learn useful internal representations of observed data. The output of a neural network is differentiable concerning the program, guiding the search for better programs.
+    </p>
+  </div>
+  <div style="flex: 2;">
+    <img src="assets/images/240720/Untitled₩4.png" alt="Neural Economy" style="width: 100%;">
+  </div>
+</div>
+6. Predictive World Models and Self-awareness
+<div style="display: flex;">
+  <div style="flex: 2;">
+    <img src="assets/images/240720/Untitled₩5.png" alt="On Consciousness" style="width: 100%;">
+  </div>
+  <div style="flex: 8; padding-left: 10px;">
+    <p>
+      Predictive world models that interact with the world through the controller learn to efficiently encode actions and observations through predictive coding during their lifetime. In this process, the world model forms a hierarchy of features, identifying anomalies or generating prototype encodings from the given data structure.
+    </p>
+  </div>
+</div>
 
 ### Conclusion
 
-> For 30 years, Jürgen Schmidhuber has been researching machines possessing artificial consciousness and emotions. His work suggests that artificial systems can form self-awareness, interact with the world, and ultimately possess emotions and consciousness through data compression, recurrent neural networks, world models, and predictive coding. This research offers a new perspective on the future of artificial intelligence, contributing to the development of more advanced artificial systems.
+Jürgen Schmidhuber has been researching machines with artificial consciousness and emotions for 30 years. His research suggests that artificial systems can form self-awareness, interact with the world, and ultimately possess emotions and consciousness through data compression, recurrent neural networks, world models, and predictive coding. This research provides a new perspective on the future of artificial intelligence and contributes to the development of more advanced artificial systems.
 
-### Reflection
+Reflection
+Considering that the importance of predictive coding and un/self-supervised learning began to be recognized in the 2010s, it is remarkable that he identified the importance of these concepts and applied them to various cases as early as the early 1990s. Notably, Anil Seth's 2010s theory in the field of consciousness argues that predictive coding of interoceptive information forms the basis of consciousness and self-awareness. This can relate to the compressed state of self in Schmidhuber's world model. Additionally, the perspective of data compression aligns with Samuel Gershman's second principle of human cognition, the principle of approximation, recently presented in his book. Data compression is not always possible, but Schmidhuber's assertion that it forms hierarchies in recursive neural networks is deeply related.
 
-Considering the rising importance of predictive coding and un/self-supervised learning in the 2010s, it is remarkable that Schmidhuber recognized their significance and applied these concepts in various cases as early as the early 1990s. Anil Seth's theory in the 2010s posits that predictive coding of interoceptive information forms the basis of consciousness and self-awareness, aligning with Schmidhuber's concept of compressed self-states in world models. Additionally, Schmidhuber's data compression perspective relates to Samuel Gershman's recent principle of approximation in human cognition. While data compression isn't always feasible, Schmidhuber's assertion that hierarchical structures form and compress in recurrent neural networks is deeply relevant.
+According to his 2003 follow-up research, he introduces a formal definition of consciousness. If consciousness is defined as the ability for unlimited self-inspection and self-modification, the Gödel Machine provides a technical justification for the consciousness of artificial intelligence. By enabling limited self-inspection and self-modification, these machines offer a framework for general problem solvers capable of autonomously improving and optimizing their behavior. This achieves a form of artificial intelligence consciousness based on mathematical proofs and formal reasoning.
 
-In his 2003 follow-up research, Schmidhuber introduces a formal definition of consciousness. If consciousness is defined as the ability for unlimited self-examination and self-modification, the Gödel machine provides a technical justification for artificial intelligence consciousness. By enabling limited self-examination and self-modification, these machines offer a framework for a general problem solver capable of autonomously improving and optimizing its behavior. This achieves a form of AI consciousness based on mathematical proofs and formal reasoning.
+His information-theoretic and formal-theoretic stance and research methodology are compelling, with clarity and deep insight. However, considering the biological complexity and functions emphasized in psychology, it is necessary to discover and understand the connections with computational neuroscience and philosophy. For example, a clear explanation is needed on how primordial consciousness, as argued by affective neuroscience, can induce feelings and emotions in agents with Schmidhuber's world model. Furthermore, in-depth research is required on the relationships between his theory and interoceptive inference, self, attention and consciousness, metacognition, and the Gödel Machine.
 
-Schmidhuber's stance on informatics and formal-theoretic approaches is attractive, combining clarity and profound insights. However, considering the evolutionary biological complexity and psychological functionalities, it is crucial to explore the connections with computational neuroscience and philosophy. For instance, explaining how primordial consciousness, as suggested by affective neuroscience, evokes feelings and emotions in agents with world models. Moreover, in-depth research on the relationship between his theory and interoceptive inference, self, attention, consciousness, metacognition, and Gödel machines is necessary.
-
----
+While Schmidhuber's research provides clear and deep insights from an information-theoretic and formal-theoretic perspective, it is necessary to further explore its connections with the biological complexity and functions emphasized in psychology. For example, a clear explanation is needed on how primordial consciousness, as argued by affective neuroscience, can induce feelings and emotions in agents with Schmidhuber's world model. Furthermore, in-depth research is required on the relationships between his theory and interoceptive inference, self, attention and consciousness, metacognition, and the Gödel Machine.
 
 ### Summary
 
-> At the 2016 AI Conference, Jürgen Schmidhuber introduced concepts like artificial consciousness, world models, predictive coding, and data compression, explaining consciousness as a byproduct of data compression in problem-solving processes. He proposed a system using general-purpose computers and recurrent neural networks to gather information from the world and achieve goals, employing controller and world model recurrent neural networks for reinforcement learning and planning. These systems efficiently compress data, form self-awareness, and consider neural network weights as programs to find better ones. Notably, Schmidhuber's early recognition and application of the importance of predictive coding and un/self-supervised learning in the early 1990s are impressive. His ideas connect with Anil Seth's theory of predictive coding of interoceptive information and Samuel Gershman's principle of data compression. Through the Gödel machine, which defines consciousness as unlimited self-examination and self-modification, he provides a technical justification for AI consciousness.
->
-> While Schmidhuber's research offers clear and profound insights from an informatics and formal-theoretic perspective, exploring its relevance to biological complexity and psychological functions is necessary. This includes explaining how primordial consciousness evokes feelings and emotions in agents with world models, and investigating the relationships between his theory and interoceptive inference, self, attention, consciousness, metacognition, and Gödel machines.
+> At the 2016 AI conference, Jürgen Schmidhuber introduced concepts of artificial consciousness, world model, predictive coding, and data compression, explaining consciousness as a byproduct of data compression during problem-solving. He proposed systems based on general-purpose computers and recurrent neural networks that gather information from the world to achieve goals and optimize rewards, using two recurrent neural networks, the controller, and the world model, for reinforcement learning and planning. These systems efficiently compress data and form self-awareness, considering the weights of neural networks as programs to guide the search for better programs. Notably, Schmidhuber recognized the importance of predictive coding and un/self-supervised learning as early as the early 1990s, connecting with Anil Seth's interoceptive information predictive coding theory and Samuel Gershman's data compression principle. His 2003 research introduced a formal definition of consciousness, proposing the Gödel Machine as a technical justification for AI consciousness, offering a framework for general problem solvers capable of autonomously improving their behavior. His research provides new insights into the future of AI and contributes to the development of more advanced artificial systems.
 
 ### Reference
 

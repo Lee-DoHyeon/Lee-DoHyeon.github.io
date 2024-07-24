@@ -8,6 +8,7 @@ values:
   comments: true
   share: true
   related: true
+  title: false
 ---
 
 # Bridging the Gap Between Sub-symbolic and Symbolic Systems
