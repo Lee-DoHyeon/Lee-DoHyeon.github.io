@@ -68,7 +68,7 @@ values:
     </p>
   </div>
   <div style="flex: 2;">
-    <img src="assets/images/240720/Untitled₩4.png" alt="Neural Economy" style="width: 100%;">
+    <img src="/assets/images/240720/Untitled₩4.png" alt="Neural Economy" style="width: 100%;">
   </div>
 </div>
 
@@ -76,7 +76,7 @@ values:
 
 <div style="display: flex;">
   <div style="flex: 2;">
-    <img src="assets/images/240720/Untitled₩5.png" alt="On Consciousness" style="width: 100%;">
+    <img src="/assets/images/240720/Untitled₩5.png" alt="On Consciousness" style="width: 100%;">
   </div>
   <div style="flex: 8; padding-left: 10px;">
     <p>

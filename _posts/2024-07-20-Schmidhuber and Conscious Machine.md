@@ -70,7 +70,9 @@ In the process of interacting with the world, artificial systems also compress t
     <img src="/assets/images/240720/Untitled₩4.png" alt="Neural Economy" style="width: 100%;">
   </div>
 </div>
-6. Predictive World Models and Self-awareness
+
+### 6. Predictive World Models and Self-awareness
+
 <div style="display: flex;">
   <div style="flex: 2;">
     <img src="/assets/images/240720/Untitled₩5.png" alt="On Consciousness" style="width: 100%;">
