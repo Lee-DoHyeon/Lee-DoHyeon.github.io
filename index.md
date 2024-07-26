@@ -23,7 +23,7 @@ title: false
         padding: 20px;
     }
     .quote {
-        font-size: 1.5em;
+        font-size: 1.0em;
         font-style: italic;
         color: #555;
         margin-bottom: 20px;
