@@ -4,22 +4,98 @@ author_profile: true
 title: false
 ---
 
-# Hello!
-
-I am Do-Hyeon Lee, a **[Research Officer for National Defense](https://www.rond.or.kr/CmsHome/MainDefault.aspx)**. I am currently assigned to the Defense AI Center, a subsidiary of the **[Agency for Defense Development](https://www.add.re.kr/eps)** in South Korea(Jun 2022 - May 2025). After earning my B.S. degree in Mathematics from **[POSTECH](https://www.postech.ac.kr/eng/)** in February 2022, I have been dedicated to developing cutting-edge intelligent weapon systems, particularly focusing on _anti-submarine_ and _subterranean_ operations. I am currently preparing for graduate school to further deepen and expand my research.
-
-## Research Interests and Goals
-
-My research is rooted in mathematics and philosophy, aiming to understand and integrate the interconnectedness of the mind, brain functions, neurological circuits, and behavior. I am passionate about developing AI systems that can perform tasks and think at a human level, and formulating theories on artificial consciousness and feeling. This interdisciplinary approach allows me to analyze problems from multiple perspectives and find innovative solutions. I am particularly interested in **theory-driven reinforcement learning**, **world models in complex environments**, and the **informatics of consciousness and feeling**, aiming to deepen our understanding of humanity itself by designing advanced machines.
-
-## Societal Impact and Leadership
-
-Beyond technical development, I am profoundly committed to understanding the societal impact and ethical implications of AI technologies. I explore responsible AI use, philosophy of technology, cybernetics, and artificial life, reflecting my commitment to social sciences and humanities. These interests enhance my role as a socially responsible leader, dedicated to the ethical application of technology.
-
-## Artistic Inclinations and Diverse Activities
-
-In addition to my scientific and technological pursuits, I have a strong interest in the arts and various other activities. My artistic inclinations foster creative thinking and help me approach complex problems from new angles. Experiences in music, art, and literature provide valuable inspiration for my research and social activities, showcasing my multifaceted talents and leadership qualities.
-
-I am excited to explore new possibilities at the forefront of technology and to shape the future of AI. Feel free to learn more about my research and interests on my blog, and let's collaborate to pioneer the future of technology together. Thank you!
-
-Join me on **[Twitter](https://twitter.com/Lead_The_World_)**, **[LinkedIn](https://www.linkedin.com/in/dohyeon-lee-4793a6244)**, **[YouTube](https://www.youtube.com/@leadh99)**, and **[GitHub](https://github.com/Lee-DoHyeon)** as we explore the fascinating realms of the mind and advance AI together!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research Overview</title>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+    }
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .quote {
+        font-size: 1.5em;
+        font-style: italic;
+        color: #555;
+        margin-bottom: 20px;
+        border-left: 4px solid #ddd;
+        padding-left: 10px;
+    }
+    .quote span {
+        display: block;
+        text-align: right;
+        font-size: 0.9em;
+        color: #888;
+    }
+    .section-title {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        color: #444;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 5px;
+    }
+    .sub-section {
+        margin-bottom: 20px;
+    }
+    h3 {
+        color: #555;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="quote">
+        "Your beliefs become your thoughts, your thoughts become your words, your words become your actions, your actions become your habits, your habits become your values, and your values become your destiny."
+        <span>- Gandhi (Uncertain)</span>
+    </div>
+    
+    <div class="section-title">About Me</div>
+    <p>I am Do-Hyeon Lee, a <a href="https://www.rond.or.kr/CmsHome/MainDefault.aspx"><strong>Research Officer for National Defense</strong></a>. I am currently assigned to the Defense AI Center, a subsidiary of the <a href="https://www.add.re.kr/eps"><strong>Agency for Defense Development</strong></a> in South Korea (Jun 2022 - May 2025). After earning my B.S. degree in Mathematics from <a href="https://www.postech.ac.kr/eng/"><strong>POSTECH</strong></a> in February 2022, I have been dedicated to developing cutting-edge intelligent weapon systems, particularly focusing on <em>anti-submarine</em> and <em>subterranean</em> operations. I am currently preparing for graduate school to further deepen and expand my research.</p>
+    
+    <div class="section-title">Research Introduction</div>
+    <p>My research aims to develop a comprehensive formal framework to understand the mind, brain, and behavior of humans and animals. This framework seeks to explain, predict, and control various mental phenomena. I aim to understand previously unexplained phenomena and contribute to the development of theory-driven human-level intelligent machines. To achieve this, I combine:</p>
+    <ul>
+        <li>Knowledge from the history of cybernetics, philosophy of mind, and neurophilosophy</li>
+        <li>Mathematical data analysis methods using probabilistic inference and graph theory</li>
+        <li>Modeling with statistical mechanics and complex systems physics</li>
+        <li>Applications of optimal control theory, reinforcement learning, world models, and robotics</li>
+    </ul>
+    
+    <div class="section-title">Research Details</div>
+    <p>My research covers various topics and analyzes multiple principles to propose an integrated theory. This helps to understand unexplained phenomena and design intelligent machines for humans and animals.</p>
+    
+    <div class="sub-section">
+        <h3>(1) Integrated Theory of Body-Mind-Behavior</h3>
+        <p>Analyzing principles such as the free energy principle, inductive bias principle, and data compression principle to create a unified framework.</p>
+        <h4>(1-1) Consciousness Phenomena</h4>
+        <p>Formalizing and comparing theories like the global neural workspace theory, attention schema theory, and predictive coding theory to propose new ones, implementing simulation models.</p>
+        <h4>(1-2) Hypnosis Phenomena</h4>
+        <p>Developing predictive coding theories and substance-based experiments, proposing theories on the effects and principles of languages, and implementing simulation models.</p>
+    </div>
+    
+    <div class="sub-section">
+        <h3>(2) Theory-Driven Algorithm and Device Design</h3>
+        <p>Designing AI models and computing devices based on neuroscience, psychology, and cognitive science theories.</p>
+        <h4>(2-1) Optimization with Limited Resources</h4>
+        <p>Suggesting AI models and computing devices based on theories explaining effective attention and decision-making with limited resources (time, energy).</p>
+        <h4>(2-2) Formation of Symbolic Systems</h4>
+        <p>Theorizing how symbolic systems emerge from sub-symbolic systems like neural networks. Suggesting responsible language models, while discovering new methods to evaluate AI model stability.</p>
+        <h4>(2-3) Biological Complexity and Useful Initial Points</h4>
+        <p>Proposing AI models inspired by evolutionary psychology, challenging the <i>Tabula Rasa</i> paradigm by considering biological complexity in learning.</p>
+    </div>
+</div>
+</body>
+</html>
