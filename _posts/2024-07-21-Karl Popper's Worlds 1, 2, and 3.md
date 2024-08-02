@@ -8,6 +8,9 @@ values:
   comments: true
   share: true
   related: true
+toc: true
+toc_sticky: true
+toc_label: "Popper's 3 Worlds"
 ---
 
 # Karl Popper's Worlds 1, 2, and 3

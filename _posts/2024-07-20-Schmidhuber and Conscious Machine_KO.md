@@ -8,6 +8,9 @@ values:
   comments: true
   share: true
   related: true
+toc: true
+toc_sticky: true
+toc_label: "슈미트후버의 의식"
 ---
 
 # 슈미트후버의 의식을 지니는 기계

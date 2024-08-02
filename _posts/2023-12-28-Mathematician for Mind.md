@@ -8,6 +8,9 @@ values:
   comments: true
   share: true
   related: true
+toc: true
+toc_sticky: true
+toc_label: "숨겨진 샘 역자 후기"
 ---
 
 # 마음의 수학자를 꿈꾸며

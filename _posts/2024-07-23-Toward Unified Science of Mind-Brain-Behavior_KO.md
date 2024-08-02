@@ -8,6 +8,9 @@ values:
   comments: true
   share: true
   related: true
+toc: true
+toc_sticky: true
+toc_label: "마음-두뇌-행동의 과학"
 ---
 
 # 마음-두뇌-행동의 과학을 향해

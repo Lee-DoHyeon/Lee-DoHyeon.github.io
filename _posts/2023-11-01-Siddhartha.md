@@ -8,6 +8,9 @@ values:
   comments: true
   share: true
   related: true
+toc: true
+toc_sticky: true
+toc_label: "After Reading Siddhartha"
 ---
 
 # 싯다르타

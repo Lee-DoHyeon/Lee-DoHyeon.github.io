@@ -8,6 +8,9 @@ values:
   comments: true
   share: true
   related: true
+toc: true
+toc_sticky: true
+toc_label: "Consciousness in AI?"
 ---  
 
 ### 세상에 대한 거울

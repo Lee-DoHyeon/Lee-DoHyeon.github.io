@@ -8,6 +8,9 @@ values:
   comments: true
   share: true
   related: true
+toc: true
+toc_sticky: true
+toc_label: "Shun'ichi Amari"
 ---
 
 # [뇌, 마음, 인공지능](https://product.kyobobook.co.kr/detail/S000001732224)

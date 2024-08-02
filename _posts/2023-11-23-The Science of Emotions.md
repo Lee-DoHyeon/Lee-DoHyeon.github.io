@@ -8,6 +8,9 @@ values:
   comments: true
   share: true
   related: true
+toc: true
+toc_sticky: true
+toc_label: "Science of Emotion"
 ---  
 
 # The Science of Emotions

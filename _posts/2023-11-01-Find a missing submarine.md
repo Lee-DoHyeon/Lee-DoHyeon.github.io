@@ -8,6 +8,9 @@ values:
   comments: true
   share: true
   related: true
+toc: true
+toc_sticky: true
+toc_label: "Finding a Missing Submarine"
 ---
 
 # 사라진 잠수함을 찾아라

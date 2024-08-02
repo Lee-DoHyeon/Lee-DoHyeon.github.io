@@ -8,6 +8,9 @@ values:
   comments: true
   share: true
   related: true
+toc: true
+toc_sticky: true
+toc_label: "Schmidhuber's Consciousness"
 ---
 
 # Schmidhuber and Conscious Machine

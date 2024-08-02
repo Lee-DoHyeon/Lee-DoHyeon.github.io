@@ -1,4 +1,348 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-01-13T14:47:40+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Do-Hyeon Lee</title><subtitle>Do-Hyeon&apos;s blog</subtitle><author><name>Do-Hyeon Lee</name></author><entry><title type="html">Scientist of mind</title><link href="http://localhost:4000/Scientist-of-Mind/" rel="alternate" type="text/html" title="Scientist of mind" /><published>2023-12-28T00:00:00+09:00</published><updated>2023-12-28T00:00:00+09:00</updated><id>http://localhost:4000/Scientist%20of%20Mind</id><content type="html" xml:base="http://localhost:4000/Scientist-of-Mind/"><![CDATA[<h1 id="마음의-수학자를-꿈꾸며">마음의 수학자를 꿈꾸며</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-02T15:31:46+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Do-Hyeon Lee</title><subtitle>Do-Hyeon&apos;s blog</subtitle><author><name>Do-Hyeon Lee</name></author><entry><title type="html">Bridging the gap between subsymbolic and symbolic systems</title><link href="http://localhost:4000/Bridging-the-gap-between-Subsymbolic-and-Symbolic-Systems/" rel="alternate" type="text/html" title="Bridging the gap between subsymbolic and symbolic systems" /><published>2024-07-24T00:00:00+09:00</published><updated>2024-07-24T00:00:00+09:00</updated><id>http://localhost:4000/Bridging%20the%20gap%20between%20Subsymbolic%20and%20Symbolic%20Systems</id><content type="html" xml:base="http://localhost:4000/Bridging-the-gap-between-Subsymbolic-and-Symbolic-Systems/"><![CDATA[<h1 id="bridging-the-gap-between-sub-symbolic-and-symbolic-systems">Bridging the Gap Between Sub-symbolic and Symbolic Systems</h1>
+
+<p>Modern advancements in artificial intelligence and robotics have made significant progress in mimicking high-level human behaviors and decision-making. Particularly, Deep Reinforcement Learning (DRL) has succeeded in implementing complex behaviors that surpass traditional control problems. While Finite State Machines (FSM) were used in the past for robots performing games or simple tasks, Behavior Trees (BT) have become widely applied recently. This shift, along with technological advancements, presents new approaches to solving complex problems.</p>
+
+<p>Deep Reinforcement Learning indeed offers more possibilities than traditional control methods. This technology is being applied in real-world tasks, helping to solve various challenges we face. However, the complexity and learning processes of deep neural networks function like a black box, potentially causing inductive bias. Therefore, we must exercise caution when using sub-symbolic systems, such as artificial neural networks. Recent incidents related to Tesla’s autonomous driving technology highlight these concerns, leading many countries to strengthen relevant legislation to enhance AI safety and reliability. Modern machines thus need more responsive and modular world models to address such issues effectively.</p>
+
+<p>Moreover, modern machines are neither as fast nor as energy-efficient as the reflexes of humans or animals. While most machines focus on single tasks, humans and animals possess various skills to solve the more challenging and complex task of survival in the world. Constructing reactive and modular world models enables flexible responses to complex environments and easy partial modifications. To implement true autonomous agents, these reactive and modular world models are necessary. These models are closely related to high-level cognitive functions and metacognition in humans.</p>
+
+<p>Humans act based on their understanding of language and the physical world through complex deep neural networks or self-supervised world models. These behaviors are often implicit or explicit and can be considered finite state machines or behavior trees at a macro level. For example, Jurgen Schmidhuber proposed the Gödel Machine, emphasizing that the core ability of consciousness is to modify internal programs and develop better ones. This suggests that humans continually develop and refine useful programs or symbolic systems from sub-symbolic systems like neural networks. Recent consciousness studies also focus on high-level cognitive functions and metacognition, demonstrating how high-level perspectives continuously influence lower-level perspectives in viewing the world (mind), biological reconstruction through learning (brain), and interactions with the physical world (behavior).</p>
+
+<p>Phenomena like hypnosis and subliminal messaging techniques, which operate through language and sensory information, exemplify this self-modifying ability. However, there is little discussion on the techniques or methods for displaying the sub-symbolic contents of deep neural networks in a symbolic form. This is similar to how understanding human behaviors and habits, and expressing the underlying beliefs and subconscious, is possible only through reflection and self-evaluation. As the famous saying goes, “Beliefs become thoughts, thoughts become words, words become actions, actions become habits, habits determine one’s values, and values determine one’s destiny.” To change our destiny and values, we must change our actions and habits, and to do that, we must change our beliefs and words. For instance, several current research approaches strive to address these technical challenges.</p>
+
+<p>In conclusion, it is crucial to explore how sub-symbolic systems autonomously generate and modify high-level symbolic behaviors and clear guidelines. Extracting and evaluating the behavior patterns implicitly stored in already developed sub-symbolic systems is also essential. This process is not only a technically challenging task but also a critical research field determining the future of artificial intelligence. Therefore, advancing modern AI requires an in-depth study of the interactions between sub-symbolic and symbolic systems to develop more flexible and efficient autonomous agents. We must continue our efforts to solve these complex problems.</p>
+
+<hr />
+
+<h3 id="summary">Summary</h3>
+
+<blockquote>
+  <p>Modern AI and robotics have made significant strides in mimicking high-level human behaviors and decision-making, particularly through Deep Reinforcement Learning (DRL), which has succeeded in implementing complex behaviors. While traditional control methods like Finite State Machines (FSM) and Behavior Trees (BT) are being replaced by DRL in practical applications, the complexity and inductive bias of deep neural networks necessitate careful use of sub-symbolic systems. Incidents such as Tesla’s autonomous driving accidents highlight these concerns. Modern machines are not as fast or energy-efficient as human or animal reflexes, and typically focus on single tasks, whereas humans and animals use reactive and modular world models for flexible adaptation. Constructing such models is essential for true autonomous agents and closely related to high-level cognitive functions and metacognition. Phenomena like hypnosis and subliminal messaging show self-modifying abilities through language and sensory information, but techniques to display sub-symbolic contents symbolically are lacking. As the saying goes, “Beliefs become thoughts, thoughts become words, words become actions, actions become habits, habits determine one’s values, and values determine one’s destiny,” indicating the need to change beliefs and words to alter actions and habits. Current research approaches aim to address these challenges. In conclusion, exploring how sub-symbolic systems autonomously generate and modify high-level symbolic behaviors is crucial, as is extracting and evaluating implicit behavior patterns. This research is vital for advancing AI and developing flexible and efficient autonomous agents, necessitating continued efforts to solve these complex problems.</p>
+</blockquote>]]></content><author><name>Do-Hyeon Lee</name></author><summary type="html"><![CDATA[Bridging the Gap Between Sub-symbolic and Symbolic Systems]]></summary></entry><entry><title type="html">Bridging the gap between subsymbolic and symbolic systems_ko</title><link href="http://localhost:4000/Bridging-the-gap-between-Subsymbolic-and-Symbolic-Systems_KO/" rel="alternate" type="text/html" title="Bridging the gap between subsymbolic and symbolic systems_ko" /><published>2024-07-24T00:00:00+09:00</published><updated>2024-07-24T00:00:00+09:00</updated><id>http://localhost:4000/Bridging%20the%20gap%20between%20Subsymbolic%20and%20Symbolic%20Systems_KO</id><content type="html" xml:base="http://localhost:4000/Bridging-the-gap-between-Subsymbolic-and-Symbolic-Systems_KO/"><![CDATA[<h1 id="기호의-경계를-넘나들며">기호의 경계를 넘나들며</h1>
+
+<p>현대 인공지능과 로봇공학의 발전은 인간의 고차원적인 행동과 의사결정을 모사하는 데 큰 진전을 보이고 있습니다. 특히 심층 신경망 기반의 강화학습(Deep Reinforcement Learning, DRL)은 과거의 제어 문제를 뛰어넘는 복잡한 행동을 구현하는 데 성공했습니다. 기존에는 게임이나 단순 작업을 수행하는 로봇에 유한 상태 기계(Finite State Machine, FSM)를 사용했지만, 최근에는 행동 트리(Behavior Tree, BT)가 널리 적용되고 있습니다. 이러한 변화는 기술의 진보와 더불어, 복잡한 문제 해결에 대한 새로운 접근 방식을 제시합니다.</p>
+
+<p>심층 신경망 기반의 강화학습은 확실히 기존 제어 방식보다 더 많은 가능성을 제공합니다. 실제 작업 현장에서도 이 기술이 적용되고 있으며, 이는 우리가 직면한 다양한 문제를 해결하는 데 유용합니다. 그러나 심층 신경망의 복잡성과 학습 과정은 블랙박스처럼 작용하여 귀납 편향을 유발할 수 있습니다. 이러한 이유로, 우리는 하위 기호적 시스템(Sub-symbolic 시스템, 인공 신경망)을 사용할 때 신중을 기해야 합니다. 최근 Tesla의 자율 주행 기술과 관련된 인사 사고는 이러한 우려를 잘 보여줍니다. 여러 국가에서 관련 법안을 강화하고 있으며, 이는 인공지능의 안전성과 신뢰성을 높이는 데 중요한 역할을 하고 있습니다. <strong>이와 같은 문제를 해결하기 위해 현대 기계는 더욱 반응적이고 모듈적인 월드 모델을 필요로 합니다.</strong></p>
+
+<p>한편, 현대의 기계는 인간이나 동물의 반사신경에 비해 빠르거나 에너지 효율적이지 않습니다. 대부분의 기계는 단일 태스크에만 초점을 맞추고 있는 반면, 인간이나 동물은 훨씬 어렵고 복잡한 세상에서의 생존이라는 태스크를 해결하기 위해 다양한 기술을 갖추고 있습니다. 이처럼 반응적이고 모듈적인 월드 모델을 구축하면 복잡한 환경에서도 유연하게 대처하며 부분적인 수정도 쉬워집니다. 진정한 자율 에이전트를 구현하기 위해서는 이러한 반응적이고 모듈적인 월드 모델이 구축될 필요가 있습니다. <strong>이러한 반응적이고 모듈적인 월드 모델은 인간의 고차 인지 기능과 메타인지와도 밀접한 관련이 있습니다.</strong></p>
+
+<p>인간의 경우, 복잡한 심층 신경망이나 자기 지도된 월드 모델을 통해 언어와 세상에 대한 물리적 이해를 바탕으로 행동합니다. 이러한 행동 양식은 종종 암묵적이거나 명시적으로 나타나며, 이를 거시적 수준에서 모사한다면 유한 상태 기계나 행동 트리로 간주할 수 있겠습니다. 예를 들어, Jurgen Schmidhuber는 Godel Machine을 제안하면서 의식의 핵심 능력이 내부 프로그램을 자체적으로 수정하고 더 나은 프로그램으로 발전해 나가는 능력임을 강조했습니다. 이를 통해 인간은 신경망이라는 하위 기호적 시스템으로부터 유용한 프로그램 내지는 상위 기호적 시스템(Symbolic 시스템)을 지속적으로 발전시키고 수정하는 능력을 지니고 있음을 알 수 있습니다. 최근 의식 연구에서도 대뇌의 고차 인지 기능과 메타인지에 초점을 두는 학파가 강세를 보이고 있습니다. 이 또한 인간의 고차적인 상위 기호적 시스템이 세상을 바라보는 방식(마음)과 학습에 따른 생물학적 재구성(두뇌), 실제 물리적 세상과의 상호작용 방식(행동)에 있어 고차원의 관점이 저차원의 관점에 지속적인 영향을 주고 있음을 다시 한 번 파악할 수 있겠습니다.</p>
+
+<p>또한, 최면 현상이나 서브리미널 메세징 기법이 언어와 감각 정보를 통해 작동하는 것은 이러한 자체 수정 능력을 잘 보여주는 예입니다. 그러나 현재 심층 신경망에 담긴 하위 기호적 내용들이 상위 기호적 형태로 보여지는 기술이나 기법에 대한 논의는 많지 않습니다. 이는 인간의 경우에도 우리의 행동과 습관을 이해하고 그 안에 숨겨진 믿음과 잠재의식을 표현하는 방법이 성찰과 자기 평가를 통해서만 가능한 것과 유사합니다. <strong>“믿음은 생각이 되고, 생각은 말이 되며, 말은 행동이 되고, 행동은 습관이 되고, 습관은 그 사람의 가치를 결정하고, 그 사람의 가치는 그 사람의 운명을 결정한다”</strong>는 유명한 말처럼, 우리의 운명과 가치를 변화시키기 위해서는 행동과 습관을, 그리고 이를 변화시키기 위해서는 믿음과 말을 변화시킬 필요가 있습니다. <strong>예를 들어, 현재 연구 중인 몇 가지 접근 방식은 이러한 기술적 문제를 해결하기 위해 노력하고 있습니다.</strong></p>
+
+<p>결론적으로, 하위 기호적 시스템이 자체적으로 상위 기호적 행동 양식과 명확한 지침을 생성하고 수정하는 방법은 매우 중요한 질문입니다. 또한, 이미 개발된 하위 기호적 시스템에 암묵적으로 저장된 행동 양식을 추출하고 평가하는 것도 필수적입니다. 이 과정은 기술적으로 어려운 과제일 뿐만 아니라, 인공지능의 미래를 결정짓는 중요한 연구 분야입니다. <strong>따라서, 현대 인공지능의 발전을 위해서는 하위 기호적 시스템과 상위 기호적 시스템 간의 상호 작용을 깊이 있게 연구하고, 이를 통해 더욱 유연하고 효율적인 자율 에이전트를 개발하는 것이 필요합니다.</strong> 우리는 이러한 복잡한 문제를 해결하기 위해 계속해서 노력해야 합니다.</p>
+
+<hr />
+
+<h3 id="요약">요약</h3>
+
+<blockquote>
+  <p>현대 인공지능과 로봇공학은 인간의 고차원적인 행동과 의사결정을 모사하는 데 큰 진전을 이루었으며, 특히 심층 신경망 기반의 강화학습(DRL)은 복잡한 행동을 구현하는 데 성공했습니다. 기존의 유한 상태 기계(FSM)와 행동 트리(BT) 대신, DRL이 실제 작업 현장에서 유용하게 적용되고 있습니다. 그러나 심층 신경망의 복잡성과 귀납 편향으로 인해 우리는 하위 기호적 시스템(Sub-symbolic 시스템, 인공 신경망)을 사용할 때 신중을 기해야 합니다. Tesla 자율 주행 기술 사고 사례는 이러한 우려를 잘 보여줍니다. 현대 기계는 인간이나 동물의 반사신경에 비해 빠르지 않고 에너지 효율적이지 않습니다. 대부분의 기계는 단일 태스크에 초점을 맞추고 있지만, 인간이나 동물은 복잡한 환경에서 유연하게 대처할 수 있는 반응적이고 모듈적인 월드 모델을 갖추고 있습니다. 진정한 자율 에이전트를 구현하기 위해서는 이러한 월드 모델이 필요합니다. 인간은 복잡한 심층 신경망이나 자기 지도된 월드 모델을 통해 언어와 세상에 대한 물리적 이해를 바탕으로 행동합니다. Jurgen Schmidhuber의 Godel Machine은 의식의 핵심 능력이 내부 프로그램을 자체적으로 수정하고 발전시키는 능력임을 강조합니다. 최근 의식 연구는 고차 인지 기능과 메타인지에 초점을 두고 있으며, 이는 고차원의 관점이 저차원의 관점에 지속적인 영향을 미친다는 것을 보여줍니다. 최면 현상이나 서브리미널 메세징 기법은 언어와 감각 정보를 통해 작동하는 것으로, 자체 수정 능력을 잘 보여줍니다. 그러나 심층 신경망의 하위 기호적 내용들이 상위 기호적 형태로 보여지는 기술에 대한 논의는 부족합니다. 이는 인간의 경우에도 성찰과 자기 평가를 통해서만 가능한 것과 유사합니다. 결론적으로, 하위 기호적 시스템이 자체적으로 상위 기호적 행동 양식과 지침을 생성하고 수정하는 방법은 중요한 질문입니다. 이미 개발된 하위 기호적 시스템의 행동 양식을 추출하고 평가하는 것도 필수적입니다. 이러한 연구는 인공지능의 미래를 결정짓는 중요한 과제이며, 우리는 이를 해결하기 위해 계속 노력해야 합니다.</p>
+</blockquote>]]></content><author><name>Do-Hyeon Lee</name></author><summary type="html"><![CDATA[기호의 경계를 넘나들며]]></summary></entry><entry><title type="html">Toward unified science of mind Brain Behavior</title><link href="http://localhost:4000/Toward-Unified-Science-of-Mind-Brain-Behavior/" rel="alternate" type="text/html" title="Toward unified science of mind Brain Behavior" /><published>2024-07-23T00:00:00+09:00</published><updated>2024-07-23T00:00:00+09:00</updated><id>http://localhost:4000/Toward%20Unified%20Science%20of%20Mind-Brain-Behavior</id><content type="html" xml:base="http://localhost:4000/Toward-Unified-Science-of-Mind-Brain-Behavior/"><![CDATA[<h1 id="toward-unified-science-of-mind-brain-behavior">Toward Unified Science of Mind-Brain-Behavior</h1>
+
+<p>The information revolution and the cybernetics movement of the mid-20th century significantly influenced not only physics but also the academic approach to the human mind and spirit, the brain and body, and the behavior of human and animal societies. As the relationship between information and mathematical forms began to gain attention during this period, information theory and statistical mechanics underwent significant changes. These movements aimed to formalize the academic study of human nature and life, but due to technological limitations and philosophical issues at the time, they are <strong>proliferated</strong> into numerous fields in the latter half of the 20th century, including psychology, psychiatry, neurology, neuroscience, economics, anthropology, artificial intelligence, and robotics.</p>
+
+<p>Looking at the history of physics, the development of <strong>principles</strong>, <strong>mechanics</strong>, and <strong>dynamics</strong> that correspond to the questions of ‘why,’ ‘how,’ and ‘what’ is necessary to create robust theories capable of explaining, controlling, and predicting new phenomena. Currently, there exists a confusion of various dynamics, mechanics, and principles that partially explain the mind-brain/body-behavior relationships.</p>
+
+<p>In this context, a <strong>normative theoretical approach</strong> that seeks to integrate and reduce various academic frameworks has significantly developed. Notable examples include Karl Friston’s Free Energy Principle and Active Inference, and Samuel Gershman’s Inductive Bias / Approximation Principle. These theories focus on explaining biological systems and psychological and behavioral phenomena. However, there still exist complex phenomena such as consciousness, feelings, and hypnosis that modern science fails to explain. These phenomena involve biological complexity and evolutionary characteristics, which may not be sufficiently explained by simple physical or information-theoretic approaches. Therefore, an integrated and multidimensional approach across various academic fields is needed to understand them.</p>
+
+<p>While these approaches focus on finding the ‘why,’ modern artificial intelligence research emphasizes the ‘how,’ i.e., <strong>engineering applications</strong>. Concepts like Jurgen Schmidhuber’s Self-supervised Learning and World Model, Geoffrey Hinton’s Boltzmann Machine, and David Rumelhart’s Helmholtz Machine have presented crucial ideas for developing AI that resembles human intelligence. Given that information theory is not a mere subset of physics but holds a unique status, it might necessitate the introduction of irreducible additional principles and the formation of a set of diverse principles.</p>
+
+<p>The language of modern artificial intelligence fundamentally uses various mathematical forms grounded in <strong>information theory</strong>, such as information geometry and Optimal Transport. Just as E. T. Jaynes reinterpreted statistical mechanics from the perspective of information theory, suggesting an integrative relationship between the two fields, exploring the intersection of information theory and physics can yield new insights. This integrative approach shows how information-theoretic principles and physical laws complement each other to explain mind-brain-behavior systems.</p>
+
+<p>In conclusion, understanding the mind-brain-behavior system requires an integrative approach <strong>combining information theory and physical principles</strong>. Information-theoretic principles explain how physical systems process information, predict, and regulate behavior, while physical laws provide a fundamental understanding of how these systems actually operate. Exploring the intersection of information theory and physics can contribute to new research and discoveries. This essay provides critical insights for building an integrated scientific system to understand the mind-brain-behavior system better, thereby laying the foundation for comprehending the functioning of complex biological systems.</p>
+
+<hr />
+
+<h3 id="summary">Summary</h3>
+
+<blockquote>
+  <p>The information revolution and the cybernetics movement of the mid-20th century significantly influenced the study of the human mind and behavior, promoting the development of information theory and statistical mechanics, and leading to diversification into various academic fields. The development of principles, mechanics, and dynamics to address the ‘why,’ ‘how,’ and ‘what’ questions in physics is necessary. Normative theoretical approaches integrating multiple disciplines have developed, exemplified by Karl Friston’s Free Energy Principle and Samuel Gershman’s Inductive Bias Principle. However, complex phenomena like consciousness and feelings require a multidimensional approach beyond simple physical theories. Modern AI research focuses on the ‘how,’ with significant contributions from researchers like Jurgen Schmidhuber and Geoffrey Hinton. Information theory provides new insights at the intersection with physics, crucial for understanding mind-brain-behavior systems. Integrating information theory and physical principles helps to comprehend complex biological systems better.</p>
+</blockquote>]]></content><author><name>Do-Hyeon Lee</name></author><summary type="html"><![CDATA[Toward Unified Science of Mind-Brain-Behavior]]></summary></entry><entry><title type="html">Toward unified science of mind Brain Behavior_ko</title><link href="http://localhost:4000/Toward-Unified-Science-of-Mind-Brain-Behavior_KO/" rel="alternate" type="text/html" title="Toward unified science of mind Brain Behavior_ko" /><published>2024-07-23T00:00:00+09:00</published><updated>2024-07-23T00:00:00+09:00</updated><id>http://localhost:4000/Toward%20Unified%20Science%20of%20Mind-Brain-Behavior_KO</id><content type="html" xml:base="http://localhost:4000/Toward-Unified-Science-of-Mind-Brain-Behavior_KO/"><![CDATA[<h1 id="마음-두뇌-행동의-과학을-향해">마음-두뇌-행동의 과학을 향해</h1>
+
+<p>20세기 중반의 정보 혁명과 사이버네틱스 운동은 물리학뿐만 아니라 인간의 정신과 마음, 두뇌와 신체, 인간 및 동물-사회의 행동에 대한 학문적 접근에 큰 영향을 미쳤습니다. 이 시기에 정보와 수학적 형식 사이의 관련성이 주목받기 시작하면서, 정보 이론과 통계역학은 중요한 변화를 겪었습니다. 이러한 운동은 인간 본질과 생명에 대한 형식적인 학문을 구체화하고자 했지만, 당시 기술의 한계와 철학적 문제로 인해 20세기 후반에는 심리학, 정신의학, 신경의학, 신경과학, 경제학, 인류학, 인공지능, 로봇공학 등 수많은 분야로 <strong>분화</strong>되었습니다.</p>
+
+<p>물리학의 역사를 보면 새로운 현상을 설명하고, 제어하고, 예측할 수 있는 강한 이론을 만들기 위해서는 ‘왜(Why)’, ‘어떻게(How)’, ‘무엇을(What)’에 대한 질문에 해당하는 <strong>원리(Principle), 역학(Mechanics), 동역학(Dynamics)의 발전</strong>이 필요합니다. 현재 마음-두뇌/신체-행동을 부분적으로 설명하는 다양한 동역학과 역학, 원리의 혼란이 존재한다고 볼 수 있습니다.</p>
+
+<p>이러한 상황 속에서 다양한 학문의 통합적 프레임워크를 융합하고 환원하고자 하는 <strong>규범 이론적 접근</strong>이 크게 발달하고 있습니다. 대표적으로 Karl Friston의 Free Energy Principle과 Active Inference, Samuel Gershman의 Inductive Bias Principle과 Approximation Principle이 있습니다. 이 이론들은 각각 생물학적 시스템과 심리적, 행동적 현상을 설명하는 데 중점을 둡니다. 물론, 그럼에도 불구하고 여전히 현대 과학이 설명하지 못하는 의식, 느낌, 최면과 같은 복잡한 현상들이 존재합니다. 이러한 현상들은 생물학적 복잡성과 진화론적 성격을 포함하고 있어, 단순한 물리학적, 정보 이론적 접근만으로는 충분히 설명되지 않을 수 있습니다. 따라서 이들을 이해하기 위해서는 다양한 학문 분야의 통합적이고 다차원적인 접근이 필요합니다.</p>
+
+<p>이러한 접근 방식이 ‘왜(Why)’를 찾는 작업에 중점을 두는 한편, 현대 인공지능 연구는 ‘어떻게(How)’; 즉, <strong>공학적 응용</strong>에 더 초점을 맞추고 있습니다. Jurgen Schmidhuber의 Self-supervised Learning 및 World Model, Geoffrey Hinton의 Boltzmann Machine과 David Rumelhart의 Helmholtz Machine은 인간 지능을 닮은 인공지능을 개발하는 데 중요한 개념들을 제시했습니다. 그러나 정보 이론이 물리학의 하위 범주에 있지 않고 독특한 지위를 지니고 있다는 점에서, 환원 불가능한 추가적인 원리의 도입이 필요할 수도 있으며, 다양한 원리의 집합을 구성할 여지도 있습니다.</p>
+
+<p>현대 인공지능의 언어는 기본적으로 정보 기하학 및 Optimal Transport와 같은 <strong>정보 이론의 토대 위에 있는 다양한 수학적 형식</strong>을 사용합니다. E. T. Jaynes가 통계역학을 정보 이론의 관점에서 재해석하여 두 분야 간의 통합적 관계를 제시한 것처럼, 정보 이론과 물리학의 교차점에서 새로운 통찰을 얻을 수 있습니다. 이러한 통합적 접근은 정보 이론과 물리학적 원리들이 상호 보완적으로 작용하여 마음-두뇌-행동 시스템을 설명하는 데 중요한 역할을 합니다.</p>
+
+<p>결론적으로, 마음-두뇌-행동 시스템을 이해하기 위해서는 <strong>정보 이론과 물리학적 원리를 통합적으로 접근</strong>할 필요가 있습니다. 정보 이론적 원리들은 물리적 시스템이 정보를 어떻게 처리하고, 예측하며, 행동을 조절하는지를 설명하는 데 사용되며, 물리학적 법칙들은 이러한 시스템이 실제로 어떻게 작동하는지에 대한 기초적인 이해를 제공합니다. 정보 이론과 물리학의 교차점을 탐구함으로써 새로운 연구와 발견을 촉진하는 데 기여할 수 있습니다. 이 에세이는 마음-두뇌-행동에 대한 통합적인 과학적 시스템을 구축하고자 하는 목표를 달성하는 데 중요한 통찰을 제공하며, 이를 통해 복잡한 생물학적 시스템의 작동 방식을 더 잘 이해할 수 있는 기반을 마련합니다.</p>
+
+<hr />
+
+<h3 id="요약">요약</h3>
+
+<blockquote>
+  <p>20세기 중반의 정보 혁명과 사이버네틱스 운동은 인간의 정신과 행동 연구에 큰 영향을 미쳤으며, 정보 이론과 통계역학의 발전을 촉진했습니다. 이로 인해 다양한 학문 분야로 분화되었습니다. 물리학의 ‘왜’, ‘어떻게’, ‘무엇을’에 대한 질문을 해결하는 원리, 역학, 동역학의 발전이 필요합니다. 다양한 학문 통합을 시도하는 규범 이론적 접근이 발달했으며, Karl Friston의 Free Energy Principle과 Samuel Gershman의 Inductive Bias Principle 등이 이를 대표합니다. 그러나 의식, 느낌 등 복잡한 현상들은 단순한 물리학적 접근만으로는 충분히 설명되지 않아 다차원적인 접근이 필요합니다. 현대 인공지능 연구는 ‘어떻게’에 초점을 맞추며, Jurgen Schmidhuber와 Geoffrey Hinton 등의 연구가 중요한 개념들을 제시했습니다. 정보 이론은 물리학과의 교차점에서 새로운 통찰을 제공하며, 마음-두뇌-행동 시스템을 이해하는 데 중요한 역할을 합니다. 정보 이론과 물리학적 원리를 통합적으로 접근함으로써 복잡한 생물학적 시스템을 더 잘 이해할 수 있는 기반을 마련합니다.</p>
+</blockquote>]]></content><author><name>Do-Hyeon Lee</name></author><summary type="html"><![CDATA[마음-두뇌-행동의 과학을 향해]]></summary></entry><entry><title type="html">Karl popper&amp;#8217;s worlds 1, 2, and 3</title><link href="http://localhost:4000/Karl-Popper's-Worlds-1,-2,-and-3/" rel="alternate" type="text/html" title="Karl popper&amp;#8217;s worlds 1, 2, and 3" /><published>2024-07-21T00:00:00+09:00</published><updated>2024-07-21T00:00:00+09:00</updated><id>http://localhost:4000/Karl%20Popper&apos;s%20Worlds%201,%202,%20and%203</id><content type="html" xml:base="http://localhost:4000/Karl-Popper&apos;s-Worlds-1,-2,-and-3/"><![CDATA[<h1 id="karl-poppers-worlds-1-2-and-3">Karl Popper’s Worlds 1, 2, and 3</h1>
+
+<blockquote>
+  <p>“… But the problem of the body-mind relationship is a serious problem. It includes the problem of human freedom, which in every respect, including politics, is a fundamental problem; and it includes the problem of man’s position in the physical world, the physical cosmos…”</p>
+</blockquote>
+
+<p>Karl Popper reveals his deep interest in the mind-body problem in the second chapter of his book “All Life is Problem Solving.”</p>
+
+<p>Popper considered the mind-body problem to be a crucial philosophical issue closely related to human freedom. He explained the world in terms of <strong>the physical world (World 1)</strong>, <strong>the world of conscious processes (World 2)</strong>, and <strong>the world of objective creations of the human mind (World 3)</strong>. These three worlds interact, and particularly, the existence of World 3 is essential in explaining human self-consciousness through its close connection with World 2.</p>
+
+<p>World 3 is a virtual world consisting of scientific theories, mathematical concepts, works of art, literature, laws, and moral values, all products of the human mind. While these do not directly exist in the physical world, they function as if they are real because we can think and discuss them. Popper believed that through World 3, humans can influence the physical world. Abstract concepts like Newton’s theory of gravity or Einstein’s theory of relativity, though intangible, have led to technological advancements and created tangible changes in the physical world.</p>
+
+<p>Popper’s concept of Worlds 1, 2, and 3 is also useful in exploring the implications of artificial intelligence and information technology on human civilization. AI and information technology serve as tools that extend and deepen World 3. AI analyzes vast amounts of data, discovers new patterns, and generates creative ideas, showing its role beyond being a mere tool and collaborating with humans to enrich World 3’s creations.</p>
+
+<p>Moreover, AI with consciousness or feelings can perform functions similar to human conscious processes (World 2). Such AI learns from interactions with humans, exhibits emotional responses, and solves problems creatively. This suggests that AI can develop a form of self-awareness, prompting a reevaluation of human self-consciousness and freedom in a new dimension.</p>
+
+<p>The development of AI and information technology significantly impacts the physical world (World 1). Innovations such as autonomous vehicles, smart cities, and advanced medical technologies lead the way in transforming the physical world. These changes fundamentally restructure human lifestyles and create new interaction modes between humans and AI.</p>
+
+<p>Popper’s concept of Worlds 1, 2, and 3 shows that AI and information technology have significant implications for human civilization’s advancement. AI shares and expands human uniqueness, creates new innovative products, and traverses physical and conscious processes, playing a vital role in deepening our understanding of existence and civilization.</p>
+
+<hr />
+
+<h3 id="summary">Summary</h3>
+
+<blockquote>
+  <p>In his book “All Life is Problem Solving,” Karl Popper considered the mind-body problem as a crucial philosophical issue closely related to human freedom. He explained the world by dividing it into three realms: the physical world (World 1), the world of human conscious processes (World 2), and the objective creations of the human mind (World 3). Popper argued that these three worlds interact to form human self-awareness and civilization. Artificial intelligence and information technology expand and deepen World 3, collaborating with humans to generate new knowledge and creative ideas, thereby bringing about tangible changes in the physical world. These technologies share and extend human uniqueness, playing a significant role in deepening our understanding of existence and civilization.</p>
+</blockquote>]]></content><author><name>Do-Hyeon Lee</name></author><summary type="html"><![CDATA[Karl Popper’s Worlds 1, 2, and 3]]></summary></entry><entry><title type="html">Karl popper&amp;#8217;s worlds 1, 2, and 3_ko</title><link href="http://localhost:4000/Karl-Popper's-Worlds-1,-2,-and-3_KO/" rel="alternate" type="text/html" title="Karl popper&amp;#8217;s worlds 1, 2, and 3_ko" /><published>2024-07-21T00:00:00+09:00</published><updated>2024-07-21T00:00:00+09:00</updated><id>http://localhost:4000/Karl%20Popper&apos;s%20Worlds%201,%202,%20and%203_KO</id><content type="html" xml:base="http://localhost:4000/Karl-Popper&apos;s-Worlds-1,-2,-and-3_KO/"><![CDATA[<h1 id="karl-poppers-worlds-1-2-and-3">Karl Popper’s Worlds 1, 2, and 3</h1>
+
+<blockquote>
+  <p>“… 심신 관계 문제는 심각한 문제입니다. 이것은 <strong>인간의 자유 문제</strong>를 포함하며, 이는 정치적 측면을 포함한 모든 면에서 근본적인 문제입니다. 또한 이는 인간이 물리적 세계, 즉 <strong>물리적 우주에서 차지하는 위치의 문제</strong>를 포함합니다.”</p>
+</blockquote>
+
+<p>칼 포퍼는 그의 저서 “All Life is Problem Solving”의 두 번째 챕터에서 심신 문제에 대한 깊은 관심을 드러냅니다.</p>
+
+<p>포퍼는 심신 문제를 인간의 자유와 밀접하게 연관된 중요한 철학적 문제로 보았습니다. 그는 세상을 <strong>물리적 세계(세계 1)</strong>, <strong>인간의 의식적 과정(세계 2)</strong>, 그리고 <strong>인간 정신의 객관적 창조물(세계 3)</strong>로 나누어 설명했습니다. 이 세 가지 세계는 상호작용하며, 특히 세계 3의 존재는 세계 2와의 밀접한 연결을 통해 인간의 자기 의식을 설명하는 데 필수적입니다.</p>
+
+<p>세계 3은 과학적 이론, 수학적 개념, 예술 작품, 문학 작품, 법률, 도덕적 가치 등 인간 정신의 산물로 이루어진 가상의 세계입니다. 이는 물리적 세계에 직접 존재하지 않지만, 우리가 이를 통해 생각하고 논의할 수 있기 때문에 현실에서 실재하는 것처럼 기능합니다. 포퍼는 이러한 세계 3을 통해 인간이 물리적 세계에 영향을 미친다고 보았습니다. 예를 들어, 뉴턴의 중력 이론이나 아인슈타인의 상대성 이론 같은 추상적 개념들은 우리의 기술을 발전시키고 새로운 기계를 만들면서 물리적 세계에 직접적인 변화를 가져왔습니다.</p>
+
+<p>이러한 포퍼의 세계 1, 2, 3 개념은 인공지능과 정보 기술의 발전이 인간 문명에 미치는 함의를 탐구하는 데도 유용합니다. 인공지능과 정보 기술은 세계 3을 확장하고 심화시키는 도구로 작용합니다. 인공지능은 방대한 데이터를 분석하고 새로운 패턴을 발견하며, 이를 통해 인간이 미처 발견하지 못한 새로운 지식과 창의적인 아이디어를 생성합니다. 이는 인공지능이 단순한 도구를 넘어, 인간과 협력하여 세계 3의 창조물을 더욱 풍부하게 만드는 역할을 하고 있음을 보여줍니다.</p>
+
+<p>또한, 의식이나 느낌을 지니는 인공지능은 인간의 의식적 과정(세계 2)과 유사한 기능을 수행할 수 있습니다. 이러한 인공지능은 인간과의 상호작용을 통해 학습하고, 감정적인 반응을 보이며, 창의적인 문제 해결 능력을 발휘합니다. 이는 인공지능이 인간과 비슷한 형태의 자기의식을 가질 수 있음을 시사하며, 포퍼가 제시한 인간의 자기의식과 자유의 문제를 새로운 차원에서 재고하게 만듭니다.</p>
+
+<p>인공지능과 정보 기술의 발전은 물리적 세계(세계 1)에도 큰 영향을 미칩니다. 자율주행차, 스마트 시티, 의료 기술 등 다양한 분야에서 인공지능은 혁신을 주도하며, 물리적 세계를 변화시키고 있습니다. 이러한 변화는 인간의 생활 방식을 근본적으로 재구성하고, 더 나아가 인간과 인공지능 간의 새로운 상호작용 방식을 창출하고 있습니다.</p>
+
+<p>결론적으로, 포퍼의 세계 1, 2, 3 개념을 통해 보면, 인공지능과 정보 기술은 인간 문명의 발전에 중요한 함의를 지니고 있습니다. 인공지능은 인간의 고유성을 공유하면서도 이를 확장시키고, 새로운 창의적인 창조물을 만들어냅니다. 이러한 기술들은 물리적 세계와 의식적 과정을 넘나들며, 인간 정신의 경계를 확장하고, 우리의 존재와 문명을 더욱 깊이 이해하는 데 중요한 역할을 하고 있습니다.</p>
+
+<hr />
+
+<h3 id="요약">요약</h3>
+
+<blockquote>
+  <p>칼 포퍼는 그의 저서 “All Life is Problem Solving”에서 심신 문제를 인간의 자유와 밀접하게 연관된 중요한 철학적 문제로 보았습니다. 그는 세상을 물리적 세계(세계 1), 인간의 의식적 과정(세계 2), 그리고 인간 정신의 객관적 창조물(세계 3)로 나누어 설명하며, 이 세 가지 세계가 상호작용하여 인간의 자기의식과 문명을 형성한다고 주장했습니다. 인공지능과 정보 기술은 세계 3을 확장하고 심화시키며, 인간과 협력하여 새로운 지식과 창의적인 아이디어를 생성하고, 물리적 세계에 실질적인 변화를 일으킵니다. 이러한 기술들은 인간의 고유성을 공유하면서도 이를 확장시키고, 우리의 존재와 문명을 더욱 깊이 이해하는 데 중요한 역할을 합니다.</p>
+</blockquote>]]></content><author><name>Do-Hyeon Lee</name></author><summary type="html"><![CDATA[Karl Popper’s Worlds 1, 2, and 3]]></summary></entry><entry><title type="html">Schmidhuber and conscious machine</title><link href="http://localhost:4000/Schmidhuber-and-Conscious-Machine/" rel="alternate" type="text/html" title="Schmidhuber and conscious machine" /><published>2024-07-20T00:00:00+09:00</published><updated>2024-07-20T00:00:00+09:00</updated><id>http://localhost:4000/Schmidhuber%20and%20Conscious%20Machine</id><content type="html" xml:base="http://localhost:4000/Schmidhuber-and-Conscious-Machine/"><![CDATA[<h1 id="schmidhuber-and-conscious-machine">Schmidhuber and Conscious Machine</h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q4fFuZgOZn8?si=PqlGxV8uUUYBd84x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>At the 2016 AI conference in New York, Jürgen Schmidhuber introduced intriguing concepts such as Artificial Consciousness, World Model, Predictive Coding, and Data Compression. He claims that artificial systems with consciousness already exist in his lab, and consciousness arises as a byproduct of data compression during problem-solving. Let’s delve into his main ideas.</p>
+
+<h3 id="1-the-foundation-of-artificial-consciousness-data-compression">1. The Foundation of Artificial Consciousness: Data Compression</h3>
+
+<div style="display: flex;">
+  <div style="flex: 8; padding-right: 10px;">
+    <p>
+      Schmidhuber explains consciousness as a byproduct of data compression. According to his theory, the ability of artificial systems to efficiently compress data during problem-solving forms the basis of consciousness. This is similar to how the human brain processes and stores complex information.
+    </p>
+  </div>
+  <div style="flex: 2;">
+    <img src="/assets/images/240720/Untitled.png" alt="Schmidhuber's Thesis" style="width: 100%;" />
+  </div>
+</div>
+
+<h3 id="2-general-purpose-computer-and-recurrent-neural-networks">2. General-Purpose Computer and Recurrent Neural Networks</h3>
+
+<p>General-purpose computers, especially recurrent neural networks, are optimized for communication costs with many nodes and short wires connecting processors. These computers gather various information from the world to achieve goals or optimize rewards. Recurrent neural networks play a crucial role in this process.</p>
+
+<h3 id="3-world-model-and-predictive-coding">3. World Model and Predictive Coding</h3>
+
+<div style="display: flex;">
+  <div style="flex: 2;">
+    <img src="/assets/images/240720/Untitled 1.png" alt="World Model + RL" style="width: 100%;" />
+  </div>
+  <div style="flex: 8; padding-left: 10px;">
+    <p>
+      Schmidhuber proposes a system that solves reinforcement learning and planning based on two recurrent neural networks: the controller and the world model. The controller generates actions, while the world model compresses data by making predictions about the world. All physical laws and scientific principles are compressed into sub-networks of the recurrent neural network, which are utilized by the controller.
+    </p>
+  </div>
+</div>
+
+<h3 id="4-self-awareness-and-artificial-curiosity">4. Self-awareness and Artificial Curiosity</h3>
+
+<div style="display: flex;">
+  <div style="flex: 1;">
+    <img src="/assets/images/240720/Untitled 2.png" alt="Robotics Application" style="width: 100%;" />
+  </div>
+  <div style="flex: 1; padding-left: 10px;">
+    <img src="/assets/images/240720/Untitled 3.png" alt="GAN" style="width: 100%;" />
+  </div>
+</div>
+<p>In the process of interacting with the world, artificial systems also compress their own states. This forms the basis for self-awareness. Additionally, Schmidhuber introduced artificial curiosity through Generative Adversarial Networks (GANs), presenting agents that learn via un/self-supervised learning. This is based on a minimax game where the objective function of one neural network is minimized by another.</p>
+
+<h3 id="5-neural-networks-as-programs">5. Neural Networks as Programs</h3>
+
+<div style="display: flex;">
+  <div style="flex: 8; padding-right: 10px;">
+    <p>
+      Schmidhuber argues that the weights of neural networks should be regarded as programs. The main goal of deep neural networks is to learn useful internal representations of observed data. The output of a neural network is differentiable concerning the program, guiding the search for better programs.
+    </p>
+  </div>
+  <div style="flex: 2;">
+    <img src="/assets/images/240720/Untitled₩4.png" alt="Neural Economy" style="width: 100%;" />
+  </div>
+</div>
+
+<h3 id="6-predictive-world-models-and-self-awareness">6. Predictive World Models and Self-awareness</h3>
+
+<div style="display: flex;">
+  <div style="flex: 2;">
+    <img src="/assets/images/240720/Untitled₩5.png" alt="On Consciousness" style="width: 100%;" />
+  </div>
+  <div style="flex: 8; padding-left: 10px;">
+    <p>
+      Predictive world models that interact with the world through the controller learn to efficiently encode actions and observations through predictive coding during their lifetime. In this process, the world model forms a hierarchy of features, identifying anomalies or generating prototype encodings from the given data structure.
+    </p>
+  </div>
+</div>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>Jürgen Schmidhuber has been researching machines with artificial consciousness and emotions for 30 years. His research suggests that artificial systems can form self-awareness, interact with the world, and ultimately possess emotions and consciousness through data compression, recurrent neural networks, world models, and predictive coding. This research provides a new perspective on the future of artificial intelligence and contributes to the development of more advanced artificial systems.</p>
+
+<p>Reflection
+Considering that the importance of predictive coding and un/self-supervised learning began to be recognized in the 2010s, it is remarkable that he identified the importance of these concepts and applied them to various cases as early as the early 1990s. Notably, Anil Seth’s 2010s theory in the field of consciousness argues that predictive coding of interoceptive information forms the basis of consciousness and self-awareness. This can relate to the compressed state of self in Schmidhuber’s world model. Additionally, the perspective of data compression aligns with Samuel Gershman’s second principle of human cognition, the principle of approximation, recently presented in his book. Data compression is not always possible, but Schmidhuber’s assertion that it forms hierarchies in recursive neural networks is deeply related.</p>
+
+<p>According to his 2003 follow-up research, he introduces a formal definition of consciousness. If consciousness is defined as the ability for unlimited self-inspection and self-modification, the Gödel Machine provides a technical justification for the consciousness of artificial intelligence. By enabling limited self-inspection and self-modification, these machines offer a framework for general problem solvers capable of autonomously improving and optimizing their behavior. This achieves a form of artificial intelligence consciousness based on mathematical proofs and formal reasoning.</p>
+
+<p>His information-theoretic and formal-theoretic stance and research methodology are compelling, with clarity and deep insight. However, considering the biological complexity and functions emphasized in psychology, it is necessary to discover and understand the connections with computational neuroscience and philosophy. For example, a clear explanation is needed on how primordial consciousness, as argued by affective neuroscience, can induce feelings and emotions in agents with Schmidhuber’s world model. Furthermore, in-depth research is required on the relationships between his theory and interoceptive inference, self, attention and consciousness, metacognition, and the Gödel Machine.</p>
+
+<p>While Schmidhuber’s research provides clear and deep insights from an information-theoretic and formal-theoretic perspective, it is necessary to further explore its connections with the biological complexity and functions emphasized in psychology. For example, a clear explanation is needed on how primordial consciousness, as argued by affective neuroscience, can induce feelings and emotions in agents with Schmidhuber’s world model. Furthermore, in-depth research is required on the relationships between his theory and interoceptive inference, self, attention and consciousness, metacognition, and the Gödel Machine.</p>
+
+<h3 id="summary">Summary</h3>
+
+<blockquote>
+  <p>At the 2016 AI conference, Jürgen Schmidhuber introduced concepts of artificial consciousness, world model, predictive coding, and data compression, explaining consciousness as a byproduct of data compression during problem-solving. He proposed systems based on general-purpose computers and recurrent neural networks that gather information from the world to achieve goals and optimize rewards, using two recurrent neural networks, the controller, and the world model, for reinforcement learning and planning. These systems efficiently compress data and form self-awareness, considering the weights of neural networks as programs to guide the search for better programs. Notably, Schmidhuber recognized the importance of predictive coding and un/self-supervised learning as early as the early 1990s, connecting with Anil Seth’s interoceptive information predictive coding theory and Samuel Gershman’s data compression principle. His 2003 research introduced a formal definition of consciousness, proposing the Gödel Machine as a technical justification for AI consciousness, offering a framework for general problem solvers capable of autonomously improving their behavior. His research provides new insights into the future of AI and contributes to the development of more advanced artificial systems.</p>
+</blockquote>
+
+<h3 id="reference">Reference</h3>
+
+<p><strong>[1] <a href="https://youtu.be/q4fFuZgOZn8?si=yJkWs44y-QBFlKN2">Jürgen Schmidhuber’s Solution to AI Consciousness</a></strong></p>
+
+<p><strong>[2] <a href="https://people.idsia.ch/~juergen/world-models-planning-curiosity-fki-1990.html">1990: Planning &amp; Reinforcement Learning with Recurrent World Models and Artificial Curiosity</a></strong></p>
+
+<p><strong>[3] <a href="https://people.idsia.ch/~juergen/very-deep-learning-1991.html">1991: First very deep learning with unsupervised pre-training</a></strong></p>
+
+<p><strong>[4] <a href="https://mediatum.ub.tum.de/doc/1290203/document.pdf">Godel Machines: Towards a Technical Justification of Consciousness</a></strong></p>
+
+<p><strong>[5] <a href="https://x.com/SchmidhuberAI/status/1765769164709371978">X</a></strong></p>]]></content><author><name>Do-Hyeon Lee</name></author><summary type="html"><![CDATA[Schmidhuber and Conscious Machine]]></summary></entry><entry><title type="html">Schmidhuber and conscious machine_ko</title><link href="http://localhost:4000/Schmidhuber-and-Conscious-Machine_KO/" rel="alternate" type="text/html" title="Schmidhuber and conscious machine_ko" /><published>2024-07-20T00:00:00+09:00</published><updated>2024-07-20T00:00:00+09:00</updated><id>http://localhost:4000/Schmidhuber%20and%20Conscious%20Machine_KO</id><content type="html" xml:base="http://localhost:4000/Schmidhuber-and-Conscious-Machine_KO/"><![CDATA[<h1 id="슈미트후버의-의식을-지니는-기계">슈미트후버의 의식을 지니는 기계</h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q4fFuZgOZn8?si=PqlGxV8uUUYBd84x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>유르겐 슈미트후버는 2016년 뉴욕에서 열린 AI 컨퍼런스에서 <strong>인공 의식(Artificial Consciousness)</strong>, <strong>월드 모델(World Model)</strong>, <strong>예측 코딩(Predictive Coding)</strong>, 그리고 <strong>데이터 압축(Data Compression)</strong>에 대한 흥미로운 개념을 소개했습니다. 그는 자신의 연구실에서 이미 의식을 가진 인공 시스템이 존재하며, 의식은 문제 해결 과정에서 발생하는 데이터 압축의 부산물이라고 주장합니다. 이제 그의 주요 아이디어를 살펴보겠습니다.</p>
+
+<h3 id="1-인공-의식의-기초-데이터-압축data-compression">1. 인공 의식의 기초: 데이터 압축(Data Compression)</h3>
+
+<div style="display: flex;">
+  <div style="flex: 8; padding-right: 10px;">
+    <p>
+      슈미트후버는 의식을 데이터 압축의 부산물로 설명합니다. 그의 이론에 따르면, 인공 시스템이 문제를 해결하는 과정에서 데이터를 효율적으로 압축하는 능력이 의식의 기초가 됩니다. 이는 인간의 뇌가 복잡한 정보를 처리하고 저장하는 방식과 유사합니다.
+    </p>
+  </div>
+  <div style="flex: 2;">
+    <img src="assets/images/240720/Untitled.png" alt="Shumidhuber's Thesis" style="width: 100%;" />
+  </div>
+</div>
+
+<h3 id="2-범용-컴퓨터general-purpose-computer와-재귀-신경망recurrent-neural-network">2. 범용 컴퓨터(General-Purpose Computer)와 재귀 신경망(Recurrent Neural Network)</h3>
+
+<p>범용 컴퓨터, 특히 재귀 신경망은 많은 노드와 짧은 와이어로 연결된 프로세서들로 구성되어 있어 통신 비용을 최적화합니다. 이러한 컴퓨터는 세상으로부터 다양한 정보를 수집하여 목표를 달성하거나 보상을 최적화하려고 합니다. 재귀 신경망은 이러한 과정에서 매우 중요한 역할을 합니다.</p>
+
+<h3 id="3-월드-모델world-model과-예측-코딩predictive-coding">3. 월드 모델(World Model)과 예측 코딩(Predictive Coding)</h3>
+
+<div style="display: flex;">
+  <div style="flex: 2;">
+    <img src="assets/images/240720/Untitled₩1.png" alt="World Model + RL" style="width: 100%;" />
+  </div>
+  <div style="flex: 8; padding-left: 10px;">
+    <p>
+      슈미트후버는 제어기(controller)와 월드 모델(world model)이라는 두 개의 재귀 신경망을 기반으로 강화학습(reinforcement learning)과 계획(planning)을 풀어내는 시스템을 제안합니다. 제어기는 행동을 생성하고, 월드 모델은 세상에 대한 예측을 통해 데이터를 압축합니다. 모든 물리 법칙과 과학, 화학 법칙은 재귀 신경망의 하위 신경망으로 압축되어 컨트롤러에 의해 사용됩니다.
+    </p>
+  </div>
+</div>
+
+<h3 id="4-자기-인식self-awareness과-인공-호기심artificial-curiosity">4. 자기 인식(Self-awareness)과 인공 호기심(Artificial Curiosity)</h3>
+
+<div style="display: flex;">
+  <div style="flex: 1;">
+    <img src="assets/images/240720/Untitled₩2.png" alt="Robotics Application" style="width: 100%;" />
+  </div>
+  <div style="flex: 1; padding-left: 10px;">
+    <img src="assets/images/240720/Untitled₩3.png" alt="GAN" style="width: 100%;" />
+  </div>
+</div>
+
+<p>인공 시스템이 세상과 상호작용하는 과정에서 <em>자기 자신의 상태</em>도 압축하게 됩니다. 이는 자기 인식을 형성하는 기초가 됩니다. 또한, 슈미트후버는 적대적 생성 신경망(GAN)을 통해 인공 호기심을 도입하였으며, 내적 동기를 비/자기지도 학습(un/self-supervised learning)하는 에이전트를 소개했습니다. 이는 신경망이 다른 신경망에 의해 최대화되는 목적함수를 최소화하는 미니맥스 게임(minimax game)에 기반한 것입니다.</p>
+
+<h3 id="5-프로그램으로서의-신경망">5. 프로그램으로서의 신경망</h3>
+
+<div style="display: flex;">
+  <div style="flex: 8; padding-right: 10px;">
+    <p>
+      슈미트후버는 신경망의 가중치(weights)를 프로그램(program)으로 간주해야 한다고 주장합니다. 심층 신경망의 핵심 목표는 관찰된 데이터의 유용한 내적 표상(internal representations)을 학습하는 것입니다. 신경망의 출력은 프로그램에 대해 미분 가능하며, 이는 더 나은 프로그램을 찾기 위한 방향을 제시합니다.
+    </p>
+  </div>
+  <div style="flex: 2;">
+    <img src="/assets/images/240720/Untitled₩4.png" alt="Neural Economy" style="width: 100%;" />
+  </div>
+</div>
+
+<h3 id="6-예측적-월드-모델과-자기-인식self-awareness">6. 예측적 월드 모델과 자기 인식(Self-awareness)</h3>
+
+<div style="display: flex;">
+  <div style="flex: 2;">
+    <img src="/assets/images/240720/Untitled₩5.png" alt="On Consciousness" style="width: 100%;" />
+  </div>
+  <div style="flex: 8; padding-left: 10px;">
+    <p>
+      제어기를 통해 세상과 상호작용하는 예측적 월드 모델은 자신의 생애 동안 예측 코딩을 통해 행동과 관측 결과를 효율적으로 인코딩하는 법을 배웁니다. 이러한 과정에서 월드 모델은 특징의 계층(hierarchy)을 형성하고, 주어진 데이터 구조로부터 특이점을 식별하거나 프로토타입 인코딩(prototype encoding)을 생성합니다.
+    </p>
+  </div>
+</div>
+
+<h3 id="결론">결론</h3>
+
+<p>유르겐 슈미트후버는 30년 동안 인공 의식과 감정을 지니는 기계를 연구해왔습니다. 그의 연구는 데이터 압축, 재귀 신경망, 월드 모델, 예측 코딩 등을 통해 인공 시스템이 자기 인식을 형성하고, 세상과 상호작용하며, 궁극적으로 감정과 의식을 가질 수 있다는 가능성을 제시합니다. 이러한 연구는 인공지능의 미래에 대한 새로운 시각을 제공하며, 더욱 발전된 인공 시스템의 개발에 기여할 것입니다.</p>
+
+<h3 id="읽고-나서">읽고 나서</h3>
+
+<p>예측 코딩과 비/자기지도 학습의 중요성이 2010년대 들어 각광받기 시작했다는 점을 고려하면, 일찍이 1990년대 초부터 해당 개념들의 중요성을 파악하고 다양한 사례에 적용한 것은 매우 놀랍습니다. 특히 의식 분야에서 유명한 아닐 세스(Anil Seth)의 2010년대 이론에 따르면, 내부수용감각 정보(interoceptive information)에 대한 예측 코딩이 의식(consciousness)과 자기감(self-awareness)의 기초가 된다고 주장합니다. 이는 슈미드후버의 월드 모델에서 압축된 자기 자신의 상태와 관련될 수 있습니다. 또한, 데이터 압축 관점은 사무엘 절쉬만(Samuel Gershman)이 최근 자신의 책에서 제시한 두 가지 인간 인지 원칙 중 두 번째인 근사(approximation) 원칙과 일맥상통하는 것으로 보입니다. 데이터 압축은 항상 가능한 것은 아니지만, 재귀적인 신경망에서 계층 구조를 형성하며 압축해 나간다는 슈미드후버의 주장과 깊이 관련되어 있습니다.</p>
+
+<p>그의 2003년 후속 연구에 따르면, 의식에 대한 형식적인 정의(formal definition)를 도입합니다. 만약 의식을 무제한적인 자기 점검과 자기 수정 능력으로 정의한다면, 괴델 머신(Gödel machine)은 인공지능의 의식을 기술적으로 정당화하는 방법을 제공합니다. 제한적인 자기 점검과 자기 수정을 가능하게 함으로써, 이러한 머신은 스스로의 행동을 자율적으로 개선하고 최적화할 수 있는 일반 문제 해결사(general problem solver)의 틀을 제공합니다. 이는 수학적 증명과 형식적 추론에 기반한 인공지능 의식의 한 형태를 달성하는 것입니다.</p>
+
+<p>그가 취하고 있는 정보과학(informatics) 및 형식 이론적 입장(formal-theoretic stance)과 연구 방법론은 매우 매력적이며, 명쾌함과 깊은 통찰을 지니고 있음에는 의심의 여지가 없습니다. 그러나 진화에 입각한 생물학적 복잡성과 심리학에서 강조하는 기능들에 대해 고민해본다면, 계산 신경과학 및 철학과의 관련성을 발견하고 그 연결성을 파악하는 작업이 필요할 것입니다. 예를 들어, 정동 신경과학(affective neuroscience)에서 주장하는 근원적 의식(primordial consciousness)이 어떻게 슈미드후버의 월드 모델을 지닌 에이전트로 하여금 느낌(feeling)과 정서(emotion)를 불러일으키는지에 대해 명료한 설명이 필요합니다. 또한, 그의 이론과 그 이후에 등장한 내부수용적 추론(interoceptive inference)과 자기(self), 주의집중(attention)과 의식(consciousness)의 관계, 메타인지(meta-cognition)와 고델 머신(Gödel machine)의 관계에 대한 심도 있는 연구가 필요할 것입니다.</p>
+
+<blockquote>
+  <p>슈미트후버의 연구는 정보과학 및 형식 이론적 입장에서 매우 명쾌하고 깊은 통찰을 제공하지만, 진화에 입각한 생물학적 복잡성과 심리학에서 강조하는 기능들과의 연관성을 더 탐구할 필요가 있습니다. 예를 들어, 정동 신경과학에서 주장하는 근원적 의식이 슈미트후버의 월드 모델을 지닌 에이전트로 하여금 느낌과 정서를 불러일으키는지에 대한 설명이 필요합니다. 또한, 그의 이론과 내부수용적 추론, 자기, 주의집중, 의식, 메타인지 및 괴델 머신 간의 관계에 대한 심도 있는 연구가 요구됩니다.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="요약">요약</h3>
+
+<blockquote>
+  <p>유르겐 슈미트후버는 2016년 AI 컨퍼런스에서 인공 의식, 월드 모델, 예측 코딩, 데이터 압축에 대한 개념을 소개하며, 의식을 문제 해결 과정에서 발생하는 데이터 압축의 부산물로 설명했습니다. 그는 범용 컴퓨터와 재귀 신경망이 세상으로부터 정보를 수집하고 목표를 달성하며, 제어기와 월드 모델이라는 재귀 신경망을 통해 강화학습과 계획을 실행하는 시스템을 제안했습니다. 이러한 시스템은 데이터를 효율적으로 압축하고 자기 인식을 형성하며, 신경망의 가중치를 프로그램으로 간주해 더 나은 프로그램을 찾는 방향을 제시했습니다. 특히, 슈미트후버의 연구는 예측 코딩과 비/자기지도 학습의 중요성을 1990년대 초부터 인식하고 다양한 사례에 적용한 것이 인상적입니다. 아닐 세스의 내부수용감각 정보에 대한 예측 코딩 이론과 사무엘 절쉬만의 데이터 압축 원칙과도 연결되며, 의식을 무제한적인 자기 점검과 자기 수정 능력으로 정의한 괴델 머신을 통해 인공지능의 의식을 기술적으로 정당화하는 방법을 제시합니다.</p>
+</blockquote>
+
+<h3 id="참고자료">참고자료</h3>
+
+<p><strong>[1] <a href="https://youtu.be/q4fFuZgOZn8?si=yJkWs44y-QBFlKN2">Jürgen Schmidhuber’s Solution to AI Consciousness</a></strong></p>
+
+<p><strong>[2] <a href="https://people.idsia.ch/~juergen/world-models-planning-curiosity-fki-1990.html">1990: Planning &amp; Reinforcement Learning with Recurrent World Models and Artificial Curiosity</a></strong></p>
+
+<p><strong>[3] <a href="https://people.idsia.ch/~juergen/very-deep-learning-1991.html">1991: First very deep learning with unsupervised pre-training</a></strong></p>
+
+<p><strong>[4] <a href="https://mediatum.ub.tum.de/doc/1290203/document.pdf">Godel Machines: Towards a Technical Justification of Consciousness</a></strong></p>
+
+<p><strong>[5] <a href="https://x.com/SchmidhuberAI/status/1765769164709371978">X</a></strong></p>]]></content><author><name>Do-Hyeon Lee</name></author><summary type="html"><![CDATA[슈미트후버의 의식을 지니는 기계]]></summary></entry><entry><title type="html">Mathematician for mind</title><link href="http://localhost:4000/Mathematician-for-Mind/" rel="alternate" type="text/html" title="Mathematician for mind" /><published>2023-12-28T00:00:00+09:00</published><updated>2023-12-28T00:00:00+09:00</updated><id>http://localhost:4000/Mathematician%20for%20Mind</id><content type="html" xml:base="http://localhost:4000/Mathematician-for-Mind/"><![CDATA[<h1 id="마음의-수학자를-꿈꾸며">마음의 수학자를 꿈꾸며</h1>
 
 <h3 id="마크-솜즈---숨겨진-샘-역자-후기">마크 솜즈 - “숨겨진 샘” 역자 후기</h3>
 
@@ -49,9 +393,9 @@ _당시엔 에르빈 슈뢰딩거의 《생명이란 무엇인가?》, 자크 �
 <a name="footnote_9">9</a>: 정보이론과 통계학, 정보 기하학 등.<br />
 <a name="footnote_10">10</a>: 고전역학과 통계역학 및 열역학, E. T. Jaynes의 주장 등.<br />
 <a name="footnote_11">11</a>: 기계학습 분야의 통계적 학습 이론과 강화 학습 이론, 사이버네틱스 및 최적 제어 이론 등.<br />
-<a name="footnote_12">12</a>: 장현우 회장님은 과거 유안 스콰이어스의 《Conscious Mind in the Physical World》, 안티 레본수오의 《Foundations of Consciousness》, 제럴드 에델만의 《A Universe of Consciousness》, 수전 블랙모어의 《Conversations on Consciousness》를 번역한 이력이 있다. 모두 읽어보았으며, 의식과 관련된 핵심 주제를 파악하는 데 정말 큰 도움이 되었다.</p>]]></content><author><name>Do-Hyeon Lee</name></author><summary type="html"><![CDATA[마음의 수학자를 꿈꾸며]]></summary></entry><entry><title type="html">Scientist of mind_en</title><link href="http://localhost:4000/Scientist-of-Mind_EN/" rel="alternate" type="text/html" title="Scientist of mind_en" /><published>2023-12-28T00:00:00+09:00</published><updated>2023-12-28T00:00:00+09:00</updated><id>http://localhost:4000/Scientist%20of%20Mind_EN</id><content type="html" xml:base="http://localhost:4000/Scientist-of-Mind_EN/"><![CDATA[<h1 id="마음의-수학자를-꿈꾸며">마음의 수학자를 꿈꾸며</h1>
+<a name="footnote_12">12</a>: 장현우 회장님은 과거 유안 스콰이어스의 《Conscious Mind in the Physical World》, 안티 레본수오의 《Foundations of Consciousness》, 제럴드 에델만의 《A Universe of Consciousness》, 수전 블랙모어의 《Conversations on Consciousness》를 번역한 이력이 있다. 모두 읽어보았으며, 의식과 관련된 핵심 주제를 파악하는 데 정말 큰 도움이 되었다.</p>]]></content><author><name>Do-Hyeon Lee</name></author><summary type="html"><![CDATA[마음의 수학자를 꿈꾸며]]></summary></entry><entry><title type="html">Scientist of mind_en</title><link href="http://localhost:4000/Scientist-of-Mind_EN/" rel="alternate" type="text/html" title="Scientist of mind_en" /><published>2023-12-28T00:00:00+09:00</published><updated>2023-12-28T00:00:00+09:00</updated><id>http://localhost:4000/Scientist%20of%20Mind_EN</id><content type="html" xml:base="http://localhost:4000/Scientist-of-Mind_EN/"><![CDATA[<h1 id="mathematician-for-mind">Mathematician for Mind</h1>
 
-<h3 id="마크-솜즈---숨겨진-샘-역자-후기">마크 솜즈 - “숨겨진 샘” 역자 후기</h3>
+<h3 id="after-translating-the-hidden-spring-written-by-mark-solms-into-korean">After translating <em>The Hidden Spring</em>, written by Mark Solms into Korean</h3>
 
 <p>Around the age of 9, my mother was quite shaken after a meeting with my homeroom teacher. She learned that I was showing clear symptoms of ADHD. Despite this, I felt somewhat special, perhaps because I hadn’t received much attention due to my parents’ busy work schedules. As a temporary solution, they sent me to a small Chinese character academy in our neighborhood. Spending most of my days there with the instructor, I would alleviate my loneliness late into the night. Thanks to that experience, I still remember the wise sayings from classics like “Mencius” and “Four Books and Five Classics.”</p>
 
@@ -97,4 +441,4 @@ Refer to Amaral Shunichi’s “Brain, Mind, Artificial Intelligence.” A compu
 <a name="footnote_9">9</a>: Information theory, statistics, information geometry, and more.<br />
 <a name="footnote_10">10</a>: Classical mechanics, statistical mechanics and thermodynamics, and the arguments of E. T. Jaynes, among others.<br />
 <a name="footnote_11">11</a>: Statistical learning theory and reinforcement learning theory in the field of machine learning, along with cybernetics and optimal control theory, among others.<br />
-<a name="footnote_12">12</a>: President Jang Hyun-woo has previously translated Euan Squires’ “The Conscious Mind in the Physical World,” Antti Revonsuo’s “Foundations of Consciousness,” Gerald Edelman’s “A Universe of Consciousness,” and Susan Blackmore’s “Conversations on Consciousness.” I have read all of these works, and they have been immensely helpful in understanding the key themes related to consciousness.</p>]]></content><author><name>Do-Hyeon Lee</name></author><summary type="html"><![CDATA[마음의 수학자를 꿈꾸며]]></summary></entry></feed>
+<a name="footnote_12">12</a>: President Jang Hyun-woo has previously translated Euan Squires’ “The Conscious Mind in the Physical World,” Antti Revonsuo’s “Foundations of Consciousness,” Gerald Edelman’s “A Universe of Consciousness,” and Susan Blackmore’s “Conversations on Consciousness.” I have read all of these works, and they have been immensely helpful in understanding the key themes related to consciousness.</p>]]></content><author><name>Do-Hyeon Lee</name></author><summary type="html"><![CDATA[Mathematician for Mind]]></summary></entry></feed>

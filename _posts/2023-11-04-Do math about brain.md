@@ -8,6 +8,9 @@ values:
   comments: true
   share: true
   related: true
+toc: true
+toc_sticky: true
+toc_label: "Math on Mind"
 ---  
 
 # Can Mathematics Understand the Brain?

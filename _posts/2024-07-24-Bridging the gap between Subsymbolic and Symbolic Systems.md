@@ -9,6 +9,9 @@ values:
   share: true
   related: true
   title: false
+toc: true
+toc_sticky: true
+toc_label: "Between Symbol and Sub-symbol"
 ---
 
 # Bridging the Gap Between Sub-symbolic and Symbolic Systems

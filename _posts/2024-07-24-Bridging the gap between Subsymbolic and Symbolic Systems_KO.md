@@ -8,6 +8,9 @@ values:
   comments: true
   share: true
   related: true
+toc: true
+toc_sticky: true
+toc_label: "기호의 경계를 넘나들며"
 ---
 
 # 기호의 경계를 넘나들며

@@ -8,6 +8,9 @@ values:
   comments: true
   share: true
   related: true
+toc: true
+toc_sticky: true
+toc_label: "History of Embodied Cognition"
 ---  
 
 # 체화된 인지
