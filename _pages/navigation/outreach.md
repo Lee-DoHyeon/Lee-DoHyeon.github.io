@@ -15,6 +15,17 @@ toc_label: "OUTREACH"
 ### Organizational Leadership
 
 ---
+<div style="display: flex;">
+  <div style="flex: 4; padding-right: 10px;">
+    <p>
+      As the 34th Undergraduate President and the 35th Head of Planning at POSTECH Mathematics Student Council, I demonstrated strong organizational leadership. I effectively managed remote interactions and <a href="https://drive.google.com/file/d/1jYPhNrWqCqZ4FAHdCycUK69WGGhWHxwn/view?usp=sharing"><strong>Student Mentoring Programs</strong></a> during the COVID-19 pandemic, ensuring continuous support and engagement. Additionally, I successfully administered the <a href="https://drive.google.com/file/d/1Vf1Um33n0Rn3QW1echOy4iS7DZs5SqMg/view?usp=sharing"><strong>Conversation with Global Senior Alumni program</strong></a>, fostering valuable connections and insights. In recognition of these efforts, I was honored to receive the <a href="https://drive.google.com/file/d/1vKYyobPUat6Gw6geiqLJghQQKvx9pU_4/view?usp=sharing"><strong>Volunteering Award</strong></a> from the department.
+    </p>
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/images/Outreach/2021VoluteeringAward.png" alt="Volunteering Award by Department of Mathematics" style="width: 100%;">
+  </div>
+</div>
+
 
 <div style="display: flex;">
   <div style="flex: 2;">
@@ -30,7 +41,7 @@ toc_label: "OUTREACH"
 <div style="display: flex;">
   <div style="flex: 7; padding-right: 10px;">
     <p>
-      Currently serving as the Vice-President of the Korean Association for Consciousness Sciences since 2022, I have taken the initiative to establish and operate the <a href="https://leadohyeon.notion.site/6526475120dd4f4583fb55fb7b5e71ef?pvs=4"><strong>'Brain-Mind-Behavior' program</strong></a>. In this capacity, I am actively involved in organizing and overseeing programs, including a <a href="https://youtube.com/playlist?list=PLBan6Afp0tlTxmfm83MkMnW1vOt1k3Ic2&si=nxtGxp3m5ZXzfkKn"><strong>theory study club</strong></a> and a <a href="https://youtube.com/playlist?list=PLBan6Afp0tlTPZ_bE8VyHzyCy4EVRFv4b&si=Azf6sgAu3-oAnZKS"><strong>media club</strong></a>. These leadership roles showcase my dedication to not only operating but also enriching and invigorating these organizations.
+      Currently serving as the Vice-President of the Korean Association for Consciousness Sciences since 2022, I established and operate the '<a href="https://leadohyeon.notion.site/6526475120dd4f4583fb55fb7b5e71ef?pvs=4"><strong>'Brain-Mind-Behavior'</strong></a>' program, organizing a <a href="https://youtube.com/playlist?list=PLBan6Afp0tlTxmfm83MkMnW1vOt1k3Ic2&si=nxtGxp3m5ZXzfkKn"><strong>theory study club</strong></a> and a <a href="https://youtube.com/playlist?list=PLBan6Afp0tlTPZ_bE8VyHzyCy4EVRFv4b&si=Azf6sgAu3-oAnZKS"><strong>media club</strong></a>. These roles highlight my dedication to enriching these organizations. Recently, I also collaborated with the Korean Society for Neurophilosophy to host seminars with professors in philosophy, neurology, and psychiatry.
     </p>
   </div>
   <div style="flex: 3;">
@@ -43,55 +54,29 @@ toc_label: "OUTREACH"
 ---
 
 <div style="display: flex;">
-  <div style="flex: 1;">
-    <img src="/assets/images/Outreach/MAI.png" alt="Mathematics for AI" style="width: 100%;">
+  <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
+    <img src="/assets/images/Outreach/MAI.png" alt="Mathematics for AI" style="width: 70%;">
   </div>
-  <div style="flex: 1; padding-left: 10px;">
-    <img src="/assets/images/Outreach/PAI.png" alt="Philosophy for AI" style="width: 100%;">
+  <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
+    <img src="/assets/images/Outreach/PAI.png" alt="Philosophy for AI" style="width: 70%;">
   </div>
 </div>
 
 As a Content Creator, I played a vital role in crafting educational materials for '**[Mathematics for AI](https://youtube.com/playlist?list=PLfWS6_PaCSutSAC7Vu8VHS2uc594cQigv&si=PUY67hIfze3kvEeO)**' in 2021 and '**[Philosophy of AI](https://youtube.com/playlist?list=PLfWS6_PaCSusXxpOxUSs6ONTln3pHWALy&si=xhr-Y8JY3Y6_xmuw)**' in 2022 at the Innovation Center for Education. Additionally, I actively mentored students in Calculus I, Linear Algebra, and its Application throughout Mar 2020 - Jun 2020, Sep 2020 - Dec 2020, and Mar 2021 - Jun 2021.
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image and Text Layout</title>
-    <style>
-        .container {
-            display: flex;
-        }
-        .image-container {
-            flex: 1;
-            padding: 5px;
-        }
-        .text-container {
-            flex: 8;
-            padding: 5px;
-        }
-        .image {
-            width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="image-container">
-            <img src="/assets/images/Outreach/PSSC_Peking.png" alt="POSTECH x Peking" class="image">
-        </div>
-        <div class="image-container">
-            <img src="/assets/images/Outreach/PSSC_SummerSchool.png" alt="POSTECH x NIMS" class="image">
-        </div>
-        <div class="text-container">
-            <p>
-                My commitment extended to organizational tasks, where I took a lead in coordinating the <a href="https://minds.postech.ac.kr/conference-workshop/postech-peking-joint-siam-student-chapter-conference-2021/"><strong>POSTECH-Peking University Joint SIAM Student Chapter Conference</strong></a>(Apr 2021) and organizing the <a href="https://minds.postech.ac.kr/postechstudentchapter/summerschool2021/"><strong>POSTECH SIAM Student Chapter Summer School on 'Anomaly Detection: Random Cut Forest'</strong></a>(Jul 2021).
-            </p>
-        </div>
-    </div>
-</body>
-</html>
+<div style="display: flex;">
+  <div style="flex: 1; padding-right: 10px;">
+    <img src="/assets/images/Outreach/PSSC_Peking.png" alt="POSTECH x Peking" style="width: 100%;">
+  </div>
+  <div style="flex: 1; padding-right: 10px;">
+    <img src="/assets/images/Outreach/PSSC_SummerSchool.png" alt="POSTECH x NIMS" style="width: 100%;">
+  </div>
+  <div style="flex: 4; padding-left: 10px;">
+    <p>
+      My commitment extended to organizational tasks, where I took a lead in coordinating the <a href="https://minds.postech.ac.kr/conference-workshop/postech-peking-joint-siam-student-chapter-conference-2021/"><strong>POSTECH-Peking University Joint SIAM Student Chapter Conference</strong></a>(Apr 2021) and organizing the <a href="https://minds.postech.ac.kr/postechstudentchapter/summerschool2021/"><strong>POSTECH SIAM Student Chapter Summer School on 'Anomaly Detection: Random Cut Forest'</strong></a>(Jul 2021).
+    </p>
+  </div>
+</div>
 
 ### Writing and Translation
 
