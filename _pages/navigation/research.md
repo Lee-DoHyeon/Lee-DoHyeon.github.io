@@ -23,7 +23,7 @@ header:
         .caption {
             color: #888888;
             font-size: 14px;
-            text-align: center;
+            text-align: left;
         }
     </style>
 </head>
