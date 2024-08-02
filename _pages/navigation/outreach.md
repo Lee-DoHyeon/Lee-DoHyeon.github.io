@@ -60,11 +60,12 @@ As a Content Creator, I played a vital role in crafting educational materials fo
             display: flex;
         }
         .image-container {
-            flex: 1;
+            flex: 2;
+            margin: 10px;
         }
         .text-container {
-            flex: 8;
-            padding-left: 10px;
+            flex: 6;
+            margin: 10px;
         }
         .image {
             width: 100%;

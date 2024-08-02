@@ -22,19 +22,22 @@ title: false
         margin: 50px auto;
         padding: 20px;
     }
-    .quote {
-        font-size: 1.0em;
-        font-style: italic;
-        color: #555;
-        margin-bottom: 20px;
-        border-left: 4px solid #ddd;
-        padding-left: 10px;
-    }
-    .quote span {
-        display: block;
+    .quote-container {
+            text-align: center;
+            font-size: 1.0em;
+            font-style: italic;
+            color: #555;
+            margin-bottom: 20px;
+            border-left: 4px solid #ddd;
+            padding-left: 10px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    .quote-source {
         text-align: right;
         font-size: 0.9em;
-        color: #888;
+        margin-top: 10px;
+        color: #777;
     }
     .section-title {
         font-size: 1.5em;
@@ -51,9 +54,16 @@ title: false
 </head>
 <body>
 <div class="container">
-    <div class="quote">
-        "Your beliefs become your thoughts, your thoughts become your words, your words become your actions, your actions become your habits, your habits become your values, and your values become your destiny."
-        <span>- Gandhi (Uncertain)</span>
+    <div class="quote-container">
+        <p>Your beliefs become your thoughts<br>
+        your thoughts become your words<br>
+        your words become your actions<br>
+        your actions become your habits<br>
+        your habits become your values<br>
+        and your values become your destiny.</p>
+        <div class="quote-source">
+            attributed to Gandhi (uncertain)
+        </div>
     </div>
     
     <div class="section-title">About Me</div>
@@ -79,6 +89,3 @@ title: false
         <h5>(2-2) Formation of Symbolic Systems: Theorizing how symbolic systems emerge from sub-symbolic systems like neural networks. Suggesting responsible language models, while discovering new methods to evaluate AI model stability.</h5>
         <h5>(2-3) Biological Complexity and Useful Initial Points: Proposing AI models inspired by evolutionary psychology, challenging the <i>Tabula Rasa</i> paradigm by considering biological complexity in learning.</h5>
     </div>
-</div>
-</body>
-</html>
