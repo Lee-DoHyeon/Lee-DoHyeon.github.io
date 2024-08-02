@@ -26,7 +26,6 @@ title: false
             text-align: center;
             font-size: 1.0em;
             font-style: italic;
-            color: #555;
             margin-bottom: 20px;
             border-left: 4px solid #ddd;
             padding-left: 10px;
@@ -37,18 +36,17 @@ title: false
         text-align: right;
         font-size: 0.9em;
         margin-top: 10px;
-        color: #777;
     }
     .section-title {
         font-size: 1.5em;
         margin-bottom: 10px;
-        color: #444;
     }
-    .sub-section {
-        margin-bottom: 20px;
+    .first-word {
+            font-size: 1.2em;
+            font-weight: bold;
     }
-    h3 {
-        color: #555;
+    .bold {
+        font-weight: bold;
     }
 </style>
 </head>
@@ -70,22 +68,10 @@ title: false
     <p>I am Do-Hyeon Lee, a <a href="https://www.rond.or.kr/CmsHome/MainDefault.aspx"><strong>Research Officer for National Defense</strong></a>. I am currently assigned to the Defense AI Center, a subsidiary of the <a href="https://www.add.re.kr/eps"><strong>Agency for Defense Development</strong></a> in South Korea (Jun 2022 - May 2025). After earning my B.S. degree in Mathematics from <a href="https://www.postech.ac.kr/eng/"><strong>POSTECH</strong></a> in February 2022, I have been dedicated to developing cutting-edge intelligent weapon systems, particularly focusing on <em>anti-submarine</em> and <em>subterranean</em> operations. I am currently preparing for graduate school to further deepen and expand my research.</p>
     
     <div class="section-title">Research Introduction</div>
-    <p>My research aims to develop a comprehensive formal framework to understand the mind, brain, and behavior of humans and animals. This framework seeks to explain, predict, and control various mental phenomena. I aim to understand previously unexplained phenomena and contribute to the development of theory-driven human-level intelligent machines. To achieve this, I combine: (1)Knowledge from the history of cybernetics, philosophy of mind, and neuro-philosophy, (2)mathematical data analysis methods using probabilistic inference, optimal control theory and graph theory, (3)modeling with statistical mechanics and complex systems physics, (4)applications of reinforcement learning, world models, and robotics.
-    
-    <div class="section-title">Research Details</div>
-    <p>My research covers various topics and analyzes multiple principles to propose an integrated theory. This helps to understand unexplained phenomena and design intelligent machines for humans and animals:
-    
-    <div class="sub-section">
-        <h4>(1) Unified Framework for Body-Mind-Behavior</h4>
-        <p>Analyzing principles such as the free energy principle, inductive bias principle, and data compression principle to create a unified framework unveiling unexplained phenomenon:</p>
-        <h5>(1-1) Consciousness Phenomena: Formalizing and comparing theories like the global neural workspace theory, attention schema theory, and predictive coding theory to propose new ones, implementing simulation models.</h5>
-        <h5>(1-2) Hypnosis Phenomena: Developing predictive coding theories and substance-based experiments, proposing theories on the effects and principles of languages, and implementing simulation models.</h5>
-    </div>
-    
-    <div class="sub-section">
-        <h4>(2) Theory-Driven Algorithm and Device Design</h4>
-        <p>Designing AI models and computing devices based on neuroscience, psychology, and cognitive science theories:</p>
-        <h5>(2-1) Optimization with Limited Resources: Suggesting AI models and computing devices based on theories explaining effective attention and decision-making with limited resources (time, energy).</h5>
-        <h5>(2-2) Formation of Symbolic Systems: Theorizing how symbolic systems emerge from sub-symbolic systems like neural networks. Suggesting responsible language models, while discovering new methods to evaluate AI model stability.</h5>
-        <h5>(2-3) Biological Complexity and Useful Initial Points: Proposing AI models inspired by evolutionary psychology, challenging the <i>Tabula Rasa</i> paradigm by considering biological complexity in learning.</h5>
-    </div>
+    <p><span class="first-word">My</span> research aims to develop a comprehensive formal framework to understand the <span class="bold">mind</span>, <span class="bold">brain</span>, and <span class="bold">behavior</span> of humans and animals. This framework seeks to explain, predict, and control various mental phenomena. By doing so, I aim to understand previously unexplained phenomena and contribute to the development of theory-driven human-level intelligent machines.</p>
+    <p><span class="first-word">First,</span> my research focuses on <span class="bold">theoretical algorithm and device design</span> for human-level intelligent machines. These designs are based on insights from neuroscience, psychology, and cognitive science, derived from organisms that have successfully survived with limited resources such as time and energy. Primarily, I am interested in proposing <span class="bold">AI models</span> and <span class="bold">computing devices</span> that mimic human mechanisms of <span class="bold">attention</span> and <span class="bold">decision-making</span>. This exploration seeks to uncover the potential for energy-efficient and rapid intelligent algorithms. Furthermore, I am deeply interested in how <span class="bold">symbolic systems</span> like <span class="bold">language</span> and <span class="bold">mathematics</span> emerge from subsymbolic systems such as neural networks. This includes proposing responsible language models and discovering new methods to evaluate AI model stability. Lastly, I propose AI models inspired by <span class="bold">evolutionary psychology</span>, challenging the traditional <span class="bold">Tabula Rasa</span> paradigm and emphasizing the importance of biological complexity in the learning process.</p>
+    <p><span class="first-word">Additionally,</span> I am dedicated to developing a <span class="bold">unified framework</span> for the mind-brain-behavior connection. This involves analyzing principles such as the <span class="bold">free energy principle</span>, <span class="bold">inductive bias principle</span>, and <span class="bold">data compression principle</span>. This approach plays a crucial role in incorporating previously unexplained phenomena into the scientific domain. For example, to investigate <span class="bold">consciousness</span>, I formalize and compare existing theories like the <span class="bold">global neural workspace theory</span>, <span class="bold">attention schema theory</span>, and <span class="bold">predictive coding theory</span>. Through these comparisons, I propose new theories and plan more extensive research by implementing simulations. Furthermore, to explore <span class="bold">hypnosis</span>, I analyze existing predictive coding theories and conduct substance-based experiments. I also connect theories on the effects and principles of language to propose new theories and develop simulation models, thereby enriching the research.</p>
+    <p><span class="first-word">To</span> achieve these goals, I combine: (1) knowledge from the <span class="bold">history of cybernetics</span>, <span class="bold">philosophy of mind</span>, and <span class="bold">neuro-philosophy</span>; (2) mathematical data analysis methods using <span class="bold">probabilistic inference</span>, <span class="bold">optimal control theory</span>, and <span class="bold">graph theory</span>; (3) modeling with <span class="bold">statistical mechanics</span> and <span class="bold">complex systems physics</span>; (4) applications of <span class="bold">reinforcement learning</span>, <span class="bold">world models</span>, and <span class="bold">robotics</span>.</p>
+    <p><span class="first-word">In</span> conclusion, my research aims to bridge the gap between theoretical principles and practical applications, providing a comprehensive understanding of complex phenomena and contributing to the advancement of intelligent machine design.</p>
+</body>
+</html>
