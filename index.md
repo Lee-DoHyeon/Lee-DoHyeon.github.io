@@ -63,7 +63,7 @@ title: false
             attributed to Gandhi
         </div>
     </div>
-    <br> </br>
+    <br>
     <div class="section-title">About Me</div>
     <p>I am Do-Hyeon Lee, a <a href="https://www.rond.or.kr/CmsHome/MainDefault.aspx"><strong>Research Officer for National Defense</strong></a>. I am currently assigned to the Defense AI Center, a subsidiary of the <a href="https://www.add.re.kr/eps"><strong>Agency for Defense Development</strong></a> in South Korea (Jun 2022 - May 2025). After earning my B.S. degree in Mathematics from <a href="https://www.postech.ac.kr/eng/"><strong>POSTECH</strong></a> in February 2022, I have been dedicated to developing cutting-edge intelligent weapon systems, particularly focusing on <em>anti-submarine</em> and <em>subterranean</em> operations. I am currently preparing for graduate school to further deepen and expand my research.</p>
     <div class="section-title">Research Introduction</div>
