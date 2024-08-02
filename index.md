@@ -53,8 +53,8 @@ title: false
 <body>
 <div class="container">
     <div class="quote-container">
-        <p>Your beliefs become your thoughts<br>
-        "your thoughts become your words,<br>
+        <p>"Your beliefs become your thoughts,<br>
+        your thoughts become your words,<br>
         your words become your actions,<br>
         your actions become your habits,<br>
         your habits become your values,<br>
