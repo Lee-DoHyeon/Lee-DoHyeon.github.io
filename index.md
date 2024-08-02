@@ -56,13 +56,13 @@ title: false
 <div class="container">
     <div class="quote-container">
         <p>Your beliefs become your thoughts<br>
-        your thoughts become your words<br>
-        your words become your actions<br>
-        your actions become your habits<br>
-        your habits become your values<br>
-        and your values become your destiny.</p>
+        "your thoughts become your words,<br>
+        your words become your actions,<br>
+        your actions become your habits,<br>
+        your habits become your values,<br>
+        and your values become your destiny."</p>
         <div class="quote-source">
-            attributed to Gandhi (uncertain)
+            attributed to Gandhi
         </div>
     </div>
     
