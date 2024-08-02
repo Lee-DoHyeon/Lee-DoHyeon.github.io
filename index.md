@@ -31,6 +31,7 @@ title: false
             padding-left: 10px;
             max-width: 600px;
             margin: 0 auto;
+            font-weight: bold;
         }
     .quote-source {
         text-align: right;
@@ -38,7 +39,7 @@ title: false
         margin-top: 10px;
     }
     .section-title {
-        font-size: 1.5em;
+        font-size: 1.1em;
         margin-bottom: 10px;
     }
     .first-word {
@@ -64,7 +65,5 @@ title: false
         </div>
     </div>
     <br>
-    <div class="section-title">About Me</div>
-    <p>I am Do-Hyeon Lee, a <a href="https://www.rond.or.kr/CmsHome/MainDefault.aspx"><strong>Research Officer for National Defense</strong></a>. I am currently assigned to the Defense AI Center, a subsidiary of the <a href="https://www.add.re.kr/eps"><strong>Agency for Defense Development</strong></a> in South Korea (Jun 2022 - May 2025). After earning my B.S. degree in Mathematics from <a href="https://www.postech.ac.kr/eng/"><strong>POSTECH</strong></a> in February 2022, I have been dedicated to developing cutting-edge intelligent weapon systems, particularly focusing on <em>anti-submarine</em> and <em>subterranean</em> operations. I am currently preparing for graduate school to further deepen and expand my research.</p>
-    <div class="section-title">Research Introduction</div>
+    <p>Hi there 👋 I am Do-Hyeon Lee from South Korea🇰🇷, a <a href="https://www.rond.or.kr/CmsHome/MainDefault.aspx"><strong>Research Officer for National Defense</strong></a>. I am currently assigned to the Defense AI Center, a subsidiary of the <a href="https://www.add.re.kr/eps"><strong>Agency for Defense Development</strong></a>. After earning my B.S. degree in Mathematics from <a href="https://www.postech.ac.kr/eng/"><strong>POSTECH</strong></a> in February 2022, I have been dedicated to developing cutting-edge intelligent weapon systems, particularly focusing on <em>anti-submarine</em> and <em>subterranean</em> operations. I am currently preparing for graduate school to further deepen and expand my research.</p>
     My research aims to develop a comprehensive formal framework to understand the <span class="bold">mind</span>, <span class="bold">behavior</span>, and <span class="bold">brain</span> of humans and animals. This framework seeks to explain, predict, and control various mental phenomena. By doing so, I aim to understand previously <span class="bold">unexplained phenomena such as consciousness & hypnosis</span> and contribute to the development of <span class="bold">theory-driven human-level intelligent machines</span>. <span style="color: #888888;">For more information, please refer to the <a href="https://lee-dohyeon.github.io/research/" style="color: #888888;"><strong>RESEARCH</strong></a> page.</span>
