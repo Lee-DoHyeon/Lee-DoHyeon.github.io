@@ -121,7 +121,7 @@ toc_label: "OUTREACH"
   </div>
   <div style="flex: 8; padding-right: 10px;">
     <p>
-      In 2021, I participated in the Korea SW Convergence Hackathon to address the health issues of isolated disabled individuals during the COVID-19 pandemic. Over a span of 24 hours, I developed software utilizing artificial intelligence to provide precise posture correction at home. This experience highlighted the crucial role of advanced technology in aiding socially marginalized groups. For this contribution, I was honored with the Daejeon Mayor's Award(<a href=""><strong>article</strong></a>).
+      In 2021, I participated in the Korea SW Convergence Hackathon to address the health issues of isolated disabled individuals during the COVID-19 pandemic. Over a span of 24 hours, I developed software utilizing artificial intelligence to provide precise posture correction at home. This experience highlighted the crucial role of advanced technology in aiding socially marginalized groups. For this contribution, I was honored with the Daejeon Mayor's Award(<a href="https://www.kbmaeil.com/news/articleView.html?idxno=912862"><strong>article</strong></a>).
     </p>
   </div>
 </div>
