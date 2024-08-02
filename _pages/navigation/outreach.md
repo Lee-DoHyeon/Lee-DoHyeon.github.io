@@ -1,5 +1,5 @@
 ---
-title: "Outreach"
+title: false
 permalink: /outreach/
 layout: single
 header:
