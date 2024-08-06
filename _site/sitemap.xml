@@ -1,79 +1,214 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>http://localhost:4000/Brain,-Mind,-and-AI/</loc>
-<lastmod>2023-09-23T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/Find-a-missing-submarine/</loc>
-<lastmod>2023-11-01T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/Siddhartha/</loc>
-<lastmod>2023-11-01T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/DeepMind/</loc>
-<lastmod>2023-11-02T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/Do-math-about-brain/</loc>
-<lastmod>2023-11-04T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/The-Science-of-Emotions/</loc>
-<lastmod>2023-11-23T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/AI,-Robot,-and-Consciousness/</loc>
-<lastmod>2023-12-14T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/Embodied-Cognition/</loc>
-<lastmod>2023-12-20T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/Mathematician-of-Mind/</loc>
-<lastmod>2023-12-28T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/Schmidhuber-and-Conscious-Machine/</loc>
-<lastmod>2024-07-20T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/Karl-Popper&apos;s-Worlds-1,-2,-and-3/</loc>
-<lastmod>2024-07-21T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/Toward-Unified-Science-of-Mind-Brain-Behavior/</loc>
-<lastmod>2024-07-23T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/Bridging-the-gap-between-Subsymbolic-and-Symbolic-Systems/</loc>
-<lastmod>2024-07-24T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/categories/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/cv/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/outreach/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/read/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/research/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/tags/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/watch/</loc>
-</url>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <url>
+        <loc>http://localhost:4000/Bridging-the-gap-between-Subsymbolic-and-Symbolic-Systems/</loc>
+        
+        <lastmod>2024-07-24T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/Toward-Unified-Science-of-Mind-Brain-Behavior/</loc>
+        
+        <lastmod>2024-07-23T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/Karl-Popper's-Worlds-1,-2,-and-3/</loc>
+        
+        <lastmod>2024-07-21T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/Schmidhuber-and-Conscious-Machine/</loc>
+        
+        <lastmod>2024-07-20T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/Mathematician-of-Mind/</loc>
+        
+        <lastmod>2023-12-28T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/Embodied-Cognition/</loc>
+        
+        <lastmod>2023-12-20T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/AI,-Robot,-and-Consciousness/</loc>
+        
+        <lastmod>2023-12-14T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/The-Science-of-Emotions/</loc>
+        
+        <lastmod>2023-11-23T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/Do-math-about-brain/</loc>
+        
+        <lastmod>2023-11-04T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/DeepMind/</loc>
+        
+        <lastmod>2023-11-02T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/Siddhartha/</loc>
+        
+        <lastmod>2023-11-01T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/Find-a-missing-submarine/</loc>
+        
+        <lastmod>2023-11-01T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/Brain,-Mind,-and-AI/</loc>
+        
+        <lastmod>2023-09-23T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
 </urlset>
