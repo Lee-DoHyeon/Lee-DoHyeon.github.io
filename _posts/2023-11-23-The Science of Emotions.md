@@ -11,10 +11,12 @@ values:
 toc: true
 toc_sticky: true
 toc_label: "Science of Emotion"
----  
+tags: [Emotion, Neuroscience]
+---
 
 # The Science of Emotions
->What would we feel without emotions? It would be empty. 과학은 왜Why라는 질문에 답하지 않는다. 어떻게How라는 질문에 답할 뿐이다.  
+
+> What would we feel without emotions? It would be empty. 과학은 왜Why라는 질문에 답하지 않는다. 어떻게How라는 질문에 답할 뿐이다.
 
 ![The Science of Emotions](https://youtu.be/65e2qScV_K8?si=M4j_LW3cNept473r)
 
@@ -24,15 +26,15 @@ toc_label: "Science of Emotion"
 
 닭, 개, 고양이 등 다양한 동물들 또한 감정을 지니고 있음이 밝혀지고 있다. 특히 **원시적인 감정**들은 사람이 사고하거나 계획할 때 작동하는 *대뇌 피질Cerebral Cortex*이 아닌, 아주 고대의 뇌 구조에서 발생한다는 것이 밝혀졌다.
 
-***↔ 타자의 마음 문제에 대해 어떻게 해결하려고 하는가?***
+**_↔ 타자의 마음 문제에 대해 어떻게 해결하려고 하는가?_**
 
 ### 2. 원시적 감정
 
-→동물에게는 질적으로 다른 원시적인 감정들이 있다. 이들에 대한 정동적 감정의 일상적 표현들은 다음과 같다.  
+→동물에게는 질적으로 다른 원시적인 감정들이 있다. 이들에 대한 정동적 감정의 일상적 표현들은 다음과 같다.
 
 <p align="center">
     <img src = "/assets/images/231123/231123_0.png">
-</p>  
+</p>
 
 ### 3. 두뇌의 아편
 

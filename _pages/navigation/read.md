@@ -1,6 +1,6 @@
 ---
-title: "Posts by Year"
+title: "Posts by Tag"
 permalink: /read/
-layout: posts
-author_profile: true
+layout: tags
+author_profile: False
 ---

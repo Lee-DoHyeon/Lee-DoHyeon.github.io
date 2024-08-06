@@ -8,9 +8,11 @@ values:
   comments: true
   share: true
   related: true
+title: false
 toc: true
 toc_sticky: true
 toc_label: "Schmidhuber's Consciousness"
+tags: [AI, Consciousness, World Models, Predictive Coding]
 ---
 
 # Schmidhuber and Conscious Machine

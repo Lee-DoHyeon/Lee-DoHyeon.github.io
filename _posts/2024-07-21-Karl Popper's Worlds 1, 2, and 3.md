@@ -8,9 +8,11 @@ values:
   comments: true
   share: true
   related: true
+title: false
 toc: true
 toc_sticky: true
 toc_label: "Popper's 3 Worlds"
+tags: [Consciousness, Philosophy of Mind]
 ---
 
 # Karl Popper's Worlds 1, 2, and 3

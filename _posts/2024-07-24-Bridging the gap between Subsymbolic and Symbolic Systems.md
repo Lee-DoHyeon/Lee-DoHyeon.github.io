@@ -8,10 +8,11 @@ values:
   comments: true
   share: true
   related: true
-  title: false
+title: false
 toc: true
 toc_sticky: true
 toc_label: "Between Symbol and Sub-symbol"
+tags: [Beliefs, Language, Symbolic Systems]
 ---
 
 # Bridging the Gap Between Sub-symbolic and Symbolic Systems

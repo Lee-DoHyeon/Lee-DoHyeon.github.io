@@ -11,7 +11,8 @@ values:
 toc: true
 toc_sticky: true
 toc_label: "History of Embodied Cognition"
----  
+tags: [Philosophy of Mind, Cognitive Science]
+---
 
 # 체화된 인지
 
@@ -22,68 +23,47 @@ toc_label: "History of Embodied Cognition"
 ## 1 20세기의 인지과학
 
 > “마음에 대한 철학적 탐구 이어 받기”
-> 
 
 ### 1.1 인지과학 탄생 이전
 
-16, 17세기 유럽의 과학혁명 이후, 모학문인 철학으로부터 각기 독립하여 여러 과학 분야를 형성하게 되었다. 이러한 흐름을 이어 받아 19세기의 학자들 중에는 마음의 문제까지도 직관적 논리적 분석을 넘어 객관적 실험 중심의 경험 과학적 근거에 의하여 탐구할 수 있는 가능성을 모색하려는 이들이 있었다. 
+16, 17세기 유럽의 과학혁명 이후, 모학문인 철학으로부터 각기 독립하여 여러 과학 분야를 형성하게 되었다. 이러한 흐름을 이어 받아 19세기의 학자들 중에는 마음의 문제까지도 직관적 논리적 분석을 넘어 객관적 실험 중심의 경험 과학적 근거에 의하여 탐구할 수 있는 가능성을 모색하려는 이들이 있었다.
 
 - 1870년대 - 빌헬름 분트(Wilhelm Wundt), 심리학을 독립된 경험과학으로 출발; ‘실험 생리적 심리학’
-    
-    → 약 30년 간 심리학은 마음의 주관적 체험으로써의 의식의 분석 측면을 강조함.
-    
-    → 의식 내용에 대한 개인의 주관적 보고를 분석하는 방법의 체계화에 초점을 둠.
-    
-    → 철학의 전통인 “직관적 내성법Introspection”을 과학적 심리학의 방법론으로 가다듬어 체계화함.
-    
-    ; **구조주의(구성주의)** + **내성법의 방법론**
-    
+  → 약 30년 간 심리학은 마음의 주관적 체험으로써의 의식의 분석 측면을 강조함.
+  → 의식 내용에 대한 개인의 주관적 보고를 분석하는 방법의 체계화에 초점을 둠.
+  → 철학의 전통인 “직관적 내성법Introspection”을 과학적 심리학의 방법론으로 가다듬어 체계화함.
+  ; **구조주의(구성주의)** + **내성법의 방법론**
 - 20세기 초 - 왓슨(Watson, J. B.), 구조주의 비판 및 경험주의적 행동주의 심리학의 틀 출발
-    
-    → 구조주의는 실증주의적 객관적 과학의 틀에서 벗어난 것이라고 비판함.
-    
-    → 철학의 논리실증주의에 강하게 영향을 받아, 객관적으로 관찰 가능한 것만 다루고자 함.
-    
-    → 심성적mental 개념들은 배척, 행동만을 대상으로 삼음.
-    
-    → 조건형성(Conditioning) 과정으로 동물과 인간의 행동을 기술하려 함.
-    
-    →스키너(B. F. Skinner)는 인간 언어와 사고 영역까지 설명하려고 함.
-    
-    ; **행동주의** + **조건형성의 방법론** (~1950)
-    
+  → 구조주의는 실증주의적 객관적 과학의 틀에서 벗어난 것이라고 비판함.
+  → 철학의 논리실증주의에 강하게 영향을 받아, 객관적으로 관찰 가능한 것만 다루고자 함.
+  → 심성적mental 개념들은 배척, 행동만을 대상으로 삼음.
+  → 조건형성(Conditioning) 과정으로 동물과 인간의 행동을 기술하려 함.
+  →스키너(B. F. Skinner)는 인간 언어와 사고 영역까지 설명하려고 함.
+  ; **행동주의** + **조건형성의 방법론** (~1950)
 - 1950년대 후반 - 인지혁명cognitive revolution(a.k.a. 20세기의 과학혁명)
-    
-    → 행동주의가 심리학에서 마음 개념을 축출한 것을 비판함.
-    
-    → 인간 자신, 동물, 컴퓨터, 인간문화체계 등에 대한 새로운 패러다임
-    
-    ; **고전적 인지주의Cognitivism** + **정보처리적 접근방식** ← “인지과학”의 발생
+  → 행동주의가 심리학에서 마음 개념을 축출한 것을 비판함.
+  → 인간 자신, 동물, 컴퓨터, 인간문화체계 등에 대한 새로운 패러다임
+  ; **고전적 인지주의Cognitivism** + **정보처리적 접근방식** ← “인지과학”의 발생
     <p align="center">
     <img src = "/assets/images/231220/1.png">
-    </p> 
+    </p>
 
 ### 1.2 인지주의, 인지과학의 특성과 의의
 
 <p align="center">
     <img src = "/assets/images/231220/2.png"> 
-</p> 
+</p>
 
 - 인지주의 패러다임: ‘마음’ $\sim$ ‘컴퓨터’ $\sim$ ‘정보처리 체계(Information Processing Paradigm: IPS)’
-    
-    ⇒ 인간과 동물의 마음에서 그리고 컴퓨터에서 각종 정보처리가 어떻게 일어나며, 그러한 정보처리를 통해서 마음또는 지知(능)가 어떻게 가능하게 되고 구현되는가?
-    
-    → “知란 마음의 작용에서 비롯되는 것이므로 인지과학은 마음의 과학(Science of Mind)이 된다.”
-    
-    1) 마음(Mind), 2) 두뇌(Brain), 3) 컴퓨터(Computer), 4) 인공물(Artifact)
-    
-    **주요 특징들**
-    
-    1. ‘마음’ $\sim$ ‘컴퓨터’ $\sim$ ‘정보처리 체계(Information Processing Paradigm: IPS)’
-    2. 마음의 **과정**은 정보의 처리, 변환이라는 **계산주의적 관점Computationalism**이다.
-    3. 마음의 **내용**은 지향적 대상의 표상으로 이루어진다는 **표상주의Representationalism**다.
-    4. 마음은 **뇌**의 신경적 상태에 기초한다는 **신경과학적 기반**의 강조이다. (그러나 HW/SW의 분리)
-    5. 마음의 **탐구**는 여러 학문들의 수렴에 의하여 가능하다; **수렴(융합)적** 접근의 강조이다.
+  ⇒ 인간과 동물의 마음에서 그리고 컴퓨터에서 각종 정보처리가 어떻게 일어나며, 그러한 정보처리를 통해서 마음또는 지知(능)가 어떻게 가능하게 되고 구현되는가?
+  → “知란 마음의 작용에서 비롯되는 것이므로 인지과학은 마음의 과학(Science of Mind)이 된다.”
+  1. 마음(Mind), 2) 두뇌(Brain), 3) 컴퓨터(Computer), 4) 인공물(Artifact)
+     **주요 특징들**
+  1. ‘마음’ $\sim$ ‘컴퓨터’ $\sim$ ‘정보처리 체계(Information Processing Paradigm: IPS)’
+  1. 마음의 **과정**은 정보의 처리, 변환이라는 **계산주의적 관점Computationalism**이다.
+  1. 마음의 **내용**은 지향적 대상의 표상으로 이루어진다는 **표상주의Representationalism**다.
+  1. 마음은 **뇌**의 신경적 상태에 기초한다는 **신경과학적 기반**의 강조이다. (그러나 HW/SW의 분리)
+  1. 마음의 **탐구**는 여러 학문들의 수렴에 의하여 가능하다; **수렴(융합)적** 접근의 강조이다.
 
 ### 1.3 인지과학과 학문 간 연결, 수렴, 융합
 
@@ -99,17 +79,17 @@ toc_label: "History of Embodied Cognition"
 ### 2.1 **이정모의 분류**
 
 - 1단계; 1950년대~1980년대 전반
-    - 마음을 제거하였던 행동주의의 반심성주의(Anti-Mentalism)에서 탈피
-    - 마음을 디지털 컴퓨터 유추에 바탕을 둔 **물리적 기호 체계**(Physical Symbol System)로 개념화
+  - 마음을 제거하였던 행동주의의 반심성주의(Anti-Mentalism)에서 탈피
+  - 마음을 디지털 컴퓨터 유추에 바탕을 둔 **물리적 기호 체계**(Physical Symbol System)로 개념화
 - 2단계; 1980년대 이래
-    - 컴퓨터 은유 중심의 고전적 정보처리 접근의 이론적 개념화에 한계를 느낌.
-    - 뇌 은유 중심의 **신경망 연결주의** 접근에 의하여 상징이하(Subsymbolic) 체계의 계산주의를 제시함.
+  - 컴퓨터 은유 중심의 고전적 정보처리 접근의 이론적 개념화에 한계를 느낌.
+  - 뇌 은유 중심의 **신경망 연결주의** 접근에 의하여 상징이하(Subsymbolic) 체계의 계산주의를 제시함.
 - 3단계; 1990년대 이후
-    - 뇌 영상 기법을 비롯한 **인지신경과학** 연구기법의 급격한 발전으로 뇌 기능의 중요성을 재발견함.
-    - 인지과학의 마음에 대한 접근을 신경과학의 기초 위에 놓으려고 했다.
+  - 뇌 영상 기법을 비롯한 **인지신경과학** 연구기법의 급격한 발전으로 뇌 기능의 중요성을 재발견함.
+  - 인지과학의 마음에 대한 접근을 신경과학의 기초 위에 놓으려고 했다.
 - 4단계; 1980년대 후반, 21세기 초
-    - **몸과 환경 맥락의 역할을 강조하는 변혁**
-    - 인간의 마음이 물리적, 사회적 환경 맥락에 적응하는 순간 순간적 상호작용 신체적 행위 활동 상에서 비로소 존재하게 되는 인지다.
+  - **몸과 환경 맥락의 역할을 강조하는 변혁**
+  - 인간의 마음이 물리적, 사회적 환경 맥락에 적응하는 순간 순간적 상호작용 신체적 행위 활동 상에서 비로소 존재하게 되는 인지다.
 
 ### 2.2 **Evan Thompson의 분류**
 
@@ -135,7 +115,6 @@ toc_label: "History of Embodied Cognition"
 → 환경과는 독립적으로 한 개인 마음 내부에서 일어나는 정보의 인지적 표상이나 처리가 아니라, 환경과 괴리될 수 없이 환경-몸-뇌가 하나의 통합적 단위를 이루는 바탕 위에서 행위를 통하여 구현되는 활동으로서의 마음을 설명하려고 한다.
 
 > “마음은 뇌 속에서 일어나는 신경적 상태나 과정이라고 하기보다는 신경적 기능구조인 뇌, 뇌 이외의 몸, 그리고 환경의 3자가 괴리되지 않은 채 하나의 단위로 작용하는 통합체(Nexus) 상에서 이뤄지는 행위 중심으로 재개념화되어야 한다고 본다.”
-> 
 
 → 본질적으로 데카르트적 이원론에 바탕을 둔 존재론과 그에 따른 인식론으로부터 벗어나자는 탈 데카르트적 운동의 일환이라고 볼 수 있으며, 일찍이 17세기 B. Spinoza에 의해 이루어졌다. Spinoza 이후 몸에 대한 강조는 유럽의 현상학적 철학자들에 의하여 주로 이어져 왔다. 베르그송-메를로 퐁티 등의 논의에서는 뇌와 독립적으로 존재하는 심리적 속성의 가능성이 논의되고, 몸과 마음과 환경이 하나의 단위를 이룬다. 몸이 환경의 세상과 일체가 되어 적응하는 과정에서 몸의 행위 하나하나가 마음을 구성한다고 보는 것이다.
 
@@ -156,22 +135,18 @@ toc_label: "History of Embodied Cognition"
 ### 3.3 체화된 인지 접근의 문제점
 
 1. 과학적 패러다임의 측면
-    - 인간(몸)－환경의 상호작용 측면을 어떻게 경험과학적 탐구의 면면으로 객관화하는가?
-    - 기존의 인지주의 접근이 성공한 설명적 측면보다 더 좋고 체계적인 기술과 설명을 제공하여야 한다는 과제도 남
-    는다.
+   - 인간(몸)－환경의 상호작용 측면을 어떻게 경험과학적 탐구의 면면으로 객관화하는가?
+   - 기존의 인지주의 접근이 성공한 설명적 측면보다 더 좋고 체계적인 기술과 설명을 제공하여야 한다는 과제도 남
+     는다.
 2. 개념적 측면
-    - Adams & Aizawa(2008, 2010) 등이 제기하는 이론적 비판의 문제점을 해결해야 하는 과제도 있다.
-        1. 등가성 원리: HEM/HEC는 환경이 과연 뇌와 동등한 등가의 인지시스템이 될 수 있는가?
-        2. 결합 논변: 환경의 물질적 대상은 뇌와 하나의 결합체를 이룰 수 없다!
-        
-        ↔ 전통적인 물질－정신, 안과 밖이라는 이분법적 범주적 생각을 벗어나지 못하고 있다고 비판도 있다.
-        
-        <aside>
-        💡 인지 과정 여부를 결정짓는 관건은 안과 밖의 위치(location)나, 뇌 대 인공물의 물질적 유사성 여부가 아니라, 바로 **과정의 기능성(functionality)**이다. …
-        “체화된 인지 접근은 인간 존재, 마음, 몸, 환경(인공물 포함)의 역할, 표상, 지향성, 인지시스템, 인지과정, 인과성, 인간－인공물의 상호작용 등의 여러 주제에 대한 탐구에서 전통적 개념을 벗어나는 발상의 전환이 이루어져야 함을 강하게 호소하고 있는 것이라고 본다.”
-        
-        </aside>
-        
+   - Adams & Aizawa(2008, 2010) 등이 제기하는 이론적 비판의 문제점을 해결해야 하는 과제도 있다.
+     1. 등가성 원리: HEM/HEC는 환경이 과연 뇌와 동등한 등가의 인지시스템이 될 수 있는가?
+     2. 결합 논변: 환경의 물질적 대상은 뇌와 하나의 결합체를 이룰 수 없다!
+     ↔ 전통적인 물질－정신, 안과 밖이라는 이분법적 범주적 생각을 벗어나지 못하고 있다고 비판도 있다.
+       <aside>
+       💡 인지 과정 여부를 결정짓는 관건은 안과 밖의 위치(location)나, 뇌 대 인공물의 물질적 유사성 여부가 아니라, 바로 **과정의 기능성(functionality)**이다. …
+       “체화된 인지 접근은 인간 존재, 마음, 몸, 환경(인공물 포함)의 역할, 표상, 지향성, 인지시스템, 인지과정, 인과성, 인간－인공물의 상호작용 등의 여러 주제에 대한 탐구에서 전통적 개념을 벗어나는 발상의 전환이 이루어져야 함을 강하게 호소하고 있는 것이라고 본다.”
+       </aside>
 
 ### 3.4 체화된 인지 접근과 학문 간 융합
 
@@ -181,9 +156,9 @@ toc_label: "History of Embodied Cognition"
 💡 인간(동물 또는 로봇)의 몸과 환경이 하나로 어우러진 신체적 활동에서
 마음, 인지(동물과 로봇의 경우에는 지능)가 어떻게 발생되는가?
 
-</aside>  
+</aside>
 
-<br> 
+<br>
 
 # 참고자료
 
@@ -192,12 +167,12 @@ toc_label: "History of Embodied Cognition"
 **Philosophy**
 
 - [1] [‘체화된 인지(Embodied Cognition)’ 접근과 학문 간 융합](https://s-space.snu.ac.kr/bitstream/10371/75876/1/02.%20%EC%9D%B4%EC%A0%95%EB%AA%A8.pdf)
-    - 이정모(2010), ‘체화된 인지(Embodied Cognition)’ 접근과 학문 간 융합, 철학사상.
+  - 이정모(2010), ‘체화된 인지(Embodied Cognition)’ 접근과 학문 간 융합, 철학사상.
 
 **Robotics**
 
 - [1] [Robots as powerful allies for the study of embodied cognition from the bottom up](https://arxiv.org/pdf/1801.04819.pdf)
-    - Hoffmann, M. & Pfeifer, R. (2018), Robots as powerful allies for the study of embodied cognition from the bottom up, in A. Newen, L. de Bruin; & S. Gallagher, ed., 'The Oxford Handbook 4e Cognition', Oxford University Press, pp. 841-861.
+  - Hoffmann, M. & Pfeifer, R. (2018), Robots as powerful allies for the study of embodied cognition from the bottom up, in A. Newen, L. de Bruin; & S. Gallagher, ed., 'The Oxford Handbook 4e Cognition', Oxford University Press, pp. 841-861.
 - [2] [Embodied Cognitive Robotics and the learning of sensorimotor schemes](https://d1wqtxts1xzle7.cloudfront.net/64936166/Lara_et_al_2018_Embodied_Cognitive_Robotics_and_the_learning_of_sensorimotor_schemes-libre.pdf?1605383929=&response-content-disposition=inline%3B+filename%3DEmbodied_Cognitive_Robotics_and_the_lear.pdf&Expires=1703039325&Signature=bubgM3q5K1C4LL7Qqkt0xw7CK8RIVEC0gGMtmkuL5tKp3AqvgaScZ~8-5OzaU0aqarwlwQqQwMSfc05LAyxHYPTO5Trr0hDqFCRx~~RPdPQ1oDOghkAc6Qc-VzlaLiRX2cmiGzr3VroHdwOtlGEWFqJs5FCNhv4yVtsAOv7tu3yJa0Qj4ajJAdUyPPfUnNEq3AJ4ZZkOr~Y~6zqBSzKgw-djTlolXAgjBWHLYlG3Cd3ayiRAbqo9QdnJM4oiS1Csaw6lzjxTBAIwOZT553uIUrxlDnOSsoZWP~DH9zRYiSO9QTMoHS3qQszl1i6ooee87NBa0AU4d4jD4sSwGkDcNQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
-    - Lara B, Astorga D, Mendoza-Bock E, Pardo M, Escobar E, Ciria A. Embodied Cognitive Robotics and the learning of sensorimotor schemes. *Adaptive Behavior*. 2018;26(5):225-238. doi:[10.1177/1059712318780679](https://doi.org/10.1177/1059712318780679)
+  - Lara B, Astorga D, Mendoza-Bock E, Pardo M, Escobar E, Ciria A. Embodied Cognitive Robotics and the learning of sensorimotor schemes. *Adaptive Behavior*. 2018;26(5):225-238. doi:[10.1177/1059712318780679](https://doi.org/10.1177/1059712318780679)
 - [3] [From Brain Models to Robotic Embodied Cognition: How Does Biological Plausibility Inform Neuromorphic Systems?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10526461/pdf/brainsci-13-01316.pdf)

@@ -11,6 +11,7 @@ values:
 toc: true
 toc_sticky: true
 toc_label: "숨겨진 샘 역자 후기"
+tags: [Translation, Consciousness, AI, Beliefs]
 ---
 
 # 마음의 수학자를 꿈꾸며

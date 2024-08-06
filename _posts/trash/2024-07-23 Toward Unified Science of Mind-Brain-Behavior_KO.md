@@ -11,6 +11,7 @@ values:
 toc: true
 toc_sticky: true
 toc_label: "마음-두뇌-행동의 과학"
+tags: [Beliefs, Mind, Behavior, Brain, Philosophy of Science]
 ---
 
 # 마음-두뇌-행동의 과학을 향해

@@ -8,9 +8,11 @@ values:
   comments: true
   share: true
   related: true
+title: false
 toc: true
 toc_sticky: true
 toc_label: "Science of Mind-Brain-Behavior"
+tags: [Beliefs, Mind, Behavior, Brain, Philosophy of Science]
 ---
 
 # Toward Unified Science of Mind-Brain-Behavior

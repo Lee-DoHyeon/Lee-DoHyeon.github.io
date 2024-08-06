@@ -8,9 +8,11 @@ values:
   comments: true
   share: true
   related: true
+title: false
 toc: true
 toc_sticky: true
 toc_label: "After Translating the Hidden Spring"
+tags: [Translation, Consciousness, AI, Beliefs]
 ---
 
 # Mathematician for Mind

@@ -11,6 +11,7 @@ values:
 toc: true
 toc_sticky: true
 toc_label: "기호의 경계를 넘나들며"
+tags: [Beliefs, Language, Symbolic Systems]
 ---
 
 # 기호의 경계를 넘나들며

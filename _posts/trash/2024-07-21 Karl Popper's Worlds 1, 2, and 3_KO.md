@@ -11,6 +11,7 @@ values:
 toc: true
 toc_sticky: true
 toc_label: "칼 포퍼와 1,2,3 세계"
+tags: [Consciousness, Philosophy of Mind]
 ---
 
 # Karl Popper's Worlds 1, 2, and 3
