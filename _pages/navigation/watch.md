@@ -52,8 +52,7 @@ header:
     <td style="width: 25%;">
         <a href="https://youtube.com/playlist?list=PLBan6Afp0tlTxmfm83MkMnW1vOt1k3Ic2&si=nxtGxp3m5ZXzfkKn">
             <img src="/assets/images/Watch/AIF.png" alt="MAI" style="max-width:100%; height:auto;">
-        </a> .
-
+        </a>
     </td>
     <td style="width: 75%;">
         <p style="font-size:15px;"><b>Theoretical Neuroscience Club (2023-2024)</b></p>
