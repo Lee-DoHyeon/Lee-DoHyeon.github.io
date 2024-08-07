@@ -1,5 +1,5 @@
 ---
-title: false
+title: "CV"
 permalink: /cv/
 layout: single
 header:
