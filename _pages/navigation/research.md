@@ -1,5 +1,5 @@
 ---
-title: false
+title: "Research"
 permalink: /research/
 layout: single
 header:

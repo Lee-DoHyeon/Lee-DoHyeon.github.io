@@ -1,5 +1,5 @@
 ---
-title: false
+title: "Watch"
 permalink: /watch/
 layout: single
 header:
