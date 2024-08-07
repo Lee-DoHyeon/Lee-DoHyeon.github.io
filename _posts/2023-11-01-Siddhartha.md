@@ -12,6 +12,7 @@ values:
 toc: true
 toc_sticky: true
 toc_label: "After Reading Siddhartha"
+category: "Motivation"
 tags: [Literature, Religion]
 ---
 

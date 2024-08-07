@@ -10,11 +10,10 @@ toc_label: "OUTREACH"
 #   overlay_filter: 0.5
 ---
 
-> “I am committed to making a positive impact on society by sharing my knowledge and values through social engagement. I believe that exposing myself to diverse perspectives enriches and strengthens my own understanding. Below is a summary of my outreach efforts.”
+> " I am committed to making a positive impact on society by sharing my knowledge and values through social engagement. I believe that exposing myself to diverse perspectives enriches and strengthens my own understanding. Below is a summary of my outreach efforts."
 
 ### Organizational Leadership
 
----
 <div style="display: flex;">
   <div style="flex: 7; padding-right: 10px;">
     <p>
@@ -25,7 +24,6 @@ toc_label: "OUTREACH"
     <img src="/assets/images/Outreach/2021VoluteeringAward.png" alt="Volunteering Award by Department of Mathematics" style="width: 100%;">
   </div>
 </div>
-
 
 <div style="display: flex;">
   <div style="flex: 1;">
@@ -52,6 +50,7 @@ toc_label: "OUTREACH"
 ### Academic Service
 
 ---
+
 <div style="display: flex;">
   <div style="flex: 1; padding-right: 10px;">
     <img src="/assets/images/Outreach/MAI.png" alt="Mathematics for AI" style="width: 100%;">
@@ -65,8 +64,6 @@ toc_label: "OUTREACH"
     </p>
   </div>
 </div>
-
-
 
 <div style="display: flex;">
   <div style="flex: 6; padding-left: 10px;">
@@ -96,7 +93,6 @@ toc_label: "OUTREACH"
     </p>
   </div>
 </div>
-
 
 <div style="display: flex;">
   <div style="flex: 8; padding-left: 10px;">

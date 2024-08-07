@@ -12,6 +12,7 @@ title: false
 toc: true
 toc_sticky: true
 toc_label: "After Translating the Hidden Spring"
+category: "Meditation"
 tags: [Translation, Consciousness, AI, Beliefs]
 ---
 

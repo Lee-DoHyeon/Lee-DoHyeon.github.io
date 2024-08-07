@@ -12,6 +12,7 @@ title: false
 toc: true
 toc_sticky: true
 toc_label: "Schmidhuber's Consciousness"
+category: "Motivation"
 tags: [AI, Consciousness, World Models, Predictive Coding]
 ---
 

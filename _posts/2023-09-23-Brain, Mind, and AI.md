@@ -11,6 +11,7 @@ values:
 toc: true
 toc_sticky: true
 toc_label: "Shun'ichi Amari"
+category: "Motivation"
 tags: [Brain, Computing Device, AI]
 ---
 

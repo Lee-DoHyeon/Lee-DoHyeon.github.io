@@ -12,6 +12,7 @@ values:
 toc: true
 toc_sticky: true
 toc_label: "Math on Mind"
+category: "Motivation"
 tags: [Mathematics, Brain, Science]
 ---
 

@@ -11,6 +11,7 @@ values:
 toc: true
 toc_sticky: true
 toc_label: "Finding a Missing Submarine"
+category: "Meditation"
 tags: [Decision Theory, AI, Weapon System]
 ---
 

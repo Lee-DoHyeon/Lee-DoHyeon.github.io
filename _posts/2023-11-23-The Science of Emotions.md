@@ -11,6 +11,7 @@ values:
 toc: true
 toc_sticky: true
 toc_label: "Science of Emotion"
+category: "Motivation"
 tags: [Emotion, Neuroscience]
 ---
 

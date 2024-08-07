@@ -5,8 +5,8 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 07 Aug 2024 21:17:40 +0900</pubDate>
-        <lastBuildDate>Wed, 07 Aug 2024 21:17:40 +0900</lastBuildDate>
+        <pubDate>Thu, 08 Aug 2024 00:49:04 +0900</pubDate>
+        <lastBuildDate>Thu, 08 Aug 2024 00:49:04 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
@@ -34,8 +34,8 @@
 &lt;/blockquote&gt;
 </description>
                 <pubDate>Wed, 24 Jul 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/Bridging-the-gap-between-Subsymbolic-and-Symbolic-Systems/</link>
-                <guid isPermaLink="true">http://localhost:4000/Bridging-the-gap-between-Subsymbolic-and-Symbolic-Systems/</guid>
+                <link>http://localhost:4000/meditation/Bridging-the-gap-between-Subsymbolic-and-Symbolic-Systems/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Bridging-the-gap-between-Subsymbolic-and-Symbolic-Systems/</guid>
                 
                 <category>Beliefs</category>
                 
@@ -43,6 +43,8 @@
                 
                 <category>Symbolic Systems</category>
                 
+                
+                <category>Meditation</category>
                 
             </item>
         
@@ -71,8 +73,8 @@
 &lt;/blockquote&gt;
 </description>
                 <pubDate>Tue, 23 Jul 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/Toward-Unified-Science-of-Mind-Brain-Behavior/</link>
-                <guid isPermaLink="true">http://localhost:4000/Toward-Unified-Science-of-Mind-Brain-Behavior/</guid>
+                <link>http://localhost:4000/meditation/Toward-Unified-Science-of-Mind-Brain-Behavior/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Toward-Unified-Science-of-Mind-Brain-Behavior/</guid>
                 
                 <category>Beliefs</category>
                 
@@ -84,6 +86,8 @@
                 
                 <category>Philosophy of Science</category>
                 
+                
+                <category>Meditation</category>
                 
             </item>
         
@@ -118,13 +122,15 @@
 &lt;/blockquote&gt;
 </description>
                 <pubDate>Sun, 21 Jul 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/Karl-Popper's-Worlds-1,-2,-and-3/</link>
-                <guid isPermaLink="true">http://localhost:4000/Karl-Popper's-Worlds-1,-2,-and-3/</guid>
+                <link>http://localhost:4000/motivation/Karl-Popper's-Worlds-1,-2,-and-3/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Karl-Popper's-Worlds-1,-2,-and-3/</guid>
                 
                 <category>Consciousness</category>
                 
                 <category>Philosophy of Mind</category>
                 
+                
+                <category>Motivation</category>
                 
             </item>
         
@@ -236,8 +242,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
 &lt;p&gt;&lt;strong&gt;[5] &lt;a href=&quot;https://x.com/SchmidhuberAI/status/1765769164709371978&quot;&gt;X&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
                 <pubDate>Sat, 20 Jul 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/Schmidhuber-and-Conscious-Machine/</link>
-                <guid isPermaLink="true">http://localhost:4000/Schmidhuber-and-Conscious-Machine/</guid>
+                <link>http://localhost:4000/motivation/Schmidhuber-and-Conscious-Machine/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Schmidhuber-and-Conscious-Machine/</guid>
                 
                 <category>AI</category>
                 
@@ -247,6 +253,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
                 
                 <category>Predictive Coding</category>
                 
+                
+                <category>Motivation</category>
                 
             </item>
         
@@ -303,8 +311,8 @@ Refer to Amaral Shunichi’s “Brain, Mind, Artificial Intelligence.” A compu
 &lt;a name=&quot;footnote_12&quot;&gt;12&lt;/a&gt;: President Jang Hyun-woo has previously translated Euan Squires’ “The Conscious Mind in the Physical World,” Antti Revonsuo’s “Foundations of Consciousness,” Gerald Edelman’s “A Universe of Consciousness,” and Susan Blackmore’s “Conversations on Consciousness.” I have read all of these works, and they have been immensely helpful in understanding the key themes related to consciousness.&lt;/p&gt;
 </description>
                 <pubDate>Thu, 28 Dec 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/Mathematician-of-Mind/</link>
-                <guid isPermaLink="true">http://localhost:4000/Mathematician-of-Mind/</guid>
+                <link>http://localhost:4000/meditation/Mathematician-of-Mind/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Mathematician-of-Mind/</guid>
                 
                 <category>Translation</category>
                 
@@ -314,6 +322,8 @@ Refer to Amaral Shunichi’s “Brain, Mind, Artificial Intelligence.” A compu
                 
                 <category>Beliefs</category>
                 
+                
+                <category>Meditation</category>
                 
             </item>
         
@@ -545,13 +555,15 @@ Refer to Amaral Shunichi’s “Brain, Mind, Artificial Intelligence.” A compu
 &lt;/ul&gt;
 </description>
                 <pubDate>Wed, 20 Dec 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/Embodied-Cognition/</link>
-                <guid isPermaLink="true">http://localhost:4000/Embodied-Cognition/</guid>
+                <link>http://localhost:4000/motivation/Embodied-Cognition/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Embodied-Cognition/</guid>
                 
                 <category>Philosophy of Mind</category>
                 
                 <category>Cognitive Science</category>
                 
+                
+                <category>Motivation</category>
                 
             </item>
         
@@ -959,8 +971,8 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;/blockquote&gt;
 </description>
                 <pubDate>Thu, 14 Dec 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/AI,-Robot,-and-Consciousness/</link>
-                <guid isPermaLink="true">http://localhost:4000/AI,-Robot,-and-Consciousness/</guid>
+                <link>http://localhost:4000/meditation/AI,-Robot,-and-Consciousness/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/AI,-Robot,-and-Consciousness/</guid>
                 
                 <category>AI</category>
                 
@@ -972,6 +984,8 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
                 
                 <category>Neuroscience</category>
                 
+                
+                <category>Meditation</category>
                 
             </item>
         
@@ -1012,13 +1026,15 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;p&gt;→ 마찬가지로 SEEKING, PLAY와 관련된 실험을 통해 사람의 열정과 긍정적인 인간관계적 즐거움을 고양시킬 수 있을 것으로 기대한다.&lt;/p&gt;
 </description>
                 <pubDate>Thu, 23 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/The-Science-of-Emotions/</link>
-                <guid isPermaLink="true">http://localhost:4000/The-Science-of-Emotions/</guid>
+                <link>http://localhost:4000/motivation/The-Science-of-Emotions/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/The-Science-of-Emotions/</guid>
                 
                 <category>Emotion</category>
                 
                 <category>Neuroscience</category>
                 
+                
+                <category>Motivation</category>
                 
             </item>
         
@@ -1089,8 +1105,8 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;p&gt;한 수은 체온계가 주어졌다고 상상해 보자. 이 체온계는 주위의 온도에 따라 내부의 상태가 일관적으로 변화할 것이다. 그렇다고 이 체온계가 의식이 있다고 할 수 있을까? 아닐 것이다. 그렇다면, 특정 범위의 온도를 유지해야 하는 체온계가 주어졌다고 상상해 보자. 이 체온계는 어떤 온도 $T$에 대해 $\epsilon_T$만큼의 오차 내로 항상 유지될 필요가 있다. 때문에 이 온도계가 너무 더워지면 열원을 피하고, 추워지면 열원을 찾아가는 행동을 보일 것이다. 그렇지 않으면, 이 온도계는 소실dissipation된다. 그렇다고 이 체온계가 의식이 있다고 할 수 있을까? 아닐 것이다.&lt;/p&gt;
 </description>
                 <pubDate>Sat, 04 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/Do-math-about-brain/</link>
-                <guid isPermaLink="true">http://localhost:4000/Do-math-about-brain/</guid>
+                <link>http://localhost:4000/motivation/Do-math-about-brain/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Do-math-about-brain/</guid>
                 
                 <category>Mathematics</category>
                 
@@ -1098,6 +1114,8 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
                 
                 <category>Science</category>
                 
+                
+                <category>Motivation</category>
                 
             </item>
         
@@ -1134,13 +1152,15 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;/ul&gt;
 </description>
                 <pubDate>Thu, 02 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/DeepMind/</link>
-                <guid isPermaLink="true">http://localhost:4000/DeepMind/</guid>
+                <link>http://localhost:4000/motivation/DeepMind/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/DeepMind/</guid>
                 
                 <category>AI</category>
                 
                 <category>Business</category>
                 
+                
+                <category>Motivation</category>
                 
             </item>
         
@@ -1195,13 +1215,15 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;/blockquote&gt;
 </description>
                 <pubDate>Wed, 01 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/Siddhartha/</link>
-                <guid isPermaLink="true">http://localhost:4000/Siddhartha/</guid>
+                <link>http://localhost:4000/motivation/Siddhartha/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Siddhartha/</guid>
                 
                 <category>Literature</category>
                 
                 <category>Religion</category>
                 
+                
+                <category>Motivation</category>
                 
             </item>
         
@@ -1338,8 +1360,8 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;p&gt;최적 탐색 기술은 실질적인 문제 해결보다, 지휘통제 관점에서 보다 효율적인 의사결정을 지원한다는 점에 관련되어 있다. 기계학습 및 IoT, AI 등의 기술이 접목된 사례도 극히 적어, 관련 기술을 확보한다면 미래 전장의 큰 위협을 다루게 될 수 있을 것을 기대한다.&lt;/p&gt;
 </description>
                 <pubDate>Wed, 01 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/Find-a-missing-submarine/</link>
-                <guid isPermaLink="true">http://localhost:4000/Find-a-missing-submarine/</guid>
+                <link>http://localhost:4000/meditation/Find-a-missing-submarine/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Find-a-missing-submarine/</guid>
                 
                 <category>Decision Theory</category>
                 
@@ -1347,6 +1369,8 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
                 
                 <category>Weapon System</category>
                 
+                
+                <category>Meditation</category>
                 
             </item>
         
@@ -1423,8 +1447,8 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;/blockquote&gt;
 </description>
                 <pubDate>Sat, 23 Sep 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/Brain,-Mind,-and-AI/</link>
-                <guid isPermaLink="true">http://localhost:4000/Brain,-Mind,-and-AI/</guid>
+                <link>http://localhost:4000/motivation/Brain,-Mind,-and-AI/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Brain,-Mind,-and-AI/</guid>
                 
                 <category>Brain</category>
                 
@@ -1432,6 +1456,8 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
                 
                 <category>AI</category>
                 
+                
+                <category>Motivation</category>
                 
             </item>
         

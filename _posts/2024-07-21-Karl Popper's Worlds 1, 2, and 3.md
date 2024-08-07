@@ -2,6 +2,7 @@
 scope:
   type: posts
 values:
+  permalink: motivation/
   layout: single
   author_profile: true
   read_time: true
@@ -12,6 +13,7 @@ title: false
 toc: true
 toc_sticky: true
 toc_label: "Popper's 3 Worlds"
+category: "Motivation"
 tags: [Consciousness, Philosophy of Mind]
 ---
 

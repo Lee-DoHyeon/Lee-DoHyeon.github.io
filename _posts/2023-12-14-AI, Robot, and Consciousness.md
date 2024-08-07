@@ -11,6 +11,7 @@ values:
 toc: true
 toc_sticky: true
 toc_label: "Consciousness in AI?"
+category: "Meditation"
 tags: [AI, Robotics, Consciousness, Philosophy of Mind, Neuroscience]
 ---
 

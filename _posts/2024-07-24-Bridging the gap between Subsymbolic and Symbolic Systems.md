@@ -12,6 +12,7 @@ title: false
 toc: true
 toc_sticky: true
 toc_label: "Between Symbol and Sub-symbol"
+category: "Meditation"
 tags: [Beliefs, Language, Symbolic Systems]
 ---
 

@@ -12,6 +12,7 @@ title: false
 toc: true
 toc_sticky: true
 toc_label: "Science of Mind-Brain-Behavior"
+category: "Meditation"
 tags: [Beliefs, Mind, Behavior, Brain, Philosophy of Science]
 ---
 

@@ -11,6 +11,7 @@ values:
 toc: true
 toc_sticky: true
 toc_label: "History of Embodied Cognition"
+category: "Motivation"
 tags: [Philosophy of Mind, Cognitive Science]
 ---
 
