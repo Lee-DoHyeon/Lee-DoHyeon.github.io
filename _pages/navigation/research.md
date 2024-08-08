@@ -6,9 +6,6 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.2"
   overlay_image: /assets/images/Research/idealfuture.jpg
-  actions:
-    - label: "Blueprints"
-      url: "/assets/images/Research/idealfuture.png"
   caption: "Photo credit: Do-Hyeon Lee"
 excerpt: "I believe that fostering a dynamic synergy between human and machine intelligence will pave the way for a better world. Envisioning a future where truly understanding the intricate connections between mind, behavior, and brain brings forth highly efficient and responsible AI, this collaboration propels humanity and technology into a shared ascent. It empowers us to authentically deepen our understanding of ourselves and the universe."
 ---
