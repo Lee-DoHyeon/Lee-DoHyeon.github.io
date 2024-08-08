@@ -11,12 +11,11 @@ values:
   related: true
 toc: true
 toc_sticky: true
-toc_label: "History of Embodied Cognition"
+toc_label: "체화된 인지의 역사"
 category: Motivation
-tags: [Philosophy of Mind, Cognitive Science]
+tags: [심리철학, 인지과학]
 lang: kr
 ---
-
 
 **체화된 인지란?**
 

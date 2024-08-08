@@ -37,6 +37,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
+
 <br>
 <h1 id="page-title" class="page__title p-name" itemprop="headline">
   <a href="http://localhost:4000/read/" class="u-url" itemprop="url">Read</a>
@@ -63,5 +64,15 @@ feature_row:
 .recent-posts-column {
   flex: 1;
   margin: 0 10px;
+}
+
+@media (max-width: 784px) {
+  .recent-posts-container {
+    display: block;
+  }
+
+  .recent-posts-column {
+    margin: 0 0 20px 0;
+  }
 }
 </style>
