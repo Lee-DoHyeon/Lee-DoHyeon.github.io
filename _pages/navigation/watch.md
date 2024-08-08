@@ -72,7 +72,7 @@ header:
  </tr>
  <tr>
     <td style="width: 30%;">
-        <a href="https://drive.google.com/file/d/1llpHqRlChYJ0WfMReypllYZ970Daffwe/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1frsBtLaWxgzp_V4lx0aq6eoky8YJbt2A/view?usp=sharing">
             <img src="/assets/images/Watch/2024KACSxKSNP.jpg" alt="ARC" style="max-width:100%; height:auto;">
         </a>
     </td>
