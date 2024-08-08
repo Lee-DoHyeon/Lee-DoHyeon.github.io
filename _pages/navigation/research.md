@@ -2,6 +2,8 @@
 title: "Research"
 permalink: /research/
 layout: single
+author_profile: false
+
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
