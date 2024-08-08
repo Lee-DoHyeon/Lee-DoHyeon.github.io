@@ -1,6 +1,6 @@
 <h2>Recent Posts</h2>
 <ul class="post-list">
-  {% for post in site.posts limit:5 %}
+  {% for post in site.posts limit:6 %}
   <li>
     <span class="post-meta" style="font-size: 1em; color: #666">
       {{ post.date | date: "%b %-d, %Y" }} -
@@ -24,7 +24,7 @@
             color: #FFF;
           {% elsif post.category == 'Movement' %}
             background-color: #3B2F2F; /* 안개 낀 숲 색상 */
-            color: #FFF;
+            color: #FFF;s
           {% else %}
             background-color: #000;
             color: #FFF;

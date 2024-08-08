@@ -5,15 +5,50 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 08 Aug 2024 11:54:26 +0900</pubDate>
-        <lastBuildDate>Thu, 08 Aug 2024 11:54:26 +0900</lastBuildDate>
+        <pubDate>Thu, 08 Aug 2024 18:36:32 +0900</pubDate>
+        <lastBuildDate>Thu, 08 Aug 2024 18:36:32 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
-                <title>Bridging the gap between subsymbolic and symbolic systems</title>
-                <description>&lt;h1 id=&quot;bridging-the-gap-between-sub-symbolic-and-symbolic-systems&quot;&gt;Bridging the Gap Between Sub-symbolic and Symbolic Systems&lt;/h1&gt;
+                <title>기호의 경계를 넘나들며</title>
+                <description>&lt;p&gt;현대 인공지능과 로봇공학의 발전은 인간의 고차원적인 행동과 의사결정을 모사하는 데 큰 진전을 보이고 있습니다. 특히 심층 신경망 기반의 강화학습(Deep Reinforcement Learning, DRL)은 과거의 제어 문제를 뛰어넘는 복잡한 행동을 구현하는 데 성공했습니다. 기존에는 게임이나 단순 작업을 수행하는 로봇에 유한 상태 기계(Finite State Machine, FSM)를 사용했지만, 최근에는 행동 트리(Behavior Tree, BT)가 널리 적용되고 있습니다. 이러한 변화는 기술의 진보와 더불어, 복잡한 문제 해결에 대한 새로운 접근 방식을 제시합니다.&lt;/p&gt;
 
-&lt;p&gt;Modern advancements in artificial intelligence and robotics have made significant progress in mimicking high-level human behaviors and decision-making. Particularly, Deep Reinforcement Learning (DRL) has succeeded in implementing complex behaviors that surpass traditional control problems. While Finite State Machines (FSM) were used in the past for robots performing games or simple tasks, Behavior Trees (BT) have become widely applied recently. This shift, along with technological advancements, presents new approaches to solving complex problems.&lt;/p&gt;
+&lt;p&gt;심층 신경망 기반의 강화학습은 확실히 기존 제어 방식보다 더 많은 가능성을 제공합니다. 실제 작업 현장에서도 이 기술이 적용되고 있으며, 이는 우리가 직면한 다양한 문제를 해결하는 데 유용합니다. 그러나 심층 신경망의 복잡성과 학습 과정은 블랙박스처럼 작용하여 귀납 편향을 유발할 수 있습니다. 이러한 이유로, 우리는 하위 기호적 시스템(Sub-symbolic 시스템, 인공 신경망)을 사용할 때 신중을 기해야 합니다. 최근 Tesla의 자율 주행 기술과 관련된 인사 사고는 이러한 우려를 잘 보여줍니다. 여러 국가에서 관련 법안을 강화하고 있으며, 이는 인공지능의 안전성과 신뢰성을 높이는 데 중요한 역할을 하고 있습니다. &lt;strong&gt;이와 같은 문제를 해결하기 위해 현대 기계는 더욱 반응적이고 모듈적인 월드 모델을 필요로 합니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;한편, 현대의 기계는 인간이나 동물의 반사신경에 비해 빠르거나 에너지 효율적이지 않습니다. 대부분의 기계는 단일 태스크에만 초점을 맞추고 있는 반면, 인간이나 동물은 훨씬 어렵고 복잡한 세상에서의 생존이라는 태스크를 해결하기 위해 다양한 기술을 갖추고 있습니다. 이처럼 반응적이고 모듈적인 월드 모델을 구축하면 복잡한 환경에서도 유연하게 대처하며 부분적인 수정도 쉬워집니다. 진정한 자율 에이전트를 구현하기 위해서는 이러한 반응적이고 모듈적인 월드 모델이 구축될 필요가 있습니다. &lt;strong&gt;이러한 반응적이고 모듈적인 월드 모델은 인간의 고차 인지 기능과 메타인지와도 밀접한 관련이 있습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;인간의 경우, 복잡한 심층 신경망이나 자기 지도된 월드 모델을 통해 언어와 세상에 대한 물리적 이해를 바탕으로 행동합니다. 이러한 행동 양식은 종종 암묵적이거나 명시적으로 나타나며, 이를 거시적 수준에서 모사한다면 유한 상태 기계나 행동 트리로 간주할 수 있겠습니다. 예를 들어, Jurgen Schmidhuber는 Godel Machine을 제안하면서 의식의 핵심 능력이 내부 프로그램을 자체적으로 수정하고 더 나은 프로그램으로 발전해 나가는 능력임을 강조했습니다. 이를 통해 인간은 신경망이라는 하위 기호적 시스템으로부터 유용한 프로그램 내지는 상위 기호적 시스템(Symbolic 시스템)을 지속적으로 발전시키고 수정하는 능력을 지니고 있음을 알 수 있습니다. 최근 의식 연구에서도 대뇌의 고차 인지 기능과 메타인지에 초점을 두는 학파가 강세를 보이고 있습니다. 이 또한 인간의 고차적인 상위 기호적 시스템이 세상을 바라보는 방식(마음)과 학습에 따른 생물학적 재구성(두뇌), 실제 물리적 세상과의 상호작용 방식(행동)에 있어 고차원의 관점이 저차원의 관점에 지속적인 영향을 주고 있음을 다시 한 번 파악할 수 있겠습니다.&lt;/p&gt;
+
+&lt;p&gt;또한, 최면 현상이나 서브리미널 메세징 기법이 언어와 감각 정보를 통해 작동하는 것은 이러한 자체 수정 능력을 잘 보여주는 예입니다. 그러나 현재 심층 신경망에 담긴 하위 기호적 내용들이 상위 기호적 형태로 보여지는 기술이나 기법에 대한 논의는 많지 않습니다. 이는 인간의 경우에도 우리의 행동과 습관을 이해하고 그 안에 숨겨진 믿음과 잠재의식을 표현하는 방법이 성찰과 자기 평가를 통해서만 가능한 것과 유사합니다. &lt;strong&gt;“믿음은 생각이 되고, 생각은 말이 되며, 말은 행동이 되고, 행동은 습관이 되고, 습관은 그 사람의 가치를 결정하고, 그 사람의 가치는 그 사람의 운명을 결정한다”&lt;/strong&gt;는 유명한 말처럼, 우리의 운명과 가치를 변화시키기 위해서는 행동과 습관을, 그리고 이를 변화시키기 위해서는 믿음과 말을 변화시킬 필요가 있습니다. &lt;strong&gt;예를 들어, 현재 연구 중인 몇 가지 접근 방식은 이러한 기술적 문제를 해결하기 위해 노력하고 있습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;결론적으로, 하위 기호적 시스템이 자체적으로 상위 기호적 행동 양식과 명확한 지침을 생성하고 수정하는 방법은 매우 중요한 질문입니다. 또한, 이미 개발된 하위 기호적 시스템에 암묵적으로 저장된 행동 양식을 추출하고 평가하는 것도 필수적입니다. 이 과정은 기술적으로 어려운 과제일 뿐만 아니라, 인공지능의 미래를 결정짓는 중요한 연구 분야입니다. &lt;strong&gt;따라서, 현대 인공지능의 발전을 위해서는 하위 기호적 시스템과 상위 기호적 시스템 간의 상호 작용을 깊이 있게 연구하고, 이를 통해 더욱 유연하고 효율적인 자율 에이전트를 개발하는 것이 필요합니다.&lt;/strong&gt; 우리는 이러한 복잡한 문제를 해결하기 위해 계속해서 노력해야 합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;요약&quot;&gt;요약&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;현대 인공지능과 로봇공학은 인간의 고차원적인 행동과 의사결정을 모사하는 데 큰 진전을 이루었으며, 특히 심층 신경망 기반의 강화학습(DRL)은 복잡한 행동을 구현하는 데 성공했습니다. 기존의 유한 상태 기계(FSM)와 행동 트리(BT) 대신, DRL이 실제 작업 현장에서 유용하게 적용되고 있습니다. 그러나 심층 신경망의 복잡성과 귀납 편향으로 인해 우리는 하위 기호적 시스템(Sub-symbolic 시스템, 인공 신경망)을 사용할 때 신중을 기해야 합니다. Tesla 자율 주행 기술 사고 사례는 이러한 우려를 잘 보여줍니다. 현대 기계는 인간이나 동물의 반사신경에 비해 빠르지 않고 에너지 효율적이지 않습니다. 대부분의 기계는 단일 태스크에 초점을 맞추고 있지만, 인간이나 동물은 복잡한 환경에서 유연하게 대처할 수 있는 반응적이고 모듈적인 월드 모델을 갖추고 있습니다. 진정한 자율 에이전트를 구현하기 위해서는 이러한 월드 모델이 필요합니다. 인간은 복잡한 심층 신경망이나 자기 지도된 월드 모델을 통해 언어와 세상에 대한 물리적 이해를 바탕으로 행동합니다. Jurgen Schmidhuber의 Godel Machine은 의식의 핵심 능력이 내부 프로그램을 자체적으로 수정하고 발전시키는 능력임을 강조합니다. 최근 의식 연구는 고차 인지 기능과 메타인지에 초점을 두고 있으며, 이는 고차원의 관점이 저차원의 관점에 지속적인 영향을 미친다는 것을 보여줍니다. 최면 현상이나 서브리미널 메세징 기법은 언어와 감각 정보를 통해 작동하는 것으로, 자체 수정 능력을 잘 보여줍니다. 그러나 심층 신경망의 하위 기호적 내용들이 상위 기호적 형태로 보여지는 기술에 대한 논의는 부족합니다. 이는 인간의 경우에도 성찰과 자기 평가를 통해서만 가능한 것과 유사합니다. 결론적으로, 하위 기호적 시스템이 자체적으로 상위 기호적 행동 양식과 지침을 생성하고 수정하는 방법은 중요한 질문입니다. 이미 개발된 하위 기호적 시스템의 행동 양식을 추출하고 평가하는 것도 필수적입니다. 이러한 연구는 인공지능의 미래를 결정짓는 중요한 과제이며, 우리는 이를 해결하기 위해 계속 노력해야 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+                <pubDate>Wed, 24 Jul 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/Bridging-the-gap-between-Subsymbolic-and-Symbolic-Systems-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Bridging-the-gap-between-Subsymbolic-and-Symbolic-Systems-kr/</guid>
+                
+                <category>믿음</category>
+                
+                <category>언어</category>
+                
+                <category>기호체계</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
+        
+            <item>
+                <title>Bridging the Gap between Symbol and Sub-symbol</title>
+                <description>&lt;p&gt;Modern advancements in artificial intelligence and robotics have made significant progress in mimicking high-level human behaviors and decision-making. Particularly, Deep Reinforcement Learning (DRL) has succeeded in implementing complex behaviors that surpass traditional control problems. While Finite State Machines (FSM) were used in the past for robots performing games or simple tasks, Behavior Trees (BT) have become widely applied recently. This shift, along with technological advancements, presents new approaches to solving complex problems.&lt;/p&gt;
 
 &lt;p&gt;Deep Reinforcement Learning indeed offers more possibilities than traditional control methods. This technology is being applied in real-world tasks, helping to solve various challenges we face. However, the complexity and learning processes of deep neural networks function like a black box, potentially causing inductive bias. Therefore, we must exercise caution when using sub-symbolic systems, such as artificial neural networks. Recent incidents related to Tesla’s autonomous driving technology highlight these concerns, leading many countries to strengthen relevant legislation to enhance AI safety and reliability. Modern machines thus need more responsive and modular world models to address such issues effectively.&lt;/p&gt;
 
@@ -34,8 +69,8 @@
 &lt;/blockquote&gt;
 </description>
                 <pubDate>Wed, 24 Jul 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/meditation/Bridging-the-gap-between-Subsymbolic-and-Symbolic-Systems/</link>
-                <guid isPermaLink="true">http://localhost:4000/meditation/Bridging-the-gap-between-Subsymbolic-and-Symbolic-Systems/</guid>
+                <link>http://localhost:4000/meditation/Bridging-the-gap-between-Subsymbolic-and-Symbolic-Systems-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Bridging-the-gap-between-Subsymbolic-and-Symbolic-Systems-en/</guid>
                 
                 <category>Beliefs</category>
                 
@@ -49,10 +84,49 @@
             </item>
         
             <item>
-                <title>Toward unified science of mind Brain Behavior</title>
-                <description>&lt;h1 id=&quot;toward-unified-science-of-mind-brain-behavior&quot;&gt;Toward Unified Science of Mind-Brain-Behavior&lt;/h1&gt;
+                <title>마음-두뇌-행동의 과학을 향해</title>
+                <description>&lt;p&gt;20세기 중반의 정보 혁명과 사이버네틱스 운동은 물리학뿐만 아니라 인간의 정신과 마음, 두뇌와 신체, 인간 및 동물-사회의 행동에 대한 학문적 접근에 큰 영향을 미쳤습니다. 이 시기에 정보와 수학적 형식 사이의 관련성이 주목받기 시작하면서, 정보 이론과 통계역학은 중요한 변화를 겪었습니다. 이러한 운동은 인간 본질과 생명에 대한 형식적인 학문을 구체화하고자 했지만, 당시 기술의 한계와 철학적 문제로 인해 20세기 후반에는 심리학, 정신의학, 신경의학, 신경과학, 경제학, 인류학, 인공지능, 로봇공학 등 수많은 분야로 &lt;strong&gt;분화&lt;/strong&gt;되었습니다.&lt;/p&gt;
 
-&lt;p&gt;The information revolution and the cybernetics movement of the mid-20th century significantly influenced not only physics but also the academic approach to the human mind and spirit, the brain and body, and the behavior of human and animal societies. As the relationship between information and mathematical forms began to gain attention during this period, information theory and statistical mechanics underwent significant changes. These movements aimed to formalize the academic study of human nature and life, but due to technological limitations and philosophical issues at the time, they are &lt;strong&gt;proliferated&lt;/strong&gt; into numerous fields in the latter half of the 20th century, including psychology, psychiatry, neurology, neuroscience, economics, anthropology, artificial intelligence, and robotics.&lt;/p&gt;
+&lt;p&gt;물리학의 역사를 보면 새로운 현상을 설명하고, 제어하고, 예측할 수 있는 강한 이론을 만들기 위해서는 ‘왜(Why)’, ‘어떻게(How)’, ‘무엇을(What)’에 대한 질문에 해당하는 &lt;strong&gt;원리(Principle), 역학(Mechanics), 동역학(Dynamics)의 발전&lt;/strong&gt;이 필요합니다. 현재 마음-두뇌/신체-행동을 부분적으로 설명하는 다양한 동역학과 역학, 원리의 혼란이 존재한다고 볼 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이러한 상황 속에서 다양한 학문의 통합적 프레임워크를 융합하고 환원하고자 하는 &lt;strong&gt;규범 이론적 접근&lt;/strong&gt;이 크게 발달하고 있습니다. 대표적으로 Karl Friston의 Free Energy Principle과 Active Inference, Samuel Gershman의 Inductive Bias Principle과 Approximation Principle이 있습니다. 이 이론들은 각각 생물학적 시스템과 심리적, 행동적 현상을 설명하는 데 중점을 둡니다. 물론, 그럼에도 불구하고 여전히 현대 과학이 설명하지 못하는 의식, 느낌, 최면과 같은 복잡한 현상들이 존재합니다. 이러한 현상들은 생물학적 복잡성과 진화론적 성격을 포함하고 있어, 단순한 물리학적, 정보 이론적 접근만으로는 충분히 설명되지 않을 수 있습니다. 따라서 이들을 이해하기 위해서는 다양한 학문 분야의 통합적이고 다차원적인 접근이 필요합니다.&lt;/p&gt;
+
+&lt;p&gt;이러한 접근 방식이 ‘왜(Why)’를 찾는 작업에 중점을 두는 한편, 현대 인공지능 연구는 ‘어떻게(How)’; 즉, &lt;strong&gt;공학적 응용&lt;/strong&gt;에 더 초점을 맞추고 있습니다. Jurgen Schmidhuber의 Self-supervised Learning 및 World Model, Geoffrey Hinton의 Boltzmann Machine과 David Rumelhart의 Helmholtz Machine은 인간 지능을 닮은 인공지능을 개발하는 데 중요한 개념들을 제시했습니다. 그러나 정보 이론이 물리학의 하위 범주에 있지 않고 독특한 지위를 지니고 있다는 점에서, 환원 불가능한 추가적인 원리의 도입이 필요할 수도 있으며, 다양한 원리의 집합을 구성할 여지도 있습니다.&lt;/p&gt;
+
+&lt;p&gt;현대 인공지능의 언어는 기본적으로 정보 기하학 및 Optimal Transport와 같은 &lt;strong&gt;정보 이론의 토대 위에 있는 다양한 수학적 형식&lt;/strong&gt;을 사용합니다. E. T. Jaynes가 통계역학을 정보 이론의 관점에서 재해석하여 두 분야 간의 통합적 관계를 제시한 것처럼, 정보 이론과 물리학의 교차점에서 새로운 통찰을 얻을 수 있습니다. 이러한 통합적 접근은 정보 이론과 물리학적 원리들이 상호 보완적으로 작용하여 마음-두뇌-행동 시스템을 설명하는 데 중요한 역할을 합니다.&lt;/p&gt;
+
+&lt;p&gt;결론적으로, 마음-두뇌-행동 시스템을 이해하기 위해서는 &lt;strong&gt;정보 이론과 물리학적 원리를 통합적으로 접근&lt;/strong&gt;할 필요가 있습니다. 정보 이론적 원리들은 물리적 시스템이 정보를 어떻게 처리하고, 예측하며, 행동을 조절하는지를 설명하는 데 사용되며, 물리학적 법칙들은 이러한 시스템이 실제로 어떻게 작동하는지에 대한 기초적인 이해를 제공합니다. 정보 이론과 물리학의 교차점을 탐구함으로써 새로운 연구와 발견을 촉진하는 데 기여할 수 있습니다. 이 에세이는 마음-두뇌-행동에 대한 통합적인 과학적 시스템을 구축하고자 하는 목표를 달성하는 데 중요한 통찰을 제공하며, 이를 통해 복잡한 생물학적 시스템의 작동 방식을 더 잘 이해할 수 있는 기반을 마련합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;요약&quot;&gt;요약&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;20세기 중반의 정보 혁명과 사이버네틱스 운동은 인간의 정신과 행동 연구에 큰 영향을 미쳤으며, 정보 이론과 통계역학의 발전을 촉진했습니다. 이로 인해 다양한 학문 분야로 분화되었습니다. 물리학의 ‘왜’, ‘어떻게’, ‘무엇을’에 대한 질문을 해결하는 원리, 역학, 동역학의 발전이 필요합니다. 다양한 학문 통합을 시도하는 규범 이론적 접근이 발달했으며, Karl Friston의 Free Energy Principle과 Samuel Gershman의 Inductive Bias Principle 등이 이를 대표합니다. 그러나 의식, 느낌 등 복잡한 현상들은 단순한 물리학적 접근만으로는 충분히 설명되지 않아 다차원적인 접근이 필요합니다. 현대 인공지능 연구는 ‘어떻게’에 초점을 맞추며, Jurgen Schmidhuber와 Geoffrey Hinton 등의 연구가 중요한 개념들을 제시했습니다. 정보 이론은 물리학과의 교차점에서 새로운 통찰을 제공하며, 마음-두뇌-행동 시스템을 이해하는 데 중요한 역할을 합니다. 정보 이론과 물리학적 원리를 통합적으로 접근함으로써 복잡한 생물학적 시스템을 더 잘 이해할 수 있는 기반을 마련합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+                <pubDate>Tue, 23 Jul 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/Toward-Unified-Science-of-Mind-Brain-Behavior-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Toward-Unified-Science-of-Mind-Brain-Behavior-kr/</guid>
+                
+                <category>믿음</category>
+                
+                <category>마음</category>
+                
+                <category>행동</category>
+                
+                <category>두뇌</category>
+                
+                <category>과학철학</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
+        
+            <item>
+                <title>Toward a Science of Mind-Brain-Behavior</title>
+                <description>&lt;p&gt;The information revolution and the cybernetics movement of the mid-20th century significantly influenced not only physics but also the academic approach to the human mind and spirit, the brain and body, and the behavior of human and animal societies. As the relationship between information and mathematical forms began to gain attention during this period, information theory and statistical mechanics underwent significant changes. These movements aimed to formalize the academic study of human nature and life, but due to technological limitations and philosophical issues at the time, they are &lt;strong&gt;proliferated&lt;/strong&gt; into numerous fields in the latter half of the 20th century, including psychology, psychiatry, neurology, neuroscience, economics, anthropology, artificial intelligence, and robotics.&lt;/p&gt;
 
 &lt;p&gt;Looking at the history of physics, the development of &lt;strong&gt;principles&lt;/strong&gt;, &lt;strong&gt;mechanics&lt;/strong&gt;, and &lt;strong&gt;dynamics&lt;/strong&gt; that correspond to the questions of ‘why,’ ‘how,’ and ‘what’ is necessary to create robust theories capable of explaining, controlling, and predicting new phenomena. Currently, there exists a confusion of various dynamics, mechanics, and principles that partially explain the mind-brain/body-behavior relationships.&lt;/p&gt;
 
@@ -73,8 +147,8 @@
 &lt;/blockquote&gt;
 </description>
                 <pubDate>Tue, 23 Jul 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/meditation/Toward-Unified-Science-of-Mind-Brain-Behavior/</link>
-                <guid isPermaLink="true">http://localhost:4000/meditation/Toward-Unified-Science-of-Mind-Brain-Behavior/</guid>
+                <link>http://localhost:4000/meditation/Toward-Unified-Science-of-Mind-Brain-Behavior-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Toward-Unified-Science-of-Mind-Brain-Behavior-en/</guid>
                 
                 <category>Beliefs</category>
                 
@@ -92,10 +166,51 @@
             </item>
         
             <item>
-                <title>Karl popper&apos;s worlds 1, 2, and 3</title>
+                <title>칼 포퍼와 1,2,3 세계</title>
                 <description>&lt;h1 id=&quot;karl-poppers-worlds-1-2-and-3&quot;&gt;Karl Popper’s Worlds 1, 2, and 3&lt;/h1&gt;
 
 &lt;blockquote&gt;
+  &lt;p&gt;“… 심신 관계 문제는 심각한 문제입니다. 이것은 &lt;strong&gt;인간의 자유 문제&lt;/strong&gt;를 포함하며, 이는 정치적 측면을 포함한 모든 면에서 근본적인 문제입니다. 또한 이는 인간이 물리적 세계, 즉 &lt;strong&gt;물리적 우주에서 차지하는 위치의 문제&lt;/strong&gt;를 포함합니다.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;칼 포퍼는 그의 저서 “All Life is Problem Solving”의 두 번째 챕터에서 심신 문제에 대한 깊은 관심을 드러냅니다.&lt;/p&gt;
+
+&lt;p&gt;포퍼는 심신 문제를 인간의 자유와 밀접하게 연관된 중요한 철학적 문제로 보았습니다. 그는 세상을 &lt;strong&gt;물리적 세계(세계 1)&lt;/strong&gt;, &lt;strong&gt;인간의 의식적 과정(세계 2)&lt;/strong&gt;, 그리고 &lt;strong&gt;인간 정신의 객관적 창조물(세계 3)&lt;/strong&gt;로 나누어 설명했습니다. 이 세 가지 세계는 상호작용하며, 특히 세계 3의 존재는 세계 2와의 밀접한 연결을 통해 인간의 자기 의식을 설명하는 데 필수적입니다.&lt;/p&gt;
+
+&lt;p&gt;세계 3은 과학적 이론, 수학적 개념, 예술 작품, 문학 작품, 법률, 도덕적 가치 등 인간 정신의 산물로 이루어진 가상의 세계입니다. 이는 물리적 세계에 직접 존재하지 않지만, 우리가 이를 통해 생각하고 논의할 수 있기 때문에 현실에서 실재하는 것처럼 기능합니다. 포퍼는 이러한 세계 3을 통해 인간이 물리적 세계에 영향을 미친다고 보았습니다. 예를 들어, 뉴턴의 중력 이론이나 아인슈타인의 상대성 이론 같은 추상적 개념들은 우리의 기술을 발전시키고 새로운 기계를 만들면서 물리적 세계에 직접적인 변화를 가져왔습니다.&lt;/p&gt;
+
+&lt;p&gt;이러한 포퍼의 세계 1, 2, 3 개념은 인공지능과 정보 기술의 발전이 인간 문명에 미치는 함의를 탐구하는 데도 유용합니다. 인공지능과 정보 기술은 세계 3을 확장하고 심화시키는 도구로 작용합니다. 인공지능은 방대한 데이터를 분석하고 새로운 패턴을 발견하며, 이를 통해 인간이 미처 발견하지 못한 새로운 지식과 창의적인 아이디어를 생성합니다. 이는 인공지능이 단순한 도구를 넘어, 인간과 협력하여 세계 3의 창조물을 더욱 풍부하게 만드는 역할을 하고 있음을 보여줍니다.&lt;/p&gt;
+
+&lt;p&gt;또한, 의식이나 느낌을 지니는 인공지능은 인간의 의식적 과정(세계 2)과 유사한 기능을 수행할 수 있습니다. 이러한 인공지능은 인간과의 상호작용을 통해 학습하고, 감정적인 반응을 보이며, 창의적인 문제 해결 능력을 발휘합니다. 이는 인공지능이 인간과 비슷한 형태의 자기의식을 가질 수 있음을 시사하며, 포퍼가 제시한 인간의 자기의식과 자유의 문제를 새로운 차원에서 재고하게 만듭니다.&lt;/p&gt;
+
+&lt;p&gt;인공지능과 정보 기술의 발전은 물리적 세계(세계 1)에도 큰 영향을 미칩니다. 자율주행차, 스마트 시티, 의료 기술 등 다양한 분야에서 인공지능은 혁신을 주도하며, 물리적 세계를 변화시키고 있습니다. 이러한 변화는 인간의 생활 방식을 근본적으로 재구성하고, 더 나아가 인간과 인공지능 간의 새로운 상호작용 방식을 창출하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;결론적으로, 포퍼의 세계 1, 2, 3 개념을 통해 보면, 인공지능과 정보 기술은 인간 문명의 발전에 중요한 함의를 지니고 있습니다. 인공지능은 인간의 고유성을 공유하면서도 이를 확장시키고, 새로운 창의적인 창조물을 만들어냅니다. 이러한 기술들은 물리적 세계와 의식적 과정을 넘나들며, 인간 정신의 경계를 확장하고, 우리의 존재와 문명을 더욱 깊이 이해하는 데 중요한 역할을 하고 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;요약&quot;&gt;요약&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;칼 포퍼는 그의 저서 “All Life is Problem Solving”에서 심신 문제를 인간의 자유와 밀접하게 연관된 중요한 철학적 문제로 보았습니다. 그는 세상을 물리적 세계(세계 1), 인간의 의식적 과정(세계 2), 그리고 인간 정신의 객관적 창조물(세계 3)로 나누어 설명하며, 이 세 가지 세계가 상호작용하여 인간의 자기의식과 문명을 형성한다고 주장했습니다. 인공지능과 정보 기술은 세계 3을 확장하고 심화시키며, 인간과 협력하여 새로운 지식과 창의적인 아이디어를 생성하고, 물리적 세계에 실질적인 변화를 일으킵니다. 이러한 기술들은 인간의 고유성을 공유하면서도 이를 확장시키고, 우리의 존재와 문명을 더욱 깊이 이해하는 데 중요한 역할을 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+                <pubDate>Sun, 21 Jul 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/Karl-Popper's-Worlds-1,-2,-and-3-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Karl-Popper's-Worlds-1,-2,-and-3-kr/</guid>
+                
+                <category>의식</category>
+                
+                <category>심리철학</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>Popper&apos;s 3 Worlds</title>
+                <description>&lt;blockquote&gt;
   &lt;p&gt;“… But the problem of the body-mind relationship is a serious problem. It includes the problem of human freedom, which in every respect, including politics, is a fundamental problem; and it includes the problem of man’s position in the physical world, the physical cosmos…”&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -122,8 +237,8 @@
 &lt;/blockquote&gt;
 </description>
                 <pubDate>Sun, 21 Jul 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Karl-Popper's-Worlds-1,-2,-and-3/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Karl-Popper's-Worlds-1,-2,-and-3/</guid>
+                <link>http://localhost:4000/motivation/Karl-Popper's-Worlds-1,-2,-and-3-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Karl-Popper's-Worlds-1,-2,-and-3-en/</guid>
                 
                 <category>Consciousness</category>
                 
@@ -135,10 +250,136 @@
             </item>
         
             <item>
-                <title>Schmidhuber and conscious machine</title>
-                <description>&lt;h1 id=&quot;schmidhuber-and-conscious-machine&quot;&gt;Schmidhuber and Conscious Machine&lt;/h1&gt;
+                <title>슈미트후버의 의식을 지니는 기계</title>
+                <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/q4fFuZgOZn8?si=PqlGxV8uUUYBd84x&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/q4fFuZgOZn8?si=PqlGxV8uUUYBd84x&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;유르겐 슈미트후버는 2016년 뉴욕에서 열린 AI 컨퍼런스에서 &lt;strong&gt;인공 의식(Artificial Consciousness)&lt;/strong&gt;, &lt;strong&gt;월드 모델(World Model)&lt;/strong&gt;, &lt;strong&gt;예측 코딩(Predictive Coding)&lt;/strong&gt;, 그리고 &lt;strong&gt;데이터 압축(Data Compression)&lt;/strong&gt;에 대한 흥미로운 개념을 소개했습니다. 그는 자신의 연구실에서 이미 의식을 가진 인공 시스템이 존재하며, 의식은 문제 해결 과정에서 발생하는 데이터 압축의 부산물이라고 주장합니다. 이제 그의 주요 아이디어를 살펴보겠습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-인공-의식의-기초-데이터-압축data-compression&quot;&gt;1. 인공 의식의 기초: 데이터 압축(Data Compression)&lt;/h3&gt;
+
+&lt;div style=&quot;display: flex;&quot;&gt;
+  &lt;div style=&quot;flex: 8; padding-right: 10px;&quot;&gt;
+    &lt;p&gt;
+      슈미트후버는 의식을 데이터 압축의 부산물로 설명합니다. 그의 이론에 따르면, 인공 시스템이 문제를 해결하는 과정에서 데이터를 효율적으로 압축하는 능력이 의식의 기초가 됩니다. 이는 인간의 뇌가 복잡한 정보를 처리하고 저장하는 방식과 유사합니다.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;flex: 2;&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled.png&quot; alt=&quot;Shumidhuber&apos;s Thesis&quot; style=&quot;width: 100%;&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;2-범용-컴퓨터general-purpose-computer와-재귀-신경망recurrent-neural-network&quot;&gt;2. 범용 컴퓨터(General-Purpose Computer)와 재귀 신경망(Recurrent Neural Network)&lt;/h3&gt;
+
+&lt;p&gt;범용 컴퓨터, 특히 재귀 신경망은 많은 노드와 짧은 와이어로 연결된 프로세서들로 구성되어 있어 통신 비용을 최적화합니다. 이러한 컴퓨터는 세상으로부터 다양한 정보를 수집하여 목표를 달성하거나 보상을 최적화하려고 합니다. 재귀 신경망은 이러한 과정에서 매우 중요한 역할을 합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-월드-모델world-model과-예측-코딩predictive-coding&quot;&gt;3. 월드 모델(World Model)과 예측 코딩(Predictive Coding)&lt;/h3&gt;
+
+&lt;div style=&quot;display: flex;&quot;&gt;
+  &lt;div style=&quot;flex: 2;&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 1.png&quot; alt=&quot;World Model + RL&quot; style=&quot;width: 100%;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;flex: 8; padding-left: 10px;&quot;&gt;
+    &lt;p&gt;
+      슈미트후버는 제어기(controller)와 월드 모델(world model)이라는 두 개의 재귀 신경망을 기반으로 강화학습(reinforcement learning)과 계획(planning)을 풀어내는 시스템을 제안합니다. 제어기는 행동을 생성하고, 월드 모델은 세상에 대한 예측을 통해 데이터를 압축합니다. 모든 물리 법칙과 과학, 화학 법칙은 재귀 신경망의 하위 신경망으로 압축되어 컨트롤러에 의해 사용됩니다.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;4-자기-인식self-awareness과-인공-호기심artificial-curiosity&quot;&gt;4. 자기 인식(Self-awareness)과 인공 호기심(Artificial Curiosity)&lt;/h3&gt;
+
+&lt;div style=&quot;display: flex;&quot;&gt;
+  &lt;div style=&quot;flex: 1;&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 2.png&quot; alt=&quot;Robotics Application&quot; style=&quot;width: 100%;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;flex: 1; padding-left: 10px;&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 3.png&quot; alt=&quot;GAN&quot; style=&quot;width: 100%;&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;인공 시스템이 세상과 상호작용하는 과정에서 &lt;em&gt;자기 자신의 상태&lt;/em&gt;도 압축하게 됩니다. 이는 자기 인식을 형성하는 기초가 됩니다. 또한, 슈미트후버는 적대적 생성 신경망(GAN)을 통해 인공 호기심을 도입하였으며, 내적 동기를 비/자기지도 학습(un/self-supervised learning)하는 에이전트를 소개했습니다. 이는 신경망이 다른 신경망에 의해 최대화되는 목적함수를 최소화하는 미니맥스 게임(minimax game)에 기반한 것입니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;5-프로그램으로서의-신경망&quot;&gt;5. 프로그램으로서의 신경망&lt;/h3&gt;
+
+&lt;div style=&quot;display: flex;&quot;&gt;
+  &lt;div style=&quot;flex: 8; padding-right: 10px;&quot;&gt;
+    &lt;p&gt;
+      슈미트후버는 신경망의 가중치(weights)를 프로그램(program)으로 간주해야 한다고 주장합니다. 심층 신경망의 핵심 목표는 관찰된 데이터의 유용한 내적 표상(internal representations)을 학습하는 것입니다. 신경망의 출력은 프로그램에 대해 미분 가능하며, 이는 더 나은 프로그램을 찾기 위한 방향을 제시합니다.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;flex: 2;&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 4.png&quot; alt=&quot;Neural Economy&quot; style=&quot;width: 100%;&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;6-예측적-월드-모델과-자기-인식self-awareness&quot;&gt;6. 예측적 월드 모델과 자기 인식(Self-awareness)&lt;/h3&gt;
+
+&lt;div style=&quot;display: flex;&quot;&gt;
+  &lt;div style=&quot;flex: 2;&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 5.png&quot; alt=&quot;On Consciousness&quot; style=&quot;width: 100%;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;flex: 8; padding-left: 10px;&quot;&gt;
+    &lt;p&gt;
+      제어기를 통해 세상과 상호작용하는 예측적 월드 모델은 자신의 생애 동안 예측 코딩을 통해 행동과 관측 결과를 효율적으로 인코딩하는 법을 배웁니다. 이러한 과정에서 월드 모델은 특징의 계층(hierarchy)을 형성하고, 주어진 데이터 구조로부터 특이점을 식별하거나 프로토타입 인코딩(prototype encoding)을 생성합니다.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;결론&quot;&gt;결론&lt;/h3&gt;
+
+&lt;p&gt;유르겐 슈미트후버는 30년 동안 인공 의식과 감정을 지니는 기계를 연구해왔습니다. 그의 연구는 데이터 압축, 재귀 신경망, 월드 모델, 예측 코딩 등을 통해 인공 시스템이 자기 인식을 형성하고, 세상과 상호작용하며, 궁극적으로 감정과 의식을 가질 수 있다는 가능성을 제시합니다. 이러한 연구는 인공지능의 미래에 대한 새로운 시각을 제공하며, 더욱 발전된 인공 시스템의 개발에 기여할 것입니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;읽고-나서&quot;&gt;읽고 나서&lt;/h3&gt;
+
+&lt;p&gt;예측 코딩과 비/자기지도 학습의 중요성이 2010년대 들어 각광받기 시작했다는 점을 고려하면, 일찍이 1990년대 초부터 해당 개념들의 중요성을 파악하고 다양한 사례에 적용한 것은 매우 놀랍습니다. 특히 의식 분야에서 유명한 아닐 세스(Anil Seth)의 2010년대 이론에 따르면, 내부수용감각 정보(interoceptive information)에 대한 예측 코딩이 의식(consciousness)과 자기감(self-awareness)의 기초가 된다고 주장합니다. 이는 슈미드후버의 월드 모델에서 압축된 자기 자신의 상태와 관련될 수 있습니다. 또한, 데이터 압축 관점은 사무엘 절쉬만(Samuel Gershman)이 최근 자신의 책에서 제시한 두 가지 인간 인지 원칙 중 두 번째인 근사(approximation) 원칙과 일맥상통하는 것으로 보입니다. 데이터 압축은 항상 가능한 것은 아니지만, 재귀적인 신경망에서 계층 구조를 형성하며 압축해 나간다는 슈미드후버의 주장과 깊이 관련되어 있습니다.&lt;/p&gt;
+
+&lt;p&gt;그의 2003년 후속 연구에 따르면, 의식에 대한 형식적인 정의(formal definition)를 도입합니다. 만약 의식을 무제한적인 자기 점검과 자기 수정 능력으로 정의한다면, 괴델 머신(Gödel machine)은 인공지능의 의식을 기술적으로 정당화하는 방법을 제공합니다. 제한적인 자기 점검과 자기 수정을 가능하게 함으로써, 이러한 머신은 스스로의 행동을 자율적으로 개선하고 최적화할 수 있는 일반 문제 해결사(general problem solver)의 틀을 제공합니다. 이는 수학적 증명과 형식적 추론에 기반한 인공지능 의식의 한 형태를 달성하는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;그가 취하고 있는 정보과학(informatics) 및 형식 이론적 입장(formal-theoretic stance)과 연구 방법론은 매우 매력적이며, 명쾌함과 깊은 통찰을 지니고 있음에는 의심의 여지가 없습니다. 그러나 진화에 입각한 생물학적 복잡성과 심리학에서 강조하는 기능들에 대해 고민해본다면, 계산 신경과학 및 철학과의 관련성을 발견하고 그 연결성을 파악하는 작업이 필요할 것입니다. 예를 들어, 정동 신경과학(affective neuroscience)에서 주장하는 근원적 의식(primordial consciousness)이 어떻게 슈미드후버의 월드 모델을 지닌 에이전트로 하여금 느낌(feeling)과 정서(emotion)를 불러일으키는지에 대해 명료한 설명이 필요합니다. 또한, 그의 이론과 그 이후에 등장한 내부수용적 추론(interoceptive inference)과 자기(self), 주의집중(attention)과 의식(consciousness)의 관계, 메타인지(meta-cognition)와 고델 머신(Gödel machine)의 관계에 대한 심도 있는 연구가 필요할 것입니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;슈미트후버의 연구는 정보과학 및 형식 이론적 입장에서 매우 명쾌하고 깊은 통찰을 제공하지만, 진화에 입각한 생물학적 복잡성과 심리학에서 강조하는 기능들과의 연관성을 더 탐구할 필요가 있습니다. 예를 들어, 정동 신경과학에서 주장하는 근원적 의식이 슈미트후버의 월드 모델을 지닌 에이전트로 하여금 느낌과 정서를 불러일으키는지에 대한 설명이 필요합니다. 또한, 그의 이론과 내부수용적 추론, 자기, 주의집중, 의식, 메타인지 및 괴델 머신 간의 관계에 대한 심도 있는 연구가 요구됩니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;요약&quot;&gt;요약&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;유르겐 슈미트후버는 2016년 AI 컨퍼런스에서 인공 의식, 월드 모델, 예측 코딩, 데이터 압축에 대한 개념을 소개하며, 의식을 문제 해결 과정에서 발생하는 데이터 압축의 부산물로 설명했습니다. 그는 범용 컴퓨터와 재귀 신경망이 세상으로부터 정보를 수집하고 목표를 달성하며, 제어기와 월드 모델이라는 재귀 신경망을 통해 강화학습과 계획을 실행하는 시스템을 제안했습니다. 이러한 시스템은 데이터를 효율적으로 압축하고 자기 인식을 형성하며, 신경망의 가중치를 프로그램으로 간주해 더 나은 프로그램을 찾는 방향을 제시했습니다. 특히, 슈미트후버의 연구는 예측 코딩과 비/자기지도 학습의 중요성을 1990년대 초부터 인식하고 다양한 사례에 적용한 것이 인상적입니다. 아닐 세스의 내부수용감각 정보에 대한 예측 코딩 이론과 사무엘 절쉬만의 데이터 압축 원칙과도 연결되며, 의식을 무제한적인 자기 점검과 자기 수정 능력으로 정의한 괴델 머신을 통해 인공지능의 의식을 기술적으로 정당화하는 방법을 제시합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;참고자료&quot;&gt;참고자료&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;[1] &lt;a href=&quot;https://youtu.be/q4fFuZgOZn8?si=yJkWs44y-QBFlKN2&quot;&gt;Jürgen Schmidhuber’s Solution to AI Consciousness&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[2] &lt;a href=&quot;https://people.idsia.ch/~juergen/world-models-planning-curiosity-fki-1990.html&quot;&gt;1990: Planning &amp;amp; Reinforcement Learning with Recurrent World Models and Artificial Curiosity&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[3] &lt;a href=&quot;https://people.idsia.ch/~juergen/very-deep-learning-1991.html&quot;&gt;1991: First very deep learning with unsupervised pre-training&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[4] &lt;a href=&quot;https://mediatum.ub.tum.de/doc/1290203/document.pdf&quot;&gt;Godel Machines: Towards a Technical Justification of Consciousness&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[5] &lt;a href=&quot;https://x.com/SchmidhuberAI/status/1765769164709371978&quot;&gt;X&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+                <pubDate>Sat, 20 Jul 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/Schmidhuber-and-Conscious-Machine-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Schmidhuber-and-Conscious-Machine-kr/</guid>
+                
+                <category>인공지능</category>
+                
+                <category>의식</category>
+                
+                <category>월드모델</category>
+                
+                <category>예측코딩</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>Schmidhuber&apos;s Consciousness</title>
+                <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/q4fFuZgOZn8?si=PqlGxV8uUUYBd84x&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;At the 2016 AI conference in New York, Jürgen Schmidhuber introduced intriguing concepts such as Artificial Consciousness, World Model, Predictive Coding, and Data Compression. He claims that artificial systems with consciousness already exist in his lab, and consciousness arises as a byproduct of data compression during problem-solving. Let’s delve into his main ideas.&lt;/p&gt;
 
@@ -151,7 +392,7 @@
     &lt;/p&gt;
   &lt;/div&gt;
   &lt;div style=&quot;flex: 2;&quot;&gt;
-    &lt;img src=&quot;/assets/images/240720/Untitled.png&quot; alt=&quot;Schmidhuber&apos;s Thesis&quot; style=&quot;width: 100%;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled.png&quot; alt=&quot;Schmidhuber&apos;s Thesis&quot; style=&quot;width: 100%;&quot; /&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -163,7 +404,7 @@
 
 &lt;div style=&quot;display: flex;&quot;&gt;
   &lt;div style=&quot;flex: 2;&quot;&gt;
-    &lt;img src=&quot;/assets/images/240720/Untitled 1.png&quot; alt=&quot;World Model + RL&quot; style=&quot;width: 100%;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 1.png&quot; alt=&quot;World Model + RL&quot; style=&quot;width: 100%;&quot; /&gt;
   &lt;/div&gt;
   &lt;div style=&quot;flex: 8; padding-left: 10px;&quot;&gt;
     &lt;p&gt;
@@ -176,10 +417,10 @@
 
 &lt;div style=&quot;display: flex;&quot;&gt;
   &lt;div style=&quot;flex: 1;&quot;&gt;
-    &lt;img src=&quot;/assets/images/240720/Untitled 2.png&quot; alt=&quot;Robotics Application&quot; style=&quot;width: 100%;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 2.png&quot; alt=&quot;Robotics Application&quot; style=&quot;width: 100%;&quot; /&gt;
   &lt;/div&gt;
   &lt;div style=&quot;flex: 1; padding-left: 10px;&quot;&gt;
-    &lt;img src=&quot;/assets/images/240720/Untitled 3.png&quot; alt=&quot;GAN&quot; style=&quot;width: 100%;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 3.png&quot; alt=&quot;GAN&quot; style=&quot;width: 100%;&quot; /&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;In the process of interacting with the world, artificial systems also compress their own states. This forms the basis for self-awareness. Additionally, Schmidhuber introduced artificial curiosity through Generative Adversarial Networks (GANs), presenting agents that learn via un/self-supervised learning. This is based on a minimax game where the objective function of one neural network is minimized by another.&lt;/p&gt;
@@ -193,7 +434,7 @@
     &lt;/p&gt;
   &lt;/div&gt;
   &lt;div style=&quot;flex: 2;&quot;&gt;
-    &lt;img src=&quot;/assets/images/240720/Untitled₩4.png&quot; alt=&quot;Neural Economy&quot; style=&quot;width: 100%;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 4.png&quot; alt=&quot;Neural Economy&quot; style=&quot;width: 100%;&quot; /&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -201,7 +442,7 @@
 
 &lt;div style=&quot;display: flex;&quot;&gt;
   &lt;div style=&quot;flex: 2;&quot;&gt;
-    &lt;img src=&quot;/assets/images/240720/Untitled₩5.png&quot; alt=&quot;On Consciousness&quot; style=&quot;width: 100%;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 5.png&quot; alt=&quot;On Consciousness&quot; style=&quot;width: 100%;&quot; /&gt;
   &lt;/div&gt;
   &lt;div style=&quot;flex: 8; padding-left: 10px;&quot;&gt;
     &lt;p&gt;
@@ -242,8 +483,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
 &lt;p&gt;&lt;strong&gt;[5] &lt;a href=&quot;https://x.com/SchmidhuberAI/status/1765769164709371978&quot;&gt;X&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
                 <pubDate>Sat, 20 Jul 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Schmidhuber-and-Conscious-Machine/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Schmidhuber-and-Conscious-Machine/</guid>
+                <link>http://localhost:4000/motivation/Schmidhuber-and-Conscious-Machine-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Schmidhuber-and-Conscious-Machine-en/</guid>
                 
                 <category>AI</category>
                 
@@ -259,10 +500,86 @@ Considering that the importance of predictive coding and un/self-supervised lear
             </item>
         
             <item>
-                <title>Mathematician of mind</title>
-                <description>&lt;h1 id=&quot;mathematician-for-mind&quot;&gt;Mathematician for Mind&lt;/h1&gt;
+                <title>숨겨진 샘 역자 후기</title>
+                <description>&lt;h1 id=&quot;마음의-수학자를-꿈꾸며&quot;&gt;마음의 수학자를 꿈꾸며&lt;/h1&gt;
 
-&lt;h3 id=&quot;after-translating-the-hidden-spring-written-by-mark-solms-into-korean&quot;&gt;After translating &lt;em&gt;The Hidden Spring&lt;/em&gt;, written by Mark Solms into Korean&lt;/h3&gt;
+&lt;h3 id=&quot;마크-솜즈---숨겨진-샘-역자-후기&quot;&gt;마크 솜즈 - “숨겨진 샘” 역자 후기&lt;/h3&gt;
+
+&lt;p&gt;9살 무렵, 어머니께서 담임선생님과 면담하신 후 적잖이 큰 충격을 받으셨다. 내게 ADHD의 확실한 증상이 나타난다는 이야기를 들으신 것이었다. 그런데도 내가 특별해진 것 같아 기분이 좋았다. 아마 부모님께서 맞벌이를 하신 탓에 큰 관심을 못 받았기 때문이 아니었을까. 임시적인 해결책으로, 나를 동네에 있는 작은 한자 학원에 보내셨다. 그곳에서 훈장님과 하루 대부분의 시간을 보내며 늦은 밤까지 외로움을 달랬다. 그 덕분에, 아직까지도 명심보감이나 사서삼경의 좋은 글귀가 떠오른다.&lt;/p&gt;
+
+&lt;p&gt;고등학교에 진학하며, 어렴풋이 스스로의 완벽에 집착과 강박을 느꼈다. 교과서에 있는 것만으로는 아쉬움이 컸고, 다양한 질문들을 끝까지 물고 늘어졌다. 아직까지도 여러 사건이 떠오른다. 지구 과학 시간, 교과서에 케플러의 법칙에 대한 증명이 없다는 것을 깨닫고 오기가 생겼다. 언젠가 선생님과 친구들 앞에서 꼭 이 법칙을 증명해내어 이해시키겠다는 각오가 선 것이다. 며칠 밤을 새며, 뉴턴 역학을 활용한 증명에서 시작해 라그랑지안, 해밀토니안 역학&lt;sup&gt;&lt;a href=&quot;#footnote_1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;을 활용한 증명까지 공부하게 되었다. 결국, 수업 한 시간에 걸쳐 케플러의 법칙 전체를 증명하기에 이르렀다. (칠판은 아름답게 채워져 있었지만, 대부분의 친구들은 자고 있었다.) 이런 경험들이 수차례 반복되다 보니, 학교나 학원에서 배울 수 있는 지식보다는 오히려 배울 수 없는 지식을 갈망했다.&lt;/p&gt;
+
+&lt;p&gt;가장 기억나는 사건이 있다. 선생님과 친구들을 설득하여 양 뇌의 해부 실험을 기획한 것이다. 학원 일정으로 바쁜 친구들을 설득하여 하교 후, 실험실에서 해부 실습을 진행했다. 우리는 머리를 맞대며 조용히 주먹 한 개 크기보다도 작은 양 뇌를 갈랐다. 너무나도 경이로웠다. 어떻게 우리의 논리와 이성, 직관과 감성, 희노애락이 이렇게 작고 축축한 물체에서 시작될 수 있을까? 나는 당시 생명과학 담당이기도 하셨던 담임 선생님과 많은 면담과 토론을 했던 기억이 난다. 그러나 답이 나오긴 커녕, 훨씬 더 깊은 구덩이에 빠지곤 했다. 부족한 식견을 넓히기 위해, 지그문트 프로이트의 《꿈의 해석》, 실비아 나사르의 《뷰티풀 마인드》, 에드워드 윌슨의 《통섭》과 같은 책들을 읽었다. 프로이트를 통해 마음에 대한 분석적 상상의 지평을 넓혔고, 나사르를 통해 조현병을 앓던 천재 수학자 존 내쉬의 기구한 삶을 엿보았으며, 윌슨을 통해 유물론적 접근법-뇌과학, 신경생리학, 인공지능 등-에 대한 깊은 통찰&lt;sup&gt;&lt;a href=&quot;#footnote_2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;에 공감할 수 있었다.&lt;/p&gt;
+
+&lt;p&gt;나는 운 좋게도, 3학기를 다닌 후 학과를 결정할 수 있는 대학에 진학했다. 아직 물리학과 생명과학 (혹은 의학) 중, 어떤 분야에서 내 질문을 탐구해야 할 지 쉽게 판단이 서지 않았기 때문이다. 두번째 학기, 생물정보학 연구실에서 인턴을 하며, 통계적 모델링과 빅데이터 분석에 매료되었다. 그러던 중, 4년 만에 열린 한 물리학 수업&lt;sup&gt;&lt;a href=&quot;#footnote_3&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;을 들을 수 있었다. 이 수업은 5명 내외로 운영되었는데, 한국인 학부생은 나 혼자 뿐이었다. 아주 격렬한 물리학적 내용에 고군분투하며, 마음과 의식의 새로운 이론을 꿈꾸게 되었다. 내게 주어진 1년 반의 유예 기간이 끝났을 땐, 나는 수학을 전공하기로 결심한다.&lt;/p&gt;
+
+&lt;p&gt;수학을 전공하기로 택했던 이유는 단순했다. 무엇보다, 내 질문은 과학보다 철학에 가깝다고 생각했기 때문이었다. 그렇기에 과학적 지식 그 자체보다는 과학을 하는(만드는) 도구와 사고방식이 필요했다. 이런 이유 외에도, 신경과학, 심리학, 인공지능 등의 수많은 분야에서 마음에 대한 문제를 다루는 만큼, 그 모든 것을 이해할 수 있는 기본적인 마인드셋의 필요성에 깊게 공감한 탓도 있다. 수학과에 진학하며 수학적 사고와 이론의 형식적 전개방식을 깊이 있게 공부할 수 있었고, 동시에 마음의 과학을 만들기 위한 배경지식으로써 마음의 철학을 공부할 자질을 갖출 수 있었다. 수학을 공부한 후 놀랐던 사실은, 내게 철학의 분석적 텍스트가 정말 편하고 쉽게 느껴진다는 것이다. 나는 점차 과학철학과 심리철학의 여러 논증의 우아함과 담백함에 깊이 매료되어 갔다. 내게 학부 기간 동안 가장 기억에 남는 경험이 무엇인지 물어본다면, 단연 마음과 인공지능 알고리즘들의 근본적인 수학적 형식과 마음 및 인공지능과 관련된 철학적 담론을 소개하고자 제작했던 “인공지능의 수학&lt;sup&gt;&lt;a href=&quot;#footnote_4&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;” 및 “인공지능의 철학&lt;sup&gt;&lt;a href=&quot;#footnote_5&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;” 대중 강의다. 한편, 나의 학사 학위 주제는 “인공적 신경망의 학습 과정에 대한 위상수학적 분석”으로, 가상적인 두뇌에서 발생하는 구조적인 변화&lt;sup&gt;&lt;a href=&quot;#footnote_6&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; 를 포착하는 도구를 개발했다.&lt;/p&gt;
+
+&lt;p&gt;졸업이 가까워질 때쯤, 사람의 마음-의식, 지각, 정서, 기억 등-과 관련된 문제 뿐만 아니라, 그것을 근간으로 하는 기술-사이버네틱스, 최적 제어 이론, 의사 결정 이론, 기계 학습, 인공지능 등-의 본질적인 구성과 현실적인 적용 사례에도 관심이 커져갔다. 신기하게도, 수학적 형식과 철학적 담론에 대한 이해가 깊어지면 깊어질 수록, 현실적인 기술의 불편한 이면과 윤리적 의사결정의 중요성이 피부에 와 닿았다. 특히, 최근 활발한 연구가 이루어지고 있는 인공지능 분야는 대개 생명체의 작동 방식과 합치하지 않을&lt;sup&gt;&lt;a href=&quot;#footnote_7&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;뿐만 아니라 실제로 비효율적&lt;sup&gt;&lt;a href=&quot;#footnote_8&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;이었다. 더욱이 우리 사회에서 그것의 작동 방식과 원리를 이해하고 윤리적 문제를 고려해보려는 관심보다는 그것을 어떻게 전장에서 유의미하게 활용해 우위를 선점할지, 시장에서 상품화하여 소비를 가속화할지에 대한 관심이 훨씬 더 크다는 사실을 깨달았다. 그럴 수록, 내게 더 오기가 생겼다. 마음의 작동원리에 대한 답은 찾던 나는 인공지능의 본질적 구성과 기계의 구성 원리를 분석하게 되었다. 청소년 시절부터 이어져 온 나의 그 끈질긴 질문이 마음에 대한 궁극적인 이해 뿐만 아니라, 앞으로 기술이 나아가야 할 궁극적인 방향에 대한 숙고와 더 나은 인류로의 발전을 꿈꾸게 하는 원동력으로도 이어진 셈이다.&lt;/p&gt;
+
+&lt;p&gt;이론 신경과학과 인공지능 기술의 형식적인 공통점을 찾기 위해, 해외 유명 교수들의 저서를 탐독하기 시작했다. 마르첼로 마시미니의 《의식은 언제 탄생하는가?》와 줄리오 토노니의 《파이》부터, 아닐 세스의 《내가 된다는 것》, 안토니오 다마지오의 《느끼고 아는 존재》, 니콜라스 험프리의 《센티언스》, 그리고 아마리 슌이치의 《뇌, 마음, 인공지능》과 맥스 테크마크의 《라이프 3.0》까지. 수많은 도서를 읽으며 마음의 이론과 기계의 마음을 상상했다. 국내에서도 김주환의 《내면소통》이나 송강면, 안민숙의 《최면 바이블》도 큰 도움이 되었다. 대부분의 책에서 이론 신경과학의 분야에서 칼 프리스턴의 자유 에너지 원리Free Energy Principle나 능동 추론Active Inference을 언급했다. 프리스턴 교수는 분명 신경과학/의학 분야의 유명인사였지만, 놀랍게도 수학&lt;sup&gt;&lt;a href=&quot;#footnote_9&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;과 물리학&lt;sup&gt;&lt;a href=&quot;#footnote_10&quot;&gt;10&lt;/a&gt;&lt;/sup&gt;에도 정통했으며, 더욱이 다양한 공학&lt;sup&gt;&lt;a href=&quot;#footnote_11&quot;&gt;11&lt;/a&gt;&lt;/sup&gt;의 접근법에 대해 깊은 통찰을 지니고 있었다. 실제로 여러 논문을 통해 그의 이론이 우아하고, 명쾌하며, 몸-마음-행동의 관계를 분석적으로 규명하는 근본적인 프레임워크가 될 수 있을 것 같다는 확신이 들었다.&lt;/p&gt;
+
+&lt;p&gt;마음에 대한 체계적인 이해와 유년 시절부터 이어져 온 질문으로부터의 완전한 자유를 꿈꾸며, 또 동시에, 보다 효율적이고 사회적으로 책임질 수 있는 기계의 도래를 꿈꾸며 나의 믿음을 실현하기 위해 노력하고 있다. 이번 작업 또한 그 노력의 일환이다. 우연히, 의식을 주제로 신경과학 박사과정 중에 재학 중이신 한국의식과학회(KACS)의 장현우 회장님과 연락을 하며 새로운 번역 소식&lt;sup&gt;&lt;a href=&quot;#footnote_12&quot;&gt;12&lt;/a&gt;&lt;/sup&gt;을 접했다. 더욱이 과거 즐겁게 읽은 줄리오 토노니의 《파이》를 번역하신 정신과 전문의 려원기 선생님과 함께 번역하신다는 사실에 꼭 함께 참여해보고 싶었다. 궁극적으로, 개인적으로 가장 중요하지만 또 어려운 의식의 문제를 능동추론의 관점에서 다룬 책이라는 점에서 꼭 참여하고 싶었다. 내게 비록 신경생리학이나 임상의학적 지식이 부족하지만, 능동추론에 입각한 수학적-물리학적-컴퓨터과학적 지식에는 자신이 있었기에, 혹여나 실례가 되지 않을까 무릅쓰고 양해를 구해보았다. 다행히도 공역 제안을 흔쾌히 수락해 주셨고, 퇴근 후나 주말의 자투리 시간을 활용해 번역 작업에 도움을 드릴 수 있어 보람 찼다. 두 분께서 초안부터 워낙 훌륭히 번역해 주셨던 만큼 용어의 번역, 오탈자 검수, 번역 어투 등의 수정이 용이했다. 나의 뜸한 피드백과 복잡한 답변에 더 큰 열정과 의지를 보여주셨던 려원기, 장현우 선생님께 진심으로 감사의 말씀을 전한다. 잊지 못한 소중한 경험을 얻을 수 있어 행복한 시간이었다.&lt;/p&gt;
+
+&lt;p&gt;한편, 나는 현재 의식과학과 인공지능의 미래를 꿈꾸기 다양한 문화를 만들고 운영해 보고 있다. 능동추론과 관련해 가장 큰 커뮤니티인 Active Inference Institute에서 인턴쉽 프로그램에 참여하며, 한국인 최초로 자유 에너지 원리와 능동추론의 핵심 용어를 번역하는 Ontology 프로젝트를 수행했다. 최근에는 신경 계산Neural Computation 분야 및 최적 제어 이론 분야와 관련해 칼 프리스턴 교수와 메일을 주고 받았는데, 이를 통해 해외 유학이라는 선택지를 진지하게 준비하는 계기가 되었다. 그 외에도, 한국의식과학회를 통해 아래의 매니페스토를 갖는 “몸-마음-행동” 이니셔티브를 기획했다. 이 이니셔티브는 크게 세 가지의 활동-책 읽기 모임, 이론 의식과학 모임, 논문읽기 모임-으로 구성된다. 그 중 이론 의식과학 모임은 능동 추론 이론을 깊이 있게 공부하는 것을 목적으로 한다. 이를 통해, 몸-마음-행동의 핵심 주제를 공부하고 인공지능을 비롯한 타 분야와의 발전 가능성을 상상해보며, 한국을 중심으로 앞으로 기술이 나아가야 할 궁극적인 방향에 대한 깊은 숙고 뿐만 아니라, 더 나은 인류로의 발전을 꿈꾸게 하는 원동력이 시작되길 소망하는 바다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;고등적인 의식 활동은 우리가 스스로를 다른 생물종과 구분하게 하는 주요한 특징입니다.
+그러나, 의식의 본질과 작동 원리는 아직까지 풀리지 않은 어려운 미스터리입니다.
+우리는 이 문제를 과학적 방법으로 해결하고, 마음-뇌-행동의 본질을 이해하는 것을 목표로 합니다.&lt;/p&gt;
+
+  &lt;p&gt;우리의 시도는 다학제적인 접근을 통해 이루어집니다:
+수학/철학, 물리학/심리학, 컴퓨터과학/신경과학 등 다양한 분야의 학도 및 전문가들이 모여 의식의 근본적인 이면을 분석 및 해체합니다.
+이를 통해 도출한 분석 내용은 생물학과 철학의 질문과 관련 짓습니다.&lt;/p&gt;
+
+  &lt;p&gt;우리는 의식 연구의 중요성을 강조하며, 지속적인 모임 및 컨텐츠 공유 등을 통해 사회적 영향력을 확대하고자 합니다.
+또한, 목표를 달성하는 과정에서 최면-확장 현실-미래 인공지능-동물 의식-인공 감응물에 대한 과학적 연구와 윤리적 문제에 기여하고자 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a name=&quot;footnote_1&quot;&gt;1&lt;/a&gt;: 대학 물리학 과정의 “고전역학” 과목에서 배운다는 것을 알게 된 건 한참 뒤였다.&lt;br /&gt;
+&lt;a name=&quot;footnote_2&quot;&gt;2&lt;/a&gt;: 에드워드 윌슨의 《통섭》, 6장 “마음”&lt;br /&gt;
+&lt;a name=&quot;footnote_3&quot;&gt;3&lt;/a&gt;: 초대 한국계산뇌과학회 회장이셨던 김승환 물리학 교수님의 “비선형 동역학 및 카오스 이론”.&lt;br /&gt;
+_당시엔 에르빈 슈뢰딩거의 《생명이란 무엇인가?》, 자크 모노의 《우연과 필연》 등을 읽으며 지냈던 기억이 있다.&lt;br /&gt;
+&lt;a name=&quot;footnote_4&quot;&gt;4&lt;/a&gt;: &lt;a href=&quot;https://youtube.com/playlist?list=PLfWS6_PaCSutSAC7Vu8VHS2uc594cQigv&amp;amp;si=Q2cpP5ExvW84vQM2&quot;&gt;“인공지능의 수학” 링크&lt;/a&gt;&lt;br /&gt;
+&lt;a name=&quot;footnote_5&quot;&gt;5&lt;/a&gt;: &lt;a href=&quot;https://youtube.com/playlist?list=PLfWS6_PaCSusXxpOxUSs6ONTln3pHWALy&amp;amp;si=fidIXxTUlk5xvCXF&quot;&gt;“인공지능의 철학” 링크&lt;/a&gt;&lt;br /&gt;
+&lt;a name=&quot;footnote_6&quot;&gt;6&lt;/a&gt;: 여기서 “구조”란 거시적인 위상 구조를 말한다.&lt;br /&gt;
+**도넛이 머그컵과 동형(Homeomorphic)이라는 이야기를 들어본 적 있는가?&lt;br /&gt;
+&lt;a name=&quot;footnote_7&quot;&gt;7&lt;/a&gt;: 물론 생명체의 작동 원리와 인공지능 알고리즘의 작동 원리가 굳이 합치할 필요가 없을 수도 있다.&lt;br /&gt;
+**다만, 그 둘의 관계를 분석하고 더 나은 방향을 찾으려는 시도가 굉장히 적다는 점을 강조하는 바다.&lt;br /&gt;
+**제프리 힌튼 교수의 “The Forward-Forward Algorithm: Some Preliminary Investigations”의 1장 참고.&lt;br /&gt;
+&lt;a name=&quot;footnote_8&quot;&gt;8&lt;/a&gt;: 아마리 슌이치의 《뇌, 마음, 인공지능》 참고.&lt;br /&gt;
+**컴퓨터는 1시간 당 175 와트, 전구는 60와트를 소비하는데, 인간의 두뇌는 고작 12 와트다.&lt;br /&gt;
+&lt;a name=&quot;footnote_9&quot;&gt;9&lt;/a&gt;: 정보이론과 통계학, 정보 기하학 등.&lt;br /&gt;
+&lt;a name=&quot;footnote_10&quot;&gt;10&lt;/a&gt;: 고전역학과 통계역학 및 열역학, E. T. Jaynes의 주장 등.&lt;br /&gt;
+&lt;a name=&quot;footnote_11&quot;&gt;11&lt;/a&gt;: 기계학습 분야의 통계적 학습 이론과 강화 학습 이론, 사이버네틱스 및 최적 제어 이론 등.&lt;br /&gt;
+&lt;a name=&quot;footnote_12&quot;&gt;12&lt;/a&gt;: 장현우 회장님은 과거 유안 스콰이어스의 《Conscious Mind in the Physical World》, 안티 레본수오의 《Foundations of Consciousness》, 제럴드 에델만의 《A Universe of Consciousness》, 수전 블랙모어의 《Conversations on Consciousness》를 번역한 이력이 있다. 모두 읽어보았으며, 의식과 관련된 핵심 주제를 파악하는 데 정말 큰 도움이 되었다.&lt;/p&gt;
+</description>
+                <pubDate>Thu, 28 Dec 2023 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/Mathematician-of-Mind-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Mathematician-of-Mind-kr/</guid>
+                
+                <category>번역</category>
+                
+                <category>의식</category>
+                
+                <category>인공지능</category>
+                
+                <category>믿음</category>
+                
+                <category>능동추론</category>
+                
+                <category>기계학습</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
+        
+            <item>
+                <title>After Translating the Hidden Spring</title>
+                <description>&lt;blockquote&gt;
+  &lt;p&gt;After translating &lt;em&gt;The Hidden Spring&lt;/em&gt;, written by Mark Solms into Korean&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Around the age of 9, my mother was quite shaken after a meeting with my homeroom teacher. She learned that I was showing clear symptoms of ADHD. Despite this, I felt somewhat special, perhaps because I hadn’t received much attention due to my parents’ busy work schedules. As a temporary solution, they sent me to a small Chinese character academy in our neighborhood. Spending most of my days there with the instructor, I would alleviate my loneliness late into the night. Thanks to that experience, I still remember the wise sayings from classics like “Mencius” and “Four Books and Five Classics.”&lt;/p&gt;
 
@@ -311,8 +628,8 @@ Refer to Amaral Shunichi’s “Brain, Mind, Artificial Intelligence.” A compu
 &lt;a name=&quot;footnote_12&quot;&gt;12&lt;/a&gt;: President Jang Hyun-woo has previously translated Euan Squires’ “The Conscious Mind in the Physical World,” Antti Revonsuo’s “Foundations of Consciousness,” Gerald Edelman’s “A Universe of Consciousness,” and Susan Blackmore’s “Conversations on Consciousness.” I have read all of these works, and they have been immensely helpful in understanding the key themes related to consciousness.&lt;/p&gt;
 </description>
                 <pubDate>Thu, 28 Dec 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/meditation/Mathematician-of-Mind/</link>
-                <guid isPermaLink="true">http://localhost:4000/meditation/Mathematician-of-Mind/</guid>
+                <link>http://localhost:4000/meditation/Mathematician-of-Mind-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Mathematician-of-Mind-en/</guid>
                 
                 <category>Translation</category>
                 
@@ -328,14 +645,10 @@ Refer to Amaral Shunichi’s “Brain, Mind, Artificial Intelligence.” A compu
             </item>
         
             <item>
-                <title>Embodied cognition</title>
-                <description>&lt;h1 id=&quot;체화된-인지&quot;&gt;체화된 인지&lt;/h1&gt;
+                <title>체화된 인지의 역사</title>
+                <description>&lt;p&gt;&lt;strong&gt;체화된 인지란?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h5 id=&quot;체화된-인지란&quot;&gt;체화된 인지란?&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;참고자료: [Phil, 1] &lt;a href=&quot;https://s-space.snu.ac.kr/bitstream/10371/75876/1/02.%20%EC%9D%B4%EC%A0%95%EB%AA%A8.pdf&quot;&gt;‘체화된 인지(Embodied Cognition)’ 접근과 학문 간 융합&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;-&lt;/em&gt; 참고자료: [Phil, 1] &lt;a href=&quot;https://s-space.snu.ac.kr/bitstream/10371/75876/1/02.%20%EC%9D%B4%EC%A0%95%EB%AA%A8.pdf&quot;&gt;‘체화된 인지(Embodied Cognition)’ 접근과 학문 간 융합&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;1-20세기의-인지과학&quot;&gt;1 20세기의 인지과학&lt;/h2&gt;
 
@@ -365,7 +678,7 @@ Refer to Amaral Shunichi’s “Brain, Mind, Artificial Intelligence.” A compu
 → 인간 자신, 동물, 컴퓨터, 인간문화체계 등에 대한 새로운 패러다임
 ; &lt;strong&gt;고전적 인지주의Cognitivism&lt;/strong&gt; + &lt;strong&gt;정보처리적 접근방식&lt;/strong&gt; ← “인지과학”의 발생
     &lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;/assets/images/231220/1.png&quot; /&gt;
+  &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-20-Embodied Cognition/1.png&quot; /&gt;
   &lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -373,7 +686,7 @@ Refer to Amaral Shunichi’s “Brain, Mind, Artificial Intelligence.” A compu
 &lt;h3 id=&quot;12-인지주의-인지과학의-특성과-의의&quot;&gt;1.2 인지주의, 인지과학의 특성과 의의&lt;/h3&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/231220/2.png&quot; /&gt; 
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-20-Embodied Cognition/2.png&quot; /&gt; 
 &lt;/p&gt;
 
 &lt;ul&gt;
@@ -397,7 +710,7 @@ Refer to Amaral Shunichi’s “Brain, Mind, Artificial Intelligence.” A compu
 &lt;p&gt;→ &lt;strong&gt;인공지능, 인지심리학, 철학, 언어학, 인지신경과학&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/231220/3.png&quot; /&gt; 
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-20-Embodied Cognition/3.png&quot; /&gt; 
 &lt;/p&gt;
 &lt;h2 id=&quot;2-인지과학-틀의-변천-역사&quot;&gt;2 인지과학 틀의 변천 역사&lt;/h2&gt;
 
@@ -555,8 +868,8 @@ Refer to Amaral Shunichi’s “Brain, Mind, Artificial Intelligence.” A compu
 &lt;/ul&gt;
 </description>
                 <pubDate>Wed, 20 Dec 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Embodied-Cognition/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Embodied-Cognition/</guid>
+                <link>http://localhost:4000/motivation/Embodied-Cognition-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Embodied-Cognition-kr/</guid>
                 
                 <category>Philosophy of Mind</category>
                 
@@ -568,12 +881,12 @@ Refer to Amaral Shunichi’s “Brain, Mind, Artificial Intelligence.” A compu
             </item>
         
             <item>
-                <title>Ai, robot, and consciousness</title>
-                <description>&lt;h3 id=&quot;세상에-대한-거울&quot;&gt;세상에 대한 거울&lt;/h3&gt;
+                <title>인공지능도 의식을 지닐까?</title>
+                <description>&lt;p&gt;&lt;strong&gt;세상에 대한 거울&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;인간의 마음은 우주와 같아서, 우주와 두뇌를 나란히 두면 하나는 다른 하나를 담아낸다. 우리의 두뇌는 우주를 담고, 우주는 두뇌를 담는다. 그런데, 두뇌는 우주를 담고, 우주는 두뇌를 담고, 두뇌는 우주를 담고, 우주는 두뇌를 담고, … 인간의 마음은 세상에 대한 거울인가?&lt;/p&gt;
 
-&lt;h3 id=&quot;intro&quot;&gt;Intro&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Intro&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;2022년, 구글의 챗봇 서비스인 LaMDA의 개발자 &lt;a href=&quot;https://www.washingtonpost.com/technology/2022/06/11/google-ai-lamda-blake-lemoine/&quot;&gt;Blake Lemoine은 자신이 개발한 SW가 느낌을 가진다고 주장&lt;/a&gt;했다. 이후, 당시 CEO인 Sundar Pichai는 그가 기밀을 유포했다는 점을 들어 해고했으며, 그가 해당 SW를 충분히 이해하지 못했다고 표현했다. 그런데, AMCS에 따르면 우리는 ‘인간의 마음’도 거의 이해하지 못했다. 이러한 이유로 의식 연구의 필요성이 커지고 있다.&lt;/p&gt;
 
@@ -593,30 +906,31 @@ Refer to Amaral Shunichi’s “Brain, Mind, Artificial Intelligence.” A compu
 &lt;p&gt;그 중 사람들에게 가장 큰 충격을 준 서비스를 꼽자면, 단연 오픈 AI(Open AI)의 ChatGPT-3.5, 4가 있다. ChatGPT는 대규모 언어 데이터를 트랜스포머(Transformer) 아키텍처를 활용해 학습한 모델로, 대화형 챗봇 형태의 서비스를 제공한다. 현재 최신 버전인 ChatGPT-4는 단순히 글 형식 뿐만 아니라, 이미지, 동영상, pdf, 프로그램 코드 등의 다양한 형태를 입력받고 생성할 수 있다. 이러한 Multi-Modality는 ChatGPT가 지닌 무한한 가능성을 시사한다.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/231214/1.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;이처럼, 대규모 언어 모델의 가능성을 살펴본 슈퍼 테크 기업들은 대화형 검색 서비스 사업에 뛰어들었다. Meta(구 페이스북)의 Llama2, Claude2, 구글의 Bard까지 수많은 대화형 검색 서비스 사업이 시작되고 있다.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/231214/2.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;h3 id=&quot;text2image-video&quot;&gt;Text2Image, Video&lt;/h3&gt;
 
 &lt;p&gt;OpenAI는 또한 Dall-e와 같은 이미지 생성 서비스도 제공하고 있다. 디퓨전 모델 등을 개발한 Runway ML부터, Pika Labs와 같이 프롬프트 기반 동영상 생성 서비스도 등장했으며 큰 투자를 받고 성장하고 있다. 최근엔 인공지능 서비스 기반의 제작 툴 시장에 급격히 성장하고 있으며, 최초의 AI 영화제가 열리기도 하였다. Pika Labs는 창업 반년 만에 600억에 달하는 투자유치에 성공했다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://youtu.be/6b10jGNNbXQ?si=JRuw_I25uT-VZMnY&quot; alt=&quot;PikaLabs&quot; /&gt;&lt;/p&gt;
-
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6b10jGNNbXQ?si=FkAU6kiiJkNfouyr&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;h2 id=&quot;12-robots&quot;&gt;1.2 Robots&lt;/h2&gt;
 
 &lt;h3 id=&quot;robot&quot;&gt;Robot&lt;/h3&gt;
 
-&lt;p&gt;그 중 로봇 기술은 다른 AI에 비해 현실적이고, 물리적인 문제를 해결하는 데에 초점을 두고 있다. 로봇은 일반적으로 원하는 동작을 문제없이 수행하고 자연스럽게 제어하는 것조차 큰 어려움이 있었다. 그러나, 강화학습(Reinforcement Learning) 기술을 비롯한 대규모 학습 모델을 바탕으로 이 어려움을 극복했다. Tesla의 일론 머스크(Elon Musk) 회장은 인간과 유사한 휴머노이드 형태의 로봇을 $2,000 정도의 가격으로 보급하는 것을 꿈꾼다고 밝힌 적이 있다. 실제 연말에 발표한 Optimus gen2는 불과 1년만에 자연스럽게 걷기 시작했고, 뛰어난 손 모델이 탑재되어 계란을 집을 수 있을만큼 섬세한 조작이 가능해졌다.&lt;br /&gt;
-&lt;img src=&quot;https://youtu.be/cpraXaw7dyc?si=iACTBTgiY39PRZOf&quot; alt=&quot;Optimus Gen2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;그 중 로봇 기술은 다른 AI에 비해 현실적이고, 물리적인 문제를 해결하는 데에 초점을 두고 있다. 로봇은 일반적으로 원하는 동작을 문제없이 수행하고 자연스럽게 제어하는 것조차 큰 어려움이 있었다. 그러나, 강화학습(Reinforcement Learning) 기술을 비롯한 대규모 학습 모델을 바탕으로 이 어려움을 극복했다. Tesla의 일론 머스크(Elon Musk) 회장은 인간과 유사한 휴머노이드 형태의 로봇을 $2,000 정도의 가격으로 보급하는 것을 꿈꾼다고 밝힌 적이 있다. 실제 연말에 발표한 Optimus gen2는 불과 1년만에 자연스럽게 걷기 시작했고, 뛰어난 손 모델이 탑재되어 계란을 집을 수 있을만큼 섬세한 조작이 가능해졌다.&lt;/p&gt;
 
-&lt;p&gt;이와 함께, Unitree의 Go2, B2, H1은 충격적으로 유연하고 뛰어나게 작동하는 로봇의 모습을 보여준다. 심지어 사람이 강하게 밀치거나 의도적인 방해를 가하더라도 성공적으로 수행한다. 바퀴나 트랙 형태의 로봇부터, 족형 로봇이나 보행 로봇까지 다양한 형태의 로봇이 등장하고 있으며, 그들의 운동 수행 방식은 점차 발전하고 있다. 일론 머스크의 꿈에 답하듯이, 수많은 로봇회사들 또한 낮은 제품 가격을 유지하고 있는 추세다.&lt;br /&gt;
-&lt;img src=&quot;https://youtu.be/-0n_MFLKD3M?si=7jNbdD4Z-Q53epDZ&quot; alt=&quot;B2&quot; /&gt;&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cpraXaw7dyc?si=Y8IzRLw9mO5w1YFQ&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;이와 함께, Unitree의 Go2, B2, H1은 충격적으로 유연하고 뛰어나게 작동하는 로봇의 모습을 보여준다. 심지어 사람이 강하게 밀치거나 의도적인 방해를 가하더라도 성공적으로 수행한다. 바퀴나 트랙 형태의 로봇부터, 족형 로봇이나 보행 로봇까지 다양한 형태의 로봇이 등장하고 있으며, 그들의 운동 수행 방식은 점차 발전하고 있다. 일론 머스크의 꿈에 답하듯이, 수많은 로봇회사들 또한 낮은 제품 가격을 유지하고 있는 추세다.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-0n_MFLKD3M?si=SByKaGtU0BHjkfrg&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;h1 id=&quot;2-현대-ai-접근의-한계&quot;&gt;2. 현대 AI 접근의 한계&lt;/h1&gt;
 
@@ -652,7 +966,7 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;p&gt;그들은 자신의 회사가 지닌 기반 기술(Active Inference 기반의 인지 컴퓨팅 기술, Scaling하는 것을 넘어서서 자연의 지능을 벤치마크로 활용하는 태도 등)을 바탕으로 극복할 수 있다고 주장했다.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/231214/3.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/3.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;이러한 문제점은 비단 그들이 주장하는 것뿐만 아니라, 인공지능 기술 발전의 핵심이었던 Geoffrey Hinton, Yan LeCun 등의 교수들 스스로도 지적한 바가 있다. 더욱이 Max Tegmark의 Life 3.0, Brian Christian의 The Alignment Problem, Nick Bostrom의 Superintelligence 등에서도 지속적으로 제기된 바가 있다. 실제로, 강화학습만 하더라도 아직까지 많은 문제가 존재하며, 해결해야 할 문제로 (1)Sample Inefficiency, (2)Nice Alternatives, (3)Hard Reward Design, (4)Local Optima, (5)Generalization Issue, (6)Stability &amp;amp; Reproducibility Issue 등이 있다.&lt;/p&gt;
@@ -715,8 +1029,8 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 
 &lt;table&gt;
  &lt;tr&gt;
-    &lt;img src=&quot;/assets/images/231214/4.1.png&quot; /&gt;
-    &lt;img src=&quot;/assets/images/231214/4.2.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/4.1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/4.2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -738,7 +1052,7 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
     &lt;p&gt;Daniel Wagner, Kurt Gray - What does other minds?(2007)&lt;/p&gt;
 
     &lt;p align=&quot;center&quot;&gt;
-       &lt;img src=&quot;/assets/images/231214/5.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/5.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
    &lt;/p&gt;
 
     &lt;p&gt;→ Asked people “What does other minds?”&lt;br /&gt;
@@ -753,7 +1067,7 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;p&gt;더욱이, 기계 의식에 대한 논의는 인간 의식에 대한 논의와 깊게 관련되며 인류 지성사의 시작점까지 거슬러 올라갈 만큼 중요한 주제이다. 현대 과학이 풀지 못하는 대표적인 문제가 바로, 인간 의식;Ourselves와 우주Universe(언어 유희)이기 때문이다.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/231214/6.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/6.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;h2 id=&quot;32-의식의-이론&quot;&gt;3.2 의식의 이론&lt;/h2&gt;
@@ -851,7 +1165,7 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
       &lt;li&gt;&lt;strong&gt;AI에서의 의식 지표 구현&lt;/strong&gt;: AI 시스템에서 의식의 표시가 될 수 있는 특성들을 구현하는 방법에 대해 논의한다.&lt;/li&gt;
     &lt;/ol&gt;
     &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/231214/7.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/7.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
     &lt;ol&gt;
@@ -963,7 +1277,7 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;p&gt;더욱이 그들은 25년도 겨울, Sentient Agents(2025)를 구현하는 데에 성공할 것이라고 전망하고 있다.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/231214/8.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/8.png&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -971,18 +1285,18 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;/blockquote&gt;
 </description>
                 <pubDate>Thu, 14 Dec 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/meditation/AI,-Robot,-and-Consciousness/</link>
-                <guid isPermaLink="true">http://localhost:4000/meditation/AI,-Robot,-and-Consciousness/</guid>
+                <link>http://localhost:4000/meditation/AI,-Robot,-and-Consciousness-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/AI,-Robot,-and-Consciousness-kr/</guid>
                 
-                <category>AI</category>
+                <category>인공지능</category>
                 
-                <category>Robotics</category>
+                <category>로봇틱스</category>
                 
-                <category>Consciousness</category>
+                <category>의식</category>
                 
-                <category>Philosophy of Mind</category>
+                <category>심리철학</category>
                 
-                <category>Neuroscience</category>
+                <category>신경과학</category>
                 
                 
                 <category>Meditation</category>
@@ -990,14 +1304,12 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
             </item>
         
             <item>
-                <title>The science of emotions</title>
-                <description>&lt;h1 id=&quot;the-science-of-emotions&quot;&gt;The Science of Emotions&lt;/h1&gt;
-
-&lt;blockquote&gt;
+                <title>감정의 과학</title>
+                <description>&lt;blockquote&gt;
   &lt;p&gt;What would we feel without emotions? It would be empty. 과학은 왜Why라는 질문에 답하지 않는다. 어떻게How라는 질문에 답할 뿐이다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://youtu.be/65e2qScV_K8?si=M4j_LW3cNept473r&quot; alt=&quot;The Science of Emotions&quot; /&gt;&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/65e2qScV_K8?si=3Bf6Ej3_XNieXerV&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;h3 id=&quot;1-동물의-마음&quot;&gt;1. 동물의 마음&lt;/h3&gt;
 
@@ -1011,8 +1323,8 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 
 &lt;p&gt;→동물에게는 질적으로 다른 원시적인 감정들이 있다. 이들에 대한 정동적 감정의 일상적 표현들은 다음과 같다.&lt;/p&gt;
 
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/231123/231123_0.png&quot; /&gt;
+&lt;p align=&quot;center&quot; style=&quot;width: 100%;&quot;&gt;
+  &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-23-The Science of Emotions/231123_0.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;h3 id=&quot;3-두뇌의-아편&quot;&gt;3. 두뇌의 아편&lt;/h3&gt;
@@ -1026,12 +1338,14 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;p&gt;→ 마찬가지로 SEEKING, PLAY와 관련된 실험을 통해 사람의 열정과 긍정적인 인간관계적 즐거움을 고양시킬 수 있을 것으로 기대한다.&lt;/p&gt;
 </description>
                 <pubDate>Thu, 23 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/The-Science-of-Emotions/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/The-Science-of-Emotions/</guid>
+                <link>http://localhost:4000/motivation/The-Science-of-Emotions-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/The-Science-of-Emotions-kr/</guid>
                 
-                <category>Emotion</category>
+                <category>감정</category>
                 
-                <category>Neuroscience</category>
+                <category>신경과학</category>
+                
+                <category>진화</category>
                 
                 
                 <category>Motivation</category>
@@ -1039,37 +1353,39 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
             </item>
         
             <item>
-                <title>Do math about brain</title>
-                <description>&lt;h1 id=&quot;can-mathematics-understand-the-brain&quot;&gt;Can Mathematics Understand the Brain?&lt;/h1&gt;
+                <title>마음을 수학하라</title>
+                <description>&lt;blockquote&gt;
+  &lt;p&gt;Can Mathematics Understand the Brain?&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://youtu.be/jYP3crI0wpc?si=MLlJJqaVcGbA3h-h&quot; alt=&quot;Can Mathematics Understand the Brain?&quot; /&gt;&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jYP3crI0wpc?si=iWnZu6rq20dWniPI&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://goriely.com/&quot;&gt;알랭 고리엘리&lt;/a&gt;는 옥스포드 수학 연구소에 소속된 수리 모델링 교수로, 인간의 뇌 및 발달 과정과 관련해 연구를 수행해 왔다. 그는 주로 두뇌의 형태과정Morphogenesis을 연구했는데, 위 영상에서는 산업 및 응용수학의 관점에서 두뇌를 분석했다. 위 영상에서는 구체적으로, (1)두뇌에서 발생하는 몸무게-피질면적의 스케일링 법칙을 소개하고, (2)형태과정을 분석하여 두뇌의 피질 주름 패턴 모델링한 후, (3)수두증과 뇌부종에 대한 문제 해결 사례를 소개했다. 마지막으로, (4)두뇌의 네트워크 모델을 기반으로 확산 모델링을 수행하여, 퇴행성 신경질환에 대한 새로운 시각을 제공했다.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/231104/1.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 &lt;p&gt;응용수학에 대한 관점을 소개하는 부분이 매우 흥미롭다. 그에 따르면, 현실 세계의 문제에 추상적인 수학을 적용하는 것에 있어, 이론(Theory)과 방법(Method)을 통해 접근 가능하다. 예를 들어, 방법에는 수학적인 구조와 정리를 활용한 방정식, 행렬, 데이터 분석, 계산 알고리즘 등이, 이론에는 기개발된 방법체계인 물리학, 과학, 공학, 경제학 등이 있다. 이때, 추상수학을 통해 이론과 방법론을 적절히 설정하여 실제 문제를 해결하는 것이 응용수학이라는 것이 그의 설명이다.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/231104/2.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 &lt;p&gt;응용수학에 대한 관점을 소개하는 부분이 매우 흥미롭다. 그에 따르면, 현실 세계의 문제에 추상적인 수학을 적용하는 것에 있어, 이론(Theory)과 방법(Method)을 통해 접근 가능하다. 예를 들어, 방법에는 수학적인 구조와 정리를 활용한 방정식, 행렬, 데이터 분석, 계산 알고리즘 등이, 이론에는 기개발된 방법체계인 물리학, 과학, 공학, 경제학 등이 있다. 이때, 추상수학을 통해 이론과 방법론을 적절히 설정하여 실제 문제를 해결하는 것이 응용수학이라는 것이 그의 설명이다.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/231104/3.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/3.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 &lt;p&gt;그렇다면, “인간의 현상적 의식을 설명할 수 있는 두뇌의 이론을 개발”이라는 현실적 문제를 해결하기 위해서는 어떻게 해야할까? 우리는 실험으로부터 경험에 대한 정보를 효과적으로 획득할 수 없다. 그럼에도, 소통Communication을 활용해 피험자의 내성Introspective을 통한 기술Description 자료를 획득할 수 있으며, 그것의 물리적 대응물인 신경 활동을 이미징할 수 있다. 우리가 취하면 좋을 수학은 무엇이며, 이를 활용해 모델링할 때는 어떤 이론과 방법을 적용해야 할까? 사실 이런 질문은 무의미할 수도 있겠다. 문제를 효과적으로 풀려면, 질문을 할 때 그 질문의 가능한 답을 고민할 필요가 있다. 다시말해, 해결하려고 하는 그 문제가 정말로 해결되면 우리는 그것으로 무엇을 할 수 있을까?&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/231104/4.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/4.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 &lt;p&gt;과거 호주의 철학자 데이비드 차머스는 인간의 현상적 의식과 관련해, 두뇌가 어떻게 지각-인지-학습-행동 등을 수행하는지에 대한 문제를 “쉬운 문제”, 그러한 과정이 왜-어떻게 의식과 관련되는지에 대한 문제를 “어려운 문제”라고 정의했다. 이때 앞서 정의한 문제는 쉬운 문제-어려운 문제의 범주와는 조금 다르다. 우리가 형이상학적인 철학의 문제를 해결하는 것이 아니라 보다 과학적인 관점에서 접근하고 있기 때문이다. 이런 관점에서, 앞서 한 질문은 현상적 의식과 체험을 생물학적으로 설명하고, 예측하고, 제어할 수 있게 하는 이론의 가능성을 반문하고 있다. 즉, 그 아닐 세스Anil Seth의 진짜 문제The Real Problem의 범주에 속한 셈이다. 그 이론은 의식적 내용과 상태를 수학적으로 기술할 수 있게 하고(Dynamic), 그들의 동역학을 분석하며(Mechanic), 근본적인 작동 원리를 설명할 수 있다(Principle).&lt;/p&gt;
 
 &lt;h1 id=&quot;future&quot;&gt;Future&lt;/h1&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/231104/5.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/5.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 &lt;p&gt;의식의 상태를 수학적으로 기술할 수 있다는 뜻은 무엇일까? 예를 들어, 운동역학에서 어떤 물체의 운동 상태에 대해 기술한다고 설명해보자. 그러면, 우리는 그 물체의 모든 요소에 대해 기술하는 것이 어렵기에 무게 중심과 점질량에 대해 위치, 속도, 가속도 등의 변수를 활용하거나, 에너지의 개념을 도입해 유도해내곤 한다. 또다른 예시로, 통계역학에서 어떤 기체의 상태에 대해 서술한다고 해보자. 주어진 기체 분자들의 특성을 전부 기술하는 것이 불가능하기 때문에, 그들의 통계적인 속성인 온도, 압력, 부피 등의 변수를 활용해 기술하게 된다. 이러한 기술학Descriptology은 서술하고자 하는 물리계의 상태에 대한 이론의 핵심 용어를 정립해준다. 뿐만 아니라, 서로 다른 관점 사이의 변환 규칙을 정해주고 서로 다른 대상이 공통된 대상을 이해하고 받아들이는 데에 큰 도움을 준다. 기술학은 어찌보면 관점주의적이고 사회적인 속성을 지닐지도 모르겠다.&lt;/p&gt;
 
@@ -1099,20 +1415,16 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
     - 자신과 사물/타인을 표현/비교
 - 우리의 의식 일부/전체를 컴퓨터에 업로드/다운로드할 수 있는가?
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;-장난감같은-예시&quot;&gt;### 장난감같은 예시&lt;/h4&gt;
-
-&lt;p&gt;한 수은 체온계가 주어졌다고 상상해 보자. 이 체온계는 주위의 온도에 따라 내부의 상태가 일관적으로 변화할 것이다. 그렇다고 이 체온계가 의식이 있다고 할 수 있을까? 아닐 것이다. 그렇다면, 특정 범위의 온도를 유지해야 하는 체온계가 주어졌다고 상상해 보자. 이 체온계는 어떤 온도 $T$에 대해 $\epsilon_T$만큼의 오차 내로 항상 유지될 필요가 있다. 때문에 이 온도계가 너무 더워지면 열원을 피하고, 추워지면 열원을 찾아가는 행동을 보일 것이다. 그렇지 않으면, 이 온도계는 소실dissipation된다. 그렇다고 이 체온계가 의식이 있다고 할 수 있을까? 아닐 것이다.&lt;/p&gt;
 </description>
                 <pubDate>Sat, 04 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Do-math-about-brain/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Do-math-about-brain/</guid>
+                <link>http://localhost:4000/motivation/Do-math-about-brain-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Do-math-about-brain-kr/</guid>
                 
-                <category>Mathematics</category>
+                <category>수학</category>
                 
-                <category>Brain</category>
+                <category>두뇌</category>
                 
-                <category>Science</category>
+                <category>과학</category>
                 
                 
                 <category>Motivation</category>
@@ -1120,8 +1432,10 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
             </item>
         
             <item>
-                <title>Deepmind</title>
-                <description>&lt;h3 id=&quot;딥마인드같은-회사는-어떻게-만들어졌는가&quot;&gt;딥마인드같은 회사는 어떻게 만들어졌는가?&lt;/h3&gt;
+                <title>딥마인드의 뒷이야기</title>
+                <description>&lt;blockquote&gt;
+  &lt;p&gt;딥마인드같은 회사는 어떻게 만들어졌는가?&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;→ 2010년 천재 과학자 데미스 허사비스(Demis Hassabis)가 창업한 회사&lt;/p&gt;
 
@@ -1152,12 +1466,14 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;/ul&gt;
 </description>
                 <pubDate>Thu, 02 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/DeepMind/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/DeepMind/</guid>
+                <link>http://localhost:4000/motivation/DeepMind-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/DeepMind-kr/</guid>
                 
-                <category>AI</category>
+                <category>인공지능</category>
                 
-                <category>Business</category>
+                <category>성공</category>
+                
+                <category>비즈니스</category>
                 
                 
                 <category>Motivation</category>
@@ -1165,13 +1481,9 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
             </item>
         
             <item>
-                <title>Siddhartha</title>
-                <description>&lt;h1 id=&quot;싯다르타&quot;&gt;싯다르타&lt;/h1&gt;
-
-&lt;h2 id=&quot;헤르만-헤세&quot;&gt;헤르만 헤세&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;방랑과 위기의 연속, 헤세의 삶을 중심으로&lt;/strong&gt;&lt;/p&gt;
+                <title>싯다르타를 읽고</title>
+                <description>&lt;blockquote&gt;
+  &lt;p&gt;싯다르타, 헤르만 헤세: &lt;strong&gt;방랑과 위기의 연속, 헤세의 삶을 중심으로&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;주요-부분&quot;&gt;주요 부분&lt;/h3&gt;
@@ -1215,12 +1527,12 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;/blockquote&gt;
 </description>
                 <pubDate>Wed, 01 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Siddhartha/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Siddhartha/</guid>
+                <link>http://localhost:4000/motivation/Siddhartha-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Siddhartha-kr/</guid>
                 
-                <category>Literature</category>
+                <category>문학</category>
                 
-                <category>Religion</category>
+                <category>종교</category>
                 
                 
                 <category>Motivation</category>
@@ -1228,19 +1540,17 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
             </item>
         
             <item>
-                <title>Find a missing submarine</title>
-                <description>&lt;h1 id=&quot;사라진-잠수함을-찾아라&quot;&gt;사라진 잠수함을 찾아라&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;북한의 핵위협과 대잠전의 중요성을 중심으로&lt;/strong&gt;&lt;/p&gt;
+                <title>놓친 잠수함을 찾아라</title>
+                <description>&lt;blockquote&gt;
+  &lt;p&gt;사라진 잠수함을 찾아라: &lt;strong&gt;북한의 핵위협과 대잠전의 중요성을 중심으로&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;말머리&quot;&gt;말머리&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;말머리&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/230923/1.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;이탈리아의 현대예술가 스벤 삭살베르(Sven Sachsalber)의 행위예술 작품 - 건초더미에서 바늘찾기&lt;/em&gt;&lt;/p&gt;
@@ -1248,19 +1558,19 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;p&gt;우리나라 속담에는 “모래사장에서 바늘찾기“라는 말이 있다. 영미권에서도 비슷하게 “Looking for a needle in a haystack“라는 격언이 있다. 즉, “건초더미에서 바늘찾기”라는 뜻이다. 우리나라와 영미권 모두 불가능에 가까운 일을 표현하는 방식이 놀랄 정도로 닮아있다. 이 둘 모두 불가능에 가까워 보이는 일을 유사한 방식으로 희화화하고 있다.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/230923/2.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;한편, 우리의 일상에서 이처럼 불가능에 가까운 일을 해결해야 하는 상황이 생기곤 한다. 간단한 예를 들어, 어젯밤 만취한 상태로 잠에 든 당신이 눈을 떠보니 출근 시간을 넘겼다. 얼른 운전해서 출근해야하지만 차 키가 어디있는지 도저히 기억이 나지 않는다. 어떻게 이 차 키를 찾을 수 있겠는가? 더 심각한 예를 들어 보자. 잠시 당신이 아이와 함께 사람들로 붐비는 놀이공원에 갔다고 상상해보자. 너무나도 많은 인파에 잡고 있던 아이의 손을 놓친 것이다! 이 경우, 당신은 어떻게해서든 아이를 찾아내야 한다. 어떻게 당신의 아이를 찾을 수 있겠는가?&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/230923/3.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/3.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;불가능에 가까운 일은 일상 뿐만 아니라, 우리의 사회와 국가적 규모의 전쟁 상황에서도 빈번히 일어난다. 일례로, 산이나 바다에서 실종된 사람을 빠르게 찾아 구조하는 탐색 구조 작전(Search And Rescue; SAR)은 적잖이 필요하다. 산악-시가지-전투-공중-해양 등 다양한 상황과 환경에서 탐색 구조 작전을 수행하게 된다. 만약, 당신이 세월호 사건을 기억한다면, 신속하고 효과적인 대응이 필수적이라는 것을 깨달을 수 밖에 없을 것이다. 미 연안 경비대의 경우, SAR 작전이야 말로 자신의 가장 오래된 임무 중 하나이자, 반드시 최우선적으로 다루게 되는 상황임을 명시하고 있다.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/230923/4.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/4.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;최근 북한은 잠수함에 탑재할 수 있는 대륙 간 탄도미사일인 SLBM(Submarine-Launched Ballistic Missile)을 개발하고 있다. 우리나라의 영토 뿐만 아니라, 미국을 포함한 우호국들의 영토까지 위협할 수 있는 것이다. 또한, 은닉에 능한 잠수함 플랫폼을 고려했다는 점 또한 상황을 절망적으로 만든다. 바다에서 잠수함을 찾아 선제적으로 예방한다는 것, 이 일은 바로 “모래사장에서 바늘찾기”다. 그런데, 이러한 절망적인 사건이 과거에 해결된 적이 있다! 이 사례들을 직접 확인해보고 앞으로 개발할 탐색 작전의 가능성을 파악해보자.&lt;/p&gt;
@@ -1272,7 +1582,7 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;h3 id=&quot;1-국방백서-2022&quot;&gt;(1) 국방백서 2022&lt;/h3&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/230923/5.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/5.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;우리나라 국방백서 2022에 따르면, 북한의 변화하는 정세-특히 5대 국방과제-에 따라 증가하는 핵 미사일 위협에 대응하고자 준비하고 있다. 발사의 전후를 대비하는 발사의 왼편 및 오른편 전략과 함께, 미국과 일본과 연합 작전을 수행하며 가용한 감시정찰 자산을 추가 편입하려고 노력하고 있다. 그러나, 현재 진행 중인 우크라이나-이스라엘 전쟁이나 러시아-우크라이나 전쟁으로 핵문턱이 낮아질 뿐만 아니라, 비핵화의 의미마저 퇴색해버리게 되었다. 북한은 지속적으로 SLBM과 잠수함 기술을 고도화하여 최소억제전략에서 제한억제전략으로 그 강도와 위협을 키우고 있다. 전문가들은 우리나라가 소위 “핵 인질”로 잡혀, 사회-경제-문화적으로 다양한 피해를 겪게 될 것이라고 우려하고 있다.&lt;/p&gt;
@@ -1282,7 +1592,7 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;h3 id=&quot;2-북한의-잠수함-및-핵미사일-제원&quot;&gt;(2) 북한의 잠수함 및 핵미사일 제원&lt;/h3&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/230923/6.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/6.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;한편, 북한은 러시아, 중국 등의 주요 우호국 등으로부터 잠수함 건조 기술을 받거나 역설계하는 방식으로 기술을 고도화 해왔다. 시기 순으로 보면, 위스키급→로미오급→상어급→유고급으로 발전해 왔다. 그러나 이들 모두 소형 디젤 잠수함으로 소음이 크고, 경량화된 SLBM을 탑재하기엔 체급이 작다. 북한의 SLBM은 주로 신포급이나, 현재 개발 중인 것으로 추정되는 원자력추진잠수함에 탑재가 가능하다. (북한의 탄도미사일 경량화 기술은 세계 정상급인 것으로 추정된다.) 북한은 내부적으로 잠수함 및 핵미사일 기술 개발에 총력을 다하고 있다고 알려져 있다.&lt;/p&gt;
@@ -1292,7 +1602,7 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;h3 id=&quot;3-대잠전의-중요성&quot;&gt;(3) 대잠전의 중요성&lt;/h3&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/230923/7.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/7.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;이처럼, SLBM은 한반도 뿐만 아니라 지구 상의 모든 국가에 큰 위협이 되고 있다. 이에 따라, SLBM에 대응하기 위해서는 발사 전에 감시 정찰 자산으로 수집한 정보를 효과적으로 운영하여 발사 직전과 직후의 태세를 확립하는 것의 필요성이 대두되고 있다. 대잠전은 주로 잠수함, 구축함, 초계기 등의 정찰 자산을 운용하게 되며, 교리 상 7단계로 구성된다: 탐색→탐재→식별→추적→지휘→결심→대응. 북한-중국-러시아의 대륙 세력에 대응하기 위해, 한국-미국-일본의 해양 세력의 연합하게 되었다. 실제 2016년부터 대잠전에 대응하기 위한 각국의 감시 정찰 자산 간의 합동 훈련이 이루어지고 있다. 우리 국군의 경우, 부족한 감시 정찰 자산을 확보하기 위해 중장기적으로 차기 구축함과 잠수함 기술 고도화에 매진하고 있으며, 미래도전적 성격을 지닌 무인잠수정 등의 기술 확보에도 관심을 드러내고 있는 것으로 알려져 있다.&lt;/p&gt;
@@ -1305,8 +1615,10 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 
 &lt;table&gt;
  &lt;tr&gt;
-    &lt;img align=&quot;left&quot; src=&quot;/assets/images/230923/8.1.png&quot; /&gt;
-    &lt;img align=&quot;left&quot; src=&quot;/assets/images/230923/8.2.png&quot; /&gt;
+    &lt;p align=&quot;center&quot;&gt;
+        &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/8.1.png&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
+        &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/8.2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;/p&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -1316,7 +1628,7 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;h3 id=&quot;2-1966년-팔로마레스-탐색-작전&quot;&gt;(2) 1966년 팔로마레스 탐색 작전&lt;/h3&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/230923/9.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/9.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;냉전 시기, 미국의 전략 폭격기 B-52가 수소 폭탄 4기를 탑재하여 24시간 북극해 상공을 비행하는 크롬 돔(Chrome Dome) 작전이 수행되었다. 이 때, 공중 급유를 하던 폭격기가 급유 호스에 맞아 폭발해 수소 폭탄을 소실한 사건이 일어났다. 소실된 4기 중 3기는 곧바로 찾았으나 나머지 1기를 잃어버렸고, 이를 찾는 탐색 작전이 수행되었다. 당시 해군 소속 민간인 과학자였던 Craven이 프로젝트를 맡았고, 도움을 받고자 Daniel Wagner와 그의 조수 Henry Richardson이 투입되었다. 그러나, 실질적인 문제 해결에는 큰 도움을 주지 못한 채 스페인의 한 토마토 농장에서 파손된 폭탄을 찾게 된다.&lt;/p&gt;
@@ -1324,7 +1636,7 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;h3 id=&quot;3-1968년-uss-scorpion-탐색-작전&quot;&gt;(3) 1968년 USS Scorpion 탐색 작전&lt;/h3&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/230923/10.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/10.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;냉전 시기, 심해 잠수함 체계 프로젝트를 진행하던 중 미 해군 소속의 잠수함 USS Scorpion이 사라지는 사건이 발생했다. 이에 Henry Richardson과 Lawrence D. Stone이 투입되어 맨해튼 프로젝트에서 개발된 Monte-Carlo Sampling 기법과 해류를 고려하여 문제를 해결하였다. 이후 Lawrence D. Stone은 “최적 탐색 이론(Optimal Search Theory)”을 정립하게 된다.&lt;/p&gt;
@@ -1332,21 +1644,23 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;h3 id=&quot;4-1976년-us-voge-호와-소련-k-22-충돌-사건&quot;&gt;(4) 1976년 US Voge 호와 소련 K-22 충돌 사건&lt;/h3&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/230923/11.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/11.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;훗날 미 해군의 지중해 사령관이 되는 Nicholson은 Henry Richardson에게 의뢰하여, 지중해에서 소련의 잠수함을 탐색 및 탐지하는 대잠수함 작전을 수행하게 된다. 과거 사례로부터 기술을 확보한 Richardson은 컴퓨터를 활용해 실시간으로 데이터를 업데이트하는 프로그램을 개발하였고, US Voge 호를 통해 탐색 및 탐지에 성공하게 된다. 잠수함은 플랫폼 상 대잠함에 비해 속도가 낮으므로 도망치는 것이 불가능했고, 소련의 K-22 잠수함은 US Voge에 충돌하여 나포하게 된다.&lt;/p&gt;
 
 &lt;h3 id=&quot;5-2009년-에어-프랑스-aff447기-실종-사건&quot;&gt;(5) 2009년 에어 프랑스 AFF447기 실종 사건&lt;/h3&gt;
 
-&lt;p&gt;&lt;img align=&quot;left&quot; src=&quot;/assets/images/230923/12.png&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/12.png&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
+&lt;/p&gt;
 
 &lt;p&gt;2009년 브라질 리오 데 자네이루에서 출발하여 프랑스 파리로 향한 AFF447기가 실종되는 사건이 발생한다. 이에 Lawrence D. Stone이 창업한 Metron Inc.에서 탐색 작전을 수행하여 해결한 사건 이다. 전문가로부터 자문을 구해 다양한 시나리오 세트를 구성하고, 각 시나리오의 가중치를 고려하여 확률을 업데이트하는 형태로 기술을 개발했다. 이후, 진행되고 있는 탐색 작전의 결과를 바탕으로 업데이트하여 작전 실무자들의 의사결정을 지원하였다.&lt;/p&gt;
 
 &lt;h3 id=&quot;6-2013년-미-연안-경비대의-탐색구조-자동화-프로그램-개발&quot;&gt;(6) 2013년 미 연안 경비대의 탐색구조 자동화 프로그램 개발&lt;/h3&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/230923/13.png&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/13.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;해안가에서 자국의 인명 혹은 자산이 실종된 경우, 이를 빠르게 탐색하여 구조하는 SAR(Search and Rescue) 작전은 미 연안 경비대의 가장 오래되고 중요도 높은 작전이다. 과거 Discenza로부터 CASP라는 자동화된 프로그램이 제안되어 왔고, 2013년에 이르러 해류의 실시간 흐름을 반영하는 SAROPS라는 프로그램이 개발되었다. 본 프로그램은 대개 12시간 내로 실종자를 찾아내며, 아주 높은 성능을 보이는 것으로 알려져 있다. 탐색 구역이 아무리 광활하더라도, 사전정보와 해류를 통해 최적의 탐색 작전을 제안한다.&lt;/p&gt;
@@ -1360,14 +1674,14 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;p&gt;최적 탐색 기술은 실질적인 문제 해결보다, 지휘통제 관점에서 보다 효율적인 의사결정을 지원한다는 점에 관련되어 있다. 기계학습 및 IoT, AI 등의 기술이 접목된 사례도 극히 적어, 관련 기술을 확보한다면 미래 전장의 큰 위협을 다루게 될 수 있을 것을 기대한다.&lt;/p&gt;
 </description>
                 <pubDate>Wed, 01 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/meditation/Find-a-missing-submarine/</link>
-                <guid isPermaLink="true">http://localhost:4000/meditation/Find-a-missing-submarine/</guid>
+                <link>http://localhost:4000/meditation/Find-a-missing-submarine-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Find-a-missing-submarine-kr/</guid>
                 
-                <category>Decision Theory</category>
+                <category>의사결정 이론</category>
                 
-                <category>AI</category>
+                <category>인공지능</category>
                 
-                <category>Weapon System</category>
+                <category>무기체계</category>
                 
                 
                 <category>Meditation</category>
@@ -1375,10 +1689,18 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
             </item>
         
             <item>
-                <title>Brain, mind, and ai</title>
-                <description>&lt;h1 id=&quot;뇌-마음-인공지능&quot;&gt;&lt;a href=&quot;https://product.kyobobook.co.kr/detail/S000001732224&quot;&gt;뇌, 마음, 인공지능&lt;/a&gt;&lt;/h1&gt;
+                <title>아마리 슌이치: 뇌, 마음, 인공지능</title>
+                <description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://product.kyobobook.co.kr/detail/S000001732224&quot;&gt;뇌, 마음, 인공지능&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h3 id=&quot;아마리-슌이치&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Shun%27ichi_Amari&quot;&gt;아마리 슌이치&lt;/a&gt;&lt;/h3&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;저자: &lt;a href=&quot;https://en.wikipedia.org/wiki/Shun%27ichi_Amari&quot;&gt;아마리 슌이치&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;h2 id=&quot;2장-뇌란-무엇인가&quot;&gt;2장. 뇌란 무엇인가&lt;/h2&gt;
 
@@ -1447,14 +1769,116 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 &lt;/blockquote&gt;
 </description>
                 <pubDate>Sat, 23 Sep 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Brain,-Mind,-and-AI/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Brain,-Mind,-and-AI/</guid>
+                <link>http://localhost:4000/motivation/Brain,-Mind,-and-AI-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Brain,-Mind,-and-AI-kr/</guid>
+                
+                <category>두뇌</category>
+                
+                <category>계산장치</category>
+                
+                <category>신경과학</category>
+                
+                <category>정보이론</category>
+                
+                <category>인공지능</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>Shun&apos;ichi Amari: Brain, Mind, Artificial Intelligence</title>
+                <description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://product.kyobobook.co.kr/detail/S000001732224&quot;&gt;Brain, Mind, Artificial Intelligence&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Author: &lt;a href=&quot;https://en.wikipedia.org/wiki/Shun%27ichi_Amari&quot;&gt;Shun’ichi Amari&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;chapter-2-what-is-the-brain&quot;&gt;Chapter 2. What is the Brain?&lt;/h2&gt;
+
+&lt;p&gt;(This chapter explains the neurophysiological structure and detailed functions of the brain.)&lt;/p&gt;
+
+&lt;p&gt;→ The brain is a massive network composed of 100 billion neurons, weighing about 1.4kg and having a volume of approximately 1400cc.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Brainstem&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;It is the basic life-support device, acting as the center of autonomic functions like breathing.
+It controls sleep and wakefulness and serves as the pathway for information going from the outside to the cerebrum and from the cerebrum to the outside.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cerebellum&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Although it weighs only about 10% of the brain, it contains the most neurons, around 80 billion.
+It is responsible for perception and motor control, working in coordination with the cerebrum.
+Motor functions acquired over time in the cerebrum are transferred to the cerebellum and become routine, allowing for rapid processing.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cerebrum&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;The part that develops the slowest.
+Composed of the cerebral cortex, basal ganglia, hippocampus, and amygdala, it contains about 20 billion neurons.
+It is responsible for functions such as cognition, thought, language, motor planning and control, and memory, facilitating higher mental functions.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;p&gt;The surface area is about 2000-2500cm^2 (roughly the size of a newspaper page), and it consists of a sheet 2-3mm thick.
+It is made up of six layers forming columnar structures.&lt;/p&gt;
+
+    &lt;blockquote&gt;
+
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;→ How might the optimal input in IT-MPC be related to the interaction between cerebrum and cerebellum motor functions?&lt;/p&gt;
+
+&lt;h2 id=&quot;chapter-5-interpreting-the-brain-with-mathematics-2&quot;&gt;Chapter 5. Interpreting the Brain with Mathematics (2)&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;How does actual brain learning occur?
+Investigating the neural circuits of the brain reveals that there is no phenomenon like error backpropagation, where errors flow backward through the circuit for learning.
+Therefore, perceptron learning cannot be seen as modeling the structure of the brain.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;However, it cannot be concluded that they are completely different either. Stochastic gradient descent is an algorithm that expresses one principle of learning information processing. The brain may not have realized this principle in its actual structure.&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;chapter-6-history-and-future-of-artificial-intelligence&quot;&gt;Chapter 6. History and Future of Artificial Intelligence&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;IBM also began seriously participating in neuro-computation. In the United States, the Department of Defense’s DARPA led a program called “SyNAPSE,” aiming to create neural circuits on chips. In response, IBM succeeded in developing a neurochip named “TrueNorth.”
+This chip contains 1 million neurons and 256 million synaptic connections, consuming only 70mW of power. A system combining these chips boasts 48 million neurons and 12 billion synapses, comparable to a mouse brain.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+                <pubDate>Sat, 23 Sep 2023 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/Brain,-Mind,-and-AI-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Brain,-Mind,-and-AI-en/</guid>
                 
                 <category>Brain</category>
                 
                 <category>Computing Device</category>
                 
-                <category>AI</category>
+                <category>Neuroscience</category>
+                
+                <category>Information Theory</category>
+                
+                <category>Artificial Intelligence</category>
                 
                 
                 <category>Motivation</category>
