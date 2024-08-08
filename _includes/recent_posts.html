@@ -16,8 +16,19 @@
       <span
         class="post-category"
         style="
-          background-color: #000;
-          color: #fff;
+          {% if post.category == 'Meditation' %}
+            background-color: #2F2F4F; /* 짙은 하늘의 하얀 구름 색상 */
+            color: #FFF;
+          {% elsif post.category == 'Motivation' %}
+            background-color: #003333; /* 황혼의 파도 색상 */
+            color: #FFF;
+          {% elsif post.category == 'Movement' %}
+            background-color: #3B2F2F; /* 안개 낀 숲 색상 */
+            color: #FFF;
+          {% else %}
+            background-color: #000;
+            color: #FFF;
+          {% endif %}
           padding: 2px 6px;
           border-radius: 3px;
           font-size: 0.85em;
