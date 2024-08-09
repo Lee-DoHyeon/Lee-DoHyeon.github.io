@@ -5,8 +5,8 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 08 Aug 2024 21:48:41 +0900</pubDate>
-        <lastBuildDate>Thu, 08 Aug 2024 21:48:41 +0900</lastBuildDate>
+        <pubDate>Fri, 09 Aug 2024 11:34:05 +0900</pubDate>
+        <lastBuildDate>Fri, 09 Aug 2024 11:34:05 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
@@ -1870,6 +1870,173 @@ This chip contains 1 million neurons and 256 million synaptic connections, consu
             </item>
         
             <item>
+                <title>의식에 대한 진화론적 관점</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;수 만 년의 진화의 역사에서 인간은 “왜” 의식을 갖게 되었을까? 의식 현상이 생존에 어떠한 이점을 제공하는가?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;본 글은 MIT Press에 기고된 Simona Ginsburg, Eva Jablonka의 “How Did Consciousness Evolve? An Illustrated Guide[1]”를 읽고 생각을 정리한 글입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;우리의 존재는 진화적으로 발생했다. 신을 믿는 사람들은 대개 창조과학을 이야기하며 진화론을 부정하곤 하지만, 과거에 대한 이야기는 반증이 불가능하기에 불필요할 것이다(칼 포퍼Karl Popper). 진화는 실험실 수준에서 검증가능한 프로세스로, 좋은 설명력과 예측력을 제공해줌에 틀림없다.&lt;/p&gt;
+
+&lt;p&gt;진화론은 과거 라마르크Jean-Baptise Lamark와 다윈Charles Darwin에 의해 시작되었다. 당시에는 단순히 특정 형질이 후대에 계승되고, 자연 선택에 의해 생존에 적합한 형질을 갖는 개체를 중심으로 생존하게 된다는 내용이었다. 이후 20세기 존 메이너드John Maynard에 의해 DNA 기반의 진화적 다양성이 제기되었다. 유전자가 직접적인 leader라는 것이다. 그러나, 현대 21세기에 이르러, 유전자보다 개체의 생태적 지위Niche를 형성하는 능동적 행위의 중요성이 알려지며, 유전자만 중요하다는 주장은 폐기된다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;진화의 역사에서 특수한 전환Transition이 발생하는 경우, 진화론의 관점이 훌륭한 설명을 제공해줄 수 있다. 일례로, 왜 수중에 있던 생물체들이 지상으로, 더욱이 공중에서 자신만의 생태적 지위를 형성하게 되었을까? 마찬가지로, 왜 단일 세포에서 세포 덩어리가 되었는지, 의사소통이 불가능한 개체가 어떻게 기호적 언어를 구사하게 되었는지 등의 흥미로운 질문이 가능할 것이다.&lt;/p&gt;
+
+&lt;p&gt;진화론에 호의적인 철학자 Daniel Dennett도 마찬가지다. 생명체의 진화적 방향을 언급하며 “generate-and-test-tower”에서 생명체 진화의 단계를 아래와 같이 구분한다. 이때 첫번째는 &lt;strong&gt;생존 게임&lt;/strong&gt;에 의해 선택되는 생명체, 두번째는 &lt;strong&gt;학습&lt;/strong&gt;에 의해 선택되는 행동양식, 세번째는 &lt;strong&gt;상상&lt;/strong&gt;을 통해 선택되는 아이디어, 네번째와 다섯번째는 &lt;strong&gt;문화&lt;/strong&gt;적으로 선택되는 도구와 밈을 의미하곤 한다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Darwinian Creature: 무작위 돌연변이와 환경에 의해 형성되어 고정된 생명체&lt;/li&gt;
+  &lt;li&gt;Skinnerian Creature: 외부 환경에 행동을 실험하여 학습할 수 있는 생명체&lt;/li&gt;
+  &lt;li&gt;Popperian Creature: 수 많은 선택의 경우를 상상하여 최적의 행동을 미리 선택할 수 있는 생명체&lt;/li&gt;
+  &lt;li&gt;Gregorian Creature: 외부 세상에서 내부적인 환경을 창조하기 위해 도구를 활용할 수 있는 생명체&lt;/li&gt;
+  &lt;li&gt;Scientific Creature: 사회와 언어적 도구를 활용하여 의사소통하고 과학적 방법을 활용하는 생명체&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;진화적 관점에서 어떻게, 그리고 왜 단순한 탄소화합물 덩어리가 감정과 감각을 경험sentient할 수 있게 되었을까? 진화론적 설명이 도움을 줄 수 있을까?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-10-Consciousness and Evolution/0.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      생명체의 기원에 대한 접근, 출처: [2]
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+이와 같은 질문은 과거에 생명의 기원에 대한 문제에서도 유사하게 등장했었다. 당시엔 최소한의 생명Minimal Life이 만족하는 능력들의 리스트를 생성하고, 이러한 능력을 구현할 수 있는 최소한의 생명체에 대한 이론적 모형을 만들었다고 한다. 이때 진화론적으로 생명이 탄생하게 된 전환 지표Transition Marker를 활용한다[2].&lt;/p&gt;
+
+&lt;p&gt;마찬가지로, 저자는 의식의 진화론적 전환 지표로 &lt;strong&gt;무제한 연관 학습Unlimited Associative Learning(UAL)&lt;/strong&gt;을 들 수 있다고 한다. 이러한 이유는 과거 20세기 학습 연구로 거슬러 올라간다. 19세기 생물학자들은 의식을 판별하기 위한 조건으로, 새로운 행동적 적응에 의한 학습가능성Learnability을 제안한다. 이는 20세기 행동주의의 시초가 된다.&lt;/p&gt;
+
+&lt;p&gt;20세기 행동주의적 관점에서 학습은 총 세가지로 구성된다. 먼저, (1)시스템의 내적 상태를 변화시킬 감각 자극, (2)긍정/부정적 강화를 야기할 수 있도록 하기 위한 기억들, (3)추후 동일 자극에 대한 노출로 구성된다. 행동주의적 관점에서 연관 학습은 인공적인 실험 환경에서 수행되어 현실성이 없다는 비판으로 사장된다.&lt;/p&gt;
+
+&lt;p&gt;그런데, 19세기의 제안-의식을 판별하기 위해서는 학습 능력을 평가할 수 밖에 없다-은 20세기의 행동주의적 관점을 부활시키는 것 같다. 더욱이 구체적으로 의식을 갖는 듯한 생명체들을 관찰해보면, 그것의 진화론적 전환 지표로 엄청난 연관학습 능력을 들 수 있다[2].&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-10-Consciousness and Evolution/1.jpeg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      의식적 생명체의 기원에 대한 접근, 출처: [2]
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+심리학자, 철학자, 신경과학자들이 합의한 바, 의식적 생명체들이 갖는 특성들에는 아래와 같은 것들이 있다:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Binding/Unification&lt;/li&gt;
+  &lt;li&gt;Global Accessibility and Broadcast&lt;/li&gt;
+  &lt;li&gt;Selective Attention and Active Exclusion&lt;/li&gt;
+  &lt;li&gt;Intentionality&lt;/li&gt;
+  &lt;li&gt;Integration through Time&lt;/li&gt;
+  &lt;li&gt;Flexible Evaluation System and Goals&lt;/li&gt;
+  &lt;li&gt;Agency and Embodiment&lt;/li&gt;
+  &lt;li&gt;A Sense of Self&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;이러한 이유로, UAL 능력을 가진 유기체는, &lt;u&gt;자신의 일생에 걸쳐&lt;/u&gt;, 세상과 자신의 경험으로부터, &lt;u&gt;제한없는 방식으로&lt;/u&gt;, 지속적으로 학습할 수 있다. 여기서 제한이 없다는 것은(1)자극과 행동의 복잡한 패턴, (2)2차 학습, (3)흔적 조건화, (4)가치에 대한 쉽고 빠른 재연관의 네 가지 특성을 의미한다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;의식의 진화적 기원이 UAL이라는 관점에서, 저자는 고통의 기원을 &lt;strong&gt;과학습Overlearning&lt;/strong&gt;으로 설명할 수 있다고 주장한다. 물고기들은 주변에 위협적인 대상이 다가오면 적응적으로 피하게 되는 로직을 지니고 있다고 한다. 심지어 해당 대상이 전혀 위협적이지 않음에도 불구하고 말이다. 우리의 불안장애, 편집증, 신경증 등의 정신질병 또한 동일하다. 저자들은 덜 고통받고 무딘 바보보다 더 현명하고 고통받는 동물들이 더 생존에 유리하다고 이야기한다. UAL이 가져다 주는 이점에 비하면 이러한 비용을 지불하는 것이 더 좋은 장점을 제공할 수도 있을 것이다. 감정은 어떤 의미에서 생존을 위한 부작용이라고 볼 수 있지 않을까? 이러한 관점에서 생존 경쟁이 치열했던 캄브리아기의 생명의 폭발(Life Explosion) 시즌이 고통의 기원일 것이라고 제안한다.&lt;/p&gt;
+
+&lt;p&gt;한편, UAL은 단순한 학습능력을 가진 Skinnerian Creature 뿐만 아니라, 다양한 가상의 상황을 상상할 수 있는 Popperian Creature에 대해서도 이야기할 수 있다. 웨스턴 스크럽 어치Western Scrub Jay는 각 음식의 유통기한을 고려해 식사 순서를 정할 뿐만 아니라, 적정한 장소에 음식을 숨기고 유통기한 내에 돌아와 섭취한다고 한다. 더욱이 음식을 숨기는 동안 다른 개체에게 들키게 되면, 다른 곳에 다시 숨긴다! 다른 개체가 숨기는 것을 몰래 관찰해 도둑질하기도 한다고 한다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-10-Consciousness and Evolution/2.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      웨스턴 스크럽 어치
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;본 글의 핵심 주제는 UAL을 의식의 진화적인 전환 지표로 삼을 수 있다는 것이다. 저자는 진화론의 관점에서 왜, 언제 의식이 발생했는지 파악하기 위해 UAL을 주요 지표로 삼고 캄브리아기를 의식의 탄생 시점으로 제안한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;그러나, 몇가지 의문점이 떠오른다:&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;의식을 갖는 생명체들은 UAL 능력을 지니지만, UAL 능력을 지닌다고 과연 의식을 갖는다고 할 수 있을까?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;저자 또한 이러한 질문을 고려했는데, UAL은 의식의 발달적 지표가 아니라 진화적 지표라는 점을 강조한다. 따라서, 나의 질문에 대해서는 사실 답변은 NO!인 것이다. 접근 의식의 관점에서는 유용한 이론적 기반을 제공해 줄 수는 있겠다. 하지만 현상학적 의식의 메커니즘과 인공 의식의 구현이 가능한지 궁금한 나로써는 꽤 실망스럽긴 하다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;UAL은 Yann LeCun의 Self-Supervised Learning 패러다임과 어떤 관계가 있을까?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;최근 Yan LeCun은 사실 대부분의 지적인 동물들의 학습 방식은 기존의 Unsupervised Learning 패러다임에 속하며, 해당 패러다임은 인지적 구조에 의한 Self-Supervised Learning으로 수정되어야 한다고 주장했다. Self-Supervised Learning은 시공간적으로 불완전한 데이터의 관계에 대한 무제한적인 학습과 유사하므로 UAL과의 관련성이 크다고 할 수 있지 않을까?&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-10-Consciousness and Evolution/3.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      얀 르쿤의 Self-Supervised Learning 패러다임
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;한편, Model-Based RL에서 SOTA를 달성한 Dreamer V3의 경우, Minecraft 게임 내에서 도구를 제작하여 활용하는 것을 구현할 수 있었다[4]. 이 경우, 해당 Agent를 Gregorian Creature라고 말할 수 있을까?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;다음 영상은 Dreamer v3가 순차적으로 Diamond를 캐기위해 재료를 수집하고 도구를 제작하는 과정을 담고 있다. UAL이라고 한다면 정말 끝판왕같다… Gregorian Creature라고 말할 수 있을까? 과연 해당 모델이 의식적 경험(Qualia)을 갖고 세상과 상호작용하는 것일까?&lt;/p&gt;
+
+&lt;iframe align=&quot;center&quot; title=&quot;Danijar Hafner, A Test Clip of Dreamer v3&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://play-tv.kakao.com/embed/player/cliplink/437919059?service=player_share&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allow=&quot;autoplay; fullscreen; encrypted-media&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;출처&quot;&gt;출처&lt;/h3&gt;
+
+&lt;p&gt;[1] &lt;a href=&quot;https://thereader.mitpress.mit.edu/how-did-consciousness-evolve-an-illustrated-guide/&quot;&gt;The MIT Press Reader. (2022, June 29). How Did Consciousness Evolve? An Illustrated Guide. https://thereader.mitpress.mit.edu/how-did-consciousness-evolve-an-illustrated-guide/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[2] &lt;a href=&quot;https://www.jolyon.co.uk/illustrations/consciousness-an-introduction/&quot;&gt;Ilpo. (n.d.). Consciousness – An Introduction – Jolyon’s Website. https://www.jolyon.co.uk/illustrations/consciousness-an-introduction/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[3] &lt;a href=&quot;https://ai.meta.com/blog/self-supervised-learning-the-dark-matter-of-intelligence/&quot;&gt;Self-supervised Learning: The Dark Matter of Intelligence(2021), Yann LeCun. https://ai.facebook.com/blog/self-supervised-learning-the-dark-matter-of-intelligence/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[4] &lt;a href=&quot;https://danijar.com/project/dreamerv3/&quot;&gt;Mastering Diverse Domains through World Models. (n.d.). https://danijar.com/project/dreamerv3/&lt;/a&gt;&lt;/p&gt;
+</description>
+                <pubDate>Wed, 10 May 2023 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/Consciousness-and-Evolution-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Consciousness-and-Evolution-kr/</guid>
+                
+                <category>의식</category>
+                
+                <category>진화론</category>
+                
+                <category>기사</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
+        
+            <item>
                 <title>낭비 사회를 넘어서를 읽고</title>
                 <description>&lt;style&gt;
   .centered-container {
@@ -1890,63 +2057,71 @@ This chip contains 1 million neurons and 256 million synaptic connections, consu
   }
 &lt;/style&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iE39q-IKOzA?si=A5bSvQbuVRx-MtjR&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;최근 AI를 활용한 작품으로 유명한 demonflyingfox의 Harry Potter by Balenciaga 영상이 공개되면서, SNS에서 화제가 되고 있다. 우리에게 친숙한 해리, 론, 헤르미온느 3인방부터 덤블도어, 볼드모트까지 발렌시아가 런웨이 특유의 기괴한 자세와 도도한 표정을 짓는 것이 일품이다. 이러한 시도를 통해, AI를 활용한 이미지 생성 기술의 프론티어를 확인할 수 있을 뿐만 아니라, SNS와 사회 전반에 있는 “컨텐츠”들이 다시금 새로운 의미를 갖게 됨을 알 수 있었다.&lt;/p&gt;
-
-&lt;p&gt;demonflyingfox의 작업물을 보면, 우리에게 익숙한 영화, 애니, 게임의 한 장면이 AI 특유의 표현능력으로 패러디된다. 영화 해리포터 주인공들을 도도하고 트렌디한 발렌시아가 모델로 표현하는가 하면, 영화 American Psycho를 중동 풍의 사업가로 표현하곤 한다. 이러한 작업 방식을 그대로 차용한 유튜브 계정들이 쏟아져 나오고 있는데, 각 영상의 조회수는 거의 12시간만에 30만회를 달성하곤 한다!&lt;/p&gt;
+&lt;p&gt;올해 초, 업무에 지쳐 정신적으로 스트레스를 받는 기간이 있었다. 매일 반복되는 야근에 주말까지 쉽없이 출근했다. 돌이켜 보면, 나를 이루고 있던 무언가를 잊고 살았던 것 같다. 내가 좋아했던 취미들, 운동-음악-독서를 근 몇 개월 간 하지 않았다. 그렇게 나를 이루는 기둥들이 얇아지고 무너지기 시작하며, 나의 정체성도 함께 무너졌던 것 같다. 이러한 상황에 오래 있어서 그랬던 걸까, 내가 처한 상황의 심각성을 인지하는 것조차 쉽지 않았다. 그러다 정말 우연히, 주말 아침에 집 주변에 있던 독립 서점을 가보게 되었다. 친절하게 맞이해주시는 주인장과 따뜻한 핫초코가 마음을 녹여줬다. 그렇게 내가 좋아하는 독서를 오랜만에 하니, 글이 술술 읽혔고 마음 한 켠도 함께 따뜻해졌다. 
+&lt;br /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-04-22-Connect and Expand.md/0.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+      &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-04-30-Planned Obsolescence/0.jpeg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
       &lt;figcaption&gt;
-      demonflyingfox의 채널, 출처: 유튜브
+      대전광역시 갈마동에 위치한 독립서점 &quot;삼요소&quot;
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
+
+&lt;p&gt;독립 서점을 자주 들리게 된 계기는 그러한 따뜻함 때문이었던 것 같다. 조금 더 크고, 조용한 독립 서점을 찾다 보니 재밌는 공간을 발견했다. 무인으로 운영되는 독립서점인데, 가끔 독립 영화의 시사회를 열기도 하는 그런 매니아들의 집합소로 느껴졌다. 주인장의 책장에 있는 책은 무료로 읽을 수 있었는데, 그 중에서도 내 눈에 띄었던 책이 한 권 있었다. 바로 세르주 라투슈의 “낭비 사회를 넘어서”라는 책이다. 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-04-30-Planned Obsolescence/1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      세르주 라투슈, 낭비 사회를 넘어서
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;세르주 라투슈는 나이가 지긋한 프랑스의 철학자로, political sciene, philosophy, economy의 여러 학위를 갖고 있는 파리 제 11 대학의 명예 교수다. 과거부터 자본주의의 문제점을 분석해 왔으며, 오늘날 아주 유명한 “탈성장” 이론가로 알려져 있다. “낭비 사회를 넘어서”라는 자본주의 시스템이 지니는 무한 성장의 역설을 비판한다. 해당 책을 읽고 기억에 남는 몇가지 글귀를 적어보았다:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;실업의 위협 속에서 노동자들의 삶은 “공장에서 대형 마켓으로, 대형 마켓에서 공장으로 이동하면서 임금을 상품으로, 상품을 임금으로 교환하는 물질대사를 수행하는 바이오다이제스터의 활동으로 축소되어 버렸다.”&lt;/li&gt;
+    &lt;li&gt;상상력의 로보토미(lobotomy), 상상력의 식민화&lt;/li&gt;
+    &lt;li&gt;“상품 공급이 오늘날의 계율이라는 사실을 인정한 이상, 구매력이 없는 이들이 공급된 상품을 &amp;gt; 구매하는 것은 놀랄 일이 아니다. 그들이 그렇게 하는 이유는 그런 행동이 계율을 어기는 것, 즉 상품을 획득하지 않는 것보다 옳은 일이기 때문이다. … 우리는 결국에 우리가 필요로 하는 것을 손에 넣는 것이 아니다. 우리는 결국 우리가 가진 것을 필요로 하게 되는 것이다.”&lt;/li&gt;
+    &lt;li&gt;네오필리아&lt;/li&gt;
+    &lt;li&gt;생산이 계속되려면 제품들이 죽어야 한다.&lt;/li&gt;
+    &lt;li&gt;에코는 단지 화를 내는 데 그치지 않고 철학적 결론에 도달한다. “당신의 도덕이 우리에게 스파르타인이 될 것을 요구했다면, 오늘날은 시바리스인이 되라고 한다.”&lt;/li&gt;
+    &lt;li&gt;‘진보적’이라는 수식어는 금세 잊혀졌지만 그 말이 지시하는 관행은 확산되었다. 각 기업들의 비즈니스 전략은 갈수록 스타일의 진부화에 초점을 맞춰 구상되었다. … 불황이 닥치자 이런 움직임이 가속화되었다. 이제 엔지니어 대신 디자이너들이 미국 산업계를 이끌어 가기 시작했다.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;현대 사회에서 대중들이 접하는 대부분의 매체는 미국 헐리웃에서 제작된 거대 자본 기반의 영화이다. 대부분의 인물들은 영어를 사용하고, 미국과 유럽의 문화권의 등장인물들이다. 아시아계 영화가 전세계적으로 히트를 쳤던 경우는 손에 꼽는다. 자본주의의 논리에서는 이익률이 극대화될 수 있도록 소비자층을 정의하고 컨텐츠라는 제품을 기획하는 것이 합리적인 사업 계획이겠지만, 이러한 편향된 타겟은 대중들에게 무의식 속의 문화적 박탈감을 느끼게 할 수도 있지 않을까?&lt;/p&gt;
+&lt;p&gt;자본주의 한계에 대한 분석은 너무나도 다양한 학자들이 해왔다. 마르크스의 “자본론”, 쟝 보드리야르의 “시뮬라크르와 시뮬라시옹” 등은 ‘가치’의 의미에 집중하여 자본주의가 갖는 거시적-구조적 문제점과, 이로 인해 발생할 수 있는 미시적-개인적 문제점을 지적했다. 해당 책도 비슷한 맥락에서 소비 행위와 제품이 갖는 문제점을 주제로 다루었다.&lt;/p&gt;
 
-&lt;p&gt;백남준의 징기스칸의 복권이라는 작품이 떠오른다. 과거 몇백년 전만 하더라도, 동양은 서양에 비해 문화적으로, 제도적으로 세계에 훨씬 큰 영향을 끼쳤다. 그러나, 제국주의 시대 이후로 서구 문명이 크게 발전하며 문화, 자본, 산업, 제도 전반에 압도적 권력을 행사하게 된 것 같다. 특히, 대중들의 인식을 확인할 수 있는 것이 간판인 것 같다. 대부분 우리말이나 한자어를 사용하지 않고 영어나 외래어 자체를 받아들인다.(우리나라의 경우, 외래어의 사용 비율이 다른 어떤 나라보다 크다) 우리의 문화를 발굴하고 진보시키는 것보다, 선진 문화의 적극적으로 수용하려는 인식이 큰 것 같다. 다만, 이러한 인식이 성숙한 논의와 비판적 사고를 거쳐 내린 결론이라기 보다, 가벼운 선택이라면 다시금 돌아볼 필요가 있을 것이다.&lt;/p&gt;
+&lt;p&gt;자본주의는 본질적으로 계속해서 성장해야 한다. 일례로, 주변에 위치한 인근 연구소에서는 과제가 실패하자 과제의 책임자였던 팀장님께서 (총대매고) 사직서를 냈다고 한다. 과제를 성공시키고 좋은 사업을 통해 장기적으로 영업 이익을 불러와야지 자신의 팀원과 조직에게 월급을 줄 수 있는 것이기 때문이다. 지속적으로 매출을 일으키지 않으면, 안정적으로 직원들에게 월급을 줄 수 없게 되고, 월급을 받지 못하거나 짤리게 된 직원들은 구매력이 줄어들어 사회의 소비가 줄어들게 된다. 소비가 줄어들면 생산이 줄어들 수 밖에 없고 이는 매출의 감소를 또다시 야기하게 되기 때문에, 악순환이 반복되는 것이다. 이러한 이유로, 영리조직을 하나의 굴러가는 바퀴로 비유한 것은 매우 그럴 듯하다. 조금이라도 속도가 줄어들면 사회는 경직되고 경제가 악화된다. 반대로, 속도가 늘면 사회는 유연해지고 경제가 활성화된다.&lt;/p&gt;
 
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-04-22-Connect and Expand.md/칭기즈칸의 복권.jpeg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      백남준, 《징기스칸의 복권》 (조각, 1993), 출처: 백남준아트센터 웹페이지
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
+&lt;p&gt;문제는 과학과 기술의 발전이 항상 우리 사회의 발전을 일으키지 않는다는 것이다. 실제로 2010년 발표된 다큐멘터리 영화인 “The Light Bult Conspiracy”를 보면, 전구 기술의 발전은 이미 충분히 일어났으나, 지속적인 매출을 위해 전구의 수명을 의도적으로 줄여 판매한다는 것이다. 실제로 이러한 “의도적 진부화”는 전구뿐만 아니라, 스타킹, 자동차, 아이폰의 경우에서도 이미 발견된다. 더 나아가, IT 서비스 기업들은 구독(Subscription) 시스템을 도입한다. 내가 좋아하는 디제잉 관련 HW/SW 기업인 Pioneer도 구독 시스템으로 전환한 이후, SW의 업데이트를 진행해 의도적으로 HW를 사용할 수 없게 만들었다.&lt;/p&gt;
 
-&lt;p&gt;이제 우리는, 생성 모형을 통해 우리에게 친숙한 등장인물들의 성별, 인종, 나이 등을 쉽게 변형할 수 있게 되었다. 우리가 쉽게 접하는 서구 문명의 사람들을 동양권의 인물들로 수정할 수 있지 않을까? 퇴근 후, 시간이 남을 때 텍스트기반 이미지 생성 AI 서비스인 midjourney를 활용하여 이미지를 만들어 보았다. 우선 ChatGPT를 통해 우리나라에서 큰 성공을 이뤘던 “The Dark Knight Rises”의 주요인물들과 명장면에 대한 설명을 요청했다. 그리고 주요등장 인물들에 맞는 한국 배우들을 대응시키고 그들의 모습의 묘사하도록 했다. 이후, midjourney에서 이미지를 생성한 후 편집했다. 주요 결과는 아래와 같다.&lt;/p&gt;
+&lt;p&gt;과학과 기술의 발전을 도모하려고 하는 나에게, 7번의 글귀는 충격으로 다가왔다. 더 뛰어난 과학 기술이 발전되더라도, 더 이상 그것이 오로지 공급될 수 없다. 과학과 기술은 자본주의에 있어 그 자체의 아름다움이나, 학술적 가치가 아닌 제품의 가치, 자본주의적 가치로 평가되는 것이다. 더 나아가, 소비력에 따라 사람들에게는 소비할 수 있는 제품의 양질이 구분된다. 사실 이는 어찌보면 옛날부터 그래왔던 걸 수도 있겠다. 돈이 되지 않는 연구에는 적은 연구비가 펀딩되는 것처럼 말이다.&lt;/p&gt;
 
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-04-22-Connect and Expand.md/AI 한국 버전.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      직접 제작해본 영화 &quot;The Dark Knight Rises&quot;의 한국 버전.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;본 작품을 만들며, 인공지능을 활용한 컨텐츠 생성 모형이 문화적 편향을 없애고 인종과 성별, 나이 등을 다각화하는 자유를 실현하는 데에 사용될 수도 있지 않을까 생각했다.&lt;/p&gt;
+&lt;p&gt;자본주의가 많은 한계점을 지닌다고 해서 사회주의와 같은 다른 시스템으로 대체되어야 한다는 무리한 주장을 펼칠 필요는 없다. 자본주의 시스템이 성장하며, 예상치 못한 문제가 발생하게 되면 우리는 그것을 적절히 해결할 수 있는 방법을 마련해주면 된다. 그러나, 본질적으로 자본주의는 “성장의 계속성”을 필요로 한다. 이러한 무한성은 물리적으로 한계를 가질 수 밖에 없지 않을까? 만약 성장이 무한히 계속된다면, 언젠가 특이점에 이르게 되지 않을까? 이러한 생각은 이미 레이 커즈와일 같은 미래학자들이 주장한 것과 같다. 무한히 성장할 수 없다면, 결국 사회경제 시스템의 붕괴가 수반될 것이다. 어떠한 방향이든 디스토피아적인 결과를 불러온다.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;서로 분리되고, 형태와 구조가 다른 다양한 문화를 서로 연결하고 융합하여 자유롭게 만드는 데에 활용될 수 있지 않을까?&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;자본주의가 필요로 하는 “성장의 계속성” 문제를 어떻게 해결할 수 있을까? 일론 머스크가 추구하는 화성으로의 이주가 필수 불가결한 해결책일지도 모른다. 관련된 서적을 조금 더 찾아보자.&lt;/p&gt;
 </description>
                 <pubDate>Sun, 30 Apr 2023 00:00:00 +0900</pubDate>
                 <link>http://localhost:4000/motivation/Planned-Obsolescence-kr/</link>
                 <guid isPermaLink="true">http://localhost:4000/motivation/Planned-Obsolescence-kr/</guid>
                 
-                <category>예술</category>
+                <category>경제</category>
                 
-                <category>인공지능</category>
+                <category>자본주의</category>
                 
-                <category>문화</category>
+                <category>책</category>
                 
                 
                 <category>Motivation</category>
@@ -2028,9 +2203,13 @@ This chip contains 1 million neurons and 256 million synaptic connections, consu
                 
                 <category>예술</category>
                 
+                <category>기술</category>
+                
                 <category>인공지능</category>
                 
                 <category>문화</category>
+                
+                <category>융합</category>
                 
                 
                 <category>Movement</category>
@@ -2089,6 +2268,8 @@ This chip contains 1 million neurons and 256 million synaptic connections, consu
                 <category>인생</category>
                 
                 <category>유학</category>
+                
+                <category>독백</category>
                 
                 
                 <category>Meditation</category>
@@ -2189,6 +2370,8 @@ This chip contains 1 million neurons and 256 million synaptic connections, consu
                 <category>의식</category>
                 
                 <category>지각</category>
+                
+                <category>강의</category>
                 
                 
                 <category>Motivation</category>

@@ -13,8 +13,9 @@ toc: false
 # toc_sticky: true
 # toc_label: "우리는 현실을 있는 그대로 보고 있을까?"
 category: Motivation
-tags: [의식, 지각]
+tags: [의식, 지각, 강의]
 lang: kr
+image: /assets/images/posts/2023/Q2/2023-04-11-Epistemic Limitation.md/interface.png
 ---
 
 <style>

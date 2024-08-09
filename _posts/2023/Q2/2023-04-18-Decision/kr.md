@@ -13,7 +13,7 @@ toc: false
 # toc_sticky: true
 # toc_label: "우리는 현실을 있는 그대로 보고 있을까?"
 category: Meditation
-tags: [진로, 인생, 유학]
+tags: [진로, 인생, 유학, 독백]
 lang: kr
 ---
 

@@ -346,32 +346,64 @@
 <style>
 .archive__item-container {
   display: flex;
-  align-items: stretch; /* Ensures the items stretch to the height of the container */
+  align-items: stretch;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .archive__item-image {
   flex: 0 0 auto;
-  width: 100px; /* Fixed width for the image */
+  width: 100px; /* 기존 크기 유지 */
+  height: 100px; /* 기존 크기 유지 */
   margin-right: 20px;
   position: relative;
+  overflow: hidden;
 }
 
 .archive__item-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures the image covers the container */
+  object-fit: cover; /* 이미지가 컨테이너를 덮도록 설정 */
   display: block;
+  transition: transform 0.3s ease; /* 마우스 오버 시 부드럽게 이미지 확대 */
+}
+
+.archive__item-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6); /* 기본 오버레이 0.6 */
+  transition: background-color 0.3s ease;
+}
+
+.archive__item-image:hover::before {
+  background-color: rgba(255, 255, 255, 0); /* 마우스 오버 시 오버레이 제거 */
+}
+
+.archive__item-image:hover img {
+  transform: scale(1.05); /* 마우스 오버 시 약간 확대 */
 }
 
 .archive__item-content {
   flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
-.archive__item-content h2 {
+.archive__item-title {
   margin-top: 0;
+}
+
+.archive__item-date {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 0.9em;
+  color: #888;
 }
 
 .post-category {
@@ -433,7 +465,7 @@
   
     <li>
       <a href="#2023">
-        <strong>2023</strong> <span class="taxonomy__count">9</span>
+        <strong>2023</strong> <span class="taxonomy__count">10</span>
       </a>
     </li>
   
@@ -463,7 +495,9 @@
                   
                 </p>
               
-              
+            </div>
+            <div class="archive__item-date">
+              2024-07-21
             </div>
           </div>
         </article>
@@ -485,7 +519,9 @@
                   
                 </p>
               
-              
+            </div>
+            <div class="archive__item-date">
+              2024-07-21
             </div>
           </div>
         </article>
@@ -511,7 +547,9 @@
                   
                 </p>
               
-              
+            </div>
+            <div class="archive__item-date">
+              2024-07-20
             </div>
           </div>
         </article>
@@ -537,7 +575,9 @@
                   
                 </p>
               
-              
+            </div>
+            <div class="archive__item-date">
+              2024-07-20
             </div>
           </div>
         </article>
@@ -567,7 +607,9 @@
                   
                 </p>
               
-              
+            </div>
+            <div class="archive__item-date">
+              2023-12-20
             </div>
           </div>
         </article>
@@ -591,7 +633,9 @@
                   
                 </p>
               
-              
+            </div>
+            <div class="archive__item-date">
+              2023-11-23
             </div>
           </div>
         </article>
@@ -615,7 +659,9 @@
                   
                 </p>
               
-              
+            </div>
+            <div class="archive__item-date">
+              2023-11-04
             </div>
           </div>
         </article>
@@ -639,7 +685,9 @@
                   
                 </p>
               
-              
+            </div>
+            <div class="archive__item-date">
+              2023-11-02
             </div>
           </div>
         </article>
@@ -661,7 +709,9 @@
                   
                 </p>
               
-              
+            </div>
+            <div class="archive__item-date">
+              2023-11-01
             </div>
           </div>
         </article>
@@ -689,7 +739,9 @@
                   
                 </p>
               
-              
+            </div>
+            <div class="archive__item-date">
+              2023-09-23
             </div>
           </div>
         </article>
@@ -717,13 +769,49 @@
                   
                 </p>
               
-              
+            </div>
+            <div class="archive__item-date">
+              2023-09-23
             </div>
           </div>
         </article>
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
           <div class="archive__item-container">
+            
+              <div class="archive__item-image">
+                <img src="/assets/images/posts/2023/Q2/2023-05-10-Consciousness%20and%20Evolution/2.jpeg" alt="의식에 대한 진화론적 관점">
+              </div>
+            
+            <div class="archive__item-content">
+              <h2 class="archive__item-title" itemprop="headline">
+                <a href="/motivation/Consciousness-and-Evolution-kr/" rel="bookmark">의식에 대한 진화론적 관점</a>
+              </h2>
+              
+                <p class="archive__item-tags">
+                  <strong>Tags:</strong>
+                  
+                    <span class="post-tag">의식</span>
+                  
+                    <span class="post-tag">진화론</span>
+                  
+                    <span class="post-tag">기사</span>
+                  
+                </p>
+              
+            </div>
+            <div class="archive__item-date">
+              2023-05-10
+            </div>
+          </div>
+        </article>
+      
+        <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
+          <div class="archive__item-container">
+            
+              <div class="archive__item-image">
+                <img src="/assets/images/posts/2023/Q2/2023-04-30-Planned%20Obsolescence/1.png" alt="낭비 사회를 넘어서를 읽고">
+              </div>
             
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
@@ -733,21 +821,27 @@
                 <p class="archive__item-tags">
                   <strong>Tags:</strong>
                   
-                    <span class="post-tag">예술</span>
+                    <span class="post-tag">경제</span>
                   
-                    <span class="post-tag">인공지능</span>
+                    <span class="post-tag">자본주의</span>
                   
-                    <span class="post-tag">문화</span>
+                    <span class="post-tag">책</span>
                   
                 </p>
               
-              
+            </div>
+            <div class="archive__item-date">
+              2023-04-30
             </div>
           </div>
         </article>
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
           <div class="archive__item-container">
+            
+              <div class="archive__item-image">
+                <img src="/assets/images/posts/2023/Q2/2023-04-11-Epistemic%20Limitation.md/interface.png" alt="우리는 현실을 있는 그대로 보고 있을까?">
+              </div>
             
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
@@ -761,9 +855,13 @@
                   
                     <span class="post-tag">지각</span>
                   
+                    <span class="post-tag">강의</span>
+                  
                 </p>
               
-              
+            </div>
+            <div class="archive__item-date">
+              2023-04-11
             </div>
           </div>
         </article>

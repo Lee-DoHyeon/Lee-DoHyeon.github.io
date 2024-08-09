@@ -346,32 +346,64 @@
 <style>
 .archive__item-container {
   display: flex;
-  align-items: stretch; /* Ensures the items stretch to the height of the container */
+  align-items: stretch;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .archive__item-image {
   flex: 0 0 auto;
-  width: 100px; /* Fixed width for the image */
+  width: 100px; /* 기존 크기 유지 */
+  height: 100px; /* 기존 크기 유지 */
   margin-right: 20px;
   position: relative;
+  overflow: hidden;
 }
 
 .archive__item-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures the image covers the container */
+  object-fit: cover; /* 이미지가 컨테이너를 덮도록 설정 */
   display: block;
+  transition: transform 0.3s ease; /* 마우스 오버 시 부드럽게 이미지 확대 */
+}
+
+.archive__item-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6); /* 기본 오버레이 0.6 */
+  transition: background-color 0.3s ease;
+}
+
+.archive__item-image:hover::before {
+  background-color: rgba(255, 255, 255, 0); /* 마우스 오버 시 오버레이 제거 */
+}
+
+.archive__item-image:hover img {
+  transform: scale(1.05); /* 마우스 오버 시 약간 확대 */
 }
 
 .archive__item-content {
   flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
-.archive__item-content h2 {
+.archive__item-title {
   margin-top: 0;
+}
+
+.archive__item-date {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 0.9em;
+  color: #888;
 }
 
 .post-category {
@@ -443,6 +475,10 @@
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
           <div class="archive__item-container">
             
+              <div class="archive__item-image">
+                <img src="/assets/images/posts/2023/Q2/2023-04-22-Connect%20and%20Expand.md/%EC%B9%AD%EA%B8%B0%EC%A6%88%EC%B9%B8%EC%9D%98%20%EB%B3%B5%EA%B6%8C.jpeg" alt="문화 연결하기">
+              </div>
+            
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/movement/Connect-and-Expand-kr/" rel="bookmark">문화 연결하기</a>
@@ -453,13 +489,19 @@
                   
                     <span class="post-tag">예술</span>
                   
+                    <span class="post-tag">기술</span>
+                  
                     <span class="post-tag">인공지능</span>
                   
                     <span class="post-tag">문화</span>
                   
+                    <span class="post-tag">융합</span>
+                  
                 </p>
               
-              
+            </div>
+            <div class="archive__item-date">
+              2023-04-22
             </div>
           </div>
         </article>

@@ -7,32 +7,64 @@ layout: archive
 <style>
 .archive__item-container {
   display: flex;
-  align-items: stretch; /* Ensures the items stretch to the height of the container */
+  align-items: stretch;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .archive__item-image {
   flex: 0 0 auto;
-  width: 100px; /* Fixed width for the image */
+  width: 100px; /* 기존 크기 유지 */
+  height: 100px; /* 기존 크기 유지 */
   margin-right: 20px;
   position: relative;
+  overflow: hidden;
 }
 
 .archive__item-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures the image covers the container */
+  object-fit: cover; /* 이미지가 컨테이너를 덮도록 설정 */
   display: block;
+  transition: transform 0.3s ease; /* 마우스 오버 시 부드럽게 이미지 확대 */
+}
+
+.archive__item-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6); /* 기본 오버레이 0.6 */
+  transition: background-color 0.3s ease;
+}
+
+.archive__item-image:hover::before {
+  background-color: rgba(255, 255, 255, 0); /* 마우스 오버 시 오버레이 제거 */
+}
+
+.archive__item-image:hover img {
+  transform: scale(1.05); /* 마우스 오버 시 약간 확대 */
 }
 
 .archive__item-content {
   flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
-.archive__item-content h2 {
+.archive__item-title {
   margin-top: 0;
+}
+
+.archive__item-date {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 0.9em;
+  color: #888;
 }
 
 .post-category {
@@ -120,16 +152,9 @@ layout: archive
                   {% endfor %}
                 </p>
               {% endif %}
-              {% if site.data.translations[post.translation_key] %}
-                <p class="translation-links">
-                  {% if site.data.translations[post.translation_key].en %}
-                    <a href="{{ site.data.translations[post.translation_key].en }}">EN</a>
-                  {% endif %}
-                  {% if site.data.translations[post.translation_key].kr %}
-                    <a href="{{ site.data.translations[post.translation_key].kr }}">KR</a>
-                  {% endif %}
-                </p>
-              {% endif %}
+            </div>
+            <div class="archive__item-date">
+              {{ post.date | date: "%Y-%m-%d" }}
             </div>
           </div>
         </article>

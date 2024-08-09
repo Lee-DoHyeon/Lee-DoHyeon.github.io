@@ -13,8 +13,9 @@ toc: false
 # toc_sticky: true
 # toc_label: "우리는 현실을 있는 그대로 보고 있을까?"
 category: Movement
-tags: [예술, 인공지능, 문화]
+tags: [예술, 기술, 인공지능, 문화, 융합]
 lang: kr
+image: /assets/images/posts/2023/Q2/2023-04-22-Connect and Expand.md/칭기즈칸의 복권.jpeg
 ---
 
 <style>
