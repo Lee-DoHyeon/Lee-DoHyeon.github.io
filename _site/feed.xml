@@ -5,8 +5,8 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 09 Aug 2024 11:34:05 +0900</pubDate>
-        <lastBuildDate>Fri, 09 Aug 2024 11:34:05 +0900</lastBuildDate>
+        <pubDate>Fri, 09 Aug 2024 11:56:46 +0900</pubDate>
+        <lastBuildDate>Fri, 09 Aug 2024 11:56:46 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
