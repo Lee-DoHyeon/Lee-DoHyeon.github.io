@@ -15,6 +15,8 @@ toc: false
 category: Motivation
 tags: [의식, 진화론, 기사]
 lang: kr
+header:
+  teaser: "/assets/images/posts/2023/Q2/2023-05-10-Consciousness and Evolution/2.jpeg"
 image: /assets/images/posts/2023/Q2/2023-05-10-Consciousness and Evolution/2.jpeg
 ---
 

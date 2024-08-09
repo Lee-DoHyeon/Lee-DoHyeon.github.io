@@ -1,5 +1,5 @@
 ---
-title: "놓친 잠수함을 찾아라"
+title: "사라진 잠수함을 찾아라"
 scope:
   type: posts
 values:

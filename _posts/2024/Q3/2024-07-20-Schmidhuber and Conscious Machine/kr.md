@@ -15,6 +15,9 @@ toc_label: "슈미트후버의 의식"
 category: Motivation
 tags: [인공지능, 의식, 월드모델, 예측코딩]
 lang: kr
+header:
+  teaser: "/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/meme.jpg"
+image: assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/meme.jpg
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q4fFuZgOZn8?si=PqlGxV8uUUYBd84x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

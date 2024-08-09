@@ -16,6 +16,9 @@ toc_label: "칼 포퍼와 1,2,3 세계"
 category: Motivation
 tags: [의식, 심리철학]
 lang: kr
+header:
+  teaser: "/assets/images/posts/2024/Q3/2024-07-21-Karl Popper's Worlds 1, 2, and 3/Three_Worlds.jpg"
+image: assets/images/posts/2024/Q3/2024-07-21-Karl Popper's Worlds 1, 2, and 3/Three_Worlds.jpg
 ---
 # Karl Popper's Worlds 1, 2, and 3
 

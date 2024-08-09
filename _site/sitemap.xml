@@ -308,6 +308,22 @@
     </url>
     
     <url>
+        <loc>http://localhost:4000/motivation/About-Natualizing-Phenomenology-kr/</loc>
+        
+        <lastmod>2023-07-09T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/motivation/AI-vs-Brain-kr/</loc>
         
         <lastmod>2023-05-24T00:00:00+09:00</lastmod>
@@ -340,7 +356,39 @@
     </url>
     
     <url>
+        <loc>http://localhost:4000/motivation/AIF-and-Consciousness-en/</loc>
+        
+        <lastmod>2023-05-14T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/motivation/Consciousness-and-Evolution-kr/</loc>
+        
+        <lastmod>2023-05-10T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/motivation/Consciousness-and-Evolution-en/</loc>
         
         <lastmod>2023-05-10T00:00:00+09:00</lastmod>
         
@@ -372,7 +420,39 @@
     </url>
     
     <url>
+        <loc>http://localhost:4000/motivation/Planned-Obsolescence-en/</loc>
+        
+        <lastmod>2023-04-30T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/movement/Connect-and-Expand-kr/</loc>
+        
+        <lastmod>2023-04-22T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/movement/Connect-and-Expand-en/</loc>
         
         <lastmod>2023-04-22T00:00:00+09:00</lastmod>
         
@@ -404,7 +484,39 @@
     </url>
     
     <url>
+        <loc>http://localhost:4000/meditation/Decision-en/</loc>
+        
+        <lastmod>2023-04-18T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/motivation/Epistemic-Limitation-kr/</loc>
+        
+        <lastmod>2023-04-11T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/motivation/Epistemic-Limitation-en/</loc>
         
         <lastmod>2023-04-11T00:00:00+09:00</lastmod>
         

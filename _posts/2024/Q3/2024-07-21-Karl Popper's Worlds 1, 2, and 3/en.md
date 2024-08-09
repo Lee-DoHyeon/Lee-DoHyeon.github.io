@@ -16,6 +16,9 @@ toc_label: "Popper's 3 Worlds"
 category: Motivation
 tags: [Consciousness, Philosophy of Mind]
 lang: en
+header:
+  teaser: "/assets/images/posts/2024/Q3/2024-07-21-Karl Popper's Worlds 1, 2, and 3/Three_Worlds.jpg"
+image: assets/images/posts/2024/Q3/2024-07-21-Karl Popper's Worlds 1, 2, and 3/Three_Worlds.jpg
 ---
 
 > "… But the problem of the body-mind relationship is a serious problem. It includes the problem of human freedom, which in every respect, including politics, is a fundamental problem; and it includes the problem of man's position in the physical world, the physical cosmos..."
