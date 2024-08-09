@@ -16,6 +16,7 @@ toc_label: "싯다르타를 읽고"
 category: Motivation
 tags: [문학, 종교]
 lang: kr
+image: assets/images/posts/2023/Q4/2023-11-01-Siddhartha/Siddhartha.jpg
 ---
 
 > 싯다르타, 헤르만 헤세: **방랑과 위기의 연속, 헤세의 삶을 중심으로**

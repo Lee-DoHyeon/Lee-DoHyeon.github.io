@@ -15,6 +15,7 @@ toc_label: "마음을 수학하라"
 category: Motivation
 tags: [수학, 두뇌, 과학]
 lang: kr
+image: assets/images/posts/2023/Q4/2023-11-04-Do math about brain/5.png
 ---
 
 > Can Mathematics Understand the Brain?

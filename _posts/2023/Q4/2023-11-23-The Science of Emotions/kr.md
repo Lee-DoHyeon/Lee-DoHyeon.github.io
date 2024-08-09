@@ -15,6 +15,7 @@ toc_label: "감정의 과학"
 category: Motivation
 tags: [감정, 신경과학, 진화]
 lang: kr
+image: assets/images/posts/2023/Q4/2023-11-23-The Science of Emotions/emotion.jpg
 ---
 
 

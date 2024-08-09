@@ -14,8 +14,8 @@ toc_sticky: true
 toc_label: "기호의 경계를 넘나들며"
 category: Meditation
 tags: [믿음, 언어, 기호체계]
-image: 
 lang: kr
+image: assets/images/posts/2024/Q3/2024-07-24-Bridging the gap between Subsymbolic and Symbolic Systems/sand2castle.jpg
 ---
 
 현대 인공지능과 로봇공학의 발전은 인간의 고차원적인 행동과 의사결정을 모사하는 데 큰 진전을 보이고 있습니다. 특히 심층 신경망 기반의 강화학습(Deep Reinforcement Learning, DRL)은 과거의 제어 문제를 뛰어넘는 복잡한 행동을 구현하는 데 성공했습니다. 기존에는 게임이나 단순 작업을 수행하는 로봇에 유한 상태 기계(Finite State Machine, FSM)를 사용했지만, 최근에는 행동 트리(Behavior Tree, BT)가 널리 적용되고 있습니다. 이러한 변화는 기술의 진보와 더불어, 복잡한 문제 해결에 대한 새로운 접근 방식을 제시합니다.

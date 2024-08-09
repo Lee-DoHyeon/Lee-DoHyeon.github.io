@@ -15,6 +15,7 @@ toc_label: "Shun'ichi Amari: Brain, Mind, Artificial Intelligence"
 category: Motivation
 tags: [Brain, Computing Device, Neuroscience, Information Theory, Artificial Intelligence]
 lang: en
+image: assets/images/posts/2023/Q3/2023-09-23-Brain, Mind, and AI/main.jpg
 ---
 
 > [Brain, Mind, Artificial Intelligence](https://product.kyobobook.co.kr/detail/S000001732224)

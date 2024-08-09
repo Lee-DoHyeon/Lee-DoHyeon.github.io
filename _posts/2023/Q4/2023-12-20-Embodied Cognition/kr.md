@@ -15,6 +15,7 @@ toc_label: "체화된 인지의 역사"
 category: Motivation
 tags: [심리철학, 인지과학]
 lang: kr
+image: assets/images/posts/2023/Q4/2023-12-20-Embodied Cognition/body_activity.jpg
 ---
 
 **체화된 인지란?**

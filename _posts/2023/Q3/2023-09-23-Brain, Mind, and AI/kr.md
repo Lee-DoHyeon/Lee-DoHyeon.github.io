@@ -1,5 +1,5 @@
 ---
-title: "아마리 슌이치: 뇌, 마음, 인공지능"
+title: 아마리 슌이치, "뇌, 마음, 인공지능"
 scope:
   type: posts
 values:
@@ -15,6 +15,7 @@ toc_label: "아마리 슌이치: 뇌, 마음, 인공지능"
 category: Motivation
 tags: [두뇌, 계산장치, 신경과학, 정보이론, 인공지능]
 lang: kr
+image: assets/images/posts/2023/Q3/2023-09-23-Brain, Mind, and AI/main.jpg
 ---
 
 > [뇌, 마음, 인공지능](https://product.kyobobook.co.kr/detail/S000001732224)

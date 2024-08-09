@@ -1,5 +1,5 @@
 ---
-title: 낭비 사회를 넘어서를 읽고
+title: 세르주 라투슈, "낭비 사회를 넘어서"
 scope:
   type: posts
 values:
