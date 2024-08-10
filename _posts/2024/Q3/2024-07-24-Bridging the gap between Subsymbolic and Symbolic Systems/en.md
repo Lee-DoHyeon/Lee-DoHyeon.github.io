@@ -14,8 +14,10 @@ toc_sticky: true
 toc_label: "Between Symbol and Sub-symbol"
 category: Meditation
 tags: [Beliefs, Language, Symbolic Systems]
-image: # /assets/images/avatar.jpg
 lang: en
+header:
+  teaser: "/assets/images/posts/2024/Q3/2024-07-24-Bridging the gap between Subsymbolic and Symbolic Systems/sand2castle.jpg"
+image: assets/images/posts/2024/Q3/2024-07-24-Bridging the gap between Subsymbolic and Symbolic Systems/sand2castle.jpg
 ---
 
 Modern advancements in artificial intelligence and robotics have made significant progress in mimicking high-level human behaviors and decision-making. Particularly, Deep Reinforcement Learning (DRL) has succeeded in implementing complex behaviors that surpass traditional control problems. While Finite State Machines (FSM) were used in the past for robots performing games or simple tasks, Behavior Trees (BT) have become widely applied recently. This shift, along with technological advancements, presents new approaches to solving complex problems.

@@ -21,6 +21,34 @@ header:
 image: assets/images/posts/2024/Q3/2024-07-21-Karl Popper's Worlds 1, 2, and 3/Three_Worlds.jpg
 ---
 
+<style>
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: "Wanted Sans Variable", "Wanted Sans";
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+</style>
+
+<div class="centered-container">
+  <figure>
+    <img src = "/assets/images/posts/2024/Q3/2024-07-21-Karl Popper's Worlds 1, 2, and 3/Three_Worlds.jpg" style="width: 100%; height: auto;">
+    <figcaption>
+      Three Worlds, M. C. Escher
+    </figcaption>
+  </figure>
+</div>
+
 > "… But the problem of the body-mind relationship is a serious problem. It includes the problem of human freedom, which in every respect, including politics, is a fundamental problem; and it includes the problem of man's position in the physical world, the physical cosmos..."
 
 Karl Popper reveals his deep interest in the mind-body problem in the second chapter of his book "All Life is Problem Solving."

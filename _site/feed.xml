@@ -5,29 +5,29 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 10 Aug 2024 11:53:19 +0900</pubDate>
-        <lastBuildDate>Sat, 10 Aug 2024 11:53:19 +0900</lastBuildDate>
+        <pubDate>Sat, 10 Aug 2024 19:47:04 +0900</pubDate>
+        <lastBuildDate>Sat, 10 Aug 2024 19:47:04 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
                 <title>기호의 경계를 넘나들며</title>
-                <description>&lt;p&gt;현대 인공지능과 로봇공학의 발전은 인간의 고차원적인 행동과 의사결정을 모사하는 데 큰 진전을 보이고 있습니다. 특히 심층 신경망 기반의 강화학습(Deep Reinforcement Learning, DRL)은 과거의 제어 문제를 뛰어넘는 복잡한 행동을 구현하는 데 성공했습니다. 기존에는 게임이나 단순 작업을 수행하는 로봇에 유한 상태 기계(Finite State Machine, FSM)를 사용했지만, 최근에는 행동 트리(Behavior Tree, BT)가 널리 적용되고 있습니다. 이러한 변화는 기술의 진보와 더불어, 복잡한 문제 해결에 대한 새로운 접근 방식을 제시합니다.&lt;/p&gt;
+                <description>&lt;p&gt;현대 인공지능과 로봇공학의 발전은 인간의 고차원적인 행동과 의사결정을 모사하는 데 큰 진전을 보이고 있다. 특히 심층 신경망 기반의 강화학습(Deep Reinforcement Learning, DRL)은 과거의 제어 문제를 뛰어넘는 복잡한 행동을 구현하는 데 성공했다. 기존에는 게임이나 단순 작업을 수행하는 로봇에 유한 상태 기계(Finite State Machine, FSM)를 사용했지만, 최근에는 행동 트리(Behavior Tree, BT)가 널리 적용되고 있다. 이러한 변화는 기술의 진보와 더불어 복잡한 문제 해결에 대한 새로운 접근 방식을 제시한다.&lt;/p&gt;
 
-&lt;p&gt;심층 신경망 기반의 강화학습은 확실히 기존 제어 방식보다 더 많은 가능성을 제공합니다. 실제 작업 현장에서도 이 기술이 적용되고 있으며, 이는 우리가 직면한 다양한 문제를 해결하는 데 유용합니다. 그러나 심층 신경망의 복잡성과 학습 과정은 블랙박스처럼 작용하여 귀납 편향을 유발할 수 있습니다. 이러한 이유로, 우리는 하위 기호적 시스템(Sub-symbolic 시스템, 인공 신경망)을 사용할 때 신중을 기해야 합니다. 최근 Tesla의 자율 주행 기술과 관련된 인사 사고는 이러한 우려를 잘 보여줍니다. 여러 국가에서 관련 법안을 강화하고 있으며, 이는 인공지능의 안전성과 신뢰성을 높이는 데 중요한 역할을 하고 있습니다. &lt;strong&gt;이와 같은 문제를 해결하기 위해 현대 기계는 더욱 반응적이고 모듈적인 월드 모델을 필요로 합니다.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;심층 신경망 기반의 강화학습은 확실히 기존 제어 방식보다 더 많은 가능성을 제공한다. 실제 작업 현장에서도 이 기술이 적용되고 있으며, 이는 우리가 직면한 다양한 문제를 해결하는 데 유용하다. 그러나 심층 신경망의 복잡성과 학습 과정은 블랙박스처럼 작용하여 귀납 편향을 유발할 수 있다. 이러한 이유로 하위 기호적 시스템(Sub-symbolic 시스템, 인공 신경망)을 사용할 때 신중을 기해야 한다. 최근 Tesla의 자율 주행 기술과 관련된 인사 사고는 이러한 우려를 잘 보여준다. 여러 국가에서 관련 법안을 강화하고 있으며, 이는 인공지능의 안전성과 신뢰성을 높이는 데 중요한 역할을 하고 있다. &lt;strong&gt;이와 같은 문제를 해결하기 위해 현대 기계는 더욱 반응적이고 모듈적인 월드 모델을 필요로 한다.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;한편, 현대의 기계는 인간이나 동물의 반사신경에 비해 빠르거나 에너지 효율적이지 않습니다. 대부분의 기계는 단일 태스크에만 초점을 맞추고 있는 반면, 인간이나 동물은 훨씬 어렵고 복잡한 세상에서의 생존이라는 태스크를 해결하기 위해 다양한 기술을 갖추고 있습니다. 이처럼 반응적이고 모듈적인 월드 모델을 구축하면 복잡한 환경에서도 유연하게 대처하며 부분적인 수정도 쉬워집니다. 진정한 자율 에이전트를 구현하기 위해서는 이러한 반응적이고 모듈적인 월드 모델이 구축될 필요가 있습니다. &lt;strong&gt;이러한 반응적이고 모듈적인 월드 모델은 인간의 고차 인지 기능과 메타인지와도 밀접한 관련이 있습니다.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;한편, 현대의 기계는 인간이나 동물의 반사신경에 비해 빠르거나 에너지 효율적이지 않다. 대부분의 기계는 단일 태스크에만 초점을 맞추고 있는 반면, 인간이나 동물은 훨씬 어렵고 복잡한 세상에서의 생존이라는 태스크를 해결하기 위해 다양한 기술을 갖추고 있다. 이처럼 반응적이고 모듈적인 월드 모델을 구축하면 복잡한 환경에서도 유연하게 대처하며 부분적인 수정도 쉬워진다. 진정한 자율 에이전트를 구현하기 위해서는 이러한 반응적이고 모듈적인 월드 모델이 구축될 필요가 있다. &lt;strong&gt;이러한 반응적이고 모듈적인 월드 모델은 인간의 고차 인지 기능과 메타인지와도 밀접한 관련이 있다.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;인간의 경우, 복잡한 심층 신경망이나 자기 지도된 월드 모델을 통해 언어와 세상에 대한 물리적 이해를 바탕으로 행동합니다. 이러한 행동 양식은 종종 암묵적이거나 명시적으로 나타나며, 이를 거시적 수준에서 모사한다면 유한 상태 기계나 행동 트리로 간주할 수 있겠습니다. 예를 들어, Jurgen Schmidhuber는 Godel Machine을 제안하면서 의식의 핵심 능력이 내부 프로그램을 자체적으로 수정하고 더 나은 프로그램으로 발전해 나가는 능력임을 강조했습니다. 이를 통해 인간은 신경망이라는 하위 기호적 시스템으로부터 유용한 프로그램 내지는 상위 기호적 시스템(Symbolic 시스템)을 지속적으로 발전시키고 수정하는 능력을 지니고 있음을 알 수 있습니다. 최근 의식 연구에서도 대뇌의 고차 인지 기능과 메타인지에 초점을 두는 학파가 강세를 보이고 있습니다. 이 또한 인간의 고차적인 상위 기호적 시스템이 세상을 바라보는 방식(마음)과 학습에 따른 생물학적 재구성(두뇌), 실제 물리적 세상과의 상호작용 방식(행동)에 있어 고차원의 관점이 저차원의 관점에 지속적인 영향을 주고 있음을 다시 한 번 파악할 수 있겠습니다.&lt;/p&gt;
+&lt;p&gt;인간의 경우, 복잡한 심층 신경망이나 자기 지도된 월드 모델을 통해 언어와 세상에 대한 물리적 이해를 바탕으로 행동한다. 이러한 행동 양식은 종종 암묵적이거나 명시적으로 나타나며, 이를 거시적 수준에서 모사한다면 유한 상태 기계나 행동 트리로 간주할 수 있겠다. 예를 들어, Jurgen Schmidhuber는 Godel Machine을 제안하면서 의식의 핵심 능력이 내부 프로그램을 자체적으로 수정하고 더 나은 프로그램으로 발전해 나가는 능력임을 강조했다. 이를 통해 인간은 신경망이라는 하위 기호적 시스템으로부터 유용한 프로그램 내지는 상위 기호적 시스템(Symbolic 시스템)을 지속적으로 발전시키고 수정하는 능력을 지니고 있음을 알 수 있다. 최근 의식 연구에서도 대뇌의 고차 인지 기능과 메타인지에 초점을 두는 학파가 강세를 보이고 있다. 이는 인간의 고차적인 상위 기호적 시스템이 세상을 바라보는 방식(마음)과 학습에 따른 생물학적 재구성(두뇌), 실제 물리적 세상과의 상호작용 방식(행동)에 있어 고차원의 관점이 저차원의 관점에 지속적인 영향을 주고 있음을 다시 한 번 파악할 수 있다.&lt;/p&gt;
 
-&lt;p&gt;또한, 최면 현상이나 서브리미널 메세징 기법이 언어와 감각 정보를 통해 작동하는 것은 이러한 자체 수정 능력을 잘 보여주는 예입니다. 그러나 현재 심층 신경망에 담긴 하위 기호적 내용들이 상위 기호적 형태로 보여지는 기술이나 기법에 대한 논의는 많지 않습니다. 이는 인간의 경우에도 우리의 행동과 습관을 이해하고 그 안에 숨겨진 믿음과 잠재의식을 표현하는 방법이 성찰과 자기 평가를 통해서만 가능한 것과 유사합니다. &lt;strong&gt;“믿음은 생각이 되고, 생각은 말이 되며, 말은 행동이 되고, 행동은 습관이 되고, 습관은 그 사람의 가치를 결정하고, 그 사람의 가치는 그 사람의 운명을 결정한다”&lt;/strong&gt;는 유명한 말처럼, 우리의 운명과 가치를 변화시키기 위해서는 행동과 습관을, 그리고 이를 변화시키기 위해서는 믿음과 말을 변화시킬 필요가 있습니다. &lt;strong&gt;예를 들어, 현재 연구 중인 몇 가지 접근 방식은 이러한 기술적 문제를 해결하기 위해 노력하고 있습니다.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;또한, 최면 현상이나 서브리미널 메시징 기법이 언어와 감각 정보를 통해 작동하는 것은 이러한 자체 수정 능력을 잘 보여주는 예다. 그러나 현재 심층 신경망에 담긴 하위 기호적 내용들이 상위 기호적 형태로 보여지는 기술이나 기법에 대한 논의는 많지 않다. 이는 인간의 경우에도 우리의 행동과 습관을 이해하고 그 안에 숨겨진 믿음과 잠재의식을 표현하는 방법이 성찰과 자기 평가를 통해서만 가능한 것과 유사하다. &lt;strong&gt;“믿음은 생각이 되고, 생각은 말이 되며, 말은 행동이 되고, 행동은 습관이 되고, 습관은 그 사람의 가치를 결정하고, 그 사람의 가치는 그 사람의 운명을 결정한다”&lt;/strong&gt;는 유명한 말처럼, 우리의 운명과 가치를 변화시키기 위해서는 행동과 습관을, 그리고 이를 변화시키기 위해서는 믿음과 말을 변화시킬 필요가 있다. &lt;strong&gt;예를 들어, 현재 연구 중인 몇 가지 접근 방식은 이러한 기술적 문제를 해결하기 위해 노력하고 있다.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;결론적으로, 하위 기호적 시스템이 자체적으로 상위 기호적 행동 양식과 명확한 지침을 생성하고 수정하는 방법은 매우 중요한 질문입니다. 또한, 이미 개발된 하위 기호적 시스템에 암묵적으로 저장된 행동 양식을 추출하고 평가하는 것도 필수적입니다. 이 과정은 기술적으로 어려운 과제일 뿐만 아니라, 인공지능의 미래를 결정짓는 중요한 연구 분야입니다. &lt;strong&gt;따라서, 현대 인공지능의 발전을 위해서는 하위 기호적 시스템과 상위 기호적 시스템 간의 상호 작용을 깊이 있게 연구하고, 이를 통해 더욱 유연하고 효율적인 자율 에이전트를 개발하는 것이 필요합니다.&lt;/strong&gt; 우리는 이러한 복잡한 문제를 해결하기 위해 계속해서 노력해야 합니다.&lt;/p&gt;
+&lt;p&gt;결론적으로, 하위 기호적 시스템이 자체적으로 상위 기호적 행동 양식과 명확한 지침을 생성하고 수정하는 방법은 매우 중요한 질문이다. 또한, 이미 개발된 하위 기호적 시스템에 암묵적으로 저장된 행동 양식을 추출하고 평가하는 것도 필수적이다. 이 과정은 기술적으로 어려운 과제일 뿐만 아니라, 인공지능의 미래를 결정짓는 중요한 연구 분야다. &lt;strong&gt;따라서, 현대 인공지능의 발전을 위해서는 하위 기호적 시스템과 상위 기호적 시스템 간의 상호작용을 깊이 있게 연구하고, 이를 통해 더욱 유연하고 효율적인 자율 에이전트를 개발하는 것이 필요하다.&lt;/strong&gt; 우리는 이러한 복잡한 문제를 해결하기 위해 계속해서 노력해야 한다.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;요약&quot;&gt;요약&lt;/h3&gt;
 
-&lt;p&gt;현대 인공지능과 로봇공학은 인간의 고차원적인 행동과 의사결정을 모사하는 데 큰 진전을 이루었으며, 특히 심층 신경망 기반의 강화학습(DRL)은 복잡한 행동을 구현하는 데 성공했습니다. 기존의 유한 상태 기계(FSM)와 행동 트리(BT) 대신, DRL이 실제 작업 현장에서 유용하게 적용되고 있습니다. 그러나 심층 신경망의 복잡성과 귀납 편향으로 인해 우리는 하위 기호적 시스템(Sub-symbolic 시스템, 인공 신경망)을 사용할 때 신중을 기해야 합니다. Tesla 자율 주행 기술 사고 사례는 이러한 우려를 잘 보여줍니다. 현대 기계는 인간이나 동물의 반사신경에 비해 빠르지 않고 에너지 효율적이지 않습니다. 대부분의 기계는 단일 태스크에 초점을 맞추고 있지만, 인간이나 동물은 복잡한 환경에서 유연하게 대처할 수 있는 반응적이고 모듈적인 월드 모델을 갖추고 있습니다. 진정한 자율 에이전트를 구현하기 위해서는 이러한 월드 모델이 필요합니다. 인간은 복잡한 심층 신경망이나 자기 지도된 월드 모델을 통해 언어와 세상에 대한 물리적 이해를 바탕으로 행동합니다. Jurgen Schmidhuber의 Godel Machine은 의식의 핵심 능력이 내부 프로그램을 자체적으로 수정하고 발전시키는 능력임을 강조합니다. 최근 의식 연구는 고차 인지 기능과 메타인지에 초점을 두고 있으며, 이는 고차원의 관점이 저차원의 관점에 지속적인 영향을 미친다는 것을 보여줍니다. 최면 현상이나 서브리미널 메세징 기법은 언어와 감각 정보를 통해 작동하는 것으로, 자체 수정 능력을 잘 보여줍니다. 그러나 심층 신경망의 하위 기호적 내용들이 상위 기호적 형태로 보여지는 기술에 대한 논의는 부족합니다. 이는 인간의 경우에도 성찰과 자기 평가를 통해서만 가능한 것과 유사합니다. 결론적으로, 하위 기호적 시스템이 자체적으로 상위 기호적 행동 양식과 지침을 생성하고 수정하는 방법은 중요한 질문입니다. 이미 개발된 하위 기호적 시스템의 행동 양식을 추출하고 평가하는 것도 필수적입니다. 이러한 연구는 인공지능의 미래를 결정짓는 중요한 과제이며, 우리는 이를 해결하기 위해 계속 노력해야 합니다.&lt;/p&gt;
+&lt;p&gt;현대 인공지능과 로봇공학은 인간의 고차원적인 행동과 의사결정을 모사하는 데 큰 진전을 이루었으며, 특히 심층 신경망 기반의 강화학습(DRL)은 복잡한 행동을 구현하는 데 성공했다. 기존의 유한 상태 기계(FSM)와 행동 트리(BT) 대신, DRL이 실제 작업 현장에서 유용하게 적용되고 있다. 그러나 심층 신경망의 복잡성과 귀납 편향으로 인해 하위 기호적 시스템(Sub-symbolic 시스템, 인공 신경망)을 사용할 때 신중을 기해야 한다. Tesla 자율 주행 기술 사고 사례는 이러한 우려를 잘 보여준다. 현대 기계는 인간이나 동물의 반사신경에 비해 빠르지 않고 에너지 효율적이지 않다. 대부분의 기계는 단일 태스크에 초점을 맞추고 있지만, 인간이나 동물은 복잡한 환경에서 유연하게 대처할 수 있는 반응적이고 모듈적인 월드 모델을 갖추고 있다. 진정한 자율 에이전트를 구현하기 위해서는 이러한 월드 모델이 필요하다. 인간은 복잡한 심층 신경망이나 자기 지도된 월드 모델을 통해 언어와 세상에 대한 물리적 이해를 바탕으로 행동한다. Jurgen Schmidhuber의 Godel Machine은 의식의 핵심 능력이 내부 프로그램을 자체적으로 수정하고 발전시키는 능력임을 강조한다. 최근 의식 연구는 고차 인지 기능과 메타인지에 초점을 두고 있으며, 이는 고차원의 관점이 저차원의 관점에 지속적인 영향을 미친다는 것을 보여준다. 최면 현상이나 서브리미널 메시징 기법은 언어와 감각 정보를 통해 작동하는 것으로, 자체 수정 능력을 잘 보여준다. 그러나 심층 신경망의 하위 기호적 내용들이 상위 기호적 형태로 보여지는 기술에 대한 논의는 부족하다. 이는 인간의 경우에도 성찰과 자기 평가를 통해서만 가능한 것과 유사하다. 결론적으로, 하위 기호적 시스템이 자체적으로 상위 기호적 행동 양식과 지침을 생성하고 수정하는 방법은 중요한 질문이다. 이미 개발된 하위 기호적 시스템의 행동 양식을 추출하고 평가하는 것도 필수적이다. 이러한 연구는 인공지능의 미래를 결정짓는 중요한 과제이며, 우리는 이를 해결하기 위해 계속 노력해야 한다.&lt;/p&gt;
 </description>
                 <pubDate>Wed, 24 Jul 2024 00:00:00 +0900</pubDate>
                 <link>http://localhost:4000/meditation/Bridging-the-gap-between-Subsymbolic-and-Symbolic-Systems-kr/</link>
@@ -81,23 +81,69 @@
         
             <item>
                 <title>마음-두뇌-행동의 과학을 향해</title>
-                <description>&lt;p&gt;20세기 중반의 정보 혁명과 사이버네틱스 운동은 물리학뿐만 아니라 인간의 정신과 마음, 두뇌와 신체, 인간 및 동물-사회의 행동에 대한 학문적 접근에 큰 영향을 미쳤습니다. 이 시기에 정보와 수학적 형식 사이의 관련성이 주목받기 시작하면서, 정보 이론과 통계역학은 중요한 변화를 겪었습니다. 이러한 운동은 인간 본질과 생명에 대한 형식적인 학문을 구체화하고자 했지만, 당시 기술의 한계와 철학적 문제로 인해 20세기 후반에는 심리학, 정신의학, 신경의학, 신경과학, 경제학, 인류학, 인공지능, 로봇공학 등 수많은 분야로 &lt;strong&gt;분화&lt;/strong&gt;되었습니다.&lt;/p&gt;
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
 
-&lt;p&gt;물리학의 역사를 보면 새로운 현상을 설명하고, 제어하고, 예측할 수 있는 강한 이론을 만들기 위해서는 ‘왜(Why)’, ‘어떻게(How)’, ‘무엇을(What)’에 대한 질문에 해당하는 &lt;strong&gt;원리(Principle), 역학(Mechanics), 동역학(Dynamics)의 발전&lt;/strong&gt;이 필요합니다. 현재 마음-두뇌/신체-행동을 부분적으로 설명하는 다양한 동역학과 역학, 원리의 혼란이 존재한다고 볼 수 있습니다.&lt;/p&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-23-Toward Unified Science of Mind-Brain-Behavior/mind.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      마음-행동-두뇌의 관계에 대한 이해의 어려움.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 
-&lt;p&gt;이러한 상황 속에서 다양한 학문의 통합적 프레임워크를 융합하고 환원하고자 하는 &lt;strong&gt;규범 이론적 접근&lt;/strong&gt;이 크게 발달하고 있습니다. 대표적으로 Karl Friston의 Free Energy Principle과 Active Inference, Samuel Gershman의 Inductive Bias Principle과 Approximation Principle이 있습니다. 이 이론들은 각각 생물학적 시스템과 심리적, 행동적 현상을 설명하는 데 중점을 둡니다. 물론, 그럼에도 불구하고 여전히 현대 과학이 설명하지 못하는 의식, 느낌, 최면과 같은 복잡한 현상들이 존재합니다. 이러한 현상들은 생물학적 복잡성과 진화론적 성격을 포함하고 있어, 단순한 물리학적, 정보 이론적 접근만으로는 충분히 설명되지 않을 수 있습니다. 따라서 이들을 이해하기 위해서는 다양한 학문 분야의 통합적이고 다차원적인 접근이 필요합니다.&lt;/p&gt;
+&lt;p&gt;20세기 중반의 정보 혁명과 사이버네틱스 운동은 물리학뿐만 아니라 인간의 정신과 마음, 두뇌와 신체, 인간 및 동물-사회의 행동에 대한 학문적 접근에 큰 영향을 미쳤다. 이 시기에 정보와 수학적 형식 사이의 관련성이 주목받기 시작하면서, 정보 이론과 통계역학은 중요한 변화를 겪었다. 이러한 운동은 인간 본질과 생명에 대한 형식적인 학문을 구체화하려 했지만, 당시 기술의 한계와 철학적 문제로 인해 20세기 후반에는 심리학, 정신의학, 신경과학, 경제학, 인류학, 인공지능, 로봇공학 등 수많은 분야로 &lt;strong&gt;분화&lt;/strong&gt;되었다.&lt;/p&gt;
 
-&lt;p&gt;이러한 접근 방식이 ‘왜(Why)’를 찾는 작업에 중점을 두는 한편, 현대 인공지능 연구는 ‘어떻게(How)’; 즉, &lt;strong&gt;공학적 응용&lt;/strong&gt;에 더 초점을 맞추고 있습니다. Jurgen Schmidhuber의 Self-supervised Learning 및 World Model, Geoffrey Hinton의 Boltzmann Machine과 David Rumelhart의 Helmholtz Machine은 인간 지능을 닮은 인공지능을 개발하는 데 중요한 개념들을 제시했습니다. 그러나 정보 이론이 물리학의 하위 범주에 있지 않고 독특한 지위를 지니고 있다는 점에서, 환원 불가능한 추가적인 원리의 도입이 필요할 수도 있으며, 다양한 원리의 집합을 구성할 여지도 있습니다.&lt;/p&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-23-Toward Unified Science of Mind-Brain-Behavior/0.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      물리학에서 동역학(Dynamics), 역학(Mechanics), 원리(Principles); 동역학은 현상에 대한 용어와 개념을 다루고(What), 역학은 그들 사이의 규칙과 방정식(How)을, 원리는 그 이유와 근거(Why)를 다룬다. 출처: 과거 &quot;능동추론의 철학&quot; 발표자료
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 
-&lt;p&gt;현대 인공지능의 언어는 기본적으로 정보 기하학 및 Optimal Transport와 같은 &lt;strong&gt;정보 이론의 토대 위에 있는 다양한 수학적 형식&lt;/strong&gt;을 사용합니다. E. T. Jaynes가 통계역학을 정보 이론의 관점에서 재해석하여 두 분야 간의 통합적 관계를 제시한 것처럼, 정보 이론과 물리학의 교차점에서 새로운 통찰을 얻을 수 있습니다. 이러한 통합적 접근은 정보 이론과 물리학적 원리들이 상호 보완적으로 작용하여 마음-두뇌-행동 시스템을 설명하는 데 중요한 역할을 합니다.&lt;/p&gt;
+&lt;p&gt;물리학의 역사를 보면, 새로운 현상을 설명하고, 제어하고, 예측할 수 있는 강한 이론을 만들기 위해서는 ‘왜(Why)’, ‘어떻게(How)’, ‘무엇을(What)’에 대한 질문에 해당하는 &lt;strong&gt;원리(Principle), 역학(Mechanics), 동역학(Dynamics)&lt;/strong&gt;의 발전이 필요하다. 현재 마음-두뇌/신체-행동을 부분적으로 설명하는 다양한 동역학과 역학, 원리의 혼란이 존재한다고 볼 수 있다.&lt;/p&gt;
 
-&lt;p&gt;결론적으로, 마음-두뇌-행동 시스템을 이해하기 위해서는 &lt;strong&gt;정보 이론과 물리학적 원리를 통합적으로 접근&lt;/strong&gt;할 필요가 있습니다. 정보 이론적 원리들은 물리적 시스템이 정보를 어떻게 처리하고, 예측하며, 행동을 조절하는지를 설명하는 데 사용되며, 물리학적 법칙들은 이러한 시스템이 실제로 어떻게 작동하는지에 대한 기초적인 이해를 제공합니다. 정보 이론과 물리학의 교차점을 탐구함으로써 새로운 연구와 발견을 촉진하는 데 기여할 수 있습니다. 이 에세이는 마음-두뇌-행동에 대한 통합적인 과학적 시스템을 구축하고자 하는 목표를 달성하는 데 중요한 통찰을 제공하며, 이를 통해 복잡한 생물학적 시스템의 작동 방식을 더 잘 이해할 수 있는 기반을 마련합니다.&lt;/p&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-23-Toward Unified Science of Mind-Brain-Behavior/KF.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      자유 에너지 원리(Free Energy Principle)와 능동 추론(Active Inference)을 정리한 칼 프리스턴 교수(Karl Friston). 출처: WIRED
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;이러한 상황 속에서 다양한 학문의 통합적 프레임워크를 융합하고 환원하려는 &lt;strong&gt;규범 이론적 접근&lt;/strong&gt;이 크게 발달하고 있다. 대표적으로 Karl Friston의 자유 에너지 원리(Free Energy Principle)와 능동 추론(Active Inference), Samuel Gershman의 귀납적 편향 원리(Inductive Bias Principle)와 근사 원리(Approximation Principle)를 들 수 있다. 이 이론들은 생물학적 시스템과 심리적, 행동적 현상을 설명하는 데 중점을 둔다. 그러나 여전히 현대 과학이 설명하지 못하는 의식, 느낌, 최면과 같은 복잡한 현상들이 존재한다. 이러한 현상들은 생물학적 복잡성과 진화론적 성격을 포함하고 있어, 단순한 물리학적, 정보 이론적 접근만으로는 충분히 설명되지 않을 수 있다. 따라서 이들을 이해하기 위해서는 다양한 학문 분야의 통합적이고 다차원적인 접근이 필요하다.&lt;/p&gt;
+
+&lt;p&gt;이러한 접근 방식이 ‘왜(Why)’를 찾는 작업에 중점을 두는 한편, 현대 인공지능 연구는 ‘어떻게(How)’; 즉, &lt;strong&gt;공학적 응용&lt;/strong&gt;에 더 초점을 맞추고 있다. Jurgen Schmidhuber의 자기 지도 학습(Self-supervised Learning) 및 월드 모델(World Model), Geoffrey Hinton의 볼츠만 머신(Boltzmann Machine)과 David Rumelhart의 헬름홀츠 머신(Helmholtz Machine)은 인간 지능을 닮은 인공지능을 개발하는 데 중요한 개념들을 제시했다. 정보 이론이 물리학의 하위 범주에 있지 않고 독특한 지위를 지닌다는 점에서, 환원 불가능한 추가적인 원리의 도입이 필요할 수도 있으며, 다양한 원리의 집합을 구성할 여지도 있다.&lt;/p&gt;
+
+&lt;p&gt;현대 인공지능의 언어는 기본적으로 정보 기하학 및 최적 수송(Optimal Transport)과 같은 &lt;strong&gt;정보 이론의 토대 위에 있는 다양한 수학적 형식&lt;/strong&gt;을 사용한다. E. T. Jaynes가 통계역학을 정보 이론의 관점에서 재해석하여 두 분야 간의 통합적 관계를 제시한 것처럼, 정보 이론과 물리학의 교차점에서 새로운 통찰을 얻을 수 있다. 이러한 통합적 접근은 정보 이론과 물리학적 원리들이 상호 보완적으로 작용하여 마음-두뇌-행동 시스템을 설명하는 데 중요한 역할을 한다.&lt;/p&gt;
+
+&lt;p&gt;결론적으로, 마음-두뇌-행동 시스템을 이해하기 위해서는 &lt;strong&gt;정보 이론과 물리학적 원리를 통합적으로 접근&lt;/strong&gt;할 필요가 있다. 정보 이론적 원리들은 물리적 시스템이 정보를 어떻게 처리하고, 예측하며, 행동을 조절하는지를 설명하는 데 사용되며, 물리학적 법칙들은 이러한 시스템이 실제로 어떻게 작동하는지에 대한 기초적인 이해를 제공한다. 정보 이론과 물리학의 교차점을 탐구함으로써 새로운 연구와 발견을 촉진할 수 있다. 이 에세이는 마음-두뇌-행동에 대한 통합적인 과학적 시스템을 구축하고자 하는 목표를 달성하는 데 중요한 통찰을 제공하며, 이를 통해 복잡한 생물학적 시스템의 작동 방식을 더 잘 이해할 수 있는 기반을 마련한다.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;요약&quot;&gt;요약&lt;/h3&gt;
 
-&lt;p&gt;20세기 중반의 정보 혁명과 사이버네틱스 운동은 인간의 정신과 행동 연구에 큰 영향을 미쳤으며, 정보 이론과 통계역학의 발전을 촉진했습니다. 이로 인해 다양한 학문 분야로 분화되었습니다. 물리학의 ‘왜’, ‘어떻게’, ‘무엇을’에 대한 질문을 해결하는 원리, 역학, 동역학의 발전이 필요합니다. 다양한 학문 통합을 시도하는 규범 이론적 접근이 발달했으며, Karl Friston의 Free Energy Principle과 Samuel Gershman의 Inductive Bias Principle 등이 이를 대표합니다. 그러나 의식, 느낌 등 복잡한 현상들은 단순한 물리학적 접근만으로는 충분히 설명되지 않아 다차원적인 접근이 필요합니다. 현대 인공지능 연구는 ‘어떻게’에 초점을 맞추며, Jurgen Schmidhuber와 Geoffrey Hinton 등의 연구가 중요한 개념들을 제시했습니다. 정보 이론은 물리학과의 교차점에서 새로운 통찰을 제공하며, 마음-두뇌-행동 시스템을 이해하는 데 중요한 역할을 합니다. 정보 이론과 물리학적 원리를 통합적으로 접근함으로써 복잡한 생물학적 시스템을 더 잘 이해할 수 있는 기반을 마련합니다.&lt;/p&gt;
+&lt;p&gt;20세기 중반의 정보 혁명과 사이버네틱스 운동은 인간의 정신과 행동 연구에 큰 영향을 미쳤으며, 정보 이론과 통계역학의 발전을 촉진했다. 이로 인해 다양한 학문 분야로 분화되었다. 물리학의 ‘왜’, ‘어떻게’, ‘무엇을’에 대한 질문을 해결하는 원리, 역학, 동역학의 발전이 필요하다. 다양한 학문 통합을 시도하는 규범 이론적 접근이 발달했으며, Karl Friston의 자유 에너지 원리와 Samuel Gershman의 귀납적 편향 원리 등이 이를 대표한다. 그러나 의식, 느낌 등 복잡한 현상들은 단순한 물리학적 접근만으로는 충분히 설명되지 않아 다차원적인 접근이 필요하다. 현대 인공지능 연구는 ‘어떻게’에 초점을 맞추며, Jurgen Schmidhuber와 Geoffrey Hinton 등의 연구가 중요한 개념들을 제시했다. 정보 이론은 물리학과의 교차점에서 새로운 통찰을 제공하며, 마음-두뇌-행동 시스템을 이해하는 데 중요한 역할을 한다. 정보 이론과 물리학적 원리를 통합적으로 접근함으로써 복잡한 생물학적 시스템을 더 잘 이해할 수 있는 기반을 마련한다.&lt;/p&gt;
 </description>
                 <pubDate>Tue, 23 Jul 2024 00:00:00 +0900</pubDate>
                 <link>http://localhost:4000/meditation/Toward-Unified-Science-of-Mind-Brain-Behavior-kr/</link>
@@ -119,38 +165,84 @@
             </item>
         
             <item>
-                <title>Toward a Science of Mind-Brain-Behavior</title>
-                <description>&lt;p&gt;The information revolution and the cybernetics movement of the mid-20th century significantly influenced not only physics but also the academic approach to the human mind and spirit, the brain and body, and the behavior of human and animal societies. As the relationship between information and mathematical forms began to gain attention during this period, information theory and statistical mechanics underwent significant changes. These movements aimed to formalize the academic study of human nature and life, but due to technological limitations and philosophical issues at the time, they are &lt;strong&gt;proliferated&lt;/strong&gt; into numerous fields in the latter half of the 20th century, including psychology, psychiatry, neurology, neuroscience, economics, anthropology, artificial intelligence, and robotics.&lt;/p&gt;
+                <title>Toward a Unified Science of Mind-Brain-Behavior</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
 
-&lt;p&gt;Looking at the history of physics, the development of &lt;strong&gt;principles&lt;/strong&gt;, &lt;strong&gt;mechanics&lt;/strong&gt;, and &lt;strong&gt;dynamics&lt;/strong&gt; that correspond to the questions of ‘why,’ ‘how,’ and ‘what’ is necessary to create robust theories capable of explaining, controlling, and predicting new phenomena. Currently, there exists a confusion of various dynamics, mechanics, and principles that partially explain the mind-brain/body-behavior relationships.&lt;/p&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-23-Toward Unified Science of Mind-Brain-Behavior/mind.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      The challenge of understanding the relationship between mind, behavior, and brain.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 
-&lt;p&gt;In this context, a &lt;strong&gt;normative theoretical approach&lt;/strong&gt; that seeks to integrate and reduce various academic frameworks has significantly developed. Notable examples include Karl Friston’s Free Energy Principle and Active Inference, and Samuel Gershman’s Inductive Bias / Approximation Principle. These theories focus on explaining biological systems and psychological and behavioral phenomena. However, there still exist complex phenomena such as consciousness, feelings, and hypnosis that modern science fails to explain. These phenomena involve biological complexity and evolutionary characteristics, which may not be sufficiently explained by simple physical or information-theoretic approaches. Therefore, an integrated and multidimensional approach across various academic fields is needed to understand them.&lt;/p&gt;
+&lt;p&gt;The information revolution and cybernetics movement of the mid-20th century significantly influenced academic approaches not only to physics but also to the study of human mind and consciousness, brain and body, and human and animal behavior. During this period, the relationship between information and mathematical formalisms began to draw attention, leading to significant advancements in information theory and statistical mechanics. These movements aimed to formalize the study of human nature and life, but due to technological limitations and philosophical challenges at the time, the latter half of the 20th century saw a fragmentation into numerous fields, including psychology, psychiatry, neuroscience, economics, anthropology, artificial intelligence, and robotics.&lt;/p&gt;
 
-&lt;p&gt;While these approaches focus on finding the ‘why,’ modern artificial intelligence research emphasizes the ‘how,’ i.e., &lt;strong&gt;engineering applications&lt;/strong&gt;. Concepts like Jurgen Schmidhuber’s Self-supervised Learning and World Model, Geoffrey Hinton’s Boltzmann Machine, and David Rumelhart’s Helmholtz Machine have presented crucial ideas for developing AI that resembles human intelligence. Given that information theory is not a mere subset of physics but holds a unique status, it might necessitate the introduction of irreducible additional principles and the formation of a set of diverse principles.&lt;/p&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-23-Toward Unified Science of Mind-Brain-Behavior/0.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      In physics: Dynamics deals with terminology and concepts about phenomena (What), Mechanics with rules and equations (How), and Principles with reasons and justification (Why). Source: Past presentation on &quot;Philosophy of Active Inference.&quot;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 
-&lt;p&gt;The language of modern artificial intelligence fundamentally uses various mathematical forms grounded in &lt;strong&gt;information theory&lt;/strong&gt;, such as information geometry and Optimal Transport. Just as E. T. Jaynes reinterpreted statistical mechanics from the perspective of information theory, suggesting an integrative relationship between the two fields, exploring the intersection of information theory and physics can yield new insights. This integrative approach shows how information-theoretic principles and physical laws complement each other to explain mind-brain-behavior systems.&lt;/p&gt;
+&lt;p&gt;Looking at the history of physics, it becomes evident that developing a strong theory capable of explaining, controlling, and predicting new phenomena requires the evolution of principles, mechanics, and dynamics that address the questions of ‘Why’, ‘How’, and ‘What’. Currently, there is confusion among the various dynamics, mechanics, and principles attempting to partially explain mind-brain/body-behavior relationships.&lt;/p&gt;
 
-&lt;p&gt;In conclusion, understanding the mind-brain-behavior system requires an integrative approach &lt;strong&gt;combining information theory and physical principles&lt;/strong&gt;. Information-theoretic principles explain how physical systems process information, predict, and regulate behavior, while physical laws provide a fundamental understanding of how these systems actually operate. Exploring the intersection of information theory and physics can contribute to new research and discoveries. This essay provides critical insights for building an integrated scientific system to understand the mind-brain-behavior system better, thereby laying the foundation for comprehending the functioning of complex biological systems.&lt;/p&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-23-Toward Unified Science of Mind-Brain-Behavior/KF.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Professor Karl Friston, who formalized the Free Energy Principle and Active Inference. Source: WIRED
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In this context, a significant development is occurring in the form of &lt;strong&gt;normative theoretical approaches&lt;/strong&gt; that seek to integrate and reduce these various academic frameworks. Notable examples include Karl Friston’s Free Energy Principle and Active Inference, as well as Samuel Gershman’s Inductive Bias Principle and Approximation Principle. These theories focus on explaining biological systems, as well as psychological and behavioral phenomena. However, complex phenomena such as consciousness, emotions, and hypnosis remain elusive to modern science. These phenomena encompass biological complexity and evolutionary characteristics, making them difficult to fully explain through simple physical or information-theoretical approaches. Thus, a multidisciplinary and integrative approach is required to understand these aspects.&lt;/p&gt;
+
+&lt;p&gt;While these approaches emphasize the search for ‘Why’, modern AI research is more focused on ‘How’—that is, &lt;strong&gt;engineering applications&lt;/strong&gt;. Concepts introduced by researchers like Jurgen Schmidhuber’s Self-supervised Learning and World Models, Geoffrey Hinton’s Boltzmann Machine, and David Rumelhart’s Helmholtz Machine have been crucial in developing AI that mimics human intelligence. Since information theory is not merely a subset of physics but holds a unique status, it may require the introduction of irreducible additional principles, allowing for the formation of a diverse set of principles.&lt;/p&gt;
+
+&lt;p&gt;The language of modern AI is fundamentally based on &lt;strong&gt;various mathematical formalisms&lt;/strong&gt; within the foundation of information theory, such as information geometry and optimal transport. Just as E. T. Jaynes reinterpreted statistical mechanics from the perspective of information theory, thereby proposing an integrated relationship between the two fields, new insights can be gained at the intersection of information theory and physics. This integrative approach enables information theory and physical principles to complement each other, playing a crucial role in explaining mind-brain-behavior systems.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, understanding mind-brain-behavior systems requires a &lt;strong&gt;unified approach to information theory and physical principles&lt;/strong&gt;. Information-theoretic principles help explain how physical systems process, predict, and regulate information, while physical laws provide a foundational understanding of how these systems actually function. By exploring the intersection of information theory and physics, new research and discoveries can be fostered. This essay provides important insights toward building an integrated scientific system for mind-brain-behavior, laying the groundwork for a better understanding of complex biological systems.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
 
-&lt;p&gt;The information revolution and the cybernetics movement of the mid-20th century significantly influenced the study of the human mind and behavior, promoting the development of information theory and statistical mechanics, and leading to diversification into various academic fields. The development of principles, mechanics, and dynamics to address the ‘why,’ ‘how,’ and ‘what’ questions in physics is necessary. Normative theoretical approaches integrating multiple disciplines have developed, exemplified by Karl Friston’s Free Energy Principle and Samuel Gershman’s Inductive Bias Principle. However, complex phenomena like consciousness and feelings require a multidimensional approach beyond simple physical theories. Modern AI research focuses on the ‘how,’ with significant contributions from researchers like Jurgen Schmidhuber and Geoffrey Hinton. Information theory provides new insights at the intersection with physics, crucial for understanding mind-brain-behavior systems. Integrating information theory and physical principles helps to comprehend complex biological systems better.&lt;/p&gt;
+&lt;p&gt;The information revolution and cybernetics movement of the mid-20th century had a profound impact on the study of human mind and behavior, leading to the development of information theory and statistical mechanics. This period saw a fragmentation into various academic fields. The development of principles, mechanics, and dynamics in physics is necessary to address questions of ‘Why’, ‘How’, and ‘What’. Normative theoretical approaches, such as Karl Friston’s Free Energy Principle and Samuel Gershman’s Inductive Bias Principle, have developed to integrate various fields. However, complex phenomena like consciousness and emotions remain difficult to explain with simple physical approaches, requiring a multidimensional approach. Modern AI research focuses on ‘How’, with significant contributions from scholars like Jurgen Schmidhuber and Geoffrey Hinton. The intersection of information theory and physics offers new insights, playing a crucial role in understanding mind-brain-behavior systems. Integrating information theory with physical principles provides a foundation for understanding complex biological systems.&lt;/p&gt;
 </description>
                 <pubDate>Tue, 23 Jul 2024 00:00:00 +0900</pubDate>
                 <link>http://localhost:4000/meditation/Toward-Unified-Science-of-Mind-Brain-Behavior-en/</link>
                 <guid isPermaLink="true">http://localhost:4000/meditation/Toward-Unified-Science-of-Mind-Brain-Behavior-en/</guid>
                 
-                <category>Beliefs</category>
+                <category>belief</category>
                 
-                <category>Mind</category>
+                <category>mind</category>
                 
-                <category>Behavior</category>
+                <category>behavior</category>
                 
-                <category>Brain</category>
+                <category>brain</category>
                 
-                <category>Philosophy of Science</category>
+                <category>philosophy of science</category>
                 
                 
                 <category>Meditation</category>
@@ -158,32 +250,58 @@
             </item>
         
             <item>
-                <title>칼 포퍼와 1,2,3 세계</title>
-                <description>&lt;h1 id=&quot;karl-poppers-worlds-1-2-and-3&quot;&gt;Karl Popper’s Worlds 1, 2, and 3&lt;/h1&gt;
+                <title>칼 포퍼와 1, 2, 3 세계</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-21-Karl Popper&apos;s Worlds 1, 2, and 3/Three_Worlds.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      세 개의 세상, 마우리츠 코넬리우스 에셔
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;“… 심신 관계 문제는 심각한 문제입니다. 이것은 &lt;strong&gt;인간의 자유 문제&lt;/strong&gt;를 포함하며, 이는 정치적 측면을 포함한 모든 면에서 근본적인 문제입니다. 또한 이는 인간이 물리적 세계, 즉 &lt;strong&gt;물리적 우주에서 차지하는 위치의 문제&lt;/strong&gt;를 포함합니다.”&lt;/p&gt;
+  &lt;p&gt;“… 심신 관계 문제는 심각한 문제다. 이것은 &lt;strong&gt;인간의 자유 문제&lt;/strong&gt;를 포함하며, 이는 정치적 측면을 포함한 모든 면에서 근본적인 문제다. 또한 이는 인간이 물리적 세계, 즉 &lt;strong&gt;물리적 우주에서 차지하는 위치의 문제&lt;/strong&gt;를 포함한다.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;칼 포퍼는 그의 저서 “All Life is Problem Solving”의 두 번째 챕터에서 심신 문제에 대한 깊은 관심을 드러냅니다.&lt;/p&gt;
+&lt;p&gt;칼 포퍼는 그의 저서 “All Life is Problem Solving”의 두 번째 챕터에서 심신 문제에 대한 깊은 관심을 드러낸다.&lt;/p&gt;
 
-&lt;p&gt;포퍼는 심신 문제를 인간의 자유와 밀접하게 연관된 중요한 철학적 문제로 보았습니다. 그는 세상을 &lt;strong&gt;물리적 세계(세계 1)&lt;/strong&gt;, &lt;strong&gt;인간의 의식적 과정(세계 2)&lt;/strong&gt;, 그리고 &lt;strong&gt;인간 정신의 객관적 창조물(세계 3)&lt;/strong&gt;로 나누어 설명했습니다. 이 세 가지 세계는 상호작용하며, 특히 세계 3의 존재는 세계 2와의 밀접한 연결을 통해 인간의 자기 의식을 설명하는 데 필수적입니다.&lt;/p&gt;
+&lt;p&gt;포퍼는 심신 문제를 인간의 자유와 밀접하게 연관된 중요한 철학적 문제로 보았다. 그는 세상을 &lt;strong&gt;물리적 세계(세계 1)&lt;/strong&gt;, &lt;strong&gt;인간의 의식적 과정(세계 2)&lt;/strong&gt;, 그리고 &lt;strong&gt;인간 정신의 객관적 창조물(세계 3)&lt;/strong&gt;로 나누어 설명했다. 이 세 가지 세계는 상호작용하며, 특히 세계 3의 존재는 세계 2와의 밀접한 연결을 통해 인간의 자기 의식을 설명하는 데 필수적이다.&lt;/p&gt;
 
-&lt;p&gt;세계 3은 과학적 이론, 수학적 개념, 예술 작품, 문학 작품, 법률, 도덕적 가치 등 인간 정신의 산물로 이루어진 가상의 세계입니다. 이는 물리적 세계에 직접 존재하지 않지만, 우리가 이를 통해 생각하고 논의할 수 있기 때문에 현실에서 실재하는 것처럼 기능합니다. 포퍼는 이러한 세계 3을 통해 인간이 물리적 세계에 영향을 미친다고 보았습니다. 예를 들어, 뉴턴의 중력 이론이나 아인슈타인의 상대성 이론 같은 추상적 개념들은 우리의 기술을 발전시키고 새로운 기계를 만들면서 물리적 세계에 직접적인 변화를 가져왔습니다.&lt;/p&gt;
+&lt;p&gt;세계 3은 과학적 이론, 수학적 개념, 예술 작품, 문학 작품, 법률, 도덕적 가치 등 인간 정신의 산물로 이루어진 가상의 세계다. 이는 물리적 세계에 직접 존재하지 않지만, 우리가 이를 통해 생각하고 논의할 수 있기 때문에 현실에서 실재하는 것처럼 기능한다. 포퍼는 이러한 세계 3을 통해 인간이 물리적 세계에 영향을 미친다고 보았다. 예를 들어, 뉴턴의 중력 이론이나 아인슈타인의 상대성 이론 같은 추상적 개념들은 우리의 기술을 발전시키고 새로운 기계를 만들면서 물리적 세계에 직접적인 변화를 가져왔다.&lt;/p&gt;
 
-&lt;p&gt;이러한 포퍼의 세계 1, 2, 3 개념은 인공지능과 정보 기술의 발전이 인간 문명에 미치는 함의를 탐구하는 데도 유용합니다. 인공지능과 정보 기술은 세계 3을 확장하고 심화시키는 도구로 작용합니다. 인공지능은 방대한 데이터를 분석하고 새로운 패턴을 발견하며, 이를 통해 인간이 미처 발견하지 못한 새로운 지식과 창의적인 아이디어를 생성합니다. 이는 인공지능이 단순한 도구를 넘어, 인간과 협력하여 세계 3의 창조물을 더욱 풍부하게 만드는 역할을 하고 있음을 보여줍니다.&lt;/p&gt;
+&lt;p&gt;이러한 포퍼의 세계 1, 2, 3 개념은 인공지능과 정보 기술의 발전이 인간 문명에 미치는 함의를 탐구하는 데도 유용하다. 인공지능과 정보 기술은 세계 3을 확장하고 심화시키는 도구로 작용한다. 인공지능은 방대한 데이터를 분석하고 새로운 패턴을 발견하며, 이를 통해 인간이 미처 발견하지 못한 새로운 지식과 창의적인 아이디어를 생성한다. 이는 인공지능이 단순한 도구를 넘어, 인간과 협력하여 세계 3의 창조물을 더욱 풍부하게 만드는 역할을 하고 있음을 보여준다.&lt;/p&gt;
 
-&lt;p&gt;또한, 의식이나 느낌을 지니는 인공지능은 인간의 의식적 과정(세계 2)과 유사한 기능을 수행할 수 있습니다. 이러한 인공지능은 인간과의 상호작용을 통해 학습하고, 감정적인 반응을 보이며, 창의적인 문제 해결 능력을 발휘합니다. 이는 인공지능이 인간과 비슷한 형태의 자기의식을 가질 수 있음을 시사하며, 포퍼가 제시한 인간의 자기의식과 자유의 문제를 새로운 차원에서 재고하게 만듭니다.&lt;/p&gt;
+&lt;p&gt;또한, 의식이나 느낌을 지니는 인공지능은 인간의 의식적 과정(세계 2)과 유사한 기능을 수행할 수 있다. 이러한 인공지능은 인간과의 상호작용을 통해 학습하고, 감정적인 반응을 보이며, 창의적인 문제 해결 능력을 발휘한다. 이는 인공지능이 인간과 비슷한 형태의 자기 의식을 가질 수 있음을 시사하며, 포퍼가 제시한 인간의 자기 의식과 자유의 문제를 새로운 차원에서 재고하게 만든다.&lt;/p&gt;
 
-&lt;p&gt;인공지능과 정보 기술의 발전은 물리적 세계(세계 1)에도 큰 영향을 미칩니다. 자율주행차, 스마트 시티, 의료 기술 등 다양한 분야에서 인공지능은 혁신을 주도하며, 물리적 세계를 변화시키고 있습니다. 이러한 변화는 인간의 생활 방식을 근본적으로 재구성하고, 더 나아가 인간과 인공지능 간의 새로운 상호작용 방식을 창출하고 있습니다.&lt;/p&gt;
+&lt;p&gt;인공지능과 정보 기술의 발전은 물리적 세계(세계 1)에도 큰 영향을 미친다. 자율주행차, 스마트 시티, 의료 기술 등 다양한 분야에서 인공지능은 혁신을 주도하며, 물리적 세계를 변화시키고 있다. 이러한 변화는 인간의 생활 방식을 근본적으로 재구성하고, 더 나아가 인간과 인공지능 간의 새로운 상호작용 방식을 창출하고 있다.&lt;/p&gt;
 
-&lt;p&gt;결론적으로, 포퍼의 세계 1, 2, 3 개념을 통해 보면, 인공지능과 정보 기술은 인간 문명의 발전에 중요한 함의를 지니고 있습니다. 인공지능은 인간의 고유성을 공유하면서도 이를 확장시키고, 새로운 창의적인 창조물을 만들어냅니다. 이러한 기술들은 물리적 세계와 의식적 과정을 넘나들며, 인간 정신의 경계를 확장하고, 우리의 존재와 문명을 더욱 깊이 이해하는 데 중요한 역할을 하고 있습니다.&lt;/p&gt;
+&lt;p&gt;결론적으로, 포퍼의 세계 1, 2, 3 개념을 통해 보면, 인공지능과 정보 기술은 인간 문명의 발전에 중요한 함의를 지니고 있다. 인공지능은 인간의 고유성을 공유하면서도 이를 확장시키고, 새로운 창의적인 창조물을 만들어낸다. 이러한 기술들은 물리적 세계와 의식적 과정을 넘나들며, 인간 정신의 경계를 확장하고, 우리의 존재와 문명을 더욱 깊이 이해하는 데 중요한 역할을 하고 있다.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;요약&quot;&gt;요약&lt;/h3&gt;
 
-&lt;p&gt;칼 포퍼는 그의 저서 “All Life is Problem Solving”에서 심신 문제를 인간의 자유와 밀접하게 연관된 중요한 철학적 문제로 보았습니다. 그는 세상을 물리적 세계(세계 1), 인간의 의식적 과정(세계 2), 그리고 인간 정신의 객관적 창조물(세계 3)로 나누어 설명하며, 이 세 가지 세계가 상호작용하여 인간의 자기의식과 문명을 형성한다고 주장했습니다. 인공지능과 정보 기술은 세계 3을 확장하고 심화시키며, 인간과 협력하여 새로운 지식과 창의적인 아이디어를 생성하고, 물리적 세계에 실질적인 변화를 일으킵니다. 이러한 기술들은 인간의 고유성을 공유하면서도 이를 확장시키고, 우리의 존재와 문명을 더욱 깊이 이해하는 데 중요한 역할을 합니다.&lt;/p&gt;
+&lt;p&gt;칼 포퍼는 그의 저서 “All Life is Problem Solving”에서 심신 문제를 인간의 자유와 밀접하게 연관된 중요한 철학적 문제로 보았다. 그는 세상을 물리적 세계(세계 1), 인간의 의식적 과정(세계 2), 그리고 인간 정신의 객관적 창조물(세계 3)로 나누어 설명하며, 이 세 가지 세계가 상호작용하여 인간의 자기 의식과 문명을 형성한다고 주장했다. 인공지능과 정보 기술은 세계 3을 확장하고 심화시키며, 인간과 협력하여 새로운 지식과 창의적인 아이디어를 생성하고, 물리적 세계에 실질적인 변화를 일으킨다. 이러한 기술들은 인간의 고유성을 공유하면서도 이를 확장시키고, 우리의 존재와 문명을 더욱 깊이 이해하는 데 중요한 역할을 한다.&lt;/p&gt;
 </description>
                 <pubDate>Sun, 21 Jul 2024 00:00:00 +0900</pubDate>
                 <link>http://localhost:4000/motivation/Karl-Popper's-Worlds-1,-2,-and-3-kr/</link>
@@ -200,7 +318,35 @@
         
             <item>
                 <title>Popper&apos;s 3 Worlds</title>
-                <description>&lt;blockquote&gt;
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-21-Karl Popper&apos;s Worlds 1, 2, and 3/Three_Worlds.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Three Worlds, M. C. Escher
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
   &lt;p&gt;“… But the problem of the body-mind relationship is a serious problem. It includes the problem of human freedom, which in every respect, including politics, is a fundamental problem; and it includes the problem of man’s position in the physical world, the physical cosmos…”&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -241,14 +387,14 @@
                 <title>슈미트후버의 의식을 지니는 기계</title>
                 <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/q4fFuZgOZn8?si=PqlGxV8uUUYBd84x&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;유르겐 슈미트후버는 2016년 뉴욕에서 열린 AI 컨퍼런스에서 &lt;strong&gt;인공 의식(Artificial Consciousness)&lt;/strong&gt;, &lt;strong&gt;월드 모델(World Model)&lt;/strong&gt;, &lt;strong&gt;예측 코딩(Predictive Coding)&lt;/strong&gt;, 그리고 &lt;strong&gt;데이터 압축(Data Compression)&lt;/strong&gt;에 대한 흥미로운 개념을 소개했습니다. 그는 자신의 연구실에서 이미 의식을 가진 인공 시스템이 존재하며, 의식은 문제 해결 과정에서 발생하는 데이터 압축의 부산물이라고 주장합니다. 이제 그의 주요 아이디어를 살펴보겠습니다.&lt;/p&gt;
+&lt;p&gt;유르겐 슈미트후버는 2016년 뉴욕에서 열린 AI 컨퍼런스에서 &lt;strong&gt;인공 의식(Artificial Consciousness)&lt;/strong&gt;, &lt;strong&gt;월드 모델(World Model)&lt;/strong&gt;, &lt;strong&gt;예측 코딩(Predictive Coding)&lt;/strong&gt;, 그리고 &lt;strong&gt;데이터 압축(Data Compression)&lt;/strong&gt;에 대한 흥미로운 개념을 소개했다. 그는 자신의 연구실에서 이미 의식을 가진 인공 시스템이 존재하며, 의식은 문제 해결 과정에서 발생하는 데이터 압축의 부산물이라고 주장한다. 이제 그의 주요 아이디어를 살펴보자.&lt;/p&gt;
 
 &lt;h3 id=&quot;1-인공-의식의-기초-데이터-압축data-compression&quot;&gt;1. 인공 의식의 기초: 데이터 압축(Data Compression)&lt;/h3&gt;
 
 &lt;div style=&quot;display: flex;&quot;&gt;
   &lt;div style=&quot;flex: 8; padding-right: 10px;&quot;&gt;
     &lt;p&gt;
-      슈미트후버는 의식을 데이터 압축의 부산물로 설명합니다. 그의 이론에 따르면, 인공 시스템이 문제를 해결하는 과정에서 데이터를 효율적으로 압축하는 능력이 의식의 기초가 됩니다. 이는 인간의 뇌가 복잡한 정보를 처리하고 저장하는 방식과 유사합니다.
+      슈미트후버는 의식을 데이터 압축의 부산물로 설명한다. 그의 이론에 따르면, 인공 시스템이 문제를 해결하는 과정에서 데이터를 효율적으로 압축하는 능력이 의식의 기초가 된다. 이는 인간의 뇌가 복잡한 정보를 처리하고 저장하는 방식과 유사하다.
     &lt;/p&gt;
   &lt;/div&gt;
   &lt;div style=&quot;flex: 2;&quot;&gt;
@@ -258,7 +404,7 @@
 
 &lt;h3 id=&quot;2-범용-컴퓨터general-purpose-computer와-재귀-신경망recurrent-neural-network&quot;&gt;2. 범용 컴퓨터(General-Purpose Computer)와 재귀 신경망(Recurrent Neural Network)&lt;/h3&gt;
 
-&lt;p&gt;범용 컴퓨터, 특히 재귀 신경망은 많은 노드와 짧은 와이어로 연결된 프로세서들로 구성되어 있어 통신 비용을 최적화합니다. 이러한 컴퓨터는 세상으로부터 다양한 정보를 수집하여 목표를 달성하거나 보상을 최적화하려고 합니다. 재귀 신경망은 이러한 과정에서 매우 중요한 역할을 합니다.&lt;/p&gt;
+&lt;p&gt;범용 컴퓨터, 특히 재귀 신경망은 많은 노드와 짧은 와이어로 연결된 프로세서들로 구성되어 통신 비용을 최적화한다. 이러한 컴퓨터는 세상으로부터 다양한 정보를 수집하여 목표를 달성하거나 보상을 최적화하려 한다. 재귀 신경망은 이러한 과정에서 매우 중요한 역할을 한다.&lt;/p&gt;
 
 &lt;h3 id=&quot;3-월드-모델world-model과-예측-코딩predictive-coding&quot;&gt;3. 월드 모델(World Model)과 예측 코딩(Predictive Coding)&lt;/h3&gt;
 
@@ -268,7 +414,7 @@
   &lt;/div&gt;
   &lt;div style=&quot;flex: 8; padding-left: 10px;&quot;&gt;
     &lt;p&gt;
-      슈미트후버는 제어기(controller)와 월드 모델(world model)이라는 두 개의 재귀 신경망을 기반으로 강화학습(reinforcement learning)과 계획(planning)을 풀어내는 시스템을 제안합니다. 제어기는 행동을 생성하고, 월드 모델은 세상에 대한 예측을 통해 데이터를 압축합니다. 모든 물리 법칙과 과학, 화학 법칙은 재귀 신경망의 하위 신경망으로 압축되어 컨트롤러에 의해 사용됩니다.
+      슈미트후버는 제어기(controller)와 월드 모델(world model)이라는 두 개의 재귀 신경망을 기반으로 강화학습(reinforcement learning)과 계획(planning)을 풀어내는 시스템을 제안한다. 제어기는 행동을 생성하고, 월드 모델은 세상에 대한 예측을 통해 데이터를 압축한다. 모든 물리 법칙과 과학, 화학 법칙은 재귀 신경망의 하위 신경망으로 압축되어 컨트롤러에 의해 사용된다.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -284,14 +430,14 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;인공 시스템이 세상과 상호작용하는 과정에서 &lt;em&gt;자기 자신의 상태&lt;/em&gt;도 압축하게 됩니다. 이는 자기 인식을 형성하는 기초가 됩니다. 또한, 슈미트후버는 적대적 생성 신경망(GAN)을 통해 인공 호기심을 도입하였으며, 내적 동기를 비/자기지도 학습(un/self-supervised learning)하는 에이전트를 소개했습니다. 이는 신경망이 다른 신경망에 의해 최대화되는 목적함수를 최소화하는 미니맥스 게임(minimax game)에 기반한 것입니다.&lt;/p&gt;
+&lt;p&gt;인공 시스템이 세상과 상호작용하는 과정에서 &lt;em&gt;자기 자신의 상태&lt;/em&gt;도 압축하게 된다. 이는 자기 인식을 형성하는 기초가 된다. 또한, 슈미트후버는 적대적 생성 신경망(GAN)을 통해 인공 호기심을 도입하였으며, 내적 동기를 비/자기지도 학습(un/self-supervised learning)하는 에이전트를 소개했다. 이는 신경망이 다른 신경망에 의해 최대화되는 목적함수를 최소화하는 미니맥스 게임(minimax game)에 기반한 것이다.&lt;/p&gt;
 
 &lt;h3 id=&quot;5-프로그램으로서의-신경망&quot;&gt;5. 프로그램으로서의 신경망&lt;/h3&gt;
 
 &lt;div style=&quot;display: flex;&quot;&gt;
   &lt;div style=&quot;flex: 8; padding-right: 10px;&quot;&gt;
     &lt;p&gt;
-      슈미트후버는 신경망의 가중치(weights)를 프로그램(program)으로 간주해야 한다고 주장합니다. 심층 신경망의 핵심 목표는 관찰된 데이터의 유용한 내적 표상(internal representations)을 학습하는 것입니다. 신경망의 출력은 프로그램에 대해 미분 가능하며, 이는 더 나은 프로그램을 찾기 위한 방향을 제시합니다.
+      슈미트후버는 신경망의 가중치(weights)를 프로그램(program)으로 간주해야 한다고 주장한다. 심층 신경망의 핵심 목표는 관찰된 데이터의 유용한 내적 표상(internal representations)을 학습하는 것이다. 신경망의 출력은 프로그램에 대해 미분 가능하며, 이는 더 나은 프로그램을 찾기 위한 방향을 제시한다.
     &lt;/p&gt;
   &lt;/div&gt;
   &lt;div style=&quot;flex: 2;&quot;&gt;
@@ -307,32 +453,32 @@
   &lt;/div&gt;
   &lt;div style=&quot;flex: 8; padding-left: 10px;&quot;&gt;
     &lt;p&gt;
-      제어기를 통해 세상과 상호작용하는 예측적 월드 모델은 자신의 생애 동안 예측 코딩을 통해 행동과 관측 결과를 효율적으로 인코딩하는 법을 배웁니다. 이러한 과정에서 월드 모델은 특징의 계층(hierarchy)을 형성하고, 주어진 데이터 구조로부터 특이점을 식별하거나 프로토타입 인코딩(prototype encoding)을 생성합니다.
+      제어기를 통해 세상과 상호작용하는 예측적 월드 모델은 자신의 생애 동안 예측 코딩을 통해 행동과 관측 결과를 효율적으로 인코딩하는 법을 배운다. 이러한 과정에서 월드 모델은 특징의 계층(hierarchy)을 형성하고, 주어진 데이터 구조로부터 특이점을 식별하거나 프로토타입 인코딩(prototype encoding)을 생성한다.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;결론&quot;&gt;결론&lt;/h3&gt;
 
-&lt;p&gt;유르겐 슈미트후버는 30년 동안 인공 의식과 감정을 지니는 기계를 연구해왔습니다. 그의 연구는 데이터 압축, 재귀 신경망, 월드 모델, 예측 코딩 등을 통해 인공 시스템이 자기 인식을 형성하고, 세상과 상호작용하며, 궁극적으로 감정과 의식을 가질 수 있다는 가능성을 제시합니다. 이러한 연구는 인공지능의 미래에 대한 새로운 시각을 제공하며, 더욱 발전된 인공 시스템의 개발에 기여할 것입니다.&lt;/p&gt;
+&lt;p&gt;유르겐 슈미트후버는 30년 동안 인공 의식과 감정을 지니는 기계를 연구해왔다. 그의 연구는 데이터 압축, 재귀 신경망, 월드 모델, 예측 코딩 등을 통해 인공 시스템이 자기 인식을 형성하고, 세상과 상호작용하며, 궁극적으로 감정과 의식을 가질 수 있다는 가능성을 제시한다. 이러한 연구는 인공지능의 미래에 대한 새로운 시각을 제공하며, 더욱 발전된 인공 시스템의 개발에 기여할 것이다.&lt;/p&gt;
 
 &lt;h3 id=&quot;읽고-나서&quot;&gt;읽고 나서&lt;/h3&gt;
 
-&lt;p&gt;예측 코딩과 비/자기지도 학습의 중요성이 2010년대 들어 각광받기 시작했다는 점을 고려하면, 일찍이 1990년대 초부터 해당 개념들의 중요성을 파악하고 다양한 사례에 적용한 것은 매우 놀랍습니다. 특히 의식 분야에서 유명한 아닐 세스(Anil Seth)의 2010년대 이론에 따르면, 내부수용감각 정보(interoceptive information)에 대한 예측 코딩이 의식(consciousness)과 자기감(self-awareness)의 기초가 된다고 주장합니다. 이는 슈미드후버의 월드 모델에서 압축된 자기 자신의 상태와 관련될 수 있습니다. 또한, 데이터 압축 관점은 사무엘 절쉬만(Samuel Gershman)이 최근 자신의 책에서 제시한 두 가지 인간 인지 원칙 중 두 번째인 근사(approximation) 원칙과 일맥상통하는 것으로 보입니다. 데이터 압축은 항상 가능한 것은 아니지만, 재귀적인 신경망에서 계층 구조를 형성하며 압축해 나간다는 슈미드후버의 주장과 깊이 관련되어 있습니다.&lt;/p&gt;
+&lt;p&gt;예측 코딩과 비/자기지도 학습의 중요성이 2010년대 들어 각광받기 시작했다는 점을 고려하면, 일찍이 1990년대 초부터 해당 개념들의 중요성을 파악하고 다양한 사례에 적용한 것은 매우 놀랍다. 특히 의식 분야에서 유명한 아닐 세스(Anil Seth)의 2010년대 이론에 따르면, 내부수용감각 정보(interoceptive information)에 대한 예측 코딩이 의식(consciousness)과 자기감(self-awareness)의 기초가 된다고 주장한다. 이는 슈미트후버의 월드 모델에서 압축된 자기 자신의 상태와 관련될 수 있다. 또한, 데이터 압축 관점은 사무엘 절쉬만(Samuel Gershman)이 최근 자신의 책에서 제시한 두 가지 인간 인지 원칙 중 두 번째인 근사(approximation) 원칙과 일맥상통하는 것으로 보인다. 데이터 압축은 항상 가능한 것은 아니지만, 재귀적인 신경망에서 계층 구조를 형성하며 압축해 나간다는 슈미트후버의 주장과 깊이 관련되어 있다.&lt;/p&gt;
 
-&lt;p&gt;그의 2003년 후속 연구에 따르면, 의식에 대한 형식적인 정의(formal definition)를 도입합니다. 만약 의식을 무제한적인 자기 점검과 자기 수정 능력으로 정의한다면, 괴델 머신(Gödel machine)은 인공지능의 의식을 기술적으로 정당화하는 방법을 제공합니다. 제한적인 자기 점검과 자기 수정을 가능하게 함으로써, 이러한 머신은 스스로의 행동을 자율적으로 개선하고 최적화할 수 있는 일반 문제 해결사(general problem solver)의 틀을 제공합니다. 이는 수학적 증명과 형식적 추론에 기반한 인공지능 의식의 한 형태를 달성하는 것입니다.&lt;/p&gt;
+&lt;p&gt;그의 2003년 후속 연구에 따르면, 의식에 대한 형식적인 정의(formal definition)를 도입한다. 만약 의식을 무제한적인 자기 점검과 자기 수정 능력으로 정의한다면, 괴델 머신(Gödel machine)은 인공지능의 의식을 기술적으로 정당화하는 방법을 제공한다. 제한적인 자기 점검과 자기 수정을 가능하게 함으로써, 이러한 머신은 스스로의 행동을 자율적으로 개선하고 최적화할 수 있는 일반 문제 해결사(general problem solver)의 틀을 제공한다. 이는 수학적 증명과 형식적 추론에 기반한 인공지능 의식의 한 형태를 달성하는 것이다.&lt;/p&gt;
 
-&lt;p&gt;그가 취하고 있는 정보과학(informatics) 및 형식 이론적 입장(formal-theoretic stance)과 연구 방법론은 매우 매력적이며, 명쾌함과 깊은 통찰을 지니고 있음에는 의심의 여지가 없습니다. 그러나 진화에 입각한 생물학적 복잡성과 심리학에서 강조하는 기능들에 대해 고민해본다면, 계산 신경과학 및 철학과의 관련성을 발견하고 그 연결성을 파악하는 작업이 필요할 것입니다. 예를 들어, 정동 신경과학(affective neuroscience)에서 주장하는 근원적 의식(primordial consciousness)이 어떻게 슈미드후버의 월드 모델을 지닌 에이전트로 하여금 느낌(feeling)과 정서(emotion)를 불러일으키는지에 대해 명료한 설명이 필요합니다. 또한, 그의 이론과 그 이후에 등장한 내부수용적 추론(interoceptive inference)과 자기(self), 주의집중(attention)과 의식(consciousness)의 관계, 메타인지(meta-cognition)와 고델 머신(Gödel machine)의 관계에 대한 심도 있는 연구가 필요할 것입니다.&lt;/p&gt;
+&lt;p&gt;그가 취하고 있는 정보과학(informatics) 및 형식 이론적 입장(formal-theoretic stance)과 연구 방법론은 매우 매력적이며, 명쾌함과 깊은 통찰을 지니고 있음에는 의심의 여지가 없다. 그러나 진화에 입각한 생물학적 복잡성과 심리학에서 강조하는 기능들에 대해 고민해본다면, 계산 신경과학 및 철학과의 관련성을 발견하고 그 연결성을 파악하는 작업이 필요할 것이다. 예를 들어, 정동 신경과학(affective neuroscience)에서 주장하는 근원적 의식(primordial consciousness)이 어떻게 슈미트후버의 월드 모델을 지닌 에이전트로 하여금 느낌(feeling)과 정서(emotion)를 불러일으키는지에 대해 명료한 설명이 필요하다. 또한, 그의 이론과 그 이후에 등장한 내부수용적 추론(interoceptive inference)과 자기(self), 주의집중(attention)과 의식(consciousness)의 관계, 메타인지(meta-cognition)와 고델 머신(Gödel machine)의 관계에 대한 심도 있는 연구가 필요할 것이다.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;슈미트후버의 연구는 정보과학 및 형식 이론적 입장에서 매우 명쾌하고 깊은 통찰을 제공하지만, 진화에 입각한 생물학적 복잡성과 심리학에서 강조하는 기능들과의 연관성을 더 탐구할 필요가 있습니다. 예를 들어, 정동 신경과학에서 주장하는 근원적 의식이 슈미트후버의 월드 모델을 지닌 에이전트로 하여금 느낌과 정서를 불러일으키는지에 대한 설명이 필요합니다. 또한, 그의 이론과 내부수용적 추론, 자기, 주의집중, 의식, 메타인지 및 괴델 머신 간의 관계에 대한 심도 있는 연구가 요구됩니다.&lt;/p&gt;
+  &lt;p&gt;슈미트후버의 연구는 정보과학 및 형식 이론적 입장에서 매우 명쾌하고 깊은 통찰을 제공하지만, 진화에 입각한 생물학적 복잡성과 심리학에서 강조하는 기능들과의 연관성을 더 탐구할 필요가 있다. 예를 들어, 정동 신경과학에서 주장하는 근원적 의식이 슈미트후버의 월드 모델을 지닌 에이전트로 하여금 느낌과 정서를 불러일으키는지에 대한 설명이 필요하다. 또한, 그의 이론과 내부수용적 추론, 자기, 주의집중, 의식, 메타인지 및 괴델 머신 간의 관계에 대한 심도 있는 연구가 요구된다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;요약&quot;&gt;요약&lt;/h3&gt;
 
-&lt;p&gt;유르겐 슈미트후버는 2016년 AI 컨퍼런스에서 인공 의식, 월드 모델, 예측 코딩, 데이터 압축에 대한 개념을 소개하며, 의식을 문제 해결 과정에서 발생하는 데이터 압축의 부산물로 설명했습니다. 그는 범용 컴퓨터와 재귀 신경망이 세상으로부터 정보를 수집하고 목표를 달성하며, 제어기와 월드 모델이라는 재귀 신경망을 통해 강화학습과 계획을 실행하는 시스템을 제안했습니다. 이러한 시스템은 데이터를 효율적으로 압축하고 자기 인식을 형성하며, 신경망의 가중치를 프로그램으로 간주해 더 나은 프로그램을 찾는 방향을 제시했습니다. 특히, 슈미트후버의 연구는 예측 코딩과 비/자기지도 학습의 중요성을 1990년대 초부터 인식하고 다양한 사례에 적용한 것이 인상적입니다. 아닐 세스의 내부수용감각 정보에 대한 예측 코딩 이론과 사무엘 절쉬만의 데이터 압축 원칙과도 연결되며, 의식을 무제한적인 자기 점검과 자기 수정 능력으로 정의한 괴델 머신을 통해 인공지능의 의식을 기술적으로 정당화하는 방법을 제시합니다.&lt;/p&gt;
+&lt;p&gt;유르겐 슈미트후버는 2016년 AI 컨퍼런스에서 인공 의식, 월드 모델, 예측 코딩, 데이터 압축에 대한 개념을 소개하며, 의식을 문제 해결 과정에서 발생하는 데이터 압축의 부산물로 설명했다. 그는 범용 컴퓨터와 재귀 신경망이 세상으로부터 정보를 수집하고 목표를 달성하며, 제어기와 월드 모델이라는 재귀 신경망을 통해 강화학습과 계획을 실행하는 시스템을 제안했다. 이러한 시스템은 데이터를 효율적으로 압축하고 자기 인식을 형성하며, 신경망의 가중치를 프로그램으로 간주해 더 나은 프로그램을 찾는 방향을 제시했다. 특히, 슈미트후버의 연구는 예측 코딩과 비/자기지도 학습의 중요성을 1990년대 초부터 인식하고 다양한 사례에 적용한 것이 인상적이다. 아닐 세스의 내부수용감각 정보에 대한 예측 코딩 이론과 사무엘 절쉬만의 데이터 압축 원칙과도 연결되며, 의식을 무제한적인 자기 점검과 자기 수정 능력으로 정의한 괴델 머신을 통해 인공지능의 의식을 기술적으로 정당화하는 방법을 제시한다.&lt;/p&gt;
 
 &lt;h3 id=&quot;참고자료&quot;&gt;참고자료&lt;/h3&gt;
 
