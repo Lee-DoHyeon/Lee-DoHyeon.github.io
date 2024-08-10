@@ -15,6 +15,8 @@ toc_label: "현상학 자연화의 함의와 한계"
 category: Motivation
 tags: [철학, 사이버네틱스, 현상학, 과학, 의식]
 lang: kr
+header:
+  teaser: "/assets/images/posts/2023/Q3/2023-07-09-About Natualizing Phenomenology/0.png"
 image: assets/images/posts/2023/Q3/2023-07-09-About Natualizing Phenomenology/0.png
 ---
 

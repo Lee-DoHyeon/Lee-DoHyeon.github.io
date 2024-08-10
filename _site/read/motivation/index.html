@@ -344,6 +344,7 @@
 
 
 <style>
+/* 컨테이너 스타일: 아이템을 가로로 정렬하고 하단에 여백 추가 */
 .archive__item-container {
   display: flex;
   align-items: stretch;
@@ -351,42 +352,56 @@
   position: relative;
 }
 
+/* 이미지 컨테이너 스타일: 이미지의 크기와 정렬을 설정 */
 .archive__item-image {
   flex: 0 0 auto;
-  width: 100px; /* 기존 크기 유지 */
-  height: 100px; /* 기존 크기 유지 */
+  width: 100px;
+  height: 100px;
   margin-right: 20px;
   position: relative;
   overflow: hidden;
 }
 
+/* 이미지 클릭 가능 영역을 정의하는 <a> 태그 스타일 */
+.archive__item-image a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 이미지 스타일: 이미지가 컨테이너를 덮도록 설정하고, 마우스 오버 시 확대 효과 추가 */
 .archive__item-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* 이미지가 컨테이너를 덮도록 설정 */
+  object-fit: cover;
   display: block;
   transition: transform 0.3s ease; /* 마우스 오버 시 부드럽게 이미지 확대 */
 }
 
-.archive__item-image::before {
+/* 오버레이 효과: 이미지 위에 반투명한 흰색 오버레이 추가 */
+.archive__item-image a::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.4); /* 기본 오버레이 0.6 */
-  transition: background-color 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.4); /* 기본 오버레이 */
+  transition: background-color 0.3s ease; /* 마우스 오버 시 오버레이 변경 */
 }
 
-.archive__item-image:hover::before {
+/* 마우스 오버 시 오버레이 제거 및 이미지 확대 */
+.archive__item-image a:hover::before {
   background-color: rgba(255, 255, 255, 0); /* 마우스 오버 시 오버레이 제거 */
 }
 
-.archive__item-image:hover img {
-  transform: scale(1.05); /* 마우스 오버 시 약간 확대 */
+.archive__item-image a:hover img {
+  transform: scale(1.05); /* 마우스 오버 시 이미지 약간 확대 */
 }
 
+/* 컨텐츠 영역 스타일: 제목과 태그를 포함한 컨텐츠를 세로로 정렬 */
 .archive__item-content {
   flex: 1;
   display: flex;
@@ -394,10 +409,12 @@
   justify-content: space-between;
 }
 
+/* 제목 스타일: 상단 마진을 제거 */
 .archive__item-title {
   margin-top: 0;
 }
 
+/* 날짜 스타일: 날짜를 오른쪽 상단에 위치시키고, 작은 글씨로 표시 */
 .archive__item-date {
   position: absolute;
   right: 0;
@@ -406,7 +423,8 @@
   color: #888;
 }
 
-.post-category {
+/* 카테고리 및 태그 스타일: 태그와 카테고리를 위한 공통 스타일 */
+.post-category, .post-tag {
   padding: 2px 6px;
   border-radius: 3px;
   font-size: 0.85em;
@@ -414,23 +432,21 @@
   display: inline-block;
 }
 
+/* 태그 스타일: 배경색과 텍스트 색상 설정 */
 .post-tag {
   background-color: #f0f0f0;
   color: #333;
-  padding: 2px 6px;
   margin-right: 4px;
-  border-radius: 3px;
-  font-size: 0.85em;
-  font-weight: bold;
-  display: inline-block;
 }
 
+/* 언어 전환 버튼 컨테이너 스타일: 버튼을 오른쪽으로 정렬 */
 .language-toggle {
   display: flex;
-  justify-content: flex-end; /* Align buttons to the right */
+  justify-content: flex-end;
   margin-bottom: 20px;
 }
 
+/* 언어 전환 버튼 스타일: 기본 및 활성화 상태 스타일 정의 */
 .language-toggle button {
   margin: 0 5px;
   padding: 10px 20px;
@@ -443,17 +459,20 @@
   transition: background-color 0.3s, color 0.3s;
 }
 
+/* 활성화된 언어 버튼 스타일: 어두운 배경과 밝은 텍스트 */
 .language-toggle button.active {
   background-color: #333;
   color: #fff;
 }
 </style>
 
+<!-- 언어 전환 버튼 -->
 <div class="language-toggle">
   <button id="en-btn" class="active" onclick="showLanguage('en')">EN</button>
   <button id="kr-btn" onclick="showLanguage('kr')">KR</button>
 </div>
 
+<!-- 연도별 포스트 목록 -->
 <ul class="taxonomy__index">
   
   
@@ -465,7 +484,7 @@
   
     <li>
       <a href="#2023">
-        <strong>2023</strong> <span class="taxonomy__count">17</span>
+        <strong>2023</strong> <span class="taxonomy__count">19</span>
       </a>
     </li>
   
@@ -477,14 +496,19 @@
   <section id="2024" class="taxonomy__section">
     <h2 class="archive__subtitle">2024</h2>
     <div class="entries-list">
+      <!-- 포스트 항목 반복 -->
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2024/Q3/2024-07-21-Karl%20Popper's%20Worlds%201,%202,%20and%203/Three_Worlds.jpg" alt="칼 포퍼와 1,2,3 세계">
+                <a href="/motivation/Karl-Popper's-Worlds-1,-2,-and-3-kr/">
+                  <img src="/assets/images/posts/2024/Q3/2024-07-21-Karl%20Popper's%20Worlds%201,%202,%20and%203/Three_Worlds.jpg" alt="칼 포퍼와 1,2,3 세계">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/Karl-Popper's-Worlds-1,-2,-and-3-kr/" rel="bookmark">칼 포퍼와 1,2,3 세계</a>
@@ -500,6 +524,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2024-07-21
             </div>
@@ -508,11 +533,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="en">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2024/Q3/2024-07-21-Karl%20Popper's%20Worlds%201,%202,%20and%203/Three_Worlds.jpg" alt="Popper's 3 Worlds">
+                <a href="/motivation/Karl-Popper's-Worlds-1,-2,-and-3-en/">
+                  <img src="/assets/images/posts/2024/Q3/2024-07-21-Karl%20Popper's%20Worlds%201,%202,%20and%203/Three_Worlds.jpg" alt="Popper's 3 Worlds">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/Karl-Popper's-Worlds-1,-2,-and-3-en/" rel="bookmark">Popper&#39;s 3 Worlds</a>
@@ -528,6 +557,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2024-07-21
             </div>
@@ -536,11 +566,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber%20and%20Conscious%20Machine/meme.jpg" alt="슈미트후버의 의식을 지니는 기계">
+                <a href="/motivation/Schmidhuber-and-Conscious-Machine-kr/">
+                  <img src="/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber%20and%20Conscious%20Machine/meme.jpg" alt="슈미트후버의 의식을 지니는 기계">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/Schmidhuber-and-Conscious-Machine-kr/" rel="bookmark">슈미트후버의 의식을 지니는 기계</a>
@@ -560,6 +594,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2024-07-20
             </div>
@@ -568,11 +603,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="en">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber%20and%20Conscious%20Machine/meme.jpg" alt="Schmidhuber's Consciousness">
+                <a href="/motivation/Schmidhuber-and-Conscious-Machine-en/">
+                  <img src="/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber%20and%20Conscious%20Machine/meme.jpg" alt="Schmidhuber's Consciousness">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/Schmidhuber-and-Conscious-Machine-en/" rel="bookmark">Schmidhuber&#39;s Consciousness</a>
@@ -592,6 +631,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2024-07-20
             </div>
@@ -605,14 +645,19 @@
   <section id="2023" class="taxonomy__section">
     <h2 class="archive__subtitle">2023</h2>
     <div class="entries-list">
+      <!-- 포스트 항목 반복 -->
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2023/Q4/2023-12-20-Embodied%20Cognition/body_activity.jpg" alt="체화된 인지의 역사">
+                <a href="/motivation/Embodied-Cognition-kr/">
+                  <img src="/assets/images/posts/2023/Q4/2023-12-20-Embodied%20Cognition/body_activity.jpg" alt="체화된 인지의 역사">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/Embodied-Cognition-kr/" rel="bookmark">체화된 인지의 역사</a>
@@ -628,6 +673,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2023-12-20
             </div>
@@ -636,11 +682,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2023/Q4/2023-11-23-The%20Science%20of%20Emotions/emotion.jpg" alt="감정의 과학">
+                <a href="/motivation/The-Science-of-Emotions-kr/">
+                  <img src="/assets/images/posts/2023/Q4/2023-11-23-The%20Science%20of%20Emotions/emotion.jpg" alt="감정의 과학">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/The-Science-of-Emotions-kr/" rel="bookmark">감정의 과학</a>
@@ -658,6 +708,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2023-11-23
             </div>
@@ -666,11 +717,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2023/Q4/2023-11-04-Do%20math%20about%20brain/5.png" alt="마음을 수학하라">
+                <a href="/motivation/Do-math-about-brain-kr/">
+                  <img src="/assets/images/posts/2023/Q4/2023-11-04-Do%20math%20about%20brain/5.png" alt="마음을 수학하라">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/Do-math-about-brain-kr/" rel="bookmark">마음을 수학하라</a>
@@ -688,6 +743,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2023-11-04
             </div>
@@ -696,11 +752,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2023/Q4/2023-11-02-DeepMind/hassabis.webp" alt="딥마인드의 뒷이야기">
+                <a href="/motivation/DeepMind-kr/">
+                  <img src="/assets/images/posts/2023/Q4/2023-11-02-DeepMind/hassabis.webp" alt="딥마인드의 뒷이야기">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/DeepMind-kr/" rel="bookmark">딥마인드의 뒷이야기</a>
@@ -718,6 +778,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2023-11-02
             </div>
@@ -726,11 +787,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2023/Q4/2023-11-01-Siddhartha/Siddhartha.jpg" alt="싯다르타를 읽고">
+                <a href="/motivation/Siddhartha-kr/">
+                  <img src="/assets/images/posts/2023/Q4/2023-11-01-Siddhartha/Siddhartha.jpg" alt="싯다르타를 읽고">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/Siddhartha-kr/" rel="bookmark">싯다르타를 읽고</a>
@@ -746,6 +811,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2023-11-01
             </div>
@@ -754,11 +820,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2023/Q3/2023-09-23-Brain,%20Mind,%20and%20AI/main.jpg" alt="아마리 슌이치, "뇌, 마음, 인공지능"">
+                <a href="/motivation/Brain,-Mind,-and-AI-kr/">
+                  <img src="/assets/images/posts/2023/Q3/2023-09-23-Brain,%20Mind,%20and%20AI/main.jpg" alt="아마리 슌이치, "뇌, 마음, 인공지능"">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/Brain,-Mind,-and-AI-kr/" rel="bookmark">아마리 슌이치, &quot;뇌, 마음, 인공지능&quot;</a>
@@ -780,6 +850,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2023-09-23
             </div>
@@ -788,14 +859,18 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="en">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2023/Q3/2023-09-23-Brain,%20Mind,%20and%20AI/main.jpg" alt="Shun'ichi Amari: Brain, Mind, Artificial Intelligence">
+                <a href="/motivation/Brain,-Mind,-and-AI-en/">
+                  <img src="/assets/images/posts/2023/Q3/2023-09-23-Brain,%20Mind,%20and%20AI/main.jpg" alt="Shun'ichi Amari, "Brain, Mind, and AI"">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
-                <a href="/motivation/Brain,-Mind,-and-AI-en/" rel="bookmark">Shun&#39;ichi Amari: Brain, Mind, Artificial Intelligence</a>
+                <a href="/motivation/Brain,-Mind,-and-AI-en/" rel="bookmark">Shun&#39;ichi Amari, &quot;Brain, Mind, and AI&quot;</a>
               </h2>
               
                 <p class="archive__item-tags">
@@ -803,17 +878,18 @@
                   
                     <span class="post-tag">Brain</span>
                   
-                    <span class="post-tag">Computing Device</span>
+                    <span class="post-tag">Computing</span>
                   
                     <span class="post-tag">Neuroscience</span>
                   
                     <span class="post-tag">Information Theory</span>
                   
-                    <span class="post-tag">Artificial Intelligence</span>
+                    <span class="post-tag">AI</span>
                   
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2023-09-23
             </div>
@@ -822,11 +898,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2023/Q3/2023-07-09-About%20Natualizing%20Phenomenology/0.png" alt="현상학 자연화의 함의와 한계">
+                <a href="/motivation/About-Natualizing-Phenomenology-kr/">
+                  <img src="/assets/images/posts/2023/Q3/2023-07-09-About%20Natualizing%20Phenomenology/0.png" alt="현상학 자연화의 함의와 한계">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/About-Natualizing-Phenomenology-kr/" rel="bookmark">현상학 자연화의 함의와 한계</a>
@@ -848,6 +928,46 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
+            <div class="archive__item-date">
+              2023-07-09
+            </div>
+          </div>
+        </article>
+      
+        <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="en">
+          <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
+            
+              <div class="archive__item-image">
+                <a href="/motivation/About-Natualizing-Phenomenology-en/">
+                  <img src="/assets/images/posts/2023/Q3/2023-07-09-About%20Natualizing%20Phenomenology/0.png" alt="Implications and Limits of Naturalizing Phenomenology">
+                </a>
+              </div>
+            
+            <!-- 포스트 제목 및 태그 -->
+            <div class="archive__item-content">
+              <h2 class="archive__item-title" itemprop="headline">
+                <a href="/motivation/About-Natualizing-Phenomenology-en/" rel="bookmark">Implications and Limits of Naturalizing Phenomenology</a>
+              </h2>
+              
+                <p class="archive__item-tags">
+                  <strong>Tags:</strong>
+                  
+                    <span class="post-tag">Philosophy</span>
+                  
+                    <span class="post-tag">Cybernetics</span>
+                  
+                    <span class="post-tag">Phenomenology</span>
+                  
+                    <span class="post-tag">Science</span>
+                  
+                    <span class="post-tag">Consciousness</span>
+                  
+                </p>
+              
+            </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2023-07-09
             </div>
@@ -856,11 +976,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2023/Q2/2023-05-24-AI%20vs%20Brain/0.jpeg" alt="인공지능 vs 두뇌">
+                <a href="/motivation/AI-vs-Brain-kr/">
+                  <img src="/assets/images/posts/2023/Q2/2023-05-24-AI%20vs%20Brain/0.jpeg" alt="인공지능 vs 두뇌">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/AI-vs-Brain-kr/" rel="bookmark">인공지능 vs 두뇌</a>
@@ -880,6 +1004,44 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
+            <div class="archive__item-date">
+              2023-05-24
+            </div>
+          </div>
+        </article>
+      
+        <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="en">
+          <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
+            
+              <div class="archive__item-image">
+                <a href="/motivation/AI-vs-Brain-en/">
+                  <img src="/assets/images/posts/2023/Q2/2023-05-24-AI%20vs%20Brain/0.jpeg" alt="AI vs. The Brain">
+                </a>
+              </div>
+            
+            <!-- 포스트 제목 및 태그 -->
+            <div class="archive__item-content">
+              <h2 class="archive__item-title" itemprop="headline">
+                <a href="/motivation/AI-vs-Brain-en/" rel="bookmark">AI vs. The Brain</a>
+              </h2>
+              
+                <p class="archive__item-tags">
+                  <strong>Tags:</strong>
+                  
+                    <span class="post-tag">AI</span>
+                  
+                    <span class="post-tag">Neuroscience</span>
+                  
+                    <span class="post-tag">Brain</span>
+                  
+                    <span class="post-tag">Book</span>
+                  
+                </p>
+              
+            </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2023-05-24
             </div>
@@ -888,11 +1050,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2023/Q2/2023-05-14-AIF%20and%20Consciousness/consciousness_classification.png" alt="의식에 대한 능동추론적 관점">
+                <a href="/motivation/AIF-and-Consciousness-kr/">
+                  <img src="/assets/images/posts/2023/Q2/2023-05-14-AIF%20and%20Consciousness/consciousness_classification.png" alt="의식에 대한 능동추론적 관점">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/AIF-and-Consciousness-kr/" rel="bookmark">의식에 대한 능동추론적 관점</a>
@@ -912,6 +1078,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2023-05-14
             </div>
@@ -920,11 +1087,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="en">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2023/Q2/2023-05-14-AIF%20and%20Consciousness/consciousness_classification.png" alt="An Active Inference Perspective on Consciousness">
+                <a href="/motivation/AIF-and-Consciousness-en/">
+                  <img src="/assets/images/posts/2023/Q2/2023-05-14-AIF%20and%20Consciousness/consciousness_classification.png" alt="An Active Inference Perspective on Consciousness">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/AIF-and-Consciousness-en/" rel="bookmark">An Active Inference Perspective on Consciousness</a>
@@ -944,6 +1115,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2023-05-14
             </div>
@@ -952,11 +1124,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2023/Q2/2023-05-10-Consciousness%20and%20Evolution/2.jpeg" alt="의식에 대한 진화론적 관점">
+                <a href="/motivation/Consciousness-and-Evolution-kr/">
+                  <img src="/assets/images/posts/2023/Q2/2023-05-10-Consciousness%20and%20Evolution/2.jpeg" alt="의식에 대한 진화론적 관점">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/Consciousness-and-Evolution-kr/" rel="bookmark">의식에 대한 진화론적 관점</a>
@@ -974,6 +1150,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2023-05-10
             </div>
@@ -982,11 +1159,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="en">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2023/Q2/2023-05-10-Consciousness%20and%20Evolution/2.jpeg" alt="An Evolutionary Perspective on Consciousness">
+                <a href="/motivation/Consciousness-and-Evolution-en/">
+                  <img src="/assets/images/posts/2023/Q2/2023-05-10-Consciousness%20and%20Evolution/2.jpeg" alt="An Evolutionary Perspective on Consciousness">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/Consciousness-and-Evolution-en/" rel="bookmark">An Evolutionary Perspective on Consciousness</a>
@@ -1004,6 +1185,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2023-05-10
             </div>
@@ -1012,11 +1194,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2023/Q2/2023-04-30-Planned%20Obsolescence/1.png" alt="세르주 라투슈, "낭비 사회를 넘어서"">
+                <a href="/motivation/Planned-Obsolescence-kr/">
+                  <img src="/assets/images/posts/2023/Q2/2023-04-30-Planned%20Obsolescence/1.png" alt="세르주 라투슈, "낭비 사회를 넘어서"">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/Planned-Obsolescence-kr/" rel="bookmark">세르주 라투슈, &quot;낭비 사회를 넘어서&quot;</a>
@@ -1034,6 +1220,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2023-04-30
             </div>
@@ -1042,11 +1229,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="en">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2023/Q2/2023-04-30-Planned%20Obsolescence/1.png" alt="Serge Latouche, "Beyond the Wasteful Society"">
+                <a href="/motivation/Planned-Obsolescence-en/">
+                  <img src="/assets/images/posts/2023/Q2/2023-04-30-Planned%20Obsolescence/1.png" alt="Serge Latouche, "Beyond the Wasteful Society"">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/Planned-Obsolescence-en/" rel="bookmark">Serge Latouche, &quot;Beyond the Wasteful Society&quot;</a>
@@ -1064,6 +1255,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2023-04-30
             </div>
@@ -1072,11 +1264,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="kr">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2023/Q2/2023-04-11-Epistemic%20Limitation.md/interface.png" alt="우리는 현실을 있는 그대로 보고 있을까?">
+                <a href="/motivation/Epistemic-Limitation-kr/">
+                  <img src="/assets/images/posts/2023/Q2/2023-04-11-Epistemic%20Limitation.md/interface.png" alt="우리는 현실을 있는 그대로 보고 있을까?">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/Epistemic-Limitation-kr/" rel="bookmark">우리는 현실을 있는 그대로 보고 있을까?</a>
@@ -1094,6 +1290,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2023-04-11
             </div>
@@ -1102,11 +1299,15 @@
       
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="en">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             
               <div class="archive__item-image">
-                <img src="/assets/images/posts/2023/Q2/2023-04-11-Epistemic%20Limitation.md/interface.png" alt="Are We Seeing Reality As It Is?">
+                <a href="/motivation/Epistemic-Limitation-en/">
+                  <img src="/assets/images/posts/2023/Q2/2023-04-11-Epistemic%20Limitation.md/interface.png" alt="Are We Seeing Reality As It Is?">
+                </a>
               </div>
             
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="/motivation/Epistemic-Limitation-en/" rel="bookmark">Are We Seeing Reality As It Is?</a>
@@ -1124,6 +1325,7 @@
                 </p>
               
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               2023-04-11
             </div>
@@ -1136,27 +1338,24 @@
 
 
 <script>
+/* 언어 전환 함수: 선택한 언어에 따라 포스트를 표시하거나 숨김 */
 function showLanguage(lang) {
   var articles = document.querySelectorAll('.archive__item');
   articles.forEach(function(article) {
     if (article.getAttribute('data-lang') === lang) {
-      article.style.display = 'block';
+      article.style.display = 'block'; /* 선택한 언어의 포스트 표시 */
     } else {
-      article.style.display = 'none';
+      article.style.display = 'none'; /* 다른 언어의 포스트 숨김 */
     }
   });
 
-  // Update button styles
+  /* 활성화된 언어 버튼 스타일 업데이트 */
   document.getElementById('en-btn').classList.remove('active');
   document.getElementById('kr-btn').classList.remove('active');
-  if (lang === 'en') {
-    document.getElementById('en-btn').classList.add('active');
-  } else {
-    document.getElementById('kr-btn').classList.add('active');
-  }
+  document.getElementById(lang + '-btn').classList.add('active');
 }
 
-// Default language is English
+/* 페이지 로드 시 기본 언어를 영어로 설정 */
 showLanguage('en');
 </script>
 

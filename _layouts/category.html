@@ -5,6 +5,7 @@ layout: archive
 {{ content }}
 
 <style>
+/* 컨테이너 스타일: 아이템을 가로로 정렬하고 하단에 여백 추가 */
 .archive__item-container {
   display: flex;
   align-items: stretch;
@@ -12,42 +13,56 @@ layout: archive
   position: relative;
 }
 
+/* 이미지 컨테이너 스타일: 이미지의 크기와 정렬을 설정 */
 .archive__item-image {
   flex: 0 0 auto;
-  width: 100px; /* 기존 크기 유지 */
-  height: 100px; /* 기존 크기 유지 */
+  width: 100px;
+  height: 100px;
   margin-right: 20px;
   position: relative;
   overflow: hidden;
 }
 
+/* 이미지 클릭 가능 영역을 정의하는 <a> 태그 스타일 */
+.archive__item-image a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 이미지 스타일: 이미지가 컨테이너를 덮도록 설정하고, 마우스 오버 시 확대 효과 추가 */
 .archive__item-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* 이미지가 컨테이너를 덮도록 설정 */
+  object-fit: cover;
   display: block;
   transition: transform 0.3s ease; /* 마우스 오버 시 부드럽게 이미지 확대 */
 }
 
-.archive__item-image::before {
+/* 오버레이 효과: 이미지 위에 반투명한 흰색 오버레이 추가 */
+.archive__item-image a::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.4); /* 기본 오버레이 0.6 */
-  transition: background-color 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.4); /* 기본 오버레이 */
+  transition: background-color 0.3s ease; /* 마우스 오버 시 오버레이 변경 */
 }
 
-.archive__item-image:hover::before {
+/* 마우스 오버 시 오버레이 제거 및 이미지 확대 */
+.archive__item-image a:hover::before {
   background-color: rgba(255, 255, 255, 0); /* 마우스 오버 시 오버레이 제거 */
 }
 
-.archive__item-image:hover img {
-  transform: scale(1.05); /* 마우스 오버 시 약간 확대 */
+.archive__item-image a:hover img {
+  transform: scale(1.05); /* 마우스 오버 시 이미지 약간 확대 */
 }
 
+/* 컨텐츠 영역 스타일: 제목과 태그를 포함한 컨텐츠를 세로로 정렬 */
 .archive__item-content {
   flex: 1;
   display: flex;
@@ -55,10 +70,12 @@ layout: archive
   justify-content: space-between;
 }
 
+/* 제목 스타일: 상단 마진을 제거 */
 .archive__item-title {
   margin-top: 0;
 }
 
+/* 날짜 스타일: 날짜를 오른쪽 상단에 위치시키고, 작은 글씨로 표시 */
 .archive__item-date {
   position: absolute;
   right: 0;
@@ -67,7 +84,8 @@ layout: archive
   color: #888;
 }
 
-.post-category {
+/* 카테고리 및 태그 스타일: 태그와 카테고리를 위한 공통 스타일 */
+.post-category, .post-tag {
   padding: 2px 6px;
   border-radius: 3px;
   font-size: 0.85em;
@@ -75,23 +93,21 @@ layout: archive
   display: inline-block;
 }
 
+/* 태그 스타일: 배경색과 텍스트 색상 설정 */
 .post-tag {
   background-color: #f0f0f0;
   color: #333;
-  padding: 2px 6px;
   margin-right: 4px;
-  border-radius: 3px;
-  font-size: 0.85em;
-  font-weight: bold;
-  display: inline-block;
 }
 
+/* 언어 전환 버튼 컨테이너 스타일: 버튼을 오른쪽으로 정렬 */
 .language-toggle {
   display: flex;
-  justify-content: flex-end; /* Align buttons to the right */
+  justify-content: flex-end;
   margin-bottom: 20px;
 }
 
+/* 언어 전환 버튼 스타일: 기본 및 활성화 상태 스타일 정의 */
 .language-toggle button {
   margin: 0 5px;
   padding: 10px 20px;
@@ -104,17 +120,20 @@ layout: archive
   transition: background-color 0.3s, color 0.3s;
 }
 
+/* 활성화된 언어 버튼 스타일: 어두운 배경과 밝은 텍스트 */
 .language-toggle button.active {
   background-color: #333;
   color: #fff;
 }
 </style>
 
+<!-- 언어 전환 버튼 -->
 <div class="language-toggle">
   <button id="en-btn" class="active" onclick="showLanguage('en')">EN</button>
   <button id="kr-btn" onclick="showLanguage('kr')">KR</button>
 </div>
 
+<!-- 연도별 포스트 목록 -->
 <ul class="taxonomy__index">
   {% assign postsInCategory = site.posts | where_exp: "item", "item.categories contains page.category" | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInCategory %}
@@ -132,14 +151,19 @@ layout: archive
   <section id="{{ year.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ year.name }}</h2>
     <div class="entries-{{ entries_layout }}">
+      <!-- 포스트 항목 반복 -->
       {% for post in year.items %}
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" data-lang="{{ post.lang }}">
           <div class="archive__item-container">
+            <!-- 포스트 이미지 -->
             {% if post.image %}
               <div class="archive__item-image">
-                <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                <a href="{{ post.url | relative_url }}">
+                  <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                </a>
               </div>
             {% endif %}
+            <!-- 포스트 제목 및 태그 -->
             <div class="archive__item-content">
               <h2 class="archive__item-title" itemprop="headline">
                 <a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title | escape }}</a>
@@ -153,6 +177,7 @@ layout: archive
                 </p>
               {% endif %}
             </div>
+            <!-- 포스트 날짜 -->
             <div class="archive__item-date">
               {{ post.date | date: "%Y-%m-%d" }}
             </div>
@@ -165,26 +190,23 @@ layout: archive
 {% endfor %}
 
 <script>
+/* 언어 전환 함수: 선택한 언어에 따라 포스트를 표시하거나 숨김 */
 function showLanguage(lang) {
   var articles = document.querySelectorAll('.archive__item');
   articles.forEach(function(article) {
     if (article.getAttribute('data-lang') === lang) {
-      article.style.display = 'block';
+      article.style.display = 'block'; /* 선택한 언어의 포스트 표시 */
     } else {
-      article.style.display = 'none';
+      article.style.display = 'none'; /* 다른 언어의 포스트 숨김 */
     }
   });
 
-  // Update button styles
+  /* 활성화된 언어 버튼 스타일 업데이트 */
   document.getElementById('en-btn').classList.remove('active');
   document.getElementById('kr-btn').classList.remove('active');
-  if (lang === 'en') {
-    document.getElementById('en-btn').classList.add('active');
-  } else {
-    document.getElementById('kr-btn').classList.add('active');
-  }
+  document.getElementById(lang + '-btn').classList.add('active');
 }
 
-// Default language is English
+/* 페이지 로드 시 기본 언어를 영어로 설정 */
 showLanguage('en');
 </script>

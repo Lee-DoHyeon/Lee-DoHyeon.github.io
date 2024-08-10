@@ -5,8 +5,8 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 09 Aug 2024 18:53:58 +0900</pubDate>
-        <lastBuildDate>Fri, 09 Aug 2024 18:53:58 +0900</lastBuildDate>
+        <pubDate>Sat, 10 Aug 2024 10:39:35 +0900</pubDate>
+        <lastBuildDate>Sat, 10 Aug 2024 10:39:35 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
@@ -1674,7 +1674,42 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
         
             <item>
                 <title>아마리 슌이치, &quot;뇌, 마음, 인공지능&quot;</title>
-                <description>&lt;blockquote&gt;
+                <description>&lt;style&gt;
+   .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+   }
+
+   .image-wrapper {
+      width: 48%;
+      margin: 1%;
+      box-sizing: border-box;
+      text-align: center;
+   }
+
+   .image-wrapper img {
+      width: 100%;
+      height: auto;
+      display: block;
+   }
+
+   .image-wrapper figcaption {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #555;
+      margin-top: 8px;
+   }
+
+   @media (max-width: 768px) {
+      .image-wrapper {
+            width: 100%;
+      }
+   }
+&lt;/style&gt;
+
+&lt;blockquote&gt;
   &lt;p&gt;&lt;a href=&quot;https://product.kyobobook.co.kr/detail/S000001732224&quot;&gt;뇌, 마음, 인공지능&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -1686,71 +1721,56 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
   &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;p&gt;아마리 슌이치의 “뇌, 마음, 인공지능”을 읽고 기억에 남는 부분을 정리한 내용이다. 아마리 슌이치는 이 책에서 딥러닝 발전의 초기, 자신의 업적에 대해 많이 알려지지 않은 점에 대해 아쉬움을 표현하고 있다. 도쿄대학교의 수리공학과 출신의 그는, 아주 오래 전부터 통계역학과 정보 기하학 등의 첨단 이론을 활용해 인공지능을 연구해 왔다. 그에 대한 공로로 일본 최고의 연구 기관 RIKEN의 수석 연구원으로 재직해왔다. 이 책은 뇌의 구조와 기능, 그리고 인공지능의 발전에 대해 깊이 있는 통찰을 제공한다.&lt;/p&gt;
+
+&lt;body&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;figure class=&quot;image-wrapper&quot;&gt;
+            &lt;img src=&quot;/assets/images/posts/2023/Q3/2023-09-23-Brain, Mind, and AI/author.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+            &lt;figcaption&gt;저자인 아마리 슌이치&lt;/figcaption&gt;
+        &lt;/figure&gt;
+        &lt;figure class=&quot;image-wrapper&quot;&gt;
+            &lt;img src=&quot;/assets/images/posts/2023/Q3/2023-09-23-Brain, Mind, and AI/main.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+            &lt;figcaption&gt;본 책: 뇌, 마음, 인공지능&lt;/figcaption&gt;
+        &lt;/figure&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
 &lt;h2 id=&quot;2장-뇌란-무엇인가&quot;&gt;2장. 뇌란 무엇인가&lt;/h2&gt;
 
-&lt;p&gt;(뇌의 신경생리학적인 구조와 세부 기능을 설명하는 장이다.)&lt;/p&gt;
+&lt;p&gt;이 장에서는 뇌의 신경생리학적 구조와 세부 기능을 설명한다. 뇌는 약 1000억 개의 뉴런으로 이루어진 거대한 회로망으로, 무게는 약 1.4kg, 부피는 1400cc 정도이다.&lt;/p&gt;
 
-&lt;p&gt;→ 뇌는 1000억개의 뉴런으로 이루어진 거대한 회로망으로, 무게는 약 1.4kg, 부피는 1400cc 정도&lt;/p&gt;
+&lt;h3 id=&quot;1-뇌간&quot;&gt;1. 뇌간&lt;/h3&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;뇌간&lt;/p&gt;
+&lt;p&gt;뇌간은 생명 유지의 기본적인 장치로, 호흡과 같은 자율신경 기능을 제어한다. 또한, 수면과 각성을 조절하며 외부에서 대뇌로 들어오는 정보와 대뇌에서 외부로 나가는 정보의 경로가 된다.&lt;/p&gt;
 
-    &lt;blockquote&gt;
-      &lt;p&gt;기본적인 생명 유지 장치로, 호흡 등의 자율신경 기능의 중추이며
-수면과 각성을 제어하고 외부 → 대뇌로 들어오는 정보나
-대뇌 → 외부로 나가는 정보의 경로가 된다.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;소뇌&lt;/p&gt;
+&lt;h3 id=&quot;2-소뇌&quot;&gt;2. 소뇌&lt;/h3&gt;
 
-    &lt;blockquote&gt;
-      &lt;p&gt;뇌의 10% 정도의 무게에 지나지 않지만, 뉴런의 수는 가장 많아서 800억 개.
-지각과 운동 제어를 담당하고, 대뇌와 협조하여 움직인다.
-대뇌에서 충분한 시간에 걸쳐 획득한 운동 기능은 소뇌로 이동되고 &lt;strong&gt;루틴화&lt;/strong&gt;되어 빠르게 처리된다.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;대뇌&lt;/p&gt;
+&lt;p&gt;소뇌는 뇌의 10% 정도에 불과한 무게를 차지하지만, 약 800억 개의 뉴런을 가지고 있어 뇌에서 뉴런이 가장 많은 부위다. 주로 지각과 운동 제어를 담당하며, 대뇌와 협력해 정교한 움직임을 조절한다. 대뇌에서 오랜 시간 학습된 운동 기능은 소뇌로 이동해 루틴화되며, 이를 통해 더욱 빠르고 효율적으로 처리된다.&lt;/p&gt;
 
-    &lt;blockquote&gt;
-      &lt;p&gt;가장 느리게 발달한 부위.
-대뇌피질, 대뇌기저핵, 해마, 편도체로 구성되며 약 200억개 정도의 뉴런으로 이루어져있다.
-인지, 사고, 언어, 운동계획과 제어, 기억 등의 기능을 담당하며 고차 정신기능이 여기서 이뤄진다.&lt;/p&gt;
-    &lt;/blockquote&gt;
+&lt;h3 id=&quot;3-대뇌&quot;&gt;3. 대뇌&lt;/h3&gt;
 
-    &lt;p&gt;표면적은 2000~2500cm^2(신문지 1면 크기)이고, 두께가 2~3mm인 시트로 이루어져 있다.
-총 6개 층으로 이루어져, 기둥 형태의 컬럼을 이룬다.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;→ IT-MPC에서 Optimal Input이 대뇌-소뇌의 운동 기능 상호작용과 어떤 연관이 있을까?&lt;/p&gt;
-
-&lt;h2 id=&quot;5장-수학으로-뇌를-해석한다2&quot;&gt;5장. 수학으로 뇌를 해석한다(2)&lt;/h2&gt;
+&lt;p&gt;대뇌는 뇌에서 가장 늦게 발달한 부위다. 대뇌피질, 대뇌기저핵, 해마, 편도체로 구성되어 있으며, 약 200억 개의 뉴런으로 이루어져 있다. 인지, 사고, 언어, 운동 계획과 제어, 기억 등 고차원적인 정신 기능을 담당하며, 이 모든 것이 대뇌에서 이루어진다. 대뇌피질은 약 2000~2500cm²의 표면적을 가지며, 두께는 2~3mm로 매우 얇다. 이 얇은 층은 6개의 층으로 구성되어 있으며, 각각이 기둥 형태의 컬럼을 이루고 있다.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;실제 뇌의 학습은 어떻게 이루어지는 것일까.
-뇌의 신경 회로를 조사해도 학습을 위해 오차가 회로의 역방향으로 흘러가는 오차 역전파와 같은 현상은 없다.
-따라서, 퍼셉트론의 학습은 뇌의 구조를 모델링한 것으로는 전혀 볼 수는 없다.&lt;/p&gt;
+  &lt;p&gt;IT-MPC에서 Optimal Input이 대뇌-소뇌의 운동 기능 상호작용과 어떤 연관이 있을까?&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;그렇다고 완전히 다른 것이냐 하면, 그렇다고 단정 지을 수도 없다. 확률강하학습법은 학습정보처리의 하나의 원리를 알고리즘으로 표현한 것이다. 뇌는 이 원리를 실체화하는 것에 이르지 못했던 것일지도 모른다.&lt;/p&gt;
+&lt;h2 id=&quot;5장-수학으로-뇌를-해석한다&quot;&gt;5장. 수학으로 뇌를 해석한다&lt;/h2&gt;
 
-&lt;blockquote&gt;
+&lt;p&gt;이 장에서는 뇌의 학습 메커니즘에 대해 다룬다. 뇌의 신경 회로를 조사해 보면, 학습을 위해 오차가 회로의 역방향으로 흘러가는 ‘오차 역전파’ 현상은 관찰되지 않는다. 그렇다면 퍼셉트론의 학습이 뇌의 구조와 전혀 다른 것일까?&lt;/p&gt;
 
-&lt;/blockquote&gt;
+&lt;p&gt;완전히 그렇다고 말하기는 어렵다. 확률강하학습법은 학습 정보 처리의 원리를 알고리즘으로 표현한 것이다. 뇌는 이 원리를 실체화하지 못했을 수도 있다. 따라서 퍼셉트론 학습이 뇌의 구조와 완전히 동떨어진 것이라고 할 수는 없다.&lt;/p&gt;
 
 &lt;h2 id=&quot;6장-인공지능의-역사와-미래&quot;&gt;6장. 인공지능의 역사와 미래&lt;/h2&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;IBM도 뉴로 계산에 본격적으로 참여하기 시작했다. 미국에서는 국방성의 DARPA가 “SyNAPSE”라고 불리는 프로그램을 주도하여 신경회로를 칩으로 만드는 프로그램을 추진하였다. 이것을 받아서 IBM은 “TrueNorth”라고 이름 붙인 뉴로칩의 개발에 성공하였다.
-이는 100만개의 뉴런과 2억 5600만 개의 시냅스 결합을 포함하는 칩으로, 그 소비전력은 겨우 70mW라고 한다. 이를 연결한 시스템은 4800만 뉴런, 120억 시냅스로, 생쥐의 뇌에 필적한다고 한다.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;IBM은 뉴로 계산에 본격적으로 참여하기 시작했으며, 미국 국방성의 DARPA가 주도한 “SyNAPSE” 프로그램을 통해 신경 회로를 칩으로 만드는 프로젝트를 추진했다. 이를 바탕으로 IBM은 “TrueNorth”라는 뉴로칩을 개발하는 데 성공했다.&lt;/p&gt;
+
+&lt;p&gt;이 뉴로칩은 100만 개의 뉴런과 2억 5600만 개의 시냅스를 포함하고 있으며, 소비 전력은 겨우 70mW에 불과하다. 이 칩을 여러 개 연결하면 4800만 개의 뉴런과 120억 개의 시냅스로 구성된 시스템이 완성되는데, 이는 생쥐의 뇌에 필적한다고 한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;읽고-나서&quot;&gt;읽고 나서&lt;/h2&gt;
+
+&lt;p&gt;책 “인간 vs 인공지능”에서도 다루었듯이, 현대의 계산 장치는 인간의 정신 현상과는 본질적으로 다른 면이 있다. 그 중에서도 가장 큰 차이는 물리적 특성일 것이다. 어떻게 그렇게 작은 부피와 면적으로 컴퓨터가 풀지 못하는 생존 문제를 해결하고, 생활 경험을 이어나가는지 궁금해진다. 이 복잡성과 에너지 효율성은 과학과 공학적으로 어떻게 접근할 수 있을까? 인공지능의 미래는 하드웨어에 달려 있을지도 모른다. 두뇌에서 일어나는 한 가지 현상의 모방만으로도 현대 공학과 사회를 크게 변화시킨 것처럼, 과학의 힘과 상상력의 파급 효과는 경험해보기 전까지는 아무도 알 수 없다는 생각이 든다.&lt;/p&gt;
 </description>
                 <pubDate>Sat, 23 Sep 2023 00:00:00 +0900</pubDate>
                 <link>http://localhost:4000/motivation/Brain,-Mind,-and-AI-kr/</link>
@@ -1772,9 +1792,44 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
             </item>
         
             <item>
-                <title>Shun&apos;ichi Amari: Brain, Mind, Artificial Intelligence</title>
-                <description>&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://product.kyobobook.co.kr/detail/S000001732224&quot;&gt;Brain, Mind, Artificial Intelligence&lt;/a&gt;&lt;/p&gt;
+                <title>Shun&apos;ichi Amari, &quot;Brain, Mind, and AI&quot;</title>
+                <description>&lt;style&gt;
+   .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+   }
+
+   .image-wrapper {
+      width: 48%;
+      margin: 1%;
+      box-sizing: border-box;
+      text-align: center;
+   }
+
+   .image-wrapper img {
+      width: 100%;
+      height: auto;
+      display: block;
+   }
+
+   .image-wrapper figcaption {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #555;
+      margin-top: 8px;
+   }
+
+   @media (max-width: 768px) {
+      .image-wrapper {
+            width: 100%;
+      }
+   }
+&lt;/style&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://product.kyobobook.co.kr/detail/S000001732224&quot;&gt;Brain, Mind, and AI&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;table&gt;
@@ -1785,70 +1840,54 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&quot;chapter-2-what-is-the-brain&quot;&gt;Chapter 2. What is the Brain?&lt;/h2&gt;
+&lt;p&gt;This is a summary of the key points that stood out to me while reading Shun’ichi Amari’s “Brain, Mind, and AI.” Amari, a pioneer in AI research, reflects on the early days of deep learning and his contributions, which remain relatively unknown to many. With a background in mathematical engineering from the University of Tokyo, he has been at the forefront of AI research, utilizing advanced theories like statistical mechanics and information geometry. This book offers deep insights into the structure and function of the brain, as well as the progress of artificial intelligence.&lt;/p&gt;
 
-&lt;p&gt;(This chapter explains the neurophysiological structure and detailed functions of the brain.)&lt;/p&gt;
+&lt;div class=&quot;container&quot;&gt;
+   &lt;figure class=&quot;image-wrapper&quot;&gt;
+      &lt;img src=&quot;/assets/images/posts/2023/Q3/2023-09-23-Brain, Mind, and AI/author.jpg&quot; alt=&quot;Image 1&quot; /&gt;
+      &lt;figcaption&gt;Author Shun&apos;ichi Amari&lt;/figcaption&gt;
+   &lt;/figure&gt;
+   &lt;figure class=&quot;image-wrapper&quot;&gt;
+      &lt;img src=&quot;/assets/images/posts/2023/Q3/2023-09-23-Brain, Mind, and AI/main.jpg&quot; alt=&quot;Image 2&quot; /&gt;
+      &lt;figcaption&gt;The book: Brain, Mind, and AI&lt;/figcaption&gt;
+   &lt;/figure&gt;
+&lt;/div&gt;
 
-&lt;p&gt;→ The brain is a massive network composed of 100 billion neurons, weighing about 1.4kg and having a volume of approximately 1400cc.&lt;/p&gt;
+&lt;h2 id=&quot;chapter-2-what-is-the-brain&quot;&gt;Chapter 2: What is the Brain?&lt;/h2&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Brainstem&lt;/p&gt;
+&lt;p&gt;This chapter explores the neurophysiological structure and functions of the brain. The brain is a vast network of approximately 100 billion neurons, weighing about 1.4kg and occupying a volume of 1400cc.&lt;/p&gt;
 
-    &lt;blockquote&gt;
-      &lt;p&gt;It is the basic life-support device, acting as the center of autonomic functions like breathing.
-It controls sleep and wakefulness and serves as the pathway for information going from the outside to the cerebrum and from the cerebrum to the outside.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Cerebellum&lt;/p&gt;
+&lt;h3 id=&quot;1-brainstem&quot;&gt;1. Brainstem&lt;/h3&gt;
 
-    &lt;blockquote&gt;
-      &lt;p&gt;Although it weighs only about 10% of the brain, it contains the most neurons, around 80 billion.
-It is responsible for perception and motor control, working in coordination with the cerebrum.
-Motor functions acquired over time in the cerebrum are transferred to the cerebellum and become routine, allowing for rapid processing.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Cerebrum&lt;/p&gt;
+&lt;p&gt;The brainstem serves as the fundamental life-support system, controlling autonomic functions like breathing. It also regulates sleep and wakefulness, acting as a conduit for information traveling to and from the cerebrum.&lt;/p&gt;
 
-    &lt;blockquote&gt;
-      &lt;p&gt;The part that develops the slowest.
-Composed of the cerebral cortex, basal ganglia, hippocampus, and amygdala, it contains about 20 billion neurons.
-It is responsible for functions such as cognition, thought, language, motor planning and control, and memory, facilitating higher mental functions.&lt;/p&gt;
-    &lt;/blockquote&gt;
+&lt;h3 id=&quot;2-cerebellum&quot;&gt;2. Cerebellum&lt;/h3&gt;
 
-    &lt;p&gt;The surface area is about 2000-2500cm^2 (roughly the size of a newspaper page), and it consists of a sheet 2-3mm thick.
-It is made up of six layers forming columnar structures.&lt;/p&gt;
+&lt;p&gt;Although the cerebellum makes up only about 10% of the brain’s weight, it contains around 80 billion neurons, making it the most neuron-dense part of the brain. It primarily manages perception and motor control, working in concert with the cerebrum to coordinate precise movements. Over time, learned motor functions in the cerebrum are transferred to the cerebellum, where they become routine, allowing for faster and more efficient processing.&lt;/p&gt;
 
-    &lt;blockquote&gt;
+&lt;h3 id=&quot;3-cerebrum&quot;&gt;3. Cerebrum&lt;/h3&gt;
 
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;→ How might the optimal input in IT-MPC be related to the interaction between cerebrum and cerebellum motor functions?&lt;/p&gt;
-
-&lt;h2 id=&quot;chapter-5-interpreting-the-brain-with-mathematics-2&quot;&gt;Chapter 5. Interpreting the Brain with Mathematics (2)&lt;/h2&gt;
+&lt;p&gt;The cerebrum is the most recently developed part of the brain. Comprising the cerebral cortex, basal ganglia, hippocampus, and amygdala, it consists of around 20 billion neurons. The cerebrum is responsible for higher mental functions such as cognition, thought, language, motor planning and control, and memory. The cerebral cortex, with a surface area of about 2000-2500 cm² (roughly the size of a newspaper page) and a thickness of 2-3 mm, is made up of six layers that form columnar structures.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;How does actual brain learning occur?
-Investigating the neural circuits of the brain reveals that there is no phenomenon like error backpropagation, where errors flow backward through the circuit for learning.
-Therefore, perceptron learning cannot be seen as modeling the structure of the brain.&lt;/p&gt;
+  &lt;p&gt;How might Optimal Input in IT-MPC relate to the interaction between cerebrum and cerebellum in motor function?&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;However, it cannot be concluded that they are completely different either. Stochastic gradient descent is an algorithm that expresses one principle of learning information processing. The brain may not have realized this principle in its actual structure.&lt;/p&gt;
+&lt;h2 id=&quot;chapter-5-interpreting-the-brain-through-mathematics&quot;&gt;Chapter 5: Interpreting the Brain through Mathematics&lt;/h2&gt;
 
-&lt;blockquote&gt;
+&lt;p&gt;This chapter delves into the mechanisms of learning in the brain. Examination of neural circuits in the brain reveals that there is no observable ‘backpropagation of error’ in the brain as there is in artificial neural networks. So, is the learning mechanism of perceptrons completely different from that of the brain?&lt;/p&gt;
 
-&lt;/blockquote&gt;
+&lt;p&gt;It’s not entirely different. The stochastic gradient descent method is an algorithmic expression of a principle in learning information processing. The brain might not have fully realized this principle, but that doesn’t mean the learning process in perceptrons is entirely unrelated to the brain’s structure.&lt;/p&gt;
 
-&lt;h2 id=&quot;chapter-6-history-and-future-of-artificial-intelligence&quot;&gt;Chapter 6. History and Future of Artificial Intelligence&lt;/h2&gt;
+&lt;h2 id=&quot;chapter-6-the-history-and-future-of-artificial-intelligence&quot;&gt;Chapter 6: The History and Future of Artificial Intelligence&lt;/h2&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;IBM also began seriously participating in neuro-computation. In the United States, the Department of Defense’s DARPA led a program called “SyNAPSE,” aiming to create neural circuits on chips. In response, IBM succeeded in developing a neurochip named “TrueNorth.”
-This chip contains 1 million neurons and 256 million synaptic connections, consuming only 70mW of power. A system combining these chips boasts 48 million neurons and 12 billion synapses, comparable to a mouse brain.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;IBM has seriously entered the field of neuromorphic computing. The U.S. Department of Defense’s DARPA led the “SyNAPSE” program, aiming to create neural circuits on a chip. IBM successfully developed the “TrueNorth” chip as part of this initiative.&lt;/p&gt;
+
+&lt;p&gt;This chip contains 1 million neurons and 256 million synapses, yet consumes only 70mW of power. When these chips are interconnected, they form a system with 48 million neurons and 12 billion synapses, which is comparable to the brain of a mouse.&lt;/p&gt;
+
+&lt;h2 id=&quot;reflections&quot;&gt;Reflections&lt;/h2&gt;
+
+&lt;p&gt;As discussed in “Human vs. AI,” modern computing devices are fundamentally different from human cognitive processes. The most striking difference lies in their physical characteristics. It’s intriguing how such a small volume and surface area can address survival problems and sustain life experiences that no computer could solve. How can we scientifically and engineeringly approach this complexity and energy efficiency? The future of AI might hinge on hardware advancements. Just as mimicking a single function of the brain has profoundly impacted modern engineering and society, the full potential of science and imagination is something we can only truly grasp once we experience it.&lt;/p&gt;
 </description>
                 <pubDate>Sat, 23 Sep 2023 00:00:00 +0900</pubDate>
                 <link>http://localhost:4000/motivation/Brain,-Mind,-and-AI-en/</link>
@@ -1856,13 +1895,13 @@ This chip contains 1 million neurons and 256 million synaptic connections, consu
                 
                 <category>Brain</category>
                 
-                <category>Computing Device</category>
+                <category>Computing</category>
                 
                 <category>Neuroscience</category>
                 
                 <category>Information Theory</category>
                 
-                <category>Artificial Intelligence</category>
+                <category>AI</category>
                 
                 
                 <category>Motivation</category>
@@ -2073,6 +2112,182 @@ NP 연구 프로그램에 대한 여러 이론에는 아래와 같이 다양한 
                 <category>과학</category>
                 
                 <category>의식</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>Implications and Limits of Naturalizing Phenomenology</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This post is a summary of Taehee Kim’s paper “&lt;a href=&quot;https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02332265&quot;&gt;Implications and Limits of Naturalizing Phenomenology&lt;/a&gt;.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;before-reading&quot;&gt;Before Reading&lt;/h1&gt;
+
+&lt;p&gt;To address questions about the consciousness of humans, animals, and machines, it is crucial first to analyze the first-person experience of consciousness. Upon reflection, one can realize that most of our mental contents, such as visual and auditory perception, imagination, and temporal consciousness, are incredibly complex. For instance, consider the question, “Does a camera possess visual consciousness?” Until we press the button, the camera merely displays momentary information on a screen, which is fundamentally different from our visual perception. Our visual experience at any given moment is inherently linked to the preceding visual experience. If our current visual experience had no relation to the previous one, and if we were to experience each new scene as a fleeting, isolated event, no conscious experience could be sustained or even exist.&lt;/p&gt;
+
+&lt;p&gt;The analysis provided here may not be entirely rigorous. Fortunately, such a rigorous analysis of subjective experience was undertaken over a century ago—this field of study is called phenomenology. Phenomenology explores the relationships between various forms of consciousness (noesis) and the various objects they intend (noema). What insights from phenomenology can contribute to contemporary neuroscience research and theories of consciousness? These are the core questions I had in mind while reading this paper:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;What is the relationship between phenomenological research and a naturalistic approach? Can they be reconciled?&lt;/li&gt;
+  &lt;li&gt;How can phenomenological theories and neuroscientific-naturalistic theories of consciousness interact or coexist?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q3/2023-07-09-About Natualizing Phenomenology/1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      &quot;Explanatory Gap problem, Naturalizing Phenomenology, Neurophenomenology and Generative Passage interpretation.&quot; Generated by Midjourney AI
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;1-introduction&quot;&gt;1. Introduction&lt;/h1&gt;
+&lt;p&gt;Chapter 1 begins with a discussion of the “Naturalizing Phenomenology (NP)” research program, a topic addressed by both cognitive scientists and philosophers. The goal of NP is to integrate phenomenological research within the explanatory framework of natural sciences. Issues related to consciousness can be broadly categorized into two major problems:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The Explanatory Gap: How can the existence of qualia be explained by brain processes? _ Joseph Levine&lt;/li&gt;
+  &lt;li&gt;The Hard Problem: How do physical processes in the brain give rise to sensory experiences? _ David Chalmers&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The key question of this paper is as follows: To assess the potential for a convergence of cognitive science and phenomenology, various discussions on NP will be reviewed, focusing particularly on Varela’s Neurophenomenology. How can the concept of Reciprocal Constraint (RC) be interpreted, and how does Neurophenomenology approach NP?&lt;/p&gt;
+
+&lt;p&gt;Is a convergence of cognitive science and phenomenology possible?
+NP is a prerequisite for this possibility.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;2-neurophenomenology&quot;&gt;2. Neurophenomenology&lt;/h1&gt;
+
+&lt;p&gt;Before diving into the analysis, the author defines NP as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Naturalizing: Integrating phenomenological descriptions into the framework of natural sciences.&lt;/li&gt;
+  &lt;li&gt;Phenomenology: Referring to both phenomenological philosophy and phenomenological psychology.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Neurophenomenology is based on the following working hypothesis:&lt;/p&gt;
+
+&lt;p&gt;Phenomenological descriptions of the structure of experience and corresponding descriptions in cognitive science should be related through Reciprocal Constraint (RC).&lt;/p&gt;
+
+&lt;p&gt;There are several theories within the NP research program, including:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;D. Dennett: Heterophenomenology&lt;/li&gt;
+  &lt;li&gt;E. Marbach: Formalization of Phenomenological Description&lt;/li&gt;
+  &lt;li&gt;S. Gallagher: Front-loading Phenomenology&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The author evaluates Varela’s approach to Neurophenomenology as the most comprehensive, inclusive, and promising. Neurophenomenology emphasizes that phenomenological descriptions of experiences are essential for a coherent explanation of mind and consciousness. Furthermore, these phenomenological descriptions should be integrated into the explanatory framework.&lt;/p&gt;
+
+&lt;p&gt;Neurophenomenology posits that it is possible to create a complete and accurate description of first-person data, potentially in the form of mathematical models. While Husserl himself pointed out that the essence of conscious experience is not a precise morphological essence, the author argues, citing Park Seung-eok and Yoshimi, that this concern is not necessarily a barrier to developing mathematical methods. Thus, the success or failure of Neurophenomenology hinges on whether a mathematical model of conscious experience can be realized.&lt;/p&gt;
+
+&lt;p&gt;Three questions arise from the perspective of Neurophenomenology, though the author focuses only on the second and third:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;What exactly is the mathematical model that encompasses both the neuroscientific and phenomenological dimensions of consciousness? Can such a model exist at all?&lt;/li&gt;
+  &lt;li&gt;(Assuming the model exists) Can it provide a comprehensive bridge over the explanatory gap?&lt;/li&gt;
+  &lt;li&gt;(If it can bridge the gap) Is this approach compatible with Husserl’s stance? Is it not a form of naturalism, which Husserl rejected?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;3-bridging-the-explanatory-gap&quot;&gt;3. Bridging the Explanatory Gap&lt;/h1&gt;
+&lt;p&gt;Varela’s core hypotheses can be classified into three major points:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. Phenomenal consciousness cannot be reduced to physical events.
+2. First-person descriptions and third-person research on conscious experience should be in a reciprocal relationship.
+3. Existing first-person methodologies can be refined to adequately investigate phenomenal consciousness.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;According to T. Bayne, there are different interpretations of the RC relationship mentioned in the second hypothesis:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 1. Reflective Equilibrium
+ 2. Heuristic Strategy
+ 3. Reciprocal Causation
+ 4. Generative Passage
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Bayne finds the first two interpretations too weak and the third too strong, considering the fourth—the Generative Passage interpretation—the most appropriate. This interpretation views the RC relationship as a mathematical model connecting phenomenal states with neurophysiological states. Bridging this gap requires three elements:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; (1) Phenomenological descriptions of experiential structures.
+ (2) A phenomenological dynamic model of these structural invariants.
+ (3) The realization of these models within biological systems.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The problem can thus be redefined from the perspective of the Generative Passage interpretation:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 1. The Explanatory Gap as a scientific problem: The challenge of proposing a model that can coherently integrate phenomenology and neurobiology.
+ 2. The Hard Problem of consciousness in the philosophy of mind: The abstract metaphysical question regarding the status of consciousness within nature.
+ (The possibility is acknowledged that one can solve the first problem without solving the second, or vice versa.)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Successfully bridging the explanatory gap, as redefined, involves (1) constructing a mathematical model that appropriately formalizes phenomenological events and neurological data, and (2) demonstrating that the phenomena to be explained (e.g., individual instances of consciousness or Neural Correlates of Consciousness, NCC) logically follow from the model.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;4-compatibility-with-husserls-position&quot;&gt;4. Compatibility with Husserl’s Position&lt;/h1&gt;
+&lt;p&gt;Naturalization can be broadly divided into (1) the naturalization of ideality and (2) the naturalization of consciousness. While Husserl opposes the former, he considers the latter possible within certain limits. The author argues that while the naturalization of phenomenological psychology as the foundation of empirical sciences is acceptable, transcendental phenomenology can never be naturalized.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q3/2023-07-09-About Natualizing Phenomenology/0.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      &quot;Explanatory Gap problem, Naturalizing Phenomenology, Neurophenomenology and Generative Passage interpretation.&quot; Generated by Midjourney AI
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;reflections-on-the-reading&quot;&gt;Reflections on the Reading&lt;/h1&gt;
+
+&lt;p&gt;Naturalizing Phenomenology -&amp;gt; Varela’s Neurophenomenology -&amp;gt; Generative Passage Interpretation of Reciprocal Constraint -&amp;gt; Bridging the Explanatory Gap&lt;/p&gt;
+
+&lt;p&gt;This paper provided valuable insights into the integration of cognitive science and phenomenology. It clarified the NP research program, which is crucial in the philosophy of cognitive science. Moreover, it introduced Neurophenomenology as a promising theory within NP and discussed various interpretations of the core hypothesis—Reciprocal Constraint between first-person and third-person data. I came to understand that solving the explanatory gap between these data sources, as viewed through the Generative Passage interpretation, is key to constructing a significant mathematical model.&lt;/p&gt;
+
+&lt;p&gt;While studying Karl Friston’s Active Inference, a normative model of human behavior and psychological phenomena, I began to suspect that it could also effectively explain first-person data. Indeed, through interactions on Twitter, I discovered that Maxwell Ramstead, whose work I admire, has explored the philosophical stance on integrating Active Inference with phenomenology—Computational Phenomenology. I plan to read the following paper next to examine whether Active Inference could serve as the key mathematical model mentioned above:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://link.springer.com/content/pdf/10.1007/s13164-021-00604-y.pdf?pdf=button&quot;&gt;“From Generative Models to Generative Passages: A Computational Approach to (Neuro) Phenomenology”&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <pubDate>Sun, 09 Jul 2023 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/About-Natualizing-Phenomenology-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/About-Natualizing-Phenomenology-en/</guid>
+                
+                <category>Philosophy</category>
+                
+                <category>Cybernetics</category>
+                
+                <category>Phenomenology</category>
+                
+                <category>Science</category>
+                
+                <category>Consciousness</category>
                 
                 
                 <category>Motivation</category>
@@ -2326,6 +2541,260 @@ NP 연구 프로그램에 대한 여러 이론에는 아래와 같이 다양한 
                 <category>두뇌</category>
                 
                 <category>책</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>AI vs. The Brain</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“How does AI solve problems that seem too complex for us?
+Why does AI struggle with tasks that are so simple for us?
+What does human intelligence look like from the perspective of AI?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This post is a summary of Professor Sangwan Lee’s book “How AI and the Brain Think.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;1-capturing-an-infinite-world-in-finite-space&quot;&gt;1. Capturing an Infinite World in Finite Space&lt;/h1&gt;
+
+&lt;p&gt;This chapter introduces the dilemma of abstraction and diversity, centered around the &lt;strong&gt;binding problem&lt;/strong&gt;—how we recognize objects like an apple. It provides a historical overview of early AI research, starting with Marvin Minsky’s feedforward networks and the challenges of the Credit Assignment Problem, solved by the Error Backpropagation algorithm.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;2-todays-success-tomorrows-failure&quot;&gt;2. Today’s Success, Tomorrow’s Failure&lt;/h1&gt;
+
+&lt;p&gt;While the first chapter focused on current problems, the second chapter delves into statistical scenarios in real-world interactions. It introduces Structural Risk Minimization from the perspective of statistical machine learning, discussing Tikhonov Regularization to prevent underfitting/overfitting and introducing Support Vector Machines (SVM) through the Dual Problem.&lt;/p&gt;
+
+&lt;p&gt;The pursuit of “model efficiency” to solve the Bias-Variance Tradeoff is also found in the human brain. There’s even a neuron that recognizes the actress Jennifer Aniston [2]! This suggests the concept of &lt;strong&gt;sparse representation&lt;/strong&gt;, where very few active cells are required to stably recognize a concept. This ties into critical periods in developmental cognition and pruning, which are key to energy efficiency—an area where the human brain is at least 400 times more efficient than AI systems.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/1.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      The biggest difference between the brain and AI systems: energy efficiency!
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;3-the-balance-between-sensitivity-and-insensitivity&quot;&gt;3. The Balance Between Sensitivity and Insensitivity&lt;/h1&gt;
+
+&lt;p&gt;Having addressed the basics of abstraction/diversity in the first chapter and the statistical solutions and brain characteristics in the second, the third chapter tackles the Specificity-Invariance Dilemma. To achieve both sensitivity and insensitivity in concept abstraction, three approaches are discussed: (1) filtering, (2) pooling, and (3) locality.&lt;/p&gt;
+
+&lt;p&gt;First, (1) filtering uses convolution operations to filter out specific patterns, allowing us to focus on important information while ignoring the rest. Next, (2) pooling or subsampling compresses the information, extracting only what is meaningful. Finally, (3) locality applies to both filtering and pooling, setting the receptive field’s range to focus on significant local information. Such &lt;strong&gt;topographic maps&lt;/strong&gt; also appear in the brain, implying that inductive biases are intentionally applied to enhance the &lt;u&gt;spatial, temporal, and energy efficiency&lt;/u&gt; of computation. While the origins of this are still unclear, it is suggested that these traits may have been acquired through evolution.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/2.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Topographic patterns in the motor cortex. Could these local arrangements enhance computational efficiency?
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;By combining convolution, pooling, and non-linear functions into building blocks and stacking them in various ways, architectures can be designed to achieve the desired level of abstraction. While this bottom-up approach looks at the whole through its parts, the top-down approach allows us to focus on the parts through the whole, enabled by attention mechanisms. Although Self-Attention has emerged, a clean solution is yet to be found.&lt;/p&gt;
+
+&lt;p&gt;Our brain resolves the paradox between parts and the whole through bottom-up concept abstraction and top-down attention. A mechanism exists that can capture high-level concepts even from the lowest layers. This is possible thanks to the nonlinearity of retinal neurons, where the density decreases from the center to the periphery, guiding top-level attention by leveraging low-dimensional peripheral information.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Brain -&amp;gt; AI:
+    &lt;ul&gt;
+      &lt;li&gt;It took 20 years for CNNs, reflecting the computational principles of the cerebral cortex, to achieve great success.&lt;/li&gt;
+      &lt;li&gt;Brain science could have accelerated this process.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;AI -&amp;gt; Brain:
+    &lt;ul&gt;
+      &lt;li&gt;The functional similarity between CNNs and brain function highlights how the brain processes information at each layer, showing a mutually beneficial relationship.&lt;/li&gt;
+      &lt;li&gt;Predictive Coding Scheme, Illusion?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;| Questions:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;If artificial neural networks are functionally similar to the brain, could we observe similar phenomena from an introspective perspective as well? How do human optical illusions relate to phenomena in artificial neural networks?&lt;/li&gt;
+  &lt;li&gt;Does the local arrangement of representations in the cerebral cortex genuinely enhance the spatial, temporal, and energy efficiency of computation? Could this be verified through computational models and simulations?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;4-the-subjective-is-so-objective&quot;&gt;4. The Subjective is So Objective&lt;/h1&gt;
+
+&lt;p&gt;Chapters 1-3 focused on how we abstract and understand the world based on observed results. Chapter 4 shifts to the opposite direction—concretization, with a focus on data generation. Unlike the deterministic neural networks discussed earlier, we now explore &lt;strong&gt;probabilistic neural networks&lt;/strong&gt; where each neuron is replaced by a random variable.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/3.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Hopfield Network, Boltzmann Machine, Restricted BM, The Neural Network Zoo [3]
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;An early example of probabilistic neural networks is the &lt;strong&gt;&lt;u&gt;Hopfield Network&lt;/u&gt;&lt;/strong&gt;, which allows not only simple statistical analysis but also complex correlation analysis. Probabilistic neural networks are advantageous because they (1) allow easy inference, (2) explain the roles of each element, (3) highlight the risks of ignoring certain elements, and (4) detect intricate interrelationships.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;&lt;u&gt;Boltzmann Machine&lt;/u&gt;&lt;/strong&gt;, which adds hidden neurons to the Hopfield Network, allows hypotheses to be tested based on data. Its goal is to learn the correlations between various factors in the data. It does this by deriving learning rules to find the optimal weights that connect neurons, minimizing the difference between (1) observable correlations in the data and (2) the correlations learned by the network. The former is akin to being in a wakeful state, directly observing data, while the latter is like a dream state, where the network infers without direct data observation—hence, the Wake-Sleep Rule.&lt;/p&gt;
+
+&lt;p&gt;To address the difficulty of applying probabilistic neural networks in practice, the &lt;strong&gt;&lt;u&gt;Restricted Boltzmann Machine (RBM)&lt;/u&gt;&lt;/strong&gt; was developed. RBM allows connections only between visible and hidden neurons, eliminating complex correlations among hidden neurons. The structure of visible and hidden neuron layers forms a building block, leading to the development of Deep RBM (DRBM). When combined with the error backpropagation algorithm for precise learning, it becomes the deterministic Autoencoder (AE).&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/4.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Autoencoder &amp;amp; Variational Autoencoder, The Neural Network Zoo [3]
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Autoencoders use symmetry to achieve abstraction and concretization, a principle also seen in Principal Component Analysis (PCA). Today, even if symmetry is broken, it is utilized within mathematically permissible limits. The probabilistic version of the autoencoder, the &lt;strong&gt;&lt;u&gt;Variational Autoencoder (VAE)&lt;/u&gt;&lt;/strong&gt;, (1) retains some symmetry of the autoencoder, (2) adds depth to the abstraction process, and (3) increases the density of the concretization process. Lastly, the &lt;strong&gt;&lt;u&gt;Reparametrization&lt;/u&gt;&lt;/strong&gt; trick is applied, allowing the error backpropagation algorithm to be used.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/5.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      GAN, The Neural Network Zoo [3]
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ultimately, the performance of abstraction and concretization is evaluated by the error function defined by the user. To objectify this self-assessment, game theory is employed, leading to models like the &lt;strong&gt;&lt;u&gt;Generative Adversarial Network (GAN)&lt;/u&gt;&lt;/strong&gt;. From an information theory perspective, traditional deterministic networks like PCA and autoencoders learn by minimizing KL Divergence. Unlike the asymmetric KL Divergence, GAN minimizes the symmetric JS Divergence, which can be viewed as an Optimal Transport problem in economics and evaluated using the Wasserstein Distance.&lt;/p&gt;
+
+&lt;p&gt;| Questions:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;How do these probabilistic neural networks relate to the human brain? Are neurons treated as random variables because of their inherent randomness, or is this merely an assumption?&lt;/li&gt;
+  &lt;li&gt;How do recent diffusion-based generative models like StableDiffusion relate to the models discussed above?&lt;/li&gt;
+  &lt;li&gt;How are they connected to the Ising Model in statistical mechanics or Cellular Automata?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;5-predicting-the-past-and-remembering-the-future&quot;&gt;5. Predicting the Past and Remembering the Future&lt;/h1&gt;
+
+&lt;p&gt;Chapters 1-3 covered concept abstraction, Chapter 4 dealt with concept concretization, and now, Chapter 5 focuses on memory—taking concepts on a journey through time. Previously, the i.i.d condition for data was assumed, but in reality, most events are not independent. Therefore, remembering concepts generated in the past becomes crucial. A strategy to implement this is &lt;strong&gt;feedback&lt;/strong&gt;. One of the most common neurons found in the cerebral cortex, hippocampus, and other areas is the &lt;strong&gt;&lt;u&gt;Pyramidal Neuron&lt;/u&gt;&lt;/strong&gt;, which receives input not only from nearby neurons but also from distant neurons it has already communicated with! In &lt;strong&gt;&lt;u&gt;Recurrent Neural Networks (RNN)&lt;/u&gt;&lt;/strong&gt;, applying the backpropagation algorithm can lead to problems like the &lt;u&gt;exploding gradient&lt;/u&gt; or &lt;u&gt;vanishing gradient&lt;/u&gt;, making learning difficult. To address these issues, &lt;strong&gt;&lt;u&gt;Long-Short Term Memory (LSTM)&lt;/u&gt;&lt;/strong&gt; was developed.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/6.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      RNN, LSTM, and GRU; The Neural Network Zoo [3]
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The ideal neural network that can flexibly accept new information while maintaining stable memory would (1) adapt to situations and (2) expand its knowledge. This is known as &lt;strong&gt;Continual Learning&lt;/strong&gt; or &lt;strong&gt;Lifelong Learning&lt;/strong&gt;. Moreover, this adaptability makes it useful for Multi-Domain Adaptation and Multi-Task Learning.&lt;/p&gt;
+
+&lt;p&gt;Artificial neural networks lack this fluid memory capability, leading to a phenomenon called &lt;strong&gt;&lt;u&gt;Catastrophic Forgetting&lt;/u&gt;&lt;/strong&gt;, where past learning evaporates in pursuit of new information. To mitigate this, techniques like (1) regularization, (2) leveraging past data, and (3) parameter utilization can be applied. However, the Transformer model, which uses &lt;strong&gt;&lt;u&gt;Self-Attention&lt;/u&gt;&lt;/strong&gt;, eliminates the distinction between past and future events in space and time. As the author puts it, “predict the past and remember the future!”&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/7.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      RNN, LSTM, and GRU; The Neural Network Zoo [3]
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The Transformer model is also effective in addressing the problem of concretizing memory discussed in Chapter 4. While abstraction involves comprehensively understanding events in sequence, concretization requires reconstructing events in the correct order. The memory concretization network aims to reinterpret and reorder events according to the given context. Techniques like &lt;strong&gt;Attention Masking&lt;/strong&gt; allow the model to focus only on the inputs received so far, enabling high performance in models like BERT and GPT.&lt;/p&gt;
+
+&lt;p&gt;| Questions:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;How does the human brain solve the problem of Catastrophic Forgetting?&lt;/li&gt;
+  &lt;li&gt;Does the Transformer model truly leverage the AE and Attention mechanisms effectively?
+ (In the case of the World Model, it consists of VAE+RNN+Controller.)&lt;/li&gt;
+  &lt;li&gt;What are the computational and training efficiencies of the Transformer model? Can it be used effectively on a standard GPU?&lt;/li&gt;
+  &lt;li&gt;Is the Transformer model efficient from a neuroscience perspective?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;6-thinking-beyond-time-and-space&quot;&gt;6. Thinking Beyond Time and Space&lt;/h1&gt;
+
+&lt;p&gt;Chapters 1-3 focused on concept abstraction, Chapter 4 on concept concretization, Chapter 5 on memory, and now, Chapter 6 deals with the learning principles of neural networks. The error backpropagation algorithm, used in the &lt;strong&gt;weight transport process&lt;/strong&gt; of current neural networks, relies on Bellman’s Dynamic Programming—a sort of &lt;u&gt;&quot;God Mode.&quot;&lt;/u&gt; But does our brain really operate this way?&lt;/p&gt;
+
+&lt;p&gt;Research from DeepMind suggests that even removing weight information and training with random numbers using only &lt;strong&gt;Feedback Alignment&lt;/strong&gt; can enable learning! At least biological neural networks do not learn according to a God Mode error backpropagation algorithm.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Synaptic Plasticity&lt;/strong&gt; of a neuron consists of the overall changes through (1) Long-Term Potentiation and (2) Long-Term Depression. These changes are caused by the &lt;strong&gt;relative timing differences&lt;/strong&gt; that result from the dynamic response characteristics of the neuron’s dendrites (changes in dendritic sensitivity), indicating that biological neural networks operate more like a &lt;u&gt;&quot;First-Person Mode&quot;&lt;/u&gt; rather than a God Mode.&lt;/p&gt;
+
+&lt;p&gt;To capture synaptic plasticity in artificial neural networks, researchers developed the Temporal Error Model and later the Predictive Coding Model. The Predictive Coding Model includes error nodes to assess the accuracy of neuron transmission.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, dendrites perform a kind of normalization operation. Large dendrites respond insensitively to the input values of various channels, maintaining insensitivity and stability even when the information volume changes significantly. Dendrites with many local connections are called &lt;strong&gt;Basal Dendrites&lt;/strong&gt;, while those with many global connections are &lt;strong&gt;Apical Dendrites&lt;/strong&gt;. Recent research suggests that Basal Dendrites are comparable to shallow artificial neural networks, while Apical Dendrites are akin to deep neural networks with one or more hidden layers.&lt;/p&gt;
+
+&lt;p&gt;| Questions:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Are there learning algorithms based on the dynamic characteristics of synaptic plasticity?&lt;/li&gt;
+  &lt;li&gt;Can the Critical Brain Hypothesis, which I find intriguing from a physical perspective, explain the phenomenon of Feedback Alignment?&lt;/li&gt;
+  &lt;li&gt;If we consider a neuron as a random variable, what is the significance of noise?&lt;/li&gt;
+  &lt;li&gt;Could Active Inference provide an even better explanation than Predictive Coding?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;7-changing-the-past-by-looking-into-the-future&quot;&gt;7. Changing the Past by Looking into the Future&lt;/h1&gt;
+
+&lt;p&gt;Chapters 1-3 covered concept abstraction, Chapter 4 dealt with concept concretization, Chapter 5 focused on memory, and Chapter 6 discussed the learning principles of neural networks. The final chapter, Chapter 7, explores reinforcement learning. At its core, reinforcement learning is about learning strategies or policies for dynamic systems. However, when these strategies are applied, the &lt;strong&gt;Temporal Credit Assignment Problem&lt;/strong&gt;—determining how much past strategies contributed to the current experience—must be addressed.&lt;/p&gt;
+
+&lt;p&gt;Bellman’s Dynamic Programming and the Principle of Optimality are some ways to solve this problem by recursively breaking down complex problems into simpler ones. More specifically, Bellman’s equations are defined over a Markov Decision Process, and reinforcement learning is performed using the reward prediction error derived from the environment.&lt;/p&gt;
+
+&lt;p&gt;Reinforcement learning algorithms like AlphaGo solve problems using &lt;strong&gt;Model-Free Reinforcement Learning (MFRL)&lt;/strong&gt;. However, analyzing AlphaGo’s habitual behavior reveals Devaluation Insensitivity—a fixation on results. MFRL struggles with flexibility when goals need to change. In contrast, animals typically display goal-oriented behavior. Research from 1977 (Wolfram Schultz, Peter Dayan, Read Montague) revealed that changes in dopamine neuron activity in monkeys resemble the reward prediction error signals in Model-Free learning algorithms. In 2004, the human striatum was identified as the central region for MFRL!&lt;/p&gt;
+
+&lt;p&gt;To overcome these shortcomings, &lt;strong&gt;Model-Based Reinforcement Learning (MBRL)&lt;/strong&gt; was proposed, which separates goals from principles, allowing for diverse goals in various situations. However, this model struggles when problems are too complex or environmental uncertainty is high, making it difficult to learn the model. Like MFRL, MBRL has a deep scientific history. Research from the 1930s (Edward Tolman) showed that rats could engage in latent learning even without rewards, forming a &lt;u&gt;Cognitive Map&lt;/u&gt; of the environment. This learning occurs through state prediction errors arising from discrepancies between expected and actual situations. It was later discovered that the Limbic System in rats and the Lateral Prefrontal Cortex and Intraparietal Sulcus in humans are central to MBRL.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, Model Predictive Control in optimal control theory, which uses model-based methodologies, is considered the origin of model-based learning. In behavioral economics, the quick, semi-automatic decision-making style like MFRL is known as “&lt;strong&gt;System 1&lt;/strong&gt;,” while the conscious, slow decision-making style like MBRL is referred to as “&lt;strong&gt;System 2&lt;/strong&gt;.”&lt;/p&gt;
+
+&lt;p&gt;In 2005, a research team at University College London posed an even bolder question: could the brain switch between MFRL and MBRL depending on the uncertainty in predicting outcomes? Indeed, in 2015, it was revealed that the Lateral Prefrontal Cortex and Frontopolar Cortex in humans process this uncertainty information and control the learning process by combining the two strategies! In other words, this meta-cognitive process allows us to “read the situation,” focus on the “task,” and adapt our learning strategies accordingly.&lt;/p&gt;
+
+&lt;p&gt;| Questions:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Let’s explore the advantages and disadvantages of MBRL and MFRL.&lt;/li&gt;
+  &lt;li&gt;Are these two paradigms truly analogous to Daniel Kahneman’s System I vs. II?&lt;/li&gt;
+  &lt;li&gt;Does meta-cognition imply higher-order thinking? Is the switching principle between MBRL and MFRL merely secondary thinking?&lt;/li&gt;
+  &lt;li&gt;Can Active Inference offer a more comprehensive theory?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;[1] “How AI and the Brain Think,” by Sangwan Lee, Sol Publishing, 2022&lt;/p&gt;
+
+&lt;p&gt;[2] &lt;a href=&quot;https://www.sciencetimes.co.kr/news/%EC%96%BC%EA%B5%B4-%EC%9D%B8%EC%8B%9D%ED%95%98%EB%8A%94-%EC%8B%A0%EA%B2%BD%EC%84%B8%ED%8F%AC-%EB%94%B0%EB%9D%BC-%EC%9E%88%EB%8B%A4/&quot;&gt;There Are Neurons that Recognize Faces, The Science Times, Sim Jaeyul, Guest Reporter, 2019 2/12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[3] Van Veen, F., &amp;amp; Leijnen, S. (2019). The Neural Network Zoo. The Asimov Institute. https://www.asimovinstitute.org/neural-network-zoo/&lt;/p&gt;
+</description>
+                <pubDate>Wed, 24 May 2023 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/AI-vs-Brain-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/AI-vs-Brain-en/</guid>
+                
+                <category>AI</category>
+                
+                <category>Neuroscience</category>
+                
+                <category>Brain</category>
+                
+                <category>Book</category>
                 
                 
                 <category>Motivation</category>
@@ -3226,146 +3695,6 @@ NP 연구 프로그램에 대한 여러 이론에는 아래와 같이 다양한 
                 
                 
                 <category>Movement</category>
-                
-            </item>
-        
-            <item>
-                <title>Connecting Cultures</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iE39q-IKOzA?si=A5bSvQbuVRx-MtjR&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Recently, demonflyingfox’s video &lt;em&gt;Harry Potter by Balenciaga&lt;/em&gt;, which utilizes AI, has been making waves on social media. It’s fascinating to see familiar characters like Harry, Ron, Hermione, Dumbledore, and Voldemort striking the peculiar poses and haughty expressions characteristic of a Balenciaga runway. This work not only showcases the frontier of AI-generated image technology but also redefines the meaning of “content” on social media and in society at large.&lt;/p&gt;
-
-&lt;p&gt;In demonflyingfox’s work, familiar scenes from movies, anime, and games are parodied using AI’s unique expressive capabilities. For example, the main characters from &lt;em&gt;Harry Potter&lt;/em&gt; are reimagined as trendy Balenciaga models, or the protagonist of &lt;em&gt;American Psycho&lt;/em&gt; is depicted as a Middle Eastern businessman. This style has been adopted by numerous YouTube channels, with each video reaching 300,000 views within just 12 hours of posting!&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-04-22-Connect and Expand.md/0.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-      demonflyingfox&apos;s channel, Source: YouTube
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;In modern society, most media consumed by the public is based on big-budget films produced in Hollywood. The majority of characters speak English and belong to Western cultures, specifically from the United States and Europe. There have been only a handful of Asian films that have achieved worldwide success. In the logic of capitalism, it makes sense to define a target audience that maximizes profit and to plan content accordingly. However, might this biased targeting subconsciously cause a sense of cultural deprivation among the public?&lt;/p&gt;
-
-&lt;p&gt;Nam June Paik’s work &lt;strong&gt;Lottery of Genghis Khan&lt;/strong&gt; comes to mind. A few hundred years ago, Eastern cultures had a far greater influence on the world culturally and institutionally compared to the West. However, following the era of imperialism, Western civilization rapidly advanced and began to wield overwhelming power across culture, capital, industry, and institutions. This shift is especially evident in signage, which reflects public perception. Most signs do not use our native language or Chinese characters but instead adopt English or other foreign words. (In Korea, the use of foreign words is higher than in any other country.) It seems that there is a greater focus on actively embracing advanced cultures rather than exploring and advancing our own. However, if this mindset stems from superficial choices rather than mature discussions and critical thinking, it might be time to reconsider.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-04-22-Connect and Expand.md/칭기즈칸의 복권.jpeg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      Nam June Paik, *Lottery of Genghis Khan* (Sculpture, 1993), Source: Nam June Paik Art Center website
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;We now have the ability, through generative models, to easily alter the gender, race, and age of familiar characters. Couldn’t we modify Western characters to represent Eastern ones? In my spare time after work, I decided to use the text-based image generation AI service MidJourney to create some images. First, I asked ChatGPT for descriptions of key characters and iconic scenes from &lt;em&gt;The Dark Knight Rises&lt;/em&gt;, which was a major success in Korea. Then, I matched Korean actors to the main characters and had them described accordingly. Afterward, I generated and edited the images in MidJourney. The key results are shown below.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-04-22-Connect and Expand.md/AI 한국 버전.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      A Korean version of *The Dark Knight Rises* that I created myself
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;As I created this work, I began to wonder if AI-generated content models could be used to eliminate cultural bias and achieve freedom in diversifying race, gender, age, and more.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Could these tools be used to connect and fuse various cultures, each with their own distinct forms and structures, freely and creatively?&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-                <pubDate>Sat, 22 Apr 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/movement/Connect-and-Expand-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/movement/Connect-and-Expand-en/</guid>
-                
-                <category>Art</category>
-                
-                <category>Technology</category>
-                
-                <category>AI</category>
-                
-                <category>Culture</category>
-                
-                <category>Fusion</category>
-                
-                
-                <category>Movement</category>
-                
-            </item>
-        
-            <item>
-                <title>돌아보기, 결심</title>
-                <description>&lt;p&gt;어제 (미국) 유학 가시는 선배들과의 면담을 통해 여러 중요한 정보를 알게 되었다. 선배들 모두 공대 대학원으로 진학하시기 때문에, 더 이론적인 연구에 흥미가 있는 나에게 적합할지는 모르겠으나, 큰 도움이 되었던 것 같다. 몇 가지 정리해보자면 다음과 같다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;탑 스쿨일수록, 입학생에 대한 교수님의 권한이 강하지 않다.&lt;/li&gt;
-  &lt;li&gt;랭킹이 낮지만 대가가 있는 학교의 경우, 교수님의 재량이 크다.&lt;/li&gt;
-  &lt;li&gt;자신의 스펙을 올리기 위해서는 CV 내 여러 활동을 채워야 하는데, 나에게는 “논문”이 유일하다.&lt;/li&gt;
-  &lt;li&gt;영어/GRE 준비는 CV에 적을 논문의 학회 제출 시기가 지난 이후에 해도 된다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;이루고자 하는 꿈을 위해 한국에 있는 가족과 친구들을 떠나 타지에서 생활한다는 것은 큰 결심을 필요로 한다. 선배들께서 유학을 가기로 결심하게 된 배경이 가장 궁금했다. 한 선배의 답변이 인상 깊었다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;누가 나에게 100억을 준다면 받지 않을 것인가? 누가 나에게 MIT 입학 자격을 준다면 거절할 것인가? 그렇지 않다면, 마음 속에 있는 자신의 꿈의 불씨가 살아 있는 것이고, 그것을 평생 무시한 채 사는 것이야말로 고통이 아닐까?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;최근 들어 연구소에서의 생활이 맞지 않는다는 생각이 자주 들었다. 그런데 이렇게 생각한 이유는, 나의 학문과 연구에 대한 열정이 내 기대와 맞지 않아서라기보다는, 사람들에 대한 실망이 컸던 것 같다. 같은 과제를 수행하면서 직무를 유기하거나 태만한 경우는 그렇다 쳐도, 연구의 계획 의도와 방향성을 이해하지 못하고 생계를 위해 무기력하게 과제를 수행하는 분위기가 도저히 받아들일 수 없었다. 그러한 분위기 속에서 연구를 하는 것이야말로 내가 생각하는 나의 모습을 초라하고 무기력하게 만들었다.&lt;/p&gt;
-
-&lt;p&gt;나의 가치에 대한 생각도 마찬가지였다. 입사 초에는 나의 잠재력을 키우고, 가치를 극대화하는 일에 집중하고 싶었다. 그러나 맡은 일과 주변의 평가를 돌아보면 나의 그릇과 잠재력에 의심을 품지 않을 수 없었다. 최근 동기 형과 “가치”에 대한 이야기를 나눴던 것이 떠올랐다. 단순한 물 한 잔이 편의점에서는 500원이더라도, 고급 호텔이나 레스토랑에서는 10,000원까지 하는 것을 보면, 나의 가치를 극대화하기 위해서는 나를 잘 이해하고 인정해주는 곳에서 일하는 것이 타당하지 않을까? 벼룩 실험도 비슷한 이야기를 하는 것 같다.&lt;/p&gt;
-
-&lt;p&gt;나의 가치를 극대화하기 위해서는, 나의 가치를 크게 인정해주는 환경에서 지내고 성장하는 것이 옳다고 믿는다. 적어도 내가 경험한 한국의 연구소와 회사에서는 그렇지 않은 것 같다. 모두가 윈윈하고, 서로 행복하며, 발전적인 이야기를 나누는 이상적인 조직을 꿈꾸는 것은 환상일 수도 있지만, 그래도 꿈은 꿀 수 있지 않은가?&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;앎을 좋아하는 태도야말로 나의 가장 큰 무기이자 장점이라고 생각한다. 나는 줄곧 세상의 모든 것이 흥미롭고 재밌었으며, 그 분야는 경제, 사회, 정치, 철학, 과학, 공학, 예술 전반을 아우른다. 사람들이 이뤄 온 거대한 현대 문명의 근원에 대한 철학적 질문에 대한 답을 찾고자 했던 걸까, 그중에서도 “사람의 마음”에 크게 관심을 갖게 되었다. 처음엔 양뇌를 해부하며, 다음엔 프로이트의 꿈의 해석을 읽으며, 그 다음엔 뇌과학 올림피아드에 참가해 관련 지식에 대한 호기심을 해결하고 마음의 원리에 대한 답을 찾았다. 그런데, 과학의 영역에서 마음의 원리를 잘 설명하지 못하는 걸 여러 번 경험하며 물리학과 수학, 철학에 대한 관심으로 이어졌다. 자연스럽게 복잡계와 그것이 지니는 놀라운 정보적 속성이 매우 흥미로웠다.&lt;/p&gt;
-
-&lt;p&gt;아직까지도 로봇공학과 인공지능 관련 업무를 하며, 어떻게 세포 덩어리가 시공간을 이해하고, 감정을 느끼며, 기억과 환각적 경험을 할 수 있는지 질문하는 스스로를 돌아보면, 아무래도 나는 이러한 질문에 답해야만 편하게 살 수 있을 것 같다. 이러한 질문을 하는 것 자체로도 충분히 재밌고 삶이 풍부해지는 걸 보면, 나도 나 스스로가 신기하고 놀라운 것 같다.&lt;/p&gt;
-
-&lt;p&gt;다만, 이 분야가 수학이라는 나의 전공만으로 해결하기엔 진입 장벽이 꽤 높고, 더 다양한 배경지식이 필요하다. 더욱이, 아직 과학의 영역이라기보다는 철학의 범주에서 다뤄지는 질문인 만큼, 수학적 이론을 만들어 밝히기엔 그것의 재료가 될 현상에 대한 관찰 결과와 사람에 대한 이해와 분석이 부족하다고 느껴진다. 그래서 내가 최근 유독 예술에 깊은 관심을 보이는 것이 설명되는 것 같다.&lt;/p&gt;
-
-&lt;p&gt;그럼에도 결국 하고 싶은 걸 하고 살자는 생각이 든다. 나의 사람의 마음에 대한 탐구는 연구를 통한 지식으로, 혹은 예술 작품으로 구현될 수 있지 않을까? 나와 비슷한 관심사와 꿈을 가진 사람들만이 나의 진가를 이해해줄 수 있을 것이라 확신한다. 그런 사람들이 모여 있는 곳을 찾아보자!&lt;/p&gt;
-</description>
-                <pubDate>Tue, 18 Apr 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/meditation/Decision-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/meditation/Decision-kr/</guid>
-                
-                <category>진로</category>
-                
-                <category>인생</category>
-                
-                <category>유학</category>
-                
-                <category>독백</category>
-                
-                
-                <category>Meditation</category>
                 
             </item>
         

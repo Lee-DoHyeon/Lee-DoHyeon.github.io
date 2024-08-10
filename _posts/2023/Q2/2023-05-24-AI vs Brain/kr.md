@@ -15,6 +15,8 @@ toc_label: "인공지능 vs 두뇌"
 category: Motivation
 tags: [인공지능, 신경과학, 두뇌, 책]
 lang: kr
+header:
+  teaser: "/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/0.jpeg"
 image: assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/0.jpeg
 ---
 
