@@ -5,8 +5,8 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 10 Aug 2024 10:39:35 +0900</pubDate>
-        <lastBuildDate>Sat, 10 Aug 2024 10:39:35 +0900</lastBuildDate>
+        <pubDate>Sat, 10 Aug 2024 11:53:19 +0900</pubDate>
+        <lastBuildDate>Sat, 10 Aug 2024 11:53:19 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
@@ -485,7 +485,35 @@ Considering that the importance of predictive coding and un/self-supervised lear
         
             <item>
                 <title>숨겨진 샘 역자 후기</title>
-                <description>&lt;h1 id=&quot;마음의-수학자를-꿈꾸며&quot;&gt;마음의 수학자를 꿈꾸며&lt;/h1&gt;
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;h1 id=&quot;마음의-수학자를-꿈꾸며&quot;&gt;마음의 수학자를 꿈꾸며&lt;/h1&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-28-Mathematician of Mind/TheHiddenSpring.jpeg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      의식은 어디에서 오는가
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;마크-솜즈---숨겨진-샘-역자-후기&quot;&gt;마크 솜즈 - “숨겨진 샘” 역자 후기&lt;/h3&gt;
 
@@ -561,9 +589,37 @@ _당시엔 에르빈 슈뢰딩거의 《생명이란 무엇인가?》, 자크 �
         
             <item>
                 <title>After Translating the Hidden Spring</title>
-                <description>&lt;blockquote&gt;
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;blockquote&gt;
   &lt;p&gt;After translating &lt;em&gt;The Hidden Spring&lt;/em&gt;, written by Mark Solms into Korean&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-28-Mathematician of Mind/TheHiddenSpring.jpeg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Translated Book of &quot;the Hidden Spring&quot;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Around the age of 9, my mother was quite shaken after a meeting with my homeroom teacher. She learned that I was showing clear symptoms of ADHD. Despite this, I felt somewhat special, perhaps because I hadn’t received much attention due to my parents’ busy work schedules. As a temporary solution, they sent me to a small Chinese character academy in our neighborhood. Spending most of my days there with the instructor, I would alleviate my loneliness late into the night. Thanks to that experience, I still remember the wise sayings from classics like “Mencius” and “Four Books and Five Classics.”&lt;/p&gt;
 
@@ -858,6 +914,241 @@ Refer to Amaral Shunichi’s “Brain, Mind, Artificial Intelligence.” A compu
                 <category>심리철학</category>
                 
                 <category>인지과학</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>A History of Embodied Cognition</title>
+                <description>&lt;p&gt;&lt;strong&gt;What is Embodied Cognition?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;-&lt;/em&gt; Reference: [Phil, 1] &lt;a href=&quot;https://s-space.snu.ac.kr/bitstream/10371/75876/1/02.%20%EC%9D%B4%EC%A0%95%EB%AA%A8.pdf&quot;&gt;‘Embodied Cognition’ Approach and Interdisciplinary Convergence&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1-cognitive-science-in-the-20th-century&quot;&gt;1. Cognitive Science in the 20th Century&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Continuing the philosophical inquiry into the mind”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;11-before-the-birth-of-cognitive-science&quot;&gt;1.1 Before the Birth of Cognitive Science&lt;/h3&gt;
+
+&lt;p&gt;Following the scientific revolution in Europe during the 16th and 17th centuries, various fields of science gradually branched out from philosophy. In the 19th century, some scholars began exploring the possibility of investigating the mind through objective, experimental, and empirical scientific methods rather than merely intuitive and logical analysis.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1870s - Wilhelm Wundt launched psychology as an independent empirical science, known as ‘experimental physiological psychology.’
+→ For about 30 years, psychology focused on analyzing consciousness as subjective experience.
+→ Emphasized systematizing methods for analyzing subjective reports of individual consciousness.
+→ Refined and systematized the traditional philosophical method of “introspective introspection” as a scientific approach to psychology.
+; &lt;strong&gt;Structuralism&lt;/strong&gt; + &lt;strong&gt;Introspective Methodology&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Early 20th century - John B. Watson criticized structuralism and introduced the framework of empiricist behaviorist psychology.
+→ Criticized structuralism for straying from the positivist framework of objective science.
+→ Strongly influenced by the logical positivism of philosophy, he sought to deal only with what can be objectively observed.
+→ Rejected mental concepts, focusing solely on behavior.
+→ Aimed to describe animal and human behavior through conditioning processes.
+→ B. F. Skinner attempted to extend this explanation to human language and thought.
+; &lt;strong&gt;Behaviorism&lt;/strong&gt; + &lt;strong&gt;Conditioning Methodology&lt;/strong&gt; (~1950)&lt;/li&gt;
+  &lt;li&gt;Late 1950s - The Cognitive Revolution (a.k.a. the Scientific Revolution of the 20th Century)
+→ Criticized behaviorism for excluding the concept of the mind from psychology.
+→ Introduced a new paradigm for understanding humans, animals, computers, and human cultural systems.
+; &lt;strong&gt;Classical Cognitivism&lt;/strong&gt; + &lt;strong&gt;Information Processing Approach&lt;/strong&gt; ← The birth of “Cognitive Science”
+    &lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-20-Embodied Cognition/1.png&quot; /&gt;
+  &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;12-cognitivism-characteristics-and-significance-in-cognitive-science&quot;&gt;1.2 Cognitivism: Characteristics and Significance in Cognitive Science&lt;/h3&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-20-Embodied Cognition/2.png&quot; /&gt; 
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cognitivism Paradigm: ‘Mind’ $\sim$ ‘Computer’ $\sim$ ‘Information Processing System (IPS)’
+⇒ How do various forms of information processing occur in the minds of humans and animals, as well as in computers, and how do such processes enable and manifest intelligence?
+→ “Since cognition arises from the workings of the mind, cognitive science becomes the science of the mind.”
+    &lt;ol&gt;
+      &lt;li&gt;Mind, 2) Brain, 3) Computer, 4) Artifact
+&lt;strong&gt;Key Characteristics&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;‘Mind’ $\sim$ ‘Computer’ $\sim$ ‘Information Processing System (IPS)’&lt;/li&gt;
+      &lt;li&gt;The &lt;strong&gt;process&lt;/strong&gt; of the mind is viewed through the lens of &lt;strong&gt;computationalism&lt;/strong&gt;, which sees cognition as information processing and transformation.&lt;/li&gt;
+      &lt;li&gt;The &lt;strong&gt;content&lt;/strong&gt; of the mind is structured as representations of intentional objects, a view known as &lt;strong&gt;representationalism&lt;/strong&gt;.&lt;/li&gt;
+      &lt;li&gt;The mind is grounded in the neural states of the &lt;strong&gt;brain&lt;/strong&gt;, emphasizing the &lt;strong&gt;neuroscientific basis&lt;/strong&gt; (yet with a separation of hardware and software).&lt;/li&gt;
+      &lt;li&gt;The &lt;strong&gt;study&lt;/strong&gt; of the mind necessitates a &lt;strong&gt;convergent&lt;/strong&gt; approach, drawing on multiple disciplines.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;13-cognitive-science-and-interdisciplinary-connections&quot;&gt;1.3 Cognitive Science and Interdisciplinary Connections&lt;/h3&gt;
+
+&lt;p&gt;→ &lt;strong&gt;Artificial Intelligence, Cognitive Psychology, Philosophy, Linguistics, Cognitive Neuroscience&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-20-Embodied Cognition/3.png&quot; /&gt; 
+&lt;/p&gt;
+&lt;h2 id=&quot;2-the-evolution-of-cognitive-science&quot;&gt;2 The Evolution of Cognitive Science&lt;/h2&gt;
+
+&lt;p&gt;Since the mid-1980s, there has been a conceptual reorganization of how we understand the mind.&lt;/p&gt;
+
+&lt;h3 id=&quot;21-lee-jungmos-classification&quot;&gt;2.1 &lt;strong&gt;Lee Jungmo’s Classification&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Phase 1; 1950s to early 1980s
+    &lt;ul&gt;
+      &lt;li&gt;Moving away from behaviorism’s anti-mentalism, which had removed the mind from psychology.&lt;/li&gt;
+      &lt;li&gt;Conceptualized the mind as a &lt;strong&gt;Physical Symbol System&lt;/strong&gt;, modeled on digital computers.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Phase 2; Since the 1980s
+    &lt;ul&gt;
+      &lt;li&gt;Recognized the limitations of classical information processing approaches centered on computer metaphors.&lt;/li&gt;
+      &lt;li&gt;Proposed a &lt;strong&gt;neural network connectionist&lt;/strong&gt; approach centered on brain metaphors, presenting a subsymbolic computational system.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Phase 3; Since the 1990s
+    &lt;ul&gt;
+      &lt;li&gt;Rapid advancements in &lt;strong&gt;cognitive neuroscience&lt;/strong&gt; research techniques, such as brain imaging, rediscovered the importance of brain functions.&lt;/li&gt;
+      &lt;li&gt;Cognitive science aimed to approach the mind grounded in neuroscience.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Phase 4; Late 1980s to early 21st century
+    &lt;ul&gt;
+      &lt;li&gt;A &lt;strong&gt;paradigm shift emphasizing the role of the body and environmental context&lt;/strong&gt;.&lt;/li&gt;
+      &lt;li&gt;Cognition exists in physical and social contexts where the human mind is realized through bodily interactions within its environment.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;22-evan-thompsons-classification&quot;&gt;2.2 &lt;strong&gt;Evan Thompson’s Classification&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Phase 1 ← Cognitivism&lt;/li&gt;
+  &lt;li&gt;Phase 2 ← Connectionism (The shift from computers to the brain is characterized by a ‘downwards pull.’)&lt;/li&gt;
+  &lt;li&gt;Phase 3 ← Embodied Dynamicism (The shift from the brain to the body and environment is characterized by an ‘outwards pull.’)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;23-the-ultimate-stance-embodied-cognition&quot;&gt;2.3 The Ultimate Stance: &lt;strong&gt;Embodied Cognition&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Critically developed frameworks challenging Cartesian dualism, classical cognitivism, and reductionist materialism.&lt;/li&gt;
+  &lt;li&gt;Argued that none of these frameworks adequately explained the nature and properties of the mind, and reducing the mind solely to neural states within the brain was insufficient.&lt;/li&gt;
+  &lt;li&gt;Advocated for conceptualizing the mind as a phenomenon within an integrated system linking the brain, body, and world.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;3-approaches-to-embodied-cognitionmind&quot;&gt;3 Approaches to Embodied Cognition/Mind&lt;/h2&gt;
+
+&lt;h3 id=&quot;31-embodied-cognition-extended-mind&quot;&gt;3.1 Embodied Cognition, Extended Mind&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Moving away from the traditional Cartesian ontology/epistemology-based concept of the mind (Mind), towards a view of the mind as an emergent phenomenon realized through adaptive ‘actions’ within its environment, using a concrete body.&lt;/li&gt;
+  &lt;li&gt;Hypothesis of Extended Mind/Cognition (HEM/HEC: Hypothesis of Extended Mind/Cognition, Andy Clark &amp;amp; David Chalmers, 1998)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;→ This approach attempts to transcend the limitations of lower-level approaches like connectionism, which seeks to explain everything at the micro-level, neuro-level, or biological unit, as well as the higher-level, proposition-centered, logical systems of classical cognitivism.&lt;/p&gt;
+
+&lt;p&gt;→ Rather than cognitive representations or processes occurring independently within an individual’s mind, this approach explains the mind as an activity realized through actions in a cohesive system where the environment, body, and brain form an integrated unit.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The mind should be re-conceptualized as a phenomenon of action, not merely as neural states or processes within the brain. It is the integrated functioning of the brain’s neural structures, the body beyond the brain, and the environment, acting together as an inseparable unit.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;→ This approach is part of the post-Cartesian movement, aimed at breaking away from Cartesian dualism. Early influences include the 17th-century philosopher B. Spinoza, and later European phenomenological philosophers like Bergson and Merleau-Ponty, who discussed the possibility of psychological properties existing independently of the brain. They proposed that the body, mind, and environment form a unified system, where each physical action of the body, as it adapts to the world, constitutes the mind.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cognitive psychologist M. Wilson: The mind and cognition are rooted in the body.&lt;/li&gt;
+  &lt;li&gt;Gomila, Calvo: Interactionism and dynamicism are more central than mere embodiment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;aside&gt;
+💡 *Behaviorist psychology expelled the mind from psychology, classical cognitivism reintroduced the mind into cognitive science but neglected the role of the brain, cognitive neuropsychology reinstated the mind into the brain but ignored the role of the environment (context). Now, the third alternative perspective, ‘embodied cognition,’ seeks to reintegrate the brain into the body and the body into the environment.*
+
+&lt;/aside&gt;
+
+&lt;h3 id=&quot;32-embodied-mind-and-artifacts&quot;&gt;3.2 Embodied Mind and Artifacts&lt;/h3&gt;
+
+&lt;p&gt;→ If the mind is conceptualized as existing in dynamic activities where it extends spatially through the body into the environment, then the history of co-evolution between the human mind and artifacts, and the potential futures, must be considered.&lt;/p&gt;
+
+&lt;p&gt;As the boundaries between the human mind and artifacts blur and as human existence becomes increasingly redefined by interactions with artifacts, the philosophical framework of ‘embodied cognition’ could provide a crucial theoretical foundation for the conceptual restructuring of future scholarship and technology.&lt;/p&gt;
+
+&lt;h3 id=&quot;33-challenges-in-the-embodied-cognition-approach&quot;&gt;3.3 Challenges in the Embodied Cognition Approach&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Scientific Paradigm
+    &lt;ul&gt;
+      &lt;li&gt;How can the interactions between humans (bodies) and environments be objectified through empirical scientific inquiry?&lt;/li&gt;
+      &lt;li&gt;This approach must provide explanations and descriptions that are better and more systematic than those achieved by traditional cognitivist approaches.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Conceptual Issues
+    &lt;ul&gt;
+      &lt;li&gt;Must address theoretical criticisms posed by scholars like Adams &amp;amp; Aizawa (2008, 2010).
+        &lt;ol&gt;
+          &lt;li&gt;Equivalence Principle: Can the HEM/HEC truly make the environment an equivalent cognitive system to the brain?&lt;/li&gt;
+          &lt;li&gt;Coupling Argument: Material objects in the environment cannot form a unified system with the brain!
+↔ Critics argue that it fails to escape the traditional dualistic categories of material-mental, internal-external.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;aside&gt;
+  💡 The key to determining cognitive processes is not their location (inside or outside), nor the material similarity between the brain and artifacts, but rather the **functionality of the processes**.
+  “The embodied cognition approach strongly appeals for a paradigm shift away from traditional concepts, advocating a new perspective in exploring topics such as human existence, mind, body, environment (including artifacts), the role of representations, intentionality, cognitive systems, cognitive processes, causality, and human-artifact interactions.”
+  &lt;/aside&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;34-interdisciplinary-convergence-in-embodied-cognition&quot;&gt;3.4 Interdisciplinary Convergence in Embodied Cognition&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A conceptual shift demanding a new perspective that integrates body-mind-life into a unified framework.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;aside&gt;
+💡 How do the mind, cognition (or intelligence in the case of animals and robots), arise from physical activities where the body and environment blend as one?
+
+&lt;/aside&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Philosophy&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://s-space.snu.ac.kr/bitstream/10371/75876/1/02.%20%EC%9D%B4%EC%A0%95%EB%AA%A8.pdf&quot;&gt;‘Embodied Cognition’ Approach and Interdisciplinary Convergence&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Lee Jungmo (2010), ‘Embodied Cognition’ Approach and Interdisciplinary Convergence, Philosophy and Thought.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Robotics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://arxiv.org/pdf/1801.04819.pdf&quot;&gt;Robots as Powerful Allies for the Study of Embodied Cognition from the Bottom Up&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Hoffmann, M. &amp;amp; Pfeifer, R. (2018), Robots as powerful allies for the study of embodied cognition from the bottom up, in A. Newen, L. de Bruin; &amp;amp; S. Gallagher, ed., ‘The Oxford Handbook 4e Cognition’, Oxford University Press, pp. 841-861.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://d1wqtxts1xzle7.cloudfront.net/64936166/Lara_et_al_2018_Embodied_Cognitive_Robotics_and_the_learning_of_sensorimotor_schemes-libre.pdf?1605383929=&amp;amp;response-content-disposition=inline%3B+filename%3DEmbodied_Cognitive_Robotics_and_the_lear.pdf&amp;amp;Expires=1703039325&amp;amp;Signature=bubgM3q5K1C4LL7Qqkt0xw7CK8RIVEC0gGMtmkuL5tKp3AqvgaScZ~8-5OzaU0aqarwlwQqQwMSfc05LAyxHYPTO5Trr0hDqFCRx~~RPdPQ1oDOghkAc6Qc-VzlaLiRX2cmiGzr3VroHdwOtlGEWFqJs5FCNhv4yVtsAOv7tu3yJa0Qj4ajJAdUyPPfUnNEq3AJ4ZZkOr~Y~6zqBSzKgw-djTlolXAgjBWHLYlG3Cd3ayiRAbqo9QdnJM4oiS1Csaw6lzjxTBAIwOZT553uIUrxlDnOSsoZWP~DH9zRYiSO9QTMoHS3qQszl1i6ooee87NBa0AU4d4jD4sSwGkDcNQ__&amp;amp;Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA&quot;&gt;Embodied Cognitive Robotics and the Learning of Sensorimotor Schemes&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Lara B, Astorga D, Mendoza-Bock E, Pardo M, Escobar E, Ciria A. Embodied Cognitive Robotics and the learning of sensorimotor schemes. &lt;em&gt;Adaptive Behavior&lt;/em&gt;. 2018;26(5):225-238. doi:&lt;a href=&quot;https://doi.org/10.1177/1059712318780679&quot;&gt;10.1177/1059712318780679&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[3] &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10526461/pdf/brainsci-13-01316.pdf&quot;&gt;From Brain Models to Robotic Embodied Cognition: How Does Biological Plausibility Inform Neuromorphic Systems?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+                <pubDate>Wed, 20 Dec 2023 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/Embodied-Cognition-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Embodied-Cognition-en/</guid>
+                
+                <category>Philosophy of Mind</category>
+                
+                <category>Cognitive Science</category>
                 
                 
                 <category>Motivation</category>
@@ -1288,6 +1579,415 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
             </item>
         
             <item>
+                <title>Do AI Systems Have Consciousness?</title>
+                <description>&lt;p&gt;&lt;strong&gt;A Mirror to the World&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The human mind is like the universe, and when placed side by side, one reflects the other. Our brains hold the universe, and the universe holds our brains. But then, the brain contains the universe, the universe contains the brain, and so on… Is the human mind merely a mirror to the world?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Intro&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In 2022, Blake Lemoine, a developer working on Google’s chatbot service LaMDA, &lt;a href=&quot;https://www.washingtonpost.com/technology/2022/06/11/google-ai-lamda-blake-lemoine/&quot;&gt;claimed that the software he developed had feelings&lt;/a&gt;. Following his statement, then-CEO Sundar Pichai terminated Lemoine’s employment, citing the unauthorized disclosure of confidential information and suggesting that Lemoine did not fully understand the software. However, the Association for Mathematical Consciousness Science (AMCS) argues that we barely understand the human mind. This gap in understanding underscores the growing need for consciousness research.&lt;/p&gt;
+
+&lt;p&gt;In April 2023, &lt;a href=&quot;https://www.bbc.com/news/technology-65401783&quot;&gt;Zoe Kleinman, BBC’s technology editor&lt;/a&gt;, published an article highlighting the need for AI researchers to study consciousness. She pointed out that tech mogul Elon Musk had co-signed an open letter calling for a halt to AI development until more legal safeguards were established. The AMCS also issued an open letter advocating for the inclusion of consciousness research in responsible AI development. The message is clear: for a future that is ethical and accountable, consciousness research must be more active and closely intertwined with AI research.&lt;/p&gt;
+
+&lt;p&gt;In August 2023, Nature journalist Mariana Lenharo wrote an article titled “&lt;a href=&quot;https://www.nature.com/articles/d41586-023-02684-5&quot;&gt;If AI Becomes Conscious, What Should Researchers Know?&lt;/a&gt;,” followed by another in December 2023 titled “&lt;a href=&quot;https://www.nature.com/articles/d41586-023-04047-6&quot;&gt;AI Consciousness: Scientists Urgently Call for Answers&lt;/a&gt;,” emphasizing the need for legal and ethical frameworks for AI consciousness and the corresponding necessity of consciousness research.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;1-artificial-intelligence-and-robotics&quot;&gt;1. Artificial Intelligence and Robotics&lt;/h1&gt;
+
+&lt;p&gt;Artificial Intelligence (AI) is a field focused on modeling human problem-solving abilities through computer software to address real-world problems. In 2023, AI technologies, particularly generative AI models like Large Language Models (LLMs), made a significant impact.&lt;/p&gt;
+
+&lt;h2 id=&quot;11-ai&quot;&gt;1.1 AI&lt;/h2&gt;
+
+&lt;h3 id=&quot;llm&quot;&gt;LLM&lt;/h3&gt;
+
+&lt;p&gt;Among these, OpenAI’s ChatGPT-3.5 and 4 are perhaps the most startling to the public. ChatGPT is a model trained on vast amounts of language data using the Transformer architecture, offering a conversational chatbot service. The latest version, ChatGPT-4, can process and generate not just text but also images, videos, PDFs, and even code, indicating its potential in multi-modality applications.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;This potential of large language models has prompted major tech companies to enter the conversational search service market. Companies like Meta (formerly Facebook) with Llama2, Claude2, and Google’s Bard are all launching conversational search services.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;text2image-video&quot;&gt;Text2Image, Video&lt;/h3&gt;
+
+&lt;p&gt;OpenAI also offers image generation services like DALL-E. Other companies, such as Runway ML, which developed diffusion models, and Pika Labs, which provides prompt-based video generation services, have emerged, attracting substantial investment and growing rapidly. The market for AI-based creation tools is booming, with the first AI film festival recently taking place. Pika Labs, in particular, raised $60 million in funding just six months after its inception.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6b10jGNNbXQ?si=FkAU6kiiJkNfouyr&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;12-robots&quot;&gt;1.2 Robots&lt;/h2&gt;
+
+&lt;h3 id=&quot;robots&quot;&gt;Robots&lt;/h3&gt;
+
+&lt;p&gt;In contrast to other AI technologies, robotics focuses on solving real, physical problems. Historically, getting robots to perform desired actions reliably and naturally was a significant challenge. However, advancements in reinforcement learning and large-scale training models have overcome these difficulties. Elon Musk, CEO of Tesla, once revealed his ambition to make humanoid robots available at a price point of around $2,000. His Optimus gen2 robot, unveiled at the end of the year, has made impressive strides in just one year, walking naturally and performing delicate tasks like picking up an egg with a sophisticated hand model.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cpraXaw7dyc?si=Y8IzRLw9mO5w1YFQ&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Similarly, Unitree’s Go2, B2, and H1 robots demonstrate shockingly flexible and efficient performance. They succeed even when subjected to forceful pushes or deliberate interference. From wheeled and tracked robots to quadrupedal and bipedal robots, various forms of robots are emerging, with their motion capabilities steadily improving. Many robotics companies are keeping product prices low, echoing Elon Musk’s vision.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-0n_MFLKD3M?si=SByKaGtU0BHjkfrg&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h1 id=&quot;2-the-limits-of-modern-ai-approaches&quot;&gt;2. The Limits of Modern AI Approaches&lt;/h1&gt;
+
+&lt;h2 id=&quot;21-the-limitations-of-ai&quot;&gt;2.1 The Limitations of AI&lt;/h2&gt;
+
+&lt;p&gt;AI technology is advancing at a near-vertical pace, with technologies approaching AGI (Artificial General Intelligence) or Human-Level AI. However, alongside this rapid advancement come numerous potential risks. In response, on December 20th, Canadian cognitive computing firm Verses AI, where renowned neuroscientist Karl Friston serves as Chief Scientist, published an open letter to OpenAI in The New York Times, highlighting the current limitations of AI technology.&lt;/p&gt;
+
+&lt;aside&gt;
+👨🏻‍💻 *· Black box problem ← The internal workings of AI models are opaque and difficult to understand.*
+
+_· Alignment problem ← There is no general method for aligning AI operations with human ethics._
+
+_· Generalizability problem ← AI models struggle to achieve generalization performance._
+
+_· Hallucination problem ← The issue of AI models generating hallucinations remains unresolved._
+
+_· Centralization problem — one corporation owning the AI ← A few tech companies have a monopoly on AI technology._
+
+_· Clean data problem ← There is no standard method for perfectly anonymizing personal data for training._
+
+_· Energy consumption problem ← Training large datasets consumes vast amounts of energy._
+
+_· Data update problem ← Addressing catastrophic forgetting when updating models with new data is challenging._
+
+_· Financial viability problem ← Issues arise regarding ownership and profit when AI is commercialized._
+
+_· Guardrail problem ← Safeguards are needed to prevent AI from becoming harmful once it surpasses human capabilities._
+
+_· Copyright problem ← AI cannot be free from issues related to data ownership and copyright infringement._
+&lt;/aside&gt;
+
+&lt;p&gt;Verses AI claims that their core technologies—Active Inference-based cognitive computing and a benchmark approach inspired by nature’s intelligence—can overcome these challenges.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/3.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;These concerns have been echoed not only by Verses AI but also by key figures who have driven AI advancements, such as professors Geoffrey Hinton and Yann LeCun. Moreover, these issues have been repeatedly raised in books like Max Tegmark’s &lt;em&gt;Life 3.0&lt;/em&gt;, Brian Christian’s &lt;em&gt;The Alignment Problem&lt;/em&gt;, and Nick Bostrom’s &lt;em&gt;Superintelligence&lt;/em&gt;. Even reinforcement learning, despite its success, still faces challenges, such as (1) Sample Inefficiency, (2) Nice Alternatives, (3) Hard Reward Design, (4) Local Optima, (5) Generalization Issues, and (6) Stability &amp;amp; Reproducibility Issues.&lt;/p&gt;
+
+&lt;h2 id=&quot;22-the-cognitive-science-approach&quot;&gt;2.2 The Cognitive Science Approach&lt;/h2&gt;
+
+&lt;p&gt;→ The History of AI&lt;/p&gt;
+
+&lt;p&gt;Reflecting on the rapid development of AI technology since 2010, it becomes clear that it often lacks a strong connection to the core scientific principles or its precursor, cybernetics. In reality, modern AI technology largely stems from the cognitive approach that evolved from Cognitivism in the mid-20th century to Connectionism and, more recently, to the Embodied Dynamicism of today. As Jean-Pierre Dupuy points out, science and technology do not develop as rationally or autonomously as we might think; without deep philosophical reflection and introspection, avoiding unnecessary waste is nearly impossible.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Evan Thompson’s Classification&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Stage 1 ← Cognitivism (1950s to mid-1980s)
+        &lt;ul&gt;
+          &lt;li&gt;Moving away from the anti-mentalism of behaviorism that dismissed the mind.&lt;/li&gt;
+          &lt;li&gt;Conceptualized the mind as a &lt;strong&gt;physical symbol system&lt;/strong&gt; based on the analogy of a digital computer.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Stage 2 ← Connectionism (from the 1980s onward)
+        &lt;ul&gt;
+          &lt;li&gt;Encountered limitations in the theoretical conceptualization of classic information processing centered on the computer metaphor.&lt;/li&gt;
+          &lt;li&gt;Proposed a &lt;strong&gt;neural network connectionism&lt;/strong&gt; approach centered on the brain metaphor, introducing sub-symbolic computation.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Stage 3 ← Embodied Dynamicism (from the 1990s onward)
+        &lt;ul&gt;
+          &lt;li&gt;With the rapid development of &lt;strong&gt;cognitive neuroscience&lt;/strong&gt; research techniques, such as brain imaging, the importance of brain function was rediscovered.&lt;/li&gt;
+          &lt;li&gt;Sought to ground cognitive science’s approach to the mind on the foundation of neuroscience.&lt;/li&gt;
+          &lt;li&gt;Late 1980s to early 21st century
+            &lt;ul&gt;
+              &lt;li&gt;&lt;strong&gt;Emphasized the transformative role of body and environmental context&lt;/strong&gt;.&lt;/li&gt;
+              &lt;li&gt;Cognition is ultimately an interaction of physical actions within physical and social environments, adapting to the context in the moment.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The Final Position? &lt;strong&gt;Embodied Cognition&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Criticized Cartesian mind-body dualism, classical cognitivism, and reductionist materialism for their failure to adequately explain the nature and characteristics of the mind.&lt;/li&gt;
+      &lt;li&gt;Argued that the mind should be conceptualized as a phenomenon occurring within an integrated system of the brain, body, and environment.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Recent developments in theoretical neuroscience, such as the Free Energy Principle and Active Inference, have established a normative theory, with Bayesian Mechanics forming a related framework. As a result, the relationship between mathematical optimization theories and cognitive science theories has become widely recognized. In fact, Stanford AI’s Professor Fei-Fei Li includes these developments as supplemental and regular course materials in her Interactive and Embodied Learning class.&lt;/p&gt;
+
+&lt;p&gt;To overcome the current limitations of AI and further its development, the perspectives of &lt;strong&gt;cognitive neuroscience&lt;/strong&gt; and &lt;strong&gt;embodied cognitive science&lt;/strong&gt; are indispensable. AI technology lacks a scientific foundation beyond feedback from industrial applications. While integrating cognitive neuroscience principles into AI technology presents a daunting challenge, there appears to be no viable alternative. From a more fundamental perspective, the scientific foundation of AI should be seen as a combination of &lt;strong&gt;mathematical optimization theory&lt;/strong&gt; for artificial intelligence (including machine learning) and &lt;strong&gt;cognitive science theory&lt;/strong&gt; focused on understanding the relationship between the body, mind, and behavior.
+(Jean-Pierre Dupuy, &lt;em&gt;Aux origines des sciences cognitives&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;→ Recent Developments&lt;/p&gt;
+
+&lt;p&gt;Recent advancements in theoretical neuroscience, particularly in the &lt;strong&gt;Free Energy Principle&lt;/strong&gt; and &lt;strong&gt;Active Inference&lt;/strong&gt;, have established a normative framework, with &lt;strong&gt;Bayesian Mechanics&lt;/strong&gt; forming the related dynamic theory. This development has led to a broader understanding of the relationship between mathematical optimization theories and cognitive science theories. These concepts are even adopted as supplemental and regular materials in Professor Fei-Fei Li’s Interactive and Embodied Learning course at Stanford AI.&lt;/p&gt;
+
+&lt;table&gt;
+ &lt;tr&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/4.1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/4.2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;3-the-science-of-consciousness&quot;&gt;3. The Science of Consciousness&lt;/h1&gt;
+
+&lt;h2 id=&quot;31-the-importance-of-consciousness&quot;&gt;3.1 The Importance of Consciousness&lt;/h2&gt;
+
+&lt;p&gt;Assuming AI technology can be firmly established on a cognitive science foundation and the current issues with AI are resolved, what scientific challenges will humanity face next? As countless AI systems and robots begin to solve numerous problems on Earth, people will inevitably start questioning the rights and legal status of these machines. Such discussions have already begun years ago, and they will need to address the nature of machine minds, as well as the rights and responsibilities that come with them.&lt;/p&gt;
+
+&lt;p&gt;As Dennett pointed out, humans find it difficult to call anything a “mind” other than their own consciousness. Moreover, as Daniel Wegner and Kurt Gray have noted, the psychological traits that grant moral rights and responsibilities are closely tied to the presence of &lt;strong&gt;consciousness; subjective experience&lt;/strong&gt; and &lt;strong&gt;agency&lt;/strong&gt; in a being.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Daniel Dennett - &lt;em&gt;Kinds of Mind&lt;/em&gt; (1996)
+    &lt;blockquote&gt;
+      &lt;p&gt;“Whatever else a mind is, it is supposed to be something like our minds; otherwise we wouldn’t call it a mind.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Daniel Wegner, Kurt Gray - &lt;em&gt;What Does Other Minds?&lt;/em&gt; (2007)&lt;/p&gt;
+
+    &lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/5.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+ &lt;/p&gt;
+
+    &lt;p&gt;→ Asked people “What does other minds?”&lt;br /&gt;
+  → Identified two key attributes: &lt;strong&gt;&lt;em&gt;Experience&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;Agency&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+  → High Experience ⇒ More Moral &lt;strong&gt;&lt;em&gt;Rights&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;High Agency ⇒ More Moral &lt;strong&gt;&lt;em&gt;Responsibilities&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+ &lt;em&gt;(Klara and The Sun _ Kazuo Ishiguro)&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Moreover, discussions about machine consciousness are deeply connected to discussions about human consciousness, a subject that traces back to the dawn of human intellectual history. Modern science still grapples with two of its most profound challenges: understanding human consciousness and the universe.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/6.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;32-theories-of-consciousness&quot;&gt;3.2 Theories of Consciousness&lt;/h2&gt;
+
+&lt;p&gt;What are the Levels of Consciousness? What is the Content of Consciousness? What is the “Self”?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Recurrent Processing Theory&lt;/li&gt;
+  &lt;li&gt;Global Workspace Theory&lt;/li&gt;
+  &lt;li&gt;Computational Higher-Order Theories&lt;/li&gt;
+  &lt;li&gt;Attention Schema Theory&lt;/li&gt;
+  &lt;li&gt;Predictive Processing&lt;/li&gt;
+  &lt;li&gt;Agency and Embodiment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;4-ai-robotics-and-consciousness&quot;&gt;4. AI, Robotics, and Consciousness&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-philosophical-perspectives&quot;&gt;1. Philosophical Perspectives&lt;/h2&gt;
+
+&lt;p&gt;→ &lt;em&gt;(Could a Large Language Model be Conscious? by David Chalmers)&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Regarding the question “Are Current LLMs Conscious?” four key factors are examined:&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;&lt;strong&gt;Self-Report&lt;/strong&gt;: While it’s intriguing when an LLM claims to be conscious, such reports can easily change, especially given that systems like LaMDA have been trained on conversations about consciousness.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Seems-Conscious&lt;/strong&gt;: Some language models may seem conscious to people, but this isn’t strong evidence. Developmental and social psychology show that people often attribute consciousness where there is none.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Conversational Ability&lt;/strong&gt;: LLMs exhibit remarkable conversational skills, which might be considered an important trait of intelligence. Systems like ChatGPT, LaMDA 2, and Character.AI are optimized for conversation and appear to engage in consistent reasoning.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;General Intelligence&lt;/strong&gt;: Conversational ability might signal something deeper, like general intelligence. Current LLMs show reasonably intelligent responses across various domains, indicating early stages of general intelligence. For example, DeepMind’s Gato system has been trained across multiple domains, and even basic models like GPT-3 demonstrate considerable generality.&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;Chalmers explores these factors to assess the evidence for whether current LLMs could be conscious and offers a cautious evaluation.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;On the question “Reasons to Deny LLM Consciousness?” six factors are examined:&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;&lt;strong&gt;Biology&lt;/strong&gt;: The view that consciousness requires carbon-based biology. Since LLMs lack carbon-based biology, they might be considered non-conscious. This view is related to the belief that consciousness necessitates specific electrochemical processes absent in silicon-based systems. Chalmers has argued against this view in previous work.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Senses and Embodiment&lt;/strong&gt;: The idea that consciousness requires sensory input and embodiment, which might support the claim that LLMs cannot be conscious.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;World-Models and Self-Models&lt;/strong&gt;: The belief that consciousness requires a world model and a self-model, which could support the argument that LLMs lack consciousness.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Recurrent Processing&lt;/strong&gt;: The notion that consciousness requires recurrent processing, which might reinforce the claim that LLMs are non-conscious.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Global Workspace&lt;/strong&gt;: The theory that consciousness involves a global workspace, potentially supporting the view that LLMs lack consciousness.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Unified Agency&lt;/strong&gt;: The idea that consciousness requires unified agency, which could support the argument that LLMs are non-conscious.&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;These factors are crucial considerations in evaluating whether LLMs could possess consciousness. Chalmers carefully assesses these factors to explore the current evidence for LLM consciousness.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;2-neuroscientific-perspectives&quot;&gt;2. Neuroscientific Perspectives&lt;/h2&gt;
+
+&lt;p&gt;→ &lt;em&gt;(The Feasibility of Artificial Consciousness through the Lens of Neuroscience, by Jaan Aru)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The paper “The feasibility of artificial consciousness through the lens of neuroscience” examines the possibility of AI (LLM) and AI systems achieving consciousness from a neuroscientific perspective. The authors argue that current AI systems lack the substantial experiences and complex neural structures critical to consciousness. They also suggest that the unique organizational complexity and biological processes found in living beings are not replicated in AI, making it difficult for AI to achieve consciousness with current technology and theory. While AI may mimic aspects of consciousness, actual conscious experience is unlikely given the current technological and theoretical limitations.&lt;/p&gt;
+
+&lt;p&gt;Summary&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;LLMs have a very limited and impoverished Umwelt compared to their biological counterparts, meaning they perceive only a “fragment” of the external world.&lt;/li&gt;
+  &lt;li&gt;Despite their highly developed topological structures, LLMs fundamentally differ from the neurobiological circuits associated with mammalian consciousness. Thus, there is insufficient evidence to conclude that LLMs could possess phenomenal consciousness.&lt;/li&gt;
+  &lt;li&gt;It may be impossible to separate consciousness from the complex organizational structure of living systems, a complexity AI systems notably lack. Therefore, the likelihood of current LLMs achieving consciousness is very low.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;3-computer-science-perspectives-computational-functionalism&quot;&gt;3. Computer Science Perspectives: Computational Functionalism&lt;/h3&gt;
+
+&lt;p&gt;→ &lt;em&gt;(Consciousness in Artificial Intelligence: Insights from the Science of Consciousness, by Patrick Butlin et al.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The paper “Consciousness in Artificial Intelligence: Insights from the Science of Consciousness” explores the scientific approach to determining whether AI systems can possess consciousness. The paper presents methods to evaluate AI consciousness based on neuroscientific theories of consciousness. It reviews various theories of consciousness, such as recurrent processing theory, global workspace theory, higher-order theories, and examines how these theories might apply to AI. The authors conclude that while it is difficult to assert that current AI systems are conscious, it is not technically impossible to build AI systems that meet the criteria indicative of consciousness.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Key Theories of Consciousness&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;The paper reviews the following major theories of consciousness:&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;&lt;strong&gt;Recurrent Processing Theory&lt;/strong&gt;: This theory suggests that consciousness is linked to recurrent processing in the brain, where information is repeatedly circulated among different brain regions.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Global Workspace Theory&lt;/strong&gt;: This theory posits that consciousness arises from information processing in a central system within the brain, the “global workspace,” where information from various brain regions is integrated and processed consciously.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Higher-Order Theories of Consciousness&lt;/strong&gt;: These theories argue that consciousness involves awareness of one’s mental states, including the ability to reflect and think about one’s experiences.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Perceptual Reality Monitoring Theory&lt;/strong&gt;: This theory explores how an organism perceives the external world and how this perception relates to conscious experience.&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;The paper explores how these theories could apply to AI consciousness and evaluates the strengths and limitations of each. It does not claim that any one theory is essential or sufficient for consciousness but considers multiple theories to explore AI consciousness.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Comprehensive Analysis of AI Consciousness&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;The main points are:&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;&lt;strong&gt;Exploration of Consciousness Theories&lt;/strong&gt;: The paper reviews various theories of consciousness, such as recurrent processing theory, global workspace theory, higher-order theories, and perceptual reality monitoring theory, and explores how these theories could apply to AI consciousness. The strengths and limitations of these theories are evaluated, with no single theory deemed essential or sufficient for consciousness.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Implementing Consciousness Indicators in AI&lt;/strong&gt;: The paper discusses how to implement characteristics in AI systems that could indicate consciousness.&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/7.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;&lt;strong&gt;Case Studies&lt;/strong&gt;: The paper presents case studies, such as the ‘Perceiver’ architecture and the ‘Virtual Mouse’ model, to demonstrate how indicators of global workspace theory and embodied agency might be implemented in AI systems. These case studies illustrate how to identify and evaluate indicators of consciousness in current AI systems.&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;Overall, this paper provides critical criteria and insights for exploring AI consciousness through scientific theories and practical case studies. It sheds light on the current understanding of AI consciousness and its technical limitations, laying the groundwork for future research directions.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;4-embodied-cognitivism&quot;&gt;4. Embodied Cognitivism&lt;/h3&gt;
+
+&lt;p&gt;→ &lt;em&gt;(Artificial Consciousness: A Perspective from the Free Energy Principle, by Wanja Wiese)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;algorithm--device&quot;&gt;Algorithm + Device&lt;/h4&gt;
+
+&lt;p&gt;The paper “Artificial consciousness: A perspective from the free energy principle” explores the feasibility of artificial consciousness through the Free Energy Principle (FEP). The study questions whether computer simulations can replicate consciousness and whether artificial consciousness is possible through correct computation alone. The author argues that while certain properties of self-organizing systems (like living organisms) can be implemented in artificial systems, classical computer architectures do not support the realization of these properties. Specifically, the paper draws a distinction between systems that merely simulate these properties and those that can genuinely replicate consciousness. The study contributes to the metaethical considerations of artificial moral status and moral agency.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Limitations of Classical Computer Architectures&lt;/p&gt;
+
+    &lt;p&gt;The claim that artificial consciousness cannot be realized through classical computer architectures is based on the Free Energy Principle (FEP). According to this principle, causal flow—a property critical to self-organizing systems (e.g., living organisms)—is essential for generating complex phenomena like consciousness.&lt;/p&gt;
+
+    &lt;p&gt;Classical computer architectures (e.g., Von Neumann architecture) are not capable of adequately implementing or replicating this causal flow. As a result, these systems might be suitable for simulating consciousness, but they fall short of genuinely replicating or generating it. This limitation suggests that systems based on classical computer architectures are unlikely to achieve artificial consciousness.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Artificial Moral Status and Agency&lt;/p&gt;
+
+    &lt;p&gt;The paper also addresses the implications of artificial consciousness for Artificial Moral Status and Artificial Moral Agency:&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;&lt;strong&gt;Determining Moral Status&lt;/strong&gt;: If artificial systems can possess consciousness similar to humans, they may no longer be seen merely as tools but as morally significant entities. This could lead to discussions on whether AI or robots should be granted certain rights or protections.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Recognition of Moral Agency&lt;/strong&gt;: If artificial systems possess consciousness, they may be capable of making moral decisions beyond merely following programmed instructions. This raises questions about whether AI should be recognized as moral agents, capable of making ethical judgments and bearing responsibility for those decisions.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Expansion of Metaethical Considerations&lt;/strong&gt;: This perspective aids in exploring the fundamental ethical questions regarding the moral status and agency of artificial systems. If AI systems achieve consciousness similar to humans, it prompts a deep discussion on what moral rights and responsibilities should be granted to them.&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;This perspective contributes to understanding artificial consciousness in the context of ethical considerations, providing a new dimension to the debate on the moral status and agency of artificial systems.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;5-conclusion&quot;&gt;5. Conclusion&lt;/h1&gt;
+
+&lt;h2 id=&quot;51-research-attempts&quot;&gt;5.1 Research Attempts&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-feeling-machines-and-consciousness-machines-based-on-damasios-theory&quot;&gt;1. Feeling Machines and Consciousness Machines Based on Damasio’s Theory&lt;/h3&gt;
+
+&lt;p&gt;In 2019, a paper titled “Homeostasis and Soft Robotics in the Design of Feeling Machines” was published in Nature’s &lt;em&gt;Machine Intelligence&lt;/em&gt; journal. Based on the famous neuroscientist Antonio Damasio’s theory, the paper explored the possibility of creating machines that could experience feelings grounded in the principle of homeostasis. The proposed machine would be capable of (1) displaying behavior similar to feelings, (2) improving functionality in various environments, and (3) providing a platform for studying consciousness, intelligence, and feelings.&lt;/p&gt;
+
+&lt;p&gt;They connected consciousness to feelings, stating:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“We must add that, in our conceptualization, feelings are of necessity conscious, and play a critical role in the machinery of consciousness.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;2-consciousness-theory-and-artificial-consciousness-based-on-the-free-energy-principle&quot;&gt;2. Consciousness Theory and Artificial Consciousness Based on the Free Energy Principle&lt;/h3&gt;
+
+&lt;p&gt;Recently, Mark Solms, in his book &lt;em&gt;The Hidden Spring (2021)&lt;/em&gt; and related papers, established a theory of consciousness based on Karl Friston’s Free Energy Principle. He emphasized that the origins of consciousness are linked to feelings and homeostasis, drawing on Jaak Panksepp and Antonio Damasio’s theories. Solms even suggested that this theory could address the hard problem of consciousness. In his book, he proposes specific steps for implementing artificial consciousness.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Steps for Implementing Artificial Consciousness:
+    &lt;ol&gt;
+      &lt;li&gt;Implementing artificial self-organizing systems from the primordial soup of a Markov blanket; creating primitive intentionality.&lt;/li&gt;
+      &lt;li&gt;Implementing precursors of affect; physically embodying and creating homeostasis—replacing natural selection processes with evolutionary computing.&lt;/li&gt;
+      &lt;li&gt;Implementing affective systems; creating self-preservation through the regulation of precision weights.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Evaluating Artificial Consciousness:
+→ Proposes using artificial interventions, such as artificial lesions and stimulations, and applying behavioral/pathological cross-verification approaches to assess artificial consciousness.
+→ Acknowledges that due to the problem of other minds, the Turing test alone is insufficient to determine artificial consciousness.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ethical and Practical Issues&lt;/p&gt;
+
+    &lt;p&gt;→ If the system can experience feelings like pain and suffering, it falls under the jurisdiction of moral value judgment.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;“Should conscious machines have the right to ‘life’ and liberty? In fact, the concept of ‘robot rights’ has already been established and considered by the Institute for the Future and the UK Department for Business, Energy, and Industrial Strategy.”&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;→ Could a computer possessing high intelligence and consciousness &lt;em&gt;simultaneously&lt;/em&gt; desire to act in ways that are not in humanity’s best interest?&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;The results of artificial consciousness research could be more dangerous than current AI technologies that only possess intelligence.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Why Pursue This Despite the Risks&lt;/p&gt;
+
+    &lt;p&gt;→ “If it can be done. In other words, if consciousness can be created in principle, it will happen somewhere, sometime. This prediction holds true regardless of the validity of the specific hypotheses presented in this book. My responsibility lies in the current hypothesis and its likelihood. If they are indeed correct, or at least on the right track, then the creation of artificial consciousness is imminent. Soon, some of these hypotheses will be used to design and create consciousness.”&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Almost every piece of evidence leading to the conclusions in this book—almost all of it—has been publicly available for years. While many neuroscientists interpret these facts differently from me, others have reached very similar conclusions. Although each emphasizes different aspects and expresses them with different nuances, Jaak Panksepp, Antonio Damasio, and Björn Merker all converge on the following points: (1) Consciousness arises in the upper brainstem, (2) Consciousness is fundamentally affective, and (3) It is an extended form of homeostasis. When these facts are combined, it becomes clear that consciousness is not as complex as previously thought. Therefore, it is reasonable to expect that we can design it. (4) The Free Energy Principle is the only major addition to the conclusions of this book. It is also not inherently complex; in fact, its major appeal lies in reducing almost all mental and neural processes to a single mechanism, making them computable.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;52-corporate-efforts&quot;&gt;5.2 Corporate Efforts&lt;/h2&gt;
+
+&lt;p&gt;Recently, Verses.AI, a Canadian cognitive computing company where world-renowned neuroscientist Karl Friston is involved, announced plans to implement an Artificial Sentient Agent by the end of 2025. The advent of machines with consciousness is expected to arrive soon, with the importance of such developments growing rapidly alongside advancements in AGI/Human-Level AI technology.&lt;/p&gt;
+
+&lt;p&gt;They also project that by the winter of 2025, they will successfully implement Sentient Agents.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/8.png&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I emphasize the technical, social, and ethical importance of consciousness research and argue for the need for further active research in this field.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+                <pubDate>Thu, 14 Dec 2023 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/AI,-Robot,-and-Consciousness-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/AI,-Robot,-and-Consciousness-en/</guid>
+                
+                <category>AI</category>
+                
+                <category>Robotics</category>
+                
+                <category>Consciousness</category>
+                
+                <category>Philosophy of Mind</category>
+                
+                <category>Neuroscience</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
+        
+            <item>
                 <title>감정의 과학</title>
                 <description>&lt;blockquote&gt;
   &lt;p&gt;What would we feel without emotions? It would be empty. 과학은 왜Why라는 질문에 답하지 않는다. 어떻게How라는 질문에 답할 뿐이다.&lt;/p&gt;
@@ -1330,6 +2030,55 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
                 <category>신경과학</category>
                 
                 <category>진화</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>The Science of Emotions</title>
+                <description>&lt;blockquote&gt;
+  &lt;p&gt;What would we feel without emotions? It would be empty. Science doesn’t answer the question of &lt;em&gt;why&lt;/em&gt;, only &lt;em&gt;how&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/65e2qScV_K8?si=3Bf6Ej3_XNieXerV&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;1-the-minds-of-animals&quot;&gt;1. The Minds of Animals&lt;/h3&gt;
+
+&lt;p&gt;→ Can neuroscience help us study the emotions of animals?&lt;/p&gt;
+
+&lt;p&gt;Research has revealed that various animals, such as chickens, dogs, and cats, also experience emotions. Interestingly, these &lt;strong&gt;primitive emotions&lt;/strong&gt; are found to originate not in the &lt;em&gt;cerebral cortex&lt;/em&gt;, where human thinking and planning occur, but in much older brain structures.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;↔ How do we address the issue of understanding the minds of others?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-primitive-emotions&quot;&gt;2. Primitive Emotions&lt;/h3&gt;
+
+&lt;p&gt;→ Animals possess qualitatively different primitive emotions. Here are some everyday expressions of these affective emotions.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot; style=&quot;width: 100%;&quot;&gt;
+  &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-23-The Science of Emotions/231123_0.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;3-the-brains-opioids&quot;&gt;3. The Brain’s Opioids&lt;/h3&gt;
+
+&lt;p&gt;→ The activation of PANIC emotions may be central to the psychological pain that leads to depression. Studies on birds and chimpanzees have shown that our brains release opioid-like substances when in contact with a mother.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-new-concepts&quot;&gt;4. New Concepts&lt;/h3&gt;
+
+&lt;p&gt;→ These findings suggest that prescribing safer opioid-based medications (with lower addiction potential and stronger effects) could improve conditions for depression patients, potentially preventing suicide.&lt;/p&gt;
+
+&lt;p&gt;→ Similarly, experiments related to SEEKING and PLAY could enhance human passion and foster positive interpersonal relationships.&lt;/p&gt;
+</description>
+                <pubDate>Thu, 23 Nov 2023 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/The-Science-of-Emotions-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/The-Science-of-Emotions-en/</guid>
+                
+                <category>Emotions</category>
+                
+                <category>Neuroscience</category>
+                
+                <category>Evolution</category>
                 
                 
                 <category>Motivation</category>
@@ -1416,6 +2165,90 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
             </item>
         
             <item>
+                <title>Do the Math on the Mind</title>
+                <description>&lt;blockquote&gt;
+  &lt;p&gt;Can Mathematics Understand the Brain?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jYP3crI0wpc?si=iWnZu6rq20dWniPI&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://goriely.com/&quot;&gt;Alain Goriely&lt;/a&gt; is a professor of mathematical modeling at the Oxford Mathematical Institute, with a research focus on the human brain and its development. He has primarily studied morphogenesis in the brain, and in the video above, he explores the brain from the perspective of industrial and applied mathematics. Specifically, the video covers (1) the scaling laws of weight and cortical surface area in the brain, (2) modeling cortical folding patterns through morphogenesis, (3) solving issues related to hydrocephalus and brain edema, and (4) offering new insights into neurodegenerative diseases through diffusion modeling based on brain network models.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Goriely’s perspective on applied mathematics is particularly fascinating. He explains that applying abstract mathematics to real-world problems involves both theory and method. For example, methods may include equations, matrices, data analysis, and computational algorithms, while theories may draw on established frameworks from physics, science, engineering, and economics. According to Goriely, applied mathematics is about appropriately setting theory and methods through abstract mathematics to solve practical problems.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;So how should we approach the practical challenge of developing a brain theory that explains human phenomenological consciousness? We cannot fully capture experiential information through experiments alone. However, by leveraging communication and introspective descriptions from subjects, we can obtain data, and through imaging, we can observe the neural activities corresponding to these experiences. What kind of mathematics should we employ, and what theories and methods should we apply in modeling this? Such questions may seem futile without considering potential answers. In other words, if we do solve this problem, what would that allow us to achieve?&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/3.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The Australian philosopher David Chalmers once defined problems related to human phenomenological consciousness as either the “easy problems,” concerning how the brain perceives, recognizes, learns, and acts, or the “hard problem,” concerning why and how these processes are connected to consciousness. The problem we’ve defined differs somewhat from these categories. We approach it from a more scientific perspective rather than a metaphysical one. In this context, our earlier question challenges the possibility of developing a theory that biologically explains, predicts, and controls phenomenological consciousness and experience. This falls under Anil Seth’s “Real Problem,” aiming to mathematically describe (Dynamic), analyze (Mechanic), and explain (Principle) the fundamental workings of conscious content and states.&lt;/p&gt;
+
+&lt;h1 id=&quot;future&quot;&gt;Future&lt;/h1&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/5.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;What does it mean to mathematically describe the state of consciousness? Consider how we describe the state of motion in mechanics. We use variables like position, velocity, and acceleration to describe the center of mass and point masses, or we introduce the concept of energy to derive results when describing the motion of an object. Similarly, in statistical mechanics, we describe the state of a gas by using statistical properties such as temperature, pressure, and volume, rather than describing each gas molecule individually. This approach to description establishes the core terms of a theory for the state of the physical system being described. It also provides conversion rules between different perspectives, helping to align different understandings of a common subject. This descriptive approach may be inherently perspectivist and social in nature.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Questions&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What are the key physical variables needed to describe the state of consciousness?&lt;/li&gt;
+  &lt;li&gt;What characteristics do these variables possess?&lt;/li&gt;
+  &lt;li&gt;Are there logical rules these variables must satisfy? In what mathematical space should the theory be developed?&lt;/li&gt;
+  &lt;li&gt;What are the most effective ways to visualize this information?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What does it mean to explain the state of consciousness? In mechanics, to explain the motion of an object, we must present causal relationships between the variables involved. In statistical mechanics, to explain the state of a gas, we consider the statistical causality among the statistical variables to present the relationships between past, present, and future states. This explanation involves establishing causal or quasi-causal relationships among the variables we’ve refined and using these to derive new knowledge. It involves reasoning, using methods such as deduction, induction, and abduction. The content of such explanations should effectively answer related questions like:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Questions&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Can the presence or absence of consciousness be verified or quantified?
+    &lt;ul&gt;
+      &lt;li&gt;Consciousness in animals/machines&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Can the content of consciousness be expressed or compared?
+    &lt;ul&gt;
+      &lt;li&gt;Comparing one’s own conscious content&lt;/li&gt;
+      &lt;li&gt;Comparing one’s conscious content with that of others&lt;/li&gt;
+      &lt;li&gt;Comparing oneself with objects/others&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Can we upload/download parts or all of our consciousness to/from a computer?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <pubDate>Sat, 04 Nov 2023 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/Do-math-about-brain-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Do-math-about-brain-en/</guid>
+                
+                <category>Mathematics</category>
+                
+                <category>Brain</category>
+                
+                <category>Science</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
+        
+            <item>
                 <title>딥마인드의 뒷이야기</title>
                 <description>&lt;blockquote&gt;
   &lt;p&gt;딥마인드같은 회사는 어떻게 만들어졌는가?&lt;/p&gt;
@@ -1458,6 +2291,55 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
                 <category>성공</category>
                 
                 <category>비즈니스</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>The Story Behind DeepMind</title>
+                <description>&lt;blockquote&gt;
+  &lt;p&gt;How was a company like DeepMind created?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;→ In 2010, a genius scientist named Demis Hassabis founded the company.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hassabis, born in 1976, is a British AI researcher, computer scientist, neuroscientist, and gamer.&lt;/li&gt;
+  &lt;li&gt;He became a chess master at the age of 13 and started developing games at 17.&lt;/li&gt;
+  &lt;li&gt;Between the ages of 17 and his university entrance, he took a gap year working at a game company to fund his education.&lt;/li&gt;
+  &lt;li&gt;In 1997, at the age of 21, he graduated from Cambridge University.&lt;/li&gt;
+  &lt;li&gt;After graduation, he worked as the lead AI programmer at a game company called Lionhead.&lt;/li&gt;
+  &lt;li&gt;In 1998, he founded a video game development company called Elixir Studios, retiring in 2005.&lt;/li&gt;
+  &lt;li&gt;In 2009, he earned a PhD in cognitive neuroscience from UCL and served as a visiting scientist at MIT.
+→ His early research focused on imagination, memory, and amnesia.&lt;/li&gt;
+  &lt;li&gt;In 2010, he founded the machine learning startup DeepMind.
+    &lt;blockquote&gt;
+      &lt;p&gt;“Solve Intelligence to Solve Everything Else”
+→ Today, the company is focused on creating Artificial General Intelligence (AGI).&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;why-did-google-acquire-deepmind&quot;&gt;Why did Google acquire DeepMind?&lt;/h3&gt;
+
+&lt;p&gt;→ In 2014, Google acquired DeepMind for approximately $600 million.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;At the time, the company had only about 50 employees.&lt;/li&gt;
+  &lt;li&gt;Moreover, their one-page website featured only a vague description: “Cutting-edge artificial intelligence company.”&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <pubDate>Thu, 02 Nov 2023 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/DeepMind-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/DeepMind-en/</guid>
+                
+                <category>Artificial Intelligence</category>
+                
+                <category>Success</category>
+                
+                <category>Business</category>
                 
                 
                 <category>Motivation</category>
@@ -1524,8 +2406,86 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
             </item>
         
             <item>
-                <title>사라진 잠수함을 찾아라</title>
+                <title>Reflection on &quot;Siddhartha&quot;</title>
                 <description>&lt;blockquote&gt;
+  &lt;p&gt;Siddhartha, by Hermann Hesse: &lt;strong&gt;A Journey of Wandering and Crisis, Focused on Hesse’s Life&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;key-sections&quot;&gt;Key Sections&lt;/h3&gt;
+
+&lt;aside&gt;
+📝 … Whether this world is good or evil, whether life in this world is painful or joyful, I will no longer discuss. Perhaps these are not the essential questions. But the unity of this world, the interconnectedness of all events, the way everything, great and small, follows the same flow and law of creation and destruction—this is made clear by your noble teachings. … However, according to these same teachings, there is a break in this unity and continuity. Through a small gap, something foreign, something new, something that has not existed before and cannot be presented or proven, enters this unified world. … (Conversation with Buddha; Siddhartha&apos;s Counterargument)
+&lt;/aside&gt;
+&lt;aside&gt;
+📝 Only one who has delved deep into their own inner being can look with such sincerity and walk such a path. Very well, I will explore to the ultimate depths of my own being … I will no longer lower my eyes before any other person. … This man&apos;s teachings could not tempt me, and no teaching will tempt me ever again. (Siddhartha&apos;s Enlightenment)
+&lt;/aside&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Siddhartha, reflecting on the origins of Gautama Buddha’s enlightenment, realizes that the origin lies in Buddha’s own experiences—his first-person experience. Buddha’s teachings, therefore, are based on something that cannot be presented or proven. Consequently, Siddhartha realizes that Buddha’s enlightenment cannot be transferred to him in its entirety, leading him to challenge Buddha. Ultimately, Siddhartha embraces the importance of personal experience and begins his journey of self-discovery.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;aside&gt;
+📝 … As Siddhartha walked slowly, he pondered the feelings that filled him entirely. Like sinking into deep water, he descended to the very bottom of these emotions, where the cause resided. He believed that recognizing the cause was the essence of thought. Only then could emotions transform into understanding, not by disappearing, but by becoming something fundamental, something that begins to radiate its inner truth.
+&lt;/aside&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;aside&gt;
+📝 If someone reads a text and seeks its meaning, they do not disregard the symbols and letters. They do not dismiss them as illusions, coincidences, or worthless shells. Instead, they read, savor, and cherish each letter. But I, in trying to read the book of this world and the book of my own essence, disregarded the symbols and letters in order to match a preconceived notion of meaning. I called the phenomenal world an illusion, and I dismissed my eyes and tongue as meaningless, accidental phenomena. But no, that is over. I have awakened. Truly awakened, and today, I have been born anew. …
+&lt;/aside&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;These passages express Siddhartha’s deep understanding of emotions and self, revealing his insights into the essence of feelings and the realization of phenomena. He delves into the core of emotions, recognizing that understanding them causes them to radiate their true nature. Furthermore, in terms of self-concept, he discovers that even if experiences are mere illusions or coincidences, they are still worth savoring and cherishing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;↔ How does this relate to Anil Seth’s concept of consciousness as “controlled hallucination”?&lt;/p&gt;
+
+&lt;p&gt;Even if it is so, to find its meaning, it must be fully savored and loved.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Life contains no inherent happiness, sorrow, success, or failure. These concepts require standards and evaluation. They exist solely within the experience of living “I.” No third party can truly empathize with or evaluate my life. Common standards or public opinions are nothing but illusions, mere misconceptions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Let us clearly distinguish between the aspects of life we can control and those we cannot. While this is the most challenging task, focusing solely on the controllable aspects will clarify how to navigate life. The beginning and momentum of my life lie in faith, and it is this faith that determines the direction and trajectory of the arrow that is my life.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+                <pubDate>Wed, 01 Nov 2023 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/Siddhartha-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Siddhartha-en/</guid>
+                
+                <category>Literature</category>
+                
+                <category>Religion</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>사라진 잠수함을 찾아라</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;blockquote&gt;
   &lt;p&gt;사라진 잠수함을 찾아라: &lt;strong&gt;북한의 핵위협과 대잠전의 중요성을 중심으로&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -1666,6 +2626,174 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
                 <category>인공지능</category>
                 
                 <category>무기체계</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
+        
+            <item>
+                <title>Find the Missing Submarine</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Find the Missing Submarine: Focusing on North Korea’s Nuclear Threats and the Importance of Anti-Submarine Warfare&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Modern art performance by Italian artist Sven Sachsalber - Finding a needle in a haystack&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In Korea, there is a saying, “Searching for a needle in a sand dune,” akin to the English phrase, “Looking for a needle in a haystack.” Both expressions illustrate the daunting task of finding something nearly impossible. The striking similarity in these expressions from different cultures highlights a common understanding of the absurdity in pursuing such tasks.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In our daily lives, situations often arise that feel as hopeless as these proverbial searches. Imagine you’ve had a heavy night of drinking, and upon waking, you realize you’ve overslept and are late for work. Your car keys are nowhere to be found, and you can’t recall where you left them. How do you find them? Or consider a more serious scenario: you’ve taken your child to a crowded amusement park, and in the throng of people, you lose their hand. How would you go about finding your child?&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/3.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Tasks that seem nearly impossible don’t only occur in everyday life but also on a societal and national scale, particularly in warfare. For instance, search and rescue (SAR) operations are crucial for locating and saving individuals lost in mountains or at sea. These operations span diverse environments, including urban settings, battlefields, air, and sea. If you recall the Sewol Ferry disaster, you’ll understand the vital importance of swift and effective responses. For the U.S. Coast Guard, SAR missions are among the oldest and most critical duties they perform.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/4.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Recently, North Korea has been developing submarine-launched ballistic missiles (SLBMs), capable of carrying intercontinental ballistic missiles. These pose a threat not only to South Korea but also to allied territories, including the United States. The fact that these missiles can be launched from hidden submarines makes the situation even more dire. Searching for and preemptively neutralizing a submarine in the vast ocean is truly a “needle in a haystack” situation. However, history shows that such desperate situations have been overcome before. Let’s explore these cases and consider the potential for future search operations.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-introduction&quot;&gt;1. Introduction&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-the-2022-defense-white-paper&quot;&gt;(1) The 2022 Defense White Paper&lt;/h3&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/5.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;According to South Korea’s 2022 Defense White Paper, preparations are underway to counter the escalating nuclear missile threats posed by North Korea, particularly concerning the five major defense tasks. In response, South Korea is enhancing surveillance and reconnaissance assets in collaboration with the U.S. and Japan, focusing on pre- and post-launch strategies. However, ongoing conflicts, such as the Ukraine-Israel and Russia-Ukraine wars, have lowered the nuclear threshold and diminished the significance of denuclearization. North Korea continues to advance its SLBM and submarine technologies, shifting from a minimal deterrence strategy to a limited deterrence strategy, heightening the threat level. Experts warn that South Korea could be held “nuclear hostage,” suffering various socio-economic and cultural impacts.&lt;/p&gt;
+
+&lt;p&gt;South Korea’s military is preparing to counter these threats through the Kill Chain, KAMD, and KMPR three-axis systems. The Kill Chain and KAMD aim to showcase a “denial deterrence” strategy by preemptively tracking and neutralizing nuclear missiles. The KMPR warns of massive retaliatory strikes in response to North Korean nuclear attacks, a “punitive deterrence” strategy. However, North Korea is focusing on developing submarines and SLBM technologies with high stealth and survivability. Can the three-axis system effectively counter the more threatening SLBM?&lt;/p&gt;
+
+&lt;h3 id=&quot;2-specifications-of-north-koreas-submarines-and-nuclear-missiles&quot;&gt;(2) Specifications of North Korea’s Submarines and Nuclear Missiles&lt;/h3&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/6.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;North Korea has advanced its submarine technology through reverse engineering and assistance from major allies like Russia and China. Historically, this development has progressed from the Whiskey-class to the Romeo-class, the Shark-class, and the Yugo-class. However, all of these are small diesel submarines, noisy and too small to carry lightweight SLBMs. North Korea’s SLBMs are mainly deployed on the Sinpo-class submarines or possibly on nuclear-powered submarines currently under development. (North Korea’s missile miniaturization technology is believed to be world-class.) It is reported that North Korea is fully committed to advancing its submarine and nuclear missile technologies.&lt;/p&gt;
+
+&lt;p&gt;The currently developed nuclear missiles are estimated to have a range of 15,000 km, potentially threatening not only South Korea but also parts of the U.S. mainland. The ballistic nature of these missiles, coupled with their high speed and low radar cross-section (RCS), makes detection extremely difficult. By 2017, North Korea successfully tested the underwater launch of an SLBM and has since operationalized it.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-the-importance-of-anti-submarine-warfare&quot;&gt;(3) The Importance of Anti-Submarine Warfare&lt;/h3&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/7.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;SLBMs pose a significant threat not only to the Korean Peninsula but to all nations globally. Therefore, to counter SLBMs, it is crucial to effectively use surveillance and reconnaissance assets to establish pre- and post-launch readiness. Anti-submarine warfare (ASW) typically involves using submarines, destroyers, and patrol aircraft, and is structured in seven stages: detection, classification, identification, tracking, command, decision, and response. To counter the continental powers of North Korea, China, and Russia, the maritime powers of South Korea, the U.S., and Japan have formed an alliance. Since 2016, joint exercises have been conducted to counter ASW. To address the shortage of reconnaissance assets, the South Korean military is focusing on developing next-generation destroyers and submarines while also showing interest in future-oriented technologies like unmanned underwater vehicles.&lt;/p&gt;
+
+&lt;p&gt;As submarine and SLBM technologies become more advanced, the importance of ASW continues to rise. Moreover, from a command and control perspective, it is necessary to overhaul existing doctrines to ensure the effective use of collected information for more efficient operations. However, merely increasing the scale of reconnaissance assets or collecting vast amounts of information is risky. We must consider how to make effective decisions based on these assets and information. Leveraging advanced technologies from the Fourth Industrial Revolution within the U.S. C4ISR (Command, Control, Communication, Computer, Intelligence, Surveillance, &amp;amp; Reconnaissance) framework will be crucial.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-main-body&quot;&gt;2. Main Body&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-koopmans-u-boat-search-operations-during-world-war-ii&quot;&gt;(1) Koopman’s U-Boat Search Operations during World War II&lt;/h3&gt;
+
+&lt;table&gt;
+ &lt;tr&gt;
+    &lt;p align=&quot;center&quot;&gt;
+        &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/8.1.png&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
+        &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/8.2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;/p&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;
+  Koopman, a leading scientist of his time, established “Search Theory” to locate German U-boats during World War II. This research laid the foundation for modern Operations Research, a field that supports efficient decision-making through mathematical techniques, primarily involving statistics and mathematical modeling. Koopman’s theory focused on stationary targets and established three primary types of search theories.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-the-1966-palomares-search-operation&quot;&gt;(2) The 1966 Palomares Search Operation&lt;/h3&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/9.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;During the Cold War, the U.S. carried out the Chrome Dome operation, where B-52 strategic bombers carrying four hydrogen bombs flew over the Arctic Ocean 24 hours a day. During one of these missions, a refueling mishap caused an explosion, resulting in the loss of the bombs. While three bombs were quickly recovered, one remained missing, prompting a search operation. The project was led by Craven, a civilian scientist with the Navy, with assistance from Daniel Wagner and his assistant Henry Richardson. However, the operation’s success was limited, ultimately leading to the discovery of the damaged bomb in a Spanish tomato field.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-the-1968-uss-scorpion-search-operation&quot;&gt;(3) The 1968 USS Scorpion Search Operation&lt;/h3&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/10.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;During the Cold War, while working on a deep-sea submarine system project, the U.S. Navy’s submarine USS Scorpion disappeared. Henry Richardson and Lawrence D. Stone were brought in to solve the problem using the Monte Carlo Sampling method and ocean current analysis, developed during the Manhattan Project. Lawrence D. Stone later established the “Optimal Search Theory.”&lt;/p&gt;
+
+&lt;h3 id=&quot;4-the-1976-collision-between-us-voge-and-soviet-k-22&quot;&gt;(4) The 1976 Collision between US Voge and Soviet K-22&lt;/h3&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/11.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Nicholson, who would later become the U.S. Navy’s Mediterranean Commander, requested Henry Richardson’s help in an ASW operation to search for and detect Soviet submarines in the Mediterranean. Using techniques developed from past cases, Richardson created a program that updated data in real-time using computers. The operation, conducted by the USS Voge, successfully detected and tracked a Soviet K-22 submarine. Unable to outrun the destroyer, the submarine collided with the USS Voge and was captured.&lt;/p&gt;
+
+&lt;h3 id=&quot;5-the-2009-air-france-flight-aff447-search-operation&quot;&gt;(5) The 2009 Air France Flight AFF447 Search Operation&lt;/h3&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/12.png&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In 2009, Air France Flight AFF447, en route from Rio de Janeiro to Paris, went missing. Metron Inc., founded by Lawrence D. Stone, was tasked with conducting the search operation. They developed a technique by consulting experts, constructing various scenario sets, and updating probabilities based on the weight of each scenario. The search results were then used to support decision-making by operation personnel.&lt;/p&gt;
+
+&lt;h3 id=&quot;6-the-us-coast-guards-automated-search-and-rescue-program-in-2013&quot;&gt;(6) The U.S. Coast Guard’s Automated Search and Rescue Program in 2013&lt;/h3&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/13.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;When people or assets are lost near the coast, finding and rescuing them quickly is a top priority for the U.S. Coast Guard. An automated program called CASP was proposed by Discenza and later developed into the SAROPS program in 2013, which incorporates real-time ocean current data. This program is known for its high performance, typically locating missing persons within 12 hours, no matter how vast the search area. By combining pre-existing information with ocean currents, the program proposes optimal search strategies.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-conclusion&quot;&gt;3. Conclusion&lt;/h2&gt;
+
+&lt;p&gt;As North Korea continues to advance its SLBM technology and develop submarines with high stealth and survivability, not only South Korea but the entire world is under the stress of being “nuclear hostages.” South Korea is striving to overcome this crisis through its three-axis system and joint operations with the U.S. and Japan. However, practical solutions and advanced technologies are crucial for effectively overcoming these threats.&lt;/p&gt;
+
+&lt;p&gt;Anti-submarine warfare is akin to “finding a needle in a haystack.” However, the efforts made thus far, the information to be gathered in the future, and the key intelligence assets collected through allied forces will be instrumental in developing crucial technologies. The possibility has been proven through past world wars, the Cold War, and modern history. Preliminary research suggests that responding to SLBM-equipped submarines in ASW may not be as impossible as it seems.&lt;/p&gt;
+
+&lt;p&gt;Optimal search technology is more about supporting effective decision-making from a command and control perspective than solving practical problems. Given the few cases where machine learning, IoT, and AI have been integrated into these systems, securing these technologies could enable us to address significant threats in future warfare.&lt;/p&gt;
+</description>
+                <pubDate>Wed, 01 Nov 2023 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/Find-a-missing-submarine-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Find-a-missing-submarine-en/</guid>
+                
+                <category>Decision Theory</category>
+                
+                <category>AI</category>
+                
+                <category>Weapon Systems</category>
                 
                 
                 <category>Meditation</category>
@@ -2798,903 +3926,6 @@ What does human intelligence look like from the perspective of AI?”&lt;/p&gt;
                 
                 
                 <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>의식에 대한 능동추론적 관점</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“최근 Karl Friston의 능동추론이 다양한 뇌의 기능을 설명하는 데 사용되고 있다. 이 프레임워크를 통해 의식을 설명할 수 있지 않을까?”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;이 글은 Lucia Melloni 등의 “Active Inference As a Computational Framework for Consciousness”를 읽고 생각을 정리한 것입니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;i-의식의-이론과-설명의-문제&quot;&gt;I. 의식의 이론과 설명의 문제&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;의식의 수수께끼&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;1990년대 Crick과 Koch는 의식의 신경 상관물(Neural Correlates of Consciousness; NCC)을 활용해 의식을 연구하고자 했다. NCC는 특정 의식 경험을 가능하게 하는 최소한의 필수 신경 메커니즘을 의미한다. 그러나, NCC의 의미나 연구 결과에 대해 합의된 바는 거의 없다. 저자는 이를 ‘설명 문제(Explanandum Problem)’로 지적하며, 의식에 대한 통일된 설명이 부족하다고 말한다.&lt;/p&gt;
-
-&lt;p&gt;의식(Consciousness)은 크게 Arousal/Wakefulness과 같은 상태(State)와, Awareness와 같은 내용(Content)으로 나뉜다. 전자는 fMRI, M/EEG, ECoG 등의 장비를 활용해 연구해왔다. 후자는 현상학적 의식(Phenomenal Consciousness)과 접근 의식(Access Consciousness)으로 구분된다. 현상학적 의식은 주관적 경험의 질적 성질인 Qualia와 관련이 있으며, 접근 의식은 고차 인지 기능을 가능하게 하는 정보 처리 프로세스를 포함한다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-14-AIF and Consciousness/consciousness_classification.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      의식의 두 가지 주요 차원: 의식의 수준(Arousal/Wakefulness)과 의식의 내용(Awareness)
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;State&lt;/strong&gt; of Consciousness: Arousal/Wakefulness
-    &lt;ul&gt;
-      &lt;li&gt;주관적 경험이 가능하거나 불가능한 상태.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Content&lt;/strong&gt; of Consciousness: Awareness
-    &lt;ol&gt;
-      &lt;li&gt;&lt;strong&gt;Phenomenal&lt;/strong&gt; Consciousness:
-        &lt;ul&gt;
-          &lt;li&gt;의식적 경험의 주관적 질.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Access&lt;/strong&gt; Consciousness:
-        &lt;ul&gt;
-          &lt;li&gt;고차 인지를 가능하게 하는 정보 처리 과정.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;현상학적 의식은 그 질적인 성질인 Qualia를 물리적 대상으로 환원할 수 있는지 여부에 따라 David Chalmers의 &lt;a href=&quot;https://en.wikipedia.org/wiki/Hard_problem_of_consciousness&quot;&gt;의식의 어려운 문제(The Hard Problem)&lt;/a&gt;와 같은 논의가 이루어진다. 한편, Giulio Tononi의 &lt;a href=&quot;https://en.wikipedia.org/wiki/Integrated_information_theory&quot;&gt;통합정보이론(Integrated Information Theory; IIT)&lt;/a&gt;은 거시적 규모의 동역학을 연구해 현상학적 의식을 설명하려 한다. 접근 의식의 경우, 피실험자의 주관적 경험 보고나 특정 인지 기능의 발현을 유도하는 자극을 통해 연구된다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“이처럼 의식 연구에는 다양한 패러다임이 혼재되어 있으며, 각 패러다임은 서로 다른 측면의 의식을 다룬다. 이러한 혼란을 능동추론이 해결하고 통합적인 설명을 제공할 수 있을까?”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;ii-프로세스-이론을-위한-프레임워크로서의-능동추론&quot;&gt;II. 프로세스 이론을 위한 프레임워크로서의 능동추론&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;자유 에너지 원리(Free Energy Principle)&lt;/strong&gt;는 “모든 생물학적 에이전트는 생존을 위해 장기적인 surprise를 최소화하려 한다”는 원리다. 이 원리는 공리적이고 자명해 보이지만, 과학적 이론으로는 반증 불가능하다는 한계가 있다. 대신, 규범적 이론(Normative Theory)으로 간주할 수 있다. 규범적 이론은 실증적 이론과 달리, 사실뿐 아니라 가치 판단을 포함한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;예측 프로세싱(Predictive Processing)&lt;/strong&gt;은 “두뇌가 Bayesian Inference 메커니즘을 활용해 경험에 기반한 추론을 통해 surprise를 최소화한다”는 가설이다. 예측 오차(Prediction Error)는 자유 에너지로 해석될 수 있으며, 두뇌는 계층적 구조를 통해 이러한 오차를 최소화하려 한다. 이를 위해 (1) 지각(Perception)과 (2) 행동(Action)을 통해 예측 오차를 줄인다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;능동 추론(Active Inference)&lt;/strong&gt;은 예측 프로세싱의 관점을 확장해, 현재뿐만 아니라 과거와 미래에 대해서도 이야기한다. 단순히 surprise를 최소화하는 것이 아니라, 그 기댓값(Expectation)을 최소화하려는 것이다. 이는 (1) 실천적 행동(Exploitation)과 (2) 인식론적 행동(Exploration)을 통해 이루어진다. 이러한 과정은 belief의 정확성과 신뢰도를 추정하는 과정으로도 간주될 수 있다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;iii-의식에-대한-능동추론의-설명&quot;&gt;III. 의식에 대한 능동추론의 설명&lt;/h1&gt;
-
-&lt;p&gt;예측 코딩(Predictive Coding) 관점에서 의식의 일부 기능을 설명하는 연구는 &lt;a href=&quot;https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2011.00395/full&quot;&gt;Anil Seth(2012)(의식의 현상학적 성질)&lt;/a&gt;이나 &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/30233474/&quot;&gt;Mateusz Wozniak(2018)(자아)&lt;/a&gt;에서 이미 다루고 있어, 이 글에서는 생략한다.&lt;/p&gt;
-
-&lt;p&gt;능동추론의 창시자인 Karl Friston은 의식을 특정 대상(thing)이 아닌, 추론 과정(inferential process)으로 간주한다. 물론 모든 추론 과정이 의식적인 것은 아니다. 오로지 &lt;strong&gt;(1) 시간적으로 두텁고(Temporal Thickness), (2) 반사실적 깊이가 깊은(Counterfactual Depth) 심층 생성 모형의 추론&lt;/strong&gt;만이 의식적이라고 주장한다. 그는 의식이 켜지고 꺼지는 이진적 상태가 아니라, 스펙트럼처럼 연속적인(graded; spectral) 현상이라고 본다.&lt;/p&gt;
-
-&lt;p&gt;의식의 내용에 관해서는, 각 계층의 단계에서 추론된 결과로 나타나는 최대 사후 확률이라는 가설이 있다. 일부 학자들은 사후 확률 계층의 중간 부분이 의식의 내용을 형성한다고도 제안한다. 아직 이 주제에 대한 논란이 있지만, 의식의 내용이 추론된 상태라는 점에는 많은 학자가 동의한다.&lt;/p&gt;
-
-&lt;p&gt;현상학적 성질에 대한 설명에 있어서, 고차 프로세스는 더 추상적이고 오랜 시간 유지되는 반면, 저차원적 raw 데이터는 짧은 시간 동안만 유지된다. 이러한 시간적 차이가 전형적인 감각적 경험, 메타 인지, 주의 집중, 신뢰도 추정 등의 현상을 설명할 수 있을지 기대된다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;iv-의식의-계산적-프레임워크로서-능동추론&quot;&gt;IV. 의식의 계산적 프레임워크로서 능동추론&lt;/h1&gt;
-
-&lt;p&gt;의식 현상을 설명하기 위한 계산 모델을 만드는 데에는 세 가지 주요 어려움이 있다: (1) 의식 연구의 타겟이 여전히 논란의 중심에 있으며, 각 연구 패러다임마다 상이하다. (2) 의식은 오직 1인칭 관점에서만 접근 가능한 주관적 본성을 지닌다. (3) 신경과학적, 행동적 지표와 관련된 연구 결과가 매우 다양하다. 이처럼 의식의 주관적 경험에 대한 통합적 본성 때문에, 아직 능동추론을 활용한 모델이 존재하지 않는다.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;능동추론이 이러한 문제들을 해결하고 통합적인 이론을 제시할 수 있을까?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;완벽한 역학적 모델은 해당 현상을 생성하는 데 필요한 모든 인과적 관계를 특정할 수 있어야 한다. 따라서 실험 데이터를 통해 검증 가능해야 하며, 다양한 수학적/통계적 방법을 적용해 모델의 관련성을 확인할 필요가 있다. 즉, 모델을 검증하기 위해 (1) 실제 실험 데이터와 (2) 방법론적 관행을 적절히 활용해야 한다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;v-앞으로의-과제&quot;&gt;V. 앞으로의 과제&lt;/h1&gt;
-
-&lt;p&gt;능동추론을 기반으로 한 의식의 계산 모델은 아직 초기 단계에 있다. 이러한 모델들은 실험 데이터를 통해 검증될 필요가 있다. 최근 Maxwell Ramstead는 현상학적 데이터와 생성모형을 연결하려는 &lt;strong&gt;계산 현상학(Computational Neuro-phenomenology)&lt;/strong&gt; 시도를 하고 있다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Karl Friston은 2017년 AEON에 “The Mathematics of Mind-Time”이라는 칼럼을 발표한 이후, 의식에 대해 꾸준한 관심을 보여왔다. 그는 Neuropsychoanalyst인 Mark Solms와 함께 position paper를 작성하거나, 자신의 제자인 Maxwell Ramstead와 함께 관련 연구를 지도하고 있다. 의식이라는 개념은 철학적 관점에서도 정의가 다양하기 때문에, 한 가지 프레임워크에서 언어와 개념을 정립하고 담론을 구성하는 이 시도가 학계에서 중요한 사건이 될 수 있을 것으로 생각한다.&lt;/p&gt;
-
-&lt;p&gt;이 논문을 통해 Bayesian Brain Hypothesis에서 출발한 Active Inference가 어떻게 의식을 설명하려고 노력하는지 확인할 수 있었다. 구체적인 모델이 아직 제안되지 않았다는 점에서 이 분야는 매우 도전적이다. 앞으로의 논의와 그 결과가 기대된다.&lt;/p&gt;
-
-&lt;p&gt;한편, 이러한 논의 이전에 Connectionism이 과연 유의미한지 파악할 필요가 있지 않을까 싶다. 정보적으로 homomorphic한 계산 과정이 실제로 물리적 관점에서 의식이나 지적인 현상을 구현할 수 있을지 의문이다. 여러 질문이 떠오르는 좋은 가이드가 되었다. 참조된 논문들을 깊이 읽어봐야겠다.&lt;/p&gt;
-
-&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
-
-&lt;p&gt;[1] &lt;a href=&quot;https://psycnet.apa.org/record/2021-75550-001&quot;&gt;Vilas, M. G., Auksztulewicz, R., &amp;amp; Melloni, L. (2021). Active Inference as a Computational Framework for Consciousness. Review of Philosophy and Psychology, 13(4), 859–878. https://doi.org/10.1007/s13164-021-00579-w&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[2] &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/16271507/&quot;&gt;Adapted from Laureys S (2005) The neural correlate of (un)awareness: Lessons from the vegetative state. Trends in Cognitive Sciences 9: 556–559.&lt;/a&gt;&lt;/p&gt;
-</description>
-                <pubDate>Sun, 14 May 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/AIF-and-Consciousness-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/AIF-and-Consciousness-kr/</guid>
-                
-                <category>의식</category>
-                
-                <category>능동추론</category>
-                
-                <category>신경과학</category>
-                
-                <category>논문</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>An Active Inference Perspective on Consciousness</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Recently, Karl Friston’s active inference framework has been increasingly used to explain various brain functions. Could this framework also provide an explanation for consciousness?”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This post is a reflection on Lucia Melloni et al.’s paper “Active Inference As a Computational Framework for Consciousness.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;i-theories-of-consciousness-and-the-problem-of-explanation&quot;&gt;I. Theories of Consciousness and the Problem of Explanation&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;The Mystery of Consciousness&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In the 1990s, Crick and Koch sought to study consciousness by focusing on Neural Correlates of Consciousness (NCC). NCC refers to the minimal set of neural mechanisms required for a specific conscious experience. However, there is little consensus on the implications or results of NCC research. The authors identify this as the ‘Explanandum Problem,’ highlighting the lack of a unified explanation for consciousness.&lt;/p&gt;
-
-&lt;p&gt;Consciousness can be broadly categorized into state (Arousal/Wakefulness) and content (Awareness). The former has been studied using tools like fMRI, M/EEG, and ECoG. The latter is divided into Phenomenal Consciousness, which relates to the qualitative aspects of subjective experience, and Access Consciousness, which involves the information processing that enables higher cognitive functions.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-14-AIF and Consciousness/consciousness_classification.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      The two major dimensions of consciousness: the level of consciousness (Arousal/Wakefulness) and the content of consciousness (Awareness).
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;State&lt;/strong&gt; of Consciousness: Arousal/Wakefulness
-    &lt;ul&gt;
-      &lt;li&gt;A state in which having a subjective experience is possible or not.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Content&lt;/strong&gt; of Consciousness: Awareness
-    &lt;ol&gt;
-      &lt;li&gt;&lt;strong&gt;Phenomenal&lt;/strong&gt; Consciousness:
-        &lt;ul&gt;
-          &lt;li&gt;The subjective qualities of conscious experience.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Access&lt;/strong&gt; Consciousness:
-        &lt;ul&gt;
-          &lt;li&gt;Processes that enable specific information for higher-level cognition.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The discussion around phenomenal consciousness often involves whether these qualitative aspects, or Qualia, can be reduced to physical entities—a debate exemplified by David Chalmers’ &lt;a href=&quot;https://en.wikipedia.org/wiki/Hard_problem_of_consciousness&quot;&gt;Hard Problem of Consciousness&lt;/a&gt;. Meanwhile, Giulio Tononi’s &lt;a href=&quot;https://en.wikipedia.org/wiki/Integrated_information_theory&quot;&gt;Integrated Information Theory (IIT)&lt;/a&gt; explores the macro-scale dynamics to explain phenomenal consciousness. Access consciousness, on the other hand, is studied through reports of subjective experience or by presenting stimuli that elicit specific cognitive functions in participants.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“As consciousness research involves various paradigms, each focusing on different aspects, could active inference help resolve these discrepancies and provide a unified explanation?”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;ii-active-inference-as-a-framework-for-process-theories&quot;&gt;II. Active Inference as a Framework for Process Theories&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;The Free Energy Principle&lt;/strong&gt; states that “all biological agents minimize long-term surprise to adapt to their environment for survival.” While this principle is axiomatic and self-evident, it is not falsifiable and therefore cannot be considered a scientific theory in the positivist sense. Instead, it is regarded as a normative theory, which differs from positivist theories by incorporating value judgments rather than dealing solely with empirical facts.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Predictive Processing&lt;/strong&gt; builds on the idea that “the brain minimizes surprise by using Bayesian inference mechanisms to make predictions about the world based on past experiences.” Prediction errors, which can be understood as free energy, are minimized by the brain through a hierarchical structure. To reduce prediction errors, the brain can engage in (1) perception to infer about the world or (2) actions to sample the environment.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Active Inference&lt;/strong&gt; extends predictive processing by not only addressing the present but also considering past and future states. Specifically, it seeks to minimize the expected value of surprise rather than just surprise itself. This minimization can be achieved through (1) pragmatic actions (Exploitation) or (2) epistemic actions like exploration (Exploration). This process can be seen as estimating the accuracy and reliability of beliefs.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;iii-explaining-consciousness-through-active-inference&quot;&gt;III. Explaining Consciousness through Active Inference&lt;/h1&gt;
-
-&lt;p&gt;Explanations of specific functions of consciousness from the predictive coding perspective can be found in studies like &lt;a href=&quot;https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2011.00395/full&quot;&gt;Anil Seth (2012) (Phenomenal Qualities of Consciousness)&lt;/a&gt; or &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/30233474/&quot;&gt;Mateusz Wozniak (2018) (Self)&lt;/a&gt;, so I will not go into detail here.&lt;/p&gt;
-
-&lt;p&gt;Karl Friston, the founder of active inference, posits that consciousness is not a “thing” but rather an inferential process. However, not all inferential processes are conscious. Only those inferential processes with &lt;strong&gt;(1) Temporal Thickness and (2) Counterfactual Depth within deep generative models&lt;/strong&gt; are considered conscious. Friston argues that consciousness is not a binary state but rather a graded, spectral phenomenon.&lt;/p&gt;
-
-&lt;p&gt;Regarding the content of consciousness, one hypothesis suggests that it corresponds to the most probable posterior state at each hierarchical level. Some scholars propose that consciousness content lies within the mid-levels of these posterior hierarchies. While there is still debate, there is general agreement that the content of consciousness is a state of inference.&lt;/p&gt;
-
-&lt;p&gt;In terms of phenomenal properties, higher-order processes tend to be more abstract and persist longer, while low-dimensional raw data are retained for shorter periods. This temporal difference might help explain sensory experiences, meta-cognition, attention, and confidence estimation.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;iv-active-inference-as-a-computational-framework-for-consciousness&quot;&gt;IV. Active Inference as a Computational Framework for Consciousness&lt;/h1&gt;
-
-&lt;p&gt;There are three main challenges in developing computational models to explain consciousness: (1) The target of consciousness research remains contentious, and each paradigm has different focuses. (2) Consciousness has a subjective nature that is only accessible from a first-person perspective. (3) There is a wide range of neuroscientific and behavioral indicators with diverse findings. Because of the integrated nature of subjective experience, no model using active inference currently exists.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Can active inference address these issues and propose a unified theory of consciousness?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;A complete mechanistic model must identify all causal relationships necessary to generate the phenomenon in question. It must also be testable through simulations using experimental data, applying various mathematical/statistical practices to verify the model’s relevance. In short, to validate the model, we need to properly utilize (1) empirical data and (2) methodological practices.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;v-future-directions&quot;&gt;V. Future Directions&lt;/h1&gt;
-
-&lt;p&gt;Computational models aiming to explain the content of consciousness using active inference are still in their infancy. These models must be validated through empirical data. Recently, Maxwell Ramstead has been attempting to connect phenomenological data with generative models in what is termed &lt;strong&gt;Computational Neuro-phenomenology&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Since publishing a column titled “The Mathematics of Mind-Time” in AEON in 2017, Karl Friston has continued to show a keen interest in consciousness. He has co-authored a position paper with Neuropsychoanalyst Mark Solms and is guiding related research with his student Maxwell Ramstead. Given the diverse philosophical definitions of consciousness, this effort to establish language and concepts within a single framework and to construct a coherent discourse could be a monumental event in academia.&lt;/p&gt;
-
-&lt;p&gt;Reading this paper, I was able to see how Active Inference, which began with the Bayesian Brain Hypothesis, is attempting to explain consciousness. The absence of a concrete model makes this field particularly challenging, but I am excited to see how these discussions will evolve and how the results will be interpreted.&lt;/p&gt;
-
-&lt;p&gt;Before diving into these discussions, however, it might be necessary to assess whether Connectionism is truly meaningful. Can computational processes that are informationally homomorphic actually manifest consciousness or intelligent phenomena from a physical perspective? This paper has sparked many questions, and I plan to explore the referenced studies in greater depth.&lt;/p&gt;
-
-&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
-
-&lt;p&gt;[1] &lt;a href=&quot;https://psycnet.apa.org/record/2021-75550-001&quot;&gt;Vilas, M. G., Auksztulewicz, R., &amp;amp; Melloni, L. (2021). Active Inference as a Computational Framework for Consciousness. Review of Philosophy and Psychology, 13(4), 859–878. https://doi.org/10.1007/s13164-021-00579-w&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[2] &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/16271507/&quot;&gt;Adapted from Laureys S (2005) The neural correlate of (un)awareness: Lessons from the vegetative state. Trends in Cognitive Sciences 9: 556–559.&lt;/a&gt;&lt;/p&gt;
-</description>
-                <pubDate>Sun, 14 May 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/AIF-and-Consciousness-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/AIF-and-Consciousness-en/</guid>
-                
-                <category>Consciousness</category>
-                
-                <category>Active Inference</category>
-                
-                <category>Neuroscience</category>
-                
-                <category>Paper</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>의식에 대한 진화론적 관점</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;수 만 년의 진화의 역사에서 인간은 “왜” 의식을 갖게 되었을까? 의식 현상이 생존에 어떠한 이점을 제공하는가?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;본 글은 MIT Press에 기고된 Simona Ginsburg, Eva Jablonka의 “How Did Consciousness Evolve? An Illustrated Guide[1]”를 읽고 생각을 정리한 글입니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;우리의 존재는 진화적으로 발생했다. 신을 믿는 사람들은 대개 창조과학을 이야기하며 진화론을 부정하곤 하지만, 과거에 대한 이야기는 반증이 불가능하기에 불필요할 것이다(칼 포퍼Karl Popper). 진화는 실험실 수준에서 검증가능한 프로세스로, 좋은 설명력과 예측력을 제공해줌에 틀림없다.&lt;/p&gt;
-
-&lt;p&gt;진화론은 과거 라마르크Jean-Baptise Lamark와 다윈Charles Darwin에 의해 시작되었다. 당시에는 단순히 특정 형질이 후대에 계승되고, 자연 선택에 의해 생존에 적합한 형질을 갖는 개체를 중심으로 생존하게 된다는 내용이었다. 이후 20세기 존 메이너드John Maynard에 의해 DNA 기반의 진화적 다양성이 제기되었다. 유전자가 직접적인 leader라는 것이다. 그러나, 현대 21세기에 이르러, 유전자보다 개체의 생태적 지위Niche를 형성하는 능동적 행위의 중요성이 알려지며, 유전자만 중요하다는 주장은 폐기된다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;진화의 역사에서 특수한 전환Transition이 발생하는 경우, 진화론의 관점이 훌륭한 설명을 제공해줄 수 있다. 일례로, 왜 수중에 있던 생물체들이 지상으로, 더욱이 공중에서 자신만의 생태적 지위를 형성하게 되었을까? 마찬가지로, 왜 단일 세포에서 세포 덩어리가 되었는지, 의사소통이 불가능한 개체가 어떻게 기호적 언어를 구사하게 되었는지 등의 흥미로운 질문이 가능할 것이다.&lt;/p&gt;
-
-&lt;p&gt;진화론에 호의적인 철학자 Daniel Dennett도 마찬가지다. 생명체의 진화적 방향을 언급하며 “generate-and-test-tower”에서 생명체 진화의 단계를 아래와 같이 구분한다. 이때 첫번째는 &lt;strong&gt;생존 게임&lt;/strong&gt;에 의해 선택되는 생명체, 두번째는 &lt;strong&gt;학습&lt;/strong&gt;에 의해 선택되는 행동양식, 세번째는 &lt;strong&gt;상상&lt;/strong&gt;을 통해 선택되는 아이디어, 네번째와 다섯번째는 &lt;strong&gt;문화&lt;/strong&gt;적으로 선택되는 도구와 밈을 의미하곤 한다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Darwinian Creature: 무작위 돌연변이와 환경에 의해 형성되어 고정된 생명체&lt;/li&gt;
-  &lt;li&gt;Skinnerian Creature: 외부 환경에 행동을 실험하여 학습할 수 있는 생명체&lt;/li&gt;
-  &lt;li&gt;Popperian Creature: 수 많은 선택의 경우를 상상하여 최적의 행동을 미리 선택할 수 있는 생명체&lt;/li&gt;
-  &lt;li&gt;Gregorian Creature: 외부 세상에서 내부적인 환경을 창조하기 위해 도구를 활용할 수 있는 생명체&lt;/li&gt;
-  &lt;li&gt;Scientific Creature: 사회와 언어적 도구를 활용하여 의사소통하고 과학적 방법을 활용하는 생명체&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;진화적 관점에서 어떻게, 그리고 왜 단순한 탄소화합물 덩어리가 감정과 감각을 경험sentient할 수 있게 되었을까? 진화론적 설명이 도움을 줄 수 있을까?&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-10-Consciousness and Evolution/0.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      생명체의 기원에 대한 접근, 출처: [2]
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;
-이와 같은 질문은 과거에 생명의 기원에 대한 문제에서도 유사하게 등장했었다. 당시엔 최소한의 생명Minimal Life이 만족하는 능력들의 리스트를 생성하고, 이러한 능력을 구현할 수 있는 최소한의 생명체에 대한 이론적 모형을 만들었다고 한다. 이때 진화론적으로 생명이 탄생하게 된 전환 지표Transition Marker를 활용한다[2].&lt;/p&gt;
-
-&lt;p&gt;마찬가지로, 저자는 의식의 진화론적 전환 지표로 &lt;strong&gt;무제한 연관 학습Unlimited Associative Learning(UAL)&lt;/strong&gt;을 들 수 있다고 한다. 이러한 이유는 과거 20세기 학습 연구로 거슬러 올라간다. 19세기 생물학자들은 의식을 판별하기 위한 조건으로, 새로운 행동적 적응에 의한 학습가능성Learnability을 제안한다. 이는 20세기 행동주의의 시초가 된다.&lt;/p&gt;
-
-&lt;p&gt;20세기 행동주의적 관점에서 학습은 총 세가지로 구성된다. 먼저, (1)시스템의 내적 상태를 변화시킬 감각 자극, (2)긍정/부정적 강화를 야기할 수 있도록 하기 위한 기억들, (3)추후 동일 자극에 대한 노출로 구성된다. 행동주의적 관점에서 연관 학습은 인공적인 실험 환경에서 수행되어 현실성이 없다는 비판으로 사장된다.&lt;/p&gt;
-
-&lt;p&gt;그런데, 19세기의 제안-의식을 판별하기 위해서는 학습 능력을 평가할 수 밖에 없다-은 20세기의 행동주의적 관점을 부활시키는 것 같다. 더욱이 구체적으로 의식을 갖는 듯한 생명체들을 관찰해보면, 그것의 진화론적 전환 지표로 엄청난 연관학습 능력을 들 수 있다[2].&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-10-Consciousness and Evolution/1.jpeg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      의식적 생명체의 기원에 대한 접근, 출처: [2]
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;
-심리학자, 철학자, 신경과학자들이 합의한 바, 의식적 생명체들이 갖는 특성들에는 아래와 같은 것들이 있다:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Binding/Unification&lt;/li&gt;
-  &lt;li&gt;Global Accessibility and Broadcast&lt;/li&gt;
-  &lt;li&gt;Selective Attention and Active Exclusion&lt;/li&gt;
-  &lt;li&gt;Intentionality&lt;/li&gt;
-  &lt;li&gt;Integration through Time&lt;/li&gt;
-  &lt;li&gt;Flexible Evaluation System and Goals&lt;/li&gt;
-  &lt;li&gt;Agency and Embodiment&lt;/li&gt;
-  &lt;li&gt;A Sense of Self&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;이러한 이유로, UAL 능력을 가진 유기체는, &lt;u&gt;자신의 일생에 걸쳐&lt;/u&gt;, 세상과 자신의 경험으로부터, &lt;u&gt;제한없는 방식으로&lt;/u&gt;, 지속적으로 학습할 수 있다. 여기서 제한이 없다는 것은(1)자극과 행동의 복잡한 패턴, (2)2차 학습, (3)흔적 조건화, (4)가치에 대한 쉽고 빠른 재연관의 네 가지 특성을 의미한다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;의식의 진화적 기원이 UAL이라는 관점에서, 저자는 고통의 기원을 &lt;strong&gt;과학습Overlearning&lt;/strong&gt;으로 설명할 수 있다고 주장한다. 물고기들은 주변에 위협적인 대상이 다가오면 적응적으로 피하게 되는 로직을 지니고 있다고 한다. 심지어 해당 대상이 전혀 위협적이지 않음에도 불구하고 말이다. 우리의 불안장애, 편집증, 신경증 등의 정신질병 또한 동일하다. 저자들은 덜 고통받고 무딘 바보보다 더 현명하고 고통받는 동물들이 더 생존에 유리하다고 이야기한다. UAL이 가져다 주는 이점에 비하면 이러한 비용을 지불하는 것이 더 좋은 장점을 제공할 수도 있을 것이다. 감정은 어떤 의미에서 생존을 위한 부작용이라고 볼 수 있지 않을까? 이러한 관점에서 생존 경쟁이 치열했던 캄브리아기의 생명의 폭발(Life Explosion) 시즌이 고통의 기원일 것이라고 제안한다.&lt;/p&gt;
-
-&lt;p&gt;한편, UAL은 단순한 학습능력을 가진 Skinnerian Creature 뿐만 아니라, 다양한 가상의 상황을 상상할 수 있는 Popperian Creature에 대해서도 이야기할 수 있다. 웨스턴 스크럽 어치Western Scrub Jay는 각 음식의 유통기한을 고려해 식사 순서를 정할 뿐만 아니라, 적정한 장소에 음식을 숨기고 유통기한 내에 돌아와 섭취한다고 한다. 더욱이 음식을 숨기는 동안 다른 개체에게 들키게 되면, 다른 곳에 다시 숨긴다! 다른 개체가 숨기는 것을 몰래 관찰해 도둑질하기도 한다고 한다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-10-Consciousness and Evolution/2.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      웨스턴 스크럽 어치
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;본 글의 핵심 주제는 UAL을 의식의 진화적인 전환 지표로 삼을 수 있다는 것이다. 저자는 진화론의 관점에서 왜, 언제 의식이 발생했는지 파악하기 위해 UAL을 주요 지표로 삼고 캄브리아기를 의식의 탄생 시점으로 제안한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;그러나, 몇가지 의문점이 떠오른다:&lt;/em&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;의식을 갖는 생명체들은 UAL 능력을 지니지만, UAL 능력을 지닌다고 과연 의식을 갖는다고 할 수 있을까?&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;저자 또한 이러한 질문을 고려했는데, UAL은 의식의 발달적 지표가 아니라 진화적 지표라는 점을 강조한다. 따라서, 나의 질문에 대해서는 사실 답변은 NO!인 것이다. 접근 의식의 관점에서는 유용한 이론적 기반을 제공해 줄 수는 있겠다. 하지만 현상학적 의식의 메커니즘과 인공 의식의 구현이 가능한지 궁금한 나로써는 꽤 실망스럽긴 하다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;UAL은 Yann LeCun의 Self-Supervised Learning 패러다임과 어떤 관계가 있을까?&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;최근 Yan LeCun은 사실 대부분의 지적인 동물들의 학습 방식은 기존의 Unsupervised Learning 패러다임에 속하며, 해당 패러다임은 인지적 구조에 의한 Self-Supervised Learning으로 수정되어야 한다고 주장했다. Self-Supervised Learning은 시공간적으로 불완전한 데이터의 관계에 대한 무제한적인 학습과 유사하므로 UAL과의 관련성이 크다고 할 수 있지 않을까?&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-10-Consciousness and Evolution/3.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      얀 르쿤의 Self-Supervised Learning 패러다임
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;한편, Model-Based RL에서 SOTA를 달성한 Dreamer V3의 경우, Minecraft 게임 내에서 도구를 제작하여 활용하는 것을 구현할 수 있었다[4]. 이 경우, 해당 Agent를 Gregorian Creature라고 말할 수 있을까?&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;다음 영상은 Dreamer v3가 순차적으로 Diamond를 캐기위해 재료를 수집하고 도구를 제작하는 과정을 담고 있다. UAL이라고 한다면 정말 끝판왕같다… Gregorian Creature라고 말할 수 있을까? 과연 해당 모델이 의식적 경험(Qualia)을 갖고 세상과 상호작용하는 것일까?&lt;/p&gt;
-
-&lt;iframe align=&quot;center&quot; title=&quot;Danijar Hafner, A Test Clip of Dreamer v3&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://play-tv.kakao.com/embed/player/cliplink/437919059?service=player_share&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allow=&quot;autoplay; fullscreen; encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&quot;출처&quot;&gt;출처&lt;/h3&gt;
-
-&lt;p&gt;[1] &lt;a href=&quot;https://thereader.mitpress.mit.edu/how-did-consciousness-evolve-an-illustrated-guide/&quot;&gt;The MIT Press Reader. (2022, June 29). How Did Consciousness Evolve? An Illustrated Guide. https://thereader.mitpress.mit.edu/how-did-consciousness-evolve-an-illustrated-guide/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[2] &lt;a href=&quot;https://www.jolyon.co.uk/illustrations/consciousness-an-introduction/&quot;&gt;Ilpo. (n.d.). Consciousness – An Introduction – Jolyon’s Website. https://www.jolyon.co.uk/illustrations/consciousness-an-introduction/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[3] &lt;a href=&quot;https://ai.meta.com/blog/self-supervised-learning-the-dark-matter-of-intelligence/&quot;&gt;Self-supervised Learning: The Dark Matter of Intelligence(2021), Yann LeCun. https://ai.facebook.com/blog/self-supervised-learning-the-dark-matter-of-intelligence/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[4] &lt;a href=&quot;https://danijar.com/project/dreamerv3/&quot;&gt;Mastering Diverse Domains through World Models. (n.d.). https://danijar.com/project/dreamerv3/&lt;/a&gt;&lt;/p&gt;
-</description>
-                <pubDate>Wed, 10 May 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Consciousness-and-Evolution-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Consciousness-and-Evolution-kr/</guid>
-                
-                <category>의식</category>
-                
-                <category>진화론</category>
-                
-                <category>기사</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>An Evolutionary Perspective on Consciousness</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Over tens of thousands of years of evolution, why did humans develop consciousness? What survival advantage does this phenomenon provide?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This post is a reflection on Simona Ginsburg and Eva Jablonka’s “How Did Consciousness Evolve? An Illustrated Guide,” published by MIT Press [1].&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Our existence is a product of evolution. While those who believe in creationism often reject evolutionary theory, arguing about the past is futile, as it cannot be falsified (Karl Popper). Evolution, however, is a process that can be tested in the lab, offering strong explanatory and predictive power.&lt;/p&gt;
-
-&lt;p&gt;The theory of evolution began with Jean-Baptiste Lamarck and Charles Darwin. Initially, it was about the inheritance of traits and how natural selection favored traits suited for survival. In the 20th century, John Maynard Smith introduced the idea of DNA-based evolutionary diversity, emphasizing genes as the primary drivers. However, in the 21st century, the importance of an organism’s active role in shaping its ecological niche has come to be recognized, diminishing the gene-centric view.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;When significant transitions occur in evolutionary history, the lens of evolution offers valuable explanations. For example, why did aquatic organisms move to land, and some even take to the skies, establishing their ecological niches? Similarly, we can ask why single cells formed multicellular clusters or how non-communicative organisms developed symbolic language.&lt;/p&gt;
-
-&lt;p&gt;Philosopher Daniel Dennett, a proponent of evolutionary theory, also explores this in his “generate-and-test-tower” framework, categorizing the stages of life’s evolution as follows. The first is creatures selected by the &lt;strong&gt;survival game&lt;/strong&gt;, the second by &lt;strong&gt;learning&lt;/strong&gt; behaviors, the third by &lt;strong&gt;imagination&lt;/strong&gt; and ideas, and the fourth and fifth by culturally selected tools and memes.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Darwinian Creatures: Formed and fixed by random mutations and environmental pressures.&lt;/li&gt;
-  &lt;li&gt;Skinnerian Creatures: Capable of learning by experimenting with behaviors in response to external stimuli.&lt;/li&gt;
-  &lt;li&gt;Popperian Creatures: Able to imagine various scenarios and pre-select the optimal action.&lt;/li&gt;
-  &lt;li&gt;Gregorian Creatures: Able to use tools to create internal environments from the external world.&lt;/li&gt;
-  &lt;li&gt;Scientific Creatures: Capable of communication using social and linguistic tools and employing the scientific method.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;From an evolutionary standpoint, how and why did simple carbon compounds become sentient beings capable of experiencing emotions and sensations? Can evolutionary theory help us understand this?&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-10-Consciousness and Evolution/0.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      Approaching the origins of life, Source: [2]
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Similar questions have been asked about the origins of life. Researchers created a list of abilities that define minimal life and developed theoretical models for the simplest possible life forms. Evolutionary transition markers were used to pinpoint when life emerged [2].&lt;/p&gt;
-
-&lt;p&gt;Similarly, the authors propose &lt;strong&gt;Unlimited Associative Learning (UAL)&lt;/strong&gt; as an evolutionary marker for consciousness. This idea traces back to 20th-century learning research. In the 19th century, biologists suggested learnability through behavioral adaptation as a criterion for consciousness, laying the groundwork for 20th-century behaviorism.&lt;/p&gt;
-
-&lt;p&gt;Behaviorism in the 20th century defined learning in three ways: (1) sensory stimuli that change the internal state of the system, (2) memories that trigger positive/negative reinforcement, and (3) exposure to the same stimuli again. While associative learning was criticized for being too artificial due to its reliance on controlled experiments, the idea of evaluating learning ability to determine consciousness from the 19th century seems to have revived this behavioral perspective. Moreover, when observing organisms that appear conscious, their vast associative learning abilities could serve as evolutionary markers [2].&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-10-Consciousness and Evolution/1.jpeg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      Approaching the origins of conscious organisms, Source: [2]
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Psychologists, philosophers, and neuroscientists agree on the following characteristics of conscious beings:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Binding/Unification&lt;/li&gt;
-  &lt;li&gt;Global Accessibility and Broadcast&lt;/li&gt;
-  &lt;li&gt;Selective Attention and Active Exclusion&lt;/li&gt;
-  &lt;li&gt;Intentionality&lt;/li&gt;
-  &lt;li&gt;Integration through Time&lt;/li&gt;
-  &lt;li&gt;Flexible Evaluation System and Goals&lt;/li&gt;
-  &lt;li&gt;Agency and Embodiment&lt;/li&gt;
-  &lt;li&gt;A Sense of Self&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;These traits allow organisms with UAL to continuously learn from the world and their experiences in an &lt;strong&gt;unlimited&lt;/strong&gt; way throughout their lives. Here, “unlimited” refers to four specific characteristics: (1) complex patterns of stimuli and behavior, (2) second-order learning, (3) trace conditioning, and (4) quick and easy re-association of values.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;From the perspective that the evolutionary origin of consciousness is UAL, the authors argue that the origin of pain can be explained by &lt;strong&gt;overlearning&lt;/strong&gt;. Fish, for example, have a logic that makes them avoid threats in their environment, even if those threats are not actually dangerous. Similarly, our mental disorders—like anxiety, paranoia, and neurosis—operate on this principle. The authors suggest that animals that are smarter and suffer more are better suited for survival than dull-witted, pain-free creatures. The benefits provided by UAL might outweigh the costs associated with pain. Could it be that emotions are side effects necessary for survival? From this perspective, the Cambrian Explosion, a period of intense survival competition, could be the origin of pain.&lt;/p&gt;
-
-&lt;p&gt;Moreover, UAL is not only applicable to Skinnerian Creatures, which have basic learning abilities, but also to Popperian Creatures, which can imagine various scenarios. The Western Scrub Jay, for instance, not only determines the order in which to eat food based on expiration dates but also hides food in optimal locations and returns to consume it within the expiration date. If another creature sees where the food is hidden, the jay will re-hide it elsewhere! They are even known to steal food by secretly observing other jays hiding their caches.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-10-Consciousness and Evolution/2.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      The Western Scrub Jay
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The key point of this post is that UAL can be considered an evolutionary marker for consciousness. The authors suggest using UAL as a primary marker to understand why and when consciousness emerged, proposing the Cambrian period as the birth of consciousness.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;However, a few questions arise:&lt;/em&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;While organisms with consciousness have UAL capabilities, can we say that UAL alone implies consciousness?&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The authors consider this question and emphasize that UAL is an evolutionary marker, not a developmental one. Therefore, the answer to my question is likely NO! While it provides a useful theoretical foundation for understanding access consciousness, I am somewhat disappointed as someone curious about the mechanisms of phenomenal consciousness and the possibility of implementing artificial consciousness.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;How does UAL relate to Yann LeCun’s paradigm of Self-Supervised Learning?&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Recently, Yann LeCun argued that most intelligent animals learn through what was traditionally considered Unsupervised Learning, which should be revised to Self-Supervised Learning, structured by cognitive processes. Given that Self-Supervised Learning involves unlimited learning of relationships in incomplete spatiotemporal data, it seems highly relevant to UAL.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-10-Consciousness and Evolution/3.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      Yann LeCun’s Self-Supervised Learning Paradigm
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Similarly, Dreamer V3, which achieved SOTA in Model-Based RL, was able to create and use tools within the Minecraft game [4]. Could we consider this Agent a Gregorian Creature?&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The following video shows Dreamer V3 sequentially gathering resources and crafting tools to mine diamonds. If UAL is the ultimate marker, could we consider it a Gregorian Creature? Does this model interact with the world through conscious experiences (Qualia)?&lt;/p&gt;
-
-&lt;iframe align=&quot;center&quot; title=&quot;Danijar Hafner, A Test Clip of Dreamer v3&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://play-tv.kakao.com/embed/player/cliplink/437919059?service=player_share&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allow=&quot;autoplay; fullscreen; encrypted-media&quot;&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
-
-&lt;p&gt;[1] &lt;a href=&quot;https://thereader.mitpress.mit.edu/how-did-consciousness-evolve-an-illustrated-guide/&quot;&gt;The MIT Press Reader. (2022, June 29). How Did Consciousness Evolve? An Illustrated Guide. https://thereader.mitpress.mit.edu/how-did-consciousness-evolve-an-illustrated-guide/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[2] &lt;a href=&quot;https://www.jolyon.co.uk/illustrations/consciousness-an-introduction/&quot;&gt;Ilpo. (n.d.). Consciousness – An Introduction – Jolyon’s Website. https://www.jolyon.co.uk/illustrations/consciousness-an-introduction/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[3] &lt;a href=&quot;https://ai.meta.com/blog/self-supervised-learning-the-dark-matter-of-intelligence/&quot;&gt;Self-supervised Learning: The Dark Matter of Intelligence (2021), Yann LeCun. https://ai.facebook.com/blog/self-supervised-learning-the-dark-matter-of-intelligence/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[4] &lt;a href=&quot;https://danijar.com/project/dreamerv3/&quot;&gt;Mastering Diverse Domains through World Models. (n.d.). https://danijar.com/project/dreamerv3/&lt;/a&gt;&lt;/p&gt;
-</description>
-                <pubDate>Wed, 10 May 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Consciousness-and-Evolution-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Consciousness-and-Evolution-en/</guid>
-                
-                <category>Consciousness</category>
-                
-                <category>Evolution</category>
-                
-                <category>Article</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>세르주 라투슈, &quot;낭비 사회를 넘어서&quot;</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;p&gt;올해 초, 업무에 지쳐 정신적으로 스트레스를 받는 기간이 있었다. 매일 반복되는 야근에 주말까지 쉽없이 출근했다. 돌이켜 보면, 나를 이루고 있던 무언가를 잊고 살았던 것 같다. 내가 좋아했던 취미들, 운동-음악-독서를 근 몇 개월 간 하지 않았다. 그렇게 나를 이루는 기둥들이 얇아지고 무너지기 시작하며, 나의 정체성도 함께 무너졌던 것 같다. 이러한 상황에 오래 있어서 그랬던 걸까, 내가 처한 상황의 심각성을 인지하는 것조차 쉽지 않았다. 그러다 정말 우연히, 주말 아침에 집 주변에 있던 독립 서점을 가보게 되었다. 친절하게 맞이해주시는 주인장과 따뜻한 핫초코가 마음을 녹여줬다. 그렇게 내가 좋아하는 독서를 오랜만에 하니, 글이 술술 읽혔고 마음 한 켠도 함께 따뜻해졌다. 
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-04-30-Planned Obsolescence/0.jpeg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-      대전광역시 갈마동에 위치한 독립서점 &quot;삼요소&quot;
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;독립 서점을 자주 들리게 된 계기는 그러한 따뜻함 때문이었던 것 같다. 조금 더 크고, 조용한 독립 서점을 찾다 보니 재밌는 공간을 발견했다. 무인으로 운영되는 독립서점인데, 가끔 독립 영화의 시사회를 열기도 하는 그런 매니아들의 집합소로 느껴졌다. 주인장의 책장에 있는 책은 무료로 읽을 수 있었는데, 그 중에서도 내 눈에 띄었던 책이 한 권 있었다. 바로 세르주 라투슈의 “낭비 사회를 넘어서”라는 책이다. 
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-04-30-Planned Obsolescence/1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      세르주 라투슈, 낭비 사회를 넘어서
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;세르주 라투슈는 나이가 지긋한 프랑스의 철학자로, political sciene, philosophy, economy의 여러 학위를 갖고 있는 파리 제 11 대학의 명예 교수다. 과거부터 자본주의의 문제점을 분석해 왔으며, 오늘날 아주 유명한 “탈성장” 이론가로 알려져 있다. “낭비 사회를 넘어서”라는 자본주의 시스템이 지니는 무한 성장의 역설을 비판한다. 해당 책을 읽고 기억에 남는 몇가지 글귀를 적어보았다:
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;blockquote&gt;
-  &lt;ol&gt;
-    &lt;li&gt;실업의 위협 속에서 노동자들의 삶은 “공장에서 대형 마켓으로, 대형 마켓에서 공장으로 이동하면서 임금을 상품으로, 상품을 임금으로 교환하는 물질대사를 수행하는 바이오다이제스터의 활동으로 축소되어 버렸다.”&lt;/li&gt;
-    &lt;li&gt;상상력의 로보토미(lobotomy), 상상력의 식민화&lt;/li&gt;
-    &lt;li&gt;“상품 공급이 오늘날의 계율이라는 사실을 인정한 이상, 구매력이 없는 이들이 공급된 상품을 &amp;gt; 구매하는 것은 놀랄 일이 아니다. 그들이 그렇게 하는 이유는 그런 행동이 계율을 어기는 것, 즉 상품을 획득하지 않는 것보다 옳은 일이기 때문이다. … 우리는 결국에 우리가 필요로 하는 것을 손에 넣는 것이 아니다. 우리는 결국 우리가 가진 것을 필요로 하게 되는 것이다.”&lt;/li&gt;
-    &lt;li&gt;네오필리아&lt;/li&gt;
-    &lt;li&gt;생산이 계속되려면 제품들이 죽어야 한다.&lt;/li&gt;
-    &lt;li&gt;에코는 단지 화를 내는 데 그치지 않고 철학적 결론에 도달한다. “당신의 도덕이 우리에게 스파르타인이 될 것을 요구했다면, 오늘날은 시바리스인이 되라고 한다.”&lt;/li&gt;
-    &lt;li&gt;‘진보적’이라는 수식어는 금세 잊혀졌지만 그 말이 지시하는 관행은 확산되었다. 각 기업들의 비즈니스 전략은 갈수록 스타일의 진부화에 초점을 맞춰 구상되었다. … 불황이 닥치자 이런 움직임이 가속화되었다. 이제 엔지니어 대신 디자이너들이 미국 산업계를 이끌어 가기 시작했다.&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;자본주의 한계에 대한 분석은 너무나도 다양한 학자들이 해왔다. 마르크스의 “자본론”, 쟝 보드리야르의 “시뮬라크르와 시뮬라시옹” 등은 ‘가치’의 의미에 집중하여 자본주의가 갖는 거시적-구조적 문제점과, 이로 인해 발생할 수 있는 미시적-개인적 문제점을 지적했다. 해당 책도 비슷한 맥락에서 소비 행위와 제품이 갖는 문제점을 주제로 다루었다.&lt;/p&gt;
-
-&lt;p&gt;자본주의는 본질적으로 계속해서 성장해야 한다. 일례로, 주변에 위치한 인근 연구소에서는 과제가 실패하자 과제의 책임자였던 팀장님께서 (총대매고) 사직서를 냈다고 한다. 과제를 성공시키고 좋은 사업을 통해 장기적으로 영업 이익을 불러와야지 자신의 팀원과 조직에게 월급을 줄 수 있는 것이기 때문이다. 지속적으로 매출을 일으키지 않으면, 안정적으로 직원들에게 월급을 줄 수 없게 되고, 월급을 받지 못하거나 짤리게 된 직원들은 구매력이 줄어들어 사회의 소비가 줄어들게 된다. 소비가 줄어들면 생산이 줄어들 수 밖에 없고 이는 매출의 감소를 또다시 야기하게 되기 때문에, 악순환이 반복되는 것이다. 이러한 이유로, 영리조직을 하나의 굴러가는 바퀴로 비유한 것은 매우 그럴 듯하다. 조금이라도 속도가 줄어들면 사회는 경직되고 경제가 악화된다. 반대로, 속도가 늘면 사회는 유연해지고 경제가 활성화된다.&lt;/p&gt;
-
-&lt;p&gt;문제는 과학과 기술의 발전이 항상 우리 사회의 발전을 일으키지 않는다는 것이다. 실제로 2010년 발표된 다큐멘터리 영화인 “The Light Bult Conspiracy”를 보면, 전구 기술의 발전은 이미 충분히 일어났으나, 지속적인 매출을 위해 전구의 수명을 의도적으로 줄여 판매한다는 것이다. 실제로 이러한 “의도적 진부화”는 전구뿐만 아니라, 스타킹, 자동차, 아이폰의 경우에서도 이미 발견된다. 더 나아가, IT 서비스 기업들은 구독(Subscription) 시스템을 도입한다. 내가 좋아하는 디제잉 관련 HW/SW 기업인 Pioneer도 구독 시스템으로 전환한 이후, SW의 업데이트를 진행해 의도적으로 HW를 사용할 수 없게 만들었다.&lt;/p&gt;
-
-&lt;p&gt;과학과 기술의 발전을 도모하려고 하는 나에게, 7번의 글귀는 충격으로 다가왔다. 더 뛰어난 과학 기술이 발전되더라도, 더 이상 그것이 오로지 공급될 수 없다. 과학과 기술은 자본주의에 있어 그 자체의 아름다움이나, 학술적 가치가 아닌 제품의 가치, 자본주의적 가치로 평가되는 것이다. 더 나아가, 소비력에 따라 사람들에게는 소비할 수 있는 제품의 양질이 구분된다. 사실 이는 어찌보면 옛날부터 그래왔던 걸 수도 있겠다. 돈이 되지 않는 연구에는 적은 연구비가 펀딩되는 것처럼 말이다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;자본주의가 많은 한계점을 지닌다고 해서 사회주의와 같은 다른 시스템으로 대체되어야 한다는 무리한 주장을 펼칠 필요는 없다. 자본주의 시스템이 성장하며, 예상치 못한 문제가 발생하게 되면 우리는 그것을 적절히 해결할 수 있는 방법을 마련해주면 된다. 그러나, 본질적으로 자본주의는 “성장의 계속성”을 필요로 한다. 이러한 무한성은 물리적으로 한계를 가질 수 밖에 없지 않을까? 만약 성장이 무한히 계속된다면, 언젠가 특이점에 이르게 되지 않을까? 이러한 생각은 이미 레이 커즈와일 같은 미래학자들이 주장한 것과 같다. 무한히 성장할 수 없다면, 결국 사회경제 시스템의 붕괴가 수반될 것이다. 어떠한 방향이든 디스토피아적인 결과를 불러온다.&lt;/p&gt;
-
-&lt;p&gt;자본주의가 필요로 하는 “성장의 계속성” 문제를 어떻게 해결할 수 있을까? 일론 머스크가 추구하는 화성으로의 이주가 필수 불가결한 해결책일지도 모른다. 관련된 서적을 조금 더 찾아보자.&lt;/p&gt;
-</description>
-                <pubDate>Sun, 30 Apr 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Planned-Obsolescence-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Planned-Obsolescence-kr/</guid>
-                
-                <category>경제</category>
-                
-                <category>자본주의</category>
-                
-                <category>책</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>Serge Latouche, &quot;Beyond the Wasteful Society&quot;</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;p&gt;Earlier this year, I found myself mentally exhausted, overwhelmed by work. I was caught in a cycle of late nights and weekend shifts, losing sight of the things that once brought me joy. My hobbies—exercise, music, reading—had been neglected for months. As the pillars that supported my identity crumbled, so did my sense of self. It was only after a long time in this state that I even realized how dire my situation had become. By chance, one weekend morning, I stumbled into a small independent bookstore near my home. The warm welcome from the owner and a comforting cup of hot chocolate melted away some of my stress. Picking up a book after so long, I felt the words flow effortlessly, and my heart warmed along with them.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-04-30-Planned Obsolescence/0.jpeg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-      &quot;Samyo-so,&quot; an independent bookstore in Galma-dong, Daejeon
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;What kept me coming back to independent bookstores was that sense of warmth. In search of a larger, quieter place to read, I discovered an intriguing spot. It’s an unmanned bookstore that occasionally hosts independent film screenings—a haven for enthusiasts. The books on the owner’s shelves were free to read, and one, in particular, caught my eye: Serge Latouche’s &lt;em&gt;Beyond the Wasteful Society&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-04-30-Planned Obsolescence/1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      Serge Latouche, *Beyond the Wasteful Society*
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Serge Latouche, an elderly French philosopher and professor emeritus at Paris 11 University, holds multiple degrees in political science, philosophy, and economics. He has long critiqued capitalism, and today, he is well-known as a prominent theorist of “degrowth.” In &lt;em&gt;Beyond the Wasteful Society&lt;/em&gt;, Latouche criticizes the paradox of infinite growth inherent in the capitalist system. Here are a few memorable quotes from the book:&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;blockquote&gt;
-  &lt;ol&gt;
-    &lt;li&gt;“Under the threat of unemployment, workers’ lives have been reduced to the activities of a biodigester, exchanging wages for goods and goods for wages, moving from the factory to the supermarket, and back again.”&lt;/li&gt;
-    &lt;li&gt;“The lobotomy of imagination, the colonization of imagination.”&lt;/li&gt;
-    &lt;li&gt;“Once it is acknowledged that the supply of goods is the commandment of the day, it is no wonder that those without purchasing power buy the supplied goods. They do so because it is more righteous than breaking the commandment, which would mean not acquiring the goods. … In the end, we don’t get what we need; we end up needing what we have.”&lt;/li&gt;
-    &lt;li&gt;Neophilia.&lt;/li&gt;
-    &lt;li&gt;“For production to continue, products must die.”&lt;/li&gt;
-    &lt;li&gt;“Eco doesn’t just get angry; he draws philosophical conclusions. ‘If your morality once demanded that we become Spartans, today it asks us to be Sybarites.’”&lt;/li&gt;
-    &lt;li&gt;“The adjective ‘progressive’ was quickly forgotten, but the practice it referred to spread. Business strategies increasingly focused on the planned obsolescence of style. … The recession accelerated this trend. Now, designers, not engineers, were leading the American industrial sector.”&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Analyses of capitalism’s limitations have been conducted by numerous scholars. Works like Marx’s &lt;em&gt;Capital&lt;/em&gt; and Jean Baudrillard’s &lt;em&gt;Simulacra and Simulation&lt;/em&gt; focus on the concept of “value,” highlighting both the macro-structural issues and the micro-individual consequences that arise from capitalism. Latouche’s book follows in this tradition, addressing the problems of consumer behavior and the products we use.&lt;/p&gt;
-
-&lt;p&gt;Capitalism, by its nature, must continually grow. For example, in a nearby research institute, a team leader resigned after a failed project. The logic is simple: only by succeeding in projects and generating long-term profits can one continue to pay employees. If a company cannot maintain constant sales, it cannot pay its workers, who, if unemployed, will reduce their consumption, leading to a decline in overall production and further loss in sales—a vicious cycle. It’s no wonder that likening a profit-driven organization to a wheel is so apt; any slowdown causes societal rigidity and economic downturn, whereas acceleration brings flexibility and growth.&lt;/p&gt;
-
-&lt;p&gt;The problem is that scientific and technological progress does not always equate to societal advancement. The 2010 documentary &lt;em&gt;The Light Bulb Conspiracy&lt;/em&gt; illustrates how light bulb technology has long been advanced enough, but manufacturers intentionally shortened the lifespan of bulbs to sustain sales. This “planned obsolescence” isn’t limited to light bulbs; it’s also found in stockings, cars, and even iPhones. Furthermore, IT companies have adopted subscription models. One of my favorite DJ equipment companies, Pioneer, switched to a subscription system and then updated their software to deliberately render older hardware unusable.&lt;/p&gt;
-
-&lt;p&gt;As someone dedicated to the advancement of science and technology, the seventh quote struck me hard. Even the most advanced technologies can no longer be offered solely on their merits. Within capitalism, science and technology are not valued for their inherent beauty or academic worth but for their market value, their capitalist value. Moreover, the quality of products available to people is increasingly determined by their purchasing power. In hindsight, perhaps this has always been the case—just as research that doesn’t promise profit receives less funding.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The numerous limitations of capitalism don’t necessarily mean that it should be replaced by another system, such as socialism. As the capitalist system evolves, unforeseen problems arise, and we should find ways to address them appropriately. However, capitalism fundamentally requires “continuous growth.” Doesn’t this infinite growth inevitably meet physical limits? If growth continues indefinitely, won’t we eventually reach a singularity? This thought aligns with the ideas of futurists like Ray Kurzweil. If infinite growth isn’t possible, the collapse of the socio-economic system seems inevitable. Whichever way it unfolds, it leads to a dystopian outcome.&lt;/p&gt;
-
-&lt;p&gt;How can we solve the problem of capitalism’s need for “continuous growth”? Perhaps Elon Musk’s pursuit of colonizing Mars is an unavoidable solution. I’ll be exploring more related books.&lt;/p&gt;
-</description>
-                <pubDate>Sun, 30 Apr 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Planned-Obsolescence-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Planned-Obsolescence-en/</guid>
-                
-                <category>Economy</category>
-                
-                <category>Capitalism</category>
-                
-                <category>Books</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>문화 연결하기</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iE39q-IKOzA?si=A5bSvQbuVRx-MtjR&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;최근 AI를 활용한 작품으로 유명한 demonflyingfox의 &lt;strong&gt;Harry Potter by Balenciaga&lt;/strong&gt; 영상이 공개되면서, SNS에서 큰 화제를 모았다. 해리, 론, 헤르미온느 3인방부터 덤블도어, 볼드모트까지 발렌시아가 런웨이 특유의 기괴한 자세와 도도한 표정을 짓는 모습이 인상적이다. 이 작품을 통해 AI 이미지 생성 기술의 최전선에 서 있는 트렌드를 확인할 수 있었고, 동시에 SNS와 사회 전반의 “컨텐츠”들이 새로운 의미를 가지게 되었음을 알 수 있었다.&lt;/p&gt;
-
-&lt;p&gt;demonflyingfox의 작업물은 우리가 익숙한 영화, 애니메이션, 게임의 장면을 AI의 독특한 표현력으로 패러디한다. 영화 &lt;em&gt;해리 포터&lt;/em&gt;의 주인공들을 도도하고 트렌디한 발렌시아가 모델로 표현하거나, 영화 &lt;em&gt;아메리칸 사이코&lt;/em&gt;의 주인공을 중동풍의 사업가로 표현하는 등의 작업이 그것이다. 이러한 작업 방식을 차용한 유튜브 계정들이 쏟아져 나오고 있으며, 각 영상은 공개된 지 12시간 만에 조회수 30만 회를 기록하는 등 큰 인기를 끌고 있다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-04-22-Connect and Expand.md/0.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-      demonflyingfox의 채널, 출처: 유튜브
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;현대 사회에서 대중들이 접하는 대부분의 매체는 미국 헐리우드에서 제작된 거대 자본 기반의 영화들이다. 대부분의 인물들은 영어를 사용하고, 미국과 유럽의 문화권 출신들이다. 아시아계 영화가 전 세계적으로 히트를 친 경우는 손에 꼽을 정도이다. 자본주의의 논리에서는 이익을 극대화하기 위해 소비자층을 정의하고 컨텐츠를 기획하는 것이 합리적인 사업 계획이지만, 이러한 편향된 타겟팅이 대중들에게 무의식 중에 문화적 박탈감을 느끼게 할 수 있지 않을까?&lt;/p&gt;
-
-&lt;p&gt;백남준의 &lt;strong&gt;징기스칸의 복권&lt;/strong&gt;이라는 작품이 떠오른다. 몇백 년 전만 하더라도 동양은 서양에 비해 문화적으로, 제도적으로 세계에 훨씬 큰 영향을 미쳤다. 그러나 제국주의 시대 이후, 서구 문명이 급격히 발전하며 문화, 자본, 산업, 제도 전반에서 압도적인 권력을 행사하게 되었다. 특히, 대중들의 인식을 반영하는 간판만 보더라도 우리는 대부분 우리말이나 한자어를 사용하지 않고, 영어나 외래어를 그대로 받아들이고 있다. (우리나라의 경우, 외래어 사용 비율이 다른 어떤 나라보다도 높다) 우리의 문화를 발굴하고 발전시키는 것보다, 선진 문화를 적극적으로 수용하려는 인식이 더 크다고 할 수 있다. 다만, 이러한 인식이 성숙한 논의와 비판적 사고를 거친 결과라기보다는 가벼운 선택이라면, 이를 다시금 돌아볼 필요가 있을 것이다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-04-22-Connect and Expand.md/칭기즈칸의 복권.jpeg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      백남준, 《징기스칸의 복권》 (조각, 1993), 출처: 백남준아트센터 웹페이지
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;이제 우리는 생성 모형을 통해 우리에게 친숙한 등장인물들의 성별, 인종, 나이 등을 쉽게 변형할 수 있게 되었다. 서구 문명의 인물들을 동양권 인물들로 수정할 수 있지 않을까? 퇴근 후 시간이 남을 때, 텍스트 기반 이미지 생성 AI 서비스인 MidJourney를 활용해 몇 가지 이미지를 만들어 보았다. 먼저 ChatGPT를 통해 우리나라에서 큰 성공을 거둔 &lt;em&gt;The Dark Knight Rises&lt;/em&gt;의 주요 인물들과 명장면에 대한 설명을 요청했다. 그 후, 주요 등장인물에 적합한 한국 배우들을 대응시키고 그들의 모습을 묘사했다. 이후 MidJourney에서 이미지를 생성한 후 편집했다. 그 결과물은 아래와 같다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-04-22-Connect and Expand.md/AI 한국 버전.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      직접 제작해본 영화 *The Dark Knight Rises*의 한국 버전
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;이 작품을 만들며, AI를 활용한 컨텐츠 생성 모형이 문화적 편향을 없애고 인종, 성별, 나이 등을 다양화하는 자유를 실현하는 데 사용될 수 있지 않을까 생각해 보았다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;서로 분리되고, 형태와 구조가 다른 다양한 문화를 연결하고 융합하여 자유롭게 표현하는 데에 활용될 수 있지 않을까?&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-                <pubDate>Sat, 22 Apr 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/movement/Connect-and-Expand-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/movement/Connect-and-Expand-kr/</guid>
-                
-                <category>예술</category>
-                
-                <category>기술</category>
-                
-                <category>인공지능</category>
-                
-                <category>문화</category>
-                
-                <category>융합</category>
-                
-                
-                <category>Movement</category>
                 
             </item>
         

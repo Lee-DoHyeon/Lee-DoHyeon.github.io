@@ -15,6 +15,8 @@ toc_label: "딥마인드의 뒷이야기"
 category: Motivation
 tags: [인공지능, 성공, 비즈니스]
 lang: kr
+header:
+    teaser: "/assets/images/posts/2023/Q4/2023-11-02-DeepMind/hassabis.webp"
 image: assets/images/posts/2023/Q4/2023-11-02-DeepMind/hassabis.webp
 ---
 

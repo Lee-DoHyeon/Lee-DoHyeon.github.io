@@ -15,9 +15,41 @@ toc_label: "After Translating the Hidden Spring"
 category: Meditation
 tags: [Translation, Consciousness, AI, Beliefs]
 lang: en
+header:
+  teaser: "/assets/images/posts/2023/Q4/2023-12-28-Mathematician of Mind/TheHiddenSpring.jpeg"
+image: /assets/images/posts/2023/Q4/2023-12-28-Mathematician of Mind/TheHiddenSpring.jpeg
 ---
 
+<style>
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: "Wanted Sans Variable", "Wanted Sans";
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+</style>
+
+
 > After translating _The Hidden Spring_, written by Mark Solms into Korean
+
+<div class="centered-container">
+  <figure>
+    <img src = "/assets/images/posts/2023/Q4/2023-12-28-Mathematician of Mind/TheHiddenSpring.jpeg" style="width: 50%; height: auto;">
+    <figcaption>
+      Translated Book of "the Hidden Spring"
+    </figcaption>
+  </figure>
+</div>
 
 Around the age of 9, my mother was quite shaken after a meeting with my homeroom teacher. She learned that I was showing clear symptoms of ADHD. Despite this, I felt somewhat special, perhaps because I hadn't received much attention due to my parents' busy work schedules. As a temporary solution, they sent me to a small Chinese character academy in our neighborhood. Spending most of my days there with the instructor, I would alleviate my loneliness late into the night. Thanks to that experience, I still remember the wise sayings from classics like "Mencius" and "Four Books and Five Classics."
 

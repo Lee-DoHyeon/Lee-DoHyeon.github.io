@@ -15,7 +15,30 @@ toc_label: "사라진 잠수함을 찾아라"
 category: Meditation
 tags: [의사결정 이론, 인공지능, 무기체계]
 lang: kr
+header:
+    teaser: /assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/1.png
+image: "/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/1.png"
 ---
+
+
+<style>
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: "Wanted Sans Variable", "Wanted Sans";
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+</style>
 
 > 사라진 잠수함을 찾아라: **북한의 핵위협과 대잠전의 중요성을 중심으로**
 

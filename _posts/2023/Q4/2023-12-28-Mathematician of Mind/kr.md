@@ -15,9 +15,41 @@ toc_label: "숨겨진 샘 역자 후기"
 category: Meditation
 tags: [번역, 의식, 인공지능, 믿음, 능동추론, 기계학습]
 lang: kr
+header:
+  teaser: "/assets/images/posts/2023/Q4/2023-12-28-Mathematician of Mind/TheHiddenSpring.jpeg"
+image: /assets/images/posts/2023/Q4/2023-12-28-Mathematician of Mind/TheHiddenSpring.jpeg
 ---
 
+<style>
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: "Wanted Sans Variable", "Wanted Sans";
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+</style>
+
 # 마음의 수학자를 꿈꾸며
+
+<div class="centered-container">
+  <figure>
+    <img src = "/assets/images/posts/2023/Q4/2023-12-28-Mathematician of Mind/TheHiddenSpring.jpeg" style="width: 50%; height: auto;">
+    <figcaption>
+      의식은 어디에서 오는가
+    </figcaption>
+  </figure>
+</div>
+
 
 ### 마크 솜즈 - "숨겨진 샘" 역자 후기
 

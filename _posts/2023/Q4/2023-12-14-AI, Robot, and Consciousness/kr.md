@@ -15,6 +15,9 @@ toc_label: "인공지능도 의식을 지닐까?"
 category: Meditation
 tags: [인공지능, 로봇틱스, 의식, 심리철학, 신경과학]
 lang: kr
+header:
+  teaser: "/assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/0.jpg"
+image: assets/images/posts/2023/Q4/2023-12-14-AI, Robot, and Consciousness/0.jpg
 ---
 
 **세상에 대한 거울**
