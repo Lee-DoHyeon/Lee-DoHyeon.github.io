@@ -5,12 +5,12 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 11 Aug 2024 18:41:34 +0900</pubDate>
-        <lastBuildDate>Sun, 11 Aug 2024 18:41:34 +0900</lastBuildDate>
+        <pubDate>Sun, 11 Aug 2024 18:49:59 +0900</pubDate>
+        <lastBuildDate>Sun, 11 Aug 2024 18:49:59 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
-                <title>능동추론: 기존 이론을 뛰어넘는 새로운 관점</title>
+                <title>능동추론 vs 기존 이론들</title>
                 <description>&lt;style&gt;
   .centered-container {
       text-align: center;
@@ -42,7 +42,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/0.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/0.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       주변 환경을 자율적으로 탐색하고, 스스로 학습하며 행동을 조정하는 미래의 로봇, 자체 제작
     &lt;/figcaption&gt;
@@ -59,7 +59,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/1.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/1.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       소설 듄에서 미래를 예측할 수 있는 퀴사츠 헤더락의 미래 예지 장면, 출처: 영화 듄(Dune)
     &lt;/figcaption&gt;
@@ -74,7 +74,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       베이즈 규칙에 의해 세상을 지각한다는 베이즈 두뇌 가설, 출처: &lt;a href=&quot;&quot;&gt;Entropy, Free Energy, Symmetry and Dynamics in the Brain, Viktor Jirsa et al.&lt;/a&gt;
     &lt;/figcaption&gt;
@@ -89,7 +89,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/3.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/3.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       사전 신념만으로 행동에 영향이 생기는 관념운동 효과(Ideomotor Effect)의 대표 사례로 위저(Ouija) 보드.
     &lt;/figcaption&gt;
@@ -100,7 +100,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/4.webp&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/4.webp&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       사이버네틱스 운동과 관련 분야의 역사를 나타내는 다이어그램. 출처: &lt;a href=&quot;https://www.researchgate.net/profile/Dmitry-Novikov-4v&quot;&gt;Dmitry A. Noviko.&lt;/a&gt;
     &lt;/figcaption&gt;
@@ -126,7 +126,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/5.png&quot; style=&quot;width: 40%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/5.png&quot; style=&quot;width: 40%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       베이즈 의사결정 이론(Bayesian Decision Theory)의 예시. 난파된 비행기 AFF-447기를 찾는데 베이즈 정리를 활용한 베이즈 탐색 이론(Bayesian Search Theory)의 적용 사례. 출처: &lt;a href=&quot;https://www.metsci.com/what-we-do/featured-projects/the-search-for-air-france-447/&quot;&gt;Metron Inc.&lt;/a&gt;
     &lt;/figcaption&gt;
@@ -137,7 +137,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/6.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/6.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       NVIDIA의 Isaac Sim 시뮬레이터를 활용한 강화 학습 에이전트의 훈련 과정. 출처: &lt;a href=&quot;https://pypi.org/project/rl-games/1.1.1/&quot;&gt;RL Games, PYPI.&lt;/a&gt;
     &lt;/figcaption&gt;
@@ -148,7 +148,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/7.png&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/7.png&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       제어(Control) 및 계획(Planning)의 문제를 확률적 추론으로 형식화한 학자들. 출처: 개인 발표 자료.
     &lt;/figcaption&gt;
@@ -161,7 +161,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/8.jpg&quot; style=&quot;width: 40%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/8.jpg&quot; style=&quot;width: 40%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       행동 실험 경제학의 창시자로 노벨 경제학상을 수상한 대니얼 카너먼(Daniel Kahneman). 출처: &lt;a href=&quot;https://www.lowyinstitute.org/the-interpreter/daniel-kahneman-psychologist-who-shaped-economics-world&quot;&gt;Lowy Institute&lt;/a&gt;.
     &lt;/figcaption&gt;
@@ -176,7 +176,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/9.png&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/9.png&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       정동 신경과학(Affective Neuroscience)을 창시한 야크 판크세프(Jaak Panksepp)의 신경 심리학, 인지 신경과학 - 행동 신경과학 - 인지 심리학의 관계. 출처: &lt;a href=&quot;https://www.psychologytoday.com/sites/default/files/attachments/109303/jcs-articlefinal.pdf&quot;&gt;A Synopsis of Affective Neuroscience —
 Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
@@ -194,7 +194,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/10.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/10.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       시각적 이미지에서 주요 대상에 대한 주의집중 및 현저성 맵(Attention and Saliency Map). 출처: &lt;a href=&quot;https://www.geeksforgeeks.org/what-is-saliency-map/&quot;&gt;GeeksForGeeks&lt;/a&gt;.
     &lt;/figcaption&gt;
@@ -207,7 +207,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/11.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/11.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       최근 규칙 및 기호 학습에 대한 연구 프로그램으로 등장한 신경기호 인공지능. 출처: &lt;a href=&quot;https://youtu.be/16X0RB_YrvE?si=4BMivbBypHkrlLhA&quot;&gt;Caltech의 Yison Yue 교수님의 발표 자료&lt;/a&gt;.
     &lt;/figcaption&gt;
@@ -260,7 +260,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
             </item>
         
             <item>
-                <title>Active Inference: A New Perspective Beyond Existing Theories</title>
+                <title>Active Inference vs Existing Theories</title>
                 <description>&lt;style&gt;
   .centered-container {
       text-align: center;
@@ -292,7 +292,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/0.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/0.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       A futuristic robot autonomously exploring its environment, learning, and adjusting its behavior.
     &lt;/figcaption&gt;
@@ -309,7 +309,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/1.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/1.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       A scene from the movie &quot;Dune&quot; where the Kwisatz Haderach foresees the future.
     &lt;/figcaption&gt;
@@ -324,7 +324,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       The Bayesian Brain Hypothesis: perceiving the world through Bayes&apos; Rule. Source: &lt;a href=&quot;&quot;&gt;Entropy, Free Energy, Symmetry and Dynamics in the Brain, Viktor Jirsa et al.&lt;/a&gt;
     &lt;/figcaption&gt;
@@ -339,7 +339,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/3.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/3.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       The ideomotor effect: an example of how prior beliefs alone can influence behavior, as seen with the Ouija board.
     &lt;/figcaption&gt;
@@ -350,7 +350,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/4.webp&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/4.webp&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       Diagram illustrating the history of cybernetics and related fields. Source: &lt;a href=&quot;https://www.researchgate.net/profile/Dmitry-Novikov-4v&quot;&gt;Dmitry A. Novikov.&lt;/a&gt;
     &lt;/figcaption&gt;
@@ -376,7 +376,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/5.png&quot; style=&quot;width: 40%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/5.png&quot; style=&quot;width: 40%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       Example of Bayesian Decision Theory: Bayesian Search Theory applied to find the wreckage of Flight AF447 using Bayes&apos; Theorem. Source: &lt;a href=&quot;https://www.metsci.com/what-we-do/featured-projects/the-search-for-air-france-447/&quot;&gt;Metron Inc.&lt;/a&gt;
     &lt;/figcaption&gt;
@@ -387,7 +387,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/6.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/6.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       Training process of a reinforcement learning agent using NVIDIA&apos;s Isaac Sim simulator. Source: &lt;a href=&quot;https://pypi.org/project/rl-games/1.1.1/&quot;&gt;RL Games, PYPI.&lt;/a&gt;
     &lt;/figcaption&gt;
@@ -398,7 +398,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/7.png&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/7.png&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       Scholars who formalized the control and planning problems as probabilistic inference. Source: Personal presentation materials.
     &lt;/figcaption&gt;
@@ -411,7 +411,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/8.jpg&quot; style=&quot;width: 40%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/8.jpg&quot; style=&quot;width: 40%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       Daniel Kahneman, Nobel laureate and founder of behavioral economics. Source: &lt;a href=&quot;https://www.lowyinstitute.org/the-interpreter/daniel-kahneman-psychologist-who-shaped-economics-world&quot;&gt;Lowy Institute&lt;/a&gt;.
     &lt;/figcaption&gt;
@@ -426,7 +426,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/9.png&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/9.png&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       The relationship between neuropsychology, cognitive neuroscience, behavioral neuroscience, and cognitive psychology, as outlined by Jaak Panksepp, founder of affective neuroscience. Source: &lt;a href=&quot;https://www.psychologytoday.com/sites/default/files/attachments/109303/jcs-articlefinal.pdf&quot;&gt;A Synopsis of Affective Neuroscience — Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
     &lt;/figcaption&gt;
@@ -443,7 +443,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/10.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/10.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       Attention and saliency maps in visual images highlighting key subjects. Source: &lt;a href=&quot;https://www.geeksforgeeks.org/what-is-saliency-map/&quot;&gt;GeeksForGeeks&lt;/a&gt;.
     &lt;/figcaption&gt;
@@ -456,7 +456,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/11.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/11.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       Neuro-symbolic AI, a recent research program focusing on rule and symbol learning. Source: &lt;a href=&quot;https://youtu.be/16X0RB_YrvE?si=4BMivbBypHkrlLhA&quot;&gt;Presentation by Prof. Yison Yue at Caltech&lt;/a&gt;.
     &lt;/figcaption&gt;
@@ -991,7 +991,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
   &lt;figure&gt;
     &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-23-Toward Unified Science of Mind-Brain-Behavior/mind.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
-      마음-행동-두뇌의 관계에 대한 이해의 어려움.
+      마음-행동-두뇌의 관계는 복잡하고 어렵다...
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;

@@ -1,5 +1,5 @@
 ---
-title: "Active Inference: A New Perspective Beyond Existing Theories"
+title: "Active Inference vs Existing Theories"
 scope:
   type: posts
 values:
@@ -11,7 +11,7 @@ values:
   related: true
 toc: true
 toc_sticky: true
-toc_label: "Active Inference: A New Perspective Beyond Existing Theories"
+toc_label: "Active Inference vs Existing Theories"
 category: Motivation
 tags:
   [
@@ -26,8 +26,8 @@ tags:
   ]
 lang: en
 header:
-  teaser: "/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/0.webp"
-image: assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/0.webp
+  teaser: "assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/0.webp"
+image: /assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/0.webp
 ---
 
 <style>
@@ -55,7 +55,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/0.webp" style="width: 50%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/0.webp" style="width: 50%; height: auto;">
     <figcaption>
       A futuristic robot autonomously exploring its environment, learning, and adjusting its behavior.
     </figcaption>
@@ -72,7 +72,7 @@ Traditional brain and cognitive theories have emphasized feedforward models wher
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/1.gif" style="width: 80%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/1.gif" style="width: 80%; height: auto;">
     <figcaption>
       A scene from the movie "Dune" where the Kwisatz Haderach foresees the future.
     </figcaption>
@@ -87,7 +87,7 @@ Active Inference views perception as a process of inference based on a generativ
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/2.png" style="width: 50%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/2.png" style="width: 50%; height: auto;">
     <figcaption>
       The Bayesian Brain Hypothesis: perceiving the world through Bayes' Rule. Source: <a href="">Entropy, Free Energy, Symmetry and Dynamics in the Brain, Viktor Jirsa et al.</a>
     </figcaption>
@@ -102,7 +102,7 @@ In Active Inference, action control is driven by forward prediction, similar to 
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/3.jpg" style="width: 60%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/3.jpg" style="width: 60%; height: auto;">
     <figcaption>
       The ideomotor effect: an example of how prior beliefs alone can influence behavior, as seen with the Ouija board.
     </figcaption>
@@ -113,7 +113,7 @@ In Active Inference, action control is driven by forward prediction, similar to 
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/4.webp" style="width: 60%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/4.webp" style="width: 60%; height: auto;">
     <figcaption>
       Diagram illustrating the history of cybernetics and related fields. Source: <a href="https://www.researchgate.net/profile/Dmitry-Novikov-4v">Dmitry A. Novikov.</a>
     </figcaption>
@@ -139,7 +139,7 @@ Active Inference, Optimal Control Theory, economic theory, and reinforcement lea
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/5.png" style="width: 40%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/5.png" style="width: 40%; height: auto;">
     <figcaption>
       Example of Bayesian Decision Theory: Bayesian Search Theory applied to find the wreckage of Flight AF447 using Bayes' Theorem. Source: <a href="https://www.metsci.com/what-we-do/featured-projects/the-search-for-air-france-447/">Metron Inc.</a>
     </figcaption>
@@ -150,7 +150,7 @@ Active Inference, Optimal Control Theory, economic theory, and reinforcement lea
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/6.gif" style="width: 80%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/6.gif" style="width: 80%; height: auto;">
     <figcaption>
       Training process of a reinforcement learning agent using NVIDIA's Isaac Sim simulator. Source: <a href="https://pypi.org/project/rl-games/1.1.1/">RL Games, PYPI.</a>
     </figcaption>
@@ -161,7 +161,7 @@ Active Inference, Optimal Control Theory, economic theory, and reinforcement lea
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/7.png" style="width: 70%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/7.png" style="width: 70%; height: auto;">
     <figcaption>
       Scholars who formalized the control and planning problems as probabilistic inference. Source: Personal presentation materials.
     </figcaption>
@@ -174,7 +174,7 @@ Active Inference, Optimal Control Theory, economic theory, and reinforcement lea
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/8.jpg" style="width: 40%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/8.jpg" style="width: 40%; height: auto;">
     <figcaption>
       Daniel Kahneman, Nobel laureate and founder of behavioral economics. Source: <a href="https://www.lowyinstitute.org/the-interpreter/daniel-kahneman-psychologist-who-shaped-economics-world">Lowy Institute</a>.
     </figcaption>
@@ -189,7 +189,7 @@ In Active Inference, deliberative, perseverative, and habitual aspects of behavi
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/9.png" style="width: 60%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/9.png" style="width: 60%; height: auto;">
     <figcaption>
       The relationship between neuropsychology, cognitive neuroscience, behavioral neuroscience, and cognitive psychology, as outlined by Jaak Panksepp, founder of affective neuroscience. Source: <a href="https://www.psychologytoday.com/sites/default/files/attachments/109303/jcs-articlefinal.pdf">A Synopsis of Affective Neuroscience — Naturalizing the Mammalian Mind(2012), Jaak Panksepp</a>.
     </figcaption>
@@ -206,7 +206,7 @@ Active Inference maintains homeostasis by using generative models that explain a
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/10.jpg" style="width: 60%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/10.jpg" style="width: 60%; height: auto;">
     <figcaption>
       Attention and saliency maps in visual images highlighting key subjects. Source: <a href="https://www.geeksforgeeks.org/what-is-saliency-map/">GeeksForGeeks</a>.
     </figcaption>
@@ -219,7 +219,7 @@ Attention and salience are crucial concepts in psychology. In Active Inference, 
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/11.jpg" style="width: 80%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/11.jpg" style="width: 80%; height: auto;">
     <figcaption>
       Neuro-symbolic AI, a recent research program focusing on rule and symbol learning. Source: <a href="https://youtu.be/16X0RB_YrvE?si=4BMivbBypHkrlLhA">Presentation by Prof. Yison Yue at Caltech</a>.
     </figcaption>

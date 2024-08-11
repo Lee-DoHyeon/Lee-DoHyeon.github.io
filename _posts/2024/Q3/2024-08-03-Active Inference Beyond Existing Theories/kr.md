@@ -1,5 +1,5 @@
 ---
-title: "능동추론: 기존 이론을 뛰어넘는 새로운 관점"
+title: "능동추론 vs 기존 이론들"
 scope:
   type: posts
 values:
@@ -11,13 +11,13 @@ values:
   related: true
 toc: true
 toc_sticky: true
-toc_label: "능동추론: 기존 이론을 뛰어넘는 새로운 관점"
+toc_label: "능동추론 vs 기존 이론들"
 category: Motivation
 tags: [이론, 신경과학, 마음, 행동, 두뇌, 철학, 과학, 공학]
 lang: kr
 header:
-  teaser: "/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/0.webp"
-image: assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/0.webp
+  teaser: "/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/0.webp"
+image: /assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/0.webp
 ---
 
 <style>
@@ -45,7 +45,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/0.webp" style="width: 50%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/0.webp" style="width: 50%; height: auto;">
     <figcaption>
       주변 환경을 자율적으로 탐색하고, 스스로 학습하며 행동을 조정하는 미래의 로봇, 자체 제작
     </figcaption>
@@ -62,7 +62,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/1.gif" style="width: 80%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/1.gif" style="width: 80%; height: auto;">
     <figcaption>
       소설 듄에서 미래를 예측할 수 있는 퀴사츠 헤더락의 미래 예지 장면, 출처: 영화 듄(Dune)
     </figcaption>
@@ -77,7 +77,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/2.png" style="width: 50%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/2.png" style="width: 50%; height: auto;">
     <figcaption>
       베이즈 규칙에 의해 세상을 지각한다는 베이즈 두뇌 가설, 출처: <a href="">Entropy, Free Energy, Symmetry and Dynamics in the Brain, Viktor Jirsa et al.</a>
     </figcaption>
@@ -92,7 +92,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/3.jpg" style="width: 60%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/3.jpg" style="width: 60%; height: auto;">
     <figcaption>
       사전 신념만으로 행동에 영향이 생기는 관념운동 효과(Ideomotor Effect)의 대표 사례로 위저(Ouija) 보드.
     </figcaption>
@@ -103,7 +103,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/4.webp" style="width: 60%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/4.webp" style="width: 60%; height: auto;">
     <figcaption>
       사이버네틱스 운동과 관련 분야의 역사를 나타내는 다이어그램. 출처: <a href="https://www.researchgate.net/profile/Dmitry-Novikov-4v">Dmitry A. Noviko.</a>
     </figcaption>
@@ -129,7 +129,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/5.png" style="width: 40%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/5.png" style="width: 40%; height: auto;">
     <figcaption>
       베이즈 의사결정 이론(Bayesian Decision Theory)의 예시. 난파된 비행기 AFF-447기를 찾는데 베이즈 정리를 활용한 베이즈 탐색 이론(Bayesian Search Theory)의 적용 사례. 출처: <a href="https://www.metsci.com/what-we-do/featured-projects/the-search-for-air-france-447/">Metron Inc.</a>
     </figcaption>
@@ -140,7 +140,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/6.gif" style="width: 80%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/6.gif" style="width: 80%; height: auto;">
     <figcaption>
       NVIDIA의 Isaac Sim 시뮬레이터를 활용한 강화 학습 에이전트의 훈련 과정. 출처: <a href="https://pypi.org/project/rl-games/1.1.1/">RL Games, PYPI.</a>
     </figcaption>
@@ -151,7 +151,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/7.png" style="width: 70%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/7.png" style="width: 70%; height: auto;">
     <figcaption>
       제어(Control) 및 계획(Planning)의 문제를 확률적 추론으로 형식화한 학자들. 출처: 개인 발표 자료.
     </figcaption>
@@ -164,7 +164,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/8.jpg" style="width: 40%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/8.jpg" style="width: 40%; height: auto;">
     <figcaption>
       행동 실험 경제학의 창시자로 노벨 경제학상을 수상한 대니얼 카너먼(Daniel Kahneman). 출처: <a href="https://www.lowyinstitute.org/the-interpreter/daniel-kahneman-psychologist-who-shaped-economics-world">Lowy Institute</a>.
     </figcaption>
@@ -179,7 +179,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/9.png" style="width: 60%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/9.png" style="width: 60%; height: auto;">
     <figcaption>
       정동 신경과학(Affective Neuroscience)을 창시한 야크 판크세프(Jaak Panksepp)의 신경 심리학, 인지 신경과학 - 행동 신경과학 - 인지 심리학의 관계. 출처: <a href="https://www.psychologytoday.com/sites/default/files/attachments/109303/jcs-articlefinal.pdf">A Synopsis of Affective Neuroscience —
 Naturalizing the Mammalian Mind(2012), Jaak Panksepp</a>.
@@ -197,7 +197,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp</a>.
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/10.jpg" style="width: 60%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/10.jpg" style="width: 60%; height: auto;">
     <figcaption>
       시각적 이미지에서 주요 대상에 대한 주의집중 및 현저성 맵(Attention and Saliency Map). 출처: <a href="https://www.geeksforgeeks.org/what-is-saliency-map/">GeeksForGeeks</a>.
     </figcaption>
@@ -210,7 +210,7 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp</a>.
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/11.jpg" style="width: 80%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-Active Inference Beyond Existing Theories/11.jpg" style="width: 80%; height: auto;">
     <figcaption>
       최근 규칙 및 기호 학습에 대한 연구 프로그램으로 등장한 신경기호 인공지능. 출처: <a href="https://youtu.be/16X0RB_YrvE?si=4BMivbBypHkrlLhA">Caltech의 Yison Yue 교수님의 발표 자료</a>.
     </figcaption>
