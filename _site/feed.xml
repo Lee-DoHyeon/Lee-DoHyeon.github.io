@@ -5,9 +5,660 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 10 Aug 2024 19:47:04 +0900</pubDate>
-        <lastBuildDate>Sat, 10 Aug 2024 19:47:04 +0900</lastBuildDate>
+        <pubDate>Sun, 11 Aug 2024 18:15:40 +0900</pubDate>
+        <lastBuildDate>Sun, 11 Aug 2024 18:15:40 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
+        
+            <item>
+                <title>능동 추론: 기존 이론을 뛰어넘는 새로운 관점</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;이 글은 Thomas Parr, Giovanni Pezzulo의 교재 “&lt;a href=&quot;https://direct.mit.edu/books/oa-monograph/5299/Active-InferenceThe-Free-Energy-Principle-in-Mind&quot;&gt;Active Inference&lt;/a&gt;”의 마지막 장을 읽고 정리한 글임을 밝힙니다.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/0.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      주변 환경을 자율적으로 탐색하고, 스스로 학습하며 행동을 조정하는 미래의 로봇, 자체 제작
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;능동-추론-vs-기존-이론&quot;&gt;능동 추론 vs 기존 이론&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;1철학-예측-이론&quot;&gt;(1)철학; 예측 이론&lt;/h3&gt;
+
+&lt;p&gt;전통적인 뇌와 인지 이론은 자극이 반응으로 변환되는 피드포워드 모델을 강조하지만(그 사이의 모든 것들은 “인지적Cognitive”이라고 불린다), 능동 추론(Active Inference)은 예측과 목표 지향적 측면을 강조한다. 능동 추론 생명체는 생성 모델을 기반으로 예측을 생성하고, 이를 통해 가설을 검증하고 모델을 수정하며, 데이터를 능동적으로 수집한다. 이 과정에서 인식적(Epistemic) 요구(정보 탐색)와 실용적(Pragmatic) 요구(보상 확보)를 충족시킨다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/1.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      소설 듄에서 미래를 예측할 수 있는 퀴사츠 헤더락의 미래 예지 장면, 출처: 영화 듄(Dune)
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Predictive Processing&lt;/strong&gt; 예측 처리(Predictive Processing, PP)는 뇌와 인지를 예측 중심으로 보는 철학적 틀로, 예측을 뇌와 인지의 중심으로 간주하며 “예측적 뇌” 또는 “예측적 마음” 개념을 사용한다. PP 이론은 능동적 추론(Active Inference)과 관련이 깊으며, 생성 모델, 예측 부호화(Predictive Coding), 자유 에너지, 정밀도 조절, 마르코프 블랭킷 등 일부 개념을 공유하지만, PP는 더 넓은 의미로 사용된다. PP 이론은 지각, 행동, 학습, 정신병리학 등 다양한 인지 영역과 간단한 생물학적 유기체에서 사회적, 문화적 구조에 이르기까지 통합할 수 있는 잠재력으로 주목받고 있다. PP는 철학자들에게 익숙한 개념인 믿음Belief과 놀라움Surprise 등을 사용하지만, 이 개념들이 때로는 기술적 의미를 가질 수 있다. PP에 대한 관심이 커짐에 따라 철학자들 사이에서 이론적, 인식론적 해석에 대한 의견이 다양하며, 내재주의, 체화된 또는 행동 기반, 실행주의와 비표상적 관점 등으로 해석되고 있다.&lt;/p&gt;
+
+&lt;h3 id=&quot;2지각&quot;&gt;(2)지각&lt;/h3&gt;
+
+&lt;p&gt;능동추론은 지각을 생성 모델에 기반한 추론 과정으로 본다. 베이즈 규칙Bayes’ Rule은 관찰된 데이터를 바탕으로 환경의 숨겨진 상태에 대한 믿음을 계산하는 방식이다. 이는 헬름홀츠(1866)부터 시작된 오래된 개념으로, 심리학, 계산 신경과학, 기계 학습 등에서 재해석되어 왔다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      베이즈 규칙에 의해 세상을 지각한다는 베이즈 두뇌 가설, 출처: &lt;a href=&quot;&quot;&gt;Entropy, Free Energy, Symmetry and Dynamics in the Brain, Viktor Jirsa et al.&lt;/a&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Bayesian Brain Hypothesis&lt;/strong&gt; 베이즈 두뇌 가설(Bayesian Brain Hypothesis)은 이러한 아이디어를 현대적으로 표현한 것으로, 결정, 감각 처리, 학습 등 여러 영역에 적용된다. 능동 추론은 변동 자유 에너지를 최소화하는 원칙에 기반해 이러한 추론 아이디어에 대한 규범적 근거를 제공한다. 반면, 베이즈 두뇌 가설은 지각과 행동을 다른 명령에 따라 모델링한다. 능동 추론은 지각 추론의 전형적인 과정 모델인 예측 부호화(Predictive Coding)를 기반으로 지속적인 시간 속에서 행동 영역으로 확장된다. 이는 생성 모델의 원리를 통해 행동 동역학을 설명한다. 이와 달리, 베이즈 두뇌 가설은 뇌가 베이즈 최적(Bayes-Optimal) 감각운동(Sensorimotor)과 다종감각 통합(Multi-sensory Integration)을 수행한다는 계산 수준(Computational Level)의 제안, 샘플링 기반 의사결정과 같은 특정 베이즈 추론 근사치를 구현한다는 알고리즘 수준(Algorithmic Level)의 제안, 신경 집단이 확률적 계산을 수행하거나 확률 분포를 인코딩하는 방식에 대한 신경 수준(Neuronal Level)의 제안 등 여러 이론을 포함한다. 각 수준에서 다양한 경쟁 이론이 존재하며, 베이즈 계산은 여러 알고리즘 방식으로 실현될 수 있다. 반면, 능동 추론은 규범적 원칙과 과정 이론을 연결하는 더 통합된 관점을 제공한다. 규범적 수준에서 모든 과정은 변동 자유 에너지를 최소화한다고 가정한다. 이러한 추론을 위한 과정 이론은 자유 에너지의 기울기 하강(Gradient Descent)을 사용하며, 이는 명확한 신경생리학적 함의를 가진다. 예측 부호화는 자유 에너지 최소화 원칙에서 도출될 수 있으며, 연속 시간에서 예측 부호화 에이전트에 운동 반사를 부여함으로써 행동 영역으로 확장될 수 있다.&lt;/p&gt;
+
+&lt;h3 id=&quot;3행동-제어&quot;&gt;(3)행동 제어&lt;/h3&gt;
+
+&lt;p&gt;능동 추론에서 행동 제어는 지각 처리와 유사하게 순방향 예측(Forward Prediction)에 의해 유도된다. 예를 들어, “내 손이 컵을 잡는다”는 고유수용감각 예측(Proprioceptive Prediction)이 잡는 동작을 유발한다. 행동 제어는 감각 입력에 덜 의존하고 뇌간 및 척수의 운동 반사(Motor Reflexes)와 연결되어 상대적으로 적은 상향식 입력을 받는다는 점을 제외하곤, 지각의 신경생물학 구조와 “동일”하다. 이는 행동이 목표 평형점(Equilibrium Point)을 설정하고 유지하는 평형점 가설(Equilibrium Point Hypothesis)과 연관된다. 행동을 시작하려면 사전 신념(Prior Belief)과 감각 입력의 신뢰도(Precision)를 적절히 조절해야 하며, 사전 신념이 더 정확할 때 잡는 행동이 발생한다. 이는 일시적인 감각 감쇠(Sensory Attenuation)를 통해 이루어지며, 감각 감쇠에 대한 실패는 행동 제어의 실패를 초래할 수 있다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/3.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      사전 신념만으로 행동에 영향이 생기는 관념운동 효과(Ideomotor Effect)의 대표 사례로 위저(Ouija) 보드.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Ideomotor Theory&lt;/strong&gt; 능동 추론에서는 행동이 운동 명령(Motor Command)이 아니라 고유수용적 예측(Proprioceptive Predictions)에 의해 발생한다. 이는 윌리엄 제임스의 관념운동 이론(Ideomotor Theory)과 관련이 있다. 이 이론은 행동과 효과 간의 양방향 연결성이 인지 구조의 핵심이라고 제안한다. 즉, 행동에서 효과로의 경우에는 그에 따른 감각 예측을 생성하고, 효과에서 행동으로의 경우에는 기대하는 효과에 따라 행동을 선택할 수 있게 한다. 능동 추론은 이러한 개념을 확장하여 신뢰도 제어(Precision Control)와 감각 감쇠(Sensory Attenuation)에 대한 추가적인 아이디어를 제공한다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/4.webp&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      사이버네틱스 운동과 관련 분야의 역사를 나타내는 다이어그램. 출처: &lt;a href=&quot;https://www.researchgate.net/profile/Dmitry-Novikov-4v&quot;&gt;Dmitry A. Noviko.&lt;/a&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Cybernetics&lt;/strong&gt; 능동 추론은 행동의 목표 지향성(Goal-Directedness)과 피드백 기반의 에이전트-환경 상호작용을 강조하며, TOTE 모델(Test-Operate-Test-Exit)과 유사하게 목표 상태(Preferred State)와 현재 상태 간의 차이에 따라 행동을 선택한다. 이는 단순한 자극-반응 관계(Stimulus-Response Relationship)를 가정하는 행동주의 이론(Behaviorist Theory)이나 강화 학습(Reinforcement Learning)과 구별된다. 오히려, 행동이 아니라 지각 상태를 제어하는 것을 핵심으로 하는 지각 제어 이론(Perceptual Control Theory)과도 유사하다. 능동 추론과 지각 제어 이론 모두 지각적 예측을 통해 행동을 제어한다는 공통점이 있다. 예를 들어, 운전 시 우리가 제어하는 것은 목표 속도일 뿐, 상황에 따라 가속이나 감속을 선택할 수도 있다. 이는 윌리엄 제임스의 “인간은 유연한 방식으로 안정적인 목표를 성취한다”는 통찰을 반영한다. 그러나, 능동 추론은 생성 모델을 통해 예측적(순방향) 제어(Predictive Control)를 포함하는 반면, 지각 제어 이론은 피드백 메커니즘(Feedback)이 충분하다고 본다. 또한, 두 이론 모두 상위 목표와 하위 목표의 계층적 연쇄(Hierarchical Cascade)를 통해 제어를 설명하지만, 능동 추론은 동기적 과정(Motivational Process)에 의한 신뢰도 가중치 조절(Precision Weight Modulation)에 따라 더 현저(Salient)하거나 급한 목표를 우선하는 기능을 포함한다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1AR2-OHCxsQ?si=rJ886vqqvCW80lss&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+    &lt;figcaption&gt;
+      최적 제어 이론에서 유명한 Model Predictive Path Integral; Information-Theoretic Model Predictive Control 알고리즘으로 구동되는 랠리 카. 출처: Georgia Tech.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Optimal Control Theory&lt;/strong&gt; 최적 제어 이론(Optimal Control Theory)은 자극에 따른 반응을 결정하는 제어 정책(Control Policy)과 비용 함수(Cost Function)을 통해 운동 명령(Motor Command)을 선택한다. 이에 반해, 능동 추론은 예측적 제어(Predictive Control)를 사용하며, 운동 명령을 예측으로 간주하고, 생성 모델이 행동 제어의 핵심 역할을 한다. 최적 제어는 행동에 따른 결과를 예측하는 순방향 모델(Forward Model)과 그 예측을 바탕으로 비용 함수를 최적화하는 운동 명령을 탐색하는 역방향 모델(Inverse Model)을 필요로 하지만, 능동 추론은 단순한 반사(Reflex)에 기반한 순방향 모델로 충분하다. 능동 추론에서는 감각 예측 오류(Sensory Prediction Error)가 발생하면 행동을 통해 이를 해결하며, 복잡한 역방향 계산 대신 단순한 운동 반사를 고려한다. 또한, 능동 추론은 최적 제어 이론이 사용하는 비용/가치 함수(Cost/Value Function) 대신 사전 선호(Prior Preference)나 기대 자유 에너지(Expected Free Energy)와 같은 베이지안 개념을 사용한다.&lt;/p&gt;
+
+&lt;h3 id=&quot;4효용과-의사-결정&quot;&gt;(4)효용과 의사 결정&lt;/h3&gt;
+
+&lt;p&gt;능동 추론과 최적 제어 이론, 경제 이론, 강화 학습은 모두 행동을 선택하는 데 비용(Cost)/보상(Reward)을 활용하지만, 접근 방식에 차이가 있다. 최적 제어 이론과 강화 학습은 비용 함수(Cost Function)와 벨만 방정식(Bellman Equation)을 사용하여 행동을 최적화하고, 경제 이론은 효용 극대화(Utility Maximization)를 목표로 한다. 반면, 능동 추론은 기대 자유 에너지 최소화(Expected Free Energy Minimization)를 목표로 하며, 이는 탐색-활용 딜레마(Exploration-Exploitation Dilemma)을 자연스럽게 해결하는데 도움을 준다. 또한, 비용 개념을 사전 선호(Prior Preference)로 흡수하여 제어의 목적을 명시하고 생성 모델을 편향(Biased)시키며, 가치 함수(Value Function) 대신 사전 확률(Prior)을 사용해 최적 정책을 찾는다. 이렇게 함으로써, 능동 추론은 행동을 예측적 제어를 통해 수행하고, 목표 상태를 더 효과적으로 달성할 수 있게 한다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/5.png&quot; style=&quot;width: 40%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      베이즈 의사결정 이론(Bayesian Decision Theory)의 예시. 난파된 비행기 AFF-447기를 찾는데 베이즈 정리를 활용한 베이즈 탐색 이론(Bayesian Search Theory)의 적용 사례. 출처: &lt;a href=&quot;https://www.metsci.com/what-we-do/featured-projects/the-search-for-air-france-447/&quot;&gt;Metron Inc.&lt;/a&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Bayesian Decision Theory&lt;/strong&gt; 베이지안 의사결정 이론(Bayesian Decision Theory)은 미래 결과의 확률을 예측하는 베이지안 계산과 미래 계획에 대한 선호도를 정의하는 효용(Utility) 또는 비용(Cost) 함수를 결합하여 최적의 행동을 선택한다. 반면, 능동 추론은 사전 분포(Prior)가 유기체에게 가치 있는 것을 직접적으로 신호하며, 변분 자유 에너지(Variational Free Energy) 및 기대 자유 에너지(Expected Free Energy)를 최소화하여 신념을 최적화한다. 완전 계급 정리(Complete Class Theorem)에 따르면, 임의의 의사결정과 비용 함수에 대해 베이즈 최적의 결정을 지원하는 사전 분포가 반드시 존재하기 때문에, 베이지안 의사결정 이론은 사전 신념과 비용 함수를 따로 다룰 때 이중성(Duality) 내지 하자(Degeneracy)의 문제가 발생한다. 능동 추론은 이를 선호도(Preference)로 통합하여 해결한다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/6.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      NVIDIA의 Isaac Sim 시뮬레이터를 활용한 강화 학습 에이전트의 훈련 과정. 출처: &lt;a href=&quot;https://pypi.org/project/rl-games/1.1.1/&quot;&gt;RL Games, PYPI.&lt;/a&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Reinforcement Learning&lt;/strong&gt; 강화 학습(RL)은 시도와 오류(Trial-Error)를 통해 정책(Policy)을 학습하며, 보상(Reward)과 가치 함수(Value Function)를 사용하여 최적의 행동을 선택한다. RL은 가치 함수를 직접 학습하는 모델 프리(Model-Free) 방법, 모델을 학습하여 이를 활용한 데이터로 가치 함수와 정책을 학습하는 모델 기반(Model-Based) 방법, 가치 함수 없이 직접 정책을 최적화하는 정책 그래디언트(Policy Gradient) 방법으로 나뉜다. 반면, 능동 추론은 보상과 가치 함수 대신 변분 자유 에너지와 기대 자유 에너지를 최소화하여 신념을 최적화한다. RL은 행동을 시도와 오류 학습을 통해 강화에 의해 매개된다고 가정하지만, 능동 추론은 행동이 추론의 결과라고 가정한다. 또한, RL에서는 목표 지향적(goal-directed) 행동과 습관적(habitual) 행동이 각각 모델 기반과 모델 프리 RL로 대응되어 병렬로 습득되어 경쟁하는 반면, 능동 추론에서는 목표 지향적 정책을 반복적으로 추구함으로써 습관이 습득될 수 있기에 협력할 수 있다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/7.png&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      제어(Control) 및 계획(Planning)의 문제를 확률적 추론으로 형식화한 학자들. 출처: 개인 발표 자료.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Planning as Inference&lt;/strong&gt; 지각의 문제를 추론의 문제로 보았듯이, 제어 및 계획의 문제 또한 추론의 문제로 보는 것이 가능하다. 이는 Rawlik, Levine의 추론으로써 제어(Control As Inference) 및 Attias, Botvinick, Toussaint의 추론으로써 계획(Planning As Inference), Kappen의 리스크 민감성 및 KL 제어(Risk-Sensitive, KL Control)과 관련되어 있다. 능동 추론과 기타 “추론으로써 계획” 이론은 모두 동적 생성 모델(Dynamic Generative Model)을 사용하여 상태와 행동 간의 확률적 연관성을 인코딩하고 행동 시퀀스를 추론하지만, (1)추론 방법(Inference Method)-(2)추론 대상(Inference Target)-(3)추론 목표(Inference Goal)의 세 가지 주요 차원에서 차이를 보인다. 능동 추론은 (1)변분 추론(Variational Inference)을 사용하여 확장 가능하고 효율적인 계산을 수행하며, (2)모델 기반 예측(Model-Based Planning) 내지, 행동 시퀀스(Action Sequence) 또는 정책(Policies)에 대한 사후 분포(Posterior)의 추론을 제공하고, (3)기대 자유 에너지를 최소화하여 더 넓은 목표를 추구한다. 반면, 기타 이론들은 샘플링과 같은 다른 추론 방식을 사용하고, 단일 행동이나 행동 시퀀스에 중점을 두며, 보상을 극대화하는 것을 목표로 한다.&lt;/p&gt;
+
+&lt;h3 id=&quot;5행동과-제한된-합리성&quot;&gt;(5)행동과 제한된 합리성&lt;/h3&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/8.jpg&quot; style=&quot;width: 40%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      행동 실험 경제학의 창시자로 노벨 경제학상을 수상한 대니얼 카너먼(Daniel Kahneman). 출처: &lt;a href=&quot;https://www.lowyinstitute.org/the-interpreter/daniel-kahneman-psychologist-who-shaped-economics-world&quot;&gt;Lowy Institute&lt;/a&gt;.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;능동 추론에서는 행동의 신중한(Deliberative)-지속적인(Perseverative)-습관적인(Habitual) 측면을 자동으로 결합한다. 예를 들어, 한 사람이 상점에 가는 동안 예상 자유 에너지를 최소화하여 신중한 계획을 세우고, 변분 자유 에너지를 최소화하여 현재 행동을 지속하며, 과거의 경험에 기반한 습관적 행동을 수행한다. 이는 카너먼의 이중 체계 이론(Dual System Theory)과 달리, 신중한 행동과 지속적 행동, 습관적 행동이 공존하며 상황에 따라 협력할 수 있음을 의미한다. 신중한 행동은 복잡성 비용을 수반할 수 있는 인지 자원에 따라 달라지며, 제한된 합리성 개념에 따라 계산의 비용, 노력, 시의적절성을 균형 있게 맞추는 것이 중요하다. 능동 추론은 행동을 추론의 결과로 보며, 다양한 상황에서 최적의 행동을 유도한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;자유 에너지 이론과 제한된 합리성&lt;/strong&gt; 제한된 합리성(Bounded Rationality)은 헬름홀츠 자유 에너지 최소화(Helmholtz Free Energy Minimization)의 관점에서 설명되며, 이는 능동 추론에서 사용되는 변분 자유 에너지 개념과 관련된다. 자유 에너지의 두 구성 요소인 에너지;정확성(Energy; Accuracy)와 엔트로피;복잡성(Entropy;Complexity) 간의 타협을 통해 행동 선택의 상충 관계(Trade-Off)를 설명한다. 능동 추론에서는 신념의 신뢰도(Precision)를 높이는 데 드는 비용과 정확성 간의 타협을 통해 자유 에너지를 최소화한다. 제한된 합리성의 개념은 변분 경계(Variational Bound)를 사용하여 증거(Evidence)를 평가하는 능동 추론과 공명한다. 결과적으로, 능동 추론은 정확성과 복잡성 간의 타협을 통해 최적의 해결책을 도출하는 (제한된) 합리성((Bounded) Rationality)과 최적성(Optimality)의 모델을 제공한다.&lt;/p&gt;
+
+&lt;h3 id=&quot;6감정가-감정-그리고-동기&quot;&gt;(6)감정가, 감정, 그리고 동기&lt;/h3&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/9.png&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      정동 신경과학(Affective Neuroscience)을 창시한 야크 판크세프(Jaak Panksepp)의 도식. 출처: &lt;a href=&quot;https://www.psychologytoday.com/sites/default/files/attachments/109303/jcs-articlefinal.pdf&quot;&gt;A Synopsis of Affective Neuroscience —
+Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;능동 추론은 (음의) 자유 에너지를 생물의 목표 실현 능력의 척도로 사용하며, 생명체는 자유 에너지의 값을 알 필요 없이 기울기를 따라 행동을 조정하는 셈이다. 감정가(Emotional Valence)는 자유 에너지의 시간에 따른 변화율로 설명되며, 자유 에너지의 감소는 양적(Positive) 감정가, 증가는 부적(Negative) 감정가으로 해석된다. 더 나아가, 고차 변화율을 통해 더 복잡한 감정 상태를 설명할 수 있다; 안도감(Relief)은 낮은 감정가에서 높은 감정가로 전환되는 것으로, 실망감(Dissapointment)은 높은 감정가에서 낮은 감정가로 전환되는 것이다. 이는 신뢰도(Precision)와도 관련되는데, 자유 에너지의 2계 변화율이기 때문이다. 자유 에너지의 증가 또는 감소에 대한 기대는 동기 부여와 행동 선택에 중요한 역할을 한다. 정책에 대한 신념의 신뢰도은 도파민 신호와 연결되어, 신뢰할 만한 정책이 발견되면 도파민 폭발이 발생할 수 있다. 목표나 보상 달성에 대한 기대가 주의력(Attention)과 동기 부여(Motivation)의 증가에 연결되는 신경생리학적 메커니즘을 밝히는 데 도움이 될 것으로 기대된다.&lt;/p&gt;
+
+&lt;h3 id=&quot;7항상성-이상성-그리고-내수용감각&quot;&gt;(7)항상성, 이상성, 그리고 내수용감각&lt;/h3&gt;
+
+&lt;p&gt;능동 추론은 생물의 내부 상태(Internal Milieu)를 설명하고 조절하는 생성 모델을 사용하여 항상성(Homeostasis)을 유지한다. 내부수용적 추론(Interoceptive Inference)을 통해 자율 반사(Autonomic Reflex)를 활성화하여 생리학적 매개 변수를 조절하고, 기대 자유 에너지를 최소화하는 이상성(Allostasis) 전략을 사용하여 내수용성 예측 오류를 사전에 방지한다. 생리학적 조절은 정동(Affect) 및 정서(Emotion) 처리에 중요한 역할을 하며, 외부 자극의 인식 동안 발생하는 내부수용 정보의 흐름은 상황의 정동적 의미를 부여한다. 정서 추론(Emotional Inference)은 감정을 생성 모델의 일부로 간주하여 신념을 갱신하고 행동을 조절한다. 예를 들어, 불안은 “나는 불안하다”는 베이지안 신념을 통해 감각 입력 및 내부수용적 신호를 설명하며, 그러한 예측은 신뢰도(Precision)를 조정하거나 자율 반응을 유도한다. 보통, 내부수용적 및 외부수용적 감각 정보는 통합되며, 질병 연구를 통해 감정, 내부수용적 추론(Interoception), 주의집중(Attention) 간의 밀접한 관계를 형성한다.&lt;/p&gt;
+
+&lt;h3 id=&quot;8주의집중-현저성-그리고-인식론적-동역학&quot;&gt;(8)주의집중, 현저성, 그리고 인식론적 동역학&lt;/h3&gt;
+
+&lt;p&gt;주의집중(Attention)과 현저성(Salience)은 심리학에서 중요한 개념으로, 능동 추론에서는 주의집중을 감각 입력의 신뢰도(Precision)로, 현저성을 기대 정보 이득(Expected Information Gain) 또는 인식론적 가치(Epistemic Value)으로 정의한다. 주의집중은 신념 갱신에 더 큰 영향을 미치는 감각을 선택하는 것이며, 현저성은 더 많은 정보를 제공할 것으로 기대되는 자극을 나타낸다; 주의집중은 추론의 잠재성(Potential to Infer), 현저성은 학습의 잠재성(Potential to Learn)이다. 비유하자면, 주의집중은 이미 측정한 데이터 중에서 가장 높은 품질의 데이터를 선택하여 가설 검정에 사용하는 과정이고, 현저성은 다음 실험을 설계하여 가장 높은 품질의 데이터를 확보하는 과정이다. 능동 추론의 공식적 접근 방식은 주의집중과 현저성의 모호성을 해결하고, 이 두 개념이 종종 혼동되는 이유를 설명한다. 인식론적 동역학(Epistemic Dynamics)은 이러한 개념들이 정보 획득과 행동 결정에 어떻게 영향을 미치는지를 설명한다.&lt;/p&gt;
+
+&lt;h3 id=&quot;9규칙-학습-인과-추론-빠른-일반화&quot;&gt;(9)규칙 학습, 인과 추론, 빠른 일반화&lt;/h3&gt;
+
+&lt;p&gt;능동 추론의 학습 패러다임은 행동(Actions), 사건(Events), 관찰(Observation) 간의 인과 관계(Causal Relations)를 포착하는 생성 모델의 개발에 기반을 둔다. 인간은 복잡한 인과 추론(Causal Inference)과 일반화(Generalization)를 통해 환경의 숨겨진 규칙(Latent Structure)을 학습하며, 이는 단순한 패턴 인식에 기반을 둔 현재의 기계 학습 접근 방식과 대조된다. 숨겨진 규칙을 학습하면 더 나은 예측력과 더 적은 감각적 세부 사항으로도 일반화할 수 있다. 이러한 능력은 새로운 상황에서도 효율적인 학습을 가능하게 하며, 학습을 학습하는(Laerning-to-Learn) 능력을 개발한다. 능동 추론은 모델의 정확성(Accuracy)과 복잡성(Complexity) 간의 균형을 맞추는 것을 중요시하며, 모델 축소(Model Reduction)는 단순히 자원을 낭비하는 것을 예방하는 것뿐만 아니라, 숨겨진 규칙을 학습하는 효과적인 방법이다.&lt;/p&gt;
+
+&lt;h3 id=&quot;10기타-활용방안&quot;&gt;(10)기타 활용방안&lt;/h3&gt;
+
+&lt;p&gt;능동 추론은 생존(Survival)과 적응(Adaptation) 외에도 사회 및 문화 역학(Social and Cultural Dynamics), 기계 학습 및 로봇공학(Machine Learning and Robotics) 등 다양한 분야에 적용될 수 있다. 사회 및 문화 역학에서는 에이전트 간 상호작용의 효과를 탐구하고, 기계 학습 및 로봇공학에서는 이론과 호환되는 방식으로 더 복잡한 문제를 해결하기 위한 학습 메커니즘을 연구한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Social and Cultural Dynamics&lt;/strong&gt; 인간 인지는 개별적 인식보다 사회적 및 문화적 역학과 관련이 깊다. 사회적 역학은 팀 스포츠 같은 물리적 상호작용에서 선거 같은 추상적 상호작용까지, 여러 능동 추론 에이전트를 상호작용을 필요로 한다. 간단한 시뮬레이션은 소멸에 저항하는 간단한 생명체의 자기 조직(Self-Organization), 신체 혀애를 획득하고 복구하는 형태 형성(Morphogenetic Process)의 가능성, 상호 조정된 예측(Mutual Coordinated Prediction) 및 순서 교대(Take Turning)와 같은 흥미로운 발생 현상을 이미 보여주었다. 이러한 연구는 인지가 두개골을 넘어 사회적 틈새로 확장되는 가능성을 시사한다. 능동 추론은 개인의 과학에서 사회의 과학으로 확장될 수 있는 잠재력을 가지고 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Machine Learning and Robotics&lt;/strong&gt; 기계 학습 및 로봇 공학에서 생성 모델링(Generative Model)과 변분 추론(Variational Inference) 방법이 널리 사용된다. 초기 연결주의(Connectionist) 생성 모델인 헬름홀츠 머신(Helmholtz Machine)과 볼츠만 머신(Boltzmann Machine)은 신경망의 내부 표상(Internal Representation)을 비지도 방식(Unsupervised)으로 학습하는 방법을 제공했으며, 이는 변분 접근과 관련이 깊다. 최근 모델인 변분 오토인코더(VAE)와 생성적 적대 신경망(GAN)은 그림과 비디오를 인식하거나 생성하는 데 널리 사용된다. VAE는 데이터의 정확한 설명을 학습하며 복잡성을 최소화하고, GAN은 생성 네트워크와 판별 네트워크 간의 경쟁을 통해 고품질 데이터를 생성한다. 생성 모델은 로봇의 고차원 움직임 제어(Control)에도 사용되며, 자율 탐색(Autonomous Exploration), 인간의 시연(Demonstration), 인간과의 상호작용을 통해 학습할 수 있다. 능동 추론은 이러한 문제를 해결하기 위한 효과적인 접근 방식을 제공하며, 더 발전된 로봇 기술 개발에 기여할 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;이 책은 뇌와 행동을 첫 원칙에서 이해하는 가능성에 대한 질문으로 시작하여, 능동 추론을 그 해결책으로 제시했다. 능동 추론이 인식, 행동 선택, 감정 등 익숙한 심리학적 개념에 어떤 의미를 가지는지 탐구하면서, 관련 개념들을 재검토하고 앞으로의 연구 과제를 제시했다. 이론적 신경생물학의 중요한 실습을 통해 능동 추론을 실천해 볼 것을 권장하며, 일상 생활에서도 이를 적용할 수 있음을 강조했다. 궁극적으로, 능동 추론이 우리의 일상과 연구에 어떻게 기여할 수 있는지를 강조하며, 독자들이 이를 계속 추구할 것을 기대한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+                <pubDate>Sat, 03 Aug 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/Active-Inference-Beyond-Existing-Theories-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Active-Inference-Beyond-Existing-Theories-kr/</guid>
+                
+                <category>이론</category>
+                
+                <category>신경과학</category>
+                
+                <category>마음</category>
+                
+                <category>행동</category>
+                
+                <category>두뇌</category>
+                
+                <category>철학</category>
+                
+                <category>과학</category>
+                
+                <category>공학</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>Bridging the Gap between Symbol and Sub-symbol</title>
+                <description>&lt;p&gt;Modern advancements in artificial intelligence and robotics have made significant progress in mimicking high-level human behaviors and decision-making. Particularly, Deep Reinforcement Learning (DRL) has succeeded in implementing complex behaviors that surpass traditional control problems. While Finite State Machines (FSM) were used in the past for robots performing games or simple tasks, Behavior Trees (BT) have become widely applied recently. This shift, along with technological advancements, presents new approaches to solving complex problems.&lt;/p&gt;
+
+&lt;p&gt;Deep Reinforcement Learning indeed offers more possibilities than traditional control methods. This technology is being applied in real-world tasks, helping to solve various challenges we face. However, the complexity and learning processes of deep neural networks function like a black box, potentially causing inductive bias. Therefore, we must exercise caution when using sub-symbolic systems, such as artificial neural networks. Recent incidents related to Tesla’s autonomous driving technology highlight these concerns, leading many countries to strengthen relevant legislation to enhance AI safety and reliability. Modern machines thus need more responsive and modular world models to address such issues effectively.&lt;/p&gt;
+
+&lt;p&gt;Moreover, modern machines are neither as fast nor as energy-efficient as the reflexes of humans or animals. While most machines focus on single tasks, humans and animals possess various skills to solve the more challenging and complex task of survival in the world. Constructing reactive and modular world models enables flexible responses to complex environments and easy partial modifications. To implement true autonomous agents, these reactive and modular world models are necessary. These models are closely related to high-level cognitive functions and metacognition in humans.&lt;/p&gt;
+
+&lt;p&gt;Humans act based on their understanding of language and the physical world through complex deep neural networks or self-supervised world models. These behaviors are often implicit or explicit and can be considered finite state machines or behavior trees at a macro level. For example, Jurgen Schmidhuber proposed the Gödel Machine, emphasizing that the core ability of consciousness is to modify internal programs and develop better ones. This suggests that humans continually develop and refine useful programs or symbolic systems from sub-symbolic systems like neural networks. Recent consciousness studies also focus on high-level cognitive functions and metacognition, demonstrating how high-level perspectives continuously influence lower-level perspectives in viewing the world (mind), biological reconstruction through learning (brain), and interactions with the physical world (behavior).&lt;/p&gt;
+
+&lt;p&gt;Phenomena like hypnosis and subliminal messaging techniques, which operate through language and sensory information, exemplify this self-modifying ability. However, there is little discussion on the techniques or methods for displaying the sub-symbolic contents of deep neural networks in a symbolic form. This is similar to how understanding human behaviors and habits, and expressing the underlying beliefs and subconscious, is possible only through reflection and self-evaluation. As the famous saying goes, “Beliefs become thoughts, thoughts become words, words become actions, actions become habits, habits determine one’s values, and values determine one’s destiny.” To change our destiny and values, we must change our actions and habits, and to do that, we must change our beliefs and words. For instance, several current research approaches strive to address these technical challenges.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, it is crucial to explore how sub-symbolic systems autonomously generate and modify high-level symbolic behaviors and clear guidelines. Extracting and evaluating the behavior patterns implicitly stored in already developed sub-symbolic systems is also essential. This process is not only a technically challenging task but also a critical research field determining the future of artificial intelligence. Therefore, advancing modern AI requires an in-depth study of the interactions between sub-symbolic and symbolic systems to develop more flexible and efficient autonomous agents. We must continue our efforts to solve these complex problems.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;Modern AI and robotics have made significant strides in mimicking high-level human behaviors and decision-making, particularly through Deep Reinforcement Learning (DRL), which has succeeded in implementing complex behaviors. While traditional control methods like Finite State Machines (FSM) and Behavior Trees (BT) are being replaced by DRL in practical applications, the complexity and inductive bias of deep neural networks necessitate careful use of sub-symbolic systems. Incidents such as Tesla’s autonomous driving accidents highlight these concerns. Modern machines are not as fast or energy-efficient as human or animal reflexes, and typically focus on single tasks, whereas humans and animals use reactive and modular world models for flexible adaptation. Constructing such models is essential for true autonomous agents and closely related to high-level cognitive functions and metacognition. Phenomena like hypnosis and subliminal messaging show self-modifying abilities through language and sensory information, but techniques to display sub-symbolic contents symbolically are lacking. As the saying goes, “Beliefs become thoughts, thoughts become words, words become actions, actions become habits, habits determine one’s values, and values determine one’s destiny,” indicating the need to change beliefs and words to alter actions and habits. Current research approaches aim to address these challenges. In conclusion, exploring how sub-symbolic systems autonomously generate and modify high-level symbolic behaviors is crucial, as is extracting and evaluating implicit behavior patterns. This research is vital for advancing AI and developing flexible and efficient autonomous agents, necessitating continued efforts to solve these complex problems.&lt;/p&gt;
+</description>
+                <pubDate>Sat, 03 Aug 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/Active-Inference-Beyond-Existing-Theories-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Active-Inference-Beyond-Existing-Theories-en/</guid>
+                
+                <category>Beliefs</category>
+                
+                <category>Language</category>
+                
+                <category>Symbolic Systems</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
+        
+            <item>
+                <title>능동추론이 주는 통찰</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;이 글은 Thomas Parr, Giovanni Pezzulo의 교재 “&lt;a href=&quot;https://direct.mit.edu/books/oa-monograph/5299/Active-InferenceThe-Free-Energy-Principle-in-Mind&quot;&gt;Active Inference&lt;/a&gt;”의 마지막 장을 읽고 정리한 글임을 밝힙니다.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF_original.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      토마스 파, 지오바니 페줄로, 칼 프리스턴의 능동 추론 교과서
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;1-인트로&quot;&gt;1. 인트로&lt;/h1&gt;
+
+&lt;p&gt;능동 추론(Active Inference)은 기존에 심리학과 신경과학 분야에서 독립적으로 존재하던 지각(Perception), 행동 선택(Action Selection), 주의집중(Attention), 감정 조절(Emotion Regulation) 등을 통합적으로 바라보는 새로운 관점을 제공한다. 더 나아가, 기존의 사이버네틱스(Cybernetics), 행동의 관념운동 이론(Ideomotor Theory of Action), 강화 학습(Reinforcement Learning), 최적 제어(Optimal Control)와도 긴밀히 연결된다. 능동 추론은 생물학적, 사회적, 기술적 주제로도 확장될 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;아랫길low-road&quot;&gt;아랫길(Low Road)&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/0.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+        뱀의 공격을 예측하고 빠르게 대응하는 고양이, 출처: &lt;a href=&quot;forgifs.com/gallery/v/Animals/Cat-vs-snake.gif.html&quot;&gt;forgif&lt;/a&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;모든 감응력 있는(Sentient) 생명체는 환경과 행동-지각의 루프를 이루며 영속(persist)해 나간다. 능동 추론을 이해하는 한 방법은 두뇌를 세상에 대한 생성 모형(Generative Model)을 지닌 예측 기계(Prediction Machine)로 간주하는 것이다. 이는 헬름홀츠(Hermann von Helmholtz)의 아이디어로부터 시작하여 최근에는 베이지안 두뇌 가설(Bayesian Brain Hypothesis)로 발전되었다. 이 관점에 따르면, 정확한 추론은 불가능하기 때문에 근사(Approximation)를 수행하게 되며, 결과적으로 지각과 행동은 변분 자유 에너지(Variational Free Energy)를 최소화하는 과정으로 해석된다. 다시 말해, 행동과 지각은 독립된 개념이라기보다 한 목적을 달성하는 과정의 두 가지 모습으로 볼 수 있다. 미래의 사건에 대한 계획(Planning) 또한 기대 자유 에너지(Expected Free Energy)를 최소화하는 과정으로 해석될 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;윗길high-road&quot;&gt;윗길(High Road)&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/1.png&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+        자유에너지에 대한 곡면 위에서 안정점(Stable Point)를 향해 이동하는 모습, 출처: &lt;a href=&quot;https://www.researchgate.net/publication/357198851_Permutation_Entropy_as_a_Universal_Disorder_Criterion_How_Disorders_at_Different_Scale_Levels_Are_Manifestations_of_the_Same_Underlying_Principle&quot;&gt;Permutation Entropy as a Universal Disorder Criterion: How Disorders at Different Scale Levels Are Manifestations of the Same Underlying Principle, Rutger Goekoop et al.&lt;/a&gt;.&lt;br /&gt;점의 상태가 시스템의 궤적을 이룬다.
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;능동 추론을 이해하는 또 다른 방법은, 생물학적 유기체가 신체를 유지하고 소멸을 막는 핵심 원리에서 시작한다. 마코프 블랭킷(Markov Blanket)은 통계학에서 흔히 사용하는 개념으로, 생명체의 내부와 외부를 구분하는 형식적 프레임워크이다. 마코프 블랭킷을 지닌 유기체는 외부 환경을 베이지안 관점으로 모형화한다고 볼 수 있다. 자율성은 유기체가 지닌 외부 환경의 모형이 존재론적 전제 조건들을 규정하면서도 편향되지 않기 때문에 보장된다. 이로써 지각과 행동을 통해 베이지안 모형 에비던스(Model Evidence)를 최대화하는 과정으로 최적 행동을 서술할 수 있다. 이는 변분 자유 에너지를 최소화하는 과정과 동일하며, 해밀턴의 최소 작용의 원리와 통계 역학의 원리들과도 일맥상통한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;형식화formalization&quot;&gt;형식화(Formalization)&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/2.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+        능동 추론 및 베이즈 역학, 출처: &lt;a href=&quot;https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2018.00021/full&quot;&gt;The Active Inference Approach to Ecological Perception: General Information Dynamics for Natural and Artificial Embodied Cognition, Adam Linson et al.&lt;/a&gt;.
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;형식적 관점에서 자유 에너지는 변분 추론(Variational Inference)을 통해 가능하다. 모형이 나타내는 과정(Process)은 변수와 시간의 이산성/연속성에 상관없이 모형화될 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;과정-이론process-theory&quot;&gt;과정 이론(Process Theory)&lt;/h2&gt;
+
+&lt;p&gt;능동 추론은 단순히 규범적 원리(Normative Theory)에서 그치는 것이 아니라, 실제로 이것들이 뇌에서 어떻게 구현되어 있는지 분석하는 과정 이론(Process Theory) 또한 제공한다. 해부학적 수준에서 시스템적 수준에 이르기까지, 뉴런들의 신경해부학적 회로(Neuroanatomical Circuitry)와 신경 조절(Neuromodulation)을 포함한 메시지 전달 과정(Neuronal Message Passing)을 설명한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;모델-설계-방법론design-recipe&quot;&gt;모델 설계 방법론(Design Recipe)&lt;/h2&gt;
+
+&lt;p&gt;모든 생명체는 변분 자유 에너지를 최소화하면서도 서로 다르게 행동한다. 이는 그들이 다른 생성 모형을 지녔기 때문이다. 가능한 생성 모형의 레퍼토리는 매우 풍부하며, 시대적 맥락(Context)과 생태적 지위(Niche)에 따라 다른 생물학적 구현체를 지니고 있을 것이다. 진화(Evolution)는 박테리아에서 영장류까지 풍부한 생태적 지위에 맞는 두뇌와 신체의 복잡한 형태를 발견해왔다. 모형을 설계할 때 이 과정을 역설계할 수 있으며, 관심 생물의 두뇌와 신체에 따라 이산/연속 변수를 취하거나 모형의 깊이를 설계할 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;예시example&quot;&gt;예시(Example)&lt;/h2&gt;
+
+&lt;p&gt;능동 추론을 통해 지각적 추론, 목표 지향적 행동, 모형의 학습, 행동 선택 등을 모형화할 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;실험experiment&quot;&gt;실험(Experiment)&lt;/h2&gt;
+
+&lt;p&gt;능동 추론은 실험을 통해 수집한 데이터에 대해 모형 기반의 데이터 분석에 사용될 수 있으며, 개인의 생성 모형에 따라 파라미터를 역추적할 수도 있다. 이러한 계산적 형질화(Computational Phenotyping)는 타인의 주관적 모형에 대한 객관적 모형을 설계하고 평가하는 데 도움을 줄 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;2-점-연결하기&quot;&gt;2. 점 연결하기&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;데닛의-비판dennetts-critique&quot;&gt;데닛의 비판(Dennett’s Critique)&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/3.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+        2004년 경의 데니얼 데닛, 출처: &lt;a href=&quot;https://static01.nyt.com/images/2024/04/19/multimedia/19Dennett-2-mvpq/19Dennett-2-mvpq-superJumbo.jpg?quality=75&amp;amp;auto=webp&quot;&gt;Eamonn McCabe/Popperfoto, via Getty Images&lt;/a&gt;.
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;수십 년 전, 철학자 대니얼 데닛(Daniel Dennett)은 인지 과학자들이 명확히 구분하기 어려운 독립된 하위 시스템(subsystem)을 모형화하는 데에 너무 많은 시간을 쓴다고 불평한 적 있다. 그는 오히려 다루고자 하는 환경적 지위를 잘 설정하여 전체적인 인지적 생명체(cognitive creature)를 모형화해야 한다고 제안했다.&lt;/p&gt;
+
+&lt;h2 id=&quot;통합적-관점integrative-perspective&quot;&gt;통합적 관점(Integrative Perspective)&lt;/h2&gt;
+
+&lt;p&gt;능동 추론(Active Inference)은 통합적인 관점을 제공한다. 지각과 행동은 생성 모형(generative model)에 대해 자증적(self-evidencing)이며, 변분 자유 에너지를 최소화하는 과정의 서로 다른 측면이다. 장기 기억(long-term memory)은 생성 모형의 매개변수를 학습하는 과정에서 발달하며, 작업 기억(working memory)은 과거와 미래의 외부 상태에 대한 믿음을 갱신(belief updating)하는 과정이다. 이때 주의 집중(attention)은 감각 입력의 신뢰도(precision)에 대한 믿음을 최적화(belief optimization)하는 과정이다. 계획(planning)과 지향성(intentionality)의 형태 또한 가능한 미래의 시나리오 중 하나를 선택하는 능력으로 개념화될 수 있으며, 이는 시간적으로 깊은 생성 모형(deep temporal model)을 요구한다. 시간적으로 깊은 생성 모형은 현재에 대한 믿음을 바탕으로 과거에 대한 믿음을 갱신하는 회상(retrospection)과 현재의 믿음을 바탕으로 미래에 대한 믿음을 도출하는 전망(prospection)이라는 복잡한 현상을 이해하는 데에도 도움을 준다. 마지막으로, 내수용적 조절(interoceptive regulation)과 감정(emotion) 또한 미래 사건의 이상성(allostatic) 결과를 예측하는 내부 생리 메커니즘의 생성 모형을 통해 개념화될 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;비전vision&quot;&gt;비전(Vision)&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/4.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+        1880년 경의 윌리엄 제임스, 출처: &lt;a href=&quot;https://www.loa.org/writers/29-william-james/&quot;&gt;Houghton Library at Harvard University; public domain via Wikimedia Commons&lt;/a&gt;.
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;데닛의 비판에 맞서, 능동 추론은 수많은 독립적으로 다뤄져 온 인지 및 행동 개념들에 대한 통합적인 관점을 제공한다. 이에 따라, 단순히 지각과 행동, 기억과 주의 집중들을 조합하는 것이 아니라, 생명체가 해결해야만 하는 최초 원리로부터 그들이 이끌어낸 다양한 인지 기능들을 분석하게 해준다. 이로써, 심리학과 신경과학에서 사용되어 온 윌리엄 제임스의 범주(Jamesian category)가 지닌 모호성을 벗어나 수학적 형식성과 구체성을 지닐 수 있게 된다.&lt;/p&gt;
+
+&lt;h2 id=&quot;유사성identifying-analogies&quot;&gt;유사성(Identifying Analogies)&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/5.png&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+        의사결정에 있어 항상 등장하는 탐색-실행 딜레마(Exploration-Exploitation Dillema), 출처: &lt;a href=&quot;https://www.lakera.ai/blog/reinforcement-learning&quot;&gt;Lakera AI&lt;/a&gt;.
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;이러한 규범적 관점을 채택하는 것은 다른 분야에서 연구된 인지 현상 사이의 형식적인 유사성을 쉽게 식별하는 데 도움을 준다. 대표적으로 탐색과 활용의 딜레마(exploration-exploitation dilemma)나 제한된 자원에서의 검색과 숙고의 딜레마(search-deliberation dilemma)에 대한 연결성을 쉽게 이해하도록 도와준다&lt;/p&gt;
+
+&lt;h2 id=&quot;오해풀기demystifying&quot;&gt;오해풀기(Demystifying)&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/6.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+        하트 모양 번개, 출처: &lt;a href=&quot;https://www.reddit.com/r/interestingasfuck/comments/9pjauj/a_heart_shaped_lightning_bolt_during_a/?rdt=40244&amp;amp;onetap_auto=true&amp;amp;one_tap=true&quot;&gt;Reddit&lt;/a&gt;.
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;결론적으로, 능동 추론은 과정 이론(process theory)으로서 뉴런이 수행하는 계산을 이해하는 핵심 수단을 제공한다. 두뇌-마음-행동은 단순히 변분 자유 에너지를 최소화하는 과정으로 이해될 수 있다. 다시 말해, 천둥과 번개가 대기의 방전 현상에 대한 청각적, 시각적 일면이듯이, 두뇌-마음-행동은 변분 자유 에너지를 최소화하는 과정의 다양한 일면일 뿐이다. 현대 과학이 천둥을 번개로, 번개를 천둥으로 환원시키지 않고 대기의 방전 현상으로 환원시켜 이해하듯이, 두뇌, 마음, 행동의 관계가 지니는 미스터리를 떠나 자유 에너지의 최소화 현상으로 환원시켜 이해하는 것이 바람직하다.&lt;/p&gt;
+
+&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;이 책은 뇌와 행동을 첫 원칙에서 이해하는 가능성에 대한 질문으로 시작하여, 능동 추론을 그 해결책으로 제시했다. 능동 추론이 인식, 행동 선택, 감정 등 익숙한 심리학적 개념에 어떤 의미를 가지는지 탐구하면서, 관련 개념들을 재검토하고 앞으로의 연구 과제를 제시했다. 이론적 신경생물학의 중요한 실습을 통해 능동 추론을 실천해 볼 것을 권장하며, 일상 생활에서도 이를 적용할 수 있음을 강조했다. 궁극적으로, 능동 추론이 우리의 일상과 연구에 어떻게 기여할 수 있는지를 강조하며, 독자들이 이를 계속 추구할 것을 기대한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+                <pubDate>Thu, 01 Aug 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/Insights-on-Active-Inference-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Insights-on-Active-Inference-kr/</guid>
+                
+                <category>이론</category>
+                
+                <category>신경과학</category>
+                
+                <category>마음</category>
+                
+                <category>행동</category>
+                
+                <category>두뇌</category>
+                
+                <category>철학</category>
+                
+                <category>과학</category>
+                
+                <category>공학</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>Insights on Active Inference</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;This post is based on the final chapter of the textbook “&lt;a href=&quot;https://direct.mit.edu/books/oa-monograph/5299/Active-InferenceThe-Free-Energy-Principle-in-Mind&quot;&gt;Active Inference&lt;/a&gt;” by Thomas Parr and Giovanni Pezzulo.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF_original.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      The Active Inference textbook by Thomas Parr, Giovanni Pezzulo, and Karl Friston
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;1-introduction&quot;&gt;1. Introduction&lt;/h1&gt;
+
+&lt;p&gt;Active Inference offers a new perspective that integrates previously separate concepts in psychology and neuroscience, such as perception, action selection, attention, and emotion regulation. Furthermore, it connects closely with existing frameworks like cybernetics, the ideomotor theory of action, reinforcement learning, and optimal control. Active Inference can also extend to biological, social, and technological domains.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-low-road&quot;&gt;The Low Road&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/0.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+        A cat quickly reacting to a snake’s attack, anticipating the threat. Source: &lt;a href=&quot;forgifs.com/gallery/v/Animals/Cat-vs-snake.gif.html&quot;&gt;forgif&lt;/a&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;All sentient beings exist within a loop of action and perception with their environment. One way to understand Active Inference is by considering the brain as a prediction machine equipped with a generative model of the world. This idea, originating from Hermann von Helmholtz, has evolved into the Bayesian Brain Hypothesis. According to this view, exact inference is impossible, leading to approximations where perception and action minimize variational free energy. In other words, action and perception are not independent concepts but two sides of the same process aimed at achieving a goal. Planning for future events can also be seen as a process of minimizing expected free energy.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-high-road&quot;&gt;The High Road&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/1.png&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+        Moving toward a stable point on a free energy surface. Source: &lt;a href=&quot;https://www.researchgate.net/publication/357198851_Permutation_Entropy_as_a_Universal_Disorder_Criterion_How_Disorders_at_Different_Scale_Levels_Are_Manifestations_of_the_Same_Underlying_Principle&quot;&gt;Permutation Entropy as a Universal Disorder Criterion: How Disorders at Different Scale Levels Are Manifestations of the Same Underlying Principle, Rutger Goekoop et al.&lt;/a&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Another way to understand Active Inference starts with the core principle that biological organisms maintain their bodies and prevent their demise. The Markov blanket, a concept commonly used in statistics, provides a formal framework that distinguishes between an organism’s internal and external states. An organism with a Markov blanket can model the external environment from a Bayesian perspective. Autonomy is ensured because the organism’s model of the external environment sets ontological preconditions without bias. Optimal behavior can be described as a process of maximizing Bayesian model evidence through perception and action. This process is equivalent to minimizing variational free energy and aligns with Hamilton’s principle of least action and principles from statistical mechanics.&lt;/p&gt;
+
+&lt;h2 id=&quot;formalization&quot;&gt;Formalization&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/2.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+        Active Inference and Bayesian Mechanics. Source: &lt;a href=&quot;https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2018.00021/full&quot;&gt;The Active Inference Approach to Ecological Perception: General Information Dynamics for Natural and Artificial Embodied Cognition, Adam Linson et al.&lt;/a&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;From a formal perspective, free energy is minimized through variational inference. The processes represented by a model can be modeled regardless of whether variables and time are discrete or continuous.&lt;/p&gt;
+
+&lt;h2 id=&quot;process-theory&quot;&gt;Process Theory&lt;/h2&gt;
+
+&lt;p&gt;Active Inference is not just a normative principle but also provides a process theory that analyzes how these principles are implemented in the brain. It explains neural message passing, including the neuroanatomical circuitry and neuromodulation, from the anatomical level to the systemic level.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-recipe&quot;&gt;Design Recipe&lt;/h2&gt;
+
+&lt;p&gt;All organisms minimize variational free energy but do so differently because they have different generative models. The repertoire of possible generative models is rich and depends on the context and ecological niche, resulting in different biological implementations. Evolution has discovered complex forms of brains and bodies suited to diverse ecological niches, from bacteria to primates. When designing models, this process can be reverse-engineered, allowing for the design of models with discrete or continuous variables and varying depths depending on the brains and bodies of interest.&lt;/p&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+
+&lt;p&gt;Active Inference can be used to model perceptual inference, goal-directed behavior, model learning, action selection, and more.&lt;/p&gt;
+
+&lt;h2 id=&quot;experimentation&quot;&gt;Experimentation&lt;/h2&gt;
+
+&lt;p&gt;Active Inference can be used for model-based data analysis on data collected from experiments, allowing for parameter back-calculation based on individual generative models. This computational phenotyping helps design and evaluate objective models of subjective models of others.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;2-connecting-the-dots&quot;&gt;2. Connecting the Dots&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;dennetts-critique&quot;&gt;Dennett’s Critique&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/3.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+        Daniel Dennett around 2004. Source: &lt;a href=&quot;https://static01.nyt.com/images/2024/04/19/multimedia/19Dennett-2-mvpq/19Dennett-2-mvpq-superJumbo.jpg?quality=75&amp;amp;auto=webp&quot;&gt;Eamonn McCabe/Popperfoto, via Getty Images&lt;/a&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Decades ago, philosopher Daniel Dennett complained that cognitive scientists spent too much time modeling independent subsystems that are difficult to distinguish clearly. He suggested that they should instead focus on modeling the entire cognitive creature by properly setting the environmental niche they are dealing with.&lt;/p&gt;
+
+&lt;h2 id=&quot;integrative-perspective&quot;&gt;Integrative Perspective&lt;/h2&gt;
+
+&lt;p&gt;Active Inference provides an integrative perspective. Perception and action are self-evidencing with respect to a generative model, representing different aspects of the process of minimizing variational free energy. Long-term memory develops as the generative model learns its parameters, while working memory is the process of belief updating about past and future external states. During this time, attention optimizes belief about the precision of sensory input. Planning and intentionality can be conceptualized as the ability to select among possible future scenarios, requiring a deep temporal generative model. This deep temporal model also helps understand complex phenomena like retrospection, where beliefs about the past are updated based on current beliefs, and prospection, where beliefs about the future are derived from current beliefs. Finally, interoceptive regulation and emotion can also be conceptualized through generative models of internal physiological mechanisms predicting allostatic outcomes of future events.&lt;/p&gt;
+
+&lt;h2 id=&quot;vision&quot;&gt;Vision&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/4.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+        William James around 1880. Source: &lt;a href=&quot;https://www.loa.org/writers/29-william-james/&quot;&gt;Houghton Library at Harvard University; public domain via Wikimedia Commons&lt;/a&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In response to Dennett’s critique, Active Inference offers an integrative view of many cognitive and behavioral concepts that have been studied independently. It allows us to analyze the various cognitive functions derived from the first principles that life must solve, rather than merely combining perception, action, memory, and attention. This approach gives mathematical formality and specificity, moving beyond the ambiguity of William James’ categories that have been used in psychology and neuroscience.&lt;/p&gt;
+
+&lt;h2 id=&quot;identifying-analogies&quot;&gt;Identifying Analogies&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/5.png&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+        The exploration-exploitation dilemma always present in decision-making. Source: &lt;a href=&quot;https://www.lakera.ai/blog/reinforcement-learning&quot;&gt;Lakera AI&lt;/a&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Adopting this normative perspective makes it easier to identify formal analogies between cognitive phenomena studied in different fields. Notably, it helps understand the connections between the exploration-exploitation dilemma and the search-deliberation dilemma in constrained resources.&lt;/p&gt;
+
+&lt;h2 id=&quot;demystifying&quot;&gt;Demystifying&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/6.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+        Heart-shaped lightning bolt. Source: &lt;a href=&quot;https://www.reddit.com/r/interestingasfuck/comments/9pjauj/a_heart_shaped_lightning_bolt_during_a/?rdt=40244&amp;amp;onetap_auto=true&amp;amp;one_tap=true&quot;&gt;Reddit&lt;/a&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In conclusion, Active Inference, as a process theory, offers a key means of understanding the computations performed by neurons. Mind-brain-behavior can be understood simply as a process of minimizing variational free energy. In other words, just as thunder and lightning are auditory and visual aspects of atmospheric discharge, mind-brain-behavior are different aspects of the process of minimizing variational free energy. Just as modern science understands thunder and lightning not by reducing them to each other but by reducing both to atmospheric discharge, the mysteries of the relationship between brain, mind, and behavior are best understood by reducing them to the process of minimizing free energy.&lt;/p&gt;
+
+&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This book began with the question of understanding the brain and behavior from first principles, proposing Active Inference as the solution. It explored what Active Inference means for familiar psychological concepts like perception, action selection, and emotion, while reexamining related concepts and proposing future research directions. Through practical exercises in theoretical neurobiology, it encouraged practicing Active Inference, emphasizing its applicability to everyday life. Ultimately, the book highlighted how Active Inference can contribute to both our daily lives and research, encouraging readers to continue pursuing this approach.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+                <pubDate>Thu, 01 Aug 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/Insights-on-Active-Inference-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Insights-on-Active-Inference-en/</guid>
+                
+                <category>Theory</category>
+                
+                <category>Neuroscience</category>
+                
+                <category>Mind</category>
+                
+                <category>Behavior</category>
+                
+                <category>Brain</category>
+                
+                <category>Philosophy</category>
+                
+                <category>Science</category>
+                
+                <category>Engineering</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
         
             <item>
                 <title>기호의 경계를 넘나들며</title>
@@ -3176,899 +3827,6 @@ _· Copyright problem ← AI cannot be free from issues related to data ownershi
                 <category>Information Theory</category>
                 
                 <category>AI</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>현상학 자연화의 함의와 한계</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;본 글은 김태희 철학연구원 님의 “&lt;a href=&quot;https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02332265&quot;&gt;현상학 자연화의 함의와 한계&lt;/a&gt;“를 읽고 정리한 글입니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;글을-읽기-전에&quot;&gt;글을 읽기 전에&lt;/h1&gt;
-
-&lt;p&gt;인간/동물/기계의 의식에 대한 질문을 해결하려면, 먼저 1인칭적 의식 경험을 분석할 필요가 있다. 그런데 조금만 생각해보면, 우리가 경험하는 시청각적 지각, 상상 및 시간의식 등 대부분의 심적 내용이 굉장히 복잡하고 어렵게 구성되어 있다는 것을 깨달을 수 있다. 예를 들어, “카메라는 시각적 의식을 수행하는가(?)”라는 질문을 해보자. 우리가 버튼을 누르기 전까지 카메라는 디스플레이에 순간적인 정보를 표시할 뿐이다. 이는 우리의 시각적 지각과 엄연히 다르다. 우리가 경험하는 한 순간의 시각적 경험은 바로 직전의 시각적 경험과 관련되어 있기 때문이다. 만약 직전의 시각적 경험과 지금의 시각적 경험이 아무런 관련이 없고, 우리가 매 순간 새로운 장면을 경험하고 또 그 장면을 휘발해 버리는 셈이라면, 어떠한 의식적 경험도 유지되거나 존재할 수 없을 것이다.&lt;/p&gt;
-
-&lt;p&gt;위에서 내가 제시한 예시와 그것에 대한 분석이 충분히 엄밀하지 않을 수도 있다. 다행히 100년 전에, 이러한 주관적 경험에 대한 엄밀한 분석 작업이 수행되었다. 바로 현상학Phenomenology이다. 현상학은 다양한 유형의 의식인 노에시스Noesis와 그것이 지향하는 다양한 유형의 대상인 노에마Noema가 지니는 관계를 규명하는 분야이다. 현상학 연구에서 얻은 결과물이 현재까지 등장한 신경과학 연구/의식 이론에 어떤 도움을 줄 수 있을까? 아래의 핵심 질문을 갖고 글을 읽고자 했다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;현상학적 연구 결과는 자연주의적 태도와 어떤 관계를 맺고 있는가/맺을 수 있는가?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;현상학적 이론과 의식에 대한 신경과학적-자연주의 이론과 어떤 관계를 맺고 있는가/맺을 수 있는가?&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q3/2023-07-09-About Natualizing Phenomenology/1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      &quot;Explanatory Gap problem, Naturalizing Phenomenology, Neurophenomenology and Generative Passage interpretation.&quot;, Midjourney AI엔진
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;1-들어가며&quot;&gt;1. 들어가며&lt;/h1&gt;
-&lt;p&gt;1장에서는 인지과학자와 철학자들이 다루는 “현상학의 자연화(Naturalizing Phenomenology; NP)” 연구 프로그램에 대한 논의로 이야기를 시작한다. 현상학의 자연화 연구 프로그램은 현상학적 연구를 자연과학의 &lt;설명&gt; 프레임 안으로 통합하려는 연구 프로그램이다. 의식과 관련된 문제는 크게 아래의 두 가지로 분류할 수 있다.&lt;/설명&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;설명 간극 문제(Explanatory Gap): 뇌의 과정에 의해서, 감각질의 존재에 대해 설명하기 어렵다. _ Joseph Levine&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;어려운 문제(The Hard Problem): 뇌의 물리적 작용이 어떻게 감각 경험을 불러 일으키는가? _ David Chalmers&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;해당 논문에서 밝히는 핵심적인 질문은 아래와 같다. 인지과학과 현상학의 융합 연구의 가능성을 평가하기 위해 NP에 대한 다양한 논의를 검토하고자 한다. 특히 Varela의 신경현상학Neurophenomenology에 초점을 두고, 인지과학과 현상학의 상호제약(Reciprocal Constraint; RC)을 어떻게 해석할 수 있으며, 신경현상학은 NP를 어떻게 해석하고 있는가? 하는 질문을 다루고자 한다.&lt;/p&gt;
-
-&lt;p&gt;인지과학과 현상학의 융합 연구는 가능한가?
-NP는 이 가능성의 전제 조건이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;2-신경현상학&quot;&gt;2. 신경현상학&lt;/h1&gt;
-
-&lt;p&gt;저자는 분석을 시작하기에 앞서, NP의 의미를 아래와 같이 한정한다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Naturalizing: 현상학적 기술을 자연과학의 프레임 안으로 통합한다는 의미&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Phenomenology: 현상학적 철학과 현상학적 심리학&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;신경현상학은 아래의 작업가설에 기반한 이론이다:&lt;/p&gt;
-
-&lt;p&gt;경험구조에 대한 현상학적 서술들과 인지과학에서 거기에 상응한느 서술들이 상호제약(RC)를 통해 서로 연관된다.
-NP 연구 프로그램에 대한 여러 이론에는 아래와 같이 다양한 이론이 존재한다:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;D. Dennet: Heterophenomenology&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;E. Marbach: Formalization of Phenomenological Description&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;S. Gallagher: Front-loading Phenomenology&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;저자는 그 중에서 Varela의 신경현상학 접근이 가장 포괄적이고 수용적이며, 전도유망하다고 평가한다. 신경현상학은 마음과 의식에 대한 정합적 설명을 위해 체험들의 본성에 대한 현상학적 기술description이 필요하다고 지적한다. 더 나아가, 이러한 현상학적 기술은 설명의 체계 안에 통합되어야 한다고 주장한다.&lt;/p&gt;
-
-&lt;p&gt;신경현상학은 1인칭적 자료들에 대한 완벽하고 정확한 기술이 가능하고, 수학적 모델의 형태를 지닐 수 있다고 본다. 다만 후설 자신이 의식 체험의 본질이 정밀하지 않은 형태학적 본질임을 밝혔다. 그러나, 저자는 박승억/요시미의 주장을 가져와 이러한 우려가 후설 자신도 열어둔 질문이거나 수학적 방법을 배제할 필요가 없음을 보여준다. 신경현상학 기획의 성패는 다시말해 “의식 체험에 대한 수학적 모델의 실현 여부”에 달려있다고 말할 수 있겠다.&lt;/p&gt;
-
-&lt;p&gt;신경현상학의 관점에서 할 수 있는 질문은 이제 아래와 같이 3가지로 정리할 수 있다. 저자는 1에 대해서는 다루지 않고, 2와 3에 대해서만 이야기하고자 한다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;의식의 신경과학적 차원과 현상학적 차원을 포괄하는 수학적 모델은 정확히 무엇인가? 대체 그런 모델이 존재할 수 있는가?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;(만약 1에서의 모델이 존재한다고 전제하면) 설명적 간극에 다리를 놓는 포괄적인 모델을 제공할 수 있는가?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;(만약 2에서의 다리를 제공한다고 전제하면) 후설의 입장과 양립가능한가? 이는 후설이 거부했던 자연주의의 일종이 아닌가?&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;3--설명-간극에-다리-놓기&quot;&gt;3.  설명 간극에 다리 놓기&lt;/h1&gt;
-&lt;p&gt;Varela의 핵심적 가설은 크게 세가지로 다음과 같이 분류할 수 있다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. 현상적 의식 경험은 물리적 사건들로 환원 불가능하다.
-
-2. 의식적 경험에 대한 1인칭 기술과 3인칭 연구는 상호제약 관계에 있어야 한다.
-
-3. 현존하는 1인칭 방법들을 다듬어 현상적 의식 경험을 적절하게 조사할 수 있다.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;T. Bayne에 따르면, 두번째 가설에서 이야기하는 상호제약(RC) 관계에 대해 상이한 해석이 존재한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 1. 반성적 평형Reflective Equilibrium
-
- 2. 발견술 전략Heuristic Strategy
-
- 3. 상호 인과Reciprocal Causation
-
- 4. 생성적 통로Generative Passage
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;1,2는 너무 약한 해석/3은 너무 강한 해석이라고 하며, 4의 해석이 가장 적합하다고 판단한다. 생성적 통로 해석은 상호제약 관계가 현상적 상태와 신경생리학적 상태 사이를 연결하는 수학적 모델이라고 간주한다. 이러한 다리 놓기는 크게 3가지가 요구된다:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; (1) 경험구조에 대한 현상학적 설명들
-
- (2) 이 구조적 불변항들에 대한 현상적 동역학 모델
-
- (3) 생물학적 체계 내의 이 모델들의 실현
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;생성적 통로 해석의 관점에서 문제를 재정의할 수 있겠다:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 1. 과학적 문제로서 설명 간극: 의식에 대한 현상학과 신경생물학 양자를 통합적/정합적인 방식으로 해명할 수 있는 모델을 제기하는 문제
-
- 2. 심리철학에서의 의식의 어려운 문제: 자연 안에서 의식의 지위에 대한 추상적 형이상학적 문제
-
- (이때, 2를 해결하지 않고 1만 해결하는 것/1을 해결하지 않고 2만 해결하는 것이 가능함에 긍정한다)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;재정의한 문제의 관점에서 설명 간극에 다리를 놓는 것이 성공한다는 것은 (1)현상학적 사건과 신경학적 자료들을 적절하게 형식화한 수학적 모델을 구성하는 것과 (2)피설명항(의식의 개별 사건이나 신경과학에서의 의식의 신경상관물NCC 등)이 설명항(수학적 모델)의 논리적 귀결임을 밝는 것이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;4-후설-입장과의-양립-가능성&quot;&gt;4. 후설 입장과의 양립 가능성&lt;/h1&gt;
-&lt;p&gt;자연화는 크게 (1)이념성의 자연화와 (2)의식의 자연화로 분류할 수 있다. 후설은 전자에 대해서는 반대하지만, 후자에 대해서는 어떤 한계 내에서 가능하다고 본다. 저자는 해당 글에서 경험학문의 정초로서 현상학적 심리학의 자연화는 긍정하지만, 초월론적 현상학은 결코 자연화될 수 없음을 주장한다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q3/2023-07-09-About Natualizing Phenomenology/0.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      &quot;Explanatory Gap problem, Naturalizing Phenomenology, Neurophenomenology and Generative Passage interpretation.&quot;, Midjourney AI엔진
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;글을-읽어-보내며&quot;&gt;글을 읽어 보내며&lt;/h1&gt;
-
-&lt;p&gt;현상학 자연화 연구 프로그램 -&amp;gt; Varela의 신경현상학 이론 -&amp;gt; 상호 제약에 대한 생성적 통로 해석 -&amp;gt; 설명 간극 문제 해소의 의미&lt;/p&gt;
-
-&lt;p&gt;본 논문을 읽으며, 인지과학과 현상학의 융합 연구에 대한 중요한 키워드를 파악할 수 있었다. 인지과학의 철학에서 중요하게 생각하는 NP 연구 프로그램에 대해 파악할 수 있었다. 더 나아가, NP에서 전도유망한 이론인 신경현상학을 소개받고, 그것의 핵심 가설인 1인칭적 자료와 3인칭적 자료 사이의 상호제약에 대한 다양한 해석 방법이 존재함을 이해했다. 그 중 “생성적 통로” 해석의 입장에서 주어진 문제를 해결하는 것; 1인칭적 자료와 3인칭적 자료 사이의 설명 간극에 다리를 놓는 것이 주요한 수학적 모델을 구축하는 것임을 깨달았다.&lt;/p&gt;
-
-&lt;p&gt;최근 사람의 행동과 심리적 현상에 대한 규범적 이론Normative Model인 Karl Friston의 Active Inference를 공부하며, 이것이 인간의 1인칭적 자료도 잘 설명할 수 있을 것이라는 막연한 기대감이 들었다. 실제로, 트위터에서 답글을 달며 친해진 Maxwell Ramstead의 작업들 중 Active Inference와 현상학의 융합 연구에 대한 철학적 입장을 밝힌 것을 확인할 수 있었다;계산현상학. 앞으로 다음 논문을 읽고 Active Inference가 위에서 언급한 주요한 수학적 모델이 될 수 있는지 검토해보고자 한다.&lt;/p&gt;
-
-&lt;p&gt;다음 논문:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://link.springer.com/content/pdf/10.1007/s13164-021-00604-y.pdf?pdf=button&quot;&gt;“From Generative Models to Generative Passages: A Computational Approach to (Neuro) Phenomenology”&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-                <pubDate>Sun, 09 Jul 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/About-Natualizing-Phenomenology-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/About-Natualizing-Phenomenology-kr/</guid>
-                
-                <category>철학</category>
-                
-                <category>사이버네틱스</category>
-                
-                <category>현상학</category>
-                
-                <category>과학</category>
-                
-                <category>의식</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>Implications and Limits of Naturalizing Phenomenology</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This post is a summary of Taehee Kim’s paper “&lt;a href=&quot;https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02332265&quot;&gt;Implications and Limits of Naturalizing Phenomenology&lt;/a&gt;.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;before-reading&quot;&gt;Before Reading&lt;/h1&gt;
-
-&lt;p&gt;To address questions about the consciousness of humans, animals, and machines, it is crucial first to analyze the first-person experience of consciousness. Upon reflection, one can realize that most of our mental contents, such as visual and auditory perception, imagination, and temporal consciousness, are incredibly complex. For instance, consider the question, “Does a camera possess visual consciousness?” Until we press the button, the camera merely displays momentary information on a screen, which is fundamentally different from our visual perception. Our visual experience at any given moment is inherently linked to the preceding visual experience. If our current visual experience had no relation to the previous one, and if we were to experience each new scene as a fleeting, isolated event, no conscious experience could be sustained or even exist.&lt;/p&gt;
-
-&lt;p&gt;The analysis provided here may not be entirely rigorous. Fortunately, such a rigorous analysis of subjective experience was undertaken over a century ago—this field of study is called phenomenology. Phenomenology explores the relationships between various forms of consciousness (noesis) and the various objects they intend (noema). What insights from phenomenology can contribute to contemporary neuroscience research and theories of consciousness? These are the core questions I had in mind while reading this paper:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;What is the relationship between phenomenological research and a naturalistic approach? Can they be reconciled?&lt;/li&gt;
-  &lt;li&gt;How can phenomenological theories and neuroscientific-naturalistic theories of consciousness interact or coexist?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q3/2023-07-09-About Natualizing Phenomenology/1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      &quot;Explanatory Gap problem, Naturalizing Phenomenology, Neurophenomenology and Generative Passage interpretation.&quot; Generated by Midjourney AI
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;1-introduction&quot;&gt;1. Introduction&lt;/h1&gt;
-&lt;p&gt;Chapter 1 begins with a discussion of the “Naturalizing Phenomenology (NP)” research program, a topic addressed by both cognitive scientists and philosophers. The goal of NP is to integrate phenomenological research within the explanatory framework of natural sciences. Issues related to consciousness can be broadly categorized into two major problems:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;The Explanatory Gap: How can the existence of qualia be explained by brain processes? _ Joseph Levine&lt;/li&gt;
-  &lt;li&gt;The Hard Problem: How do physical processes in the brain give rise to sensory experiences? _ David Chalmers&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The key question of this paper is as follows: To assess the potential for a convergence of cognitive science and phenomenology, various discussions on NP will be reviewed, focusing particularly on Varela’s Neurophenomenology. How can the concept of Reciprocal Constraint (RC) be interpreted, and how does Neurophenomenology approach NP?&lt;/p&gt;
-
-&lt;p&gt;Is a convergence of cognitive science and phenomenology possible?
-NP is a prerequisite for this possibility.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;2-neurophenomenology&quot;&gt;2. Neurophenomenology&lt;/h1&gt;
-
-&lt;p&gt;Before diving into the analysis, the author defines NP as follows:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Naturalizing: Integrating phenomenological descriptions into the framework of natural sciences.&lt;/li&gt;
-  &lt;li&gt;Phenomenology: Referring to both phenomenological philosophy and phenomenological psychology.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Neurophenomenology is based on the following working hypothesis:&lt;/p&gt;
-
-&lt;p&gt;Phenomenological descriptions of the structure of experience and corresponding descriptions in cognitive science should be related through Reciprocal Constraint (RC).&lt;/p&gt;
-
-&lt;p&gt;There are several theories within the NP research program, including:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;D. Dennett: Heterophenomenology&lt;/li&gt;
-  &lt;li&gt;E. Marbach: Formalization of Phenomenological Description&lt;/li&gt;
-  &lt;li&gt;S. Gallagher: Front-loading Phenomenology&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The author evaluates Varela’s approach to Neurophenomenology as the most comprehensive, inclusive, and promising. Neurophenomenology emphasizes that phenomenological descriptions of experiences are essential for a coherent explanation of mind and consciousness. Furthermore, these phenomenological descriptions should be integrated into the explanatory framework.&lt;/p&gt;
-
-&lt;p&gt;Neurophenomenology posits that it is possible to create a complete and accurate description of first-person data, potentially in the form of mathematical models. While Husserl himself pointed out that the essence of conscious experience is not a precise morphological essence, the author argues, citing Park Seung-eok and Yoshimi, that this concern is not necessarily a barrier to developing mathematical methods. Thus, the success or failure of Neurophenomenology hinges on whether a mathematical model of conscious experience can be realized.&lt;/p&gt;
-
-&lt;p&gt;Three questions arise from the perspective of Neurophenomenology, though the author focuses only on the second and third:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;What exactly is the mathematical model that encompasses both the neuroscientific and phenomenological dimensions of consciousness? Can such a model exist at all?&lt;/li&gt;
-  &lt;li&gt;(Assuming the model exists) Can it provide a comprehensive bridge over the explanatory gap?&lt;/li&gt;
-  &lt;li&gt;(If it can bridge the gap) Is this approach compatible with Husserl’s stance? Is it not a form of naturalism, which Husserl rejected?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;3-bridging-the-explanatory-gap&quot;&gt;3. Bridging the Explanatory Gap&lt;/h1&gt;
-&lt;p&gt;Varela’s core hypotheses can be classified into three major points:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. Phenomenal consciousness cannot be reduced to physical events.
-2. First-person descriptions and third-person research on conscious experience should be in a reciprocal relationship.
-3. Existing first-person methodologies can be refined to adequately investigate phenomenal consciousness.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;According to T. Bayne, there are different interpretations of the RC relationship mentioned in the second hypothesis:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 1. Reflective Equilibrium
- 2. Heuristic Strategy
- 3. Reciprocal Causation
- 4. Generative Passage
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Bayne finds the first two interpretations too weak and the third too strong, considering the fourth—the Generative Passage interpretation—the most appropriate. This interpretation views the RC relationship as a mathematical model connecting phenomenal states with neurophysiological states. Bridging this gap requires three elements:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; (1) Phenomenological descriptions of experiential structures.
- (2) A phenomenological dynamic model of these structural invariants.
- (3) The realization of these models within biological systems.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The problem can thus be redefined from the perspective of the Generative Passage interpretation:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 1. The Explanatory Gap as a scientific problem: The challenge of proposing a model that can coherently integrate phenomenology and neurobiology.
- 2. The Hard Problem of consciousness in the philosophy of mind: The abstract metaphysical question regarding the status of consciousness within nature.
- (The possibility is acknowledged that one can solve the first problem without solving the second, or vice versa.)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Successfully bridging the explanatory gap, as redefined, involves (1) constructing a mathematical model that appropriately formalizes phenomenological events and neurological data, and (2) demonstrating that the phenomena to be explained (e.g., individual instances of consciousness or Neural Correlates of Consciousness, NCC) logically follow from the model.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;4-compatibility-with-husserls-position&quot;&gt;4. Compatibility with Husserl’s Position&lt;/h1&gt;
-&lt;p&gt;Naturalization can be broadly divided into (1) the naturalization of ideality and (2) the naturalization of consciousness. While Husserl opposes the former, he considers the latter possible within certain limits. The author argues that while the naturalization of phenomenological psychology as the foundation of empirical sciences is acceptable, transcendental phenomenology can never be naturalized.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q3/2023-07-09-About Natualizing Phenomenology/0.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      &quot;Explanatory Gap problem, Naturalizing Phenomenology, Neurophenomenology and Generative Passage interpretation.&quot; Generated by Midjourney AI
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;reflections-on-the-reading&quot;&gt;Reflections on the Reading&lt;/h1&gt;
-
-&lt;p&gt;Naturalizing Phenomenology -&amp;gt; Varela’s Neurophenomenology -&amp;gt; Generative Passage Interpretation of Reciprocal Constraint -&amp;gt; Bridging the Explanatory Gap&lt;/p&gt;
-
-&lt;p&gt;This paper provided valuable insights into the integration of cognitive science and phenomenology. It clarified the NP research program, which is crucial in the philosophy of cognitive science. Moreover, it introduced Neurophenomenology as a promising theory within NP and discussed various interpretations of the core hypothesis—Reciprocal Constraint between first-person and third-person data. I came to understand that solving the explanatory gap between these data sources, as viewed through the Generative Passage interpretation, is key to constructing a significant mathematical model.&lt;/p&gt;
-
-&lt;p&gt;While studying Karl Friston’s Active Inference, a normative model of human behavior and psychological phenomena, I began to suspect that it could also effectively explain first-person data. Indeed, through interactions on Twitter, I discovered that Maxwell Ramstead, whose work I admire, has explored the philosophical stance on integrating Active Inference with phenomenology—Computational Phenomenology. I plan to read the following paper next to examine whether Active Inference could serve as the key mathematical model mentioned above:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://link.springer.com/content/pdf/10.1007/s13164-021-00604-y.pdf?pdf=button&quot;&gt;“From Generative Models to Generative Passages: A Computational Approach to (Neuro) Phenomenology”&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-                <pubDate>Sun, 09 Jul 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/About-Natualizing-Phenomenology-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/About-Natualizing-Phenomenology-en/</guid>
-                
-                <category>Philosophy</category>
-                
-                <category>Cybernetics</category>
-                
-                <category>Phenomenology</category>
-                
-                <category>Science</category>
-                
-                <category>Consciousness</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>인공지능 vs 두뇌</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“우리에게 너무나 어려운 문제들, 인공지능은 어떻게 풀어내는가?
-우리에게는 너무나 쉬운 문제들, 인공지능은 왜 못 풀어내는가?
-인공지능의 관점에서 바라보는 인간지능이란 무엇인가?”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;본 글은 이상완 교수님께서 저술하신 “인공지능과 뇌는 어떻게 생각하는가[1]”를 읽고 정리한 글입니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;1-무한한-세상을-유한한-공간에-담다&quot;&gt;1. 무한한 세상을 유한한 공간에 담다&lt;/h1&gt;
-
-&lt;p&gt;해당 챕터는 사과를 어떻게 인식Recognition하는지, &lt;strong&gt;연관짓기 문제Binding Problem&lt;/strong&gt;를 중심으로 추상화와 다양성의 딜레마를 소개한다. 이를 해결하기 위한 초기 인공지능 연구의 역사적 흐름을 소개한다. Marvin Minsky의 Feedforward Network에서 시작한 추상화 과정과, 여기서 발생하는 Credit Assignment Problem을 해결하기 위한 Error Backpropagation 알고리즘을 소개한다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;2-현재의-성공이-미래의-실패가-되다&quot;&gt;2. 현재의 성공이 미래의 실패가 되다&lt;/h1&gt;
-
-&lt;p&gt;첫번째 챕터에서는 단순히 주어진 현재의 문제에 집중했다면, 두번째 챕터는 현실 상황에서 상호작용하는 통계적 상황에 집중한다. 통계적 기계학습의 관점에서 Structural Risk Minimization을 소개하며, Underfitting/Overfitting을 막기 위한 Tikhonov Regularization 방법을 소개한다. 더 나아가, Dual Problem을 생각하여 Support Vector Machine(SVM)을 소개한다.&lt;/p&gt;
-
-&lt;p&gt;Bias-Variance Tradeoff를 해결하기 위해 채택한 “모델의 효율성”에 대한 추구는 실제 뇌에서도 발견된다고 한다. 실제 배우 제니퍼 애니스톤을 인식하는 뉴런이 있다고 한다[2]! 이는 하나의 개념을 안정적으로 인지하는 데에 필요한 활성 세포의 개수가 아주 적다는 &lt;strong&gt;희소 표상sparse representation&lt;/strong&gt;을 의미한다고 한다. 희소 표상과 관련해 발달인지 분야의 결정적 시기Critical Period와 가지치기Pruning도 관련이 깊다. 이러한 에너지 효율성은 인공지능 시스템이 돌아가는 워크스테이션에 비해 적어도 400배 이상 효율적이라고 간주할 수 있다고 한다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/1.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      뇌와 인공지능 시스템의 가장 큰 차이점: 에너지 효율성!
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;3-민감한-만큼-둔감해지니-전체가-보인다&quot;&gt;3. 민감한 만큼 둔감해지니 전체가 보인다&lt;/h1&gt;
-
-&lt;p&gt;첫번째 챕터에서 기본적인 추상화/다양성의 문제를 다루었고, 두번째 챕터에서 통계적인 해법과 우리 뇌의 특성을 확인했다. 세번째 챕터에서는 궁극적으로 해결하고자 하는 Specificity-Invariance Dilemma를 다룬다. 민감하면서도 둔감하도록 개념을 추상화하기 위한 해결책으로 (1)필터링, (2)풀링, (3)국소성이 있다.&lt;/p&gt;
-
-&lt;p&gt;먼저 (1)필터링의 경우, 컨볼루션 연산을 통해 특정 패턴을 나타내는 정보를 필터링하여 중요한 정보만 확인하고, 나머지는 무시하게 할 수 있다. 다음으로, (2)풀링 혹은 서브샘플링을 활용해 유의미한 정보만을 압축하여 추출하게 할 수 있다. 마지막으로, (3)앞선 필터링과 풀링 모두에 적용되는 국소성으로 주위 정보 수용 영역Receptive Field의 범위를 직접 설정하여 유의미한 국소적 정보의 범위를 채택할 수 있다. 이러한 &lt;strong&gt;국소적 배열 패턴Topographic Map&lt;/strong&gt;은 실제 뇌에서도 등장한다. 일종의 사전 지식을 구조적으로 함축하는 것으로, 의도적으로 귀납적 편향성Inductive Bias을 주는 것이다. 이를 통해 &lt;u&gt;계산의 시공간적, 에너지적 효율성&lt;/u&gt;을 높일 수 있다. 이것의 기원에 대한 이론은 아직 드러나지 않았지만, 진화를 통해 획득한 형질이 아닐까 싶다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/2.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      대뇌 피질에서 확인할 수 있는 운동 정보 사이의 국소적 배열 패턴. 과연 이러한 국소적인 배열 패턴이 계산의 효율성을 높여줄 것인가?
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;이제 컨볼루션 및 풀링 연산, 비선형 함수을 묶어 빌딩 블록Building Block을 만든 후, 다양한 방식으로 쌓아 아키텍처를 고안한다. 이를 통해 정말 원하는 대로 추상화할 수 있도록 해결한다. 이처럼 상향식으로 부분을 통해 전체를 보았다면, 반대로, 하향식으로 전체를 통해 부분을 확인할 수 있는 Attention이 가능하다. 이를 위해 Self-Attention이라는 기술이 등장했지만, 아직 깔끔한 해결책이 등장하진 않았다고 한다.&lt;/p&gt;
-
-&lt;p&gt;우리의 뇌는 이러한 부분과 전체의 모순을 해결하기 위해 상향식 개념 추상화와 하향식 주의집중을 하게 된다. 이를 가능하게 하는 수많은 메커니즘 중, 가장 낮은 층에서 상위 개념을 잡아낼 수 있는 메커니즘이 있다고 한다. 이는 망막 신경이 중심에서 주변으로 갈 수록 밀도가 낮아지는 비선형성을 활용한 것으로, 밀도가 낮아 저차원인 주변부의 정보를 최상부로 귀띰해주어 주의집중을 야기하는 원리이다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Brain -&amp;gt; AI:
-    &lt;ul&gt;
-      &lt;li&gt;대뇌피질의 계산적 원리가 반영된 CNN이 큰 성공을 거두기까지 20년이 걸림.&lt;/li&gt;
-      &lt;li&gt;뇌과학이 도움을 주었으면 더 일찍 가능했을 것.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;AI -&amp;gt; Brain:
-    &lt;ul&gt;
-      &lt;li&gt;CNN과 두뇌의 기능적 유사성에 주목, 대뇌의 정보처리 과정을 연구해보니 각 층의 개별 뉴런과 유사하게 작동했음. 상부상조.&lt;/li&gt;
-      &lt;li&gt;Predictive Coding Scheme, Illusion?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;| Questions:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;인공신경망과 두뇌의 기능적Functional 유사성이 있다면, 정보 처리의 관점 뿐만 아니라 내적 경험Introspection의 관점에서도 유사한 현상을 관찰할 수 있을 것이다. 인간의 착시/환각 현상과 인공신경망에서의 현상은 무슨 관계가 있을까?&lt;/li&gt;
-  &lt;li&gt;대뇌피질에 표상이 국소적으로 배열된 것을 통해 계산의 시공간적, 에너지적 효율성을 높인다는 것이 과연 유의미한 주장일까? 계산모형과 시뮬레이션을 통해 검증해볼 수 있지 않을까?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;4-지극히-주관적이다-그래서-더-객관적이다&quot;&gt;4. 지극히 주관적이다, 그래서 더 객관적이다&lt;/h1&gt;
-
-&lt;p&gt;챕터 1~3까지는 어떻게 세상World에서 관측한 결과를 바탕으로 추상화하여 이해할 수 있는가?라는 질문이었다. 챕터 4는 추상화의 반대인 구체화에 대한 이야기로 데이터의 생성을 주제로 한다. 결정론적이었던 앞선 신경망과 달리, 이제부터는 각 뉴론을 확률변수로 대체한 &lt;strong&gt;확률론적 신경망&lt;/strong&gt;을 다루게 된다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/3.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      Hopfield Network, Boltzmann Machine, Restricted BM, The Neural Network Zoo[3]
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;초기 확률론적 신경망으로 &lt;strong&gt;&lt;u&gt;홉필드 네트워크Hopfield Network; HN&lt;/u&gt;&lt;/strong&gt;가 있으며, 단순한 통계분석 뿐만 아니라 복잡한 상관관계 분석이 가능하다. 확률론적 신경망은 (1)쉽게 추론이 가능하고, (2)각 요소의 역할을 말해줄 수 있으며, (3)한 요소를 무시하면 잘못된 결론에 도출될 수 있음을 알려줄 뿐만 아니라, (4)꽤 복잡한 상호관계를 찾아낼 수 있다는 장점이 있다.&lt;/p&gt;
-
-&lt;p&gt;기존의 홉필드 네트워크에 은닉 뉴런을 추가한 &lt;strong&gt;&lt;u&gt;볼츠만 머신Boltzmann Machine; BM&lt;/u&gt;&lt;/strong&gt;은 데이터로부터 가설을 검증할 수 있게 해준다. 이 모형의 목적은 데이터로부터 다양한 인자들 간의 상관관계를 배우는 것이다. 뉴런들 사이를 연결하는 최적의 가중치를 찾아나가는 학습 규칙을 유도하여, (1)데이터 안에서 직접 관찰할 수 있는 인자들 간의 상관성과 (2)네트워크가 현재까지 학습한 상관성 간의 차이를 줄이는 방향으로 이루어진다고 한다. (1)의 경우 데이터를 직접 보면서 계산되는 부분이므로 깨어있는 상태, (2)의 경우 데이터를 보지 않고 네트워크가 추론하는 부분이므로 꿈꾸는 상태로 비유할 수 있어, Wake-Sleep Rule이라고도 불린다.&lt;/p&gt;
-
-&lt;p&gt;확률적 신경망이 실제 적용되기 어렵다는 문제를 해결하고자 &lt;strong&gt;&lt;u&gt;제한적 볼츠만 머신Restricted Boltzmann Machine; RBM&lt;/u&gt;&lt;/strong&gt;이 등장하게 된다. RBM은 일반 뉴런Visible Neuron과 은닉 뉴런Hidden Neuron 사이의 연결만을 허용하는 방식을 취하여, 은닉 뉴런 사이의 복잡한 상관관계를 사라지게 만든다. 이러한 일반 뉴런층과 은닉 뉴런층의 구조는 하나의 빌딩 블록을 형성하여, 심층 제한적 볼츠만 머신Deep RBM; DRBM이 등장하게 된다. 이때, 오차 역전파 알고리즘을 활용하여 정밀한 학습을 수행하면 결정론적 신경망인 오토인코더Autoencoder;AE가 되게 된다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/4.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      Autoencoder &amp;amp; Variational Autoencoder, The Neural Network Zoo[3]
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;오토인코더와 같이 대칭성을 활용해 개념의 추상화와 구체화를 구현한 것은 주성분분석PCA에서도 확인할 수 있다. 현대에는 대칭성이 깨지더라도 수학적으로 허용되는 선에서 활용되고 있다. 오토인코더의 확률론적 버전으로 &lt;strong&gt;&lt;u&gt;변분 오토인코더Variational Autoencoder; VAE&lt;/u&gt;&lt;/strong&gt;가 있으며, (1)오토인코더의 대칭성을 어느정도 유지하면서, (2)추상화 과정에 깊이를 더하고, (3)구체화 과정의 밀도를 높이는 장점을 갖는다고 한다. 마지막으로 &lt;strong&gt;&lt;u&gt;재매개변수화Reparametrization&lt;/u&gt;&lt;/strong&gt; 트릭이 적용되어 오차 역전파 알고리즘도 적용될 수 있게 된다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/5.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      GAN, The Neural Network Zoo[3]
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;한편, 추상화와 구체화의 성능은 결국 사용자가 정의한 오차함수에 의해 평가되는데, 이러한 자기 평가를 객관화할 수 있도록 하게 위해 게임 이론을 활용하여 &lt;strong&gt;&lt;u&gt;생성적 적대적 신경망Generative Adversarial Network; GAN&lt;/u&gt;&lt;/strong&gt;같은 모형이 등장했다. 정보 이론의 관점에서, 기존의 주성분 분석이나 오토 인코더와 같은 결정적 신경망은 KL Divergence를 최소화하는 방식으로 학습된다. 비대칭적인 KL Divergence와 달리, GAN은 대칭적인 JS Divergence를 최소화하게 된다. 이는 경제학의 &lt;strong&gt;&lt;u&gt;Optimal Transport&lt;/u&gt;&lt;/strong&gt; 문제로 간주할 수 있고 Wasserstein Distance로 평가할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;| Questions:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;각 확률론적 신경망은 인간의 두뇌와 어떤 관련이 있는가? 뉴런이 확률변수라고 가정하는 것은 실제 뉴런의 랜덤성 때문인가, 아니면 단순한 우리의 가정일 뿐인가?&lt;/li&gt;
-  &lt;li&gt;최근 등장하는 StableDiffusion과 같은 Diffusion 기반 생성 모형들은 앞서 설명한 모형들과 어떤 관련성이 있는가?&lt;/li&gt;
-  &lt;li&gt;통계역학의 Ising Model, Cellular Automata와 어떤 관련성이 있는가?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;5-과거를-예측하고-미래를-회상하다&quot;&gt;5. 과거를 예측하고 미래를 회상하다&lt;/h1&gt;
-
-&lt;p&gt;챕터 1~3까지 개념의 추상화, 챕터 4에서는 개념의 구체화에 대해 다루었다. 이제는 개념의 시간 여행; 기억에 대해 다룬다. 이전까지는 데이터의 &lt;u&gt;i.i.d&lt;/u&gt; 조건을 가정하게 된다. 그러나, 현실은 대부분 독립 사건이 아니다. 때문에, 과거에 생성한 개념을 잊지 않고 기억하는 것이 중요해진다. 이를 구현하기 위한 전략으로 &lt;strong&gt;되먹임Feedback&lt;/strong&gt;이 있다. 실제 대뇌피질, 해마 등에서 가장 많이 발견되는 뉴론 중 하나인 &lt;strong&gt;&lt;u&gt;피라미드 뉴런Pyramidal Neuron&lt;/u&gt;&lt;/strong&gt;은 근처 뉴런으로부터 입력을 받을 뿐만 아니라, 이미 정보를 전달한 꽤 멀리 있는 뉴런으로부터 입력을 거꾸로 받기도 한다! &lt;strong&gt;&lt;u&gt;되먹임 신경망Recurrent Neural Network; RNN&lt;/u&gt;&lt;/strong&gt;에서 오차 역전파 알고리즘을 적용하기엔 &lt;u&gt;역전파 발산Exploding Gradient&lt;/u&gt; 혹은 &lt;u&gt;역전파 소멸Vanishing Gradient&lt;/u&gt;같은 현상이 발생하여 학습이 잘 되지 않는다. 이러한 문제를 해결하고자 장기 기억과 단기 기억을 결합한 &lt;strong&gt;&lt;u&gt;장단기 메모리Long-Short Term Memory; LSTM&lt;/u&gt;&lt;/strong&gt;이 있다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/6.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      RNN &amp;amp; LSTM &amp;amp; GRU;The Neural Network Zoo[3]
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;새로운 정보를 유연하게 받아들이면서 오랫동안 안정적으로 기억을 유지할 수 있는 이상적인 신경망은 (1)상황에 적응할 수 있을 뿐만 아니라, (2)새로운 지식을 확장할 수도 있다. 이러한 의미에서 &lt;strong&gt;연속 학습Continual Learning&lt;/strong&gt; 혹은 &lt;strong&gt;평생 학습Lifelong Learning&lt;/strong&gt;이라고 불린다. 더욱이 다양한 작업이나 목표에도 적응할 수 있다는 점에서 다중 도메인 적응Multi-Domain Adaptation, 혹은 다중 작업 학습Multi-Task Learning에도 사용될 수 있다.&lt;/p&gt;
-
-&lt;p&gt;인공 신경망은 유동적인 기억 능력이 부족하여, 새로운 정보를 쫓느라 과거의 학습 정보가 증발되는 &lt;strong&gt;&lt;u&gt;치명적 망각 현상Catastrophic Forgetting 현상&lt;/u&gt;&lt;/strong&gt;이 발생한다. 이를 해결하기 위해 (1)정규화 기법, (2)과거 데이터 활용, (3)파라미터 활용 등을 적용할 수 있다. 그러나, 최근 &lt;strong&gt;&lt;u&gt;자기 주의집중Self-Attention&lt;/u&gt;&lt;/strong&gt;을 활용한 &lt;strong&gt;트랜스포머Transformer&lt;/strong&gt; 모델을 통해, 시공간의 개념을 분리하지 않아, 관찰한 사건들의 과거와 미래의 구분을 없애는 전략을 취한다. 저자의 말을 빌리자면, “과거를 예측하고, 미래를 회상한다”는 것이다!&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/7.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      RNN &amp;amp; LSTM &amp;amp; GRU;The Neural Network Zoo[3]
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;트랜스포머는 앞서 4장에서 다룬 기억의 구체화 문제에서도 효과적으로 작동한다. 시간 순서에 따른 사건들을 종합적으로 이해하는 추상화 과정과 달리, 구체화 과정에서는 순서에 맞게 사건을 재구성할 수 있어야 한다. 이 때 기억의 구체화 신경망은 주Q어진 상황에 맞게 재해석해서 사건을 순서대로 재구성하는 것을 목표로 한다. 이때 &lt;strong&gt;주의집중 마스킹 전략Attention Masking&lt;/strong&gt;을 통해 현재까지의 입력만을 받도록 하여 BERT, GPT같은 좋은 성능을 달성할 수 있도록 하였다.&lt;/p&gt;
-
-&lt;p&gt;| Questions:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;우리의 두뇌는 어떻게 Catastrophic Forgetting 문제를 해결하고 있는가?&lt;/li&gt;
-  &lt;li&gt;Transformer 모델이 정말 AE와 Attention 기능을 적절히 활용하고 있는가?
- (World Model의 경우, VAE+RNN+Controller로 구성되어 있다.)&lt;/li&gt;
-  &lt;li&gt;Transformer 모델의 계산 및 학습 효율성은 어떻게 되는가? 일반 GPU에서 적절히 사용 가능한가?&lt;/li&gt;
-  &lt;li&gt;Transformer 모델이 Neuroscience의 관점에서 효율적인가?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;6-생각이-시간과-공간을-넘나드는-마법을-부리다&quot;&gt;6. 생각이 시간과 공간을 넘나드는 마법을 부리다&lt;/h1&gt;
-
-&lt;p&gt;챕터 1~3까지 개념의 추상화, 챕터 4에서는 개념의 구체화, 챕터 5에서는 기억에 대해 다루었다. 이제는 신경망의 학습 원리에 대해 다루고자 한다. 현재 신경망의 &lt;strong&gt;가중치 전달 과정Weight Transport&lt;/strong&gt;에 사용되는 오차 역전파 알고리즘은 벨만의 동적 계획법을 활용한다. 일종의 &lt;u&gt;&quot;전지적 작가 시점God Mode&quot;&lt;/u&gt;인 것이다. 정말 우리의 뇌도 이런 식으로 작동할까?&lt;/p&gt;
-
-&lt;p&gt;딥마인드의 연구 결과에 따르면, 심지어 가중치 정보를 제거한 후 난수를 학습시키는 &lt;strong&gt;역전파 정렬Feedback Alignment&lt;/strong&gt;만으로도 학습이 가능했다! 적어도 생물학적 신경망은 전지적 작가 시점의 오차 역전파 알고리즘 대로 학습하지 않는 셈이다.&lt;/p&gt;
-
-&lt;p&gt;하나의 뉴런이 지니는 &lt;strong&gt;신경 가소성Synaptic Plasticity&lt;/strong&gt;은 (1)장기 강화Long-Term Potentiation과 (2)장기 억압Long-Term Depression의 전체적인 변화 과정으로 구성된다. 이 두 과정은 뉴런들의 수상돌기가 지닌 동적 반응 특성(수상돌기의 민감도 변화)으로 일어나는 &lt;strong&gt;상대적인 타이밍 차이&lt;/strong&gt;로 야기된다는 점을 고려하면, 생물학적 신경망은 전지적 작가 시점이 아닌 &lt;u&gt;&quot;1인칭 주인공 시점First-Person Mode&quot;&lt;/u&gt;인 것이다.&lt;/p&gt;
-
-&lt;p&gt;연구자들은 신경 가소성을 인공 신경망에 담기 위해 시간적 오차 모델Temporal Error Model, 이후 예측 코딩 모델Predictive Coding Model을 개발했다. 예측 코딩 모델은 오류 노드를 포함하여 뉴런의 전달의 정확도를 평가한다.&lt;/p&gt;
-
-&lt;p&gt;한편, 수상돌기는 일종의 정규화 연산을 수행한다. 수상돌기의 크기가 큰 신경세포는 다양한 입력 채널의 입력값에 둔감하게 반응하게 되어 둔감성을 유지한다. 다시말해, 정보량의 차이가 커지더라도 안정적으로 작동한다는 것이다. 이때, 국소적인 연결이 많은 수상돌기는 &lt;strong&gt;기저수상돌기Basal Dendrite&lt;/strong&gt;, 전역적인 연결이 많은 수상돌기는 &lt;strong&gt;선단수상돌기Apical Dendrite&lt;/strong&gt;라고 부른다. 최근 연구에 따르면 기저수상돌기는 적어도 얕은 인공 신경망, 선단수상돌기는 하나 이상의 은닉층을 가진 신경망과 비슷한 연산 능력을 지니고 있다고 한다.&lt;/p&gt;
-
-&lt;p&gt;| Questions:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;신경 가소성의 동적 특성을 바탕으로 한 학습 알고리즘이 있는가?&lt;/li&gt;
-  &lt;li&gt;물리적인 관점에서 흥미롭게 본 Critical Brain Hypothesis의 경우, 역전파 정렬 현상을 설명할 수 있을까?&lt;/li&gt;
-  &lt;li&gt;뉴런이 하나의 랜덤 변수라고 생각하면, 노이즈의 중요성은 무엇일까?&lt;/li&gt;
-  &lt;li&gt;예측 코딩보다 Active Inference가 더 좋은 설명을 제공해 줄 수 있을 것인가?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;7-미래를-내다보며-과거를-바꾼다&quot;&gt;7. 미래를 내다보며 과거를 바꾼다&lt;/h1&gt;
-&lt;p&gt;챕터 1~3까지 개념의 추상화, 챕터 4에서는 개념의 구체화, 챕터 5에서는 기억, 챕터 6에서는 신경망의 학습 원리를 다루었다. 마지막 7장에서는 강화학습을 다루고자 한다. 강화학습은 기본적으로 동적 시스템의 전략 또는 정책을 학습하는 문제로 귀결된다. 다만, 전략이 실제로 수행될 때, 과거 전략이 현재의 경험에 얼마나 기여했는지에 대한 &lt;strong&gt;&lt;u&gt;시간적 기여도 할당 문제Temporal Credit Assignment&lt;/u&gt;&lt;/strong&gt;를 해결할 필요가 있다.&lt;/p&gt;
-
-&lt;p&gt;벨만의 동적 계획법Dynamic Programming과 최적성의 원리Principle of Optimality는 이러한 문제를 해결해주는 방법 중 하나로, 복잡한 문제를 쉬운 문제를 재귀적으로 풀어나가며 해결한다. 보다 구체적으로, Markov Decision Process라는 수학적 형식 위에서 벨만 방정석을 정의할 수 있고 주어진 환경으로부터 얻은 보상예측오류를 활용해 강화학습을 수행할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;알파고와 같은 강화학습 알고리즘은 &lt;strong&gt;모델 프리 강화학습Model-Free Reinforcement Learning;MFRL&lt;/strong&gt;을 활용하여 문제를 해결한다. 그러나 이러한 알파고의 습관적 행동을 분석해보면, 결과에 집착하는 행동Devaluation Insensitivity를 관찰할 수 있다. MFRL은 목적이 유연하게 변해야 하는 경우, 기민하게 행동하지 못한다는 단점을 갖고 있다. 실제로, 동물들의 행동을 관찰하면 대개 결과지향적 태도를 확인할 수 있다. 1977년 연구 결과(울프람 슐츠, 피터 다이안, 리드 몽타규)에 따르면, 원숭이의 중뇌 부위의 도파민 신경세포 활성도가 변화하는 모습이 모델 프리 학습 알고리즘의 보상 예측 오류 신호와 닮았다는 것을 밝힌다. 2004년에는 인간 중뇌의 선조체Striatum가 MFRL의 중추임을 발견했다!&lt;/p&gt;
-
-&lt;p&gt;이러한 단점을 해결할 수 있도록, 목표지향적 행동을 구현해내는 학습 방식을 &lt;strong&gt;모델 기반 강화학습Model-Based Reinforcement Learning;MBRL&lt;/strong&gt;이 제안되어 왔다. 이 모델은 목표와 원리를 분리하여 다양한 상황의 다양한 목표를 달성할 수 있도록 설계되었다. 물론, 문제가 너무 복잡하거나 환경의 불확실성이 높아 모델을 학습하기 어려운 경우 잘 작동하지 않는다는 단점을 갖고 있다. MFRL과 유사하게, MBRL도 과학적 역사가 깊다. 1930년대 연구 결과(에드워드 톨만), 쥐 실험을 통해 보상이 없는 상황에서도 잠재학습Latent Learning이 발생하고 이를 통해 환경에 대한 정보인 &lt;u&gt;인지맵Cognitive Map&lt;/u&gt;을 형성한다는 것을 밝힌다. 예상하는 상황과 현실 상황의 괴리로부터 상태 예측 오류를 통해 학습하는 것이다! 이후 쥐의 경우, 변역계Limbic System을 중심으로 변연계 아래피질Infralimbic Cortex, 인간의 경우, 측전전두피질Lateral Prefrontal Cortex와 두정엽내고랑Intraparietal Sulcus 등에서 MBRL의 중추임을 발견했다.&lt;/p&gt;
-
-&lt;p&gt;한편, 최적 제어 이론의 모델 예측 제어Model Predictive Control의 경우가 모델 기반의 방법론을 활용하며, 모델 기반 학습의 시초라고 평가되기도 한다. 행동심리경제학에서는 MFRL과 같이 반자동적이고 빠른 의사결정 방식을 “&lt;strong&gt;시스템 1&lt;/strong&gt;”, MBRL과 같이 의식적이고 느린 의사결정 방식을 “&lt;strong&gt;시스템 2&lt;/strong&gt;“라고 부른다.&lt;/p&gt;
-
-&lt;p&gt;2005년 런던 대학의 연구팀은 더욱 과감한 질문을 던지는데, 동물의 뇌가 결과를 얘측할 때의 불확실성에 따라 MFRL과 MBRL을 스위칭한다는 것이다. 실제로 2015년, 인간의 측전전두피질과 전두극피질Frontopolar Cortex에서 이러한 불확실성 정보를 처리하고 있고, 이를 바탕으로 두 전략을 조합하는 방식으로 학습 과정을 제어하고 있음을 밝혔다! 다시 말해, 주어진 ‘사건Event’에서 ‘상황Context’을 읽어내고, 그 속에서 ‘문제Task’에 초점을 맞추게 되는 메타 인지가 작동하는 셈이다.&lt;/p&gt;
-
-&lt;p&gt;| Questions:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;MBRL과 MFRL의 장단점에 대해서 잘 찾아보자.&lt;/li&gt;
-  &lt;li&gt;두 패러다임과 대니얼 카너먼의 시스템 I vs II가 정말로 매칭되는 개념인가?&lt;/li&gt;
-  &lt;li&gt;메타 인지는 고차 사고를 의미하는가? MBRL과 MFRL의 스위칭 원리는 단순한 2차적 사고에 불과한가?&lt;/li&gt;
-  &lt;li&gt;Active Inference는 더욱 큰 설명력과 이론을 제공할 수 있겠는가?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
-
-&lt;p&gt;[1] 인공지능과 뇌는 어떻게 생각하는가, 출판사 ‘솔’, 이상완 지음, 2022&lt;/p&gt;
-
-&lt;p&gt;[2] &lt;a href=&quot;https://www.sciencetimes.co.kr/news/%EC%96%BC%EA%B5%B4-%EC%9D%B8%EC%8B%9D%ED%95%98%EB%8A%94-%EC%8B%A0%EA%B2%BD%EC%84%B8%ED%8F%AC-%EB%94%B0%EB%9D%BC-%EC%9E%88%EB%8B%A4/&quot;&gt;얼굴 인식하는 신경세포 따로 있다, The Science Times, 심재율 객원기자, 2019 2/12, &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[3] Van Veen, F., &amp;amp; Leijnen, S. (2019). The Neural Network Zoo. The Asimov Institute. https://www.asimovinstitute.org/neural-network-zoo/&lt;/p&gt;
-</description>
-                <pubDate>Wed, 24 May 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/AI-vs-Brain-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/AI-vs-Brain-kr/</guid>
-                
-                <category>인공지능</category>
-                
-                <category>신경과학</category>
-                
-                <category>두뇌</category>
-                
-                <category>책</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>AI vs. The Brain</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“How does AI solve problems that seem too complex for us?
-Why does AI struggle with tasks that are so simple for us?
-What does human intelligence look like from the perspective of AI?”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This post is a summary of Professor Sangwan Lee’s book “How AI and the Brain Think.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;1-capturing-an-infinite-world-in-finite-space&quot;&gt;1. Capturing an Infinite World in Finite Space&lt;/h1&gt;
-
-&lt;p&gt;This chapter introduces the dilemma of abstraction and diversity, centered around the &lt;strong&gt;binding problem&lt;/strong&gt;—how we recognize objects like an apple. It provides a historical overview of early AI research, starting with Marvin Minsky’s feedforward networks and the challenges of the Credit Assignment Problem, solved by the Error Backpropagation algorithm.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;2-todays-success-tomorrows-failure&quot;&gt;2. Today’s Success, Tomorrow’s Failure&lt;/h1&gt;
-
-&lt;p&gt;While the first chapter focused on current problems, the second chapter delves into statistical scenarios in real-world interactions. It introduces Structural Risk Minimization from the perspective of statistical machine learning, discussing Tikhonov Regularization to prevent underfitting/overfitting and introducing Support Vector Machines (SVM) through the Dual Problem.&lt;/p&gt;
-
-&lt;p&gt;The pursuit of “model efficiency” to solve the Bias-Variance Tradeoff is also found in the human brain. There’s even a neuron that recognizes the actress Jennifer Aniston [2]! This suggests the concept of &lt;strong&gt;sparse representation&lt;/strong&gt;, where very few active cells are required to stably recognize a concept. This ties into critical periods in developmental cognition and pruning, which are key to energy efficiency—an area where the human brain is at least 400 times more efficient than AI systems.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/1.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      The biggest difference between the brain and AI systems: energy efficiency!
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;3-the-balance-between-sensitivity-and-insensitivity&quot;&gt;3. The Balance Between Sensitivity and Insensitivity&lt;/h1&gt;
-
-&lt;p&gt;Having addressed the basics of abstraction/diversity in the first chapter and the statistical solutions and brain characteristics in the second, the third chapter tackles the Specificity-Invariance Dilemma. To achieve both sensitivity and insensitivity in concept abstraction, three approaches are discussed: (1) filtering, (2) pooling, and (3) locality.&lt;/p&gt;
-
-&lt;p&gt;First, (1) filtering uses convolution operations to filter out specific patterns, allowing us to focus on important information while ignoring the rest. Next, (2) pooling or subsampling compresses the information, extracting only what is meaningful. Finally, (3) locality applies to both filtering and pooling, setting the receptive field’s range to focus on significant local information. Such &lt;strong&gt;topographic maps&lt;/strong&gt; also appear in the brain, implying that inductive biases are intentionally applied to enhance the &lt;u&gt;spatial, temporal, and energy efficiency&lt;/u&gt; of computation. While the origins of this are still unclear, it is suggested that these traits may have been acquired through evolution.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/2.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      Topographic patterns in the motor cortex. Could these local arrangements enhance computational efficiency?
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;By combining convolution, pooling, and non-linear functions into building blocks and stacking them in various ways, architectures can be designed to achieve the desired level of abstraction. While this bottom-up approach looks at the whole through its parts, the top-down approach allows us to focus on the parts through the whole, enabled by attention mechanisms. Although Self-Attention has emerged, a clean solution is yet to be found.&lt;/p&gt;
-
-&lt;p&gt;Our brain resolves the paradox between parts and the whole through bottom-up concept abstraction and top-down attention. A mechanism exists that can capture high-level concepts even from the lowest layers. This is possible thanks to the nonlinearity of retinal neurons, where the density decreases from the center to the periphery, guiding top-level attention by leveraging low-dimensional peripheral information.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Brain -&amp;gt; AI:
-    &lt;ul&gt;
-      &lt;li&gt;It took 20 years for CNNs, reflecting the computational principles of the cerebral cortex, to achieve great success.&lt;/li&gt;
-      &lt;li&gt;Brain science could have accelerated this process.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;AI -&amp;gt; Brain:
-    &lt;ul&gt;
-      &lt;li&gt;The functional similarity between CNNs and brain function highlights how the brain processes information at each layer, showing a mutually beneficial relationship.&lt;/li&gt;
-      &lt;li&gt;Predictive Coding Scheme, Illusion?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;| Questions:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;If artificial neural networks are functionally similar to the brain, could we observe similar phenomena from an introspective perspective as well? How do human optical illusions relate to phenomena in artificial neural networks?&lt;/li&gt;
-  &lt;li&gt;Does the local arrangement of representations in the cerebral cortex genuinely enhance the spatial, temporal, and energy efficiency of computation? Could this be verified through computational models and simulations?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;4-the-subjective-is-so-objective&quot;&gt;4. The Subjective is So Objective&lt;/h1&gt;
-
-&lt;p&gt;Chapters 1-3 focused on how we abstract and understand the world based on observed results. Chapter 4 shifts to the opposite direction—concretization, with a focus on data generation. Unlike the deterministic neural networks discussed earlier, we now explore &lt;strong&gt;probabilistic neural networks&lt;/strong&gt; where each neuron is replaced by a random variable.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/3.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      Hopfield Network, Boltzmann Machine, Restricted BM, The Neural Network Zoo [3]
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;An early example of probabilistic neural networks is the &lt;strong&gt;&lt;u&gt;Hopfield Network&lt;/u&gt;&lt;/strong&gt;, which allows not only simple statistical analysis but also complex correlation analysis. Probabilistic neural networks are advantageous because they (1) allow easy inference, (2) explain the roles of each element, (3) highlight the risks of ignoring certain elements, and (4) detect intricate interrelationships.&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;&lt;u&gt;Boltzmann Machine&lt;/u&gt;&lt;/strong&gt;, which adds hidden neurons to the Hopfield Network, allows hypotheses to be tested based on data. Its goal is to learn the correlations between various factors in the data. It does this by deriving learning rules to find the optimal weights that connect neurons, minimizing the difference between (1) observable correlations in the data and (2) the correlations learned by the network. The former is akin to being in a wakeful state, directly observing data, while the latter is like a dream state, where the network infers without direct data observation—hence, the Wake-Sleep Rule.&lt;/p&gt;
-
-&lt;p&gt;To address the difficulty of applying probabilistic neural networks in practice, the &lt;strong&gt;&lt;u&gt;Restricted Boltzmann Machine (RBM)&lt;/u&gt;&lt;/strong&gt; was developed. RBM allows connections only between visible and hidden neurons, eliminating complex correlations among hidden neurons. The structure of visible and hidden neuron layers forms a building block, leading to the development of Deep RBM (DRBM). When combined with the error backpropagation algorithm for precise learning, it becomes the deterministic Autoencoder (AE).&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/4.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      Autoencoder &amp;amp; Variational Autoencoder, The Neural Network Zoo [3]
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Autoencoders use symmetry to achieve abstraction and concretization, a principle also seen in Principal Component Analysis (PCA). Today, even if symmetry is broken, it is utilized within mathematically permissible limits. The probabilistic version of the autoencoder, the &lt;strong&gt;&lt;u&gt;Variational Autoencoder (VAE)&lt;/u&gt;&lt;/strong&gt;, (1) retains some symmetry of the autoencoder, (2) adds depth to the abstraction process, and (3) increases the density of the concretization process. Lastly, the &lt;strong&gt;&lt;u&gt;Reparametrization&lt;/u&gt;&lt;/strong&gt; trick is applied, allowing the error backpropagation algorithm to be used.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/5.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      GAN, The Neural Network Zoo [3]
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ultimately, the performance of abstraction and concretization is evaluated by the error function defined by the user. To objectify this self-assessment, game theory is employed, leading to models like the &lt;strong&gt;&lt;u&gt;Generative Adversarial Network (GAN)&lt;/u&gt;&lt;/strong&gt;. From an information theory perspective, traditional deterministic networks like PCA and autoencoders learn by minimizing KL Divergence. Unlike the asymmetric KL Divergence, GAN minimizes the symmetric JS Divergence, which can be viewed as an Optimal Transport problem in economics and evaluated using the Wasserstein Distance.&lt;/p&gt;
-
-&lt;p&gt;| Questions:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;How do these probabilistic neural networks relate to the human brain? Are neurons treated as random variables because of their inherent randomness, or is this merely an assumption?&lt;/li&gt;
-  &lt;li&gt;How do recent diffusion-based generative models like StableDiffusion relate to the models discussed above?&lt;/li&gt;
-  &lt;li&gt;How are they connected to the Ising Model in statistical mechanics or Cellular Automata?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;5-predicting-the-past-and-remembering-the-future&quot;&gt;5. Predicting the Past and Remembering the Future&lt;/h1&gt;
-
-&lt;p&gt;Chapters 1-3 covered concept abstraction, Chapter 4 dealt with concept concretization, and now, Chapter 5 focuses on memory—taking concepts on a journey through time. Previously, the i.i.d condition for data was assumed, but in reality, most events are not independent. Therefore, remembering concepts generated in the past becomes crucial. A strategy to implement this is &lt;strong&gt;feedback&lt;/strong&gt;. One of the most common neurons found in the cerebral cortex, hippocampus, and other areas is the &lt;strong&gt;&lt;u&gt;Pyramidal Neuron&lt;/u&gt;&lt;/strong&gt;, which receives input not only from nearby neurons but also from distant neurons it has already communicated with! In &lt;strong&gt;&lt;u&gt;Recurrent Neural Networks (RNN)&lt;/u&gt;&lt;/strong&gt;, applying the backpropagation algorithm can lead to problems like the &lt;u&gt;exploding gradient&lt;/u&gt; or &lt;u&gt;vanishing gradient&lt;/u&gt;, making learning difficult. To address these issues, &lt;strong&gt;&lt;u&gt;Long-Short Term Memory (LSTM)&lt;/u&gt;&lt;/strong&gt; was developed.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/6.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      RNN, LSTM, and GRU; The Neural Network Zoo [3]
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The ideal neural network that can flexibly accept new information while maintaining stable memory would (1) adapt to situations and (2) expand its knowledge. This is known as &lt;strong&gt;Continual Learning&lt;/strong&gt; or &lt;strong&gt;Lifelong Learning&lt;/strong&gt;. Moreover, this adaptability makes it useful for Multi-Domain Adaptation and Multi-Task Learning.&lt;/p&gt;
-
-&lt;p&gt;Artificial neural networks lack this fluid memory capability, leading to a phenomenon called &lt;strong&gt;&lt;u&gt;Catastrophic Forgetting&lt;/u&gt;&lt;/strong&gt;, where past learning evaporates in pursuit of new information. To mitigate this, techniques like (1) regularization, (2) leveraging past data, and (3) parameter utilization can be applied. However, the Transformer model, which uses &lt;strong&gt;&lt;u&gt;Self-Attention&lt;/u&gt;&lt;/strong&gt;, eliminates the distinction between past and future events in space and time. As the author puts it, “predict the past and remember the future!”&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q2/2023-05-24-AI vs Brain/7.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      RNN, LSTM, and GRU; The Neural Network Zoo [3]
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The Transformer model is also effective in addressing the problem of concretizing memory discussed in Chapter 4. While abstraction involves comprehensively understanding events in sequence, concretization requires reconstructing events in the correct order. The memory concretization network aims to reinterpret and reorder events according to the given context. Techniques like &lt;strong&gt;Attention Masking&lt;/strong&gt; allow the model to focus only on the inputs received so far, enabling high performance in models like BERT and GPT.&lt;/p&gt;
-
-&lt;p&gt;| Questions:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;How does the human brain solve the problem of Catastrophic Forgetting?&lt;/li&gt;
-  &lt;li&gt;Does the Transformer model truly leverage the AE and Attention mechanisms effectively?
- (In the case of the World Model, it consists of VAE+RNN+Controller.)&lt;/li&gt;
-  &lt;li&gt;What are the computational and training efficiencies of the Transformer model? Can it be used effectively on a standard GPU?&lt;/li&gt;
-  &lt;li&gt;Is the Transformer model efficient from a neuroscience perspective?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;6-thinking-beyond-time-and-space&quot;&gt;6. Thinking Beyond Time and Space&lt;/h1&gt;
-
-&lt;p&gt;Chapters 1-3 focused on concept abstraction, Chapter 4 on concept concretization, Chapter 5 on memory, and now, Chapter 6 deals with the learning principles of neural networks. The error backpropagation algorithm, used in the &lt;strong&gt;weight transport process&lt;/strong&gt; of current neural networks, relies on Bellman’s Dynamic Programming—a sort of &lt;u&gt;&quot;God Mode.&quot;&lt;/u&gt; But does our brain really operate this way?&lt;/p&gt;
-
-&lt;p&gt;Research from DeepMind suggests that even removing weight information and training with random numbers using only &lt;strong&gt;Feedback Alignment&lt;/strong&gt; can enable learning! At least biological neural networks do not learn according to a God Mode error backpropagation algorithm.&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;Synaptic Plasticity&lt;/strong&gt; of a neuron consists of the overall changes through (1) Long-Term Potentiation and (2) Long-Term Depression. These changes are caused by the &lt;strong&gt;relative timing differences&lt;/strong&gt; that result from the dynamic response characteristics of the neuron’s dendrites (changes in dendritic sensitivity), indicating that biological neural networks operate more like a &lt;u&gt;&quot;First-Person Mode&quot;&lt;/u&gt; rather than a God Mode.&lt;/p&gt;
-
-&lt;p&gt;To capture synaptic plasticity in artificial neural networks, researchers developed the Temporal Error Model and later the Predictive Coding Model. The Predictive Coding Model includes error nodes to assess the accuracy of neuron transmission.&lt;/p&gt;
-
-&lt;p&gt;On the other hand, dendrites perform a kind of normalization operation. Large dendrites respond insensitively to the input values of various channels, maintaining insensitivity and stability even when the information volume changes significantly. Dendrites with many local connections are called &lt;strong&gt;Basal Dendrites&lt;/strong&gt;, while those with many global connections are &lt;strong&gt;Apical Dendrites&lt;/strong&gt;. Recent research suggests that Basal Dendrites are comparable to shallow artificial neural networks, while Apical Dendrites are akin to deep neural networks with one or more hidden layers.&lt;/p&gt;
-
-&lt;p&gt;| Questions:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Are there learning algorithms based on the dynamic characteristics of synaptic plasticity?&lt;/li&gt;
-  &lt;li&gt;Can the Critical Brain Hypothesis, which I find intriguing from a physical perspective, explain the phenomenon of Feedback Alignment?&lt;/li&gt;
-  &lt;li&gt;If we consider a neuron as a random variable, what is the significance of noise?&lt;/li&gt;
-  &lt;li&gt;Could Active Inference provide an even better explanation than Predictive Coding?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;7-changing-the-past-by-looking-into-the-future&quot;&gt;7. Changing the Past by Looking into the Future&lt;/h1&gt;
-
-&lt;p&gt;Chapters 1-3 covered concept abstraction, Chapter 4 dealt with concept concretization, Chapter 5 focused on memory, and Chapter 6 discussed the learning principles of neural networks. The final chapter, Chapter 7, explores reinforcement learning. At its core, reinforcement learning is about learning strategies or policies for dynamic systems. However, when these strategies are applied, the &lt;strong&gt;Temporal Credit Assignment Problem&lt;/strong&gt;—determining how much past strategies contributed to the current experience—must be addressed.&lt;/p&gt;
-
-&lt;p&gt;Bellman’s Dynamic Programming and the Principle of Optimality are some ways to solve this problem by recursively breaking down complex problems into simpler ones. More specifically, Bellman’s equations are defined over a Markov Decision Process, and reinforcement learning is performed using the reward prediction error derived from the environment.&lt;/p&gt;
-
-&lt;p&gt;Reinforcement learning algorithms like AlphaGo solve problems using &lt;strong&gt;Model-Free Reinforcement Learning (MFRL)&lt;/strong&gt;. However, analyzing AlphaGo’s habitual behavior reveals Devaluation Insensitivity—a fixation on results. MFRL struggles with flexibility when goals need to change. In contrast, animals typically display goal-oriented behavior. Research from 1977 (Wolfram Schultz, Peter Dayan, Read Montague) revealed that changes in dopamine neuron activity in monkeys resemble the reward prediction error signals in Model-Free learning algorithms. In 2004, the human striatum was identified as the central region for MFRL!&lt;/p&gt;
-
-&lt;p&gt;To overcome these shortcomings, &lt;strong&gt;Model-Based Reinforcement Learning (MBRL)&lt;/strong&gt; was proposed, which separates goals from principles, allowing for diverse goals in various situations. However, this model struggles when problems are too complex or environmental uncertainty is high, making it difficult to learn the model. Like MFRL, MBRL has a deep scientific history. Research from the 1930s (Edward Tolman) showed that rats could engage in latent learning even without rewards, forming a &lt;u&gt;Cognitive Map&lt;/u&gt; of the environment. This learning occurs through state prediction errors arising from discrepancies between expected and actual situations. It was later discovered that the Limbic System in rats and the Lateral Prefrontal Cortex and Intraparietal Sulcus in humans are central to MBRL.&lt;/p&gt;
-
-&lt;p&gt;Meanwhile, Model Predictive Control in optimal control theory, which uses model-based methodologies, is considered the origin of model-based learning. In behavioral economics, the quick, semi-automatic decision-making style like MFRL is known as “&lt;strong&gt;System 1&lt;/strong&gt;,” while the conscious, slow decision-making style like MBRL is referred to as “&lt;strong&gt;System 2&lt;/strong&gt;.”&lt;/p&gt;
-
-&lt;p&gt;In 2005, a research team at University College London posed an even bolder question: could the brain switch between MFRL and MBRL depending on the uncertainty in predicting outcomes? Indeed, in 2015, it was revealed that the Lateral Prefrontal Cortex and Frontopolar Cortex in humans process this uncertainty information and control the learning process by combining the two strategies! In other words, this meta-cognitive process allows us to “read the situation,” focus on the “task,” and adapt our learning strategies accordingly.&lt;/p&gt;
-
-&lt;p&gt;| Questions:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Let’s explore the advantages and disadvantages of MBRL and MFRL.&lt;/li&gt;
-  &lt;li&gt;Are these two paradigms truly analogous to Daniel Kahneman’s System I vs. II?&lt;/li&gt;
-  &lt;li&gt;Does meta-cognition imply higher-order thinking? Is the switching principle between MBRL and MFRL merely secondary thinking?&lt;/li&gt;
-  &lt;li&gt;Can Active Inference offer a more comprehensive theory?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
-
-&lt;p&gt;[1] “How AI and the Brain Think,” by Sangwan Lee, Sol Publishing, 2022&lt;/p&gt;
-
-&lt;p&gt;[2] &lt;a href=&quot;https://www.sciencetimes.co.kr/news/%EC%96%BC%EA%B5%B4-%EC%9D%B8%EC%8B%9D%ED%95%98%EB%8A%94-%EC%8B%A0%EA%B2%BD%EC%84%B8%ED%8F%AC-%EB%94%B0%EB%9D%BC-%EC%9E%88%EB%8B%A4/&quot;&gt;There Are Neurons that Recognize Faces, The Science Times, Sim Jaeyul, Guest Reporter, 2019 2/12&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[3] Van Veen, F., &amp;amp; Leijnen, S. (2019). The Neural Network Zoo. The Asimov Institute. https://www.asimovinstitute.org/neural-network-zoo/&lt;/p&gt;
-</description>
-                <pubDate>Wed, 24 May 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/AI-vs-Brain-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/AI-vs-Brain-en/</guid>
-                
-                <category>AI</category>
-                
-                <category>Neuroscience</category>
-                
-                <category>Brain</category>
-                
-                <category>Book</category>
                 
                 
                 <category>Motivation</category>
