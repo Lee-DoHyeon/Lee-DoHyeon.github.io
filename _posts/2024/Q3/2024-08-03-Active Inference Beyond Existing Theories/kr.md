@@ -1,5 +1,5 @@
 ---
-title: "능동 추론: 기존 이론을 뛰어넘는 새로운 관점"
+title: "능동추론: 기존 이론을 뛰어넘는 새로운 관점"
 scope:
   type: posts
 values:
@@ -11,13 +11,13 @@ values:
   related: true
 toc: true
 toc_sticky: true
-toc_label: "능동 추론: 기존 이론을 뛰어넘는 새로운 관점"
+toc_label: "능동추론: 기존 이론을 뛰어넘는 새로운 관점"
 category: Motivation
 tags: [이론, 신경과학, 마음, 행동, 두뇌, 철학, 과학, 공학]
 lang: kr
 header:
-  teaser: "/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/0.webp"
-image: assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/0.webp
+  teaser: "/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/0.webp"
+image: assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/0.webp
 ---
 
 <style>
@@ -45,7 +45,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/0.webp" style="width: 50%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/0.webp" style="width: 50%; height: auto;">
     <figcaption>
       주변 환경을 자율적으로 탐색하고, 스스로 학습하며 행동을 조정하는 미래의 로봇, 자체 제작
     </figcaption>
@@ -62,7 +62,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/1.gif" style="width: 80%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/1.gif" style="width: 80%; height: auto;">
     <figcaption>
       소설 듄에서 미래를 예측할 수 있는 퀴사츠 헤더락의 미래 예지 장면, 출처: 영화 듄(Dune)
     </figcaption>
@@ -77,7 +77,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/2.png" style="width: 50%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/2.png" style="width: 50%; height: auto;">
     <figcaption>
       베이즈 규칙에 의해 세상을 지각한다는 베이즈 두뇌 가설, 출처: <a href="">Entropy, Free Energy, Symmetry and Dynamics in the Brain, Viktor Jirsa et al.</a>
     </figcaption>
@@ -92,7 +92,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/3.jpg" style="width: 60%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/3.jpg" style="width: 60%; height: auto;">
     <figcaption>
       사전 신념만으로 행동에 영향이 생기는 관념운동 효과(Ideomotor Effect)의 대표 사례로 위저(Ouija) 보드.
     </figcaption>
@@ -103,7 +103,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/4.webp" style="width: 60%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/4.webp" style="width: 60%; height: auto;">
     <figcaption>
       사이버네틱스 운동과 관련 분야의 역사를 나타내는 다이어그램. 출처: <a href="https://www.researchgate.net/profile/Dmitry-Novikov-4v">Dmitry A. Noviko.</a>
     </figcaption>
@@ -129,7 +129,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/5.png" style="width: 40%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/5.png" style="width: 40%; height: auto;">
     <figcaption>
       베이즈 의사결정 이론(Bayesian Decision Theory)의 예시. 난파된 비행기 AFF-447기를 찾는데 베이즈 정리를 활용한 베이즈 탐색 이론(Bayesian Search Theory)의 적용 사례. 출처: <a href="https://www.metsci.com/what-we-do/featured-projects/the-search-for-air-france-447/">Metron Inc.</a>
     </figcaption>
@@ -140,7 +140,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/6.gif" style="width: 80%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/6.gif" style="width: 80%; height: auto;">
     <figcaption>
       NVIDIA의 Isaac Sim 시뮬레이터를 활용한 강화 학습 에이전트의 훈련 과정. 출처: <a href="https://pypi.org/project/rl-games/1.1.1/">RL Games, PYPI.</a>
     </figcaption>
@@ -151,7 +151,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/7.png" style="width: 70%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/7.png" style="width: 70%; height: auto;">
     <figcaption>
       제어(Control) 및 계획(Planning)의 문제를 확률적 추론으로 형식화한 학자들. 출처: 개인 발표 자료.
     </figcaption>
@@ -164,7 +164,7 @@ image: assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/8.jpg" style="width: 40%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/8.jpg" style="width: 40%; height: auto;">
     <figcaption>
       행동 실험 경제학의 창시자로 노벨 경제학상을 수상한 대니얼 카너먼(Daniel Kahneman). 출처: <a href="https://www.lowyinstitute.org/the-interpreter/daniel-kahneman-psychologist-who-shaped-economics-world">Lowy Institute</a>.
     </figcaption>
@@ -179,9 +179,9 @@ image: assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/9.png" style="width: 60%; height: auto;">
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/9.png" style="width: 60%; height: auto;">
     <figcaption>
-      정동 신경과학(Affective Neuroscience)을 창시한 야크 판크세프(Jaak Panksepp)의 도식. 출처: <a href="https://www.psychologytoday.com/sites/default/files/attachments/109303/jcs-articlefinal.pdf">A Synopsis of Affective Neuroscience —
+      정동 신경과학(Affective Neuroscience)을 창시한 야크 판크세프(Jaak Panksepp)의 신경 심리학, 인지 신경과학 - 행동 신경과학 - 인지 심리학의 관계. 출처: <a href="https://www.psychologytoday.com/sites/default/files/attachments/109303/jcs-articlefinal.pdf">A Synopsis of Affective Neuroscience —
 Naturalizing the Mammalian Mind(2012), Jaak Panksepp</a>.
     </figcaption>
   </figure>
@@ -195,11 +195,29 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp</a>.
 
 ### (8)주의집중, 현저성, 그리고 인식론적 동역학
 
+<div class="centered-container">
+  <figure>
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/10.jpg" style="width: 60%; height: auto;">
+    <figcaption>
+      시각적 이미지에서 주요 대상에 대한 주의집중 및 현저성 맵(Attention and Saliency Map). 출처: <a href="https://www.geeksforgeeks.org/what-is-saliency-map/">GeeksForGeeks</a>.
+    </figcaption>
+  </figure>
+</div>
+
 주의집중(Attention)과 현저성(Salience)은 심리학에서 중요한 개념으로, 능동 추론에서는 주의집중을 감각 입력의 신뢰도(Precision)로, 현저성을 기대 정보 이득(Expected Information Gain) 또는 인식론적 가치(Epistemic Value)으로 정의한다. 주의집중은 신념 갱신에 더 큰 영향을 미치는 감각을 선택하는 것이며, 현저성은 더 많은 정보를 제공할 것으로 기대되는 자극을 나타낸다; 주의집중은 추론의 잠재성(Potential to Infer), 현저성은 학습의 잠재성(Potential to Learn)이다. 비유하자면, 주의집중은 이미 측정한 데이터 중에서 가장 높은 품질의 데이터를 선택하여 가설 검정에 사용하는 과정이고, 현저성은 다음 실험을 설계하여 가장 높은 품질의 데이터를 확보하는 과정이다. 능동 추론의 공식적 접근 방식은 주의집중과 현저성의 모호성을 해결하고, 이 두 개념이 종종 혼동되는 이유를 설명한다. 인식론적 동역학(Epistemic Dynamics)은 이러한 개념들이 정보 획득과 행동 결정에 어떻게 영향을 미치는지를 설명한다.
 
 ### (9)규칙 학습, 인과 추론, 빠른 일반화
 
-능동 추론의 학습 패러다임은 행동(Actions), 사건(Events), 관찰(Observation) 간의 인과 관계(Causal Relations)를 포착하는 생성 모델의 개발에 기반을 둔다. 인간은 복잡한 인과 추론(Causal Inference)과 일반화(Generalization)를 통해 환경의 숨겨진 규칙(Latent Structure)을 학습하며, 이는 단순한 패턴 인식에 기반을 둔 현재의 기계 학습 접근 방식과 대조된다. 숨겨진 규칙을 학습하면 더 나은 예측력과 더 적은 감각적 세부 사항으로도 일반화할 수 있다. 이러한 능력은 새로운 상황에서도 효율적인 학습을 가능하게 하며, 학습을 학습하는(Laerning-to-Learn) 능력을 개발한다. 능동 추론은 모델의 정확성(Accuracy)과 복잡성(Complexity) 간의 균형을 맞추는 것을 중요시하며, 모델 축소(Model Reduction)는 단순히 자원을 낭비하는 것을 예방하는 것뿐만 아니라, 숨겨진 규칙을 학습하는 효과적인 방법이다.
+<div class="centered-container">
+  <figure>
+    <img src="/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/11.jpg" style="width: 80%; height: auto;">
+    <figcaption>
+      최근 규칙 및 기호 학습에 대한 연구 프로그램으로 등장한 신경기호 인공지능. 출처: <a href="https://youtu.be/16X0RB_YrvE?si=4BMivbBypHkrlLhA">Caltech의 Yison Yue 교수님의 발표 자료</a>.
+    </figcaption>
+  </figure>
+</div>
+
+능동 추론의 학습 패러다임은 행동(Actions), 사건(Events), 관찰(Observation) 간의 인과 관계(Causal Relations)를 포착하는 생성 모델의 개발에 기반을 둔다. 인간은 복잡한 인과 추론(Causal Inference)과 일반화(Generalization)를 통해 환경의 숨겨진 규칙(Latent Structure)을 학습하며, 이는 단순한 패턴 인식에 기반을 둔 현재의 기계 학습 접근 방식과 대조된다. 숨겨진 규칙을 학습하면 더 나은 예측력과 더 적은 감각적 세부 사항으로도 일반화할 수 있다. 이러한 능력은 새로운 상황에서도 효율적인 학습을 가능하게 하며, 학습을 학습하는(Learning-to-Learn) 능력을 개발한다. 능동 추론은 모델의 정확성(Accuracy)과 복잡성(Complexity) 간의 균형을 맞추는 것을 중요시하며, 모델 축소(Model Reduction)는 단순히 자원을 낭비하는 것을 예방하는 것뿐만 아니라, 숨겨진 규칙을 학습하는 효과적인 방법이다.
 
 ### (10)기타 활용방안
 
@@ -211,4 +229,6 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp</a>.
 
 ## Summary
 
-> 이 책은 뇌와 행동을 첫 원칙에서 이해하는 가능성에 대한 질문으로 시작하여, 능동 추론을 그 해결책으로 제시했다. 능동 추론이 인식, 행동 선택, 감정 등 익숙한 심리학적 개념에 어떤 의미를 가지는지 탐구하면서, 관련 개념들을 재검토하고 앞으로의 연구 과제를 제시했다. 이론적 신경생물학의 중요한 실습을 통해 능동 추론을 실천해 볼 것을 권장하며, 일상 생활에서도 이를 적용할 수 있음을 강조했다. 궁극적으로, 능동 추론이 우리의 일상과 연구에 어떻게 기여할 수 있는지를 강조하며, 독자들이 이를 계속 추구할 것을 기대한다.
+> 대니얼 데닛의 비판은 타당하다. 기존의 공학적 문제 해결 패러다임은 인지 기능의 하위 시스템을 개별적으로 구현하는 데 주력했지만, 그 결과는 인간 수준의 인공지능과는 거리가 멀었다. 이제 우리는 인간과 동물의 인지 기능을 더 포괄적으로 이해하고, 이를 바탕으로 능동 추론적 에이전트를 개발해야 한다. 이러한 접근은 기존의 단순한 시스템 융합보다 훨씬 더 복잡하고, 에너지 효율적이며, 효과적인 기술로 이어질 것이다. 신경생물학에서 얻은 통찰을 적용하면, 더욱 정교한 인공지능을 구현할 수 있다.
+
+> 인간 수준의 인공지능 개발은 기술적인 혁신뿐만 아니라, 그 기술이 우리의 생활과 사회에 어떤 영향을 미칠지에 대한 깊은 철학적 성찰도 요구한다. 능동 추론 패러다임은 규범적 접근이기 때문에 과학적으로 반증할 수 없지만, 다양한 배경지식을 통합하고 창의적인 해결책을 발견하는 데 중요한 역할을 할 것이다.

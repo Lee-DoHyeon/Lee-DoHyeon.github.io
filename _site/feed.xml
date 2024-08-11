@@ -5,12 +5,12 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 11 Aug 2024 18:15:40 +0900</pubDate>
-        <lastBuildDate>Sun, 11 Aug 2024 18:15:40 +0900</lastBuildDate>
+        <pubDate>Sun, 11 Aug 2024 18:41:34 +0900</pubDate>
+        <lastBuildDate>Sun, 11 Aug 2024 18:41:34 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
-                <title>능동 추론: 기존 이론을 뛰어넘는 새로운 관점</title>
+                <title>능동추론: 기존 이론을 뛰어넘는 새로운 관점</title>
                 <description>&lt;style&gt;
   .centered-container {
       text-align: center;
@@ -42,7 +42,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/0.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/0.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       주변 환경을 자율적으로 탐색하고, 스스로 학습하며 행동을 조정하는 미래의 로봇, 자체 제작
     &lt;/figcaption&gt;
@@ -59,7 +59,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/1.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/1.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       소설 듄에서 미래를 예측할 수 있는 퀴사츠 헤더락의 미래 예지 장면, 출처: 영화 듄(Dune)
     &lt;/figcaption&gt;
@@ -74,7 +74,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       베이즈 규칙에 의해 세상을 지각한다는 베이즈 두뇌 가설, 출처: &lt;a href=&quot;&quot;&gt;Entropy, Free Energy, Symmetry and Dynamics in the Brain, Viktor Jirsa et al.&lt;/a&gt;
     &lt;/figcaption&gt;
@@ -89,7 +89,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/3.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/3.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       사전 신념만으로 행동에 영향이 생기는 관념운동 효과(Ideomotor Effect)의 대표 사례로 위저(Ouija) 보드.
     &lt;/figcaption&gt;
@@ -100,7 +100,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/4.webp&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/4.webp&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       사이버네틱스 운동과 관련 분야의 역사를 나타내는 다이어그램. 출처: &lt;a href=&quot;https://www.researchgate.net/profile/Dmitry-Novikov-4v&quot;&gt;Dmitry A. Noviko.&lt;/a&gt;
     &lt;/figcaption&gt;
@@ -126,7 +126,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/5.png&quot; style=&quot;width: 40%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/5.png&quot; style=&quot;width: 40%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       베이즈 의사결정 이론(Bayesian Decision Theory)의 예시. 난파된 비행기 AFF-447기를 찾는데 베이즈 정리를 활용한 베이즈 탐색 이론(Bayesian Search Theory)의 적용 사례. 출처: &lt;a href=&quot;https://www.metsci.com/what-we-do/featured-projects/the-search-for-air-france-447/&quot;&gt;Metron Inc.&lt;/a&gt;
     &lt;/figcaption&gt;
@@ -137,7 +137,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/6.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/6.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       NVIDIA의 Isaac Sim 시뮬레이터를 활용한 강화 학습 에이전트의 훈련 과정. 출처: &lt;a href=&quot;https://pypi.org/project/rl-games/1.1.1/&quot;&gt;RL Games, PYPI.&lt;/a&gt;
     &lt;/figcaption&gt;
@@ -148,7 +148,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/7.png&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/7.png&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       제어(Control) 및 계획(Planning)의 문제를 확률적 추론으로 형식화한 학자들. 출처: 개인 발표 자료.
     &lt;/figcaption&gt;
@@ -161,7 +161,7 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/8.jpg&quot; style=&quot;width: 40%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/8.jpg&quot; style=&quot;width: 40%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
       행동 실험 경제학의 창시자로 노벨 경제학상을 수상한 대니얼 카너먼(Daniel Kahneman). 출처: &lt;a href=&quot;https://www.lowyinstitute.org/the-interpreter/daniel-kahneman-psychologist-who-shaped-economics-world&quot;&gt;Lowy Institute&lt;/a&gt;.
     &lt;/figcaption&gt;
@@ -176,9 +176,9 @@
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/9.png&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/9.png&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
-      정동 신경과학(Affective Neuroscience)을 창시한 야크 판크세프(Jaak Panksepp)의 도식. 출처: &lt;a href=&quot;https://www.psychologytoday.com/sites/default/files/attachments/109303/jcs-articlefinal.pdf&quot;&gt;A Synopsis of Affective Neuroscience —
+      정동 신경과학(Affective Neuroscience)을 창시한 야크 판크세프(Jaak Panksepp)의 신경 심리학, 인지 신경과학 - 행동 신경과학 - 인지 심리학의 관계. 출처: &lt;a href=&quot;https://www.psychologytoday.com/sites/default/files/attachments/109303/jcs-articlefinal.pdf&quot;&gt;A Synopsis of Affective Neuroscience —
 Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -192,11 +192,29 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;h3 id=&quot;8주의집중-현저성-그리고-인식론적-동역학&quot;&gt;(8)주의집중, 현저성, 그리고 인식론적 동역학&lt;/h3&gt;
 
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/10.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      시각적 이미지에서 주요 대상에 대한 주의집중 및 현저성 맵(Attention and Saliency Map). 출처: &lt;a href=&quot;https://www.geeksforgeeks.org/what-is-saliency-map/&quot;&gt;GeeksForGeeks&lt;/a&gt;.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
 &lt;p&gt;주의집중(Attention)과 현저성(Salience)은 심리학에서 중요한 개념으로, 능동 추론에서는 주의집중을 감각 입력의 신뢰도(Precision)로, 현저성을 기대 정보 이득(Expected Information Gain) 또는 인식론적 가치(Epistemic Value)으로 정의한다. 주의집중은 신념 갱신에 더 큰 영향을 미치는 감각을 선택하는 것이며, 현저성은 더 많은 정보를 제공할 것으로 기대되는 자극을 나타낸다; 주의집중은 추론의 잠재성(Potential to Infer), 현저성은 학습의 잠재성(Potential to Learn)이다. 비유하자면, 주의집중은 이미 측정한 데이터 중에서 가장 높은 품질의 데이터를 선택하여 가설 검정에 사용하는 과정이고, 현저성은 다음 실험을 설계하여 가장 높은 품질의 데이터를 확보하는 과정이다. 능동 추론의 공식적 접근 방식은 주의집중과 현저성의 모호성을 해결하고, 이 두 개념이 종종 혼동되는 이유를 설명한다. 인식론적 동역학(Epistemic Dynamics)은 이러한 개념들이 정보 획득과 행동 결정에 어떻게 영향을 미치는지를 설명한다.&lt;/p&gt;
 
 &lt;h3 id=&quot;9규칙-학습-인과-추론-빠른-일반화&quot;&gt;(9)규칙 학습, 인과 추론, 빠른 일반화&lt;/h3&gt;
 
-&lt;p&gt;능동 추론의 학습 패러다임은 행동(Actions), 사건(Events), 관찰(Observation) 간의 인과 관계(Causal Relations)를 포착하는 생성 모델의 개발에 기반을 둔다. 인간은 복잡한 인과 추론(Causal Inference)과 일반화(Generalization)를 통해 환경의 숨겨진 규칙(Latent Structure)을 학습하며, 이는 단순한 패턴 인식에 기반을 둔 현재의 기계 학습 접근 방식과 대조된다. 숨겨진 규칙을 학습하면 더 나은 예측력과 더 적은 감각적 세부 사항으로도 일반화할 수 있다. 이러한 능력은 새로운 상황에서도 효율적인 학습을 가능하게 하며, 학습을 학습하는(Laerning-to-Learn) 능력을 개발한다. 능동 추론은 모델의 정확성(Accuracy)과 복잡성(Complexity) 간의 균형을 맞추는 것을 중요시하며, 모델 축소(Model Reduction)는 단순히 자원을 낭비하는 것을 예방하는 것뿐만 아니라, 숨겨진 규칙을 학습하는 효과적인 방법이다.&lt;/p&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-2024-08-03-Active Inference Beyond Existing Theories/11.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      최근 규칙 및 기호 학습에 대한 연구 프로그램으로 등장한 신경기호 인공지능. 출처: &lt;a href=&quot;https://youtu.be/16X0RB_YrvE?si=4BMivbBypHkrlLhA&quot;&gt;Caltech의 Yison Yue 교수님의 발표 자료&lt;/a&gt;.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;능동 추론의 학습 패러다임은 행동(Actions), 사건(Events), 관찰(Observation) 간의 인과 관계(Causal Relations)를 포착하는 생성 모델의 개발에 기반을 둔다. 인간은 복잡한 인과 추론(Causal Inference)과 일반화(Generalization)를 통해 환경의 숨겨진 규칙(Latent Structure)을 학습하며, 이는 단순한 패턴 인식에 기반을 둔 현재의 기계 학습 접근 방식과 대조된다. 숨겨진 규칙을 학습하면 더 나은 예측력과 더 적은 감각적 세부 사항으로도 일반화할 수 있다. 이러한 능력은 새로운 상황에서도 효율적인 학습을 가능하게 하며, 학습을 학습하는(Learning-to-Learn) 능력을 개발한다. 능동 추론은 모델의 정확성(Accuracy)과 복잡성(Complexity) 간의 균형을 맞추는 것을 중요시하며, 모델 축소(Model Reduction)는 단순히 자원을 낭비하는 것을 예방하는 것뿐만 아니라, 숨겨진 규칙을 학습하는 효과적인 방법이다.&lt;/p&gt;
 
 &lt;h3 id=&quot;10기타-활용방안&quot;&gt;(10)기타 활용방안&lt;/h3&gt;
 
@@ -209,7 +227,11 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;이 책은 뇌와 행동을 첫 원칙에서 이해하는 가능성에 대한 질문으로 시작하여, 능동 추론을 그 해결책으로 제시했다. 능동 추론이 인식, 행동 선택, 감정 등 익숙한 심리학적 개념에 어떤 의미를 가지는지 탐구하면서, 관련 개념들을 재검토하고 앞으로의 연구 과제를 제시했다. 이론적 신경생물학의 중요한 실습을 통해 능동 추론을 실천해 볼 것을 권장하며, 일상 생활에서도 이를 적용할 수 있음을 강조했다. 궁극적으로, 능동 추론이 우리의 일상과 연구에 어떻게 기여할 수 있는지를 강조하며, 독자들이 이를 계속 추구할 것을 기대한다.&lt;/p&gt;
+  &lt;p&gt;대니얼 데닛의 비판은 타당하다. 기존의 공학적 문제 해결 패러다임은 인지 기능의 하위 시스템을 개별적으로 구현하는 데 주력했지만, 그 결과는 인간 수준의 인공지능과는 거리가 멀었다. 이제 우리는 인간과 동물의 인지 기능을 더 포괄적으로 이해하고, 이를 바탕으로 능동 추론적 에이전트를 개발해야 한다. 이러한 접근은 기존의 단순한 시스템 융합보다 훨씬 더 복잡하고, 에너지 효율적이며, 효과적인 기술로 이어질 것이다. 신경생물학에서 얻은 통찰을 적용하면, 더욱 정교한 인공지능을 구현할 수 있다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;인간 수준의 인공지능 개발은 기술적인 혁신뿐만 아니라, 그 기술이 우리의 생활과 사회에 어떤 영향을 미칠지에 대한 깊은 철학적 성찰도 요구한다. 능동 추론 패러다임은 규범적 접근이기 때문에 과학적으로 반증할 수 없지만, 다양한 배경지식을 통합하고 창의적인 해결책을 발견하는 데 중요한 역할을 할 것이다.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
                 <pubDate>Sat, 03 Aug 2024 00:00:00 +0900</pubDate>
@@ -238,37 +260,251 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
             </item>
         
             <item>
-                <title>Bridging the Gap between Symbol and Sub-symbol</title>
-                <description>&lt;p&gt;Modern advancements in artificial intelligence and robotics have made significant progress in mimicking high-level human behaviors and decision-making. Particularly, Deep Reinforcement Learning (DRL) has succeeded in implementing complex behaviors that surpass traditional control problems. While Finite State Machines (FSM) were used in the past for robots performing games or simple tasks, Behavior Trees (BT) have become widely applied recently. This shift, along with technological advancements, presents new approaches to solving complex problems.&lt;/p&gt;
+                <title>Active Inference: A New Perspective Beyond Existing Theories</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
 
-&lt;p&gt;Deep Reinforcement Learning indeed offers more possibilities than traditional control methods. This technology is being applied in real-world tasks, helping to solve various challenges we face. However, the complexity and learning processes of deep neural networks function like a black box, potentially causing inductive bias. Therefore, we must exercise caution when using sub-symbolic systems, such as artificial neural networks. Recent incidents related to Tesla’s autonomous driving technology highlight these concerns, leading many countries to strengthen relevant legislation to enhance AI safety and reliability. Modern machines thus need more responsive and modular world models to address such issues effectively.&lt;/p&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;This post is a summary of the final chapter of the textbook “&lt;a href=&quot;https://direct.mit.edu/books/oa-monograph/5299/Active-InferenceThe-Free-Energy-Principle-in-Mind&quot;&gt;Active Inference&lt;/a&gt;” by Thomas Parr and Giovanni Pezzulo.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-&lt;p&gt;Moreover, modern machines are neither as fast nor as energy-efficient as the reflexes of humans or animals. While most machines focus on single tasks, humans and animals possess various skills to solve the more challenging and complex task of survival in the world. Constructing reactive and modular world models enables flexible responses to complex environments and easy partial modifications. To implement true autonomous agents, these reactive and modular world models are necessary. These models are closely related to high-level cognitive functions and metacognition in humans.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Humans act based on their understanding of language and the physical world through complex deep neural networks or self-supervised world models. These behaviors are often implicit or explicit and can be considered finite state machines or behavior trees at a macro level. For example, Jurgen Schmidhuber proposed the Gödel Machine, emphasizing that the core ability of consciousness is to modify internal programs and develop better ones. This suggests that humans continually develop and refine useful programs or symbolic systems from sub-symbolic systems like neural networks. Recent consciousness studies also focus on high-level cognitive functions and metacognition, demonstrating how high-level perspectives continuously influence lower-level perspectives in viewing the world (mind), biological reconstruction through learning (brain), and interactions with the physical world (behavior).&lt;/p&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/0.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      A futuristic robot autonomously exploring its environment, learning, and adjusting its behavior.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Phenomena like hypnosis and subliminal messaging techniques, which operate through language and sensory information, exemplify this self-modifying ability. However, there is little discussion on the techniques or methods for displaying the sub-symbolic contents of deep neural networks in a symbolic form. This is similar to how understanding human behaviors and habits, and expressing the underlying beliefs and subconscious, is possible only through reflection and self-evaluation. As the famous saying goes, “Beliefs become thoughts, thoughts become words, words become actions, actions become habits, habits determine one’s values, and values determine one’s destiny.” To change our destiny and values, we must change our actions and habits, and to do that, we must change our beliefs and words. For instance, several current research approaches strive to address these technical challenges.&lt;/p&gt;
-
-&lt;p&gt;In conclusion, it is crucial to explore how sub-symbolic systems autonomously generate and modify high-level symbolic behaviors and clear guidelines. Extracting and evaluating the behavior patterns implicitly stored in already developed sub-symbolic systems is also essential. This process is not only a technically challenging task but also a critical research field determining the future of artificial intelligence. Therefore, advancing modern AI requires an in-depth study of the interactions between sub-symbolic and symbolic systems to develop more flexible and efficient autonomous agents. We must continue our efforts to solve these complex problems.&lt;/p&gt;
+&lt;h1 id=&quot;active-inference-vs-existing-theories&quot;&gt;Active Inference vs. Existing Theories&lt;/h1&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+&lt;h3 id=&quot;1-philosophy-predictive-theories&quot;&gt;(1) Philosophy; Predictive Theories&lt;/h3&gt;
 
-&lt;p&gt;Modern AI and robotics have made significant strides in mimicking high-level human behaviors and decision-making, particularly through Deep Reinforcement Learning (DRL), which has succeeded in implementing complex behaviors. While traditional control methods like Finite State Machines (FSM) and Behavior Trees (BT) are being replaced by DRL in practical applications, the complexity and inductive bias of deep neural networks necessitate careful use of sub-symbolic systems. Incidents such as Tesla’s autonomous driving accidents highlight these concerns. Modern machines are not as fast or energy-efficient as human or animal reflexes, and typically focus on single tasks, whereas humans and animals use reactive and modular world models for flexible adaptation. Constructing such models is essential for true autonomous agents and closely related to high-level cognitive functions and metacognition. Phenomena like hypnosis and subliminal messaging show self-modifying abilities through language and sensory information, but techniques to display sub-symbolic contents symbolically are lacking. As the saying goes, “Beliefs become thoughts, thoughts become words, words become actions, actions become habits, habits determine one’s values, and values determine one’s destiny,” indicating the need to change beliefs and words to alter actions and habits. Current research approaches aim to address these challenges. In conclusion, exploring how sub-symbolic systems autonomously generate and modify high-level symbolic behaviors is crucial, as is extracting and evaluating implicit behavior patterns. This research is vital for advancing AI and developing flexible and efficient autonomous agents, necessitating continued efforts to solve these complex problems.&lt;/p&gt;
+&lt;p&gt;Traditional brain and cognitive theories have emphasized feedforward models where stimuli are transformed into responses (with everything in between labeled “cognitive”). However, Active Inference emphasizes prediction and goal-directed aspects. An active inference agent generates predictions based on a generative model, tests hypotheses, updates the model, and actively collects data. This process satisfies both epistemic (information-seeking) and pragmatic (reward-seeking) demands.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/1.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      A scene from the movie &quot;Dune&quot; where the Kwisatz Haderach foresees the future.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Predictive Processing&lt;/strong&gt; Predictive Processing (PP) is a philosophical framework that views the brain and cognition as prediction-centric, using the concepts of “predictive brain” or “predictive mind.” While closely related to Active Inference, PP uses broader concepts such as generative models, predictive coding, free energy, precision modulation, and the Markov blanket. PP has potential applications across various cognitive domains, from perception and behavior to learning and psychopathology, and can integrate simple biological organisms with complex social and cultural structures. Although PP uses familiar concepts like belief and surprise, these terms can have technical meanings. The growing interest in PP has led to diverse theoretical and epistemological interpretations among philosophers, including enactivism, embodied cognition, and non-representational approaches.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-perception&quot;&gt;(2) Perception&lt;/h3&gt;
+
+&lt;p&gt;Active Inference views perception as a process of inference based on a generative model. Bayes’ Rule calculates beliefs about hidden states of the environment based on observed data—a concept dating back to Helmholtz (1866) and reinterpreted across psychology, computational neuroscience, and machine learning.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      The Bayesian Brain Hypothesis: perceiving the world through Bayes&apos; Rule. Source: &lt;a href=&quot;&quot;&gt;Entropy, Free Energy, Symmetry and Dynamics in the Brain, Viktor Jirsa et al.&lt;/a&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Bayesian Brain Hypothesis&lt;/strong&gt; The Bayesian Brain Hypothesis modernizes this idea, applying it to decision-making, sensory processing, learning, and more. Active Inference provides a normative basis for these inference ideas, grounded in the principle of minimizing variational free energy. In contrast, the Bayesian Brain Hypothesis models perception and action differently. Active Inference extends the typical process model of predictive coding in perception to the domain of action, explaining action dynamics through generative model principles. The Bayesian Brain Hypothesis includes various theories across computational, algorithmic, and neuronal levels, each with competing theories and multiple ways of implementing Bayesian computation. Active Inference, on the other hand, offers a more integrated perspective by connecting normative principles with process theories. All processes are assumed to minimize free energy, and process theories use gradient descent on free energy, with clear neurophysiological implications. Predictive coding can be derived from the free energy minimization principle and extended to the action domain by adding motor reflexes to the predictive coding agent in continuous time.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-action-control&quot;&gt;(3) Action Control&lt;/h3&gt;
+
+&lt;p&gt;In Active Inference, action control is driven by forward prediction, similar to perceptual processing. For instance, the proprioceptive prediction “My hand will grasp the cup” triggers the grasping movement. Action control, unlike perception, relies less on sensory input and is more connected to motor reflexes in the brainstem and spinal cord, receiving relatively less bottom-up input. This is related to the equilibrium point hypothesis, where action sets and maintains a target equilibrium point. To initiate action, prior beliefs and sensory precision must be appropriately modulated; when the prior is more precise, the grasping action occurs. This is achieved through transient sensory attenuation, and failure in sensory attenuation can lead to failure in action control.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/3.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      The ideomotor effect: an example of how prior beliefs alone can influence behavior, as seen with the Ouija board.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Ideomotor Theory&lt;/strong&gt; In Active Inference, actions are driven by proprioceptive predictions rather than motor commands. This concept is related to William James’ Ideomotor Theory, which suggests that the bidirectional linkage between actions and effects is central to cognitive architecture. In other words, actions generate sensory predictions when moving from action to effect, and actions can be selected based on the expected effect when moving from effect to action. Active Inference extends these ideas by adding concepts such as precision control and sensory attenuation.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/4.webp&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Diagram illustrating the history of cybernetics and related fields. Source: &lt;a href=&quot;https://www.researchgate.net/profile/Dmitry-Novikov-4v&quot;&gt;Dmitry A. Novikov.&lt;/a&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Cybernetics&lt;/strong&gt; Active Inference emphasizes goal-directed behavior and feedback-based agent-environment interaction, similar to the TOTE model (Test-Operate-Test-Exit), selecting actions based on the difference between a preferred state and the current state. This distinguishes it from behaviorist theories or reinforcement learning, which assume a simple stimulus-response relationship. Instead, Active Inference aligns more closely with Perceptual Control Theory, which also emphasizes controlling perceptual states rather than actions. For example, while driving, we control the desired speed but may choose to accelerate or decelerate based on circumstances. This reflects William James’ insight that “humans achieve stable goals in a flexible manner.” However, while Active Inference includes predictive (feedforward) control through generative models, Perceptual Control Theory assumes that feedback mechanisms alone are sufficient. Both theories describe control through a hierarchical cascade of higher and lower goals, but Active Inference includes a function that prioritizes more salient or urgent goals based on precision-weight modulation by motivational processes.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1AR2-OHCxsQ?si=rJ886vqqvCW80lss&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+    &lt;figcaption&gt;
+      The famous Model Predictive Path Integral; Information-Theoretic Model Predictive Control algorithm used to power a rally car. Source: Georgia Tech.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Optimal Control Theory&lt;/strong&gt; Optimal Control Theory selects motor commands through control policies and cost functions based on stimulus-driven responses. In contrast, Active Inference uses predictive control, where motor commands are considered predictions, with the generative model playing a central role in action control. While Optimal Control requires both a forward model to predict the outcomes of actions and an inverse model to optimize motor commands based on those predictions, Active Inference relies solely on a simple forward model based on reflexes. When sensory prediction errors arise, Active Inference resolves them through action, using simple motor reflexes rather than complex inverse computations. Additionally, Active Inference replaces the cost/value functions used in Optimal Control Theory with Bayesian concepts such as prior preferences or expected free energy.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-utility-and-decision-making&quot;&gt;(4) Utility and Decision-Making&lt;/h3&gt;
+
+&lt;p&gt;Active Inference, Optimal Control Theory, economic theory, and reinforcement learning all utilize costs and rewards in selecting actions, but their approaches differ. Optimal Control Theory and reinforcement learning use cost functions and the Bellman equation to optimize behavior, while economic theory focuses on utility maximization. In contrast, Active Inference aims to minimize expected free energy, naturally resolving the exploration-exploitation dilemma. It absorbs the concept of cost into prior preferences, specifying the goal of control and biasing the generative model, using priors instead of value functions to find the optimal policy. This allows Active Inference to perform actions through predictive control, effectively achieving desired states.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/5.png&quot; style=&quot;width: 40%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Example of Bayesian Decision Theory: Bayesian Search Theory applied to find the wreckage of Flight AF447 using Bayes&apos; Theorem. Source: &lt;a href=&quot;https://www.metsci.com/what-we-do/featured-projects/the-search-for-air-france-447/&quot;&gt;Metron Inc.&lt;/a&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Bayesian Decision Theory&lt;/strong&gt; Bayesian Decision Theory selects optimal actions by combining Bayesian calculations predicting future outcomes with utility or cost functions defining preferences for future plans. In contrast, Active Inference posits that priors directly signal what is valuable to an organism, optimizing beliefs by minimizing variational free energy and expected free energy. The Complete Class Theorem states that for any decision and cost function, there must exist a prior supporting a Bayes-optimal decision, meaning that when Bayesian Decision Theory separately handles priors and cost functions, it encounters issues of duality or degeneracy. Active Inference resolves this by integrating preferences directly.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/6.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Training process of a reinforcement learning agent using NVIDIA&apos;s Isaac Sim simulator. Source: &lt;a href=&quot;https://pypi.org/project/rl-games/1.1.1/&quot;&gt;RL Games, PYPI.&lt;/a&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Reinforcement Learning&lt;/strong&gt; Reinforcement learning (RL) involves learning policies through trial-and-error, using rewards and value functions to select optimal actions. RL is divided into model-free methods that learn value functions directly, model-based methods that learn value functions and policies from model-generated data, and policy gradient methods that directly optimize policies without value functions. In contrast, Active Inference optimizes beliefs by minimizing variational and expected free energy instead of using rewards and value functions. RL assumes that actions are mediated through trial-and-error learning and reinforcement, while Active Inference assumes that actions result from inference. Additionally, RL sees goal-directed and habitual behaviors as corresponding to model-based and model-free RL, acquired in parallel and competing, while in Active Inference, habitual behaviors can be acquired by repeatedly pursuing goal-directed policies, allowing for cooperation.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/7.png&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Scholars who formalized the control and planning problems as probabilistic inference. Source: Personal presentation materials.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Planning as Inference&lt;/strong&gt; Just as perception can be viewed as a problem of inference, so too can control and planning be seen as inference problems. This relates to ideas like Control As Inference by Rawlik and Levine, Planning As Inference by Attias, Botvinick, and Toussaint, and Risk-Sensitive, KL Control by Kappen. Active Inference and other “Planning as Inference” theories use dynamic generative models to encode probabilistic relationships between states and actions, inferring action sequences. However, they differ in three main dimensions: (1) inference method, (2) inference target, and (3) inference goal. Active Inference uses variational inference for scalable and efficient computation, infers posteriors over model-based planning, action sequences, or policies, and aims to minimize expected free energy for broader goals. Other theories use different inference methods like sampling, focus on individual actions or action sequences, and aim to maximize rewards.&lt;/p&gt;
+
+&lt;h3 id=&quot;5-behavior-and-bounded-rationality&quot;&gt;(5) Behavior and Bounded Rationality&lt;/h3&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/8.jpg&quot; style=&quot;width: 40%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Daniel Kahneman, Nobel laureate and founder of behavioral economics. Source: &lt;a href=&quot;https://www.lowyinstitute.org/the-interpreter/daniel-kahneman-psychologist-who-shaped-economics-world&quot;&gt;Lowy Institute&lt;/a&gt;.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In Active Inference, deliberative, perseverative, and habitual aspects of behavior are automatically integrated. For example, when a person goes shopping, they create a deliberative plan to minimize expected free energy, maintain current behavior by minimizing variational free energy, and perform habitual actions based on past experiences. Unlike Kahneman’s Dual System Theory, this suggests that deliberative, perseverative, and habitual behaviors coexist and cooperate depending on the situation. Deliberative actions vary with cognitive resources, which can carry complexity costs, and the concept of bounded rationality emphasizes balancing the costs, effort, and timeliness of computation. Active Inference views behavior as a result of inference, guiding optimal actions across diverse situations.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Free Energy Theory and Bounded Rationality&lt;/strong&gt; Bounded Rationality is explained in terms of Helmholtz Free Energy Minimization, which relates to the concept of variational free energy used in Active Inference. It explains the trade-offs in action selection through the balance between energy/accuracy and entropy/complexity. In Active Inference, free energy is minimized through the trade-off between the cost of increasing precision and accuracy. The concept of bounded rationality resonates with Active Inference, which uses variational bounds to evaluate evidence. As a result, Active Inference offers a model of (bounded) rationality and optimality that finds the best solutions by balancing accuracy and complexity.&lt;/p&gt;
+
+&lt;h3 id=&quot;6-valence-emotion-and-motivation&quot;&gt;(6) Valence, Emotion, and Motivation&lt;/h3&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/9.png&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      The relationship between neuropsychology, cognitive neuroscience, behavioral neuroscience, and cognitive psychology, as outlined by Jaak Panksepp, founder of affective neuroscience. Source: &lt;a href=&quot;https://www.psychologytoday.com/sites/default/files/attachments/109303/jcs-articlefinal.pdf&quot;&gt;A Synopsis of Affective Neuroscience — Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Active Inference uses (negative) free energy as a measure of an organism’s ability to achieve its goals, with organisms adjusting their behavior by following the gradient without needing to know the free energy value itself. Emotional valence is explained as the rate of change in free energy over time, with decreases in free energy interpreted as positive valence and increases as negative valence. Moreover, higher-order derivatives can explain more complex emotional states; relief is described as the transition from high to low valence, while disappointment is the transition from low to high. This is related to precision, as it is the second derivative of free energy. Expectations of increases or decreases in free energy play a crucial role in motivation and action selection. The precision of beliefs about policies is linked to dopamine signals, where dopamine bursts can occur when a reliable policy is found. Understanding the neurophysiological mechanisms that connect expectations of achieving goals or rewards with increases in attention and motivation is anticipated.&lt;/p&gt;
+
+&lt;h3 id=&quot;7-homeostasis-allostasis-and-interoception&quot;&gt;(7) Homeostasis, Allostasis, and Interoception&lt;/h3&gt;
+
+&lt;p&gt;Active Inference maintains homeostasis by using generative models that explain and regulate an organism’s internal milieu. It activates autonomic reflexes through interoceptive inference to regulate physiological parameters and uses allostatic strategies to minimize expected free energy, proactively preventing interoceptive prediction errors. Physiological regulation plays a key role in affective and emotional processing, with the flow of interoceptive information during external stimulus perception assigning affective meaning to situations. Emotional inference treats emotions as part of the generative model, updating beliefs and regulating behavior. For instance, anxiety is explained by the Bayesian belief “I am anxious,” which accounts for sensory inputs and interoceptive signals, with such predictions adjusting precision or triggering autonomic responses. Typically, interoceptive and exteroceptive sensory information is integrated, with disease research showing a close relationship between emotion, interoception, and attention.&lt;/p&gt;
+
+&lt;h3 id=&quot;8-attention-salience-and-epistemic-dynamics&quot;&gt;(8) Attention, Salience, and Epistemic Dynamics&lt;/h3&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/10.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Attention and saliency maps in visual images highlighting key subjects. Source: &lt;a href=&quot;https://www.geeksforgeeks.org/what-is-saliency-map/&quot;&gt;GeeksForGeeks&lt;/a&gt;.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Attention and salience are crucial concepts in psychology. In Active Inference, attention is defined as the precision of sensory input, and salience is defined as expected information gain or epistemic value. Attention is the selection of sensory data that has a greater influence on belief updating, while salience is the stimulus expected to provide more information; attention is the potential to infer, and salience is the potential to learn. Metaphorically, attention is the process of selecting the highest quality data from already measured data for hypothesis testing, while salience is the process of designing the next experiment to obtain the highest quality data. The formal approach of Active Inference resolves the ambiguity of attention and salience and explains why these two concepts are often confused. Epistemic dynamics describe how these concepts influence information acquisition and action decisions.&lt;/p&gt;
+
+&lt;h3 id=&quot;9-rule-learning-causal-inference-rapid-generalization&quot;&gt;(9) Rule Learning, Causal Inference, Rapid Generalization&lt;/h3&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-03-Insights on Active Inference copy/11.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Neuro-symbolic AI, a recent research program focusing on rule and symbol learning. Source: &lt;a href=&quot;https://youtu.be/16X0RB_YrvE?si=4BMivbBypHkrlLhA&quot;&gt;Presentation by Prof. Yison Yue at Caltech&lt;/a&gt;.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The learning paradigm in Active Inference is based on developing generative models that capture causal relations between actions, events, and observations. Humans learn the latent structure of the environment through complex causal inference and generalization, contrasting with current machine learning approaches based on simple pattern recognition. Learning hidden rules allows for better predictions and generalization with fewer sensory details. This ability enables efficient learning in new situations and the development of a learning-to-learn capability. Active Inference emphasizes balancing accuracy and complexity in models, with model reduction being an effective method not only for preventing the waste of resources but also for learning hidden rules.&lt;/p&gt;
+
+&lt;h3 id=&quot;10-other-applications&quot;&gt;(10) Other Applications&lt;/h3&gt;
+
+&lt;p&gt;Beyond survival and adaptation, Active Inference can be applied to various fields, including social and cultural dynamics, machine learning, and robotics. In social and cultural dynamics, it explores the effects of interactions between agents. In machine learning and robotics, it studies learning mechanisms for solving more complex problems in ways compatible with the theory.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Social and Cultural Dynamics&lt;/strong&gt; Human cognition is deeply intertwined with social and cultural dynamics rather than isolated individual cognition. Social dynamics, ranging from physical interactions like team sports to abstract interactions like elections, require interaction between multiple Active Inference agents. Simple simulations have already shown interesting emergent phenomena such as self-organization in simple life forms resisting extinction, morphogenetic processes acquiring and restoring body shapes, and mutual coordinated prediction and take-turning. These studies suggest that cognition extends beyond the skull into social niches. Active Inference has the potential to expand from the science of individuals to the science of societies.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Machine Learning and Robotics&lt;/strong&gt; In machine learning and robotics, generative modeling and variational inference methods are widely used. Early connectionist generative models like the Helmholtz Machine and Boltzmann Machine provided methods for learning the internal representation of neural networks in an unsupervised manner, closely related to variational approaches. Recent models like Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs) are widely used for recognizing or generating images and videos. VAEs learn accurate descriptions of data while minimizing complexity, and GANs generate high-quality data through competition between generative and discriminative networks. Generative models are also used in high-dimensional movement control in robots, enabling learning through autonomous exploration, demonstration by humans, and interaction with humans. Active Inference provides an effective approach to addressing these challenges and contributes to the development of more advanced robotic technologies.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Daniel Dennett’s criticism is valid. The traditional engineering problem-solving paradigm has focused on individually implementing sub-systems of cognitive functions, but the results have been far from achieving human-level artificial intelligence. Now, we must develop active inference agents based on a more comprehensive understanding of human and animal cognition. This approach will lead to more complex, energy-efficient, and effective technologies than simple system integration. Applying insights from neurobiology will enable the implementation of more sophisticated AI.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Developing human-level AI requires not only technological innovation but also deep philosophical reflection on how that technology will impact our lives and society. While the Active Inference paradigm is normative and thus not scientifically falsifiable, it will play a crucial role in integrating diverse knowledge and discovering creative solutions.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
                 <pubDate>Sat, 03 Aug 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/meditation/Active-Inference-Beyond-Existing-Theories-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/meditation/Active-Inference-Beyond-Existing-Theories-en/</guid>
+                <link>http://localhost:4000/motivation/Active-Inference-Beyond-Existing-Theories-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Active-Inference-Beyond-Existing-Theories-en/</guid>
                 
-                <category>Beliefs</category>
+                <category>Theory</category>
                 
-                <category>Language</category>
+                <category>Neuroscience</category>
                 
-                <category>Symbolic Systems</category>
+                <category>Mind</category>
+                
+                <category>Behavior</category>
+                
+                <category>Brain</category>
+                
+                <category>Philosophy</category>
+                
+                <category>Science</category>
+                
+                <category>Engineering</category>
                 
                 
-                <category>Meditation</category>
+                <category>Motivation</category>
                 
             </item>
         

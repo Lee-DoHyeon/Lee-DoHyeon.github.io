@@ -43,7 +43,7 @@ image: /assets/images/posts/2024/Q3/2024-07-23-Toward Unified Science of Mind-Br
   <figure>
     <img src="/assets/images/posts/2024/Q3/2024-07-23-Toward Unified Science of Mind-Brain-Behavior/mind.jpg" style="width: 50%; height: auto;">
     <figcaption>
-      마음-행동-두뇌의 관계에 대한 이해의 어려움.
+      마음-행동-두뇌의 관계는 복잡하고 어렵다...
     </figcaption>
   </figure>
 </div>
