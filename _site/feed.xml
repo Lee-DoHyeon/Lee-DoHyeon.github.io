@@ -5,8 +5,8 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 12 Aug 2024 18:42:22 +0900</pubDate>
-        <lastBuildDate>Mon, 12 Aug 2024 18:42:22 +0900</lastBuildDate>
+        <pubDate>Tue, 13 Aug 2024 00:31:23 +0900</pubDate>
+        <lastBuildDate>Tue, 13 Aug 2024 00:31:23 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
@@ -1801,15 +1801,77 @@ Considering that the importance of predictive coding and un/self-supervised lear
   }
 &lt;/style&gt;
 
+&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+
+  /* 새로 추가된 스타일 */
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+
+  /* 새로 추가된 스타일 */
+  .three-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .three-fig-container figure {
+      width: calc(33% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .three-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+&lt;/style&gt;
+
+&lt;p&gt;주식 시장과&lt;/p&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-15-Starting Point/0.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;video width=&quot;60%&quot; controls=&quot;&quot;&gt;
+      &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-05-11-Youve got a lot on your mind/marketing.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;/video&gt;
     &lt;figcaption&gt;
-      퇴근하던 중 하늘을 바라보며 사색에 잠겼다.
+      직접 제작한 홍보 영상. 인스타그램 스토리 및 게시물을 통해 공유되었다.
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
-
 </description>
                 <pubDate>Sat, 11 May 2024 00:00:00 +0900</pubDate>
                 <link>http://localhost:4000/movement/You've-got-a-lot-on-your-mind-kr/</link>
@@ -2008,6 +2070,37 @@ Considering that the importance of predictive coding and un/self-supervised lear
   &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;p&gt;최근 카이스트에서 한국 계산뇌과학 겨울학교가 열린다는 소식을 듣고, 부리나케 찾아보았다. 한국 계산뇌과학회는 나의 은사님이신 포항공과대학교(POSTECH)의 김승환 교수님께서 창립하신 학술 조직으로, 오래전부터 계산뇌과학 겨울학교 프로그램을 운영하여 젊은 학생들과 대중들에게 뇌와 신경과학에 대한 관심을 널리 알려왔다. 첨단 인공지능 기술 개발에 도움이 되는 강연이기 때문에, 운 좋게도 회사의 재정 지원을 받아 겨울학교에 참석할 기회를 얻을 수 있었다.&lt;/p&gt;
+
+&lt;p&gt;겨울학교는 총 4일 동안 운영됐다. 카이스트의 정문술 빌딩 강당에서 진행되었으며, 한국의 유명한 신경과학 연구자들과 교수님들이 모여 다양한 배경의 참가자들에게 연구 동향을 소개해 주었다. 이번 겨울학교의 테마는 인공지능과의 연관성이었으며, 인간 및 동물을 대상으로 실험을 수행하는 교수님들도 있었지만, 주로 시뮬레이션과 모델링 기반의 연구가 소개되었다.&lt;/p&gt;
+
+&lt;p&gt;서울대학교 뇌인지과학과의 이상훈 교수님의 강연을 통해 신경, 계산, 정신 활동의 관계와 연구 계획들을 소개받을 수 있었다. 이후 정재승 교수님께서는 계산신경과학의 역사를 심도 깊게 다루어 주셨고, 백세범 교수님께서는 진화의 관점에서 두뇌의 생물학적 복잡성을 설명해 주셨다. 특히, 백세범 교수님의 강의에서 등장한 인공지능 및 기계학습 연구의 핵심 가정인 “백지 상태(Tabula Rasa)” 패러다임에 대한 비판이 인상 깊었다. 선천적인 것이냐, 후천적인 것이냐(Nature vs Nurture), 이 문제는 너무나도 중요하다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/06.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        이상완 교수님의 뇌기반 인공지능 연구 소개.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/07.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        신경과학-인공지능 융합연구센터.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;한편, 인공지능과 신경과학의 교집합에 초점을 둔 이상완 교수님의 강의도 매우 흥미로웠다. 사실, 이전에 면담 요청을 드렸고 흔쾌히 면담을 진행해 주신 바가 있다. 다만, 그때 내가 일부 무례한 질문을 했는지, 또는 충분히 준비되지 않은 상태에서 면담을 진행해 유의미한 대화가 오가지 못해 후회스러웠던 기억이 있다. 그럼에도 불구하고, 이상완 교수님은 내가 동의하는 매우 중요한 연구 방향으로 나아가고 계신 분이었다. 기회가 된다면 연구 지도를 받아보고 싶지만, 연구실에 이미 많은 학생이 있어 어려울 것 같아 아쉬움이 남는다.&lt;/p&gt;
+
+&lt;p&gt;신경과학과 인공지능을 융합적으로 연구하는 곳은 전 세계적으로도 유수한 연구 대학에 포진되어 있다. 교수님께서 소개해 주신 곳은 크게 CALTECH, MIT, Oxford, UCL, Columbia 대학교, 뉴욕 대학교, TU 베를린, Max Planck Intelligent Systems, University of Zurich, 그리고 KAIST의 Center for Neuroscience-Inspired Artificial Intelligence 등이 있었다. 이들 중 한 곳에서 석사 과정을 마친 후, 박사 학위를 준비하는 것도 훌륭한 계획이라 생각된다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;three-fig-container&quot;&gt;
     &lt;figure&gt;
@@ -2031,22 +2124,22 @@ Considering that the importance of predictive coding and un/self-supervised lear
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/06.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        이상완 교수님의 뇌기반 인공지능 연구 소개.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/07.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        신경과학-인공지능 융합연구센터.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;이번 겨울학교에서는 신청자의 배경에 따라 팀을 배정받아 조별 과제를 수행하게 되었다. 백세범 교수님께서 발표해 주신 문제는 두뇌에 있는 뉴런 중 특정 각도에 반응하는 세포들에 대한 시계열 데이터를 바탕으로 각 뉴런의 특성(Orientation Map)을 분석하는 것이 핵심이었다. 우리 팀은 신경과학 배경의 3명, 수학 배경의 나, 그리고 최연소 참가자인 고등학생 1명으로 구성되었다. 신경과학 배경의 대학원생이 팀장을 맡아 문제를 깊이 있게 탐구하기 시작했다.&lt;/p&gt;
+
+&lt;p&gt;문제의 정답을 맞추기보다는 명확한 논리를 세우는 것이 중요하다고 생각했다. 고등학생도 충분히 해결할 수 있는 문제라고 확신했기 때문에, 데이터를 통해 누구도 부정할 수 없는 사실을 찾아내려고 노력했다. 그 결과, 다음과 같은 주요 가정을 세우게 되었다:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;(주장 1) 각 뉴런은 &lt;strong&gt;평균적으로&lt;/strong&gt; 자극에 대해 반응하는 고유의 특성을 지닌다.&lt;/li&gt;
+  &lt;li&gt;(주장 2) 각 뉴런의 자극에 대한 고유의 평균적 특성은 &lt;strong&gt;주기성&lt;/strong&gt;을 띤다.&lt;/li&gt;
+  &lt;li&gt;(주장 3) 각 뉴런의 각도 자극에 따른 &lt;strong&gt;평균적인 발화 패턴&lt;/strong&gt;은 (1)선호하는 각도 $\theta_0$와 (2)자극에 대한 민감성 $I_0$, (3)오차항 $\text{offset}$으로 설명할 수 있다.&lt;/li&gt;
+  &lt;li&gt;(주장 4) 각 뉴런이 발화할 때까지 기다려야 하는 시간의 분포는 &lt;strong&gt;지수 분포&lt;/strong&gt;로 설명할 수 있으며, 그에 따라 (1)고유한 𝜆 파라미터를 지닌다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;이 가정들을 바탕으로, 탐색적 데이터 분석을 통해 V1 뉴런들이 자극에 반응하는 고유한 특성을 발견했다. 극좌표계에서 세포들의 자극 각도에 따른 평균 발화량을 분석한 결과, π의 주기성을 띠는 패턴이 나타났다. 이 특성을 반영하여 발화 패턴의 curve fitting을 위해 샘플 데이터 구간 [50-350]s와 테스트 데이터 구간 [400-700]s에서 각 뉴런의 발화 특성을 주기가 π인 삼각함수로 가정했다(주장 3). 모델링 수식은 다음과 같다($i$는 cell index):&lt;/p&gt;
+
+\[N^i_{during\ 300s}(t)=I^i_0\cdot \cos(2(\theta-\theta^i_0))+\text{offset}^i\]
+
+&lt;hr /&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
@@ -2059,16 +2152,31 @@ Considering that the importance of predictive coding and un/self-supervised lear
     &lt;figure&gt;
       &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/09.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
       &lt;figcaption&gt;
-        조별과제 직전 날 보고서 작성을 위해 모인 모습.
+        조별과제 발표 직전 날 보고서 작성을 위해 모인 모습.
       &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;p&gt;우리 팀은 문제에 매우 흥미를 느꼈다. 우리는 각자 시간을 쏟아 문제 해결에 몰두했다. 특히 첫날 밤에는 자기 소개를 하며 아이스브레이킹 시간을 가졌고, 이후로도 매일 계획을 수정해가며 작업에 집중했다. 과제 발표를 앞두고는 오랜 시간을 할애해 준비했고, 이를 통해 Colab을 활용한 데이터 분석 가이드 페이지도 완성하게 되었다(&lt;strong&gt;&lt;a href=&quot;https://colab.research.google.com/drive/1s83DxcG1oilpJp6JVC2kzAjNdkRUXgm7?usp=sharing&quot;&gt;링크&lt;/a&gt;&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/08.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      조별과제의 발표는 내가 맡게 되었다.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;드디어 겨울학교의 마지막 날이 되었다. 우리는 떨리는 마음을 가다듬고, 준비했던 내용을 차분하게 발표했다. 기초적인 논리와 비판력을 바탕으로 후회 없이 발표를 마쳤다.&lt;/p&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
     &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/13.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/13.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
       &lt;figcaption&gt;
         운좋게도 조별활동에서 1등하여 상장을 수상했다!
       &lt;/figcaption&gt;
@@ -2082,11 +2190,13 @@ Considering that the importance of predictive coding and un/self-supervised lear
   &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;p&gt;놀랍게도, 교수님들께서 우리 팀의 발표와 조별과제 수행 내용을 가장 마음에 들어 하셨다! 우리는 운 좋게도 조별활동에서 1등을 차지하는 영예를 안았다. 좋은 성과를 내는 것보다는 팀원 한 명 한 명이 자신의 역할에 보람을 느끼고 잊지 못할 추억을 남기는 것을 목표로 삼았던 전략이 효과적이었던 것 같다. 좋은 성과는 올바른 방향으로 꾸준히 노력한 결과로 따라온 것이다. 우리 팀은 자부한다; 비록 1등하지 않았더라도 충분히 값진 시간이었을 것임을. 마지막으로, 이번 겨울학교의 최연소 참가자이자, 우리 팀에 활력을 불어넣어준 방희연 학생이 내게 써준 편지로 마무리한다:&lt;/p&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
     &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/11.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
-      유일한 고등학생 참가자이자, 우리 팀의 비타민 역할을 해 준 방희연 학생이 준 편지.
+      유일한 고등학생 참가자이자, 우리 팀의 비타민 역할을 해 준 방희연 학생이 준 편지.&lt;br /&gt;희연 학생 수고 많았어요^^
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
@@ -2111,7 +2221,7 @@ Considering that the importance of predictive coding and un/self-supervised lear
             </item>
         
             <item>
-                <title>Starting My Journey to Study Abroad...</title>
+                <title>Reflections on the Computational Neuroscience Winter School</title>
                 <description>&lt;style&gt;
   .centered-container {
       text-align: center;
@@ -2129,85 +2239,206 @@ Considering that the importance of predictive coding and un/self-supervised lear
       color: #555;
       margin-top: 5px;
   }
+
+  /* Newly added styles */
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* Space between images */
+      flex-wrap: wrap; /* Wrap images vertically on narrower screens */
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px); /* Set each figure to take up half the width */
+      box-sizing: border-box; /* Include padding and borders in the width */
+  }
+
+  /* Stack figures vertically on smaller screens */
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%; /* Full width for each figure on small screens */
+      }
+  }
+
+  /* Three figures layout */
+  .three-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+      flex-wrap: wrap;
+  }
+  .three-fig-container figure {
+      width: calc(33% - 20px);
+      box-sizing: border-box;
+  }
+
+  @media (max-width: 768px) {
+      .three-fig-container figure {
+          width: 100%;
+      }
+  }
 &lt;/style&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/poster.jpg&quot; style=&quot;width: 65%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        Poster for the 2024 Korean Computational Neuroscience Winter School.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/schedule.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        Winter school schedule.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Recently, I came across news that the Korean Computational Neuroscience Winter School was being held at KAIST, and I immediately decided to look into it. The Korean Society for Computational Neuroscience, founded by my mentor, Professor Seung-Hwan Kim of POSTECH, has long been running this program to spark interest in the brain and neuroscience among young students and the general public. Given the relevance of these lectures to cutting-edge AI development, I was fortunate to receive financial support from my company to attend the winter school.&lt;/p&gt;
+
+&lt;p&gt;The winter school spanned four days and was held in the auditorium of the Jeong Mun-Sul Building at KAIST. Renowned Korean neuroscientists and professors gathered to introduce their research to participants from various backgrounds. The theme of this year’s winter school was closely tied to artificial intelligence, with a focus on simulation and modeling-based research, though there were also talks on human and animal experiments.&lt;/p&gt;
+
+&lt;p&gt;Through Professor Sang-Hoon Lee’s lecture from Seoul National University’s Brain and Cognitive Sciences department, I was introduced to the relationships between neural, computational, and mental activities, along with research plans in these areas. Following this, Professor Jaeseung Jeong provided an in-depth look at the history of computational neuroscience, and Professor Sae-Byul Baek discussed the biological complexity of the brain from an evolutionary perspective. A particularly memorable part of Professor Baek’s lecture was his critique of the “Tabula Rasa” paradigm—a core assumption in AI and machine learning research. The debate of nature versus nurture remains as crucial as ever.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/06.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        Professor Sang-Wan Lee discussing brain-inspired AI research.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/07.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        Neuroscience-AI Fusion Research Center.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;On another note, I found Professor Sang-Wan Lee’s lecture on the intersection of AI and neuroscience particularly fascinating. I had previously requested a meeting with him, which he graciously accepted, though I recall feeling somewhat regretful afterward—perhaps due to asking less prepared questions or not having a meaningful exchange. Despite this, Professor Lee’s research direction remains highly aligned with my own interests. I would love to receive his mentorship, though it may be challenging due to the many students already in his lab.&lt;/p&gt;
+
+&lt;p&gt;Neuroscience and AI fusion research is concentrated in some of the world’s top research universities. Professor Lee highlighted institutions such as CALTECH, MIT, Oxford, UCL, Columbia University, New York University, TU Berlin, Max Planck Institute for Intelligent Systems, University of Zurich, and KAIST’s Center for Neuroscience-Inspired Artificial Intelligence. Completing a master’s program at one of these institutions before pursuing a PhD seems like a solid plan.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/02.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        Experiment using a cat, recording neural activity responding to specific angles.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/03.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        Orientation preferences measured from neural activity.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/04.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        Group activity: ordering time-series data from 10 neurons.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;During the winter school, participants were assigned to teams based on their backgrounds to work on group projects. The challenge presented by Professor Sae-Byul Baek involved analyzing the orientation preferences of neurons in the brain using time-series data. Our team consisted of three members with neuroscience backgrounds, myself with a mathematics background, and the youngest participant, a high school student. A graduate student with a neuroscience background led the team, diving deep into the problem.&lt;/p&gt;
+
+&lt;p&gt;Rather than focusing solely on finding the correct answer, we prioritized building a clear and logical argument. I was confident that even the high school student could contribute meaningfully, so we focused on identifying indisputable facts from the data. As a result, we established the following key assumptions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;(Assertion 1) Each neuron has a unique, &lt;strong&gt;average&lt;/strong&gt; response to stimuli.&lt;/li&gt;
+  &lt;li&gt;(Assertion 2) The unique average response of each neuron exhibits &lt;strong&gt;periodicity&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;(Assertion 3) The &lt;strong&gt;average firing pattern&lt;/strong&gt; of each neuron in response to angular stimuli can be explained by (1) a preferred angle $\theta_0$, (2) sensitivity to the stimulus $I_0$, and (3) an error term $\text{offset}$.&lt;/li&gt;
+  &lt;li&gt;(Assertion 4) The distribution of time intervals until a neuron fires follows an &lt;strong&gt;exponential distribution&lt;/strong&gt; with a unique 𝜆 parameter.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Using these assumptions, we conducted exploratory data analysis and discovered that V1 neurons exhibit unique responses to stimuli. Analysis in polar coordinates revealed a pattern with a periodicity of π in the neurons’ average firing rates in response to angular stimuli. Reflecting this characteristic, we assumed that the firing patterns followed a trigonometric function with a period of π for curve fitting in the sample data interval [50-350]s and the test data interval [400-700]s (Assertion 3). The modeling equation is as follows ($i$ represents the cell index):&lt;/p&gt;
+
+\[N^i_{during\ 300s}(t)=I^i_0\cdot \cos(2(\theta-\theta^i_0))+\text{offset}^i\]
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/10.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        Our team gathered on the first night to work on the group project.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/09.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        Gathering the night before the group project presentation to finalize our report.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Our team found the problem highly engaging and spent significant time working on it. On the first night, we introduced ourselves and had an ice-breaking session before diving into the project, revising our plans daily. Before the presentation, we dedicated many hours to preparation, leading to the completion of a Colab-based data analysis guide (&lt;strong&gt;&lt;a href=&quot;https://colab.research.google.com/drive/1s83DxcG1oilpJp6JVC2kzAjNdkRUXgm7?usp=sharing&quot;&gt;link&lt;/a&gt;&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-15-Starting Point/0.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/08.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
-      Gazing at the sky in deep thought on my way home from work.
+      I was chosen to present our group project.
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;h1 id=&quot;-what-skills-should-i-arm-myself-with-for-research&quot;&gt;💡 What skills should I arm myself with for research?&lt;/h1&gt;
+&lt;p&gt;Finally, the last day of the winter school arrived. We steadied our nerves and calmly presented the content we had prepared, concluding our presentation with a sense of pride in the logical and critical approach we had taken.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Strong analytical skills for philosophical/mathematical texts, capabilities in mathematical/physical modeling, and proficiency in computer programming.&lt;/li&gt;
-  &lt;li&gt;Extensive background knowledge in the history of philosophy, cybernetics, cognitive science, psychology, and neuroscience.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Ability to express insights through various networks and media.&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/13.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        We were fortunate to win first place in the group activities!
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/12.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        A photo taken after receiving our award.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;h1 id=&quot;-what-essential-criteria-must-the-lab-i-apply-to-meet&quot;&gt;💡 What essential criteria must the lab I apply to meet?&lt;/h1&gt;
+&lt;p&gt;To our surprise, the professors were most impressed with our team’s presentation and performance in the group project! We were honored to receive first place in the group activities. Our strategy of ensuring each team member felt fulfilled and created lasting memories seemed to pay off. Achieving good results was a byproduct of consistently working in the right direction. We proudly affirm that even if we hadn’t won first place, the experience would have been invaluable. I’ll end with a letter written to me by Heeyeon Bang, the youngest participant in the winter school and the vibrant spirit of our team:&lt;/p&gt;
 
-&lt;p&gt;⇒ My research focuses on &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;inference machines that survive under limited resources.&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Research on &lt;strong&gt;theoretical frameworks&lt;/strong&gt; like information theory, information geometry, and computational neuroscience.&lt;/li&gt;
-  &lt;li&gt;Research on &lt;strong&gt;physical computational devices&lt;/strong&gt; like information physics, neurophysiology, and cognitive computing.&lt;/li&gt;
-  &lt;li&gt;Consideration of &lt;strong&gt;psychological phenomena&lt;/strong&gt; such as psychology, consciousness, and affective phenomena.&lt;/li&gt;
-  &lt;li&gt;Consideration of &lt;strong&gt;biological complexity&lt;/strong&gt; like evolutionary psychology and computational biology.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Does the lab engage in discussions on the sustainability of technology and human life, and the future of humanity?&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;-what-essential-criteria-must-the-school-i-apply-to-meet&quot;&gt;💡 What essential criteria must the school I apply to meet?&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Does it have a variety of facilities for enjoying &lt;strong&gt;cultural arts&lt;/strong&gt; and exhibitions?&lt;/li&gt;
-  &lt;li&gt;Is there a social atmosphere where &lt;strong&gt;science, art, and technology&lt;/strong&gt; are harmoniously recognized?&lt;/li&gt;
-  &lt;li&gt;Can I communicate with students from &lt;strong&gt;various&lt;/strong&gt; fields like philosophy and art?&lt;/li&gt;
-  &lt;li&gt;Does it encourage students to engage in &lt;strong&gt;reading/books, and artistic activities&lt;/strong&gt;?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;going-further&quot;&gt;Going Further&lt;/h1&gt;
-
-&lt;h2 id=&quot;-key-quote&quot;&gt;💡 Key Quote&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Your beliefs become your thoughts, your thoughts become your words, your words become your actions, your actions become your habits, your habits become your values, your values become your destiny.” - Gandhi (Unknown)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;-research-introduction&quot;&gt;💡 Research Introduction&lt;/h2&gt;
-
-&lt;p&gt;My research aims to discover a unified formal framework that explains, predicts, and controls various mental phenomena to form a scientific understanding of the human and animal mind, brain, and behavior. In the process, it seeks new understandings of previously unexplained phenomena and contributes to implementing theoretically responsible human-level intelligent machines. To achieve this, I combine (1) historical knowledge of the cybernetics movement, philosophy of mind, and neurophilosophy, (2) mathematical data analysis based on probability theory and graph theory, (3) physical modeling using statistical mechanics and complexity physics, and (4) engineering applications using artificial intelligence and robotics.&lt;/p&gt;
-
-&lt;h2 id=&quot;-research-topics&quot;&gt;💡 &lt;strong&gt;Research Topics&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;I have identified several research topics that I aim to tackle throughout my life. I seek to understand and integrate the relationships between various principles proposed to explain the mind-brain-behavior, thereby unifying the differentiated dynamics and integrating the mechanics. To verify effectiveness, I propose a unified theory of phenomena that modern science has yet to explain or has only recently begun to explain. Moreover, I design safe and advanced machines at the human/animal level by applying key theories observed in humans and animals, contributing to society.&lt;/p&gt;
-
-&lt;p&gt;(1) Integrated Theoretical System of Mind-Body-Behavior: I analyze the relationships between numerous existing principles—such as the Free Energy Principle, Inductive Bias Principle, Approximation Principle, Data Compression Principle, Resource Limitation Principle, and Evolutionary Principle—and provide an integrated theoretical system of mind-body-behavior.&lt;/p&gt;
-
-&lt;p&gt;(1-1) Consciousness Phenomenon: I formally compare theories of consciousness such as Global Neuronal Workspace Theory, Integrated Information Theory, Predictive Coding Theory, Attention Schema Theory, and Affective-Based Theories to propose a formal theory. I further propose simulation models of the content of consciousness and machine devices that mimic its effects and principles.&lt;/p&gt;
-
-&lt;p&gt;(1-2) Hypnosis Phenomenon: I advance existing predictive coding theory and drug-based experiments, proposing a comprehensive formal theory on the effects and principles of human language. Additionally, I theoretically propose machine devices that simulate not only the content of consciousness but also its effects and principles.&lt;/p&gt;
-
-&lt;p&gt;(2) Theory-Based Algorithms and Machine Design: I propose human-level AI models and bio-inspired machines that are explainable and consider biological complexity, based on theories from neuroscience, psychology, and cognitive science.&lt;/p&gt;
-
-&lt;p&gt;(2-1) Optimization with Limited Resources: Based on theories explaining how humans and animals effectively focus attention and make decisions with limited resources (time, energy, etc.), I propose not only efficient AI models but also the theoretical background for efficient machine devices.&lt;/p&gt;
-
-&lt;p&gt;(2-2) Crossing the Boundaries of Symbols: Based on theories explaining how symbolic systems like mathematics and language can emerge from sub-symbolic neural networks, I propose efficient language models. Moreover, I suggest a new methodology for verifying and analyzing trained sub-symbolic neural networks, proposing a theoretical background for evaluating the stability of AI models.&lt;/p&gt;
-
-&lt;p&gt;(2-3) Biological Complexity and Useful Starting Points: Based on theories of how evolutionary psychological factors help perceive the world and survive, I challenge the Tabula Rasa paradigm that ignores biological complexity in learning from a blank slate and propose a theoretical framework for efficient AI models.&lt;/p&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/11.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      A letter from Heeyeon Bang, the only high school participant and the “vitamin” of our team.&lt;br /&gt;Thank you for all your hard work, Heeyeon! ^^
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 </description>
                 <pubDate>Thu, 01 Feb 2024 00:00:00 +0900</pubDate>
                 <link>http://localhost:4000/movement/CompNeuroSci-Winter-School-en/</link>
                 <guid isPermaLink="true">http://localhost:4000/movement/CompNeuroSci-Winter-School-en/</guid>
                 
-                <category>Reflection</category>
+                <category>extracurricular</category>
                 
-                <category>Study Abroad</category>
+                <category>neuroscience</category>
                 
-                <category>Looking Back</category>
+                <category>cognitive science</category>
+                
+                <category>winter school</category>
                 
                 
                 <category>Movement</category>
