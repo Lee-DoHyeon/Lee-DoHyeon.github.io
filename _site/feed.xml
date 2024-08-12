@@ -5,8 +5,8 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 11 Aug 2024 18:49:59 +0900</pubDate>
-        <lastBuildDate>Sun, 11 Aug 2024 18:49:59 +0900</lastBuildDate>
+        <pubDate>Mon, 12 Aug 2024 17:39:02 +0900</pubDate>
+        <lastBuildDate>Mon, 12 Aug 2024 17:39:02 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
@@ -1513,6 +1513,988 @@ Considering that the importance of predictive coding and un/self-supervised lear
                 
                 
                 <category>Motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>유학 준비를 시작하며...</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-15-Starting Point/0.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      퇴근하던 중 하늘을 바라보며 사색에 잠겼다.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;-나는-어떤-무기를-갖고-연구해야-하는가&quot;&gt;💡 나는 어떤 무기를 갖고 연구해야 하는가?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;강력한 철학적/수학적 텍스트 분석 능력, 수학적/물리학적 모델링 능력, 컴퓨터 프로그래밍 능력&lt;/li&gt;
+  &lt;li&gt;철학/사이버네틱스/인지과학/심리학/신경과학의 역사에 대한 많은 배경지식&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;다양한 네트워크와의 소통과 매체를 통해 깨달은 바를 표현&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;-내가-지원할-연구실이-만족해야-하는-필수-조건은-무엇인가&quot;&gt;💡 내가 지원할 연구실이 만족해야 하는 필수 조건은 무엇인가?&lt;/h1&gt;
+
+&lt;p&gt;⇒ 나의 연구는 &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;제한된 자원에서 생존하는 추론 기계&lt;/code&gt;&lt;/strong&gt; 에 대한 것.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;정보 이론, 정보 기하학, 계산 신경과학 등 &lt;strong&gt;이론적 프레임워크&lt;/strong&gt;에 대한 연구&lt;/li&gt;
+  &lt;li&gt;정보 물리학, 신경생리학, 인지 컴퓨팅 등 &lt;strong&gt;물리적 계산 장치&lt;/strong&gt;에 대한 연구&lt;/li&gt;
+  &lt;li&gt;심리학, 의식 현상, 정동 현상 등 &lt;strong&gt;심리 현상&lt;/strong&gt;에 대한 고려&lt;/li&gt;
+  &lt;li&gt;진화심리학, 계산 생물학 등 &lt;strong&gt;생물학적 복잡성&lt;/strong&gt;에 대한 고려&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;기술과 인간의 삶, 인류 미래와 &lt;strong&gt;지속 가능성&lt;/strong&gt;에 대한 이야기를 수행하고 있는가?&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;-내가-지원할-학교가-만족해야-하는-필수-조건은-무엇인가&quot;&gt;💡 내가 지원할 학교가 만족해야 하는 필수 조건은 무엇인가?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;주변에 다양한 전시 및 &lt;strong&gt;문화 예술&lt;/strong&gt;을 향유할 수 있는 기반 시설이 존재하는가?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;과학과 예술, 기술&lt;/strong&gt;이 조화롭게 인정받는 사회적 분위기가 존재하는가?&lt;/li&gt;
+  &lt;li&gt;철학/예술 등 &lt;strong&gt;다양&lt;/strong&gt;한 분야의 학생들과 의사소통할 수 있는가?&lt;/li&gt;
+  &lt;li&gt;학생들이 &lt;strong&gt;책/소설, 예술 활동&lt;/strong&gt;하는 것을 장려하는가?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;더-나아가서&quot;&gt;더 나아가서&lt;/h1&gt;
+
+&lt;h2 id=&quot;-핵심-문구&quot;&gt;💡 핵심 문구&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“믿음은 생각이 되고, 생각은 말이 되며, 말은 행동이 되고, 행동은 습관이된다. 습관은 너의 성격과 가치를 결정하고 그것은 결국 너의 운명이 된다.” - 간디(미상)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;-연구-소개&quot;&gt;💡 연구 소개&lt;/h2&gt;
+
+&lt;p&gt;나의 연구는 인간과 동물의 마음, 두뇌, 행동에 대한 과학을 형성하기 위해, 다양한 정신적 현상을 설명하고 예측하며 제어하는 통합적인 형식적 프레임워크를 발견하는 것을 목표로 삼는다. 그 과정에서 설명하지 못했던 현상에 대한 새로운 이해를 도모하고, 이론 기반의 책임질 수 있는 인간 수준의 지적 기계를 구현하는 데에 기여한다. 이를 위해, 나는 (1)사이버네틱스 운동, 심리철학, 신경철학의 역사적 배경지식, (2)확률론 및 그래프 이론 기반의 수리과학적 데이터 분석, (3)통계 역학과 복잡계 물리학을 활용한 물리적 모델링, (4)인공지능과 로보틱스를 활용한 공학적 어플리케이션을 조합하여 사용한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;-연구-주제&quot;&gt;💡 연구 주제&lt;/h2&gt;
+
+&lt;p&gt;나는 일생을 거쳐 풀고자 하는 여러 연구적 주제들을 포착해왔다. 기존에 제안된 마음-두뇌-행동을 설명하고자 하는 다양한 원리Principles들의 관계를 파악하고 환원하여, 그에 따라 분화된 동학Dynamics를 통일하고 역학Mechanics를 통합한다. 효과성을 검증하기 위해, 현대 과학이 설명해 내지 못했거나 비교적 최근에 설명되기 시작한 현상들에 대한 통합적인 이론을 제안한다. 뿐만 아니라, 인간과 동물에게서 포착된 주요 이론을 적용하여 인간/동물 수준의 안전하고 탁월한 기계 장치를 고안하여 사회에 이바지 한다.&lt;/p&gt;
+
+&lt;p&gt;(1) 몸-마음-행동의 통합적인 이론 체계: 자유 에너지 원리, 자유 에너지 원리, 귀납 편향 원리, 근사 원리, 데이터 압축 원리, 자원 한정 원리, 진화 원리 등 기존에 제안된 수많은 원리들의 관계를 분석하고 몸-마음-행동에 대한 통합적인 이론체계를 제공한다.&lt;/p&gt;
+
+&lt;p&gt;(1-1) 의식 현상: 광역신경공간 이론, 통합정보 이론, 예측코딩 이론, 주의집중 스키마 이론, 정동 기반 이론 등 의식에 대한 이론을 형식적으로 비교하여 형식적인 이론을 제안한다. 더 나아가 의식의 내용에 대한 시뮬레이션 모델 뿐만 아니라, 그것의 효과와 원리를 모사한 기계 장치를 구현한다.&lt;/p&gt;
+
+&lt;p&gt;(1-2) 최면 현상: 기존의 예측 코딩 이론 및 약물을 활용한 실험을 발전시키고 인간 언어의 효과와 원리에 대한 포괄한 형식적인 이론을 제안한다. 더 나아가 의식의 내용에 대한 시뮬레이션 모델 뿐만 아니라, 그것의 효과와 원리를 모사한 기계 장치를 이론적으로 제안한다.&lt;/p&gt;
+
+&lt;p&gt;(2) 이론 기반의 알고리즘 및 기계 장치 제안: 신경과학, 심리학, 인지과학 등의 이론들을 바탕으로 설명 가능하고, 생물학적 복잡성을 고려한 인간 수준의 인공지능 모델과 생물학에서 영감받은 기계 장치를 제안한다.&lt;/p&gt;
+
+&lt;p&gt;(2-1) 제한된 자원에서의 최적화: 어떻게 제한된 자원(시간, 에너지 등)에서 인간을 비롯한 동물들이 효과적으로 주의집중하고 의사결정하는지에 대한 이론을 기반으로, 효율적인 인공지능 모델을 모사하는 것뿐만 아니라, 효율적인 기계 장치에 대한 이론적 배경을 제안한다.&lt;/p&gt;
+
+&lt;p&gt;(2-2) 기호의 경계를 넘나들며: 어떻게 하위 기호적인 신경망에서 수학과 언어와 같은 기호적 체계가 발생할 수 있는지에 대한 이론을 기반으로, 효율적인 언어 모델을 모사한다. 더 나아가, 학습된 하위 기호적 신경망을 검증하고 분석하는 새로운 방법론을 발견하여 인공지능 모델의 안정성을 평가하는 이론적 배경을 제안한다.&lt;/p&gt;
+
+&lt;p&gt;(2-3) 생물학적 복잡성과 유용한 초기점: 어떻게 진화심리학적인 요인들이 세상을 인식하고 살아가는 데 도움을 주는지에 대한 이론을 기반으로, Tabula Rasa; 생물학적 복잡성에 대한 고려없이 학습을 통해 백지 상태에서 학습하는 패러다임에 도전하고, 효율적인 인공지능 모델에 대한 이론적 틀을 제안한다.&lt;/p&gt;
+</description>
+                <pubDate>Sat, 15 Jun 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/Starting-Point-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Starting-Point-kr/</guid>
+                
+                <category>성찰</category>
+                
+                <category>유학</category>
+                
+                <category>돌아보기</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
+        
+            <item>
+                <title>Starting My Journey to Study Abroad...</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-15-Starting Point/0.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Gazing at the sky in deep thought on my way home from work.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;-what-skills-should-i-arm-myself-with-for-research&quot;&gt;💡 What skills should I arm myself with for research?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Strong analytical skills for philosophical/mathematical texts, capabilities in mathematical/physical modeling, and proficiency in computer programming.&lt;/li&gt;
+  &lt;li&gt;Extensive background knowledge in the history of philosophy, cybernetics, cognitive science, psychology, and neuroscience.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Ability to express insights through various networks and media.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;-what-essential-criteria-must-the-lab-i-apply-to-meet&quot;&gt;💡 What essential criteria must the lab I apply to meet?&lt;/h1&gt;
+
+&lt;p&gt;⇒ My research focuses on &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;inference machines that survive under limited resources.&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Research on &lt;strong&gt;theoretical frameworks&lt;/strong&gt; like information theory, information geometry, and computational neuroscience.&lt;/li&gt;
+  &lt;li&gt;Research on &lt;strong&gt;physical computational devices&lt;/strong&gt; like information physics, neurophysiology, and cognitive computing.&lt;/li&gt;
+  &lt;li&gt;Consideration of &lt;strong&gt;psychological phenomena&lt;/strong&gt; such as psychology, consciousness, and affective phenomena.&lt;/li&gt;
+  &lt;li&gt;Consideration of &lt;strong&gt;biological complexity&lt;/strong&gt; like evolutionary psychology and computational biology.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Does the lab engage in discussions on the sustainability of technology and human life, and the future of humanity?&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;-what-essential-criteria-must-the-school-i-apply-to-meet&quot;&gt;💡 What essential criteria must the school I apply to meet?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Does it have a variety of facilities for enjoying &lt;strong&gt;cultural arts&lt;/strong&gt; and exhibitions?&lt;/li&gt;
+  &lt;li&gt;Is there a social atmosphere where &lt;strong&gt;science, art, and technology&lt;/strong&gt; are harmoniously recognized?&lt;/li&gt;
+  &lt;li&gt;Can I communicate with students from &lt;strong&gt;various&lt;/strong&gt; fields like philosophy and art?&lt;/li&gt;
+  &lt;li&gt;Does it encourage students to engage in &lt;strong&gt;reading/books, and artistic activities&lt;/strong&gt;?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;going-further&quot;&gt;Going Further&lt;/h1&gt;
+
+&lt;h2 id=&quot;-key-quote&quot;&gt;💡 Key Quote&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Your beliefs become your thoughts, your thoughts become your words, your words become your actions, your actions become your habits, your habits become your values, your values become your destiny.” - Gandhi (Unknown)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;-research-introduction&quot;&gt;💡 Research Introduction&lt;/h2&gt;
+
+&lt;p&gt;My research aims to discover a unified formal framework that explains, predicts, and controls various mental phenomena to form a scientific understanding of the human and animal mind, brain, and behavior. In the process, it seeks new understandings of previously unexplained phenomena and contributes to implementing theoretically responsible human-level intelligent machines. To achieve this, I combine (1) historical knowledge of the cybernetics movement, philosophy of mind, and neurophilosophy, (2) mathematical data analysis based on probability theory and graph theory, (3) physical modeling using statistical mechanics and complexity physics, and (4) engineering applications using artificial intelligence and robotics.&lt;/p&gt;
+
+&lt;h2 id=&quot;-research-topics&quot;&gt;💡 &lt;strong&gt;Research Topics&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;I have identified several research topics that I aim to tackle throughout my life. I seek to understand and integrate the relationships between various principles proposed to explain the mind-brain-behavior, thereby unifying the differentiated dynamics and integrating the mechanics. To verify effectiveness, I propose a unified theory of phenomena that modern science has yet to explain or has only recently begun to explain. Moreover, I design safe and advanced machines at the human/animal level by applying key theories observed in humans and animals, contributing to society.&lt;/p&gt;
+
+&lt;p&gt;(1) Integrated Theoretical System of Mind-Body-Behavior: I analyze the relationships between numerous existing principles—such as the Free Energy Principle, Inductive Bias Principle, Approximation Principle, Data Compression Principle, Resource Limitation Principle, and Evolutionary Principle—and provide an integrated theoretical system of mind-body-behavior.&lt;/p&gt;
+
+&lt;p&gt;(1-1) Consciousness Phenomenon: I formally compare theories of consciousness such as Global Neuronal Workspace Theory, Integrated Information Theory, Predictive Coding Theory, Attention Schema Theory, and Affective-Based Theories to propose a formal theory. I further propose simulation models of the content of consciousness and machine devices that mimic its effects and principles.&lt;/p&gt;
+
+&lt;p&gt;(1-2) Hypnosis Phenomenon: I advance existing predictive coding theory and drug-based experiments, proposing a comprehensive formal theory on the effects and principles of human language. Additionally, I theoretically propose machine devices that simulate not only the content of consciousness but also its effects and principles.&lt;/p&gt;
+
+&lt;p&gt;(2) Theory-Based Algorithms and Machine Design: I propose human-level AI models and bio-inspired machines that are explainable and consider biological complexity, based on theories from neuroscience, psychology, and cognitive science.&lt;/p&gt;
+
+&lt;p&gt;(2-1) Optimization with Limited Resources: Based on theories explaining how humans and animals effectively focus attention and make decisions with limited resources (time, energy, etc.), I propose not only efficient AI models but also the theoretical background for efficient machine devices.&lt;/p&gt;
+
+&lt;p&gt;(2-2) Crossing the Boundaries of Symbols: Based on theories explaining how symbolic systems like mathematics and language can emerge from sub-symbolic neural networks, I propose efficient language models. Moreover, I suggest a new methodology for verifying and analyzing trained sub-symbolic neural networks, proposing a theoretical background for evaluating the stability of AI models.&lt;/p&gt;
+
+&lt;p&gt;(2-3) Biological Complexity and Useful Starting Points: Based on theories of how evolutionary psychological factors help perceive the world and survive, I challenge the Tabula Rasa paradigm that ignores biological complexity in learning from a blank slate and propose a theoretical framework for efficient AI models.&lt;/p&gt;
+</description>
+                <pubDate>Sat, 15 Jun 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/Starting-Point-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Starting-Point-en/</guid>
+                
+                <category>Reflection</category>
+                
+                <category>Study Abroad</category>
+                
+                <category>Looking Back</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
+        
+            <item>
+                <title>유학 준비를 시작하며...</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-15-Starting Point/0.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      퇴근하던 중 하늘을 바라보며 사색에 잠겼다.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+                <pubDate>Sat, 11 May 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/movement/You've-got-a-lot-on-your-mind-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/movement/You've-got-a-lot-on-your-mind-kr/</guid>
+                
+                <category>성찰</category>
+                
+                <category>유학</category>
+                
+                <category>돌아보기</category>
+                
+                
+                <category>Movement</category>
+                
+            </item>
+        
+            <item>
+                <title>Starting My Journey to Study Abroad...</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-15-Starting Point/0.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Gazing at the sky in deep thought on my way home from work.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;-what-skills-should-i-arm-myself-with-for-research&quot;&gt;💡 What skills should I arm myself with for research?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Strong analytical skills for philosophical/mathematical texts, capabilities in mathematical/physical modeling, and proficiency in computer programming.&lt;/li&gt;
+  &lt;li&gt;Extensive background knowledge in the history of philosophy, cybernetics, cognitive science, psychology, and neuroscience.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Ability to express insights through various networks and media.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;-what-essential-criteria-must-the-lab-i-apply-to-meet&quot;&gt;💡 What essential criteria must the lab I apply to meet?&lt;/h1&gt;
+
+&lt;p&gt;⇒ My research focuses on &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;inference machines that survive under limited resources.&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Research on &lt;strong&gt;theoretical frameworks&lt;/strong&gt; like information theory, information geometry, and computational neuroscience.&lt;/li&gt;
+  &lt;li&gt;Research on &lt;strong&gt;physical computational devices&lt;/strong&gt; like information physics, neurophysiology, and cognitive computing.&lt;/li&gt;
+  &lt;li&gt;Consideration of &lt;strong&gt;psychological phenomena&lt;/strong&gt; such as psychology, consciousness, and affective phenomena.&lt;/li&gt;
+  &lt;li&gt;Consideration of &lt;strong&gt;biological complexity&lt;/strong&gt; like evolutionary psychology and computational biology.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Does the lab engage in discussions on the sustainability of technology and human life, and the future of humanity?&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;-what-essential-criteria-must-the-school-i-apply-to-meet&quot;&gt;💡 What essential criteria must the school I apply to meet?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Does it have a variety of facilities for enjoying &lt;strong&gt;cultural arts&lt;/strong&gt; and exhibitions?&lt;/li&gt;
+  &lt;li&gt;Is there a social atmosphere where &lt;strong&gt;science, art, and technology&lt;/strong&gt; are harmoniously recognized?&lt;/li&gt;
+  &lt;li&gt;Can I communicate with students from &lt;strong&gt;various&lt;/strong&gt; fields like philosophy and art?&lt;/li&gt;
+  &lt;li&gt;Does it encourage students to engage in &lt;strong&gt;reading/books, and artistic activities&lt;/strong&gt;?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;going-further&quot;&gt;Going Further&lt;/h1&gt;
+
+&lt;h2 id=&quot;-key-quote&quot;&gt;💡 Key Quote&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Your beliefs become your thoughts, your thoughts become your words, your words become your actions, your actions become your habits, your habits become your values, your values become your destiny.” - Gandhi (Unknown)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;-research-introduction&quot;&gt;💡 Research Introduction&lt;/h2&gt;
+
+&lt;p&gt;My research aims to discover a unified formal framework that explains, predicts, and controls various mental phenomena to form a scientific understanding of the human and animal mind, brain, and behavior. In the process, it seeks new understandings of previously unexplained phenomena and contributes to implementing theoretically responsible human-level intelligent machines. To achieve this, I combine (1) historical knowledge of the cybernetics movement, philosophy of mind, and neurophilosophy, (2) mathematical data analysis based on probability theory and graph theory, (3) physical modeling using statistical mechanics and complexity physics, and (4) engineering applications using artificial intelligence and robotics.&lt;/p&gt;
+
+&lt;h2 id=&quot;-research-topics&quot;&gt;💡 &lt;strong&gt;Research Topics&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;I have identified several research topics that I aim to tackle throughout my life. I seek to understand and integrate the relationships between various principles proposed to explain the mind-brain-behavior, thereby unifying the differentiated dynamics and integrating the mechanics. To verify effectiveness, I propose a unified theory of phenomena that modern science has yet to explain or has only recently begun to explain. Moreover, I design safe and advanced machines at the human/animal level by applying key theories observed in humans and animals, contributing to society.&lt;/p&gt;
+
+&lt;p&gt;(1) Integrated Theoretical System of Mind-Body-Behavior: I analyze the relationships between numerous existing principles—such as the Free Energy Principle, Inductive Bias Principle, Approximation Principle, Data Compression Principle, Resource Limitation Principle, and Evolutionary Principle—and provide an integrated theoretical system of mind-body-behavior.&lt;/p&gt;
+
+&lt;p&gt;(1-1) Consciousness Phenomenon: I formally compare theories of consciousness such as Global Neuronal Workspace Theory, Integrated Information Theory, Predictive Coding Theory, Attention Schema Theory, and Affective-Based Theories to propose a formal theory. I further propose simulation models of the content of consciousness and machine devices that mimic its effects and principles.&lt;/p&gt;
+
+&lt;p&gt;(1-2) Hypnosis Phenomenon: I advance existing predictive coding theory and drug-based experiments, proposing a comprehensive formal theory on the effects and principles of human language. Additionally, I theoretically propose machine devices that simulate not only the content of consciousness but also its effects and principles.&lt;/p&gt;
+
+&lt;p&gt;(2) Theory-Based Algorithms and Machine Design: I propose human-level AI models and bio-inspired machines that are explainable and consider biological complexity, based on theories from neuroscience, psychology, and cognitive science.&lt;/p&gt;
+
+&lt;p&gt;(2-1) Optimization with Limited Resources: Based on theories explaining how humans and animals effectively focus attention and make decisions with limited resources (time, energy, etc.), I propose not only efficient AI models but also the theoretical background for efficient machine devices.&lt;/p&gt;
+
+&lt;p&gt;(2-2) Crossing the Boundaries of Symbols: Based on theories explaining how symbolic systems like mathematics and language can emerge from sub-symbolic neural networks, I propose efficient language models. Moreover, I suggest a new methodology for verifying and analyzing trained sub-symbolic neural networks, proposing a theoretical background for evaluating the stability of AI models.&lt;/p&gt;
+
+&lt;p&gt;(2-3) Biological Complexity and Useful Starting Points: Based on theories of how evolutionary psychological factors help perceive the world and survive, I challenge the Tabula Rasa paradigm that ignores biological complexity in learning from a blank slate and propose a theoretical framework for efficient AI models.&lt;/p&gt;
+</description>
+                <pubDate>Sat, 11 May 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/You've-got-a-lot-on-your-mind-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/You've-got-a-lot-on-your-mind-en/</guid>
+                
+                <category>Reflection</category>
+                
+                <category>Study Abroad</category>
+                
+                <category>Looking Back</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
+        
+            <item>
+                <title>유학 준비를 시작하며...</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-15-Starting Point/0.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      퇴근하던 중 하늘을 바라보며 사색에 잠겼다.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+                <pubDate>Thu, 01 Feb 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/movement/CompNeuroSci-Winter-School-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/movement/CompNeuroSci-Winter-School-kr/</guid>
+                
+                <category>성찰</category>
+                
+                <category>유학</category>
+                
+                <category>돌아보기</category>
+                
+                
+                <category>Movement</category>
+                
+            </item>
+        
+            <item>
+                <title>Starting My Journey to Study Abroad...</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-15-Starting Point/0.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Gazing at the sky in deep thought on my way home from work.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;-what-skills-should-i-arm-myself-with-for-research&quot;&gt;💡 What skills should I arm myself with for research?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Strong analytical skills for philosophical/mathematical texts, capabilities in mathematical/physical modeling, and proficiency in computer programming.&lt;/li&gt;
+  &lt;li&gt;Extensive background knowledge in the history of philosophy, cybernetics, cognitive science, psychology, and neuroscience.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Ability to express insights through various networks and media.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;-what-essential-criteria-must-the-lab-i-apply-to-meet&quot;&gt;💡 What essential criteria must the lab I apply to meet?&lt;/h1&gt;
+
+&lt;p&gt;⇒ My research focuses on &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;inference machines that survive under limited resources.&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Research on &lt;strong&gt;theoretical frameworks&lt;/strong&gt; like information theory, information geometry, and computational neuroscience.&lt;/li&gt;
+  &lt;li&gt;Research on &lt;strong&gt;physical computational devices&lt;/strong&gt; like information physics, neurophysiology, and cognitive computing.&lt;/li&gt;
+  &lt;li&gt;Consideration of &lt;strong&gt;psychological phenomena&lt;/strong&gt; such as psychology, consciousness, and affective phenomena.&lt;/li&gt;
+  &lt;li&gt;Consideration of &lt;strong&gt;biological complexity&lt;/strong&gt; like evolutionary psychology and computational biology.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Does the lab engage in discussions on the sustainability of technology and human life, and the future of humanity?&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;-what-essential-criteria-must-the-school-i-apply-to-meet&quot;&gt;💡 What essential criteria must the school I apply to meet?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Does it have a variety of facilities for enjoying &lt;strong&gt;cultural arts&lt;/strong&gt; and exhibitions?&lt;/li&gt;
+  &lt;li&gt;Is there a social atmosphere where &lt;strong&gt;science, art, and technology&lt;/strong&gt; are harmoniously recognized?&lt;/li&gt;
+  &lt;li&gt;Can I communicate with students from &lt;strong&gt;various&lt;/strong&gt; fields like philosophy and art?&lt;/li&gt;
+  &lt;li&gt;Does it encourage students to engage in &lt;strong&gt;reading/books, and artistic activities&lt;/strong&gt;?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;going-further&quot;&gt;Going Further&lt;/h1&gt;
+
+&lt;h2 id=&quot;-key-quote&quot;&gt;💡 Key Quote&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Your beliefs become your thoughts, your thoughts become your words, your words become your actions, your actions become your habits, your habits become your values, your values become your destiny.” - Gandhi (Unknown)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;-research-introduction&quot;&gt;💡 Research Introduction&lt;/h2&gt;
+
+&lt;p&gt;My research aims to discover a unified formal framework that explains, predicts, and controls various mental phenomena to form a scientific understanding of the human and animal mind, brain, and behavior. In the process, it seeks new understandings of previously unexplained phenomena and contributes to implementing theoretically responsible human-level intelligent machines. To achieve this, I combine (1) historical knowledge of the cybernetics movement, philosophy of mind, and neurophilosophy, (2) mathematical data analysis based on probability theory and graph theory, (3) physical modeling using statistical mechanics and complexity physics, and (4) engineering applications using artificial intelligence and robotics.&lt;/p&gt;
+
+&lt;h2 id=&quot;-research-topics&quot;&gt;💡 &lt;strong&gt;Research Topics&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;I have identified several research topics that I aim to tackle throughout my life. I seek to understand and integrate the relationships between various principles proposed to explain the mind-brain-behavior, thereby unifying the differentiated dynamics and integrating the mechanics. To verify effectiveness, I propose a unified theory of phenomena that modern science has yet to explain or has only recently begun to explain. Moreover, I design safe and advanced machines at the human/animal level by applying key theories observed in humans and animals, contributing to society.&lt;/p&gt;
+
+&lt;p&gt;(1) Integrated Theoretical System of Mind-Body-Behavior: I analyze the relationships between numerous existing principles—such as the Free Energy Principle, Inductive Bias Principle, Approximation Principle, Data Compression Principle, Resource Limitation Principle, and Evolutionary Principle—and provide an integrated theoretical system of mind-body-behavior.&lt;/p&gt;
+
+&lt;p&gt;(1-1) Consciousness Phenomenon: I formally compare theories of consciousness such as Global Neuronal Workspace Theory, Integrated Information Theory, Predictive Coding Theory, Attention Schema Theory, and Affective-Based Theories to propose a formal theory. I further propose simulation models of the content of consciousness and machine devices that mimic its effects and principles.&lt;/p&gt;
+
+&lt;p&gt;(1-2) Hypnosis Phenomenon: I advance existing predictive coding theory and drug-based experiments, proposing a comprehensive formal theory on the effects and principles of human language. Additionally, I theoretically propose machine devices that simulate not only the content of consciousness but also its effects and principles.&lt;/p&gt;
+
+&lt;p&gt;(2) Theory-Based Algorithms and Machine Design: I propose human-level AI models and bio-inspired machines that are explainable and consider biological complexity, based on theories from neuroscience, psychology, and cognitive science.&lt;/p&gt;
+
+&lt;p&gt;(2-1) Optimization with Limited Resources: Based on theories explaining how humans and animals effectively focus attention and make decisions with limited resources (time, energy, etc.), I propose not only efficient AI models but also the theoretical background for efficient machine devices.&lt;/p&gt;
+
+&lt;p&gt;(2-2) Crossing the Boundaries of Symbols: Based on theories explaining how symbolic systems like mathematics and language can emerge from sub-symbolic neural networks, I propose efficient language models. Moreover, I suggest a new methodology for verifying and analyzing trained sub-symbolic neural networks, proposing a theoretical background for evaluating the stability of AI models.&lt;/p&gt;
+
+&lt;p&gt;(2-3) Biological Complexity and Useful Starting Points: Based on theories of how evolutionary psychological factors help perceive the world and survive, I challenge the Tabula Rasa paradigm that ignores biological complexity in learning from a blank slate and propose a theoretical framework for efficient AI models.&lt;/p&gt;
+</description>
+                <pubDate>Thu, 01 Feb 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/CompNeuroSci-Winter-School-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/CompNeuroSci-Winter-School-en/</guid>
+                
+                <category>Reflection</category>
+                
+                <category>Study Abroad</category>
+                
+                <category>Looking Back</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
+        
+            <item>
+                <title>한국의식과학학술회 X 한국뇌신경철학연구회 심포지엄</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+
+  /* 새로 추가된 스타일 */
+  .ㅅtwo-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+&lt;/style&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/Symposium.png&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      한국의식과학학술회 제 2회 오프라인 심포지엄 포스터.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;2024년, 1월 6일 내가 부회장으로 운영하고 있는 &lt;a href=&quot;https://kacs.me/&quot;&gt;한국의식과학학술회(Korean Associations for Consciousness Sciences)&lt;/a&gt;에서 두번째 오프라인 모임을 진행했다. &lt;a href=&quot;https://www.kfas.or.kr/&quot;&gt;한국고등교육재단(KFAS)&lt;/a&gt;에서 강남의 한 사무실을 제공해주었고, 덕분에 따뜻한 곳에서 심포지엄을 성황리에 끝낼 수 있었다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/0.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        세미나 시작 전 사진 1.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        세미나 시작 전 사진 2.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;이번 오프라인 모임은 유독 특별하다. 한국뇌신경철학연구회(Korean Society for NeuroPhilosophy)에서 큰 관심을 갖고 참석해주셨기 때문이다. 학부생 및 대학원생으로 구성된 한국의식과학학술회와 달리, 한국뇌신경철학연구회는 철학-정신의학-신경의학계의 유명 교수님과 국제 변호사 등의 전문가로 구성되어있다. 과학과 철학이 만나는 귀중한 시간이었다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/2.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      카이스트의 박형동 교수님의 강의.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;한국과학기술원(KAIST)의 뇌인지과학과에 새로 부임하신 박형동 교수님께서는 두뇌와 신체의 상호작용을 바탕으로 의식에 대해 과학적으로 접근하고 계신다. 교수님께서 심장박동과 관련된 두뇌의 활동을 소개해주셨고, 그와 관련된 자신의 연구를 소개해주셨다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/3.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      나의 발표.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;나도 발표를 진행하기로 부탁받았다. 연구소에서 하고 있는 업무와는 상관없이, 내가 학부 때부터 유지해온 관심사와 탐구, 한국의식과학학술회에서 주도하던 스터디 결과 및 성과에 대해 공유했다. “인공지능이 의식을 지닐까?”라는 주제로 발표자료를 준비하였고, 의식있는 로봇에 대한 가능성과 미래의 청사진을 그려보았다. 많은 분들께서 긍정적인 피드백을 주셔서 정말 뿌듯했다. 발표 자료는 &lt;a href=&quot;https://drive.google.com/file/d/1frsBtLaWxgzp_V4lx0aq6eoky8YJbt2A/view?usp=sharing&quot;&gt;&lt;strong&gt;여기&lt;/strong&gt;&lt;/a&gt;를 눌러서 확인할 수 있다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/4.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      나형석 석사 과정생의 발표.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;나형석 석사과정 학생의 발표도 특히 기억에 남는다. 정신의학과 및 신경외과 교수님이 계셨는데, 신경의학과 정신의학이라는 학문 분야가 과학적으로 구성되어 있는지에 대한 비판적 질문을 던졌다. 실제로 과거 정신의학의 주요 역사적 이슈를 소개하며, 정신의학의 미래와 발전 가능성에 대해 논의할 수 있는 좋은 시간이었다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/5.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        단체 사진 1, 김근태 부회장 님이 나왔다.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/6.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        단체 사진 2, 내가 나왔다(앞 열의 가장 오른쪽).
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;연구소에서 업무를 하다 보면, 나의 궁극적 꿈에서 가끔 멀어지거나 갑작스런 고독을 느끼곤 한다. 너무나도 행복한 시간이었고, 나의 소중한 커뮤니티다. 앞으로도 이런 활동이 유지되고 활성화되어 좋아하는 목표를 함께 이루길 고대한다.&lt;/p&gt;
+
+</description>
+                <pubDate>Sat, 06 Jan 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/movement/KACS-x-KSCN-Meeting-copy-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/movement/KACS-x-KSCN-Meeting-copy-kr/</guid>
+                
+                <category>세미나</category>
+                
+                <category>철학</category>
+                
+                <category>과학</category>
+                
+                <category>발표</category>
+                
+                
+                <category>Movement</category>
+                
+            </item>
+        
+            <item>
+                <title>KACS x KSNP Symposium</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+      flex-wrap: wrap;
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px);
+      box-sizing: border-box;
+  }
+
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%;
+      }
+  }
+&lt;/style&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/Symposium.png&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Poster for the 2nd offline symposium of the Korean Association for Consciousness Sciences.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;On January 6th, 2024, I had the privilege of organizing the second offline meeting of the &lt;a href=&quot;https://kacs.me/&quot;&gt;Korean Association for Consciousness Sciences (KACS)&lt;/a&gt;, where I serve as vice president. We were fortunate to host the symposium at a cozy office space provided by the &lt;a href=&quot;https://www.kfas.or.kr/&quot;&gt;Korean Foundation for Advanced Studies (KFAS)&lt;/a&gt; in Gangnam, allowing us to conduct the event successfully.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/0.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        Pre-seminar photo 1.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        Pre-seminar photo 2.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This offline meeting was particularly special because it garnered significant interest from the Korean Society for NeuroPhilosophy (KSNP). Unlike KACS, which is primarily composed of undergraduate and graduate students, KSNP includes renowned professors in philosophy, psychiatry, and neuroscience, as well as international lawyers and other professionals. It was a rare and valuable opportunity where science and philosophy truly converged.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/2.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Lecture by Professor Park Hyung-Dong from KAIST.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Professor Park Hyung-Dong, who recently joined the Department of Brain and Cognitive Sciences at KAIST, presented a scientific approach to consciousness based on the interaction between the brain and body. He introduced us to his research related to brain activity connected to heartbeats.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/3.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      My presentation.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I was also asked to give a presentation. Although unrelated to my work at the research institute, I shared my long-standing interests from my undergraduate studies, the studies I led at KACS, and the results we achieved. My presentation, titled “Can AI Have Consciousness?” explored the possibility of conscious robots and painted a picture of the future. I was thrilled to receive such positive feedback from the attendees. You can check out the presentation materials by clicking &lt;a href=&quot;https://drive.google.com/file/d/1frsBtLaWxgzp_V4lx0aq6eoky8YJbt2A/view?usp=sharing&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/4.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Presentation by master’s student Na Hyeong-Seok.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The presentation by master’s student Na Hyeong-Seok was particularly memorable. Professors in psychiatry and neurosurgery posed critical questions about whether the fields of neuroscience and psychiatry are scientifically structured. It was an excellent opportunity to discuss the historical issues in psychiatry and its future and potential for development.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/5.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        Group photo 1, featuring Vice President Kim Geun-Tae.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/6.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        Group photo 2, with me on the far right in the front row.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Working at the research institute sometimes makes me feel distant from my ultimate dreams or experience sudden loneliness. This symposium was a profoundly joyful time and reaffirmed the value of my cherished community. I look forward to continuing and expanding these activities, hoping to achieve our shared goals together.&lt;/p&gt;
+</description>
+                <pubDate>Sat, 06 Jan 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/movement/KACS-x-KSCN-Meeting-copy-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/movement/KACS-x-KSCN-Meeting-copy-en/</guid>
+                
+                <category>Seminar</category>
+                
+                <category>Philosophy</category>
+                
+                <category>Science</category>
+                
+                <category>Presentation</category>
+                
+                
+                <category>Movement</category>
+                
+            </item>
+        
+            <item>
+                <title>홍석준 교수님과의 면담</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 사이의 간격을 조정할 수 있습니다 */
+  }
+  figure {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+      width: 30%; /* 각 이미지의 가로 폭을 동일하게 설정 */
+  }
+  img {
+      width: 100%;
+      height: auto;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-05-Meeting with Prof Hong/COMBINE.png&quot; alt=&quot;Image 1&quot; /&gt;
+    &lt;figcaption&gt;
+      COMBINE 랩의 홈페이지
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-05-Meeting with Prof Hong/hong_seok_jun.jpg&quot; alt=&quot;Image 2&quot; /&gt;
+    &lt;figcaption&gt;
+      성균관대학교의 홍석준 교수님, 출처: &lt;a href=&quot;https://combinelab.net/&quot;&gt;COMBINE Lab.&lt;/a&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-05-Meeting with Prof Hong/research_perspective.png&quot; alt=&quot;Image 3&quot; /&gt;
+    &lt;figcaption&gt;
+      홍석준 교수님의 연구 관점.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;나는 올해 초인 1월 5일, 성균관대학교의 홍석준 교수님께 면담 요청을 드렸다. 교수님께서는 IBS 뉴로이미징 연구단에 소속되어 계시며, 이전부터 교수님과는 메일을 통해 지속적으로 연락을 주고받아왔다. 이 모든 것은 교수님이 운영하시는 유튜브 채널에서 능동추론(Active Inference)이라는 이론 신경과학에 관한 영상을 보고, 직접 메일을 드리면서 시작되었다. 교수님은 유튜브를 통해 인공지능의 역사와 동향을 분석하며, 인간 수준의 인공지능을 구현하려는 꿈을 이야기하셨다. 그 당시 나는 의식에 대한 막연한 관심과 현 세대 인공지능 기술에 대한 불만이 있었는데, 교수님의 강의는 그야말로 단비와도 같았다. 마침 나도 능동추론의 가능성과 비전에 깊이 공감하며 스터디 그룹을 조직하고 운영하고 있던 중이었다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-05-Meeting with Prof Hong/neohuman.png&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      능동추론에 대해 소개하는 장면, 출처: &lt;a href=&quot;https://www.youtube.com/channel/UC4yLLoaFX0H6VHUpjf588AQ&quot;&gt;신인류 채널&lt;/a&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;이번 면담에서 가장 중요한 질문은 이 분야에서 연구를 이어가기 위한 조언을 구하는 것이었다. 학부 시절, 나는 코로나로 인해 대부분의 시간을 비대면과 고독 속에서 보냈다. 수학을 전공한 내가 이론 신경과학과 인공지능에 대한 커리어를 준비하기에는 혼자서 역부족이라는 생각이 들었다. 그래서 교수님께 내가 풀고자 하는 문제와 관심사를 다음과 같이 소개드렸다:&lt;/p&gt;
+
+&lt;p&gt;자연 지능과 인공지능을 연결짓기: 형식적인 이론적 프레임워크를 개발하거나 계산 방법론을 제안하는 것.
+의식과 관련된 문제 풀기: 의식의 실제 문제에 대한 과학적 연구, 능동추론 및 확률적 기계학습 이론을 활용한 시뮬레이션 방법론 활용.
+인간 수준의 인공지능 달성: 신경 계산과 데닛이 제안한 지각, 행동, 주의, 정서 등의 인지기능을 모두 갖춘 에이전트 구현.
+교수님께서는 매우 적극적으로 조언해 주셨다. 그 중에서도 기억에 남는 부분은 박사 과정을 지원하는 것이 새로운 직장을 구하는 것만큼이나 신중해야 한다는 말씀이었다. 나만의 견고한 토대를 이룰 수 있는 기술과 연구 설계 방식을 획득하는 것이 중요하며, 박사 과정은 단순히 새로운 것을 배우는 시간이 아니라, 기존 스킬을 깊이 있고 넓게 확장하며 동시에 나라는 연구자를 알리는 기회라는 것이다.&lt;/p&gt;
+
+&lt;p&gt;그렇기 때문에 연구를 더 잘할 수 있는 학교와 프로그램을 찾는 것이 매우 중요하며, 나의 5년, 더 나아가 7년이 투자되는 만큼 신중하게 선택해야 한다고 강조하셨다.&lt;/p&gt;
+
+&lt;p&gt;또한, 석사 학위를 취득할 필요가 있는지, 아니면 바로 박사 학위를 취득해야 하는지에 대해서도 조언해 주셨다. 한국의 통념과 정서에서는 남들보다 일찍 성취하는 것에 높은 가치를 두지만, 실제 연구와 전문가 커뮤니티에서는 논문을 직접 작성하며 배우는 경험 자체가 더 중요하다고 하셨다. 이러한 배움 없이 일찍 졸업하고 논문이 적다면, 이후에 직장을 구하는 데 큰 어려움을 겪을 수 있다고 하셨다. 실제로 학계에서 잘 성장하는 연구자들은 양질의 논문을 3~4편 정도 제대로 작성한 후, 포닥 과정에서 논문을 폭발적으로 생산하는 경우가 많으며, 이러한 사례가 건강한 발전의 예라고 설명하셨다.&lt;/p&gt;
+
+&lt;p&gt;궁극적으로는, 현재 하고 싶은 것이 명확하다면 한 번 시도해보는 것도 좋다고 조언해 주셨다. 예를 들어, 인간 수준의 인공지능을 정말 개발하고 싶다면, 박사 과정 없이 바로 구글의 로보틱스 부서에 입사해 업무와 연구를 병행하며 성장하는 것도 후회 없는 선택이 될 수 있다고 하셨다.&lt;/p&gt;
+
+&lt;p&gt;소중한 시간을 내어 흔쾌히 면담을 해주신 홍석준 교수님께 진심으로 감사의 말씀을 전하고 싶다. 선배 연구자이자 교수님으로서 나에게 안정감과 가슴 설레는 희망을 안겨주신 이 시간이 너무나도 값졌다. 이 시간을 통해 스스로에게 많은 질문을 하게 되었다. 정말로 내가 하고 싶은 건 이 주제가 맞는가? 너무나도 추상적인 주제가 아닌가? 더 구체적으로 어떤 부분을 연구해서 어떤 결과와 성과를 이루고 싶은가? 정말 내 인생을 이 문제를 푸는 데 바칠 것인가? 등. 앞으로도 많은 고민과 생각이 나를 기다리고 있다.&lt;/p&gt;
+</description>
+                <pubDate>Fri, 05 Jan 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/movement/Meeting-with-Prof-Hong-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/movement/Meeting-with-Prof-Hong-kr/</guid>
+                
+                <category>면담</category>
+                
+                <category>유학</category>
+                
+                <category>연구</category>
+                
+                <category>미래</category>
+                
+                <category>커리어</category>
+                
+                
+                <category>Movement</category>
+                
+            </item>
+        
+            <item>
+                <title>Meeting with Professor Hong Seok-jun</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* Adjust the gap between images */
+  }
+  figure {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+      width: 30%; /* Set the width of each image */
+  }
+  img {
+      width: 100%;
+      height: auto;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-05-Meeting with Prof Hong/COMBINE.png&quot; alt=&quot;Image 1&quot; /&gt;
+    &lt;figcaption&gt;
+      Homepage of the COMBINE Lab
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-05-Meeting with Prof Hong/hong_seok_jun.jpg&quot; alt=&quot;Image 2&quot; /&gt;
+    &lt;figcaption&gt;
+      Professor Hong Seok-jun of Sungkyunkwan University, Source: &lt;a href=&quot;https://combinelab.net/&quot;&gt;COMBINE Lab.&lt;/a&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-05-Meeting with Prof Hong/research_perspective.png&quot; alt=&quot;Image 3&quot; /&gt;
+    &lt;figcaption&gt;
+      Professor Hong Seok-jun&apos;s research perspective.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;On January 5th, at the start of this year, I requested a meeting with Professor Hong Seok-jun of Sungkyunkwan University. Professor Hong is affiliated with the IBS Neuroimaging Research Group, and we had been in regular contact via email for quite some time. This all began when I watched a video on Professor Hong’s YouTube channel about Active Inference, a theory in neuroscience, which inspired me to reach out to him directly. In his videos, Professor Hong discusses the history and trends of artificial intelligence, sharing his vision of achieving human-level AI. At that time, I had a vague interest in consciousness and was somewhat disillusioned with the current generation of AI technology. His lectures were like a breath of fresh air. Coincidentally, I was also deeply engaged with the possibilities and vision of Active Inference, organizing and running a study group on the topic.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-01-05-Meeting with Prof Hong/neohuman.png&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Introducing Active Inference, Source: &lt;a href=&quot;https://www.youtube.com/channel/UC4yLLoaFX0H6VHUpjf588AQ&quot;&gt;Neohuman Channel&lt;/a&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The most pressing question during this meeting was to seek advice on how to continue my research in this field. During my undergraduate years, much of my time was spent in isolation due to the pandemic, making it difficult to prepare for a career in theoretical neuroscience and AI on my own. Therefore, I introduced the problems and interests I aim to solve to Professor Hong:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bridging Natural and Artificial Intelligence: Developing formal theoretical frameworks or proposing computational methodologies.&lt;/li&gt;
+  &lt;li&gt;Solving Problems Related to Consciousness: Conducting scientific research on the real problem of consciousness, using Active Inference and probabilistic machine learning theories for simulation methodologies.&lt;/li&gt;
+  &lt;li&gt;Achieving Human-Level AI: Implementing an agent equipped with cognitive functions such as perception, action, attention, and emotion, as proposed by Dennett.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Professor Hong provided invaluable advice. One of the key points that stuck with me was that applying for a PhD program requires the same level of seriousness as seeking a new job. It’s crucial to acquire skills and research design methods that can serve as a solid foundation for yourself. A PhD program is not merely a time to learn new things but an opportunity to deepen and broaden your existing skills while establishing your identity as a researcher.&lt;/p&gt;
+
+&lt;p&gt;Therefore, finding the right school and program where you can excel in your research is of utmost importance, especially since you are investing five, or possibly seven, years of your life.&lt;/p&gt;
+
+&lt;p&gt;He also advised on whether it would be necessary to pursue a master’s degree first or go straight into a PhD. While the cultural norm in Korea places high value on achieving things earlier than others, in the actual research and professional community, the process of learning by writing papers is far more important. Without this deep learning experience, graduating early with few publications could pose significant challenges in securing a job later. In fact, researchers who excel in academia often produce three to four high-quality papers during their PhD and then rapidly increase their publication rate during their postdoc. This, he explained, is a healthy way to progress.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, he suggested that if I was truly clear about what I wanted to do, it might be worth trying. For instance, if I am really passionate about developing human-level AI, it might be a good idea to directly join a department like Google Robotics and grow by balancing work and research without pursuing a PhD.&lt;/p&gt;
+
+&lt;p&gt;I am sincerely grateful to Professor Hong Seok-jun for taking the time to meet with me. As a senior researcher and professor, he provided me with a sense of reassurance and excitement for the future. This meeting prompted me to ask myself many questions: Is this truly the topic I want to pursue? Is it too abstract? What specific area do I want to research, and what results do I hope to achieve? Am I really willing to dedicate my life to solving this problem? These are the questions I will continue to ponder.&lt;/p&gt;
+</description>
+                <pubDate>Fri, 05 Jan 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/movement/Meeting-with-Prof-Hong-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/movement/Meeting-with-Prof-Hong-en/</guid>
+                
+                <category>Meeting</category>
+                
+                <category>Study Abroad</category>
+                
+                <category>Research</category>
+                
+                <category>Future</category>
+                
+                <category>Career</category>
+                
+                
+                <category>Movement</category>
                 
             </item>
         
@@ -3112,957 +4094,6 @@ _· Copyright problem ← AI cannot be free from issues related to data ownershi
                 <category>Neuroscience</category>
                 
                 <category>Evolution</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>마음을 수학하라</title>
-                <description>&lt;blockquote&gt;
-  &lt;p&gt;Can Mathematics Understand the Brain?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jYP3crI0wpc?si=iWnZu6rq20dWniPI&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://goriely.com/&quot;&gt;알랭 고리엘리&lt;/a&gt;는 옥스포드 수학 연구소에 소속된 수리 모델링 교수로, 인간의 뇌 및 발달 과정과 관련해 연구를 수행해 왔다. 그는 주로 두뇌의 형태과정Morphogenesis을 연구했는데, 위 영상에서는 산업 및 응용수학의 관점에서 두뇌를 분석했다. 위 영상에서는 구체적으로, (1)두뇌에서 발생하는 몸무게-피질면적의 스케일링 법칙을 소개하고, (2)형태과정을 분석하여 두뇌의 피질 주름 패턴 모델링한 후, (3)수두증과 뇌부종에 대한 문제 해결 사례를 소개했다. 마지막으로, (4)두뇌의 네트워크 모델을 기반으로 확산 모델링을 수행하여, 퇴행성 신경질환에 대한 새로운 시각을 제공했다.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;응용수학에 대한 관점을 소개하는 부분이 매우 흥미롭다. 그에 따르면, 현실 세계의 문제에 추상적인 수학을 적용하는 것에 있어, 이론(Theory)과 방법(Method)을 통해 접근 가능하다. 예를 들어, 방법에는 수학적인 구조와 정리를 활용한 방정식, 행렬, 데이터 분석, 계산 알고리즘 등이, 이론에는 기개발된 방법체계인 물리학, 과학, 공학, 경제학 등이 있다. 이때, 추상수학을 통해 이론과 방법론을 적절히 설정하여 실제 문제를 해결하는 것이 응용수학이라는 것이 그의 설명이다.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;응용수학에 대한 관점을 소개하는 부분이 매우 흥미롭다. 그에 따르면, 현실 세계의 문제에 추상적인 수학을 적용하는 것에 있어, 이론(Theory)과 방법(Method)을 통해 접근 가능하다. 예를 들어, 방법에는 수학적인 구조와 정리를 활용한 방정식, 행렬, 데이터 분석, 계산 알고리즘 등이, 이론에는 기개발된 방법체계인 물리학, 과학, 공학, 경제학 등이 있다. 이때, 추상수학을 통해 이론과 방법론을 적절히 설정하여 실제 문제를 해결하는 것이 응용수학이라는 것이 그의 설명이다.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/3.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;그렇다면, “인간의 현상적 의식을 설명할 수 있는 두뇌의 이론을 개발”이라는 현실적 문제를 해결하기 위해서는 어떻게 해야할까? 우리는 실험으로부터 경험에 대한 정보를 효과적으로 획득할 수 없다. 그럼에도, 소통Communication을 활용해 피험자의 내성Introspective을 통한 기술Description 자료를 획득할 수 있으며, 그것의 물리적 대응물인 신경 활동을 이미징할 수 있다. 우리가 취하면 좋을 수학은 무엇이며, 이를 활용해 모델링할 때는 어떤 이론과 방법을 적용해야 할까? 사실 이런 질문은 무의미할 수도 있겠다. 문제를 효과적으로 풀려면, 질문을 할 때 그 질문의 가능한 답을 고민할 필요가 있다. 다시말해, 해결하려고 하는 그 문제가 정말로 해결되면 우리는 그것으로 무엇을 할 수 있을까?&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/4.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;과거 호주의 철학자 데이비드 차머스는 인간의 현상적 의식과 관련해, 두뇌가 어떻게 지각-인지-학습-행동 등을 수행하는지에 대한 문제를 “쉬운 문제”, 그러한 과정이 왜-어떻게 의식과 관련되는지에 대한 문제를 “어려운 문제”라고 정의했다. 이때 앞서 정의한 문제는 쉬운 문제-어려운 문제의 범주와는 조금 다르다. 우리가 형이상학적인 철학의 문제를 해결하는 것이 아니라 보다 과학적인 관점에서 접근하고 있기 때문이다. 이런 관점에서, 앞서 한 질문은 현상적 의식과 체험을 생물학적으로 설명하고, 예측하고, 제어할 수 있게 하는 이론의 가능성을 반문하고 있다. 즉, 그 아닐 세스Anil Seth의 진짜 문제The Real Problem의 범주에 속한 셈이다. 그 이론은 의식적 내용과 상태를 수학적으로 기술할 수 있게 하고(Dynamic), 그들의 동역학을 분석하며(Mechanic), 근본적인 작동 원리를 설명할 수 있다(Principle).&lt;/p&gt;
-
-&lt;h1 id=&quot;future&quot;&gt;Future&lt;/h1&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/5.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;의식의 상태를 수학적으로 기술할 수 있다는 뜻은 무엇일까? 예를 들어, 운동역학에서 어떤 물체의 운동 상태에 대해 기술한다고 설명해보자. 그러면, 우리는 그 물체의 모든 요소에 대해 기술하는 것이 어렵기에 무게 중심과 점질량에 대해 위치, 속도, 가속도 등의 변수를 활용하거나, 에너지의 개념을 도입해 유도해내곤 한다. 또다른 예시로, 통계역학에서 어떤 기체의 상태에 대해 서술한다고 해보자. 주어진 기체 분자들의 특성을 전부 기술하는 것이 불가능하기 때문에, 그들의 통계적인 속성인 온도, 압력, 부피 등의 변수를 활용해 기술하게 된다. 이러한 기술학Descriptology은 서술하고자 하는 물리계의 상태에 대한 이론의 핵심 용어를 정립해준다. 뿐만 아니라, 서로 다른 관점 사이의 변환 규칙을 정해주고 서로 다른 대상이 공통된 대상을 이해하고 받아들이는 데에 큰 도움을 준다. 기술학은 어찌보면 관점주의적이고 사회적인 속성을 지닐지도 모르겠다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;질문&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- 의식의 상태를 기술하기 위한 주요 물리 변수엔 무엇이 있겠는가?
-- 그러한 변수들이 지니는 특성은 무엇인가?
-- 해당 변수가 만족하는 논리적인 규칙이 있는가? 어떤 수학적 공간에서 이론을 전개해야 할 것인가?
-- 유효한 시각화 방식엔 무엇이 있겠는가?
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;그렇다면 의식의 상태를 설명할 수 있다는 뜻은 무엇일까? 예를 들어, 운동역학에서 어떤 물체의 운동 상태를 설명한다고 하면, 각 변수가 이루는 인과관계에 근거하여 제시할 수 있어야 한다. 또다른 예시로, 통계역학에서 어떤 기체의 상태를 설명하려면, 주어진 통계 변수 사이의 통계적 인과력을 고려해 과거-현재-미래의 관계를 제시할 수 있어야 할 것이다. 이러한 설명Explanation은 앞서 다듬어둔 변수들 간의 인과적/준-인과적 관계를 정립하고 이를 통해 새로운 지식을 도출할 수 있어야 한다. 즉 추론에 대한 것으로, 연역-귀납-귀추 등의 논증 방식을 활용할 수 있다. 이러한 설명의 내용은 아래와 같은 관련된 질문들에 대해 효과적으로 답변할 수 있어야 한다:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;질문&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- 의식의 여부를 확인/정량화할 수 있는가?
-    - 동물/기계의 의식
-- 의식의 내용을 표현/비교할 수 있는가?
-    - 자신의 내용끼리 표현/비교
-    - 자신과 타인의 내용을 표현/비교
-    - 자신과 사물/타인을 표현/비교
-- 우리의 의식 일부/전체를 컴퓨터에 업로드/다운로드할 수 있는가?
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-                <pubDate>Sat, 04 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Do-math-about-brain-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Do-math-about-brain-kr/</guid>
-                
-                <category>수학</category>
-                
-                <category>두뇌</category>
-                
-                <category>과학</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>Do the Math on the Mind</title>
-                <description>&lt;blockquote&gt;
-  &lt;p&gt;Can Mathematics Understand the Brain?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jYP3crI0wpc?si=iWnZu6rq20dWniPI&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://goriely.com/&quot;&gt;Alain Goriely&lt;/a&gt; is a professor of mathematical modeling at the Oxford Mathematical Institute, with a research focus on the human brain and its development. He has primarily studied morphogenesis in the brain, and in the video above, he explores the brain from the perspective of industrial and applied mathematics. Specifically, the video covers (1) the scaling laws of weight and cortical surface area in the brain, (2) modeling cortical folding patterns through morphogenesis, (3) solving issues related to hydrocephalus and brain edema, and (4) offering new insights into neurodegenerative diseases through diffusion modeling based on brain network models.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Goriely’s perspective on applied mathematics is particularly fascinating. He explains that applying abstract mathematics to real-world problems involves both theory and method. For example, methods may include equations, matrices, data analysis, and computational algorithms, while theories may draw on established frameworks from physics, science, engineering, and economics. According to Goriely, applied mathematics is about appropriately setting theory and methods through abstract mathematics to solve practical problems.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;So how should we approach the practical challenge of developing a brain theory that explains human phenomenological consciousness? We cannot fully capture experiential information through experiments alone. However, by leveraging communication and introspective descriptions from subjects, we can obtain data, and through imaging, we can observe the neural activities corresponding to these experiences. What kind of mathematics should we employ, and what theories and methods should we apply in modeling this? Such questions may seem futile without considering potential answers. In other words, if we do solve this problem, what would that allow us to achieve?&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/3.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;The Australian philosopher David Chalmers once defined problems related to human phenomenological consciousness as either the “easy problems,” concerning how the brain perceives, recognizes, learns, and acts, or the “hard problem,” concerning why and how these processes are connected to consciousness. The problem we’ve defined differs somewhat from these categories. We approach it from a more scientific perspective rather than a metaphysical one. In this context, our earlier question challenges the possibility of developing a theory that biologically explains, predicts, and controls phenomenological consciousness and experience. This falls under Anil Seth’s “Real Problem,” aiming to mathematically describe (Dynamic), analyze (Mechanic), and explain (Principle) the fundamental workings of conscious content and states.&lt;/p&gt;
-
-&lt;h1 id=&quot;future&quot;&gt;Future&lt;/h1&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-04-Do math about brain/5.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;What does it mean to mathematically describe the state of consciousness? Consider how we describe the state of motion in mechanics. We use variables like position, velocity, and acceleration to describe the center of mass and point masses, or we introduce the concept of energy to derive results when describing the motion of an object. Similarly, in statistical mechanics, we describe the state of a gas by using statistical properties such as temperature, pressure, and volume, rather than describing each gas molecule individually. This approach to description establishes the core terms of a theory for the state of the physical system being described. It also provides conversion rules between different perspectives, helping to align different understandings of a common subject. This descriptive approach may be inherently perspectivist and social in nature.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Questions&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;What are the key physical variables needed to describe the state of consciousness?&lt;/li&gt;
-  &lt;li&gt;What characteristics do these variables possess?&lt;/li&gt;
-  &lt;li&gt;Are there logical rules these variables must satisfy? In what mathematical space should the theory be developed?&lt;/li&gt;
-  &lt;li&gt;What are the most effective ways to visualize this information?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;What does it mean to explain the state of consciousness? In mechanics, to explain the motion of an object, we must present causal relationships between the variables involved. In statistical mechanics, to explain the state of a gas, we consider the statistical causality among the statistical variables to present the relationships between past, present, and future states. This explanation involves establishing causal or quasi-causal relationships among the variables we’ve refined and using these to derive new knowledge. It involves reasoning, using methods such as deduction, induction, and abduction. The content of such explanations should effectively answer related questions like:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Questions&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Can the presence or absence of consciousness be verified or quantified?
-    &lt;ul&gt;
-      &lt;li&gt;Consciousness in animals/machines&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Can the content of consciousness be expressed or compared?
-    &lt;ul&gt;
-      &lt;li&gt;Comparing one’s own conscious content&lt;/li&gt;
-      &lt;li&gt;Comparing one’s conscious content with that of others&lt;/li&gt;
-      &lt;li&gt;Comparing oneself with objects/others&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Can we upload/download parts or all of our consciousness to/from a computer?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-                <pubDate>Sat, 04 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Do-math-about-brain-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Do-math-about-brain-en/</guid>
-                
-                <category>Mathematics</category>
-                
-                <category>Brain</category>
-                
-                <category>Science</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>딥마인드의 뒷이야기</title>
-                <description>&lt;blockquote&gt;
-  &lt;p&gt;딥마인드같은 회사는 어떻게 만들어졌는가?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;→ 2010년 천재 과학자 데미스 허사비스(Demis Hassabis)가 창업한 회사&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;허사비스는 1976년생으로, 영국의 인공지능 연구자, 컴퓨터 과학자, 신경과학자이자 게이머이다.&lt;/li&gt;
-  &lt;li&gt;13살에 체스 마스터가 되었고, 17살에 게임 개발에 참여했다.&lt;/li&gt;
-  &lt;li&gt;17살부터 대학에 입학하기 전까지, 게임 회사에서의 갭 이어를 통해 학비를 얻었다.&lt;/li&gt;
-  &lt;li&gt;1997년, 21살의 나이로 Cambridge 대학을 졸업했다.&lt;/li&gt;
-  &lt;li&gt;졸업 이후, Lionhead라는 게임 회사에서 lead AI 프로그래머로 활동한다.&lt;/li&gt;
-  &lt;li&gt;1998년, 엘릭서 스튜디오라는 비디오 게임 개발사를 창업한 이후 2005년 은퇴하였다.&lt;/li&gt;
-  &lt;li&gt;이후 2009년, UCL에서 인지 신경과학 박사학위를 취득했으며, MIT 방문 과학자로 활동했다.
-→ 그의 초기 연구는 상상-기억-기억상실증과 관련되어 있었다.&lt;/li&gt;
-  &lt;li&gt;2010년, DeepMind라는 머신 러닝 스타트업을 창업하였다.
-    &lt;blockquote&gt;
-      &lt;p&gt;“Solve Intelligence to Solve Everything Else”
-→ 현재에 이르러, 일반 인공지능 AGI를 창조하는 것을 목표로 삼고 있다.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;왜-구글은-딥마인드를-인수했는가&quot;&gt;왜 구글은 딥마인드를 인수했는가?&lt;/h3&gt;
-
-&lt;p&gt;→ 2014년 구글이 약 6억 달러를 지불하며 인수하였다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;당시 직원 수는 50여명 남짓일 뿐이었다.&lt;/li&gt;
-  &lt;li&gt;더욱이, 회사의 딱 한페이지짜리 웹사이트에는 “최첨단 인공지능 회사”라는 모호한 소개만 쓰여있었다.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-                <pubDate>Thu, 02 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/DeepMind-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/DeepMind-kr/</guid>
-                
-                <category>인공지능</category>
-                
-                <category>성공</category>
-                
-                <category>비즈니스</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>The Story Behind DeepMind</title>
-                <description>&lt;blockquote&gt;
-  &lt;p&gt;How was a company like DeepMind created?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;→ In 2010, a genius scientist named Demis Hassabis founded the company.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Hassabis, born in 1976, is a British AI researcher, computer scientist, neuroscientist, and gamer.&lt;/li&gt;
-  &lt;li&gt;He became a chess master at the age of 13 and started developing games at 17.&lt;/li&gt;
-  &lt;li&gt;Between the ages of 17 and his university entrance, he took a gap year working at a game company to fund his education.&lt;/li&gt;
-  &lt;li&gt;In 1997, at the age of 21, he graduated from Cambridge University.&lt;/li&gt;
-  &lt;li&gt;After graduation, he worked as the lead AI programmer at a game company called Lionhead.&lt;/li&gt;
-  &lt;li&gt;In 1998, he founded a video game development company called Elixir Studios, retiring in 2005.&lt;/li&gt;
-  &lt;li&gt;In 2009, he earned a PhD in cognitive neuroscience from UCL and served as a visiting scientist at MIT.
-→ His early research focused on imagination, memory, and amnesia.&lt;/li&gt;
-  &lt;li&gt;In 2010, he founded the machine learning startup DeepMind.
-    &lt;blockquote&gt;
-      &lt;p&gt;“Solve Intelligence to Solve Everything Else”
-→ Today, the company is focused on creating Artificial General Intelligence (AGI).&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;why-did-google-acquire-deepmind&quot;&gt;Why did Google acquire DeepMind?&lt;/h3&gt;
-
-&lt;p&gt;→ In 2014, Google acquired DeepMind for approximately $600 million.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;At the time, the company had only about 50 employees.&lt;/li&gt;
-  &lt;li&gt;Moreover, their one-page website featured only a vague description: “Cutting-edge artificial intelligence company.”&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-                <pubDate>Thu, 02 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/DeepMind-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/DeepMind-en/</guid>
-                
-                <category>Artificial Intelligence</category>
-                
-                <category>Success</category>
-                
-                <category>Business</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>싯다르타를 읽고</title>
-                <description>&lt;blockquote&gt;
-  &lt;p&gt;싯다르타, 헤르만 헤세: &lt;strong&gt;방랑과 위기의 연속, 헤세의 삶을 중심으로&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;주요-부분&quot;&gt;주요 부분&lt;/h3&gt;
-
-&lt;aside&gt;
-📝 … 이 세상이 선한지 악한지, 이 세상에서의 삶이 괴로운지 즐거운지는 더 이상 논의하지 않겠습니다. 어쩌면 이것은 본질적인 것이 아닐 수도 있습니다. 그러나 이 세상의 단일성, 모든 사건의 연과성, 크고 작은 모든 것이 동일한 흐름과 법칙, 생성과 소멸되는 일에 포함되어 있다는 것이 당신의 고매한 가르침에서 밝게 드러났습니다. … 그런데 당신의 동일한 가르침에 따르면 만물의 이러한 단일성과 일관성은 어느 한 곳에서 끊어져 있습니다. 하나의 작은 틈새를 통해 단일한 이 세상 속으로 낯선 것, 새로운 것, 이전에 존재하지 않던 것, 그리고 제시될 수도, 증명될 수도 없는 무엇이 흘러듭니다. …  (붓다와의 대화; 싯다르타의 반론)
-&lt;/aside&gt;
-&lt;aside&gt;
-📝 자기 자신의 내면에까지 파고 들어가 본 사람만이 그렇게 진심으로 바라보고 그렇게 걸어갈 수 있을 것이다. 좋다. 나는 내 자신의 궁극의 심부에까지 파고 들어가기 위해 탐색하리라 … 더 이상 다른 어떤 사람 앞에서도 눈을 내리뜨리지 않을 것이다. … 이 사람이 가르침도 나를 유혹하지 못했으니, 어떤 가르침도 더 이상 나를 유혹하지 못할 것이다. (싯다르타의 깨달음)
-&lt;/aside&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;싯다르타는 고타마 붓다의 깨달음의 기원을 생각해보며, 그 기원은 붓다 자신의 체험; 1인칭 경험이라는 사실을 깨닫는다. 즉, 붓다의 체험과 경험은 결국 제시될 수도, 증명될 수 없는 무엇인 셈이다. 때문에 싯다르타는 붓다의 깨달음이 결코 자신에게 있는 그대로 전달될 수 없음을 깨닫고 붓다에게 반론을 제기하게 된다. 결국 직접 체험하는 것 그 자체의 중요성을 깨닫고 파계의 길을 걷게 된다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;aside&gt;
-📝 … 싯다르타는 천천히 걸어가면서 자신을 완전히 가득 채우고 있는 감정에 대해 곰곰이 생각해 보았다. 마치 깊은 물속에 잠기듯이 그는 감정의 바닥까지, 원인이 깃들어 있는 밑바닥까지 내려갔다. 원인을 인식하는 것, 그것이 곧 사고라고 여겼기 때문이다. 그리고 그렇게 해야만 감정은 인식으로 변하며 소멸되는 것이 아니라 본질이 되어 그 속에 내재한 것을 발산하기 시작한다고 생각했기 때문이다.
-&lt;/aside&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;aside&gt;
-📝 만약 어떤 사람이 글을 읽으면서 그 의미를 찾고자 한다면, 그는 그 기호와 철자를 무시하지 않는다. 그것들은 착각, 우연 그리고 무가치한 껍질이라고 부르지 않으며, 오히려 그 사람은 그것을 읽고, 철자 하나하나를 음미하고 사랑한다. 하지만 나는, 이 세상이라는 책과 내 자신의 본질이라는 책을 읽으려 한 나는 미리부터 추측한 뜻에 맞추기 위해서 기호와 철자를 무시해 버렸다. 나는 현상계를 착각이라고 불렀고, 나의 눈과 혀를 무가치하고 우연한 현상이라고 불렀다. 아니, 그것은 지나갔다. 이제 나는 깨어났다. 나는 정말로 깨어났고, 오늘에야 비로소 태어난 것이다. …
-&lt;/aside&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;싯다르타가 감정이나 자아를 이해하는 부분들로, 감정에 대한 깊은 이해와 현상계에 대한 깨달음을 표현하고 있다. 감정의 본질에 관해 그것의 원인이 깃들어있는 밑바닥; &lt;em&gt;눈&lt;/em&gt;과 &lt;em&gt;혀&lt;/em&gt;로 내려간 이후 원인을 인식하고, 그것을 인식함으로써 발산된다는 것을 깨닫는다. 더욱이 자아의 개념과 관련해 체험 그 자체가 비록 착각, 우연에 불과할지라도 그것이 충분히 음미하고 사랑할 수 있는 대상임으로 발견한다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;↔ 아닐 세스의 의식을 &lt;em&gt;제어된 환각&lt;/em&gt;이라고 보는 관점과 어떤 관련이 있을까?&lt;/p&gt;
-
-&lt;p&gt;비록 그렇더라도, 그것의 의미를 발견하려면 충분히 음미하고 사랑할 수 있어야 한다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;삶에는 어떠한 행복도, 불행도, 성공도, 실패도 깃들어 있지 않다. 그것은 기준이 필요한 것이고, 또 평가가 필요한 것이다. 그러한 것들은 결국 오로지 그 삶을 살아내는 “나”의 체험에만 깃들어 있다. 제 3자는 결코 나의 삶을 공감할 수도, 평가할 수도 없다. 일반적인 기준이나 대중의 기준이야 말로 허상의 것이며, 단단한 착각일 뿐이다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;우리 삶에서 충분히 제어할 수 있는 부분과, 그렇지 않은 부분을 명료히 구분하여 생각해보자. 그것이 가장 어렵겠지만 말이다. 오로지 제어할 수 있는 부분에 초점을 맞추게 되면, 어떻게 삶을 이끌어 나가야 할지 보다 명료하게 될 것이다. 나의 삶이 시작하고 굴러가는 초입은 바로 믿음에 있으며, 그 믿음이야 말로 나라는 삶의 화살이 지나갈 방향과 궤적을 결정하는 원인이 된다.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-                <pubDate>Wed, 01 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Siddhartha-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Siddhartha-kr/</guid>
-                
-                <category>문학</category>
-                
-                <category>종교</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>Reflection on &quot;Siddhartha&quot;</title>
-                <description>&lt;blockquote&gt;
-  &lt;p&gt;Siddhartha, by Hermann Hesse: &lt;strong&gt;A Journey of Wandering and Crisis, Focused on Hesse’s Life&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;key-sections&quot;&gt;Key Sections&lt;/h3&gt;
-
-&lt;aside&gt;
-📝 … Whether this world is good or evil, whether life in this world is painful or joyful, I will no longer discuss. Perhaps these are not the essential questions. But the unity of this world, the interconnectedness of all events, the way everything, great and small, follows the same flow and law of creation and destruction—this is made clear by your noble teachings. … However, according to these same teachings, there is a break in this unity and continuity. Through a small gap, something foreign, something new, something that has not existed before and cannot be presented or proven, enters this unified world. … (Conversation with Buddha; Siddhartha&apos;s Counterargument)
-&lt;/aside&gt;
-&lt;aside&gt;
-📝 Only one who has delved deep into their own inner being can look with such sincerity and walk such a path. Very well, I will explore to the ultimate depths of my own being … I will no longer lower my eyes before any other person. … This man&apos;s teachings could not tempt me, and no teaching will tempt me ever again. (Siddhartha&apos;s Enlightenment)
-&lt;/aside&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Siddhartha, reflecting on the origins of Gautama Buddha’s enlightenment, realizes that the origin lies in Buddha’s own experiences—his first-person experience. Buddha’s teachings, therefore, are based on something that cannot be presented or proven. Consequently, Siddhartha realizes that Buddha’s enlightenment cannot be transferred to him in its entirety, leading him to challenge Buddha. Ultimately, Siddhartha embraces the importance of personal experience and begins his journey of self-discovery.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;aside&gt;
-📝 … As Siddhartha walked slowly, he pondered the feelings that filled him entirely. Like sinking into deep water, he descended to the very bottom of these emotions, where the cause resided. He believed that recognizing the cause was the essence of thought. Only then could emotions transform into understanding, not by disappearing, but by becoming something fundamental, something that begins to radiate its inner truth.
-&lt;/aside&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;aside&gt;
-📝 If someone reads a text and seeks its meaning, they do not disregard the symbols and letters. They do not dismiss them as illusions, coincidences, or worthless shells. Instead, they read, savor, and cherish each letter. But I, in trying to read the book of this world and the book of my own essence, disregarded the symbols and letters in order to match a preconceived notion of meaning. I called the phenomenal world an illusion, and I dismissed my eyes and tongue as meaningless, accidental phenomena. But no, that is over. I have awakened. Truly awakened, and today, I have been born anew. …
-&lt;/aside&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;These passages express Siddhartha’s deep understanding of emotions and self, revealing his insights into the essence of feelings and the realization of phenomena. He delves into the core of emotions, recognizing that understanding them causes them to radiate their true nature. Furthermore, in terms of self-concept, he discovers that even if experiences are mere illusions or coincidences, they are still worth savoring and cherishing.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;↔ How does this relate to Anil Seth’s concept of consciousness as “controlled hallucination”?&lt;/p&gt;
-
-&lt;p&gt;Even if it is so, to find its meaning, it must be fully savored and loved.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Life contains no inherent happiness, sorrow, success, or failure. These concepts require standards and evaluation. They exist solely within the experience of living “I.” No third party can truly empathize with or evaluate my life. Common standards or public opinions are nothing but illusions, mere misconceptions.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Let us clearly distinguish between the aspects of life we can control and those we cannot. While this is the most challenging task, focusing solely on the controllable aspects will clarify how to navigate life. The beginning and momentum of my life lie in faith, and it is this faith that determines the direction and trajectory of the arrow that is my life.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-                <pubDate>Wed, 01 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Siddhartha-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Siddhartha-en/</guid>
-                
-                <category>Literature</category>
-                
-                <category>Religion</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>사라진 잠수함을 찾아라</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;사라진 잠수함을 찾아라: &lt;strong&gt;북한의 핵위협과 대잠전의 중요성을 중심으로&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;말머리&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;이탈리아의 현대예술가 스벤 삭살베르(Sven Sachsalber)의 행위예술 작품 - 건초더미에서 바늘찾기&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;우리나라 속담에는 “모래사장에서 바늘찾기“라는 말이 있다. 영미권에서도 비슷하게 “Looking for a needle in a haystack“라는 격언이 있다. 즉, “건초더미에서 바늘찾기”라는 뜻이다. 우리나라와 영미권 모두 불가능에 가까운 일을 표현하는 방식이 놀랄 정도로 닮아있다. 이 둘 모두 불가능에 가까워 보이는 일을 유사한 방식으로 희화화하고 있다.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;한편, 우리의 일상에서 이처럼 불가능에 가까운 일을 해결해야 하는 상황이 생기곤 한다. 간단한 예를 들어, 어젯밤 만취한 상태로 잠에 든 당신이 눈을 떠보니 출근 시간을 넘겼다. 얼른 운전해서 출근해야하지만 차 키가 어디있는지 도저히 기억이 나지 않는다. 어떻게 이 차 키를 찾을 수 있겠는가? 더 심각한 예를 들어 보자. 잠시 당신이 아이와 함께 사람들로 붐비는 놀이공원에 갔다고 상상해보자. 너무나도 많은 인파에 잡고 있던 아이의 손을 놓친 것이다! 이 경우, 당신은 어떻게해서든 아이를 찾아내야 한다. 어떻게 당신의 아이를 찾을 수 있겠는가?&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/3.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;불가능에 가까운 일은 일상 뿐만 아니라, 우리의 사회와 국가적 규모의 전쟁 상황에서도 빈번히 일어난다. 일례로, 산이나 바다에서 실종된 사람을 빠르게 찾아 구조하는 탐색 구조 작전(Search And Rescue; SAR)은 적잖이 필요하다. 산악-시가지-전투-공중-해양 등 다양한 상황과 환경에서 탐색 구조 작전을 수행하게 된다. 만약, 당신이 세월호 사건을 기억한다면, 신속하고 효과적인 대응이 필수적이라는 것을 깨달을 수 밖에 없을 것이다. 미 연안 경비대의 경우, SAR 작전이야 말로 자신의 가장 오래된 임무 중 하나이자, 반드시 최우선적으로 다루게 되는 상황임을 명시하고 있다.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/4.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;최근 북한은 잠수함에 탑재할 수 있는 대륙 간 탄도미사일인 SLBM(Submarine-Launched Ballistic Missile)을 개발하고 있다. 우리나라의 영토 뿐만 아니라, 미국을 포함한 우호국들의 영토까지 위협할 수 있는 것이다. 또한, 은닉에 능한 잠수함 플랫폼을 고려했다는 점 또한 상황을 절망적으로 만든다. 바다에서 잠수함을 찾아 선제적으로 예방한다는 것, 이 일은 바로 “모래사장에서 바늘찾기”다. 그런데, 이러한 절망적인 사건이 과거에 해결된 적이 있다! 이 사례들을 직접 확인해보고 앞으로 개발할 탐색 작전의 가능성을 파악해보자.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;1-서론&quot;&gt;1. 서론&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-국방백서-2022&quot;&gt;(1) 국방백서 2022&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/5.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;우리나라 국방백서 2022에 따르면, 북한의 변화하는 정세-특히 5대 국방과제-에 따라 증가하는 핵 미사일 위협에 대응하고자 준비하고 있다. 발사의 전후를 대비하는 발사의 왼편 및 오른편 전략과 함께, 미국과 일본과 연합 작전을 수행하며 가용한 감시정찰 자산을 추가 편입하려고 노력하고 있다. 그러나, 현재 진행 중인 우크라이나-이스라엘 전쟁이나 러시아-우크라이나 전쟁으로 핵문턱이 낮아질 뿐만 아니라, 비핵화의 의미마저 퇴색해버리게 되었다. 북한은 지속적으로 SLBM과 잠수함 기술을 고도화하여 최소억제전략에서 제한억제전략으로 그 강도와 위협을 키우고 있다. 전문가들은 우리나라가 소위 “핵 인질”로 잡혀, 사회-경제-문화적으로 다양한 피해를 겪게 될 것이라고 우려하고 있다.&lt;/p&gt;
-
-&lt;p&gt;우리 국군은 Kill Chain-KAMD-KMPR의 3축 체계를 활용하여 이에 대응하고자 준비하고 있다. Kill Chain과 KAMD를 통해 사전에 핵미사일을 추격해 무력화할 수 있음을 과시하는 “거부적 억제” 전략을 취하는 셈인 것이다. KMPR은 북한의 핵공격에 대한 대규모 응징 보복을 경고하는 “응징적 억제” 전략을 취하고 있다. 그런데 북한은 은밀성과 생존성이 높은 잠수함 및 SLBM 기술 개발에 매진하고 있다. ICBM보다도 훨씬 더 위협적인 SLBM에 대해서도 과연 이 3축 체계가 잘 대응할 수 있을까?&lt;/p&gt;
-
-&lt;h3 id=&quot;2-북한의-잠수함-및-핵미사일-제원&quot;&gt;(2) 북한의 잠수함 및 핵미사일 제원&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/6.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;한편, 북한은 러시아, 중국 등의 주요 우호국 등으로부터 잠수함 건조 기술을 받거나 역설계하는 방식으로 기술을 고도화 해왔다. 시기 순으로 보면, 위스키급→로미오급→상어급→유고급으로 발전해 왔다. 그러나 이들 모두 소형 디젤 잠수함으로 소음이 크고, 경량화된 SLBM을 탑재하기엔 체급이 작다. 북한의 SLBM은 주로 신포급이나, 현재 개발 중인 것으로 추정되는 원자력추진잠수함에 탑재가 가능하다. (북한의 탄도미사일 경량화 기술은 세계 정상급인 것으로 추정된다.) 북한은 내부적으로 잠수함 및 핵미사일 기술 개발에 총력을 다하고 있다고 알려져 있다.&lt;/p&gt;
-
-&lt;p&gt;현재 개발된 핵미사일은 사거리 15,000Km로 추정되며, 우리나라는 물론 미국 일부와 본토까지 사정거리에 있는 것으로 판단된다. 탄도 미사일의 특성 상 타겟 주변에서 아주 탄속이 빠르고 RCS(RADAR Cross Section)가 아주 낮기 때문에 탐지가 매우 어렵다. 북한은 2017년에 이르러 SLBM의 수중 사출 시험에 성공하고 실제 전력화하여 운용 중에 있는 것으로 알려져 있다.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-대잠전의-중요성&quot;&gt;(3) 대잠전의 중요성&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/7.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;이처럼, SLBM은 한반도 뿐만 아니라 지구 상의 모든 국가에 큰 위협이 되고 있다. 이에 따라, SLBM에 대응하기 위해서는 발사 전에 감시 정찰 자산으로 수집한 정보를 효과적으로 운영하여 발사 직전과 직후의 태세를 확립하는 것의 필요성이 대두되고 있다. 대잠전은 주로 잠수함, 구축함, 초계기 등의 정찰 자산을 운용하게 되며, 교리 상 7단계로 구성된다: 탐색→탐재→식별→추적→지휘→결심→대응. 북한-중국-러시아의 대륙 세력에 대응하기 위해, 한국-미국-일본의 해양 세력의 연합하게 되었다. 실제 2016년부터 대잠전에 대응하기 위한 각국의 감시 정찰 자산 간의 합동 훈련이 이루어지고 있다. 우리 국군의 경우, 부족한 감시 정찰 자산을 확보하기 위해 중장기적으로 차기 구축함과 잠수함 기술 고도화에 매진하고 있으며, 미래도전적 성격을 지닌 무인잠수정 등의 기술 확보에도 관심을 드러내고 있는 것으로 알려져 있다.&lt;/p&gt;
-
-&lt;p&gt;고도화된 잠수함 및 SLBM 기술에 따라, 대잠전의 중요성은 나날이 격상하고 있다. 더욱이 지휘통제 관점에서도 수집한 정보를 바탕으로 보다 효과적인 작전 운용을 위한 실질적 교리 개편이 필요할 것이다. 그러나, 단순히 감시정찰 자산의 규모를 늘리거나 많은 양의 정보를 수집하는 것은 위험하다. 우리는 이렇게 획득한 자산과 정보를 통해 효과적인 의사결정을 어떻게 할 것인지 고려할 필요가 있다. 미국의 C4ISR(Command-Control-Communication-Computer, Intelligence, Surveillance &amp;amp; Reconnaisance)의 관점에서 4차 산업 혁명에 따른 진보된 기술을 활용하는 것이 중요할 것으로 보인다.&lt;/p&gt;
-
-&lt;h2 id=&quot;2-본론&quot;&gt;2. 본론&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-제2차-세계대전-시기-koopman의-u-보트-탐색-작전&quot;&gt;(1) 제2차 세계대전 시기, Koopman의 U-보트 탐색 작전&lt;/h3&gt;
-
-&lt;table&gt;
- &lt;tr&gt;
-    &lt;p align=&quot;center&quot;&gt;
-        &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/8.1.png&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
-        &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/8.2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;/p&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;
-  Koopman은 당대 최고의 과학자이자 석학으로, 독일군의 U-보트를 탐색하기 위한 “탐색 이론(Search Theory)”이라는 이론체계를 정립하였다. 이 연구는 현대의 운용 과학(Operation Research)으로 이어진다. 이 분야는 효율적인 의사결정을 지원하기 위한 수학적 기법들을 다루며, 주로 통계학과 수리 모델을 주로 연구한다. 그가 세운 이론체계는 정지 물체를 대상으로 하며, 주로 세 가지 유형의 탐색이론을 정립했다.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-1966년-팔로마레스-탐색-작전&quot;&gt;(2) 1966년 팔로마레스 탐색 작전&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/9.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;냉전 시기, 미국의 전략 폭격기 B-52가 수소 폭탄 4기를 탑재하여 24시간 북극해 상공을 비행하는 크롬 돔(Chrome Dome) 작전이 수행되었다. 이 때, 공중 급유를 하던 폭격기가 급유 호스에 맞아 폭발해 수소 폭탄을 소실한 사건이 일어났다. 소실된 4기 중 3기는 곧바로 찾았으나 나머지 1기를 잃어버렸고, 이를 찾는 탐색 작전이 수행되었다. 당시 해군 소속 민간인 과학자였던 Craven이 프로젝트를 맡았고, 도움을 받고자 Daniel Wagner와 그의 조수 Henry Richardson이 투입되었다. 그러나, 실질적인 문제 해결에는 큰 도움을 주지 못한 채 스페인의 한 토마토 농장에서 파손된 폭탄을 찾게 된다.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-1968년-uss-scorpion-탐색-작전&quot;&gt;(3) 1968년 USS Scorpion 탐색 작전&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/10.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;냉전 시기, 심해 잠수함 체계 프로젝트를 진행하던 중 미 해군 소속의 잠수함 USS Scorpion이 사라지는 사건이 발생했다. 이에 Henry Richardson과 Lawrence D. Stone이 투입되어 맨해튼 프로젝트에서 개발된 Monte-Carlo Sampling 기법과 해류를 고려하여 문제를 해결하였다. 이후 Lawrence D. Stone은 “최적 탐색 이론(Optimal Search Theory)”을 정립하게 된다.&lt;/p&gt;
-
-&lt;h3 id=&quot;4-1976년-us-voge-호와-소련-k-22-충돌-사건&quot;&gt;(4) 1976년 US Voge 호와 소련 K-22 충돌 사건&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/11.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;훗날 미 해군의 지중해 사령관이 되는 Nicholson은 Henry Richardson에게 의뢰하여, 지중해에서 소련의 잠수함을 탐색 및 탐지하는 대잠수함 작전을 수행하게 된다. 과거 사례로부터 기술을 확보한 Richardson은 컴퓨터를 활용해 실시간으로 데이터를 업데이트하는 프로그램을 개발하였고, US Voge 호를 통해 탐색 및 탐지에 성공하게 된다. 잠수함은 플랫폼 상 대잠함에 비해 속도가 낮으므로 도망치는 것이 불가능했고, 소련의 K-22 잠수함은 US Voge에 충돌하여 나포하게 된다.&lt;/p&gt;
-
-&lt;h3 id=&quot;5-2009년-에어-프랑스-aff447기-실종-사건&quot;&gt;(5) 2009년 에어 프랑스 AFF447기 실종 사건&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/12.png&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;2009년 브라질 리오 데 자네이루에서 출발하여 프랑스 파리로 향한 AFF447기가 실종되는 사건이 발생한다. 이에 Lawrence D. Stone이 창업한 Metron Inc.에서 탐색 작전을 수행하여 해결한 사건 이다. 전문가로부터 자문을 구해 다양한 시나리오 세트를 구성하고, 각 시나리오의 가중치를 고려하여 확률을 업데이트하는 형태로 기술을 개발했다. 이후, 진행되고 있는 탐색 작전의 결과를 바탕으로 업데이트하여 작전 실무자들의 의사결정을 지원하였다.&lt;/p&gt;
-
-&lt;h3 id=&quot;6-2013년-미-연안-경비대의-탐색구조-자동화-프로그램-개발&quot;&gt;(6) 2013년 미 연안 경비대의 탐색구조 자동화 프로그램 개발&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/13.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;해안가에서 자국의 인명 혹은 자산이 실종된 경우, 이를 빠르게 탐색하여 구조하는 SAR(Search and Rescue) 작전은 미 연안 경비대의 가장 오래되고 중요도 높은 작전이다. 과거 Discenza로부터 CASP라는 자동화된 프로그램이 제안되어 왔고, 2013년에 이르러 해류의 실시간 흐름을 반영하는 SAROPS라는 프로그램이 개발되었다. 본 프로그램은 대개 12시간 내로 실종자를 찾아내며, 아주 높은 성능을 보이는 것으로 알려져 있다. 탐색 구역이 아무리 광활하더라도, 사전정보와 해류를 통해 최적의 탐색 작전을 제안한다.&lt;/p&gt;
-
-&lt;h2 id=&quot;3-결론&quot;&gt;3. 결론&lt;/h2&gt;
-
-&lt;p&gt;북한의 대표적인 비대칭전력인 SLBM 기술이 고도화되고, 은밀성과 생존성이 높은 잠수함 기술이 발전함에 따라 우리 한반도 뿐만 아니라 전세계가 “핵 인질”의 스트레스를 감내해야 하는 상황이 도래했다. 우리나라는 3축 체계뿐만 아니라, 미국-일본과의 연합 작전을 통해 위기를 극복하고자 노력하고 있다. 그러나, 실질적인 위기 극복은 현실적인 방안과 뛰어난 기술이 필요함에 틀림없다.&lt;/p&gt;
-
-&lt;p&gt;대잠전에 있어 잠수함 탐색은 “모래 사장에서 바늘 찾기”에 가까운 것이 분명하다. 그러나, 현재까지 이루어진 노력과 앞으로 대응하게 될 정보들, 연합군을 통해 수집한 주요 정보 자산은 핵심적인 기술을 개발하는 데에 큰 힘이 될 것이다. 과거 세계 대전 및 냉전 시기, 근현대의 역사를 통해 그 가능성이 입증되었다. 선행 연구는 SLBM 탑재 잠수함에 대응하는 대잠전이 “그렇게까지 불가능하진 않을 것 같다”는 통찰을 제공한다.&lt;/p&gt;
-
-&lt;p&gt;최적 탐색 기술은 실질적인 문제 해결보다, 지휘통제 관점에서 보다 효율적인 의사결정을 지원한다는 점에 관련되어 있다. 기계학습 및 IoT, AI 등의 기술이 접목된 사례도 극히 적어, 관련 기술을 확보한다면 미래 전장의 큰 위협을 다루게 될 수 있을 것을 기대한다.&lt;/p&gt;
-</description>
-                <pubDate>Wed, 01 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/meditation/Find-a-missing-submarine-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/meditation/Find-a-missing-submarine-kr/</guid>
-                
-                <category>의사결정 이론</category>
-                
-                <category>인공지능</category>
-                
-                <category>무기체계</category>
-                
-                
-                <category>Meditation</category>
-                
-            </item>
-        
-            <item>
-                <title>Find the Missing Submarine</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Find the Missing Submarine: Focusing on North Korea’s Nuclear Threats and the Importance of Anti-Submarine Warfare&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/1.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Modern art performance by Italian artist Sven Sachsalber - Finding a needle in a haystack&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;In Korea, there is a saying, “Searching for a needle in a sand dune,” akin to the English phrase, “Looking for a needle in a haystack.” Both expressions illustrate the daunting task of finding something nearly impossible. The striking similarity in these expressions from different cultures highlights a common understanding of the absurdity in pursuing such tasks.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;In our daily lives, situations often arise that feel as hopeless as these proverbial searches. Imagine you’ve had a heavy night of drinking, and upon waking, you realize you’ve overslept and are late for work. Your car keys are nowhere to be found, and you can’t recall where you left them. How do you find them? Or consider a more serious scenario: you’ve taken your child to a crowded amusement park, and in the throng of people, you lose their hand. How would you go about finding your child?&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/3.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Tasks that seem nearly impossible don’t only occur in everyday life but also on a societal and national scale, particularly in warfare. For instance, search and rescue (SAR) operations are crucial for locating and saving individuals lost in mountains or at sea. These operations span diverse environments, including urban settings, battlefields, air, and sea. If you recall the Sewol Ferry disaster, you’ll understand the vital importance of swift and effective responses. For the U.S. Coast Guard, SAR missions are among the oldest and most critical duties they perform.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/4.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Recently, North Korea has been developing submarine-launched ballistic missiles (SLBMs), capable of carrying intercontinental ballistic missiles. These pose a threat not only to South Korea but also to allied territories, including the United States. The fact that these missiles can be launched from hidden submarines makes the situation even more dire. Searching for and preemptively neutralizing a submarine in the vast ocean is truly a “needle in a haystack” situation. However, history shows that such desperate situations have been overcome before. Let’s explore these cases and consider the potential for future search operations.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;1-introduction&quot;&gt;1. Introduction&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-the-2022-defense-white-paper&quot;&gt;(1) The 2022 Defense White Paper&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/5.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;According to South Korea’s 2022 Defense White Paper, preparations are underway to counter the escalating nuclear missile threats posed by North Korea, particularly concerning the five major defense tasks. In response, South Korea is enhancing surveillance and reconnaissance assets in collaboration with the U.S. and Japan, focusing on pre- and post-launch strategies. However, ongoing conflicts, such as the Ukraine-Israel and Russia-Ukraine wars, have lowered the nuclear threshold and diminished the significance of denuclearization. North Korea continues to advance its SLBM and submarine technologies, shifting from a minimal deterrence strategy to a limited deterrence strategy, heightening the threat level. Experts warn that South Korea could be held “nuclear hostage,” suffering various socio-economic and cultural impacts.&lt;/p&gt;
-
-&lt;p&gt;South Korea’s military is preparing to counter these threats through the Kill Chain, KAMD, and KMPR three-axis systems. The Kill Chain and KAMD aim to showcase a “denial deterrence” strategy by preemptively tracking and neutralizing nuclear missiles. The KMPR warns of massive retaliatory strikes in response to North Korean nuclear attacks, a “punitive deterrence” strategy. However, North Korea is focusing on developing submarines and SLBM technologies with high stealth and survivability. Can the three-axis system effectively counter the more threatening SLBM?&lt;/p&gt;
-
-&lt;h3 id=&quot;2-specifications-of-north-koreas-submarines-and-nuclear-missiles&quot;&gt;(2) Specifications of North Korea’s Submarines and Nuclear Missiles&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/6.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;North Korea has advanced its submarine technology through reverse engineering and assistance from major allies like Russia and China. Historically, this development has progressed from the Whiskey-class to the Romeo-class, the Shark-class, and the Yugo-class. However, all of these are small diesel submarines, noisy and too small to carry lightweight SLBMs. North Korea’s SLBMs are mainly deployed on the Sinpo-class submarines or possibly on nuclear-powered submarines currently under development. (North Korea’s missile miniaturization technology is believed to be world-class.) It is reported that North Korea is fully committed to advancing its submarine and nuclear missile technologies.&lt;/p&gt;
-
-&lt;p&gt;The currently developed nuclear missiles are estimated to have a range of 15,000 km, potentially threatening not only South Korea but also parts of the U.S. mainland. The ballistic nature of these missiles, coupled with their high speed and low radar cross-section (RCS), makes detection extremely difficult. By 2017, North Korea successfully tested the underwater launch of an SLBM and has since operationalized it.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-the-importance-of-anti-submarine-warfare&quot;&gt;(3) The Importance of Anti-Submarine Warfare&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/7.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;SLBMs pose a significant threat not only to the Korean Peninsula but to all nations globally. Therefore, to counter SLBMs, it is crucial to effectively use surveillance and reconnaissance assets to establish pre- and post-launch readiness. Anti-submarine warfare (ASW) typically involves using submarines, destroyers, and patrol aircraft, and is structured in seven stages: detection, classification, identification, tracking, command, decision, and response. To counter the continental powers of North Korea, China, and Russia, the maritime powers of South Korea, the U.S., and Japan have formed an alliance. Since 2016, joint exercises have been conducted to counter ASW. To address the shortage of reconnaissance assets, the South Korean military is focusing on developing next-generation destroyers and submarines while also showing interest in future-oriented technologies like unmanned underwater vehicles.&lt;/p&gt;
-
-&lt;p&gt;As submarine and SLBM technologies become more advanced, the importance of ASW continues to rise. Moreover, from a command and control perspective, it is necessary to overhaul existing doctrines to ensure the effective use of collected information for more efficient operations. However, merely increasing the scale of reconnaissance assets or collecting vast amounts of information is risky. We must consider how to make effective decisions based on these assets and information. Leveraging advanced technologies from the Fourth Industrial Revolution within the U.S. C4ISR (Command, Control, Communication, Computer, Intelligence, Surveillance, &amp;amp; Reconnaissance) framework will be crucial.&lt;/p&gt;
-
-&lt;h2 id=&quot;2-main-body&quot;&gt;2. Main Body&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-koopmans-u-boat-search-operations-during-world-war-ii&quot;&gt;(1) Koopman’s U-Boat Search Operations during World War II&lt;/h3&gt;
-
-&lt;table&gt;
- &lt;tr&gt;
-    &lt;p align=&quot;center&quot;&gt;
-        &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/8.1.png&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
-        &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/8.2.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;/p&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;
-  Koopman, a leading scientist of his time, established “Search Theory” to locate German U-boats during World War II. This research laid the foundation for modern Operations Research, a field that supports efficient decision-making through mathematical techniques, primarily involving statistics and mathematical modeling. Koopman’s theory focused on stationary targets and established three primary types of search theories.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-the-1966-palomares-search-operation&quot;&gt;(2) The 1966 Palomares Search Operation&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/9.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;During the Cold War, the U.S. carried out the Chrome Dome operation, where B-52 strategic bombers carrying four hydrogen bombs flew over the Arctic Ocean 24 hours a day. During one of these missions, a refueling mishap caused an explosion, resulting in the loss of the bombs. While three bombs were quickly recovered, one remained missing, prompting a search operation. The project was led by Craven, a civilian scientist with the Navy, with assistance from Daniel Wagner and his assistant Henry Richardson. However, the operation’s success was limited, ultimately leading to the discovery of the damaged bomb in a Spanish tomato field.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-the-1968-uss-scorpion-search-operation&quot;&gt;(3) The 1968 USS Scorpion Search Operation&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/10.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;During the Cold War, while working on a deep-sea submarine system project, the U.S. Navy’s submarine USS Scorpion disappeared. Henry Richardson and Lawrence D. Stone were brought in to solve the problem using the Monte Carlo Sampling method and ocean current analysis, developed during the Manhattan Project. Lawrence D. Stone later established the “Optimal Search Theory.”&lt;/p&gt;
-
-&lt;h3 id=&quot;4-the-1976-collision-between-us-voge-and-soviet-k-22&quot;&gt;(4) The 1976 Collision between US Voge and Soviet K-22&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/11.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Nicholson, who would later become the U.S. Navy’s Mediterranean Commander, requested Henry Richardson’s help in an ASW operation to search for and detect Soviet submarines in the Mediterranean. Using techniques developed from past cases, Richardson created a program that updated data in real-time using computers. The operation, conducted by the USS Voge, successfully detected and tracked a Soviet K-22 submarine. Unable to outrun the destroyer, the submarine collided with the USS Voge and was captured.&lt;/p&gt;
-
-&lt;h3 id=&quot;5-the-2009-air-france-flight-aff447-search-operation&quot;&gt;(5) The 2009 Air France Flight AFF447 Search Operation&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/12.png&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;In 2009, Air France Flight AFF447, en route from Rio de Janeiro to Paris, went missing. Metron Inc., founded by Lawrence D. Stone, was tasked with conducting the search operation. They developed a technique by consulting experts, constructing various scenario sets, and updating probabilities based on the weight of each scenario. The search results were then used to support decision-making by operation personnel.&lt;/p&gt;
-
-&lt;h3 id=&quot;6-the-us-coast-guards-automated-search-and-rescue-program-in-2013&quot;&gt;(6) The U.S. Coast Guard’s Automated Search and Rescue Program in 2013&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-01-Find a missing submarine/13.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;When people or assets are lost near the coast, finding and rescuing them quickly is a top priority for the U.S. Coast Guard. An automated program called CASP was proposed by Discenza and later developed into the SAROPS program in 2013, which incorporates real-time ocean current data. This program is known for its high performance, typically locating missing persons within 12 hours, no matter how vast the search area. By combining pre-existing information with ocean currents, the program proposes optimal search strategies.&lt;/p&gt;
-
-&lt;h2 id=&quot;3-conclusion&quot;&gt;3. Conclusion&lt;/h2&gt;
-
-&lt;p&gt;As North Korea continues to advance its SLBM technology and develop submarines with high stealth and survivability, not only South Korea but the entire world is under the stress of being “nuclear hostages.” South Korea is striving to overcome this crisis through its three-axis system and joint operations with the U.S. and Japan. However, practical solutions and advanced technologies are crucial for effectively overcoming these threats.&lt;/p&gt;
-
-&lt;p&gt;Anti-submarine warfare is akin to “finding a needle in a haystack.” However, the efforts made thus far, the information to be gathered in the future, and the key intelligence assets collected through allied forces will be instrumental in developing crucial technologies. The possibility has been proven through past world wars, the Cold War, and modern history. Preliminary research suggests that responding to SLBM-equipped submarines in ASW may not be as impossible as it seems.&lt;/p&gt;
-
-&lt;p&gt;Optimal search technology is more about supporting effective decision-making from a command and control perspective than solving practical problems. Given the few cases where machine learning, IoT, and AI have been integrated into these systems, securing these technologies could enable us to address significant threats in future warfare.&lt;/p&gt;
-</description>
-                <pubDate>Wed, 01 Nov 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/meditation/Find-a-missing-submarine-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/meditation/Find-a-missing-submarine-en/</guid>
-                
-                <category>Decision Theory</category>
-                
-                <category>AI</category>
-                
-                <category>Weapon Systems</category>
-                
-                
-                <category>Meditation</category>
-                
-            </item>
-        
-            <item>
-                <title>아마리 슌이치, &quot;뇌, 마음, 인공지능&quot;</title>
-                <description>&lt;style&gt;
-   .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-   }
-
-   .image-wrapper {
-      width: 48%;
-      margin: 1%;
-      box-sizing: border-box;
-      text-align: center;
-   }
-
-   .image-wrapper img {
-      width: 100%;
-      height: auto;
-      display: block;
-   }
-
-   .image-wrapper figcaption {
-      font-family: Arial, sans-serif;
-      font-size: 14px;
-      color: #555;
-      margin-top: 8px;
-   }
-
-   @media (max-width: 768px) {
-      .image-wrapper {
-            width: 100%;
-      }
-   }
-&lt;/style&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://product.kyobobook.co.kr/detail/S000001732224&quot;&gt;뇌, 마음, 인공지능&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;저자: &lt;a href=&quot;https://en.wikipedia.org/wiki/Shun%27ichi_Amari&quot;&gt;아마리 슌이치&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;아마리 슌이치의 “뇌, 마음, 인공지능”을 읽고 기억에 남는 부분을 정리한 내용이다. 아마리 슌이치는 이 책에서 딥러닝 발전의 초기, 자신의 업적에 대해 많이 알려지지 않은 점에 대해 아쉬움을 표현하고 있다. 도쿄대학교의 수리공학과 출신의 그는, 아주 오래 전부터 통계역학과 정보 기하학 등의 첨단 이론을 활용해 인공지능을 연구해 왔다. 그에 대한 공로로 일본 최고의 연구 기관 RIKEN의 수석 연구원으로 재직해왔다. 이 책은 뇌의 구조와 기능, 그리고 인공지능의 발전에 대해 깊이 있는 통찰을 제공한다.&lt;/p&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;container&quot;&gt;
-        &lt;figure class=&quot;image-wrapper&quot;&gt;
-            &lt;img src=&quot;/assets/images/posts/2023/Q3/2023-09-23-Brain, Mind, and AI/author.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-            &lt;figcaption&gt;저자인 아마리 슌이치&lt;/figcaption&gt;
-        &lt;/figure&gt;
-        &lt;figure class=&quot;image-wrapper&quot;&gt;
-            &lt;img src=&quot;/assets/images/posts/2023/Q3/2023-09-23-Brain, Mind, and AI/main.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-            &lt;figcaption&gt;본 책: 뇌, 마음, 인공지능&lt;/figcaption&gt;
-        &lt;/figure&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;h2 id=&quot;2장-뇌란-무엇인가&quot;&gt;2장. 뇌란 무엇인가&lt;/h2&gt;
-
-&lt;p&gt;이 장에서는 뇌의 신경생리학적 구조와 세부 기능을 설명한다. 뇌는 약 1000억 개의 뉴런으로 이루어진 거대한 회로망으로, 무게는 약 1.4kg, 부피는 1400cc 정도이다.&lt;/p&gt;
-
-&lt;h3 id=&quot;1-뇌간&quot;&gt;1. 뇌간&lt;/h3&gt;
-
-&lt;p&gt;뇌간은 생명 유지의 기본적인 장치로, 호흡과 같은 자율신경 기능을 제어한다. 또한, 수면과 각성을 조절하며 외부에서 대뇌로 들어오는 정보와 대뇌에서 외부로 나가는 정보의 경로가 된다.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-소뇌&quot;&gt;2. 소뇌&lt;/h3&gt;
-
-&lt;p&gt;소뇌는 뇌의 10% 정도에 불과한 무게를 차지하지만, 약 800억 개의 뉴런을 가지고 있어 뇌에서 뉴런이 가장 많은 부위다. 주로 지각과 운동 제어를 담당하며, 대뇌와 협력해 정교한 움직임을 조절한다. 대뇌에서 오랜 시간 학습된 운동 기능은 소뇌로 이동해 루틴화되며, 이를 통해 더욱 빠르고 효율적으로 처리된다.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-대뇌&quot;&gt;3. 대뇌&lt;/h3&gt;
-
-&lt;p&gt;대뇌는 뇌에서 가장 늦게 발달한 부위다. 대뇌피질, 대뇌기저핵, 해마, 편도체로 구성되어 있으며, 약 200억 개의 뉴런으로 이루어져 있다. 인지, 사고, 언어, 운동 계획과 제어, 기억 등 고차원적인 정신 기능을 담당하며, 이 모든 것이 대뇌에서 이루어진다. 대뇌피질은 약 2000~2500cm²의 표면적을 가지며, 두께는 2~3mm로 매우 얇다. 이 얇은 층은 6개의 층으로 구성되어 있으며, 각각이 기둥 형태의 컬럼을 이루고 있다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;IT-MPC에서 Optimal Input이 대뇌-소뇌의 운동 기능 상호작용과 어떤 연관이 있을까?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;5장-수학으로-뇌를-해석한다&quot;&gt;5장. 수학으로 뇌를 해석한다&lt;/h2&gt;
-
-&lt;p&gt;이 장에서는 뇌의 학습 메커니즘에 대해 다룬다. 뇌의 신경 회로를 조사해 보면, 학습을 위해 오차가 회로의 역방향으로 흘러가는 ‘오차 역전파’ 현상은 관찰되지 않는다. 그렇다면 퍼셉트론의 학습이 뇌의 구조와 전혀 다른 것일까?&lt;/p&gt;
-
-&lt;p&gt;완전히 그렇다고 말하기는 어렵다. 확률강하학습법은 학습 정보 처리의 원리를 알고리즘으로 표현한 것이다. 뇌는 이 원리를 실체화하지 못했을 수도 있다. 따라서 퍼셉트론 학습이 뇌의 구조와 완전히 동떨어진 것이라고 할 수는 없다.&lt;/p&gt;
-
-&lt;h2 id=&quot;6장-인공지능의-역사와-미래&quot;&gt;6장. 인공지능의 역사와 미래&lt;/h2&gt;
-
-&lt;p&gt;IBM은 뉴로 계산에 본격적으로 참여하기 시작했으며, 미국 국방성의 DARPA가 주도한 “SyNAPSE” 프로그램을 통해 신경 회로를 칩으로 만드는 프로젝트를 추진했다. 이를 바탕으로 IBM은 “TrueNorth”라는 뉴로칩을 개발하는 데 성공했다.&lt;/p&gt;
-
-&lt;p&gt;이 뉴로칩은 100만 개의 뉴런과 2억 5600만 개의 시냅스를 포함하고 있으며, 소비 전력은 겨우 70mW에 불과하다. 이 칩을 여러 개 연결하면 4800만 개의 뉴런과 120억 개의 시냅스로 구성된 시스템이 완성되는데, 이는 생쥐의 뇌에 필적한다고 한다.&lt;/p&gt;
-
-&lt;h2 id=&quot;읽고-나서&quot;&gt;읽고 나서&lt;/h2&gt;
-
-&lt;p&gt;책 “인간 vs 인공지능”에서도 다루었듯이, 현대의 계산 장치는 인간의 정신 현상과는 본질적으로 다른 면이 있다. 그 중에서도 가장 큰 차이는 물리적 특성일 것이다. 어떻게 그렇게 작은 부피와 면적으로 컴퓨터가 풀지 못하는 생존 문제를 해결하고, 생활 경험을 이어나가는지 궁금해진다. 이 복잡성과 에너지 효율성은 과학과 공학적으로 어떻게 접근할 수 있을까? 인공지능의 미래는 하드웨어에 달려 있을지도 모른다. 두뇌에서 일어나는 한 가지 현상의 모방만으로도 현대 공학과 사회를 크게 변화시킨 것처럼, 과학의 힘과 상상력의 파급 효과는 경험해보기 전까지는 아무도 알 수 없다는 생각이 든다.&lt;/p&gt;
-</description>
-                <pubDate>Sat, 23 Sep 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Brain,-Mind,-and-AI-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Brain,-Mind,-and-AI-kr/</guid>
-                
-                <category>두뇌</category>
-                
-                <category>계산장치</category>
-                
-                <category>신경과학</category>
-                
-                <category>정보이론</category>
-                
-                <category>인공지능</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>Shun&apos;ichi Amari, &quot;Brain, Mind, and AI&quot;</title>
-                <description>&lt;style&gt;
-   .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-   }
-
-   .image-wrapper {
-      width: 48%;
-      margin: 1%;
-      box-sizing: border-box;
-      text-align: center;
-   }
-
-   .image-wrapper img {
-      width: 100%;
-      height: auto;
-      display: block;
-   }
-
-   .image-wrapper figcaption {
-      font-family: Arial, sans-serif;
-      font-size: 14px;
-      color: #555;
-      margin-top: 8px;
-   }
-
-   @media (max-width: 768px) {
-      .image-wrapper {
-            width: 100%;
-      }
-   }
-&lt;/style&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://product.kyobobook.co.kr/detail/S000001732224&quot;&gt;Brain, Mind, and AI&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Author: &lt;a href=&quot;https://en.wikipedia.org/wiki/Shun%27ichi_Amari&quot;&gt;Shun’ichi Amari&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;This is a summary of the key points that stood out to me while reading Shun’ichi Amari’s “Brain, Mind, and AI.” Amari, a pioneer in AI research, reflects on the early days of deep learning and his contributions, which remain relatively unknown to many. With a background in mathematical engineering from the University of Tokyo, he has been at the forefront of AI research, utilizing advanced theories like statistical mechanics and information geometry. This book offers deep insights into the structure and function of the brain, as well as the progress of artificial intelligence.&lt;/p&gt;
-
-&lt;div class=&quot;container&quot;&gt;
-   &lt;figure class=&quot;image-wrapper&quot;&gt;
-      &lt;img src=&quot;/assets/images/posts/2023/Q3/2023-09-23-Brain, Mind, and AI/author.jpg&quot; alt=&quot;Image 1&quot; /&gt;
-      &lt;figcaption&gt;Author Shun&apos;ichi Amari&lt;/figcaption&gt;
-   &lt;/figure&gt;
-   &lt;figure class=&quot;image-wrapper&quot;&gt;
-      &lt;img src=&quot;/assets/images/posts/2023/Q3/2023-09-23-Brain, Mind, and AI/main.jpg&quot; alt=&quot;Image 2&quot; /&gt;
-      &lt;figcaption&gt;The book: Brain, Mind, and AI&lt;/figcaption&gt;
-   &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;chapter-2-what-is-the-brain&quot;&gt;Chapter 2: What is the Brain?&lt;/h2&gt;
-
-&lt;p&gt;This chapter explores the neurophysiological structure and functions of the brain. The brain is a vast network of approximately 100 billion neurons, weighing about 1.4kg and occupying a volume of 1400cc.&lt;/p&gt;
-
-&lt;h3 id=&quot;1-brainstem&quot;&gt;1. Brainstem&lt;/h3&gt;
-
-&lt;p&gt;The brainstem serves as the fundamental life-support system, controlling autonomic functions like breathing. It also regulates sleep and wakefulness, acting as a conduit for information traveling to and from the cerebrum.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-cerebellum&quot;&gt;2. Cerebellum&lt;/h3&gt;
-
-&lt;p&gt;Although the cerebellum makes up only about 10% of the brain’s weight, it contains around 80 billion neurons, making it the most neuron-dense part of the brain. It primarily manages perception and motor control, working in concert with the cerebrum to coordinate precise movements. Over time, learned motor functions in the cerebrum are transferred to the cerebellum, where they become routine, allowing for faster and more efficient processing.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-cerebrum&quot;&gt;3. Cerebrum&lt;/h3&gt;
-
-&lt;p&gt;The cerebrum is the most recently developed part of the brain. Comprising the cerebral cortex, basal ganglia, hippocampus, and amygdala, it consists of around 20 billion neurons. The cerebrum is responsible for higher mental functions such as cognition, thought, language, motor planning and control, and memory. The cerebral cortex, with a surface area of about 2000-2500 cm² (roughly the size of a newspaper page) and a thickness of 2-3 mm, is made up of six layers that form columnar structures.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;How might Optimal Input in IT-MPC relate to the interaction between cerebrum and cerebellum in motor function?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;chapter-5-interpreting-the-brain-through-mathematics&quot;&gt;Chapter 5: Interpreting the Brain through Mathematics&lt;/h2&gt;
-
-&lt;p&gt;This chapter delves into the mechanisms of learning in the brain. Examination of neural circuits in the brain reveals that there is no observable ‘backpropagation of error’ in the brain as there is in artificial neural networks. So, is the learning mechanism of perceptrons completely different from that of the brain?&lt;/p&gt;
-
-&lt;p&gt;It’s not entirely different. The stochastic gradient descent method is an algorithmic expression of a principle in learning information processing. The brain might not have fully realized this principle, but that doesn’t mean the learning process in perceptrons is entirely unrelated to the brain’s structure.&lt;/p&gt;
-
-&lt;h2 id=&quot;chapter-6-the-history-and-future-of-artificial-intelligence&quot;&gt;Chapter 6: The History and Future of Artificial Intelligence&lt;/h2&gt;
-
-&lt;p&gt;IBM has seriously entered the field of neuromorphic computing. The U.S. Department of Defense’s DARPA led the “SyNAPSE” program, aiming to create neural circuits on a chip. IBM successfully developed the “TrueNorth” chip as part of this initiative.&lt;/p&gt;
-
-&lt;p&gt;This chip contains 1 million neurons and 256 million synapses, yet consumes only 70mW of power. When these chips are interconnected, they form a system with 48 million neurons and 12 billion synapses, which is comparable to the brain of a mouse.&lt;/p&gt;
-
-&lt;h2 id=&quot;reflections&quot;&gt;Reflections&lt;/h2&gt;
-
-&lt;p&gt;As discussed in “Human vs. AI,” modern computing devices are fundamentally different from human cognitive processes. The most striking difference lies in their physical characteristics. It’s intriguing how such a small volume and surface area can address survival problems and sustain life experiences that no computer could solve. How can we scientifically and engineeringly approach this complexity and energy efficiency? The future of AI might hinge on hardware advancements. Just as mimicking a single function of the brain has profoundly impacted modern engineering and society, the full potential of science and imagination is something we can only truly grasp once we experience it.&lt;/p&gt;
-</description>
-                <pubDate>Sat, 23 Sep 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Brain,-Mind,-and-AI-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Brain,-Mind,-and-AI-en/</guid>
-                
-                <category>Brain</category>
-                
-                <category>Computing</category>
-                
-                <category>Neuroscience</category>
-                
-                <category>Information Theory</category>
-                
-                <category>AI</category>
                 
                 
                 <category>Motivation</category>

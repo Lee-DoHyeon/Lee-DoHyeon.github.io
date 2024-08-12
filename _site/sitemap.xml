@@ -196,6 +196,166 @@
     </url>
     
     <url>
+        <loc>http://localhost:4000/meditation/Starting-Point-kr/</loc>
+        
+        <lastmod>2024-06-15T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/meditation/Starting-Point-en/</loc>
+        
+        <lastmod>2024-06-15T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/movement/You've-got-a-lot-on-your-mind-kr/</loc>
+        
+        <lastmod>2024-05-11T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/meditation/You've-got-a-lot-on-your-mind-en/</loc>
+        
+        <lastmod>2024-05-11T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/movement/CompNeuroSci-Winter-School-kr/</loc>
+        
+        <lastmod>2024-02-01T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/meditation/CompNeuroSci-Winter-School-en/</loc>
+        
+        <lastmod>2024-02-01T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/movement/KACS-x-KSCN-Meeting-copy-kr/</loc>
+        
+        <lastmod>2024-01-06T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/movement/KACS-x-KSCN-Meeting-copy-en/</loc>
+        
+        <lastmod>2024-01-06T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/movement/Meeting-with-Prof-Hong-kr/</loc>
+        
+        <lastmod>2024-01-05T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/movement/Meeting-with-Prof-Hong-en/</loc>
+        
+        <lastmod>2024-01-05T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/meditation/Mathematician-of-Mind-kr/</loc>
         
         <lastmod>2023-12-28T00:00:00+09:00</lastmod>
