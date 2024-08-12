@@ -1,5 +1,5 @@
 ---
-title: "유학 준비를 시작하며..."
+title: 내 안에 내가 너무도 많아
 scope:
   type: posts
 values:
@@ -16,8 +16,8 @@ category: Movement
 tags: [성찰, 유학, 돌아보기]
 lang: kr
 header:
-  teaser: "/assets/images/posts/2024/Q2/2024-06-15-Starting Point/0.jpg"
-image: assets/images/posts/2024/Q2/2024-06-15-Starting Point/0.jpg
+  teaser: "/assets/images/posts/2024/Q2/2024-05-11-You've got a lot on your mind/2.jpg"
+image: assets/images/posts/2024/Q2/2024-05-11-You've got a lot on your mind/2.jpg
 ---
 
 <style>

@@ -20,6 +20,34 @@ header:
 image: assets/images/posts/2024/Q3/2024-07-24-Bridging the gap between Subsymbolic and Symbolic Systems/sand2castle.jpg
 ---
 
+<style>
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: "Wanted Sans Variable", "Wanted Sans";
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+</style>
+
+<div class="centered-container">
+  <figure>
+    <img src="/assets/images/posts/2024/Q3/2024-07-24-Bridging the gap between Subsymbolic and Symbolic Systems/sand2castle.jpg" style="width: 50%; height: auto;">
+    <figcaption>
+      How does a sandcastle emerge from mere sand? What is the relationship between the sandcastle and the sand, and how does it relate to other structures?
+    </figcaption>
+  </figure>
+</div>
+
 Modern advancements in artificial intelligence and robotics have made significant progress in mimicking high-level human behaviors and decision-making. Particularly, Deep Reinforcement Learning (DRL) has succeeded in implementing complex behaviors that surpass traditional control problems. While Finite State Machines (FSM) were used in the past for robots performing games or simple tasks, Behavior Trees (BT) have become widely applied recently. This shift, along with technological advancements, presents new approaches to solving complex problems.
 
 Deep Reinforcement Learning indeed offers more possibilities than traditional control methods. This technology is being applied in real-world tasks, helping to solve various challenges we face. However, the complexity and learning processes of deep neural networks function like a black box, potentially causing inductive bias. Therefore, we must exercise caution when using sub-symbolic systems, such as artificial neural networks. Recent incidents related to Tesla's autonomous driving technology highlight these concerns, leading many countries to strengthen relevant legislation to enhance AI safety and reliability. Modern machines thus need more responsive and modular world models to address such issues effectively.

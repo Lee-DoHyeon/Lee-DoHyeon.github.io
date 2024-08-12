@@ -16,8 +16,8 @@ category: Movement
 tags: [Meeting, Study Abroad, Research, Future, Career]
 lang: en
 header:
-  teaser: "/assets/images/posts/2024/Q1/2024-01-05-Meeting with Prof Hong/research_perspective.png"
-image: assets/images/posts/2024/Q1/2024-01-05-Meeting with Prof Hong/research_perspective.png
+  teaser: "/assets/images/posts/2024/Q1/2024-01-05-Meeting with Prof Hong/neohuman.png"
+image: assets/images/posts/2024/Q1/2024-01-05-Meeting with Prof Hong/neohuman.png
 ---
 
 <style>

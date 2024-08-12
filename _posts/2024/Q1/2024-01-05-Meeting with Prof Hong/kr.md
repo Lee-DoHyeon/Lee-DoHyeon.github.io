@@ -16,8 +16,8 @@ category: Movement
 tags: [면담, 유학, 연구, 미래, 커리어]
 lang: kr
 header:
-  teaser: "/assets/images/posts/2024/Q1/2024-01-05-Meeting with Prof Hong/research_perspective.png"
-image: assets/images/posts/2024/Q1/2024-01-05-Meeting with Prof Hong/research_perspective.png
+  teaser: "/assets/images/posts/2024/Q1/2024-01-05-Meeting with Prof Hong/neohuman.png"
+image: assets/images/posts/2024/Q1/2024-01-05-Meeting with Prof Hong/neohuman.png
 ---
 
 <style>

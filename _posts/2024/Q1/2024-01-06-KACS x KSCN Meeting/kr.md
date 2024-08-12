@@ -39,7 +39,7 @@ image: assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/6.jpg
   }
 
   /* 새로 추가된 스타일 */
-  .ㅅtwo-fig-container {
+  .two-fig-container {
       display: flex;
       justify-content: center;
       align-items: flex-start;

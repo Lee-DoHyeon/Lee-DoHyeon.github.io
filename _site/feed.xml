@@ -5,8 +5,8 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 12 Aug 2024 17:39:02 +0900</pubDate>
-        <lastBuildDate>Mon, 12 Aug 2024 17:39:02 +0900</lastBuildDate>
+        <pubDate>Mon, 12 Aug 2024 18:42:22 +0900</pubDate>
+        <lastBuildDate>Mon, 12 Aug 2024 18:42:22 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
@@ -898,7 +898,35 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
         
             <item>
                 <title>기호의 경계를 넘나들며</title>
-                <description>&lt;p&gt;현대 인공지능과 로봇공학의 발전은 인간의 고차원적인 행동과 의사결정을 모사하는 데 큰 진전을 보이고 있다. 특히 심층 신경망 기반의 강화학습(Deep Reinforcement Learning, DRL)은 과거의 제어 문제를 뛰어넘는 복잡한 행동을 구현하는 데 성공했다. 기존에는 게임이나 단순 작업을 수행하는 로봇에 유한 상태 기계(Finite State Machine, FSM)를 사용했지만, 최근에는 행동 트리(Behavior Tree, BT)가 널리 적용되고 있다. 이러한 변화는 기술의 진보와 더불어 복잡한 문제 해결에 대한 새로운 접근 방식을 제시한다.&lt;/p&gt;
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-24-Bridging the gap between Subsymbolic and Symbolic Systems/sand2castle.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      모래에서 어떻게 모래성이 등장하는 것일까? 모래성은 모래와 어떤 관계를 맺고 있으며, 그것이 다른 구성체들과 갖는 관계는 무엇인가?
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;현대 인공지능과 로봇공학의 발전은 인간의 고차원적인 행동과 의사결정을 모사하는 데 큰 진전을 보이고 있다. 특히 심층 신경망 기반의 강화학습(Deep Reinforcement Learning, DRL)은 과거의 제어 문제를 뛰어넘는 복잡한 행동을 구현하는 데 성공했다. 기존에는 게임이나 단순 작업을 수행하는 로봇에 유한 상태 기계(Finite State Machine, FSM)를 사용했지만, 최근에는 행동 트리(Behavior Tree, BT)가 널리 적용되고 있다. 이러한 변화는 기술의 진보와 더불어 복잡한 문제 해결에 대한 새로운 접근 방식을 제시한다.&lt;/p&gt;
 
 &lt;p&gt;심층 신경망 기반의 강화학습은 확실히 기존 제어 방식보다 더 많은 가능성을 제공한다. 실제 작업 현장에서도 이 기술이 적용되고 있으며, 이는 우리가 직면한 다양한 문제를 해결하는 데 유용하다. 그러나 심층 신경망의 복잡성과 학습 과정은 블랙박스처럼 작용하여 귀납 편향을 유발할 수 있다. 이러한 이유로 하위 기호적 시스템(Sub-symbolic 시스템, 인공 신경망)을 사용할 때 신중을 기해야 한다. 최근 Tesla의 자율 주행 기술과 관련된 인사 사고는 이러한 우려를 잘 보여준다. 여러 국가에서 관련 법안을 강화하고 있으며, 이는 인공지능의 안전성과 신뢰성을 높이는 데 중요한 역할을 하고 있다. &lt;strong&gt;이와 같은 문제를 해결하기 위해 현대 기계는 더욱 반응적이고 모듈적인 월드 모델을 필요로 한다.&lt;/strong&gt;&lt;/p&gt;
 
@@ -933,7 +961,35 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
         
             <item>
                 <title>Bridging the Gap between Symbol and Sub-symbol</title>
-                <description>&lt;p&gt;Modern advancements in artificial intelligence and robotics have made significant progress in mimicking high-level human behaviors and decision-making. Particularly, Deep Reinforcement Learning (DRL) has succeeded in implementing complex behaviors that surpass traditional control problems. While Finite State Machines (FSM) were used in the past for robots performing games or simple tasks, Behavior Trees (BT) have become widely applied recently. This shift, along with technological advancements, presents new approaches to solving complex problems.&lt;/p&gt;
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+&lt;/style&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-24-Bridging the gap between Subsymbolic and Symbolic Systems/sand2castle.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      How does a sandcastle emerge from mere sand? What is the relationship between the sandcastle and the sand, and how does it relate to other structures?
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Modern advancements in artificial intelligence and robotics have made significant progress in mimicking high-level human behaviors and decision-making. Particularly, Deep Reinforcement Learning (DRL) has succeeded in implementing complex behaviors that surpass traditional control problems. While Finite State Machines (FSM) were used in the past for robots performing games or simple tasks, Behavior Trees (BT) have become widely applied recently. This shift, along with technological advancements, presents new approaches to solving complex problems.&lt;/p&gt;
 
 &lt;p&gt;Deep Reinforcement Learning indeed offers more possibilities than traditional control methods. This technology is being applied in real-world tasks, helping to solve various challenges we face. However, the complexity and learning processes of deep neural networks function like a black box, potentially causing inductive bias. Therefore, we must exercise caution when using sub-symbolic systems, such as artificial neural networks. Recent incidents related to Tesla’s autonomous driving technology highlight these concerns, leading many countries to strengthen relevant legislation to enhance AI safety and reliability. Modern machines thus need more responsive and modular world models to address such issues effectively.&lt;/p&gt;
 
@@ -1725,7 +1781,7 @@ Considering that the importance of predictive coding and un/self-supervised lear
             </item>
         
             <item>
-                <title>유학 준비를 시작하며...</title>
+                <title>내 안에 내가 너무도 많아</title>
                 <description>&lt;style&gt;
   .centered-container {
       text-align: center;
@@ -1860,8 +1916,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
 &lt;p&gt;(2-3) Biological Complexity and Useful Starting Points: Based on theories of how evolutionary psychological factors help perceive the world and survive, I challenge the Tabula Rasa paradigm that ignores biological complexity in learning from a blank slate and propose a theoretical framework for efficient AI models.&lt;/p&gt;
 </description>
                 <pubDate>Sat, 11 May 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/meditation/You've-got-a-lot-on-your-mind-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/meditation/You've-got-a-lot-on-your-mind-en/</guid>
+                <link>http://localhost:4000/movement/You've-got-a-lot-on-your-mind-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/movement/You've-got-a-lot-on-your-mind-en/</guid>
                 
                 <category>Reflection</category>
                 
@@ -1870,12 +1926,12 @@ Considering that the importance of predictive coding and un/self-supervised lear
                 <category>Looking Back</category>
                 
                 
-                <category>Meditation</category>
+                <category>Movement</category>
                 
             </item>
         
             <item>
-                <title>유학 준비를 시작하며...</title>
+                <title>계산뇌과학 겨울학교를 마치며</title>
                 <description>&lt;style&gt;
   .centered-container {
       text-align: center;
@@ -1893,27 +1949,161 @@ Considering that the importance of predictive coding and un/self-supervised lear
       color: #555;
       margin-top: 5px;
   }
+
+  /* 새로 추가된 스타일 */
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+
+  /* 새로 추가된 스타일 */
+  .three-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .three-fig-container figure {
+      width: calc(33% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .three-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
 &lt;/style&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/poster.jpg&quot; style=&quot;width: 65%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        2024년 한국계산뇌과학 겨울학교 포스터.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/schedule.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        겨울학교 활동 스케줄.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/02.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        고양이를 활용한 실험. 특정 각도에서 발화하는 신경세포의 활동을 기록하는 장면.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/03.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        신경 활동으로부터 측정된 각도에 대한 선호도.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/04.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        조별 활동 문제. 10개의 뉴런에 대한 신경 활동의 시계열 데이터로부터 순서 맞추기.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/06.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        이상완 교수님의 뇌기반 인공지능 연구 소개.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/07.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        신경과학-인공지능 융합연구센터.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/10.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        첫날 밤 조별과제를 풀기 위해 모인 모습.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/09.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        조별과제 직전 날 보고서 작성을 위해 모인 모습.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/13.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        운좋게도 조별활동에서 1등하여 상장을 수상했다!
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/12.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        수상 후 찍은 사진.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-15-Starting Point/0.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/11.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
-      퇴근하던 중 하늘을 바라보며 사색에 잠겼다.
+      유일한 고등학생 참가자이자, 우리 팀의 비타민 역할을 해 준 방희연 학생이 준 편지.
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
-
 </description>
                 <pubDate>Thu, 01 Feb 2024 00:00:00 +0900</pubDate>
                 <link>http://localhost:4000/movement/CompNeuroSci-Winter-School-kr/</link>
                 <guid isPermaLink="true">http://localhost:4000/movement/CompNeuroSci-Winter-School-kr/</guid>
                 
-                <category>성찰</category>
+                <category>대외활동</category>
                 
-                <category>유학</category>
+                <category>뇌과학</category>
                 
-                <category>돌아보기</category>
+                <category>신경과학</category>
+                
+                <category>인지과학</category>
+                
+                <category>겨울학교</category>
                 
                 
                 <category>Movement</category>
@@ -2010,8 +2200,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
 &lt;p&gt;(2-3) Biological Complexity and Useful Starting Points: Based on theories of how evolutionary psychological factors help perceive the world and survive, I challenge the Tabula Rasa paradigm that ignores biological complexity in learning from a blank slate and propose a theoretical framework for efficient AI models.&lt;/p&gt;
 </description>
                 <pubDate>Thu, 01 Feb 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/meditation/CompNeuroSci-Winter-School-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/meditation/CompNeuroSci-Winter-School-en/</guid>
+                <link>http://localhost:4000/movement/CompNeuroSci-Winter-School-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/movement/CompNeuroSci-Winter-School-en/</guid>
                 
                 <category>Reflection</category>
                 
@@ -2020,7 +2210,7 @@ Considering that the importance of predictive coding and un/self-supervised lear
                 <category>Looking Back</category>
                 
                 
-                <category>Meditation</category>
+                <category>Movement</category>
                 
             </item>
         
@@ -2045,7 +2235,7 @@ Considering that the importance of predictive coding and un/self-supervised lear
   }
 
   /* 새로 추가된 스타일 */
-  .ㅅtwo-fig-container {
+  .two-fig-container {
       display: flex;
       justify-content: center;
       align-items: flex-start;
@@ -2149,8 +2339,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
 
 </description>
                 <pubDate>Sat, 06 Jan 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/movement/KACS-x-KSCN-Meeting-copy-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/movement/KACS-x-KSCN-Meeting-copy-kr/</guid>
+                <link>http://localhost:4000/movement/KACS-x-KSCN-Meeting-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/movement/KACS-x-KSCN-Meeting-kr/</guid>
                 
                 <category>세미나</category>
                 
@@ -2287,8 +2477,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
 &lt;p&gt;Working at the research institute sometimes makes me feel distant from my ultimate dreams or experience sudden loneliness. This symposium was a profoundly joyful time and reaffirmed the value of my cherished community. I look forward to continuing and expanding these activities, hoping to achieve our shared goals together.&lt;/p&gt;
 </description>
                 <pubDate>Sat, 06 Jan 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/movement/KACS-x-KSCN-Meeting-copy-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/movement/KACS-x-KSCN-Meeting-copy-en/</guid>
+                <link>http://localhost:4000/movement/KACS-x-KSCN-Meeting-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/movement/KACS-x-KSCN-Meeting-en/</guid>
                 
                 <category>Seminar</category>
                 

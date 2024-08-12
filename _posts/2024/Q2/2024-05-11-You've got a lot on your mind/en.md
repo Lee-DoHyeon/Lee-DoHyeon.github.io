@@ -9,7 +9,7 @@ values:
   comments: true
   share: true
   related: true
-category: Meditation
+category: Movement
 tags: [Reflection, Study Abroad, Looking Back]
 lang: en
 header:
