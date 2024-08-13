@@ -222,7 +222,7 @@ $$
   <figure>
     <img src="/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/11.jpg" style="width: 50%; height: auto;">
     <figcaption>
-      유일한 고등학생 참가자이자, 우리 팀의 비타민 역할을 해 준 방희연 학생이 준 편지.<br>희연 학생 수고 많았어요^^
+      유일한 고등학생 참가자이자, 우리 팀의 비타민 역할을 해 준 방희연 학생이 준 편지.<br>희연 학생 수고 많았어요!
     </figcaption>
   </figure>
 </div>

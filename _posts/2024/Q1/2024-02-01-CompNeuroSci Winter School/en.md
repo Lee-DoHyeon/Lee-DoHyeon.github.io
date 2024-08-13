@@ -221,7 +221,7 @@ To our surprise, the professors were most impressed with our team’s presentati
   <figure>
     <img src="/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/11.jpg" style="width: 50%; height: auto;">
     <figcaption>
-      A letter from Heeyeon Bang, the only high school participant and the “vitamin” of our team.<br>Thank you for all your hard work, Heeyeon! ^^
+      A letter from Heeyeon Bang, the only high school participant and the “vitamin” of our team.<br>Thank you for all your hard work, Heeyeon!
     </figcaption>
   </figure>
 </div>

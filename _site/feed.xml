@@ -5,8 +5,8 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 13 Aug 2024 00:31:23 +0900</pubDate>
-        <lastBuildDate>Tue, 13 Aug 2024 00:31:23 +0900</lastBuildDate>
+        <pubDate>Tue, 13 Aug 2024 18:03:25 +0900</pubDate>
+        <lastBuildDate>Tue, 13 Aug 2024 18:03:25 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
@@ -1781,7 +1781,7 @@ Considering that the importance of predictive coding and un/self-supervised lear
             </item>
         
             <item>
-                <title>내 안에 내가 너무도 많아</title>
+                <title>생각이 너무 많아</title>
                 <description>&lt;style&gt;
   .centered-container {
       text-align: center;
@@ -1860,17 +1860,92 @@ Considering that the importance of predictive coding and un/self-supervised lear
   }
 &lt;/style&gt;
 
-&lt;p&gt;주식 시장과&lt;/p&gt;
+&lt;p&gt;최근 진로와 관련된 여러 고민이 머릿속을 어지럽힌다. 내가 꿈꾸는 미래는 사실 아무도 가보지 않은 길이라, 많은 사람들이 선택하는 안정적인 직장이나 전문직 자격증을 준비하는 것이 더 나은 것인지 혼란스럽다. 오래전부터 내 나름의 결심을 굳혔지만, 혼자만의 힘으로 관심사를 공부하는 지금의 상황은 나를 더 고독하고 연약하게 만든다.&lt;/p&gt;
+
+&lt;p&gt;친한 선배나 동기들에게 자문을 구해봐도, 마음속 불안감은 여전하고 머릿속은 여전히 생각들로 가득하다. 아직 일어나지 않은 수많은 최악의 시나리오들이 현재의 나를 잠식하고 병약하게 만든다.&lt;/p&gt;
+
+&lt;p&gt;이런 고민과 문제를 나만 겪고 있는 건 아닐 것이다. 모두가 불안정한 사회 속에서 생존하며, 자신의 정체성을 찾기 위해 고군분투하고 있다. 특히 아직 자신의 정체성을 확립하지 못하고, 쉽게 대체될 수 있다는 본질적인 상실감과 불안감을 느낄 수밖에 없는 20대 초중반의 사람들에게 연민과 안타까움을 느낀다.&lt;/p&gt;
+
+&lt;p&gt;이러한 고민을 안고, 내가 있는 지역의 라운지에서 작은 공연을 준비해보았다. 라운지 대표님께 여러 차례 연락을 드린 끝에 다행히 허락을 받을 수 있었다. 나에게 주어진 시간은 약 2시간, 이 시간 동안 40분짜리 믹스를 총 세 개 준비했다. 이번 공연의 목적은 나와 비슷하게 진로와 미래에 대한 고민으로 머리가 복잡한 사람들에게 잠시라도 생각을 비우고 즐길 수 있는 시간을 제공하는 것이었다. 이를 위해 (1) Overthinking, (2) GroovyTwilight, (3) LoungeTechno라는 믹스를 만들었다. 행복을 강박적으로 추구하거나, 남들과의 비교로 인해 팍팍하게 살아가는 것이 전부가 아니라는 메시지를 전하고 싶었다. 아래는 이번 공연을 위해 제작한 홍보 영상이다.&lt;/p&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;video width=&quot;60%&quot; controls=&quot;&quot;&gt;
+    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
       &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-05-11-Youve got a lot on your mind/marketing.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     &lt;/video&gt;
     &lt;figcaption&gt;
       직접 제작한 홍보 영상. 인스타그램 스토리 및 게시물을 통해 공유되었다.
     &lt;/figcaption&gt;
   &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;첫 번째 믹스인 Overthinking은 토론토에서 활동하는 실험적 아티스트들의 작품을 중심으로 구성했다. 서정적인 멜로디와 대조되는 중독적인 비트감이 특징이며, 가사에는 현실에 대한 고민과 자유를 향한 일탈이 담겨 있다. 이 플레이리스트의 전체적인 분위기를 대표하는 곡은 INNR CIRCLE의 “Thoughts of the Night”로, 느린 템포와 강조된 보컬이 많은 생각으로 잠 못 이루는 밤의 느낌을 잘 표현해준다. 이 믹스는 저녁 8시부터 8시 40분까지 디제잉했다.&lt;/p&gt;
+
+&lt;p&gt;두 번째 믹스인 GroovyTwilight은 그루비한 디스코와 테크노를 조화롭게 섞어 표현했다. 신나는 디스코 장르와 몽환적인 테크노 장르가 적절히 혼합된 것이 특징이다. 특히, 유명 DJ인 페기 구(Peggy Gou)의 “잊게 하네(It makes you forget)”가 이 플레이리스트를 대표하는 곡이다. 제목처럼 머릿속을 가득 채운 불안과 걱정을 잊자는 긍정적인 메시지를 전한다.&lt;/p&gt;
+
+&lt;p&gt;마지막으로, LoungeTechno는 밤 9시부터 10시까지 디제잉한 세션으로, 늦은 시간대에 어울리는 강한 비트와 몽환적인 분위기를 강조했다.&lt;/p&gt;
+
+&lt;div style=&quot;display: flex; justify-content: space-between; gap: 20px;&quot;&gt;
+    &lt;div style=&quot;flex: 1;&quot;&gt;
+        &lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/playlist/6C6WSWVH3zySob5220bsnB?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;352&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;flex: 1;&quot;&gt;
+        &lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/playlist/6zpscv2dQQD8MgOiMnXuue?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;352&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;flex: 1;&quot;&gt;
+        &lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/playlist/5HhS9AdprTr90vZDLrgQfu?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;352&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;중간중간 퍼포먼스를 하는 영상을 대표님께서 찍어주셨다. 이 라운지에는 아주 큰 디스플레이가 설치되어 있어, 공연 중에 미디어 아트도 함께 상영되었다. 비가 오는 날이었음에도 불구하고, 많은 사람들이 라운지를 찾아주어 정말 감사했다. 이번 공연은 초여름의 바쁜 일상에서 잠시 벗어나는 일탈이자, 나에게는 뿌듯하고 보람찬 경험이었다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt;
+        &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-05-11-Youve got a lot on your mind/01.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+      &lt;/video&gt;
+      &lt;figcaption&gt;
+        영상 1: Overthinking(1)
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt; 
+        &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-05-11-Youve got a lot on your mind/02.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+      &lt;/video&gt;
+      &lt;figcaption&gt;
+        영상 2: Overthinking(2)
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt; 
+        &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-05-11-Youve got a lot on your mind/03.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+      &lt;/video&gt;
+      &lt;figcaption&gt;
+        영상 3: Groovy Disco
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;한편, 공연 전 디제잉했던 내용을 레코딩하여 사운드클라우드에 업로드했다. 직접 믹싱한 트랙을 아래에서 확인할 수 있다.&lt;/p&gt;
+
+&lt;div style=&quot;display: flex; justify-content: space-between; gap: 20px;&quot;&gt;
+    &lt;div style=&quot;flex: 1;&quot;&gt;
+        &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1813496844&amp;amp;color=%23ebebeb&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;&lt;div style=&quot;font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;&quot;&gt;&lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd&quot; title=&quot;ATOW&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;ATOW&lt;/a&gt; · &lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd/overthinking-2&quot; title=&quot;Overthinking&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;Overthinking&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;flex: 1;&quot;&gt;
+        &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1813226514&amp;amp;color=%23706b4f&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;&lt;div style=&quot;font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;&quot;&gt;&lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd&quot; title=&quot;ATOW&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;ATOW&lt;/a&gt; · &lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd/groovytwilight&quot; title=&quot;GroovyTwilight&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;GroovyTwilight&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;flex: 1;&quot;&gt;
+        &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1824831885&amp;amp;color=%23343434&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;&lt;div style=&quot;font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;&quot;&gt;&lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd&quot; title=&quot;ATOW&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;ATOW&lt;/a&gt; · &lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd/dreamily-techno&quot; title=&quot;Dreamily Techno&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;Dreamily Techno&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 </description>
                 <pubDate>Sat, 11 May 2024 00:00:00 +0900</pubDate>
@@ -1879,9 +1954,13 @@ Considering that the importance of predictive coding and un/self-supervised lear
                 
                 <category>성찰</category>
                 
-                <category>유학</category>
+                <category>퍼포먼스</category>
                 
-                <category>돌아보기</category>
+                <category>예술</category>
+                
+                <category>디제잉</category>
+                
+                <category>파티</category>
                 
                 
                 <category>Movement</category>
@@ -1889,7 +1968,7 @@ Considering that the importance of predictive coding and un/self-supervised lear
             </item>
         
             <item>
-                <title>Starting My Journey to Study Abroad...</title>
+                <title>You&apos;ve got a lot on your mind</title>
                 <description>&lt;style&gt;
   .centered-container {
       text-align: center;
@@ -1909,73 +1988,148 @@ Considering that the importance of predictive coding and un/self-supervised lear
   }
 &lt;/style&gt;
 
+&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+      flex-wrap: wrap;
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px);
+      box-sizing: border-box;
+  }
+
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%;
+      }
+  }
+
+  .three-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+      flex-wrap: wrap;
+  }
+  .three-fig-container figure {
+      width: calc(33% - 20px);
+      box-sizing: border-box;
+  }
+
+  @media (max-width: 768px) {
+      .three-fig-container figure {
+          width: 100%;
+      }
+  }
+&lt;/style&gt;
+
+&lt;p&gt;Lately, my mind has been clouded with thoughts about my future. The path I envision is one that no one has truly ventured down, and I often find myself wondering if it would be wiser to pursue a more stable career or a professional certification like many others. Despite my resolve, the isolation of self-study and following my own interests has left me feeling more lonely and fragile.&lt;/p&gt;
+
+&lt;p&gt;Even after seeking advice from close seniors and peers, the anxiety lingers, and my mind remains overwhelmed with countless thoughts. Countless worst-case scenarios, which haven’t even occurred yet, haunt me and make me feel weakened and vulnerable.&lt;/p&gt;
+
+&lt;p&gt;I know I’m not alone in facing these struggles. Everyone is trying to survive in an unstable society, battling to find their identity. I feel deep empathy and sadness, especially for those in their early to mid-20s, who are still grappling with their identity and the fundamental fears of being replaceable.&lt;/p&gt;
+
+&lt;p&gt;With these thoughts weighing on me, I decided to organize a small performance at a local lounge. After several contacts with the lounge owner, I was finally able to secure a slot. I was given about 2 hours, during which I prepared three 40-minute mixes. The goal of this performance was to offer a brief escape to those who, like me, are overwhelmed by worries about their future and career. I created mixes titled (1) Overthinking, (2) GroovyTwilight, and (3) LoungeTechno, with the intention of sending a message that life is not just about the relentless pursuit of happiness or the constant comparison with others. Below is the promotional video I made for the event.&lt;/p&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-15-Starting Point/0.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
+      &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-05-11-Youve got a lot on your mind/marketing.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;/video&gt;
     &lt;figcaption&gt;
-      Gazing at the sky in deep thought on my way home from work.
+      Promotional video I made, shared via Instagram stories and posts.
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;h1 id=&quot;-what-skills-should-i-arm-myself-with-for-research&quot;&gt;💡 What skills should I arm myself with for research?&lt;/h1&gt;
+&lt;hr /&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Strong analytical skills for philosophical/mathematical texts, capabilities in mathematical/physical modeling, and proficiency in computer programming.&lt;/li&gt;
-  &lt;li&gt;Extensive background knowledge in the history of philosophy, cybernetics, cognitive science, psychology, and neuroscience.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Ability to express insights through various networks and media.&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;The first mix, Overthinking, is composed mainly of works by experimental artists based in Toronto. It features addictive beats contrasting with lyrical melodies, and the lyrics reflect concerns about reality and the desire for freedom. The track that best represents the mood of this playlist is “Thoughts of the Night” by INNR CIRCLE, with its slow tempo and emphasized vocals perfectly capturing the feeling of sleepless nights filled with thoughts. I DJed this mix from 8:00 to 8:40 PM.&lt;/p&gt;
 
-&lt;h1 id=&quot;-what-essential-criteria-must-the-lab-i-apply-to-meet&quot;&gt;💡 What essential criteria must the lab I apply to meet?&lt;/h1&gt;
+&lt;p&gt;The second mix, GroovyTwilight, blends groovy disco and techno seamlessly. It’s characterized by the upbeat energy of disco mixed with the dreamy vibes of techno. The standout track for this playlist is “It Makes You Forget” by the renowned DJ Peggy Gou, conveying a positive message to let go of the anxieties and worries that fill our minds.&lt;/p&gt;
 
-&lt;p&gt;⇒ My research focuses on &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;inference machines that survive under limited resources.&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Lastly, LoungeTechno was the session I DJed from 9:00 to 10:00 PM, focusing on strong beats and a hypnotic atmosphere fitting for the late evening.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Research on &lt;strong&gt;theoretical frameworks&lt;/strong&gt; like information theory, information geometry, and computational neuroscience.&lt;/li&gt;
-  &lt;li&gt;Research on &lt;strong&gt;physical computational devices&lt;/strong&gt; like information physics, neurophysiology, and cognitive computing.&lt;/li&gt;
-  &lt;li&gt;Consideration of &lt;strong&gt;psychological phenomena&lt;/strong&gt; such as psychology, consciousness, and affective phenomena.&lt;/li&gt;
-  &lt;li&gt;Consideration of &lt;strong&gt;biological complexity&lt;/strong&gt; like evolutionary psychology and computational biology.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Does the lab engage in discussions on the sustainability of technology and human life, and the future of humanity?&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div style=&quot;display: flex; justify-content: space-between; gap: 20px;&quot;&gt;
+    &lt;div style=&quot;flex: 1;&quot;&gt;
+        &lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/playlist/6C6WSWVH3zySob5220bsnB?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;352&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;flex: 1;&quot;&gt;
+        &lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/playlist/6zpscv2dQQD8MgOiMnXuue?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;352&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;flex: 1;&quot;&gt;
+        &lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/playlist/5HhS9AdprTr90vZDLrgQfu?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;352&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;h1 id=&quot;-what-essential-criteria-must-the-school-i-apply-to-meet&quot;&gt;💡 What essential criteria must the school I apply to meet?&lt;/h1&gt;
+&lt;hr /&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Does it have a variety of facilities for enjoying &lt;strong&gt;cultural arts&lt;/strong&gt; and exhibitions?&lt;/li&gt;
-  &lt;li&gt;Is there a social atmosphere where &lt;strong&gt;science, art, and technology&lt;/strong&gt; are harmoniously recognized?&lt;/li&gt;
-  &lt;li&gt;Can I communicate with students from &lt;strong&gt;various&lt;/strong&gt; fields like philosophy and art?&lt;/li&gt;
-  &lt;li&gt;Does it encourage students to engage in &lt;strong&gt;reading/books, and artistic activities&lt;/strong&gt;?&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;The lounge owner captured some video clips during my performance. The lounge was equipped with a large display screen, where media art was showcased during the performance. Despite the rainy weather, many people visited the lounge, and I am truly grateful for that. This event was a refreshing break from the busy early summer and a deeply fulfilling experience for me.&lt;/p&gt;
 
-&lt;h1 id=&quot;going-further&quot;&gt;Going Further&lt;/h1&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt;
+        &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-05-11-Youve got a lot on your mind/01.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+      &lt;/video&gt;
+      &lt;figcaption&gt;
+        Video 1: Overthinking (1)
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt; 
+        &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-05-11-Youve got a lot on your mind/02.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+      &lt;/video&gt;
+      &lt;figcaption&gt;
+        Video 2: Overthinking (2)
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt; 
+        &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-05-11-Youve got a lot on your mind/03.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+      &lt;/video&gt;
+      &lt;figcaption&gt;
+        Video 3: Groovy Disco
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;h2 id=&quot;-key-quote&quot;&gt;💡 Key Quote&lt;/h2&gt;
+&lt;hr /&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;“Your beliefs become your thoughts, your thoughts become your words, your words become your actions, your actions become your habits, your habits become your values, your values become your destiny.” - Gandhi (Unknown)&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Before the event, I recorded the DJ sets and uploaded them to SoundCloud. You can listen to the tracks I mixed below.&lt;/p&gt;
 
-&lt;h2 id=&quot;-research-introduction&quot;&gt;💡 Research Introduction&lt;/h2&gt;
-
-&lt;p&gt;My research aims to discover a unified formal framework that explains, predicts, and controls various mental phenomena to form a scientific understanding of the human and animal mind, brain, and behavior. In the process, it seeks new understandings of previously unexplained phenomena and contributes to implementing theoretically responsible human-level intelligent machines. To achieve this, I combine (1) historical knowledge of the cybernetics movement, philosophy of mind, and neurophilosophy, (2) mathematical data analysis based on probability theory and graph theory, (3) physical modeling using statistical mechanics and complexity physics, and (4) engineering applications using artificial intelligence and robotics.&lt;/p&gt;
-
-&lt;h2 id=&quot;-research-topics&quot;&gt;💡 &lt;strong&gt;Research Topics&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;I have identified several research topics that I aim to tackle throughout my life. I seek to understand and integrate the relationships between various principles proposed to explain the mind-brain-behavior, thereby unifying the differentiated dynamics and integrating the mechanics. To verify effectiveness, I propose a unified theory of phenomena that modern science has yet to explain or has only recently begun to explain. Moreover, I design safe and advanced machines at the human/animal level by applying key theories observed in humans and animals, contributing to society.&lt;/p&gt;
-
-&lt;p&gt;(1) Integrated Theoretical System of Mind-Body-Behavior: I analyze the relationships between numerous existing principles—such as the Free Energy Principle, Inductive Bias Principle, Approximation Principle, Data Compression Principle, Resource Limitation Principle, and Evolutionary Principle—and provide an integrated theoretical system of mind-body-behavior.&lt;/p&gt;
-
-&lt;p&gt;(1-1) Consciousness Phenomenon: I formally compare theories of consciousness such as Global Neuronal Workspace Theory, Integrated Information Theory, Predictive Coding Theory, Attention Schema Theory, and Affective-Based Theories to propose a formal theory. I further propose simulation models of the content of consciousness and machine devices that mimic its effects and principles.&lt;/p&gt;
-
-&lt;p&gt;(1-2) Hypnosis Phenomenon: I advance existing predictive coding theory and drug-based experiments, proposing a comprehensive formal theory on the effects and principles of human language. Additionally, I theoretically propose machine devices that simulate not only the content of consciousness but also its effects and principles.&lt;/p&gt;
-
-&lt;p&gt;(2) Theory-Based Algorithms and Machine Design: I propose human-level AI models and bio-inspired machines that are explainable and consider biological complexity, based on theories from neuroscience, psychology, and cognitive science.&lt;/p&gt;
-
-&lt;p&gt;(2-1) Optimization with Limited Resources: Based on theories explaining how humans and animals effectively focus attention and make decisions with limited resources (time, energy, etc.), I propose not only efficient AI models but also the theoretical background for efficient machine devices.&lt;/p&gt;
-
-&lt;p&gt;(2-2) Crossing the Boundaries of Symbols: Based on theories explaining how symbolic systems like mathematics and language can emerge from sub-symbolic neural networks, I propose efficient language models. Moreover, I suggest a new methodology for verifying and analyzing trained sub-symbolic neural networks, proposing a theoretical background for evaluating the stability of AI models.&lt;/p&gt;
-
-&lt;p&gt;(2-3) Biological Complexity and Useful Starting Points: Based on theories of how evolutionary psychological factors help perceive the world and survive, I challenge the Tabula Rasa paradigm that ignores biological complexity in learning from a blank slate and propose a theoretical framework for efficient AI models.&lt;/p&gt;
+&lt;div style=&quot;display: flex; justify-content: space-between; gap: 20px;&quot;&gt;
+    &lt;div style=&quot;flex: 1;&quot;&gt;
+        &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1813496844&amp;amp;color=%23ebebeb&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;&lt;div style=&quot;font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;&quot;&gt;&lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd&quot; title=&quot;ATOW&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;ATOW&lt;/a&gt; · &lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd/overthinking-2&quot; title=&quot;Overthinking&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;Overthinking&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;flex: 1;&quot;&gt;
+        &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1813226514&amp;amp;color=%23706b4f&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;&lt;div style=&quot;font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;&quot;&gt;&lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd&quot; title=&quot;ATOW&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;ATOW&lt;/a&gt; · &lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd/groovytwilight&quot; title=&quot;GroovyTwilight&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;GroovyTwilight&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;flex: 1;&quot;&gt;
+        &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1824831885&amp;amp;color=%23343434&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;&lt;div style=&quot;font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;&quot;&gt;&lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd&quot; title=&quot;ATOW&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;ATOW&lt;/a&gt; · &lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd/dreamily-techno&quot; title=&quot;Dreamily Techno&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;Dreamily Techno&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 </description>
                 <pubDate>Sat, 11 May 2024 00:00:00 +0900</pubDate>
                 <link>http://localhost:4000/movement/You've-got-a-lot-on-your-mind-en/</link>
@@ -1983,9 +2137,13 @@ Considering that the importance of predictive coding and un/self-supervised lear
                 
                 <category>Reflection</category>
                 
-                <category>Study Abroad</category>
+                <category>Performance</category>
                 
-                <category>Looking Back</category>
+                <category>Art</category>
+                
+                <category>DJing</category>
+                
+                <category>Party</category>
                 
                 
                 <category>Movement</category>
@@ -2196,7 +2354,7 @@ Considering that the importance of predictive coding and un/self-supervised lear
   &lt;figure&gt;
     &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/11.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
-      유일한 고등학생 참가자이자, 우리 팀의 비타민 역할을 해 준 방희연 학생이 준 편지.&lt;br /&gt;희연 학생 수고 많았어요^^
+      유일한 고등학생 참가자이자, 우리 팀의 비타민 역할을 해 준 방희연 학생이 준 편지.&lt;br /&gt;희연 학생 수고 많았어요!
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
@@ -2423,7 +2581,7 @@ Considering that the importance of predictive coding and un/self-supervised lear
   &lt;figure&gt;
     &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/11.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
-      A letter from Heeyeon Bang, the only high school participant and the “vitamin” of our team.&lt;br /&gt;Thank you for all your hard work, Heeyeon! ^^
+      A letter from Heeyeon Bang, the only high school participant and the “vitamin” of our team.&lt;br /&gt;Thank you for all your hard work, Heeyeon!
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
