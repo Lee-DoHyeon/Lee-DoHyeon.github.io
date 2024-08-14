@@ -5,8 +5,8 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 13 Aug 2024 18:03:25 +0900</pubDate>
-        <lastBuildDate>Tue, 13 Aug 2024 18:03:25 +0900</lastBuildDate>
+        <pubDate>Wed, 14 Aug 2024 17:31:55 +0900</pubDate>
+        <lastBuildDate>Wed, 14 Aug 2024 17:31:55 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
@@ -928,13 +928,21 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;p&gt;현대 인공지능과 로봇공학의 발전은 인간의 고차원적인 행동과 의사결정을 모사하는 데 큰 진전을 보이고 있다. 특히 심층 신경망 기반의 강화학습(Deep Reinforcement Learning, DRL)은 과거의 제어 문제를 뛰어넘는 복잡한 행동을 구현하는 데 성공했다. 기존에는 게임이나 단순 작업을 수행하는 로봇에 유한 상태 기계(Finite State Machine, FSM)를 사용했지만, 최근에는 행동 트리(Behavior Tree, BT)가 널리 적용되고 있다. 이러한 변화는 기술의 진보와 더불어 복잡한 문제 해결에 대한 새로운 접근 방식을 제시한다.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;심층 신경망 기반의 강화학습은 확실히 기존 제어 방식보다 더 많은 가능성을 제공한다. 실제 작업 현장에서도 이 기술이 적용되고 있으며, 이는 우리가 직면한 다양한 문제를 해결하는 데 유용하다. 그러나 심층 신경망의 복잡성과 학습 과정은 블랙박스처럼 작용하여 귀납 편향을 유발할 수 있다. 이러한 이유로 하위 기호적 시스템(Sub-symbolic 시스템, 인공 신경망)을 사용할 때 신중을 기해야 한다. 최근 Tesla의 자율 주행 기술과 관련된 인사 사고는 이러한 우려를 잘 보여준다. 여러 국가에서 관련 법안을 강화하고 있으며, 이는 인공지능의 안전성과 신뢰성을 높이는 데 중요한 역할을 하고 있다. &lt;strong&gt;이와 같은 문제를 해결하기 위해 현대 기계는 더욱 반응적이고 모듈적인 월드 모델을 필요로 한다.&lt;/strong&gt;&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;한편, 현대의 기계는 인간이나 동물의 반사신경에 비해 빠르거나 에너지 효율적이지 않다. 대부분의 기계는 단일 태스크에만 초점을 맞추고 있는 반면, 인간이나 동물은 훨씬 어렵고 복잡한 세상에서의 생존이라는 태스크를 해결하기 위해 다양한 기술을 갖추고 있다. 이처럼 반응적이고 모듈적인 월드 모델을 구축하면 복잡한 환경에서도 유연하게 대처하며 부분적인 수정도 쉬워진다. 진정한 자율 에이전트를 구현하기 위해서는 이러한 반응적이고 모듈적인 월드 모델이 구축될 필요가 있다. &lt;strong&gt;이러한 반응적이고 모듈적인 월드 모델은 인간의 고차 인지 기능과 메타인지와도 밀접한 관련이 있다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;인간의 경우, 복잡한 심층 신경망이나 자기 지도된 월드 모델을 통해 언어와 세상에 대한 물리적 이해를 바탕으로 행동한다. 이러한 행동 양식은 종종 암묵적이거나 명시적으로 나타나며, 이를 거시적 수준에서 모사한다면 유한 상태 기계나 행동 트리로 간주할 수 있겠다. 예를 들어, Jurgen Schmidhuber는 Godel Machine을 제안하면서 의식의 핵심 능력이 내부 프로그램을 자체적으로 수정하고 더 나은 프로그램으로 발전해 나가는 능력임을 강조했다. 이를 통해 인간은 신경망이라는 하위 기호적 시스템으로부터 유용한 프로그램 내지는 상위 기호적 시스템(Symbolic 시스템)을 지속적으로 발전시키고 수정하는 능력을 지니고 있음을 알 수 있다. 최근 의식 연구에서도 대뇌의 고차 인지 기능과 메타인지에 초점을 두는 학파가 강세를 보이고 있다. 이는 인간의 고차적인 상위 기호적 시스템이 세상을 바라보는 방식(마음)과 학습에 따른 생물학적 재구성(두뇌), 실제 물리적 세상과의 상호작용 방식(행동)에 있어 고차원의 관점이 저차원의 관점에 지속적인 영향을 주고 있음을 다시 한 번 파악할 수 있다.&lt;/p&gt;
 
 &lt;p&gt;또한, 최면 현상이나 서브리미널 메시징 기법이 언어와 감각 정보를 통해 작동하는 것은 이러한 자체 수정 능력을 잘 보여주는 예다. 그러나 현재 심층 신경망에 담긴 하위 기호적 내용들이 상위 기호적 형태로 보여지는 기술이나 기법에 대한 논의는 많지 않다. 이는 인간의 경우에도 우리의 행동과 습관을 이해하고 그 안에 숨겨진 믿음과 잠재의식을 표현하는 방법이 성찰과 자기 평가를 통해서만 가능한 것과 유사하다. &lt;strong&gt;“믿음은 생각이 되고, 생각은 말이 되며, 말은 행동이 되고, 행동은 습관이 되고, 습관은 그 사람의 가치를 결정하고, 그 사람의 가치는 그 사람의 운명을 결정한다”&lt;/strong&gt;는 유명한 말처럼, 우리의 운명과 가치를 변화시키기 위해서는 행동과 습관을, 그리고 이를 변화시키기 위해서는 믿음과 말을 변화시킬 필요가 있다. &lt;strong&gt;예를 들어, 현재 연구 중인 몇 가지 접근 방식은 이러한 기술적 문제를 해결하기 위해 노력하고 있다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;결론적으로, 하위 기호적 시스템이 자체적으로 상위 기호적 행동 양식과 명확한 지침을 생성하고 수정하는 방법은 매우 중요한 질문이다. 또한, 이미 개발된 하위 기호적 시스템에 암묵적으로 저장된 행동 양식을 추출하고 평가하는 것도 필수적이다. 이 과정은 기술적으로 어려운 과제일 뿐만 아니라, 인공지능의 미래를 결정짓는 중요한 연구 분야다. &lt;strong&gt;따라서, 현대 인공지능의 발전을 위해서는 하위 기호적 시스템과 상위 기호적 시스템 간의 상호작용을 깊이 있게 연구하고, 이를 통해 더욱 유연하고 효율적인 자율 에이전트를 개발하는 것이 필요하다.&lt;/strong&gt; 우리는 이러한 복잡한 문제를 해결하기 위해 계속해서 노력해야 한다.&lt;/p&gt;
 
@@ -991,13 +999,21 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;p&gt;Modern advancements in artificial intelligence and robotics have made significant progress in mimicking high-level human behaviors and decision-making. Particularly, Deep Reinforcement Learning (DRL) has succeeded in implementing complex behaviors that surpass traditional control problems. While Finite State Machines (FSM) were used in the past for robots performing games or simple tasks, Behavior Trees (BT) have become widely applied recently. This shift, along with technological advancements, presents new approaches to solving complex problems.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;Deep Reinforcement Learning indeed offers more possibilities than traditional control methods. This technology is being applied in real-world tasks, helping to solve various challenges we face. However, the complexity and learning processes of deep neural networks function like a black box, potentially causing inductive bias. Therefore, we must exercise caution when using sub-symbolic systems, such as artificial neural networks. Recent incidents related to Tesla’s autonomous driving technology highlight these concerns, leading many countries to strengthen relevant legislation to enhance AI safety and reliability. Modern machines thus need more responsive and modular world models to address such issues effectively.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;Moreover, modern machines are neither as fast nor as energy-efficient as the reflexes of humans or animals. While most machines focus on single tasks, humans and animals possess various skills to solve the more challenging and complex task of survival in the world. Constructing reactive and modular world models enables flexible responses to complex environments and easy partial modifications. To implement true autonomous agents, these reactive and modular world models are necessary. These models are closely related to high-level cognitive functions and metacognition in humans.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;Humans act based on their understanding of language and the physical world through complex deep neural networks or self-supervised world models. These behaviors are often implicit or explicit and can be considered finite state machines or behavior trees at a macro level. For example, Jurgen Schmidhuber proposed the Gödel Machine, emphasizing that the core ability of consciousness is to modify internal programs and develop better ones. This suggests that humans continually develop and refine useful programs or symbolic systems from sub-symbolic systems like neural networks. Recent consciousness studies also focus on high-level cognitive functions and metacognition, demonstrating how high-level perspectives continuously influence lower-level perspectives in viewing the world (mind), biological reconstruction through learning (brain), and interactions with the physical world (behavior).&lt;/p&gt;
 
 &lt;p&gt;Phenomena like hypnosis and subliminal messaging techniques, which operate through language and sensory information, exemplify this self-modifying ability. However, there is little discussion on the techniques or methods for displaying the sub-symbolic contents of deep neural networks in a symbolic form. This is similar to how understanding human behaviors and habits, and expressing the underlying beliefs and subconscious, is possible only through reflection and self-evaluation. As the famous saying goes, “Beliefs become thoughts, thoughts become words, words become actions, actions become habits, habits determine one’s values, and values determine one’s destiny.” To change our destiny and values, we must change our actions and habits, and to do that, we must change our beliefs and words. For instance, several current research approaches strive to address these technical challenges.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;In conclusion, it is crucial to explore how sub-symbolic systems autonomously generate and modify high-level symbolic behaviors and clear guidelines. Extracting and evaluating the behavior patterns implicitly stored in already developed sub-symbolic systems is also essential. This process is not only a technically challenging task but also a critical research field determining the future of artificial intelligence. Therefore, advancing modern AI requires an in-depth study of the interactions between sub-symbolic and symbolic systems to develop more flexible and efficient autonomous agents. We must continue our efforts to solve these complex problems.&lt;/p&gt;
 
@@ -1054,6 +1070,8 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;p&gt;20세기 중반의 정보 혁명과 사이버네틱스 운동은 물리학뿐만 아니라 인간의 정신과 마음, 두뇌와 신체, 인간 및 동물-사회의 행동에 대한 학문적 접근에 큰 영향을 미쳤다. 이 시기에 정보와 수학적 형식 사이의 관련성이 주목받기 시작하면서, 정보 이론과 통계역학은 중요한 변화를 겪었다. 이러한 운동은 인간 본질과 생명에 대한 형식적인 학문을 구체화하려 했지만, 당시 기술의 한계와 철학적 문제로 인해 20세기 후반에는 심리학, 정신의학, 신경과학, 경제학, 인류학, 인공지능, 로봇공학 등 수많은 분야로 &lt;strong&gt;분화&lt;/strong&gt;되었다.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
     &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-23-Toward Unified Science of Mind-Brain-Behavior/0.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
@@ -1065,6 +1083,8 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;p&gt;물리학의 역사를 보면, 새로운 현상을 설명하고, 제어하고, 예측할 수 있는 강한 이론을 만들기 위해서는 ‘왜(Why)’, ‘어떻게(How)’, ‘무엇을(What)’에 대한 질문에 해당하는 &lt;strong&gt;원리(Principle), 역학(Mechanics), 동역학(Dynamics)&lt;/strong&gt;의 발전이 필요하다. 현재 마음-두뇌/신체-행동을 부분적으로 설명하는 다양한 동역학과 역학, 원리의 혼란이 존재한다고 볼 수 있다.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
     &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-23-Toward Unified Science of Mind-Brain-Behavior/KF.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
@@ -1075,6 +1095,8 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 &lt;/div&gt;
 
 &lt;p&gt;이러한 상황 속에서 다양한 학문의 통합적 프레임워크를 융합하고 환원하려는 &lt;strong&gt;규범 이론적 접근&lt;/strong&gt;이 크게 발달하고 있다. 대표적으로 Karl Friston의 자유 에너지 원리(Free Energy Principle)와 능동 추론(Active Inference), Samuel Gershman의 귀납적 편향 원리(Inductive Bias Principle)와 근사 원리(Approximation Principle)를 들 수 있다. 이 이론들은 생물학적 시스템과 심리적, 행동적 현상을 설명하는 데 중점을 둔다. 그러나 여전히 현대 과학이 설명하지 못하는 의식, 느낌, 최면과 같은 복잡한 현상들이 존재한다. 이러한 현상들은 생물학적 복잡성과 진화론적 성격을 포함하고 있어, 단순한 물리학적, 정보 이론적 접근만으로는 충분히 설명되지 않을 수 있다. 따라서 이들을 이해하기 위해서는 다양한 학문 분야의 통합적이고 다차원적인 접근이 필요하다.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;이러한 접근 방식이 ‘왜(Why)’를 찾는 작업에 중점을 두는 한편, 현대 인공지능 연구는 ‘어떻게(How)’; 즉, &lt;strong&gt;공학적 응용&lt;/strong&gt;에 더 초점을 맞추고 있다. Jurgen Schmidhuber의 자기 지도 학습(Self-supervised Learning) 및 월드 모델(World Model), Geoffrey Hinton의 볼츠만 머신(Boltzmann Machine)과 David Rumelhart의 헬름홀츠 머신(Helmholtz Machine)은 인간 지능을 닮은 인공지능을 개발하는 데 중요한 개념들을 제시했다. 정보 이론이 물리학의 하위 범주에 있지 않고 독특한 지위를 지닌다는 점에서, 환원 불가능한 추가적인 원리의 도입이 필요할 수도 있으며, 다양한 원리의 집합을 구성할 여지도 있다.&lt;/p&gt;
 
@@ -1139,6 +1161,8 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;p&gt;The information revolution and cybernetics movement of the mid-20th century significantly influenced academic approaches not only to physics but also to the study of human mind and consciousness, brain and body, and human and animal behavior. During this period, the relationship between information and mathematical formalisms began to draw attention, leading to significant advancements in information theory and statistical mechanics. These movements aimed to formalize the study of human nature and life, but due to technological limitations and philosophical challenges at the time, the latter half of the 20th century saw a fragmentation into numerous fields, including psychology, psychiatry, neuroscience, economics, anthropology, artificial intelligence, and robotics.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
     &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-23-Toward Unified Science of Mind-Brain-Behavior/0.png&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
@@ -1150,6 +1174,8 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;p&gt;Looking at the history of physics, it becomes evident that developing a strong theory capable of explaining, controlling, and predicting new phenomena requires the evolution of principles, mechanics, and dynamics that address the questions of ‘Why’, ‘How’, and ‘What’. Currently, there is confusion among the various dynamics, mechanics, and principles attempting to partially explain mind-brain/body-behavior relationships.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
     &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-23-Toward Unified Science of Mind-Brain-Behavior/KF.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
@@ -1160,6 +1186,8 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 &lt;/div&gt;
 
 &lt;p&gt;In this context, a significant development is occurring in the form of &lt;strong&gt;normative theoretical approaches&lt;/strong&gt; that seek to integrate and reduce these various academic frameworks. Notable examples include Karl Friston’s Free Energy Principle and Active Inference, as well as Samuel Gershman’s Inductive Bias Principle and Approximation Principle. These theories focus on explaining biological systems, as well as psychological and behavioral phenomena. However, complex phenomena such as consciousness, emotions, and hypnosis remain elusive to modern science. These phenomena encompass biological complexity and evolutionary characteristics, making them difficult to fully explain through simple physical or information-theoretical approaches. Thus, a multidisciplinary and integrative approach is required to understand these aspects.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;While these approaches emphasize the search for ‘Why’, modern AI research is more focused on ‘How’—that is, &lt;strong&gt;engineering applications&lt;/strong&gt;. Concepts introduced by researchers like Jurgen Schmidhuber’s Self-supervised Learning and World Models, Geoffrey Hinton’s Boltzmann Machine, and David Rumelhart’s Helmholtz Machine have been crucial in developing AI that mimics human intelligence. Since information theory is not merely a subset of physics but holds a unique status, it may require the introduction of irreducible additional principles, allowing for the formation of a diverse set of principles.&lt;/p&gt;
 
@@ -1230,7 +1258,11 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;p&gt;포퍼는 심신 문제를 인간의 자유와 밀접하게 연관된 중요한 철학적 문제로 보았다. 그는 세상을 &lt;strong&gt;물리적 세계(세계 1)&lt;/strong&gt;, &lt;strong&gt;인간의 의식적 과정(세계 2)&lt;/strong&gt;, 그리고 &lt;strong&gt;인간 정신의 객관적 창조물(세계 3)&lt;/strong&gt;로 나누어 설명했다. 이 세 가지 세계는 상호작용하며, 특히 세계 3의 존재는 세계 2와의 밀접한 연결을 통해 인간의 자기 의식을 설명하는 데 필수적이다.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;세계 3은 과학적 이론, 수학적 개념, 예술 작품, 문학 작품, 법률, 도덕적 가치 등 인간 정신의 산물로 이루어진 가상의 세계다. 이는 물리적 세계에 직접 존재하지 않지만, 우리가 이를 통해 생각하고 논의할 수 있기 때문에 현실에서 실재하는 것처럼 기능한다. 포퍼는 이러한 세계 3을 통해 인간이 물리적 세계에 영향을 미친다고 보았다. 예를 들어, 뉴턴의 중력 이론이나 아인슈타인의 상대성 이론 같은 추상적 개념들은 우리의 기술을 발전시키고 새로운 기계를 만들면서 물리적 세계에 직접적인 변화를 가져왔다.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;이러한 포퍼의 세계 1, 2, 3 개념은 인공지능과 정보 기술의 발전이 인간 문명에 미치는 함의를 탐구하는 데도 유용하다. 인공지능과 정보 기술은 세계 3을 확장하고 심화시키는 도구로 작용한다. 인공지능은 방대한 데이터를 분석하고 새로운 패턴을 발견하며, 이를 통해 인간이 미처 발견하지 못한 새로운 지식과 창의적인 아이디어를 생성한다. 이는 인공지능이 단순한 도구를 넘어, 인간과 협력하여 세계 3의 창조물을 더욱 풍부하게 만드는 역할을 하고 있음을 보여준다.&lt;/p&gt;
 
@@ -1238,9 +1270,9 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;p&gt;인공지능과 정보 기술의 발전은 물리적 세계(세계 1)에도 큰 영향을 미친다. 자율주행차, 스마트 시티, 의료 기술 등 다양한 분야에서 인공지능은 혁신을 주도하며, 물리적 세계를 변화시키고 있다. 이러한 변화는 인간의 생활 방식을 근본적으로 재구성하고, 더 나아가 인간과 인공지능 간의 새로운 상호작용 방식을 창출하고 있다.&lt;/p&gt;
 
-&lt;p&gt;결론적으로, 포퍼의 세계 1, 2, 3 개념을 통해 보면, 인공지능과 정보 기술은 인간 문명의 발전에 중요한 함의를 지니고 있다. 인공지능은 인간의 고유성을 공유하면서도 이를 확장시키고, 새로운 창의적인 창조물을 만들어낸다. 이러한 기술들은 물리적 세계와 의식적 과정을 넘나들며, 인간 정신의 경계를 확장하고, 우리의 존재와 문명을 더욱 깊이 이해하는 데 중요한 역할을 하고 있다.&lt;/p&gt;
-
 &lt;hr /&gt;
+
+&lt;p&gt;결론적으로, 포퍼의 세계 1, 2, 3 개념을 통해 보면, 인공지능과 정보 기술은 인간 문명의 발전에 중요한 함의를 지니고 있다. 인공지능은 인간의 고유성을 공유하면서도 이를 확장시키고, 새로운 창의적인 창조물을 만들어낸다. 이러한 기술들은 물리적 세계와 의식적 과정을 넘나들며, 인간 정신의 경계를 확장하고, 우리의 존재와 문명을 더욱 깊이 이해하는 데 중요한 역할을 하고 있다.&lt;/p&gt;
 
 &lt;h3 id=&quot;요약&quot;&gt;요약&lt;/h3&gt;
 
@@ -1297,13 +1329,19 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
 
 &lt;p&gt;Popper considered the mind-body problem to be a crucial philosophical issue closely related to human freedom. He explained the world in terms of &lt;strong&gt;the physical world (World 1)&lt;/strong&gt;, &lt;strong&gt;the world of conscious processes (World 2)&lt;/strong&gt;, and &lt;strong&gt;the world of objective creations of the human mind (World 3)&lt;/strong&gt;. These three worlds interact, and particularly, the existence of World 3 is essential in explaining human self-consciousness through its close connection with World 2.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;World 3 is a virtual world consisting of scientific theories, mathematical concepts, works of art, literature, laws, and moral values, all products of the human mind. While these do not directly exist in the physical world, they function as if they are real because we can think and discuss them. Popper believed that through World 3, humans can influence the physical world. Abstract concepts like Newton’s theory of gravity or Einstein’s theory of relativity, though intangible, have led to technological advancements and created tangible changes in the physical world.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;Popper’s concept of Worlds 1, 2, and 3 is also useful in exploring the implications of artificial intelligence and information technology on human civilization. AI and information technology serve as tools that extend and deepen World 3. AI analyzes vast amounts of data, discovers new patterns, and generates creative ideas, showing its role beyond being a mere tool and collaborating with humans to enrich World 3’s creations.&lt;/p&gt;
 
 &lt;p&gt;Moreover, AI with consciousness or feelings can perform functions similar to human conscious processes (World 2). Such AI learns from interactions with humans, exhibits emotional responses, and solves problems creatively. This suggests that AI can develop a form of self-awareness, prompting a reevaluation of human self-consciousness and freedom in a new dimension.&lt;/p&gt;
 
 &lt;p&gt;The development of AI and information technology significantly impacts the physical world (World 1). Innovations such as autonomous vehicles, smart cities, and advanced medical technologies lead the way in transforming the physical world. These changes fundamentally restructure human lifestyles and create new interaction modes between humans and AI.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;Popper’s concept of Worlds 1, 2, and 3 shows that AI and information technology have significant implications for human civilization’s advancement. AI shares and expands human uniqueness, creates new innovative products, and traverses physical and conscious processes, playing a vital role in deepening our understanding of existence and civilization.&lt;/p&gt;
 
@@ -2655,6 +2693,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
 
 &lt;p&gt;2024년, 1월 6일 내가 부회장으로 운영하고 있는 &lt;a href=&quot;https://kacs.me/&quot;&gt;한국의식과학학술회(Korean Associations for Consciousness Sciences)&lt;/a&gt;에서 두번째 오프라인 모임을 진행했다. &lt;a href=&quot;https://www.kfas.or.kr/&quot;&gt;한국고등교육재단(KFAS)&lt;/a&gt;에서 강남의 한 사무실을 제공해주었고, 덕분에 따뜻한 곳에서 심포지엄을 성황리에 끝낼 수 있었다.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
     &lt;figure&gt;
@@ -2673,6 +2713,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
 &lt;/div&gt;
 
 &lt;p&gt;이번 오프라인 모임은 유독 특별하다. 한국뇌신경철학연구회(Korean Society for NeuroPhilosophy)에서 큰 관심을 갖고 참석해주셨기 때문이다. 학부생 및 대학원생으로 구성된 한국의식과학학술회와 달리, 한국뇌신경철학연구회는 철학-정신의학-신경의학계의 유명 교수님과 국제 변호사 등의 전문가로 구성되어있다. 과학과 철학이 만나는 귀중한 시간이었다.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
@@ -2706,6 +2748,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
 &lt;/div&gt;
 
 &lt;p&gt;나형석 석사과정 학생의 발표도 특히 기억에 남는다. 정신의학과 및 신경외과 교수님이 계셨는데, 신경의학과 정신의학이라는 학문 분야가 과학적으로 구성되어 있는지에 대한 비판적 질문을 던졌다. 실제로 과거 정신의학의 주요 역사적 이슈를 소개하며, 정신의학의 미래와 발전 가능성에 대해 논의할 수 있는 좋은 시간이었다.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
@@ -2794,6 +2838,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
 
 &lt;p&gt;On January 6th, 2024, I had the privilege of organizing the second offline meeting of the &lt;a href=&quot;https://kacs.me/&quot;&gt;Korean Association for Consciousness Sciences (KACS)&lt;/a&gt;, where I serve as vice president. We were fortunate to host the symposium at a cozy office space provided by the &lt;a href=&quot;https://www.kfas.or.kr/&quot;&gt;Korean Foundation for Advanced Studies (KFAS)&lt;/a&gt; in Gangnam, allowing us to conduct the event successfully.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
     &lt;figure&gt;
@@ -2822,6 +2868,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
   &lt;/figure&gt;
 &lt;/div&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;Professor Park Hyung-Dong, who recently joined the Department of Brain and Cognitive Sciences at KAIST, presented a scientific approach to consciousness based on the interaction between the brain and body. He introduced us to his research related to brain activity connected to heartbeats.&lt;/p&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
@@ -2845,6 +2893,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
 &lt;/div&gt;
 
 &lt;p&gt;The presentation by master’s student Na Hyeong-Seok was particularly memorable. Professors in psychiatry and neurosurgery posed critical questions about whether the fields of neuroscience and psychiatry are scientifically structured. It was an excellent opportunity to discuss the historical issues in psychiatry and its future and potential for development.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
@@ -2944,6 +2994,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
   &lt;/figure&gt;
 &lt;/div&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;이번 면담에서 가장 중요한 질문은 이 분야에서 연구를 이어가기 위한 조언을 구하는 것이었다. 학부 시절, 나는 코로나로 인해 대부분의 시간을 비대면과 고독 속에서 보냈다. 수학을 전공한 내가 이론 신경과학과 인공지능에 대한 커리어를 준비하기에는 혼자서 역부족이라는 생각이 들었다. 그래서 교수님께 내가 풀고자 하는 문제와 관심사를 다음과 같이 소개드렸다:&lt;/p&gt;
 
 &lt;p&gt;자연 지능과 인공지능을 연결짓기: 형식적인 이론적 프레임워크를 개발하거나 계산 방법론을 제안하는 것.
@@ -2956,6 +3008,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
 &lt;p&gt;또한, 석사 학위를 취득할 필요가 있는지, 아니면 바로 박사 학위를 취득해야 하는지에 대해서도 조언해 주셨다. 한국의 통념과 정서에서는 남들보다 일찍 성취하는 것에 높은 가치를 두지만, 실제 연구와 전문가 커뮤니티에서는 논문을 직접 작성하며 배우는 경험 자체가 더 중요하다고 하셨다. 이러한 배움 없이 일찍 졸업하고 논문이 적다면, 이후에 직장을 구하는 데 큰 어려움을 겪을 수 있다고 하셨다. 실제로 학계에서 잘 성장하는 연구자들은 양질의 논문을 3~4편 정도 제대로 작성한 후, 포닥 과정에서 논문을 폭발적으로 생산하는 경우가 많으며, 이러한 사례가 건강한 발전의 예라고 설명하셨다.&lt;/p&gt;
 
 &lt;p&gt;궁극적으로는, 현재 하고 싶은 것이 명확하다면 한 번 시도해보는 것도 좋다고 조언해 주셨다. 예를 들어, 인간 수준의 인공지능을 정말 개발하고 싶다면, 박사 과정 없이 바로 구글의 로보틱스 부서에 입사해 업무와 연구를 병행하며 성장하는 것도 후회 없는 선택이 될 수 있다고 하셨다.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;소중한 시간을 내어 흔쾌히 면담을 해주신 홍석준 교수님께 진심으로 감사의 말씀을 전하고 싶다. 선배 연구자이자 교수님으로서 나에게 안정감과 가슴 설레는 희망을 안겨주신 이 시간이 너무나도 값졌다. 이 시간을 통해 스스로에게 많은 질문을 하게 되었다. 정말로 내가 하고 싶은 건 이 주제가 맞는가? 너무나도 추상적인 주제가 아닌가? 더 구체적으로 어떤 부분을 연구해서 어떤 결과와 성과를 이루고 싶은가? 정말 내 인생을 이 문제를 푸는 데 바칠 것인가? 등. 앞으로도 많은 고민과 생각이 나를 기다리고 있다.&lt;/p&gt;
 </description>
@@ -3040,6 +3094,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
   &lt;/figure&gt;
 &lt;/div&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;The most pressing question during this meeting was to seek advice on how to continue my research in this field. During my undergraduate years, much of my time was spent in isolation due to the pandemic, making it difficult to prepare for a career in theoretical neuroscience and AI on my own. Therefore, I introduced the problems and interests I aim to solve to Professor Hong:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -3055,6 +3111,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
 &lt;p&gt;He also advised on whether it would be necessary to pursue a master’s degree first or go straight into a PhD. While the cultural norm in Korea places high value on achieving things earlier than others, in the actual research and professional community, the process of learning by writing papers is far more important. Without this deep learning experience, graduating early with few publications could pose significant challenges in securing a job later. In fact, researchers who excel in academia often produce three to four high-quality papers during their PhD and then rapidly increase their publication rate during their postdoc. This, he explained, is a healthy way to progress.&lt;/p&gt;
 
 &lt;p&gt;Ultimately, he suggested that if I was truly clear about what I wanted to do, it might be worth trying. For instance, if I am really passionate about developing human-level AI, it might be a good idea to directly join a department like Google Robotics and grow by balancing work and research without pursuing a PhD.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;I am sincerely grateful to Professor Hong Seok-jun for taking the time to meet with me. As a senior researcher and professor, he provided me with a sense of reassurance and excitement for the future. This meeting prompted me to ask myself many questions: Is this truly the topic I want to pursue? Is it too abstract? What specific area do I want to research, and what results do I hope to achieve? Am I really willing to dedicate my life to solving this problem? These are the questions I will continue to ponder.&lt;/p&gt;
 </description>
@@ -3115,15 +3173,23 @@ Considering that the importance of predictive coding and un/self-supervised lear
 
 &lt;p&gt;고등학교에 진학하며, 어렴풋이 스스로의 완벽에 집착과 강박을 느꼈다. 교과서에 있는 것만으로는 아쉬움이 컸고, 다양한 질문들을 끝까지 물고 늘어졌다. 아직까지도 여러 사건이 떠오른다. 지구 과학 시간, 교과서에 케플러의 법칙에 대한 증명이 없다는 것을 깨닫고 오기가 생겼다. 언젠가 선생님과 친구들 앞에서 꼭 이 법칙을 증명해내어 이해시키겠다는 각오가 선 것이다. 며칠 밤을 새며, 뉴턴 역학을 활용한 증명에서 시작해 라그랑지안, 해밀토니안 역학&lt;sup&gt;&lt;a href=&quot;#footnote_1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;을 활용한 증명까지 공부하게 되었다. 결국, 수업 한 시간에 걸쳐 케플러의 법칙 전체를 증명하기에 이르렀다. (칠판은 아름답게 채워져 있었지만, 대부분의 친구들은 자고 있었다.) 이런 경험들이 수차례 반복되다 보니, 학교나 학원에서 배울 수 있는 지식보다는 오히려 배울 수 없는 지식을 갈망했다.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;가장 기억나는 사건이 있다. 선생님과 친구들을 설득하여 양 뇌의 해부 실험을 기획한 것이다. 학원 일정으로 바쁜 친구들을 설득하여 하교 후, 실험실에서 해부 실습을 진행했다. 우리는 머리를 맞대며 조용히 주먹 한 개 크기보다도 작은 양 뇌를 갈랐다. 너무나도 경이로웠다. 어떻게 우리의 논리와 이성, 직관과 감성, 희노애락이 이렇게 작고 축축한 물체에서 시작될 수 있을까? 나는 당시 생명과학 담당이기도 하셨던 담임 선생님과 많은 면담과 토론을 했던 기억이 난다. 그러나 답이 나오긴 커녕, 훨씬 더 깊은 구덩이에 빠지곤 했다. 부족한 식견을 넓히기 위해, 지그문트 프로이트의 《꿈의 해석》, 실비아 나사르의 《뷰티풀 마인드》, 에드워드 윌슨의 《통섭》과 같은 책들을 읽었다. 프로이트를 통해 마음에 대한 분석적 상상의 지평을 넓혔고, 나사르를 통해 조현병을 앓던 천재 수학자 존 내쉬의 기구한 삶을 엿보았으며, 윌슨을 통해 유물론적 접근법-뇌과학, 신경생리학, 인공지능 등-에 대한 깊은 통찰&lt;sup&gt;&lt;a href=&quot;#footnote_2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;에 공감할 수 있었다.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;나는 운 좋게도, 3학기를 다닌 후 학과를 결정할 수 있는 대학에 진학했다. 아직 물리학과 생명과학 (혹은 의학) 중, 어떤 분야에서 내 질문을 탐구해야 할 지 쉽게 판단이 서지 않았기 때문이다. 두번째 학기, 생물정보학 연구실에서 인턴을 하며, 통계적 모델링과 빅데이터 분석에 매료되었다. 그러던 중, 4년 만에 열린 한 물리학 수업&lt;sup&gt;&lt;a href=&quot;#footnote_3&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;을 들을 수 있었다. 이 수업은 5명 내외로 운영되었는데, 한국인 학부생은 나 혼자 뿐이었다. 아주 격렬한 물리학적 내용에 고군분투하며, 마음과 의식의 새로운 이론을 꿈꾸게 되었다. 내게 주어진 1년 반의 유예 기간이 끝났을 땐, 나는 수학을 전공하기로 결심한다.&lt;/p&gt;
 
 &lt;p&gt;수학을 전공하기로 택했던 이유는 단순했다. 무엇보다, 내 질문은 과학보다 철학에 가깝다고 생각했기 때문이었다. 그렇기에 과학적 지식 그 자체보다는 과학을 하는(만드는) 도구와 사고방식이 필요했다. 이런 이유 외에도, 신경과학, 심리학, 인공지능 등의 수많은 분야에서 마음에 대한 문제를 다루는 만큼, 그 모든 것을 이해할 수 있는 기본적인 마인드셋의 필요성에 깊게 공감한 탓도 있다. 수학과에 진학하며 수학적 사고와 이론의 형식적 전개방식을 깊이 있게 공부할 수 있었고, 동시에 마음의 과학을 만들기 위한 배경지식으로써 마음의 철학을 공부할 자질을 갖출 수 있었다. 수학을 공부한 후 놀랐던 사실은, 내게 철학의 분석적 텍스트가 정말 편하고 쉽게 느껴진다는 것이다. 나는 점차 과학철학과 심리철학의 여러 논증의 우아함과 담백함에 깊이 매료되어 갔다. 내게 학부 기간 동안 가장 기억에 남는 경험이 무엇인지 물어본다면, 단연 마음과 인공지능 알고리즘들의 근본적인 수학적 형식과 마음 및 인공지능과 관련된 철학적 담론을 소개하고자 제작했던 “인공지능의 수학&lt;sup&gt;&lt;a href=&quot;#footnote_4&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;” 및 “인공지능의 철학&lt;sup&gt;&lt;a href=&quot;#footnote_5&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;” 대중 강의다. 한편, 나의 학사 학위 주제는 “인공적 신경망의 학습 과정에 대한 위상수학적 분석”으로, 가상적인 두뇌에서 발생하는 구조적인 변화&lt;sup&gt;&lt;a href=&quot;#footnote_6&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; 를 포착하는 도구를 개발했다.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;졸업이 가까워질 때쯤, 사람의 마음-의식, 지각, 정서, 기억 등-과 관련된 문제 뿐만 아니라, 그것을 근간으로 하는 기술-사이버네틱스, 최적 제어 이론, 의사 결정 이론, 기계 학습, 인공지능 등-의 본질적인 구성과 현실적인 적용 사례에도 관심이 커져갔다. 신기하게도, 수학적 형식과 철학적 담론에 대한 이해가 깊어지면 깊어질 수록, 현실적인 기술의 불편한 이면과 윤리적 의사결정의 중요성이 피부에 와 닿았다. 특히, 최근 활발한 연구가 이루어지고 있는 인공지능 분야는 대개 생명체의 작동 방식과 합치하지 않을&lt;sup&gt;&lt;a href=&quot;#footnote_7&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;뿐만 아니라 실제로 비효율적&lt;sup&gt;&lt;a href=&quot;#footnote_8&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;이었다. 더욱이 우리 사회에서 그것의 작동 방식과 원리를 이해하고 윤리적 문제를 고려해보려는 관심보다는 그것을 어떻게 전장에서 유의미하게 활용해 우위를 선점할지, 시장에서 상품화하여 소비를 가속화할지에 대한 관심이 훨씬 더 크다는 사실을 깨달았다. 그럴 수록, 내게 더 오기가 생겼다. 마음의 작동원리에 대한 답은 찾던 나는 인공지능의 본질적 구성과 기계의 구성 원리를 분석하게 되었다. 청소년 시절부터 이어져 온 나의 그 끈질긴 질문이 마음에 대한 궁극적인 이해 뿐만 아니라, 앞으로 기술이 나아가야 할 궁극적인 방향에 대한 숙고와 더 나은 인류로의 발전을 꿈꾸게 하는 원동력으로도 이어진 셈이다.&lt;/p&gt;
 
 &lt;p&gt;이론 신경과학과 인공지능 기술의 형식적인 공통점을 찾기 위해, 해외 유명 교수들의 저서를 탐독하기 시작했다. 마르첼로 마시미니의 《의식은 언제 탄생하는가?》와 줄리오 토노니의 《파이》부터, 아닐 세스의 《내가 된다는 것》, 안토니오 다마지오의 《느끼고 아는 존재》, 니콜라스 험프리의 《센티언스》, 그리고 아마리 슌이치의 《뇌, 마음, 인공지능》과 맥스 테크마크의 《라이프 3.0》까지. 수많은 도서를 읽으며 마음의 이론과 기계의 마음을 상상했다. 국내에서도 김주환의 《내면소통》이나 송강면, 안민숙의 《최면 바이블》도 큰 도움이 되었다. 대부분의 책에서 이론 신경과학의 분야에서 칼 프리스턴의 자유 에너지 원리Free Energy Principle나 능동 추론Active Inference을 언급했다. 프리스턴 교수는 분명 신경과학/의학 분야의 유명인사였지만, 놀랍게도 수학&lt;sup&gt;&lt;a href=&quot;#footnote_9&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;과 물리학&lt;sup&gt;&lt;a href=&quot;#footnote_10&quot;&gt;10&lt;/a&gt;&lt;/sup&gt;에도 정통했으며, 더욱이 다양한 공학&lt;sup&gt;&lt;a href=&quot;#footnote_11&quot;&gt;11&lt;/a&gt;&lt;/sup&gt;의 접근법에 대해 깊은 통찰을 지니고 있었다. 실제로 여러 논문을 통해 그의 이론이 우아하고, 명쾌하며, 몸-마음-행동의 관계를 분석적으로 규명하는 근본적인 프레임워크가 될 수 있을 것 같다는 확신이 들었다.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;마음에 대한 체계적인 이해와 유년 시절부터 이어져 온 질문으로부터의 완전한 자유를 꿈꾸며, 또 동시에, 보다 효율적이고 사회적으로 책임질 수 있는 기계의 도래를 꿈꾸며 나의 믿음을 실현하기 위해 노력하고 있다. 이번 작업 또한 그 노력의 일환이다. 우연히, 의식을 주제로 신경과학 박사과정 중에 재학 중이신 한국의식과학회(KACS)의 장현우 회장님과 연락을 하며 새로운 번역 소식&lt;sup&gt;&lt;a href=&quot;#footnote_12&quot;&gt;12&lt;/a&gt;&lt;/sup&gt;을 접했다. 더욱이 과거 즐겁게 읽은 줄리오 토노니의 《파이》를 번역하신 정신과 전문의 려원기 선생님과 함께 번역하신다는 사실에 꼭 함께 참여해보고 싶었다. 궁극적으로, 개인적으로 가장 중요하지만 또 어려운 의식의 문제를 능동추론의 관점에서 다룬 책이라는 점에서 꼭 참여하고 싶었다. 내게 비록 신경생리학이나 임상의학적 지식이 부족하지만, 능동추론에 입각한 수학적-물리학적-컴퓨터과학적 지식에는 자신이 있었기에, 혹여나 실례가 되지 않을까 무릅쓰고 양해를 구해보았다. 다행히도 공역 제안을 흔쾌히 수락해 주셨고, 퇴근 후나 주말의 자투리 시간을 활용해 번역 작업에 도움을 드릴 수 있어 보람 찼다. 두 분께서 초안부터 워낙 훌륭히 번역해 주셨던 만큼 용어의 번역, 오탈자 검수, 번역 어투 등의 수정이 용이했다. 나의 뜸한 피드백과 복잡한 답변에 더 큰 열정과 의지를 보여주셨던 려원기, 장현우 선생님께 진심으로 감사의 말씀을 전한다. 잊지 못한 소중한 경험을 얻을 수 있어 행복한 시간이었다.&lt;/p&gt;
 
@@ -3219,15 +3285,23 @@ _당시엔 에르빈 슈뢰딩거의 《생명이란 무엇인가?》, 자크 �
 
 &lt;p&gt;Upon entering high school, I began to obsess over perfection. The content in textbooks felt insufficient, and I relentlessly pursued various questions. One memory still stands out: during Earth Science class, I realized the textbook lacked a proof of Kepler’s laws and became determined. I resolved to prove these laws and explain them to my teacher and classmates someday. After several sleepless nights, I studied proofs starting with Newtonian mechanics, progressing to Lagrangian and Hamiltonian mechanics&lt;sup&gt;&lt;a href=&quot;#footnote_1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Eventually, I managed to prove all of Kepler’s laws in a single class period (though the chalkboard was beautifully filled, most of my classmates were asleep). Repeated experiences like this led me to crave knowledge beyond what school or academies could offer.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;There’s an event that stands out in my memory. It was when I persuaded my teacher and friends to plan a dissection experiment on a sheep’s brain. Convincing my busy academy friends, we carried out the dissection practice in the lab after school. We huddled together in silence, slicing through a sheep’s brain, which was even smaller than a clenched fist. It was nothing short of awe-inspiring. How could our logic and reason, intuition and emotions, joys and sorrows originate from such a small, damp object? I remember having numerous discussions and interviews with our life science teacher at the time. Far from finding answers, I often found myself sinking into deeper pits of inquiry. To broaden my limited perspective, I read books like Sigmund Freud’s “Die Traumdeutung,” Sylvia Nasar’s “A Beautiful Mind,” and Edward O. Wilson’s “Consilience.” Through Freud, I expanded the horizons of my analytical imagination regarding the mind; through Nasar, I glimpsed the tumultuous life of John Nash, a genius mathematician struggling with schizophrenia; and through Wilson, I found resonance with a materialistic approach&lt;sup&gt;&lt;a href=&quot;#footnote_2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;—embracing neuroscience, neurophysiology, artificial intelligence, and more.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;I was fortunate to enroll in a university that allowed me to decide on my major after three semesters. I found it challenging to determine whether I should explore my questions within the realm of physics or life sciences (or perhaps medicine). In my second semester, I interned at a bioinformatics lab, where I became captivated by statistical modeling and big data analysis. During this time, I had the opportunity to take a physics class&lt;sup&gt;&lt;a href=&quot;#footnote_3&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; that was offered for the first time in four years. The class was small, with around five students, and I was the only Korean undergraduate. Struggling with the intense physical concepts, I began to dream of new theories about the mind and consciousness. By the end of my one-and-a-half-year grace period, I had decided to major in mathematics.&lt;/p&gt;
 
 &lt;p&gt;The reason I chose to major in mathematics was simple. Above all, I believed my questions were closer to philosophy than to science. Therefore, I needed tools and a way of thinking to do science—to create it—rather than the scientific knowledge itself. Additionally, as numerous fields such as neuroscience, psychology, and artificial intelligence deal with the enigma of the mind, I deeply resonated with the necessity of having a fundamental mindset that could comprehend all of these aspects. Entering the mathematics department allowed me to deeply study mathematical thinking and the formal development of theory, while simultaneously equipping me with the qualifications to study the philosophy of the mind as a background for crafting the science of the mind. After studying mathematics, I was surprised to find that philosophical analytical texts felt remarkably comfortable and accessible to me. I became increasingly enchanted by the elegance and simplicity of various arguments in the philosophy of science and psychology. If asked what the most memorable experience during my undergraduate years was, without a doubt, it would be the public lectures I created to introduce the fundamental mathematical forms of the mind and artificial intelligence algorithms, and the philosophical discourse related to them, titled “Mathematics for Artificial Intelligence&lt;sup&gt;&lt;a href=&quot;#footnote_4&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;” and “Philosophy for Artificial Intelligence&lt;sup&gt;&lt;a href=&quot;#footnote_5&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;.” Meanwhile, my bachelor’s thesis was on “A Topological Analysis of the Learning Process in Artificial Neural Networks,” where I developed tools to capture the structural changes&lt;sup&gt;&lt;a href=&quot;#footnote_6&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; occurring in a virtual brain.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;As graduation approached, my interest expanded beyond the problems related to the human mind—consciousness, perception, emotion, memory, etc.—to the essential structure and practical applications of technologies based upon it—cybernetics, optimal control theory, decision theory, machine learning, artificial intelligence, and so on. Intriguingly, the deeper my understanding of mathematical forms and philosophical discourse became, the more acutely I felt the uncomfortable realities of technology and the importance of ethical decision-making. Especially in the field of artificial intelligence, where vigorous research is ongoing, I noticed that the majority of approaches not only clashed with the functioning of living organisms&lt;sup&gt;&lt;a href=&quot;#footnote_7&quot;&gt;7&lt;/a&gt;&lt;/sup&gt; but were also actually inefficient&lt;sup&gt;&lt;a href=&quot;#footnote_8&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;. Moreover, I realized that society’s interest lies far more in how these technologies can be meaningfully utilized on the battlefield to gain an advantage, or commercialized in the market to accelerate consumption, than in understanding their mechanisms and considering the ethical implications. This realization only fueled my determination. In seeking the answers to the workings of the mind, I began to analyze the fundamental composition of artificial intelligence and the principles of machine operation. The persistent questions from my youth, in their quest for ultimate understanding of the mind, became a driving force not just for comprehension but for contemplation of the ultimate direction technology should take, inspiring dreams of a better, more advanced humanity.&lt;/p&gt;
 
 &lt;p&gt;To seek the formal commonalities between theoretical neuroscience and artificial intelligence technology, I began to delve into the works of renowned professors from abroad. I started with Marcello Massimini’s “Nulla di piu grande” and Giulio Tononi’s “Phi,” moving on to Anil Seth’s “Being You,” Antonio Damasio’s “The Feeling &amp;amp; Knowing,” Nicholas Humphrey’s “The Sentience,” Amaral Shunichi’s “Brain, Mind, Artificial Intelligence,” and Max Tegmark’s “Life 3.0.” As I read through a plethora of books, I imagined the theory of the mind and the mind of the machine. In Korea, Kim Ju-Hwan’s “Inner Communication” and the “Hypnosis Bible” by Song Kang-Myun and An Min-Sook also proved to be of great help. Most of these books referred to Karl Friston’s Free Energy Principle or Active Inference in the field of theoretical neuroscience. Professor Friston was certainly a prominent figure in neuroscience/medicine, but, astonishingly, he was also well-versed in mathematics&lt;sup&gt;&lt;a href=&quot;#footnote_9&quot;&gt;9&lt;/a&gt;&lt;/sup&gt; and physics&lt;sup&gt;&lt;a href=&quot;#footnote_10&quot;&gt;10&lt;/a&gt;&lt;/sup&gt;, and furthermore, he possessed deep insights into various engineering&lt;sup&gt;&lt;a href=&quot;#footnote_11&quot;&gt;11&lt;/a&gt;&lt;/sup&gt; approaches. In fact, through several papers, I became convinced that his theory could serve as an elegant and clear foundational framework that analytically elucidates the relationship between body, mind, and action.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;Dreaming of a systematic understanding of the mind and complete liberation from the questions that have followed me since childhood, and at the same time, envisioning the advent of more efficient and socially responsible machines, I am committed to realizing my beliefs. This work is part of that effort. By chance, I came into contact with Jang Hyun-woo, president of the Korean Association for the Consciousness Sciences(KACS), who is currently a doctoral student in neuroscience, and learned of new translation works&lt;sup&gt;&lt;a href=&quot;#footnote_12&quot;&gt;12&lt;/a&gt;&lt;/sup&gt;. Moreover, I was excited about the opportunity to participate in translating a work by Giulio Tononi, whose book “Phi” I had enjoyed in the past, especially since it was being translated by the psychiatrist Ryeo Won-gi, who I admired. Ultimately, I wanted to be involved because the book deals with the challenging and personally significant issue of consciousness from the perspective of active inference. Although I lack expertise in neurophysiology or clinical medicine, I am confident in my mathematical, physical, and computer science knowledge based on active inference, so I took a chance and asked for understanding, hoping it would not be presumptuous. Fortunately, they graciously accepted the co-translation offer, and I found it rewarding to help with the translation during my spare time after work and on weekends. As both doctors had already translated the draft so well, it was easy to make revisions, check for typos, and adjust the tone of the translation. I sincerely thank Ryeo Won-gi and Jang Hyun-woo for their greater passion and determination in response to my infrequent feedback and complicated answers. It was a happy time, allowing me to gain an unforgettable and valuable experience.&lt;/p&gt;
 
@@ -3808,27 +3882,27 @@ Refer to Amaral Shunichi’s “Brain, Mind, Artificial Intelligence.” A compu
 &lt;p&gt;인공지능 기술은 수직에 가까운 속도로 성장하고 있다. 특히, AGI(일반 인공지능) 혹은 Human-Level AI(인간 수준 인공지능)에 준하는 기술들이 등장하기 시작했다. 급속도로 발전하는 인공지능 기술의 이면에는 수많은 잠재적 위험들이 도사리고 있다. 이에 따라, 세계적인 신경과학자 Karl Friston이 수석 과학자로 있는 캐나다의 인지 컴퓨팅 기업 Verses AI는 지난 12월 20일 NY Times의 공개 광고면을 활용해 OpenAI에게 공개 서한을 보냈다. 먼저, 그들은 현재 인공지능 기술이 지니고 있는 한계점을 나열했다.&lt;/p&gt;
 
 &lt;aside&gt;
-👨🏻‍💻 *· Black box problem ← AI 모델의 내부 작동 방식을 확인할 수 없다는 점.*
+- Black box problem ← AI 모델의 내부 작동 방식을 확인할 수 없다는 점.
 
-_· Alignment problem ← AI 모델의 작동 원리를 인간 윤리에 정렬하는 일반적 방법이 없다는 점._
+- Alignment problem ← AI 모델의 작동 원리를 인간 윤리에 정렬하는 일반적 방법이 없다는 점.
 
-_· Generalizability problem ← AI 모델이 일반화 성능을 달성하기 어렵다는 점._
+- Generalizability problem ← AI 모델이 일반화 성능을 달성하기 어렵다는 점.
 
-_· Hallucination problem ← AI 모델이 겪게 되는 환각문제를 해결하기 어렵다는 점._
+- Hallucination problem ← AI 모델이 겪게 되는 환각문제를 해결하기 어렵다는 점.
 
-_· Centralization problem — one corporation owning the AI ← 현재 몇개의 테크기업이 인공지능 기술을 독점하고 있다는 점._
+- Centralization problem — one corporation owning the AI ← 현재 몇개의 테크기업이 인공지능 기술을 독점하고 있다는 점.
 
-_· Clean data problem ← 완벽히 개인정보를 지우고 학습에 활용할 일반적인 방법이 없다는 점._
+- Clean data problem ← 완벽히 개인정보를 지우고 학습에 활용할 일반적인 방법이 없다는 점.
 
-_· Energy consumption problem ← 대규모의 데이터를 학습시키는데 엄청난 에너지가 소비된다는 점._
+- Energy consumption problem ← 대규모의 데이터를 학습시키는데 엄청난 에너지가 소비된다는 점.
 
-_· Data update problem ← 추가적인 데이터를 바탕으로 업데이트하고자 할 때 재앙적 망각 문제를 해결하기 어렵다는 점._
+- Data update problem ← 추가적인 데이터를 바탕으로 업데이트하고자 할 때 재앙적 망각 문제를 해결하기 어렵다는 점.
 
-_· Financial viability problem ← AI가 상업적으로 활용되었을 때 수익의 소유와 관련해 문제의 소지가 있다는 점,._
+- Financial viability problem ← AI가 상업적으로 활용되었을 때 수익의 소유와 관련해 문제의 소지가 있다는 점,.
 
-_· Guardrail problem ← AI가 인간을 뛰어넘었을 때 인간에게 해가 되지 않도록 가드레일을 설계할 필요가 있다는 점._
+- Guardrail problem ← AI가 인간을 뛰어넘었을 때 인간에게 해가 되지 않도록 가드레일을 설계할 필요가 있다는 점.
 
-_· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자유로울 수 없다는 점._
+- Copyright problem ← 데이터의 소유권과 침해 문제로부터 자유로울 수 없다는 점.
 
 &lt;/aside&gt;
 
@@ -4231,29 +4305,42 @@ _· Copyright problem ← 데이터의 소유권과 침해 문제로부터 자�
 
 &lt;p&gt;AI technology is advancing at a near-vertical pace, with technologies approaching AGI (Artificial General Intelligence) or Human-Level AI. However, alongside this rapid advancement come numerous potential risks. In response, on December 20th, Canadian cognitive computing firm Verses AI, where renowned neuroscientist Karl Friston serves as Chief Scientist, published an open letter to OpenAI in The New York Times, highlighting the current limitations of AI technology.&lt;/p&gt;
 
-&lt;aside&gt;
-👨🏻‍💻 *· Black box problem ← The internal workings of AI models are opaque and difficult to understand.*
-
-_· Alignment problem ← There is no general method for aligning AI operations with human ethics._
-
-_· Generalizability problem ← AI models struggle to achieve generalization performance._
-
-_· Hallucination problem ← The issue of AI models generating hallucinations remains unresolved._
-
-_· Centralization problem — one corporation owning the AI ← A few tech companies have a monopoly on AI technology._
-
-_· Clean data problem ← There is no standard method for perfectly anonymizing personal data for training._
-
-_· Energy consumption problem ← Training large datasets consumes vast amounts of energy._
-
-_· Data update problem ← Addressing catastrophic forgetting when updating models with new data is challenging._
-
-_· Financial viability problem ← Issues arise regarding ownership and profit when AI is commercialized._
-
-_· Guardrail problem ← Safeguards are needed to prevent AI from becoming harmful once it surpasses human capabilities._
-
-_· Copyright problem ← AI cannot be free from issues related to data ownership and copyright infringement._
-&lt;/aside&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Black box problem ← The internal workings of AI models are opaque and difficult to understand.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Alignment problem ← There is no general method for aligning AI operations with human ethics.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Generalizability problem ← AI models struggle to achieve generalization performance.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hallucination problem ← The issue of AI models generating hallucinations remains unresolved.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Centralization problem — one corporation owning the AI ← A few tech companies have a monopoly on AI technology.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Clean data problem ← There is no standard method for perfectly anonymizing personal data for training.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Energy consumption problem ← Training large datasets consumes vast amounts of energy.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Data update problem ← Addressing catastrophic forgetting when updating models with new data is challenging.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Financial viability problem ← Issues arise regarding ownership and profit when AI is commercialized.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Guardrail problem ← Safeguards are needed to prevent AI from becoming harmful once it surpasses human capabilities.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Copyright problem ← AI cannot be free from issues related to data ownership and copyright infringement.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;lt;/aside&amp;gt;&lt;/p&gt;
 
 &lt;p&gt;Verses AI claims that their core technologies—Active Inference-based cognitive computing and a benchmark approach inspired by nature’s intelligence—can overcome these challenges.&lt;/p&gt;
 
@@ -4589,6 +4676,8 @@ _· Copyright problem ← AI cannot be free from issues related to data ownershi
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/65e2qScV_K8?si=3Bf6Ej3_XNieXerV&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
+&lt;hr /&gt;
+
 &lt;h3 id=&quot;1-동물의-마음&quot;&gt;1. 동물의 마음&lt;/h3&gt;
 
 &lt;p&gt;→ 신경과학을 통해 동물의 감정을 연구해볼 수 있지 않을까?&lt;/p&gt;
@@ -4596,6 +4685,8 @@ _· Copyright problem ← AI cannot be free from issues related to data ownershi
 &lt;p&gt;닭, 개, 고양이 등 다양한 동물들 또한 감정을 지니고 있음이 밝혀지고 있다. 특히 &lt;strong&gt;원시적인 감정&lt;/strong&gt;들은 사람이 사고하거나 계획할 때 작동하는 &lt;em&gt;대뇌 피질Cerebral Cortex&lt;/em&gt;이 아닌, 아주 고대의 뇌 구조에서 발생한다는 것이 밝혀졌다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;↔ 타자의 마음 문제에 대해 어떻게 해결하려고 하는가?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h3 id=&quot;2-원시적-감정&quot;&gt;2. 원시적 감정&lt;/h3&gt;
 
@@ -4605,9 +4696,13 @@ _· Copyright problem ← AI cannot be free from issues related to data ownershi
   &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-23-The Science of Emotions/231123_0.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;h3 id=&quot;3-두뇌의-아편&quot;&gt;3. 두뇌의 아편&lt;/h3&gt;
 
 &lt;p&gt;→ PANIC 감정의 각성은 우울증을 야기하는 심리적 고통감의 핵심일 수 있다. 새/침팬지 연구를 통해 우리 두뇌는 어머니와 접촉 시 아편계 물질이 분비되는 것을 발견했다.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h3 id=&quot;4-새로운-개념&quot;&gt;4. 새로운 개념&lt;/h3&gt;
 
@@ -4638,6 +4733,8 @@ _· Copyright problem ← AI cannot be free from issues related to data ownershi
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/65e2qScV_K8?si=3Bf6Ej3_XNieXerV&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
+&lt;hr /&gt;
+
 &lt;h3 id=&quot;1-the-minds-of-animals&quot;&gt;1. The Minds of Animals&lt;/h3&gt;
 
 &lt;p&gt;→ Can neuroscience help us study the emotions of animals?&lt;/p&gt;
@@ -4645,6 +4742,8 @@ _· Copyright problem ← AI cannot be free from issues related to data ownershi
 &lt;p&gt;Research has revealed that various animals, such as chickens, dogs, and cats, also experience emotions. Interestingly, these &lt;strong&gt;primitive emotions&lt;/strong&gt; are found to originate not in the &lt;em&gt;cerebral cortex&lt;/em&gt;, where human thinking and planning occur, but in much older brain structures.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;↔ How do we address the issue of understanding the minds of others?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h3 id=&quot;2-primitive-emotions&quot;&gt;2. Primitive Emotions&lt;/h3&gt;
 
@@ -4654,9 +4753,13 @@ _· Copyright problem ← AI cannot be free from issues related to data ownershi
   &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-11-23-The Science of Emotions/231123_0.png&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
 &lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;h3 id=&quot;3-the-brains-opioids&quot;&gt;3. The Brain’s Opioids&lt;/h3&gt;
 
 &lt;p&gt;→ The activation of PANIC emotions may be central to the psychological pain that leads to depression. Studies on birds and chimpanzees have shown that our brains release opioid-like substances when in contact with a mother.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h3 id=&quot;4-new-concepts&quot;&gt;4. New Concepts&lt;/h3&gt;
 
