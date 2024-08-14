@@ -73,6 +73,7 @@ This is a summary of the key points that stood out to me while reading Shun'ichi
    </figure>
 </div>
 
+---
 
 ## Chapter 2: What is the Brain?
 
@@ -92,17 +93,23 @@ The cerebrum is the most recently developed part of the brain. Comprising the ce
 
 > How might Optimal Input in IT-MPC relate to the interaction between cerebrum and cerebellum in motor function?
 
+---
+
 ## Chapter 5: Interpreting the Brain through Mathematics
 
 This chapter delves into the mechanisms of learning in the brain. Examination of neural circuits in the brain reveals that there is no observable 'backpropagation of error' in the brain as there is in artificial neural networks. So, is the learning mechanism of perceptrons completely different from that of the brain?
 
 It's not entirely different. The stochastic gradient descent method is an algorithmic expression of a principle in learning information processing. The brain might not have fully realized this principle, but that doesn't mean the learning process in perceptrons is entirely unrelated to the brain's structure.
 
+---
+
 ## Chapter 6: The History and Future of Artificial Intelligence
 
 IBM has seriously entered the field of neuromorphic computing. The U.S. Department of Defense's DARPA led the "SyNAPSE" program, aiming to create neural circuits on a chip. IBM successfully developed the "TrueNorth" chip as part of this initiative.
 
 This chip contains 1 million neurons and 256 million synapses, yet consumes only 70mW of power. When these chips are interconnected, they form a system with 48 million neurons and 12 billion synapses, which is comparable to the brain of a mouse.
+
+---
 
 ## Reflections
 

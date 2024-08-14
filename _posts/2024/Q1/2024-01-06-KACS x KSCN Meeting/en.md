@@ -65,6 +65,8 @@ image: assets/images/posts/2024/Q1/2024-01-06-KACS x KSCN Meeting/6.jpg
 
 On January 6th, 2024, I had the privilege of organizing the second offline meeting of the [Korean Association for Consciousness Sciences (KACS)](https://kacs.me/), where I serve as vice president. We were fortunate to host the symposium at a cozy office space provided by the [Korean Foundation for Advanced Studies (KFAS)](https://www.kfas.or.kr/) in Gangnam, allowing us to conduct the event successfully.
 
+---
+
 <div class="centered-container">
   <div class="two-fig-container">
     <figure>
@@ -93,6 +95,8 @@ This offline meeting was particularly special because it garnered significant in
   </figure>
 </div>
 
+---
+
 Professor Park Hyung-Dong, who recently joined the Department of Brain and Cognitive Sciences at KAIST, presented a scientific approach to consciousness based on the interaction between the brain and body. He introduced us to his research related to brain activity connected to heartbeats.
 
 <div class="centered-container">
@@ -116,6 +120,8 @@ I was also asked to give a presentation. Although unrelated to my work at the re
 </div>
 
 The presentation by master’s student Na Hyeong-Seok was particularly memorable. Professors in psychiatry and neurosurgery posed critical questions about whether the fields of neuroscience and psychiatry are scientifically structured. It was an excellent opportunity to discuss the historical issues in psychiatry and its future and potential for development.
+
+---
 
 <div class="centered-container">
   <div class="two-fig-container">

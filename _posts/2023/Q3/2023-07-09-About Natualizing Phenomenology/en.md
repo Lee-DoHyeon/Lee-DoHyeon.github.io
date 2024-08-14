@@ -59,7 +59,7 @@ The analysis provided here may not be entirely rigorous. Fortunately, such a rig
   </figure>
 </div>
 
-<br>
+---
 
 # 1. Introduction
 Chapter 1 begins with a discussion of the "Naturalizing Phenomenology (NP)" research program, a topic addressed by both cognitive scientists and philosophers. The goal of NP is to integrate phenomenological research within the explanatory framework of natural sciences. Issues related to consciousness can be broadly categorized into two major problems:
@@ -72,7 +72,7 @@ The key question of this paper is as follows: To assess the potential for a conv
 Is a convergence of cognitive science and phenomenology possible?
 NP is a prerequisite for this possibility.
 
-<br>
+---
 
 # 2. Neurophenomenology
 
@@ -101,7 +101,7 @@ Three questions arise from the perspective of Neurophenomenology, though the aut
    2. (Assuming the model exists) Can it provide a comprehensive bridge over the explanatory gap?
    3. (If it can bridge the gap) Is this approach compatible with Husserl’s stance? Is it not a form of naturalism, which Husserl rejected?
 
-<br>
+---
 
 # 3. Bridging the Explanatory Gap
 Varela’s core hypotheses can be classified into three major points:
@@ -131,7 +131,7 @@ The problem can thus be redefined from the perspective of the Generative Passage
 
 Successfully bridging the explanatory gap, as redefined, involves (1) constructing a mathematical model that appropriately formalizes phenomenological events and neurological data, and (2) demonstrating that the phenomena to be explained (e.g., individual instances of consciousness or Neural Correlates of Consciousness, NCC) logically follow from the model.
 
-<br>
+---
 
 # 4. Compatibility with Husserl’s Position
 Naturalization can be broadly divided into (1) the naturalization of ideality and (2) the naturalization of consciousness. While Husserl opposes the former, he considers the latter possible within certain limits. The author argues that while the naturalization of phenomenological psychology as the foundation of empirical sciences is acceptable, transcendental phenomenology can never be naturalized.
@@ -145,7 +145,7 @@ Naturalization can be broadly divided into (1) the naturalization of ideality an
   </figure>
 </div>
 
-<br>
+---
 
 # Reflections on the Reading
 

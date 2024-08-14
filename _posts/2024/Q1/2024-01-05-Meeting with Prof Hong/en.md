@@ -80,6 +80,8 @@ On January 5th, at the start of this year, I requested a meeting with Professor 
   </figure>
 </div>
 
+---
+
 The most pressing question during this meeting was to seek advice on how to continue my research in this field. During my undergraduate years, much of my time was spent in isolation due to the pandemic, making it difficult to prepare for a career in theoretical neuroscience and AI on my own. Therefore, I introduced the problems and interests I aim to solve to Professor Hong:
 
 - Bridging Natural and Artificial Intelligence: Developing formal theoretical frameworks or proposing computational methodologies.
@@ -93,5 +95,7 @@ Therefore, finding the right school and program where you can excel in your rese
 He also advised on whether it would be necessary to pursue a master’s degree first or go straight into a PhD. While the cultural norm in Korea places high value on achieving things earlier than others, in the actual research and professional community, the process of learning by writing papers is far more important. Without this deep learning experience, graduating early with few publications could pose significant challenges in securing a job later. In fact, researchers who excel in academia often produce three to four high-quality papers during their PhD and then rapidly increase their publication rate during their postdoc. This, he explained, is a healthy way to progress.
 
 Ultimately, he suggested that if I was truly clear about what I wanted to do, it might be worth trying. For instance, if I am really passionate about developing human-level AI, it might be a good idea to directly join a department like Google Robotics and grow by balancing work and research without pursuing a PhD.
+
+---
 
 I am sincerely grateful to Professor Hong Seok-jun for taking the time to meet with me. As a senior researcher and professor, he provided me with a sense of reassurance and excitement for the future. This meeting prompted me to ask myself many questions: Is this truly the topic I want to pursue? Is it too abstract? What specific area do I want to research, and what results do I hope to achieve? Am I really willing to dedicate my life to solving this problem? These are the questions I will continue to ponder.

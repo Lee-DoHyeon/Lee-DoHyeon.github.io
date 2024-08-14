@@ -23,6 +23,8 @@ image: assets/images/posts/2023/Q4/2023-11-23-The Science of Emotions/emotion.jp
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/65e2qScV_K8?si=3Bf6Ej3_XNieXerV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+---
+
 ### 1. 동물의 마음
 
 → 신경과학을 통해 동물의 감정을 연구해볼 수 있지 않을까?
@@ -30,6 +32,8 @@ image: assets/images/posts/2023/Q4/2023-11-23-The Science of Emotions/emotion.jp
 닭, 개, 고양이 등 다양한 동물들 또한 감정을 지니고 있음이 밝혀지고 있다. 특히 **원시적인 감정**들은 사람이 사고하거나 계획할 때 작동하는 *대뇌 피질Cerebral Cortex*이 아닌, 아주 고대의 뇌 구조에서 발생한다는 것이 밝혀졌다.
 
 **_↔ 타자의 마음 문제에 대해 어떻게 해결하려고 하는가?_**
+
+---
 
 ### 2. 원시적 감정
 
@@ -39,9 +43,13 @@ image: assets/images/posts/2023/Q4/2023-11-23-The Science of Emotions/emotion.jp
   <img src="/assets/images/posts/2023/Q4/2023-11-23-The Science of Emotions/231123_0.png" style="width: 50%; height: auto;">
 </p>
 
+---
+
 ### 3. 두뇌의 아편
 
 → PANIC 감정의 각성은 우울증을 야기하는 심리적 고통감의 핵심일 수 있다. 새/침팬지 연구를 통해 우리 두뇌는 어머니와 접촉 시 아편계 물질이 분비되는 것을 발견했다.
+
+---
 
 ### 4. 새로운 개념
 

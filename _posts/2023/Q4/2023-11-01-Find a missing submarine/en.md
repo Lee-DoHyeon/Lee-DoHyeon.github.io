@@ -105,6 +105,8 @@ SLBMs pose a significant threat not only to the Korean Peninsula but to all nati
 
 As submarine and SLBM technologies become more advanced, the importance of ASW continues to rise. Moreover, from a command and control perspective, it is necessary to overhaul existing doctrines to ensure the effective use of collected information for more efficient operations. However, merely increasing the scale of reconnaissance assets or collecting vast amounts of information is risky. We must consider how to make effective decisions based on these assets and information. Leveraging advanced technologies from the Fourth Industrial Revolution within the U.S. C4ISR (Command, Control, Communication, Computer, Intelligence, Surveillance, & Reconnaissance) framework will be crucial.
 
+---
+
 ## 2. Main Body
 
 ### (1) Koopman's U-Boat Search Operations during World War II
@@ -160,6 +162,8 @@ In 2009, Air France Flight AFF447, en route from Rio de Janeiro to Paris, went m
 </p>
 
 When people or assets are lost near the coast, finding and rescuing them quickly is a top priority for the U.S. Coast Guard. An automated program called CASP was proposed by Discenza and later developed into the SAROPS program in 2013, which incorporates real-time ocean current data. This program is known for its high performance, typically locating missing persons within 12 hours, no matter how vast the search area. By combining pre-existing information with ocean currents, the program proposes optimal search strategies.
+
+---
 
 ## 3. Conclusion
 

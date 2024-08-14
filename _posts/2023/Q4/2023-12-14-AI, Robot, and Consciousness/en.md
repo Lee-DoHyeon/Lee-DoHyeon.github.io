@@ -77,28 +77,27 @@ Similarly, Unitree's Go2, B2, and H1 robots demonstrate shockingly flexible and 
 
 AI technology is advancing at a near-vertical pace, with technologies approaching AGI (Artificial General Intelligence) or Human-Level AI. However, alongside this rapid advancement come numerous potential risks. In response, on December 20th, Canadian cognitive computing firm Verses AI, where renowned neuroscientist Karl Friston serves as Chief Scientist, published an open letter to OpenAI in The New York Times, highlighting the current limitations of AI technology.
 
-<aside>
-👨🏻‍💻 *· Black box problem ← The internal workings of AI models are opaque and difficult to understand.*
+- Black box problem ← The internal workings of AI models are opaque and difficult to understand.
 
-_· Alignment problem ← There is no general method for aligning AI operations with human ethics._
+- Alignment problem ← There is no general method for aligning AI operations with human ethics.
 
-_· Generalizability problem ← AI models struggle to achieve generalization performance._
+- Generalizability problem ← AI models struggle to achieve generalization performance.
 
-_· Hallucination problem ← The issue of AI models generating hallucinations remains unresolved._
+- Hallucination problem ← The issue of AI models generating hallucinations remains unresolved.
 
-_· Centralization problem — one corporation owning the AI ← A few tech companies have a monopoly on AI technology._
+- Centralization problem — one corporation owning the AI ← A few tech companies have a monopoly on AI technology.
 
-_· Clean data problem ← There is no standard method for perfectly anonymizing personal data for training._
+- Clean data problem ← There is no standard method for perfectly anonymizing personal data for training.
 
-_· Energy consumption problem ← Training large datasets consumes vast amounts of energy._
+- Energy consumption problem ← Training large datasets consumes vast amounts of energy.
 
-_· Data update problem ← Addressing catastrophic forgetting when updating models with new data is challenging._
+- Data update problem ← Addressing catastrophic forgetting when updating models with new data is challenging.
 
-_· Financial viability problem ← Issues arise regarding ownership and profit when AI is commercialized._
+- Financial viability problem ← Issues arise regarding ownership and profit when AI is commercialized.
 
-_· Guardrail problem ← Safeguards are needed to prevent AI from becoming harmful once it surpasses human capabilities._
+- Guardrail problem ← Safeguards are needed to prevent AI from becoming harmful once it surpasses human capabilities.
 
-_· Copyright problem ← AI cannot be free from issues related to data ownership and copyright infringement._
+- Copyright problem ← AI cannot be free from issues related to data ownership and copyright infringement.
 </aside>
 
 Verses AI claims that their core technologies—Active Inference-based cognitive computing and a benchmark approach inspired by nature’s intelligence—can overcome these challenges.
