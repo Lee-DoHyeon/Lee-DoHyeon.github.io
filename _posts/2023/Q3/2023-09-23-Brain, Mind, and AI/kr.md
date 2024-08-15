@@ -16,7 +16,7 @@ category: Motivation
 tags: [두뇌, 계산장치, 신경과학, 정보이론, 인공지능]
 lang: kr
 header:
-   teaser: "/image: assets/images/posts/2023/Q3/2023-09-23-Brain, Mind, and AI/main.jpg"
+  teaser: "/assets/images/posts/2023/Q3/2023-09-23-Brain, Mind, and AI/main.jpg"
 image: assets/images/posts/2023/Q3/2023-09-23-Brain, Mind, and AI/main.jpg
 ---
 
@@ -78,7 +78,7 @@ image: assets/images/posts/2023/Q3/2023-09-23-Brain, Mind, and AI/main.jpg
 
 ## 2장. 뇌란 무엇인가
 
-이 장에서는 뇌의 신경생리학적 구조와 세부 기능을 설명한다. 뇌는 약 1000억 개의 뉴런으로 이루어진 거대한 회로망으로, 무게는 약 1.4kg, 부피는 1400cc 정도이다. 
+이 장에서는 뇌의 신경생리학적 구조와 세부 기능을 설명한다. 뇌는 약 1000억 개의 뉴런으로 이루어진 거대한 회로망으로, 무게는 약 1.4kg, 부피는 1400cc 정도이다.
 
 ### 1. 뇌간
 
