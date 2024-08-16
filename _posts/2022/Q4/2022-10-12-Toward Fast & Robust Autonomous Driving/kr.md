@@ -78,7 +78,7 @@ image: assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Dr
 
 # 1. 최적 제어 이론의 창시
 
-이러한 제어의 문제는 과거 사이버네틱스 운동에서 깊게 다뤄졌으며, **최적 제어 이론(Optimal Control Theory; 이하 OCT)**으로 발전하게 되었다. 이 분야는 기계 장치로 하여금, 그들이 취할 수 있는 행동 중 우리가 원하는 최적의 행동을 하게 하기 위한 이론적 프레임워크와 공학적 설계 방법론을 제공해준다. 최적 제어 이론은 강력한 수학적 배경지식을 요구한다. 왜냐하면, 이 분야는 서로 다른 두 명의 천재 수학자; 미국의 **[리처드 벨만(Richard E. Bellman)](https://en.wikipedia.org/wiki/Richard_E._Bellman)**과 구 소비에트 연방의 **[레프 폰트랴긴(Лев Семёно́вич Понтря́гин)](https://en.wikipedia.org/wiki/Lev_Pontryagin)**에 의해 창시되었기 때문이다.
+주어진 시스템을 최적의 방식으로 제어하려는 시도는 과거 사이버네틱스 운동에서 깊게 다뤄졌으며, 이후 **최적 제어 이론(Optimal Control Theory; 이하 OCT)**으로 발전하게 되었다. 이 분야는 기계 장치로 하여금, 그들이 취할 수 있는 행동 중 우리가 원하는 최적의 행동을 하게 하기 위한 이론적 프레임워크와 공학적 설계 방법론을 제공해준다. 최적 제어 이론은 강력한 수학적 배경지식을 요구한다. 왜냐하면, 이 분야는 서로 다른 두 명의 천재 수학자; 미국의 **[리처드 벨만(Richard E. Bellman)](https://en.wikipedia.org/wiki/Richard_E._Bellman)**과 구 소비에트 연방의 **[레프 폰트랴긴(Лев Семёно́вич Понтря́гин)](https://en.wikipedia.org/wiki/Lev_Pontryagin)**에 의해 창시되었기 때문이다.
 
 ## 1.1 리처드 벨만과 레프 폰트랴긴
 
@@ -87,13 +87,13 @@ image: assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Dr
     <figure>
       <img src="/assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Driving/1.jpg" style="width: 60%; height: auto;">
       <figcaption>
-        미국의 리처드 벨만(Richard E. Bellman), 출처: 위키피디아.
+        미국의 수학자 리처드 벨만(Richard E. Bellman), 출처: 위키피디아.
       </figcaption>
     </figure>
     <figure>
       <img src="/assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Driving/2.jpg" style="width: 55%; height: auto;">
       <figcaption>
-        소비에트 연방의 레프 폰트랴긴(Лев Семёно́вич Понтря́гин), 출처: <a href="https://timenote.info/en/Lev-Pontryagin">타임노트</a>
+        소비에트 연방의 수학자 레프 폰트랴긴(Лев Семёно́вич Понтря́гин), 출처: <a href="https://timenote.info/en/Lev-Pontryagin">타임노트</a>
       </figcaption>
     </figure>
   </div>
@@ -172,33 +172,53 @@ $$
 
 # 2. 확률적 최적 제어 이론으로의 발전
 
-기존의 최적 제어 이론은 훌륭한 이론적 프레임워크를 제안하는 데에는 성공했으나, 컴퓨터를 활용해 해답을 구하는 과정이 너무나 오래 걸렸다. 이에 더해, 동역학계 모델 $f$를 역으로 추정하거나 변수 $x$의 참값을 측정하거나 정확한 입력 $u$를 적용하는 데에도 한계가 있었다. 그러던 와중, HJB 방정식에 잡음 항을 추가함으로써 이를 해결하기 시작했다.
+
+<div class="centered-container">
+  <figure>
+    <img src="/assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Driving/Kappen.png" style="width: 30%; height: auto;">
+      <figcaption>
+        네덜란드의 물리학자 힐버트 카펜(Hilbert J. Kappen), 출처: <a href="https://snn.ru.nl/~bertk/">그의 웹사이트</a>.
+      </figcaption>
+  </figure>
+</div>
+
+기존의 최적 제어 이론은 훌륭한 이론적 프레임워크를 제안하는 데에는 성공했으나, 컴퓨터를 활용해 해답을 구하는 과정이 너무나 오래 걸렸다. 이에 더해, 동역학계 모델 $f$를 역으로 추정하거나 변수 $x$의 참값을 측정하거나 정확한 입력 $u$를 적용하는 데에도 한계가 있었다. 그러던 와중, 네덜란드의 물리학자 힐버트 카펜(Hilbert J. Kappen)은 HJB 방정식에 *잡음 항(Noise Term)을 추가함*으로써 이를 해결하기 시작했다. 그는 네덜란드의 랏바우트 대학교(Radboud University)의 생물물리학과에 속한 물리학 교수로, **기계 학습의 물리적 과정(The Physics of Machine Learning)**에 초점을 맞추어 연구를 수행하고 있다. 그렇다면 여기서 그가 추가한 잡음(Noise)란 무엇인가?
 
 ## 2.1 위너 프로세스
 
 <div class="centered-container">
-  <figure>
-    <img src="/assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Driving/brownian.gif" style="width: 100%; height: auto;">
+  <div class="two-fig-container">
+    <figure>
+      <img src="/assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Driving/Norbert_Wiener.png" style="width: 60%; height: auto;">
+      <figcaption>
+        미국의 수학자 노버트 위너(Norbert Wiener), 출처: 위키피디아.
+      </figcaption>
+    </figure>
+    <figure>
+    <img src="/assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Driving/brownian.gif" style="width: 75%; height: auto;">
     <figcaption>
       브라운 운동. 수학적으로는 위너 프로세스로 표현된다.
     </figcaption>
   </figure>
+  </div>
 </div>
 
-수학에서 **위너 과정(Wiener Process)**은 미국의 수학자이자 사이버네틱스 운동의 창시자인 **[노버트 위너(Norbert Wiener)](https://en.wikipedia.org/wiki/Norbert_Wiener)**에 의해 발견된 연속 시간 확률 과정(Continuous-Time Stochastic Process)이다. 이는 종종 아인슈타인이 연구했던 브라운 운동(Brownian Motion)으로도 표현되는데 형식적으로는 깊은 관계를 갖는다. 자연스러운 현상에서는 대부분 잡음이 반영되며, 수많은 확률 과정에서 발견할 수 있다. 기존의 최적 제어 이론은 결정론적인 가정을 도입하여 확률의 개입을 막았지만, 수많은 실제 문제에서는 확률 과정의 도입이 필요해 보인다. 
+
+수학에서 **위너 과정(Wiener Process)**은 미국의 수학자이자 사이버네틱스 운동의 창시자인 **[노버트 위너(Norbert Wiener)](https://en.wikipedia.org/wiki/Norbert_Wiener)**에 의해 발견된 연속 시간 확률 과정(Continuous-Time Stochastic Process)이다. 이는 종종 아인슈타인이 연구했던 물 속 꽃가루의 움직임을 다루는 브라운 운동(Brownian Motion)으로도 표현되는데, 형식적으로는 깊은 관계를 갖는다. 대부분의 자연 현상은 잡음이 포함되어 있으며, 수많은 확률 과정에서도 또한 공통적으로 발견할 수 있다. 기존의 최적 제어 이론은 결정론적인(Deterministic) 가정을 도입하여 확률의 개입을 막았지만, 수많은 실제 문제에서는 확률 과정의 도입이 필요해 보인다. 이 위너 과정이야 말로 수학적으로, 물리적으로 자연스러운 잡음으로 생각하면 된다.
 
 
-위너 확률 과정 $W_t$의 특징은 다음과 같다:
+위너 과정의 수학적 정의를 파악해보자. 어떤 확률 과정 $W_t$가 다음의 특징을 만족하면 위너 확률 과정이라고 부른다:
   1. $W_0 = 0$.
   2. 임의의 $t>0$에 대해, 미래의 변화량 $W_{t+u} - W_t, u \leq 0$은 과거의 값들 $s < t$인 $W_s$에 대해 독립이다.
   3. $W_{t+u} - W_t \sim \mathit{N}(0, \nu)$.
   4. $W_t$는 $t$에 대해 연속이다.
 
-미적분과 관련해, 위너 확률 과정의 시간에 대한 변화량 $d\xi$는 다음과 같은 성질을 지닌다.
+미적분과 관련해, 위너 확률 과정의 시간에 대한 변화량 $d\xi$는 다음과 같은 성질을 지닌다. 이 특징은 아인슈타인이 발견한 결론과도 유사하다. 아인슈타인은 브라운 운동에 대한 공식에서, 거리 제곱의 평균이 시간에 비례한다는 결론을 내렸다. 이 결론은 아래의 성질과 일맥상통한다:
 
 $$
 <d\xi^2> = \nu dt \cdots (10)
 $$
+
 
 ## 2.2 확률적 최적 제어 문제
 
@@ -221,7 +241,156 @@ $$
 \end{align}  \cdots (14)
 $$ 
 
-# 3. 경로 적분
+---
+
+<br>
+
+# 3. 경로 적분 프레임워크
+
+이렇게 구한 sHJB 방정식은 비선형 편미분 방정식이기 때문에 일반해를 구하기 무척 어렵다. 카펜은 근사 해(Approximation Solution)에 대한 시뮬레이션 결과를 얻을 수 있도록 경로 적분의 꼴로 변환하는 전략을 취한다. 일단 이 방정식을 경로 적분 형태로 변형시키려면, 몇가지 가정이 필요하다. 
+
+## 3.1 LQ 문제로 축소  
+
+sHJB 문제를 선형화하려면 먼저 몇가지 가정을 도입해 문제를 축소할 수 있다. 먼저, 동역학계에 대한 제어 입력의 선형화(Linearization)이다. 두번째는 비용에 대한 제어 입력의 이차화(Quadratization)이다. 이 두 가정이 적용된 문제를 **LQ 문제**라고 표현한다. 
+  
+쉽게 표현해보면, 앞서 정의한 확률적 최적 제어 문제를 다시 생각해보자. 수식 (11)에서 동역학계가 제어 입력에 대해 선형적 관계를 유지한다는 것은 동역학계 $f$를 *(1)제어에 독립적인 부분*과 *(2)제어 입력에 선형적으로 의존하는 부분*으로 분리할 수 있음을 의미한다. 즉:
+
+$$
+f(x,u,t) = b(x,t) + Bu
+$$
+
+마찬가지로, 제어 입력이 비용에 대해 이차항의 관계를 지닌다는 것은, 수식 (12)에서 보상 항 $R(x,u,t)$를 *(1)제어에 독립적인 부분*과 *(2)제어 입력에 이차적으로 의존하는 부분*으로 분리할 수 있음을 의미한다. 즉:
+
+$$
+R(x,u,t) = V(x,t) + \frac{1}{2} u^T R u
+$$
+
+따라서 이 가정을 적용하여 확률적 최적 제어 문제를 축소해보면, 다음과 같이 정리할 수 있다.
+
+$$
+\begin{align} 
+  dx & = \left( b(x,t) + Bu \right)dt + d\xi \cdots (15) \\
+  C(t_i, x_i, u(t_i \rightarrow t_f)) & = \biggl< \phi(x(t_f)) + \int_{t_i}^{t_f} dt \left(  V(x(t),t) + \frac{1}{2} u(t)^T R u(t) \right) \biggr>_{x_i}  \cdots (16) \\
+\end{align} 
+$$
+
+이를 적용해 유사한 방식으로 sHJB 방정식을 유도하면, 다음과 같은 축소된 방정식을 얻을 수 있다:
+
+$$
+\begin{align} 
+  - \partial_{t} J & = \min_{u} \left( V + \frac{1}{2} u^T R u  + (b + Bu)^{T} \partial_{x} J + \frac{1}{2} \mathrm{Tr} \left( \nu \partial_{x}^2J \right) \right) \\
+  J(x,t_f) & = \phi(x)
+\end{align}  \cdots (17)
+$$ 
+
+롤의 정리(Rolle's Theorem)에 의해 우변이 0이 되도록 만드는 $u$를 찾아 정리하면. 다음과 같이 표현할 수 있다(찾는 과정은 생략한다). 
+
+$$
+u=-R^{-1}B^T \partial_{x} J(x,t)
+$$
+
+이 최적해의 후보를 수식 (17)의 우변에 대입하면, 다음과 같이 정리할 수 있다.
+
+$$
+\underline{- \frac{1}{2} (\partial_{x} J)^T BR^{-1}B^T (\partial_{x} J)} + V + b^{T} \partial_{x} J + \underline{\frac{1}{2} \mathrm{Tr} \left( \nu \partial_{x}^2J \right)}  \cdots (18)
+$$
+
+## 3.2 Log 변환
+
+보다 시피, sHJB 방정식 LQ 가정으로 축소했더라도 $J$에 대한 이계 미분 항이 남아 있어 아직은 비선형 방정식이다(수식 (18)의 밑줄 친 항을 보라). 이때 이 방정식을 선형화할 수 있도록 로그 변환을 통해 수식을 선형화해보자. 즉 기존의 $J$ 대신 새로운 $\psi$를 도입하는 것이다. 이때 비례 상수는 미래의 수식 전개를 고려하여 $-\lambda$로 설정한다. 즉:
+
+$$
+J(x,t) = - \lambda \log \psi(x,t) \cdots (19)
+$$
+
+이를 수식 (18)의 밑줄 친 이차항에 적용하면, 다음과 같이 수식을 변형할 수 있다. 
+
+$$
+\begin{align}
+  - \frac{1}{2} (\partial_{x} J)^T BR^{-1}B^T (\partial_{x} J) + \frac{1}{2} \mathrm{Tr} \left( \nu \partial_{x}^2J \right) & = \underline{- \frac{\lambda^2}{2 \psi^2} \sum_{i, j} (\partial_x \psi)_i (BR^{-1}B^T)_{i,j}(\partial_x \psi)_j}\\
+  & \quad +\underline{\frac{\lambda^2}{2 \psi^2}  \sum_{i, j} \nu_{i,j} (\partial_x \psi)_i (\partial_x \psi)_j} \\
+  & \quad -\frac{\lambda}{2 \psi} \sum_{i,j} \nu_{i,j} \frac{\partial^2 \psi}{\partial x_i \partial x_j}.
+\end{align}
+$$
+
+이 식이 일차식이 되려면 밑줄 친 첫번째와 두번째 항이 0이 되어야 한다. 그에 따른 필요 충분 조건은 **적절한 비례 상수 $\lambda$의 존재성**으로 해석할 수 있다. 즉, 우리가 어떤 비례 상수를 갖는 로그 변환을 할 지 결정하면 된다는 것이다. 이를 그 적절함의 기준을 형식적으로 작성하면 다음과 같다.
+
+$$
+\exists \ a\ scalar\ \lambda \mid \nu = \lambda B R^{-1} B^T \cdots (20)
+$$
+
+## 3.3 Kolmogorov 역향 방정식
+
+만약 수식 (20)을 만족하는 적절한 비례상수 $\lambda$를 선택하여 로그 변환을 취했다고 가정하자. 그러면 수식 (18)은 선형 방정식으로 전체적인 기존의 sHJB 방정식은 아래와 같은 형태가 된다. 아래의 형태는 과거 소비에트 연방의 수학자 [안드레이 콜모고로프](https://en.wikipedia.org/wiki/Andrey_Kolmogorov)가 개발한 편미분 방정식으로, **[콜모고로프 역향 방정식(Kolmogorov Backward Equation)](https://en.wikipedia.org/wiki/Kolmogorov_backward_equations_(diffusion))**이라고도 불린다. 일반적으로 이 방정식은 연속 시간, 연속 상태의 [마코프 과정](https://en.wikipedia.org/wiki/Markov_process)에 대한 연구에서 파생되었다. 시스템의 현재 상태에 대한 정보(확률 분포)로부터 미래 상태에 대한 정보(확률 분포)를 파악할 때 유용하다. 
+
+$$
+\begin{align}
+  - \partial_t \psi & = H\psi,\ where\ an\ operator\ H = \left( \frac{V}{\lambda} + b^T\nabla + \frac{1}{2} \nu \nabla^2 \right)
+\end{align} \cdots (21)
+$$
+
+한편, 미국의 이론 물리학자인 [리처드 파인만](https://en.wikipedia.org/wiki/Richard_Feynman)과 미국의 수학자인 [마크 칵](https://en.wikipedia.org/wiki/Mark_Kac)은 원자 폭탄과 관련된 맨해튼 프로젝트에서 중성자의 무작위적 궤적을 계산하기 위해 **[파인만-칵 공식(Feynman-Kac Formula)](https://en.wikipedia.org/wiki/Feynman%E2%80%93Kac_formula)**을 개발하였다. 이 공식을 활용하면 확률 과정에 따른 무작위적인 궤적을 시뮬레이션함으로써, 수식 (21)과 같은 편미분 방정식을 풀 수 있게 만들어준다. 공식에 대해 자세히 다루진 않겠지만, 이를 적용하면 다음과 같이 수식을 전개할 수 있다:
+
+$$
+J(x,t) = -\lambda \log \int [dx]_x \exp{ - \frac{1}{\lambda} S(x(t \rightarrow t_f))} + C \cdots (22)
+$$
+
+이 때, 수식 (22)에서 등장하는 $S$는 *(1)최종 시스템 상태에 대한 제약 조건*과 *(2)시스템의 시간에 따른 궤적의 비용*으로 해석할 수 있으며, 구체적 수식은 다음과 같다:
+
+$$
+\begin{align}
+  S(x(t \rightarrow t_f)) & := \phi(x(t_f)) + \underline{S_{path}(x(t \rightarrow t_f))} \\
+  & = \phi(x(t_f)) + \underline{\int_{t}^{t_f} d\tau \left( \frac{1}{2} \left( \frac{dx(\tau)}{d\tau} - b(x(\tau), \tau) \right)^T R \left( \frac{dx(\tau)}{d\tau} - b(x(\tau), \tau) \right) + V(x(\tau), \tau) \right)}
+\end{align} \cdots (23)
+$$
+
+<br>
+
+<div class="centered-container">
+  <figure>
+    <img src="/assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Driving/Pi_monte_carlo_all.gif" style="width: 70%; height: auto;">
+      <figcaption>
+        MC 샘플링 기법을 활용해 정확한 원주율 값을 구하는 과정, 출처: 위키피디아.
+      </figcaption>
+  </figure>
+</div>
+
+위 경로 적분의 형태는 통계학의 샘플링(Sampling) 기법을 활용해 계산할 수 있다. 카펜은 그의 논문에서 간단한 **[마코프 체인 샘플링(MC Sampling)](https://en.wikipedia.org/wiki/Monte_Carlo_method)**을 통해 시뮬레이션을 수행한다.
+
+## 3.4 열역학 및 강화학습과의 관계
+
+
+
+수식 (22)는 사실 정보 이론에서 자주 등장하는 **자유 에너지(Free Energy)**의 형태와 아주 유사하다. 수식에 등장하는 log 안의 적분 꼴은 통계 역학에서 등장하는 **[분배 함수(Partition Function)](https://en.wikipedia.org/wiki/Partition_function_(statistical_mechanics))**이다. 전체적으로는 분배 함수에 로그가 취해진 꼴로, **[자유 에너지](https://en.wikipedia.org/wiki/Thermodynamic_free_energy)**로 해석할 수 있다. 
+
+
+<div class="centered-container">
+  <figure>
+    <img src="/assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Driving/Reinforcement_learning_diagram.svg.png" style="width: 70%; height: auto;">
+      <figcaption>
+        강화학습 프레임워크, 출처: 위키피디아.
+      </figcaption>
+  </figure>
+</div>
+
+또한, 최근 각광 받는 강화학습과도 관련성을 지니고 있다. 강화학습은 정상(Stationary) 상태의 환경에서 할인된 미래 보상(Discounted future reward)에 대해 최적 제어 문제라고 볼 수 있다. 다만, 최적 제어 이론은 유한한 미래 상황을 고려하는 반면, 강화학습은 무한한 미래를 다루는 경향이 있다. 또 제어 입력과 비용에 대한 용어도 다른데, 강화학습은 최적 정책(Policy)과 가치(Value)라는 개념을 사용한다. 최적 제어 이론은 효과적인 제어기(Controller)를 개발하고자 하는 반면, 강화학습은 에이전트(Agent)를 개발하는 것을 목표로 한다.
+
+---
+
+<br>
+
+# 4. 정보 이론 프레임워크
+
+<div class="centered-container">
+  <figure>
+    <img src="/assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Driving/evangelos-theodorou-300x300.jpg" style="width: 70%; height: auto;">
+      <figcaption>
+        미국 조지아공과대학교 소속의 기계공학과 교수인 에반겔로스 테오도루, 출처: <a href="https://research.gatech.edu/evangelos-theodorou">조지아텍</a>.
+      </figcaption>
+  </figure>
+</div>
+
+힐버트 카펜은 경로 적분 프레임워크를 개발하여, 최적 제어를 구하는 최적화 문제에 대한 효과적 방법론을 제안했다. 그의 시도는 고전적인 최적 제어 이론에서 시작해, 현대적인 과학적 계산(Scientific Computing)에 맞게 진화했다. 이러한 시도와 정반대로, 조지아 공과 대학교의 에반겔로스 테오도루는 정보이론에서 역 방향으로 접근한다. 그는 정보이론의 변분 자유 에너지로부터 HJB 방정식을 유도해낸다. 이를 이해하려면, 자유 에너지에 대한 개념과 
 
 # Reference
 
