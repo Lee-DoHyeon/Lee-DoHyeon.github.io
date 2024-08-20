@@ -196,6 +196,54 @@
     </url>
     
     <url>
+        <loc>http://localhost:4000/movement/ASSC-in-Tokyo-kr/</loc>
+        
+        <lastmod>2024-07-10T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/movement/NCSS-in-Yangjae-kr/</loc>
+        
+        <lastmod>2024-06-29T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/movement/KIMST-in-Jeju-kr/</loc>
+        
+        <lastmod>2024-06-18T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/meditation/Starting-Point-kr/</loc>
         
         <lastmod>2024-06-15T00:00:00+09:00</lastmod>

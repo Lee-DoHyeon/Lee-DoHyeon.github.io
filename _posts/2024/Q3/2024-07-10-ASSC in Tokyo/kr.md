@@ -1,5 +1,5 @@
 ---
-title: "능동추론이 주는 통찰"
+title: "의식과학연합학슬회 in Tokyo"
 scope:
   type: posts
 values:
@@ -11,9 +11,9 @@ values:
   related: true
 toc: true
 toc_sticky: true
-toc_label: "능동추론이 주는 통찰"
-category: Motivation
-tags: [이론, 신경과학, 마음, 행동, 두뇌, 철학, 과학, 공학]
+toc_label: "의식과학연합학슬회 in Tokyo"
+category: Movement
+tags: [의식, 과학, 신경과학, 정보과학, 물리학, 철학, 학회, 워크샵, 만남]
 lang: kr
 header:
   teaser: "/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.jpeg"

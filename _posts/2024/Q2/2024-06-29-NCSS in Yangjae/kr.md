@@ -1,5 +1,5 @@
 ---
-title: "능동추론이 주는 통찰"
+title: "비선형 및 복잡계 심포지움 in 양재"
 scope:
   type: posts
 values:
@@ -11,13 +11,13 @@ values:
   related: true
 toc: true
 toc_sticky: true
-toc_label: "능동추론이 주는 통찰"
-category: Motivation
-tags: [이론, 신경과학, 마음, 행동, 두뇌, 철학, 과학, 공학]
+toc_label: "비선형 및 복잡계 심포지움 in 양재"
+category: Movement
+tags: [학회, 은사, 심포지움, 물리학, 비선형, 복잡계, 사회, 심리, 신경과학]
 lang: kr
 header:
-  teaser: "/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.jpeg"
-image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.jpeg
+  teaser: "/assets/images/posts/2024/Q2/2024-06-29-NCSS in Yangjae/0.png"
+image: assets/images/posts/2024/Q2/2024-06-29-NCSS in Yangjae/0.png
 ---
 
 <style>

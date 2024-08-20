@@ -373,7 +373,7 @@ $$
   </figure>
 </div>
 
-또한, 최근 각광 받는 강화학습과도 관련성을 지니고 있다. 강화학습은 정상(Stationary) 상태의 환경에서 할인된 미래 보상(Discounted future reward)에 대해 최적 제어 문제라고 볼 수 있다. 다만, 최적 제어 이론은 유한한 미래 상황을 고려하는 반면, 강화학습은 무한한 미래를 다루는 경향이 있다. 또 제어 입력과 비용에 대한 용어도 다른데, 강화학습은 최적 정책(Policy)과 가치(Value)라는 개념을 사용한다. 최적 제어 이론은 효과적인 제어기(Controller)를 개발하고자 하는 반면, 강화학습은 에이전트(Agent)를 개발하는 것을 목표로 한다.
+또한, 최근 각광 받는 **강화학습**과도 관련성을 지니고 있다. 강화학습은 정상(Stationary) 상태의 환경에서 할인된 미래 보상(Discounted future reward)에 대해 최적 제어 문제라고 볼 수 있다. 다만, 최적 제어 이론은 유한한 미래 상황을 고려하는 반면, 강화학습은 무한한 미래를 다루는 경향이 있다. 또 제어 입력과 비용에 대한 용어도 다른데, 강화학습은 최적 정책(Policy)과 가치(Value)라는 개념을 사용한다. 최적 제어 이론은 효과적인 제어기(Controller)를 개발하고자 하는 반면, 강화학습은 에이전트(Agent)를 개발하는 것을 목표로 한다.
 
 ---
 
@@ -390,7 +390,58 @@ $$
   </figure>
 </div>
 
-힐버트 카펜은 경로 적분 프레임워크를 개발하여, 최적 제어를 구하는 최적화 문제에 대한 효과적 방법론을 제안했다. 그의 시도는 고전적인 최적 제어 이론에서 시작해, 현대적인 과학적 계산(Scientific Computing)에 맞게 진화했다. 이러한 시도와 정반대로, 조지아 공과 대학교의 에반겔로스 테오도루는 정보이론에서 역 방향으로 접근한다. 그는 정보이론의 변분 자유 에너지로부터 HJB 방정식을 유도해낸다. 이를 이해하려면, 자유 에너지에 대한 개념과 
+힐버트 카펜은 경로 적분 프레임워크를 개발하여, 최적 제어를 구하는 최적화 문제에 대한 효과적 방법론을 제안했다. 그의 시도는 고전적인 최적 제어 이론에서 시작해, 현대적인 과학적 계산(Scientific Computing)에 맞게 진화했다. 이러한 시도와 정반대로, 조지아 공과 대학교의 에반겔로스 테오도루는 정보이론에서 역 방향으로 접근한다. 그는 정보이론의 변분 자유 에너지로부터 HJB 방정식을 유도해낸다. 이를 이해하려면, 확률과 정보 이론에 대한 기초 지식부터 알 필요가 있다.
+
+
+## 4.1 자유 에너지
+
+<div class="centered-container">
+  <figure>
+    <img src="/assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Driving/Shannon.jpg" style="width: 50%; height: auto;">
+      <figcaption>
+        정보 이론의 아버지로 불리는 미국의 수학자 클로드 섀넌, 출처: 위키피디아.
+      </figcaption>
+  </figure>
+</div>
+
+자유 에너지를 설명하기 전에 먼저, **정보**에 대해 소개할 필요가 있다. **정보 이론**은 1940년대, 미국의 수학자 클로드 섀넌(Claude Elwood Shannon)이 개발한 이론으로 주어진 (확률) 변수에 대한 **불확실성(Uncertatinty)**을 표현하기 위해 개발되었다. 그에 따르면 어떤 확률 변수 $X$와 그에 따른 확률 분포 $P_X(X=x)$가 주어지면, 특정 사건에 대한 **자기 정보(Self-Information)**를 다음과 같이 $- \log$를 취해 표현할 수 있고, 그 형태가 고유하다. 이는 확률이 높은 사건일 수록 불확실성이 줄고, 정보가 많다고 느끼는 직관과도 잘 맞는다. 이때 전체 분포를 바탕으로 각 사건들에 대한 정보의 평균을 취한 것을 **엔트로피**로 정의한다. 해당 확률 *변수가 지닌 평균적인 불확실성*인 셈이다.
+
+$$
+\begin{align}
+  I(X=x) & = - \log P_X(X=x) \cdots self-information\ of\ x \\
+  \mathcal{E}(X) & = \mathbb{E}_{x \sim P_X} \left[ - \log P_X(X=x) \right] \cdots entropy\ of\ X
+\end{align}
+$$  
+
+
+이때, 자유에너지는 주어진 임의의 확률 분포 $\mathbb{P}$와 이를 통해 측정 가능한(measurable) 함수 $J$에 의해 다음과 같이 정의한다:
+
+$$
+\mathcal{F} = \log_{e} \int \exp \left( \rho \mathcal{J}(x) \right) \mathbb{d}\mathbb{P}  \cdots (24)
+$$
+
+이때, 실제 확률 변수가 따르는 분포 $\mathbb{P}$를 알 수 없으므로, 변분 추론(Variational Inference)의 맥락에서 $\mathbb{Q}$를 도입해보자. 그러면, 두 분포의 차이를 쿨백-라이불러 발산(Kullback-Leibler Divergence)으로 표현할 수 있다:
+
+$$
+\begin{align}
+  \mathbb{KL(Q||P)} & = \mathbb{E}_{X \sim Q}\left[ \log{\mathbb{Q}(X)} - \log{\mathbb{P}(X)}\right] \\
+  & = \int \log_{e} \frac{\mathbb{dQ}}{\mathbb{dP}} \mathbb{dQ}
+\end{align}
+$$  
+
+이제 자유 에너지에 쿨백-라이불러 발산을 도임하면, 르장드르 변환(Legendre Transform)에 의해 아래와 같은 부등식을 얻을 수 있다. 이 때 등호 조건은 아래와 같다:
+
+$$
+\begin{align}
+  \mathbb{KL(Q||P)} & = \mathbb{E}_{X \sim Q}\left[ \log{\mathbb{Q}(X)} - \log{\mathbb{P}(X)}\right] \\
+  & = \int \log_{e} \frac{\mathbb{dQ}}{\mathbb{dP}} \mathbb{dQ}
+\end{align} \cdots (25)
+$$  
+
+## 4.2 최적 제어 문제
+
+
+## 4.3 sHJB 방정식 유도
 
 # Reference
 
