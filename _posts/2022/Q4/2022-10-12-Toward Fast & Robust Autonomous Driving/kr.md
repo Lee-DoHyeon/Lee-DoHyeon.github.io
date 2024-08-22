@@ -313,7 +313,7 @@ $$
 \end{align}
 $$
 
-이 식이 일차식이 되려면 밑줄 친 첫번째와 두번째 항이 0이 되어야 한다. 그에 따른 필요 충분 조건은 **적절한 비례 상수 $\lambda$의 존재성**으로 해석할 수 있다. 즉, 우리가 어떤 비례 상수를 갖는 로그 변환을 할 지 결정하면 된다는 것이다. 이를 그 적절함의 기준을 형식적으로 작성하면 다음과 같다.
+이 식이 일차식이 되려면 밑줄 친 첫번째와 두번째 항의 합이 0이 되어야 한다. 그에 따른 필요 충분 조건은 **적절한 비례 상수 $\lambda$의 존재성**으로 해석할 수 있다. 즉, 우리가 어떤 비례 상수를 갖는 로그 변환을 할 지 결정하면 된다는 것이다. 그 적절함의 기준을 형식적으로 유도해 작성해내면 다음과 같다.
 
 $$
 \exists \ a\ scalar\ \lambda \mid \nu = \lambda B R^{-1} B^T \cdots (20)
@@ -329,7 +329,7 @@ $$
 \end{align} \cdots (21)
 $$
 
-한편, 미국의 이론 물리학자인 [리처드 파인만](https://en.wikipedia.org/wiki/Richard_Feynman)과 미국의 수학자인 [마크 칵](https://en.wikipedia.org/wiki/Mark_Kac)은 원자 폭탄과 관련된 맨해튼 프로젝트에서 중성자의 무작위적 궤적을 계산하기 위해 **[파인만-칵 공식(Feynman-Kac Formula)](https://en.wikipedia.org/wiki/Feynman%E2%80%93Kac_formula)**을 개발하였다. 이 공식을 활용하면 확률 과정에 따른 무작위적인 궤적을 시뮬레이션함으로써, 수식 (21)과 같은 편미분 방정식을 풀 수 있게 만들어준다. 공식에 대해 자세히 다루진 않겠지만, 이를 적용하면 다음과 같이 수식을 전개할 수 있다:
+한편, 미국의 이론 물리학자인 [리처드 파인만](https://en.wikipedia.org/wiki/Richard_Feynman)과 수학자인 [마크 칵](https://en.wikipedia.org/wiki/Mark_Kac)은 원자 폭탄과 관련된 맨해튼 프로젝트에서 중성자의 무작위적 궤적을 계산하기 위해 **[파인만-칵 공식(Feynman-Kac Formula)](https://en.wikipedia.org/wiki/Feynman%E2%80%93Kac_formula)**을 개발하였다. 이 공식을 활용하면 확률 과정에 따른 무작위적인 궤적을 시뮬레이션함으로써, 수식 (21)과 같은 편미분 방정식을 풀 수 있게 만들어준다. 공식에 대해 자세히 다루진 않겠지만, 이를 적용하면 다음과 같이 수식을 전개할 수 있다:
 
 $$
 J(x,t) = -\lambda \log \int [dx]_x \exp{ - \frac{1}{\lambda} S(x(t \rightarrow t_f))} + C \cdots (22)
@@ -355,7 +355,7 @@ $$
   </figure>
 </div>
 
-위 경로 적분의 형태는 통계학의 샘플링(Sampling) 기법을 활용해 계산할 수 있다. 카펜은 그의 논문에서 간단한 **[마코프 체인 샘플링(MC Sampling)](https://en.wikipedia.org/wiki/Monte_Carlo_method)**을 통해 시뮬레이션을 수행한다.
+위 경로 적분의 형태는 통계학의 샘플링(Sampling) 기법을 활용해 계산할 수 있다. 카펜은 그의 논문에서 간단한 **[마코프 체인 샘플링(MC Sampling)](https://en.wikipedia.org/wiki/Monte_Carlo_method)** 기법을 통해 시뮬레이션을 수행한다.
 
 ## 3.4 열역학 및 강화학습과의 관계
 
@@ -373,7 +373,7 @@ $$
   </figure>
 </div>
 
-또한, 최근 각광 받는 **강화학습**과도 관련성을 지니고 있다. 강화학습은 정상(Stationary) 상태의 환경에서 할인된 미래 보상(Discounted future reward)에 대해 최적 제어 문제라고 볼 수 있다. 다만, 최적 제어 이론은 유한한 미래 상황을 고려하는 반면, 강화학습은 무한한 미래를 다루는 경향이 있다. 또 제어 입력과 비용에 대한 용어도 다른데, 강화학습은 최적 정책(Policy)과 가치(Value)라는 개념을 사용한다. 최적 제어 이론은 효과적인 제어기(Controller)를 개발하고자 하는 반면, 강화학습은 에이전트(Agent)를 개발하는 것을 목표로 한다.
+또한, 최근 각광 받는 **[강화학습(Reinforcement Learning )](https://en.wikipedia.org/wiki/Reinforcement_learning)**과도 관련성을 지니고 있다. 강화학습은 정상(Stationary) 상태의 환경에서 할인된 미래 보상(Discounted future reward)에 대해 최적 제어 문제라고 볼 수 있다. 다만, 최적 제어 이론은 유한한 미래 상황을 고려하는 반면, 강화학습은 무한한 미래를 다루는 경향이 있다. 또 제어 입력과 비용에 대한 용어도 다른데, 강화학습은 최적 정책(Policy)과 가치(Value)라는 개념을 사용한다. 최적 제어 이론은 효과적인 제어기(Controller)를 개발하고자 하는 반면, 강화학습은 에이전트(Agent)를 개발하는 것을 목표로 한다.
 
 ---
 
@@ -397,7 +397,7 @@ $$
 
 <div class="centered-container">
   <figure>
-    <img src="/assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Driving/Shannon.jpg" style="width: 50%; height: auto;">
+    <img src="/assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Driving/Shannon.jpg" style="width: 60%; height: auto;">
       <figcaption>
         정보 이론의 아버지로 불리는 미국의 수학자 클로드 섀넌, 출처: 위키피디아.
       </figcaption>
@@ -414,7 +414,7 @@ $$
 $$  
 
 
-이때, 자유에너지는 주어진 임의의 확률 분포 $\mathbb{P}$와 이를 통해 측정 가능한(measurable) 함수 $J$에 의해 다음과 같이 정의한다:
+이때, 자유에너지는 주어진 임의의 확률 분포 $\mathbb{P}$와 이를 통해 측정 가능한(measurable) 함수 $J$, 음의 실수 파라미터인 $\rho \in \mathbb{R}^{-}$에 의해 다음과 같이 정의한다:
 
 $$
 \mathcal{F} = \log_{e} \int \exp \left( \rho \mathcal{J}(x) \right) \mathbb{d}\mathbb{P}  \cdots (24)
@@ -433,8 +433,8 @@ $$
 
 $$
 \begin{align}
-  \mathbb{KL(Q||P)} & = \mathbb{E}_{X \sim Q}\left[ \log{\mathbb{Q}(X)} - \log{\mathbb{P}(X)}\right] \\
-  & = \int \log_{e} \frac{\mathbb{dQ}}{\mathbb{dP}} \mathbb{dQ}
+  - \frac{1}{|\rho|} \log_{e} \mathbb{E_P} \left[ \exp(-|\rho|\mathcal{J}) \right] & \leq \left[ \mathbb{E_Q}(\mathcal{J}) + {|\rho|}^{-1} \mathbb{KL(Q||P)} \right] \\
+   & = \inf_{\mathbb{dQ}} \left[ \mathbb{E_Q}(\mathcal{J}) + {|\rho|}^{-1} \mathbb{KL(Q||P)} \right],\ when\ \mathbb{dQ^*} = \frac{\exp(- |\rho| \mathcal{J}) \mathbb{dP}}{\int {\exp(- |\rho| \mathcal{J}) \mathbb{dP}} }
 \end{align} \cdots (25)
 $$  
 
