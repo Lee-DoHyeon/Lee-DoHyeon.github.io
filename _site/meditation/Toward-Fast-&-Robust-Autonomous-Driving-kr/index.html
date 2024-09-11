@@ -460,9 +460,9 @@
 
 <p>이때, 최적 입력은 재귀 관계(Recursive Relation)을 갖는다. 이는 아래의 수식 전개를 통해 잘 드러나며, $J(t,x_t)$는 $J(t+1,x_{t+1})$로부터 계산될 수 있음을 보여준다:</p>
 
-\[\begin{align} 
-	\underline{J(t,x_t)} &amp; = \min_{u_{t:T}} \sum_{s=t}^{T} R(s,x_s,u_s) \ by\ definition \\ 
-    	&amp; = \min_{u_t}\left( R(t,x_t,u_t) + \min_{u_{t+1:T}} \sum_{s=t+1}^{T} R(s,x_s,u_s) \right) \\ 
+\[\begin{align}
+	\underline{J(t,x_t)} &amp; = \min_{u_{t:T}} \sum_{s=t}^{T} R(s,x_s,u_s) \ by\ definition \\
+    	&amp; = \min_{u_t}\left( R(t,x_t,u_t) + \min_{u_{t+1:T}} \sum_{s=t+1}^{T} R(s,x_s,u_s) \right) \\
       &amp; =\min_{u_t}\left( R(t,x_t,u_t) + J(t+1, x_{t+1}) \right) \\
       &amp; =\min_{u_t}\left( R(t,x_t,u_t) + \underline{J(t+1, f(t,x_t,u_t))} \right) \cdots (4)
 \end{align}\]
@@ -473,7 +473,7 @@
 
 <p>이산 시간에서의 최적 문제와 관련된 수식 (1), (2), (3), (4)와 마찬가지로, 연속 시간 $t$에 따른 실변수 $x, u$에 대해 생각해볼 수 있다. 먼저, 문제의 구성요소는 다음과 같이 표현할 수 있다. 이때, $\phi(x(t_f))$는 최종 시스템 상태에 대한 특수 비용을 의미한다:</p>
 
-\[\begin{align} 
+\[\begin{align}
   \dot{x} &amp; = f(x,u,t) \cdots (5)\\
   C(t_i, x_i, u(t_i \rightarrow t_f)) &amp; = \phi(x(t_f)) + \int_{t_i}^{t_f} dt R(x(t),u(t),t) \cdots (6)\\
   J(t,x) &amp; = \min_{u(t_i \rightarrow t_f)} C(t,x,u(t \rightarrow t_f)) \cdots (7)\\
@@ -485,7 +485,7 @@
 
 <p>이때, $t’$가 $t$와 아주 작은 시간 간격 이후라고 가정하면; 즉, $t’ = t + dt$을 대입하고 $dt \rightarrow 0$의 극한을 취하면 다음과 같은 편미분 방정식을 얻을 수 있다. 이 방정식이 바로 <strong>HJB 방정식</strong>이다.</p>
 
-\[\begin{align} 
+\[\begin{align}
   - J_t(t,x) &amp; = \min_{u} \left( R(x,u,t) + J_x(t,x)f(x,u,t) \right) \\
   J(x,t_f) &amp; = \phi(x)
 \end{align}  \cdots (9)\]
@@ -529,6 +529,7 @@
 <p>수학에서 <strong>위너 과정(Wiener Process)</strong>은 미국의 수학자이자 사이버네틱스 운동의 창시자인 <strong><a href="https://en.wikipedia.org/wiki/Norbert_Wiener">노버트 위너(Norbert Wiener)</a></strong>에 의해 발견된 연속 시간 확률 과정(Continuous-Time Stochastic Process)이다. 이는 종종 아인슈타인이 연구했던 물 속 꽃가루의 움직임을 다루는 브라운 운동(Brownian Motion)으로도 표현되는데, 형식적으로는 깊은 관계를 갖는다. 대부분의 자연 현상은 잡음이 포함되어 있으며, 수많은 확률 과정에서도 또한 공통적으로 발견할 수 있다. 기존의 최적 제어 이론은 결정론적인(Deterministic) 가정을 도입하여 확률의 개입을 막았지만, 수많은 실제 문제에서는 확률 과정의 도입이 필요해 보인다. 이 위너 과정이야 말로 수학적으로, 물리적으로 자연스러운 잡음으로 생각하면 된다.</p>
 
 <p>위너 과정의 수학적 정의를 파악해보자. 어떤 확률 과정 $W_t$가 다음의 특징을 만족하면 위너 확률 과정이라고 부른다:</p>
+
 <ol>
   <li>$W_0 = 0$.</li>
   <li>임의의 $t&gt;0$에 대해, 미래의 변화량 $W_{t+u} - W_t, u \leq 0$은 과거의 값들 $s &lt; t$인 $W_s$에 대해 독립이다.</li>
@@ -544,7 +545,7 @@
 
 <p>앞서 연속 시간 최적 제어 문제의 수식 (5), (6), (7), (8)에 대해 위너 과정 기반의 잡음 항을 추가할 수 있다. 이렇게 추가된 확률적 최적 제어 문제는 다음과 같이 기술할 수 있다. 수식 (13)에서 또한 재귀 관계를 확인할 수 있다:</p>
 
-\[\begin{align} 
+\[\begin{align}
   dx &amp; = f(x(t),u(t),t)dt + d\xi \cdots (11)\\
   C(t_i, x_i, u(t_i \rightarrow t_f)) &amp; = \biggl&lt; \phi(x(t_f)) + \int_{t_i}^{t_f} dt R(x(t),u(t),t) \biggr&gt;_{x_i} \cdots (12)\\
   \underline{J(t,x)} &amp; = \min_{u(t_i \rightarrow t_f)} \biggl&lt;  \int_{t}^{t'} dt R(x(t),u(t),t) + \underline{J(t', x(t'))} \biggr&gt;_{x} \cdots (13)\\
@@ -552,7 +553,7 @@
 
 <p>이때, $t’$가 $t$와 아주 작은 시간 간격 이후라고 가정하면; 즉, $t’ = t + dt$을 대입하고 $dt \rightarrow 0$의 극한을 취하면 다음과 같은 편미분 방정식을 얻을 수 있다. 특히 아래 식을 얻는 과정에서 수식 (10)을 적용하여 확률변수의 증분 제곱의 평균 $&lt;d\xi^2&gt;$을 해당 위너 프로세스의 분산 $\nu dt$로 대체할 수 있다. 이렇게 얻은 아래의 방정식이 바로 <strong>확률적 해밀턴-자코비-벨만 방정식(Stochastic Hamilton-Jacobi-Bellman Equation; sHJB)</strong>이다.</p>
 
-\[\begin{align} 
+\[\begin{align}
   - \partial_{t} J(t,x) &amp; = \min_{u} \left( R(x,u,t) + f(x,u,t)^{T} \partial_{x} J(t,x) + \frac{1}{2}\nu \partial_{x}^2J(t,x) \right) \\
   J(x,t_f) &amp; = \phi(x)
 \end{align}  \cdots (14)\]
@@ -579,14 +580,14 @@
 
 <p>따라서 이 가정을 적용하여 확률적 최적 제어 문제를 축소해보면, 다음과 같이 정리할 수 있다.</p>
 
-\[\begin{align} 
+\[\begin{align}
   dx &amp; = \left( b(x,t) + Bu \right)dt + d\xi \cdots (15) \\
   C(t_i, x_i, u(t_i \rightarrow t_f)) &amp; = \biggl&lt; \phi(x(t_f)) + \int_{t_i}^{t_f} dt \left(  V(x(t),t) + \frac{1}{2} u(t)^T R u(t) \right) \biggr&gt;_{x_i}  \cdots (16) \\
 \end{align}\]
 
 <p>이를 적용해 유사한 방식으로 sHJB 방정식을 유도하면, 다음과 같은 축소된 방정식을 얻을 수 있다:</p>
 
-\[\begin{align} 
+\[\begin{align}
   - \partial_{t} J &amp; = \min_{u} \left( V + \frac{1}{2} u^T R u  + (b + Bu)^{T} \partial_{x} J + \frac{1}{2} \mathrm{Tr} \left( \nu \partial_{x}^2J \right) \right) \\
   J(x,t_f) &amp; = \phi(x)
 \end{align}  \cdots (17)\]
@@ -699,7 +700,7 @@
   \mathcal{E}(X) &amp; = \mathbb{E}_{x \sim P_X} \left[ - \log P_X(X=x) \right] \cdots entropy\ of\ X
 \end{align}\]
 
-<p>이때, 자유에너지는 주어진 임의의 확률 분포 $\mathbb{P}$와 이를 통해 측정 가능한(measurable) 함수 $J$, 음의 실수 파라미터인 $\rho \in \mathbb{R}^{-}$에 의해 다음과 같이 정의한다. 즉, 확률 분포 $\mathbb{P}$의 관점에서 측정 가능한(measurable) 함수 $J$의 자유 에너지는 다음과 같다:</p>
+<p>이때, 자유에너지는 주어진 임의의 확률 분포 $\mathbb{P}$와 이를 통해 측정 가능한(measurable) 함수 $J$, 0이 아닌 실수 파라미터인 $\rho \in \mathbb{R}^{\neg 0}$에 의해 다음과 같이 정의한다. 즉, 확률 분포 $\mathbb{P}$의 관점에서 측정 가능한(measurable) 함수 $J$의 자유 에너지는 다음과 같다:</p>
 
 \[\mathcal{F} = \log_{e} \int \exp \left( \rho \mathcal{J}(x) \right) \mathbb{d}\mathbb{P}  \cdots (24)\]
 
@@ -710,7 +711,7 @@
   &amp; = \int \log_{e} \frac{\mathbb{dQ}}{\mathbb{dP}} \mathbb{dQ}
 \end{align}\]
 
-<p>이제 자유 에너지에 쿨백-라이불러 발산을 도입하면, 르장드르 변환(Legendre Transform)에 의해 아래와 같은 부등식을 얻을 수 있다. 이 때 등호 조건은 아래와 같다:</p>
+<p>이제 자유 에너지에 쿨백-라이불러 발산을 도입하면, <a href="https://en.wikipedia.org/wiki/Legendre_transformation">르장드르 변환(Legendre Transform)</a>에 의해 아래와 같은 부등식을 얻을 수 있다. 이 때 등호 조건은 아래와 같다:</p>
 
 \[\begin{align}
   - \frac{1}{|\rho|} \log_{e} \mathbb{E_P} \left[ \exp(-|\rho|\mathcal{J}) \right] &amp; \leq \left[ \mathbb{E_Q}(\mathcal{J}) + {|\rho|}^{-1} \mathbb{KL(Q||P)} \right] \\
@@ -719,16 +720,16 @@
 
 <h2 id="42-최적-제어-문제">4.2 최적 제어 문제</h2>
 
-<p>앞서 소개한 확률적 최적 제어 문제와 경로 적분 프레임워크의 결론을 참고하여 풀고자 하는 문제로 형식화해보자. 먼저, 비용함수 $\mathcal{J}$를 최종 상태 $t_N$에만 의존하는 비용 $\phi(\mathbb{x}(t_N), t_N)$와 특정 시간과 상태에서의 비용 $q(\mathbb{x}, \tau)$를 적분한 궤적의 운영 비용 $\int_{t}^{t_N} q(\mathbb{x}, \tau) \mathbb{d}\tau$의 합으로 정의한다. 이때, 자유 에너지 함수(Free Energy Function)를 임의의 상수 $\nu \in \mathbb{R}^{&lt; 0}$를 도입해 지수 평균의 log를 취한 형태로 정의한다. 여기서, $\rho &gt; 0$은 리스크 회피(Risk Sensitive)를, $\rho &lt; 0$은 리스크 선호(Risk Seeking)을 유도한다.</p>
+<p>앞서 소개한 확률적 최적 제어 문제와 경로 적분 프레임워크의 결론을 참고하여 풀고자 하는 문제로 형식화해보자. 먼저, 비용함수 $\mathcal{J}$를 최종 상태 $t_N$에만 의존하는 비용 $\phi(\mathbb{x}(t_N), t_N)$와 특정 시간과 상태에서의 비용 $q(\mathbb{x}, \tau)$를 적분한 궤적의 운영 비용 $\int_{t}^{t_N} q(\mathbb{x}, \tau) \mathbb{d}\tau$의 합으로 정의한다. 이때, 자유 에너지 함수(Free Energy Function)를 0이 아닌 실수 $\nu \in \mathbb{R}^{\neg 0}$를 도입해 지수 평균의 log를 취한 형태로 정의한다. 여기서, $\rho &gt; 0$은 리스크 회피(Risk Sensitive)를, $\rho &lt; 0$은 리스크 선호(Risk Seeking)을 유도한다.</p>
 
-\[\begin{align} 
+\[\begin{align}
   \mathcal{J} &amp; = \mathcal{J}(\mathbb{x}(\cdot), t) = \phi(\mathbb{x}(t_N), t_N) + \int_{t}^{t_N} q(\mathbb{x}, \tau) \mathbb{d}\tau \cdots (26)\\
   \xi(\mathbb{x}, t) &amp; = \frac{1}{\rho} \log_e \mathbb{E_P} \biggl[ \exp \left( \rho \mathcal{J}(\mathbb{x}, t) \biggr) \right] \cdots (27)
 \end{align}\]
 
 <p>한편, 이제 시스템에 대한 내용을 도입해 보자. 우리가 제어 입력을 통해 관찰가능한 시스템의 분포를 $\mathbb{Q}$, 아무런 제어 없이 관찰가능한 시스템의 분포를 $\mathbb{P}$라고 해보자. 이때, $\mathbb{w}$는 브라운 노이즈(Brownian Noise) 항이다.</p>
 
-\[\begin{align} 
+\[\begin{align}
   \mathbb{P}^{\mathbf{Controlled}}: \mathbb{dx} &amp; = \mathbf{F} \mathbb{(x,u)} \mathbb{d}t + \mathbf{C} \mathbb{(x)} \mathbb{dw}(t) \\
   \mathbb{Q}^{\mathbf{Uncontrolled}}: \mathbb{dx} &amp; = \mathbf{A}\mathbb{(x)} \mathbb{d}t + \mathbf{C} \mathbb{(x)} \mathbb{dw}(t)
 \end{align} \cdots (29)\]
@@ -752,14 +753,14 @@
 
 <p>수식 (29)에서 제어 동역학이 입력에 대해 선형적이라는 <a href="https://en.wikipedia.org/wiki/Affine_transformation">어파인(Affine Transformation)</a> 가정을 도입하자.</p>
 
-\[\begin{align} 
+\[\begin{align}
   \mathbb{P}^{\mathbf{Controlled}}: \mathbb{dx} &amp; = \mathbf{f} \mathbb{(x)} \mathbb{d}t + \frac{1}{\sqrt{|\rho|}}\mathcal{B} \mathbb{(x)} \mathbb{dw}^{(0)}(t) \\
   \mathbb{Q}^{\mathbf{Uncontrolled}}: \mathbb{dx} &amp; = \mathbf{f} \mathbb{(x)} \mathbb{d}t + \mathcal{B} \mathbb{(x)} \biggl( \mathbf{u} \mathbb{d}t + \frac{1}{\sqrt{|\rho|}}\mathbb{dw}^{(1)}(t) \biggr)
 \end{align} \cdots (32)\]
 
 <p>그러면, 자유에너지에 적용된 르장드르 부등식은 다음과 같아진다.</p>
 
-\[\begin{align} 
+\[\begin{align}
   \xi(\mathbb{x}) &amp; = - \frac{1}{\rho} \log_e \mathbb{E_P} \biggl[ \exp \left( - |\rho| \mathcal{J}(\mathbb{x}) \biggr) \right] \\
   &amp; \leq \mathbb{E_P} \biggl[ \mathcal{J}(\mathbb{x}) + \frac{1}{2} \int_{t_i}^{t_N} \mathbf{u}^T\mathbf{u} \mathbb{d}t \biggr]
 \end{align}  \cdots (33)\]
@@ -780,7 +781,13 @@
 
 <hr />
 
+<p><br /></p>
+
 <p>이로써, 우리는 복잡한 최적 제어의 문제가 어떻게 확률적 추론의 문제와 관련되는지 수학적으로 살펴 보았다. 1에서는 고전적인 결정론적 최적 제어 문제와 HJB 방정식, 동적 프로그래밍을 활용한 계산 방법을, 2에서는 확률적 최적 제어 문제의 형식화와 sHJB 방정식을 소개했다. 3에서는 확률적 최적 제어 문제를 콜모고로프 역향 방정식으로의 유도한 이후 파인만-칵 공식을 활용한 샘플링 기반의 계산 방법을, 4에서는 확률적 추론의 관점에서 자유 에너지의 개념과 그것의 최소화를 통해 최적성 원리의 가정 없이 sHJB 방정식을 유도해냈다. 바로 이 주제를 통해, 미분 방정식의 재귀적 연산이 확률적 추론과 순방향 샘플링과 연결되는 순간을 포착할 수 있었다.</p>
+
+<hr />
+
+<p><br /></p>
 
 <h1 id="reference">Reference</h1>
 
@@ -795,7 +802,6 @@
 <p>[5] <a href="https://homes.cs.washington.edu/~bboots/files/InformationTheoreticMPC.pdf">Williams, Grady, et al. “Information theoretic mpc for model-based reinforcement learning.” 2017 IEEE international conference on robotics and automation (ICRA). IEEE, 2017.</a></p>
 
 <p>[6] <a href="https://arxiv.org/abs/1707.02342">Williams, Grady, et al. “Information-theoretic model predictive control: Theory and applications to autonomous driving.” IEEE Transactions on Robotics 34.6 (2018): 1603-1622.</a></p>
-
 
         
       </section>
