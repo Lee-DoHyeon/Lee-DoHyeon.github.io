@@ -1,5 +1,5 @@
 ---
-title: "빠르고 안정적인 자율주행 기술을 향하여"
+title: "Toward Fast and Robust Autonomous Driving"
 scope:
   type: posts
 values:
@@ -11,10 +11,10 @@ values:
   related: true
 toc: true
 toc_sticky: true
-toc_label: "빠르고 안정적인 자율주행 기술을 향하여"
+toc_label: "Toward Fast and Robust Autonomous Driving"
 category: Meditation
-tags: [최적제어이론, 자율주행, 모델기반제어, 정보이론]
-lang: kr
+tags: [Optimal Control Theory, Autonomous Driving, Model-Based Control, Information Theory]
+lang: en
 header:
   teaser: "/assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Driving/0.webp"
 image: assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Driving/0.webp
@@ -59,74 +59,75 @@ image: assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Dr
   }
 </style>
 
-> "우리가 살아가는 세상은 복잡하고(Complex), 비선형적이며(Noninear), 불확실하다(Uncertain). 우리는 어떻게 이렇게 혼란스러운 세상 속에서 궁극적인 전략을 생성하여 영속할 수 있는 걸까? 우리는 로봇들로 하여금 그러한 전략을 스스로 학습하고 발견하게 할 수 있을까?"
+> "We live in a world that is complex, nonlinear, and uncertain. How can we develop strategies to navigate this chaotic environment and ensure our survival? And can we enable robots to learn and discover such strategies on their own?"
+
 
 <div class="centered-container">
   <figure>
     <iframe src="https://giphy.com/embed/AS4N79Rt53Ss2rdVIg" width="480" height="319" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
     <figcaption>
-      사막과 같은 미끄럽고 울퉁불퉁한 곳에서 운전하는 모습, 출처: <a href="https://giphy.com/gifs/offroad-monster-energy-canam-AS4N79Rt53Ss2rdVIg">GIPHY</a>
+      Driving on slippery, uneven terrain like a desert, Source: <a href="https://giphy.com/gifs/offroad-monster-energy-canam-AS4N79Rt53Ss2rdVIg">GIPHY</a>
     </figcaption>
   </figure>
 </div>
 
-차량, 로봇, 원전 등 다양한 기계 장치에 대해 생각해보자. 그들은 모두 센서, 볼트와 너트, 모터 등의 작은 기계 장치들로 구성된 **시스템(System)**이다. 우리는 이러한 시스템이 우리가 원하는 대로 적절한 행동을 수행하길 바란다. 운전(Driving)의 문제를 생각해보자. 우리는 매일 아침과 저녁, 우리 눈과 귀를 활용해 먼 곳에서 가까운 곳까지 지각하여, 오른 발의 페달을 적절히 제어하며 운전해 나간다. 이러한 행동을 모사해내는 기계장치 혹은 소프트웨어를 구현하려면 어떻게 해야 할까?
+Think about vehicles, robots, or even nuclear power plants. These are all **systems** composed of smaller components like sensors, bolts, nuts, and motors. We expect these systems to perform actions as we desire. Take driving as an example: every morning and evening, we use our eyes and ears to perceive near and distant surroundings, adjusting the pressure on the pedal with our right foot to navigate the road. How can we replicate this behavior in machines or software?
 
-본 글은 **자율 주행(Autonomous Driving)** 분야와 관련된 **최적 제어 이론(Optimal Control Theory)**을 공부하며 깨달은 부분들을 쉽고 간결하게 정리하는 것을 목표로 한다. 특히, 최근 강화학습과 더불어 각광받는 **모델 기반 예측 제어(Model Predictive Control, 이하 MPC)**에서 유명한 **정보 이론 기반의 MPC(Information-Theoretic MPC)** 알고리즘을 다루려고 한다.
+
+This article aims to summarize the insights gained while studying **Optimal Control Theory** in the context of **Autonomous Driving**, specifically focusing on **Information-Theoretic Model Predictive Control (MPC)**, a popular algorithm in the field of **Model Predictive Control**.
+
 
 ---
 
-# 1. 최적 제어 이론의 창시
+# 1. The Origins of Optimal Control Theory
 
-주어진 시스템을 최적의 방식으로 제어하려는 시도는 과거 사이버네틱스 운동에서 깊게 다뤄졌으며, 이후 **최적 제어 이론(Optimal Control Theory; 이하 OCT)**으로 발전하게 되었다. 이 분야는 기계 장치로 하여금, 그들이 취할 수 있는 행동 중 우리가 원하는 최적의 행동을 하게 하기 위한 이론적 프레임워크와 공학적 설계 방법론을 제공해준다. 최적 제어 이론은 강력한 수학적 배경지식을 요구한다. 왜냐하면, 이 분야는 서로 다른 두 명의 천재 수학자; 미국의 **[리처드 벨만(Richard E. Bellman)](https://en.wikipedia.org/wiki/Richard_E._Bellman)**과 구 소비에트 연방의 **[레프 폰트랴긴(Лев Семёно́вич Понтря́гин)](https://en.wikipedia.org/wiki/Lev_Pontryagin)**에 의해 창시되었기 때문이다.
+The effort to control a system in the most efficient way has deep roots in the **cybernetics** movement and eventually evolved into what is now known as **Optimal Control Theory (OCT)**. OCT provides a theoretical framework and engineering methodologies to guide systems towards the desired optimal actions. It requires a strong mathematical background as it was founded by two mathematical geniuses: [**Richard E. Bellman**](https://en.wikipedia.org/wiki/Richard_E._Bellman) from the United States and [**Lev Pontryagin**](https://en.wikipedia.org/wiki/Lev_Pontryagin) from the Soviet Union.
 
-## 1.1 리처드 벨만과 레프 폰트랴긴
+
+## 1.1 Richard Bellman and Lev Pontryagin
 
 <div class="centered-container">
   <div class="two-fig-container">
     <figure>
       <img src="/assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Driving/1.jpg" style="width: 60%; height: auto;">
       <figcaption>
-        미국의 수학자 리처드 벨만(Richard E. Bellman), 출처: 위키피디아.
+        Richard E. Bellman, American mathematician. Source: Wikipedia.
       </figcaption>
     </figure>
     <figure>
       <img src="/assets/images/posts/2022/Q4/2022-10-12-Toward Fast & Robust Autonomous Driving/2.jpg" style="width: 55%; height: auto;">
       <figcaption>
-        소비에트 연방의 수학자 레프 폰트랴긴(Лев Семёно́вич Понтря́гин), 출처: <a href="https://timenote.info/en/Lev-Pontryagin">타임노트</a>
+        Lev Pontryagin, Soviet mathematician. Source: <a href="https://timenote.info/en/Lev-Pontryagin">Timenote</a> 
       </figcaption>
     </figure>
   </div>
 </div>
 
-먼저, 자신의 자서전 "[태풍의 눈(Eye of the Hurricane)](https://www.amazon.com/Hurricane-Autobiography-Richard-Ernest-Bellman/dp/9971966018)"으로도 유명한 벨만은 과거 1950년대 RAND(Research and Development) 연구소에서 미사일의 제어와 관련된 문제를 다루게 된다. 벨만은 컴퓨터 공학과의 알고리즘 수업에서 반드시 배우는 **[동적 프로그래밍(Dynamic Programming)](https://en.wikipedia.org/wiki/Dynamic_programming)**의 발명자이다. 동적 프로그래밍이란 문제의 **재귀성(Recursivity)**을 활용해 반복적인(Iterative) 계산과 메모리 할당으로 복잡한 문제를 쉽게 푸는 방법이다. 그는 자신의 알고리즘을 과거 19세기 물리학자/수학자 [해밀턴(William Rowan Hamilton)](https://en.wikipedia.org/wiki/William_Rowan_Hamilton)과 [자코비(Carl Gustav Jacob Jacobi)](https://en.wikipedia.org/wiki/Carl_Gustav_Jacob_Jacobi)가 입자의 움직임을 파동으로 표현한 **[해밀턴-자코비 방정식(Hamilton-Jacobi Equation)](https://en.wikipedia.org/wiki/Hamilton%E2%80%93Jacobi_equation)**에 적용한다. 이를 후대에는 **[해밀턴-자코비-벨만 방정식(Hamilton-Jacobi-Bellman Equation)](https://en.wikipedia.org/wiki/Hamilton%E2%80%93Jacobi%E2%80%93Bellman_equation)**이라고 부르며, 줄여서 HJB 방정식이라고 부른다.
+Richard Bellman, famous for his autobiography "[**Eye of the Hurricane**](https://www.amazon.com/Hurricane-Autobiography-Richard-Ernest-Bellman/dp/9971966018)," worked on missile control problems at RAND Corporation in the 1950s. He is the inventor of [**Dynamic Programming**](https://en.wikipedia.org/wiki/Dynamic_programming), a method that simplifies complex problems by breaking them into smaller, recursive problems. Bellman applied this technique to the [**Hamilton-Jacobi Equation**](https://en.wikipedia.org/wiki/Hamilton%E2%80%93Jacobi_equation), which describes the motion of particles in terms of waves. This led to the [**Hamilton-Jacobi-Bellman (HJB) Equation**](https://en.wikipedia.org/wiki/Hamilton%E2%80%93Jacobi%E2%80%93Bellman_equation), commonly referred to as the HJB equation.
 
-한편, 폰트랴긴은 눈이 보이지 않는 시각 장애를 가졌음에도 다양한 분야에서 괄목할 만한 업적을 남긴 것으로 유명하다. 그는 **[폰트랴긴 최소 원리(Pontryagin's maximum principle)](https://en.wikipedia.org/wiki/Pontryagin%27s_maximum_principle)**를 통해 벨만의 HJB 방정식 유도와 유사한 결론을 얻었다. 그는 보다 엄밀하고 풍부한 수학을 사용했는데, 그의 이론은 추후 노벨 경제학상을 수상한 [칸토로비치](https://ko.wikipedia.org/wiki/%EB%A0%88%EC%98%A4%EB%8B%88%ED%8A%B8_%EC%B9%B8%ED%86%A0%EB%A1%9C%EB%B9%84%EC%B9%98)에 의해 경제학에 적용되었다. 
+On the other hand, Lev Pontryagin, despite being blind, made remarkable contributions across various fields. He is best known for Pontryagin's [**Maximum Principle**](https://en.wikipedia.org/wiki/Pontryagin%27s_maximum_principle), which, like Bellman's approach, derives similar results using rigorous mathematics. His work was later applied to economics by Nobel laureate [**Leonid Kantorovich**](https://ko.wikipedia.org/wiki/%EB%A0%88%EC%98%A4%EB%8B%88%ED%8A%B8_%EC%B9%B8%ED%86%A0%EB%A1%9C%EB%B9%84%EC%B9%98). Pontryagin's approach involved solving optimal control problems using differential equations, which had limitations due to boundary conditions. Bellman's approach, using partial differential equations, was more flexible but still faced challenges like the curse of dimensionality.
 
-폰트랴긴의 접근법은 수학적으로 상미분 방정식을 활용했으며, 그의 접근은 해밀토니안 방정식과 유사하다는 특징이 있다. 다만, 경계 조건에 의존적이라 실제로 푸는 데 어려움이 있었다. 한편, 벨만의 접근법은 편미분 방정식을 활용하여, 이후 추가적인 잡음(noise) 항을 추가하기 용이했다. 물론, 차원의 저주로 인해 문제를 풀어내는 데에는 문제가 있었다.
+## 1.2 Discrete-Time Optimal Control Problems
 
-
-## 1.2 이산 시간 최적 제어 문제
-
-최적 제어 문제(Optimal Control Problem)은 총 세 가지 개념으로 구성된다. 먼저, 시간, 공간, 제어 변수에 의해 변화하는 동역학계가 주어져야 한다. 먼저 이산 시간에 따른 동역학계를 고려하자. 시간 변수를 $t$, 시스템의 변수를 $x_t$, 제어 변수를 $u_t$라고 하자. 그러면 아래 수식에서 $f$가 바로 동역학계를 의미한다:
+An optimal control problem consists of three main components: a dynamic system that evolves over time, a control input that affects the system, and a cost function that evaluates the system's performance. Let’s start with a discrete-time dynamic system, where the state variable at time $t$ is denoted as $x_t$ and the control input as $u_t$:
 
 $$
 x_{t+1} = f(t, x_t, u_t), \ \  t= 0,1,...,T \cdots (1)
 $$
 
-이 동역학계는 특정 시간, 상태와 제어에 따라 보상(벨만) 또는 비용(폰트랴긴) $R(t,x_t,u_t)$이 있으며, 이를 활용해 주어진 시간 동안의 누적 비용 $C(x_0,u_{0:T})$을 말할 수 있게 된다. 이때 누적 비용 $C(x_0,u_{0:T})$가 초기 시스템 상태 $x_0$와 제어 입력들 $u_{0:T}$에만 의존하는 이유는 두 가지 정도로 표현할 수 있겠다. 첫번째 이유는 초기값과 이후 입력만 주어지면 동역학계 $f$를 통해 전체 시스템의 궤적을 계산할 수 있기 때문이다. 두번째는, 실무적 관점에서 각 시점의 시스템 상태는 센서를 통해 추론되는 경우가 많으므로 초기값 외에는 모른다고 가정하는 것이 합리적이기 때문이다:  
+The system incurs a cost or reward $R(t, x_t, u_t)$ at each time step, and the total accumulated cost over a time horizon is given by:
 
 $$
 C(x_0, u_{0:T}) = \sum_{t=0}^{T} R(t,x_t,u_t) \cdots (2)
 $$
 
-이제 최소 비용을 주는 최적 입력에 대해 말할 수 있다. 최적 입력(Optimal Control) $J(t, x_t)$는 현재 시점 $t$를 기준으로 앞으로 특정 시간 $T$까지의 비용을 최소로 만들어주는 입력이다. 즉:
+The goal is to find the optimal control $J(t, x_t)$ that minimizes the total cost:
 
 $$
 J(t, x_t) = \min_{u_{t:T}} \sum_{s=t}^{T} R(s,x_s,u_s) \cdots (3)
 $$
 
-이때, 최적 입력은 재귀 관계(Recursive Relation)을 갖는다. 이는 아래의 수식 전개를 통해 잘 드러나며, $J(t,x_t)$는 $J(t+1,x_{t+1})$로부터 계산될 수 있음을 보여준다:
+This leads to a recursive relationship known as Bellman’s dynamic programming equation:
 
 $$
 \begin{align} 
@@ -137,9 +138,10 @@ $$
 \end{align} 
 $$
 
-위 관계식으로부터 벨만의 동적 프로그래밍을 적용하면 원하는 시점 $T$ 이후부터는 $J(T+1,x)=0$으로 초기화한 후, 역으로 계산해 최적 입력을 계산해 나갈 수 있다. 
+By initializing $J(T+1, x) = 0$, we can work backwards to compute the optimal control.
 
-## 1.3 연속 시간 최적 제어 문제
+
+## 1.3 Continuous-Time Optimal Control Problems
 
 이산 시간에서의 최적 문제와 관련된 수식 (1), (2), (3), (4)와 마찬가지로, 연속 시간 $t$에 따른 실변수 $x, u$에 대해 생각해볼 수 있다. 먼저, 문제의 구성요소는 다음과 같이 표현할 수 있다. 이때, $\phi(x(t_f))$는 최종 시스템 상태에 대한 특수 비용을 의미한다:
 
