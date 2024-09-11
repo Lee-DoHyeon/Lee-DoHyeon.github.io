@@ -109,25 +109,28 @@ On the other hand, Lev Pontryagin, despite being blind, made remarkable contribu
 
 ## 1.2 Discrete-Time Optimal Control Problems
 
-An optimal control problem consists of three main components: a dynamic system that evolves over time, a control input that affects the system, and a cost function that evaluates the system's performance. Let’s start with a discrete-time dynamic system, where the state variable at time $t$ is denoted as $x_t$ and the control input as $u_t$:
+An Optimal Control Problem consists of three key components. First, there must be a dynamic system that evolves over time, space, and control variables. Let’s consider a dynamic system in discrete time. Let the time variable be denoted by $t$, the system state by $x_t$, and the control input by $u_t$. In the equation below, $f$ represents the dynamics of the system:
+
 
 $$
 x_{t+1} = f(t, x_t, u_t), \ \  t= 0,1,...,T \cdots (1)
 $$
 
-The system incurs a cost or reward $R(t, x_t, u_t)$ at each time step, and the total accumulated cost over a time horizon is given by:
+This dynamic system incurs a reward (Bellman) or cost (Pontryagin) $R(t,x_t,u_t)$ depending on the time, state, and control input. The total cost over the given time horizon can be expressed as $C(x_0, u_{0})$. The reason the total cost $C(x_0, u_{0})$ only depends on the initial system state $x_0$ and the control inputs $u_{0}$ is twofold. First, given the initial conditions and the subsequent control inputs, the entire trajectory of the system can be computed through the dynamics $f$. Second, in practical scenarios, the system state at each time step is often inferred through sensors, so assuming that only the initial state is known makes sense:
+
 
 $$
 C(x_0, u_{0:T}) = \sum_{t=0}^{T} R(t,x_t,u_t) \cdots (2)
 $$
 
-The goal is to find the optimal control $J(t, x_t)$ that minimizes the total cost:
+Next, we can define the optimal control that minimizes the total cost. The optimal control $J(t, x_t)$ is the control input that minimizes the cost from the current time $t$ to a future time $T$. In other words:
 
 $$
 J(t, x_t) = \min_{u_{t:T}} \sum_{s=t}^{T} R(s,x_s,u_s) \cdots (3)
 $$
 
-This leads to a recursive relationship known as Bellman’s dynamic programming equation:
+The optimal control follows a **recursive relationship**. This becomes clear through the expansion of the equation below, which shows that $J(t,x_t)$ can be computed from $J(t+1,x_{t+1})$:
+
 
 $$
 \begin{align} 
@@ -138,10 +141,9 @@ $$
 \end{align} 
 $$
 
-By initializing $J(T+1, x) = 0$, we can work backwards to compute the optimal control.
+Using this relationship, we can apply Bellman’s dynamic programming approach: starting from the desired final state at time $T$, where $J(T+1,x)=0$, we work backward in time to calculate the optimal control inputs.
 
-
-## 1.3 Continuous-Time Optimal Control Problems
+## 1.3 연속 시간 최적 제어 문제
 
 이산 시간에서의 최적 문제와 관련된 수식 (1), (2), (3), (4)와 마찬가지로, 연속 시간 $t$에 따른 실변수 $x, u$에 대해 생각해볼 수 있다. 먼저, 문제의 구성요소는 다음과 같이 표현할 수 있다. 이때, $\phi(x(t_f))$는 최종 시스템 상태에 대한 특수 비용을 의미한다:
 
