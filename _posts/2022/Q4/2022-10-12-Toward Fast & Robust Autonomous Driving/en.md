@@ -142,7 +142,7 @@ $$
 
 Using this relationship, we can apply Bellman’s dynamic programming approach: starting from the desired final state at time $T$, where $J(T+1,x)=0$, we work backward in time to calculate the optimal control inputs.
 
-## 1.3 연속 시간 최적 제어 문제
+## 1.3 Continuous-Time Optimal Control Problem
 
 Just like the optimal control problem in discrete time described by equations (1), (2), (3), and (4), we can consider a system in continuous time with real variables $x$ and $u$. The elements of the problem can be expressed as follows, where $\phi(x(t_f))$ represents a terminal cost associated with the final state of the system:
 
@@ -188,7 +188,7 @@ While traditional optimal control theory provides a solid theoretical framework,
 
 Kappen, a professor at Radboud University in the Netherlands, specializes in **The Physics of Machine Learning** within the field of biophysics. But what exactly is the noise that Kappen introduced?
 
-## 2.1 위너 프로세스
+## 2.1 Wiener Process
 
 <div class="centered-container">
   <div class="two-fig-container">
@@ -251,7 +251,7 @@ $$
 
 The sHJB equation derived above is a nonlinear partial differential equation (PDE), making it challenging to obtain a general solution. Kappen proposed an approach that transforms the equation into a path integral form, allowing for approximation solutions through simulations. To convert this equation into a path integral form, we first need to introduce some assumptions.
 
-## 3.1 LQ 문제로 축소
+## 3.1 Simplification to LQ Problem
 
 To linearize the sHJB problem, we can make a few assumptions to reduce its complexity. The first assumption is the **linearization** of control inputs within the dynamical system, and the second is the **quadratic** form of the control input costs. These assumptions simplify the problem into what is known as a **Linear Quadratic (LQ) problem**.
 
@@ -392,7 +392,7 @@ This framework also shares connections with [**Reinforcement Learning**](https:/
 
 Hilbert Kappen developed the path integral framework, offering an effective method for solving optimal control problems. His approach evolved from classical optimal control theory into a form more suited for modern scientific computing. On the other hand, Evangelos Theodorou from Georgia Tech takes a reverse approach, deriving the HJB equation from the variational free energy in information theory. To understand this, we first need to grasp the basic concepts of probability and information theory.
 
-## 4.1 자유 에너지
+## 4.1 The Free Energy
 
 <div class="centered-container">
   <figure>
