@@ -1,5 +1,5 @@
 ---
-title: "Reflections on the Computational Neuroscience Winter School"
+title: "Computational Neuroscience Winter School"
 scope:
   type: posts
 values:
