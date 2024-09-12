@@ -13,7 +13,7 @@ toc: false
 toc_sticky: false
 toc_label: "비선형 및 복잡계 심포지움"
 category: Movement
-tags: [학회, 은사, 심포지움, 물리학, 비선형, 복잡계, 사회, 심리, 신경과학]
+tags: [학회, 은사, 심포지움, 물리학, 비선형, 복잡계, 사회]
 lang: kr
 header:
   teaser: "/assets/images/posts/2024/Q2/2024-06-29-NCSS in Yangjae/0.png"

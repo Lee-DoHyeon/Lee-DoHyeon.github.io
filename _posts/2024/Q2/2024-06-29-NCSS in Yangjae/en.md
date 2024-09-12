@@ -13,7 +13,7 @@ toc: false
 toc_sticky: false
 toc_label: "Nonlinear and Complex Systems Symposium"
 category: Movement
-tags: [Conference, Mentor, Symposium, Physics, Nonlinear, Complex Systems, Society, Psychology, Neuroscience]
+tags: [Conference, Mentor, Symposium, Physics, Nonlinear, Complex Systems, Society]
 lang: en
 header:
   teaser: "/assets/images/posts/2024/Q2/2024-06-29-NCSS in Yangjae/0.png"
