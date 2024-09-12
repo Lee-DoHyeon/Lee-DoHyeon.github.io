@@ -5,8 +5,8 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 12 Sep 2024 16:04:15 +0900</pubDate>
-        <lastBuildDate>Thu, 12 Sep 2024 16:04:15 +0900</lastBuildDate>
+        <pubDate>Thu, 12 Sep 2024 16:31:36 +0900</pubDate>
+        <lastBuildDate>Thu, 12 Sep 2024 16:31:36 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
@@ -1807,7 +1807,7 @@ Considering that the importance of predictive coding and un/self-supervised lear
             </item>
         
             <item>
-                <title>비선형 및 복잡계 심포지움 in 양재</title>
+                <title>비선형 및 복잡계 심포지움</title>
                 <description>&lt;style&gt;
   .centered-container {
       text-align: center;
@@ -1825,155 +1825,62 @@ Considering that the importance of predictive coding and un/self-supervised lear
       color: #555;
       margin-top: 5px;
   }
-&lt;/style&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;이 글은 Thomas Parr, Giovanni Pezzulo의 교재 “&lt;a href=&quot;https://direct.mit.edu/books/oa-monograph/5299/Active-InferenceThe-Free-Energy-Principle-in-Mind&quot;&gt;Active Inference&lt;/a&gt;”의 마지막 장을 읽고 정리한 글임을 밝힙니다.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+  /* 새로 추가된 스타일 */
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+&lt;/style&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF_original.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-29-NCSS in Yangjae/poster.JPG&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
-      토마스 파, 지오바니 페줄로, 칼 프리스턴의 능동 추론 교과서
+      심포지움 포스터.
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;한국 계산 뇌과학회의 초대 회장은 포항공과대학교(POSTECH) 물리학과의 김승환 교수님이다. 김승환 교수님은 수학적, 물리학적 이론을 통해 인간 두뇌의 복잡한 문제를 풀어내는 모델링 기법으로 다양한 연구 성과를 이루셨고, 관련 분야에서 많은 후학을 양성하셨다. 나 역시 포스텍 진학을 결정하는 데 김승환 교수님의 영향이 매우 컸으며, 특히 3학기 이후 수학과로 전공을 결정하게 된 계기도 교수님의 수업을 듣고 나서였다.&lt;/p&gt;
 
-&lt;h1 id=&quot;1-인트로&quot;&gt;1. 인트로&lt;/h1&gt;
+&lt;p&gt;이번 비선형 및 복잡계 심포지움은 김승환 교수님의 정년 퇴임 기념 행사와 함께 진행되었기에, 꼭 참석하고 싶었다. 운 좋게도 관련 정보를 접하게 되어 참석할 수 있었고, 이를 매우 영광스럽게 생각한다.&lt;/p&gt;
 
-&lt;p&gt;능동 추론(Active Inference)은 기존에 심리학과 신경과학 분야에서 독립적으로 존재하던 지각(Perception), 행동 선택(Action Selection), 주의집중(Attention), 감정 조절(Emotion Regulation) 등을 통합적으로 바라보는 새로운 관점을 제공한다. 더 나아가, 기존의 사이버네틱스(Cybernetics), 행동의 관념운동 이론(Ideomotor Theory of Action), 강화 학습(Reinforcement Learning), 최적 제어(Optimal Control)와도 긴밀히 연결된다. 능동 추론은 생물학적, 사회적, 기술적 주제로도 확장될 수 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;아랫길low-road&quot;&gt;아랫길(Low Road)&lt;/h2&gt;
+&lt;p&gt;더불어, 이번 행사에는 한국 경제사회물리학회도 함께 참여하여 정우성 교수님, 정하웅 교수님, 정재승 교수님 등 존경하는 교수님들을 직접 뵐 수 있었다. 교수님들과 뜻깊은 이야기를 나누며, 학문적으로도 많은 영감을 받을 수 있는 시간이 되었다.&lt;/p&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/0.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-29-NCSS in Yangjae/group_1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
-        뱀의 공격을 예측하고 빠르게 대응하는 고양이, 출처: &lt;a href=&quot;forgifs.com/gallery/v/Animals/Cat-vs-snake.gif.html&quot;&gt;forgif&lt;/a&gt;
-      &lt;/figcaption&gt;
+      단체 사진 1.
+    &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
-
-&lt;p&gt;모든 감응력 있는(Sentient) 생명체는 환경과 행동-지각의 루프를 이루며 영속(persist)해 나간다. 능동 추론을 이해하는 한 방법은 두뇌를 세상에 대한 생성 모형(Generative Model)을 지닌 예측 기계(Prediction Machine)로 간주하는 것이다. 이는 헬름홀츠(Hermann von Helmholtz)의 아이디어로부터 시작하여 최근에는 베이지안 두뇌 가설(Bayesian Brain Hypothesis)로 발전되었다. 이 관점에 따르면, 정확한 추론은 불가능하기 때문에 근사(Approximation)를 수행하게 되며, 결과적으로 지각과 행동은 변분 자유 에너지(Variational Free Energy)를 최소화하는 과정으로 해석된다. 다시 말해, 행동과 지각은 독립된 개념이라기보다 한 목적을 달성하는 과정의 두 가지 모습으로 볼 수 있다. 미래의 사건에 대한 계획(Planning) 또한 기대 자유 에너지(Expected Free Energy)를 최소화하는 과정으로 해석될 수 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;윗길high-road&quot;&gt;윗길(High Road)&lt;/h2&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/1.png&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-29-NCSS in Yangjae/group_2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
-        자유에너지에 대한 곡면 위에서 안정점(Stable Point)를 향해 이동하는 모습, 출처: &lt;a href=&quot;https://www.researchgate.net/publication/357198851_Permutation_Entropy_as_a_Universal_Disorder_Criterion_How_Disorders_at_Different_Scale_Levels_Are_Manifestations_of_the_Same_Underlying_Principle&quot;&gt;Permutation Entropy as a Universal Disorder Criterion: How Disorders at Different Scale Levels Are Manifestations of the Same Underlying Principle, Rutger Goekoop et al.&lt;/a&gt;.&lt;br /&gt;점의 상태가 시스템의 궤적을 이룬다.
-      &lt;/figcaption&gt;
+      단체 사진 2.
+    &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
-
-&lt;p&gt;능동 추론을 이해하는 또 다른 방법은, 생물학적 유기체가 신체를 유지하고 소멸을 막는 핵심 원리에서 시작한다. 마코프 블랭킷(Markov Blanket)은 통계학에서 흔히 사용하는 개념으로, 생명체의 내부와 외부를 구분하는 형식적 프레임워크이다. 마코프 블랭킷을 지닌 유기체는 외부 환경을 베이지안 관점으로 모형화한다고 볼 수 있다. 자율성은 유기체가 지닌 외부 환경의 모형이 존재론적 전제 조건들을 규정하면서도 편향되지 않기 때문에 보장된다. 이로써 지각과 행동을 통해 베이지안 모형 에비던스(Model Evidence)를 최대화하는 과정으로 최적 행동을 서술할 수 있다. 이는 변분 자유 에너지를 최소화하는 과정과 동일하며, 해밀턴의 최소 작용의 원리와 통계 역학의 원리들과도 일맥상통한다.&lt;/p&gt;
-
-&lt;h2 id=&quot;형식화formalization&quot;&gt;형식화(Formalization)&lt;/h2&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/2.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-        능동 추론 및 베이즈 역학, 출처: &lt;a href=&quot;https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2018.00021/full&quot;&gt;The Active Inference Approach to Ecological Perception: General Information Dynamics for Natural and Artificial Embodied Cognition, Adam Linson et al.&lt;/a&gt;.
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;형식적 관점에서 자유 에너지는 변분 추론(Variational Inference)을 통해 가능하다. 모형이 나타내는 과정(Process)은 변수와 시간의 이산성/연속성에 상관없이 모형화될 수 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;과정-이론process-theory&quot;&gt;과정 이론(Process Theory)&lt;/h2&gt;
-
-&lt;p&gt;능동 추론은 단순히 규범적 원리(Normative Theory)에서 그치는 것이 아니라, 실제로 이것들이 뇌에서 어떻게 구현되어 있는지 분석하는 과정 이론(Process Theory) 또한 제공한다. 해부학적 수준에서 시스템적 수준에 이르기까지, 뉴런들의 신경해부학적 회로(Neuroanatomical Circuitry)와 신경 조절(Neuromodulation)을 포함한 메시지 전달 과정(Neuronal Message Passing)을 설명한다.&lt;/p&gt;
-
-&lt;h2 id=&quot;모델-설계-방법론design-recipe&quot;&gt;모델 설계 방법론(Design Recipe)&lt;/h2&gt;
-
-&lt;p&gt;모든 생명체는 변분 자유 에너지를 최소화하면서도 서로 다르게 행동한다. 이는 그들이 다른 생성 모형을 지녔기 때문이다. 가능한 생성 모형의 레퍼토리는 매우 풍부하며, 시대적 맥락(Context)과 생태적 지위(Niche)에 따라 다른 생물학적 구현체를 지니고 있을 것이다. 진화(Evolution)는 박테리아에서 영장류까지 풍부한 생태적 지위에 맞는 두뇌와 신체의 복잡한 형태를 발견해왔다. 모형을 설계할 때 이 과정을 역설계할 수 있으며, 관심 생물의 두뇌와 신체에 따라 이산/연속 변수를 취하거나 모형의 깊이를 설계할 수 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;예시example&quot;&gt;예시(Example)&lt;/h2&gt;
-
-&lt;p&gt;능동 추론을 통해 지각적 추론, 목표 지향적 행동, 모형의 학습, 행동 선택 등을 모형화할 수 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;실험experiment&quot;&gt;실험(Experiment)&lt;/h2&gt;
-
-&lt;p&gt;능동 추론은 실험을 통해 수집한 데이터에 대해 모형 기반의 데이터 분석에 사용될 수 있으며, 개인의 생성 모형에 따라 파라미터를 역추적할 수도 있다. 이러한 계산적 형질화(Computational Phenotyping)는 타인의 주관적 모형에 대한 객관적 모형을 설계하고 평가하는 데 도움을 줄 수 있다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;2-점-연결하기&quot;&gt;2. 점 연결하기&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;데닛의-비판dennetts-critique&quot;&gt;데닛의 비판(Dennett’s Critique)&lt;/h2&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/3.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-        2004년 경의 데니얼 데닛, 출처: &lt;a href=&quot;https://static01.nyt.com/images/2024/04/19/multimedia/19Dennett-2-mvpq/19Dennett-2-mvpq-superJumbo.jpg?quality=75&amp;amp;auto=webp&quot;&gt;Eamonn McCabe/Popperfoto, via Getty Images&lt;/a&gt;.
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;수십 년 전, 철학자 대니얼 데닛(Daniel Dennett)은 인지 과학자들이 명확히 구분하기 어려운 독립된 하위 시스템(subsystem)을 모형화하는 데에 너무 많은 시간을 쓴다고 불평한 적 있다. 그는 오히려 다루고자 하는 환경적 지위를 잘 설정하여 전체적인 인지적 생명체(cognitive creature)를 모형화해야 한다고 제안했다.&lt;/p&gt;
-
-&lt;h2 id=&quot;통합적-관점integrative-perspective&quot;&gt;통합적 관점(Integrative Perspective)&lt;/h2&gt;
-
-&lt;p&gt;능동 추론(Active Inference)은 통합적인 관점을 제공한다. 지각과 행동은 생성 모형(generative model)에 대해 자증적(self-evidencing)이며, 변분 자유 에너지를 최소화하는 과정의 서로 다른 측면이다. 장기 기억(long-term memory)은 생성 모형의 매개변수를 학습하는 과정에서 발달하며, 작업 기억(working memory)은 과거와 미래의 외부 상태에 대한 믿음을 갱신(belief updating)하는 과정이다. 이때 주의 집중(attention)은 감각 입력의 신뢰도(precision)에 대한 믿음을 최적화(belief optimization)하는 과정이다. 계획(planning)과 지향성(intentionality)의 형태 또한 가능한 미래의 시나리오 중 하나를 선택하는 능력으로 개념화될 수 있으며, 이는 시간적으로 깊은 생성 모형(deep temporal model)을 요구한다. 시간적으로 깊은 생성 모형은 현재에 대한 믿음을 바탕으로 과거에 대한 믿음을 갱신하는 회상(retrospection)과 현재의 믿음을 바탕으로 미래에 대한 믿음을 도출하는 전망(prospection)이라는 복잡한 현상을 이해하는 데에도 도움을 준다. 마지막으로, 내수용적 조절(interoceptive regulation)과 감정(emotion) 또한 미래 사건의 이상성(allostatic) 결과를 예측하는 내부 생리 메커니즘의 생성 모형을 통해 개념화될 수 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;비전vision&quot;&gt;비전(Vision)&lt;/h2&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/4.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-        1880년 경의 윌리엄 제임스, 출처: &lt;a href=&quot;https://www.loa.org/writers/29-william-james/&quot;&gt;Houghton Library at Harvard University; public domain via Wikimedia Commons&lt;/a&gt;.
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;데닛의 비판에 맞서, 능동 추론은 수많은 독립적으로 다뤄져 온 인지 및 행동 개념들에 대한 통합적인 관점을 제공한다. 이에 따라, 단순히 지각과 행동, 기억과 주의 집중들을 조합하는 것이 아니라, 생명체가 해결해야만 하는 최초 원리로부터 그들이 이끌어낸 다양한 인지 기능들을 분석하게 해준다. 이로써, 심리학과 신경과학에서 사용되어 온 윌리엄 제임스의 범주(Jamesian category)가 지닌 모호성을 벗어나 수학적 형식성과 구체성을 지닐 수 있게 된다.&lt;/p&gt;
-
-&lt;h2 id=&quot;유사성identifying-analogies&quot;&gt;유사성(Identifying Analogies)&lt;/h2&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/5.png&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-        의사결정에 있어 항상 등장하는 탐색-실행 딜레마(Exploration-Exploitation Dillema), 출처: &lt;a href=&quot;https://www.lakera.ai/blog/reinforcement-learning&quot;&gt;Lakera AI&lt;/a&gt;.
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;이러한 규범적 관점을 채택하는 것은 다른 분야에서 연구된 인지 현상 사이의 형식적인 유사성을 쉽게 식별하는 데 도움을 준다. 대표적으로 탐색과 활용의 딜레마(exploration-exploitation dilemma)나 제한된 자원에서의 검색과 숙고의 딜레마(search-deliberation dilemma)에 대한 연결성을 쉽게 이해하도록 도와준다&lt;/p&gt;
-
-&lt;h2 id=&quot;오해풀기demystifying&quot;&gt;오해풀기(Demystifying)&lt;/h2&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/6.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-        하트 모양 번개, 출처: &lt;a href=&quot;https://www.reddit.com/r/interestingasfuck/comments/9pjauj/a_heart_shaped_lightning_bolt_during_a/?rdt=40244&amp;amp;onetap_auto=true&amp;amp;one_tap=true&quot;&gt;Reddit&lt;/a&gt;.
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;결론적으로, 능동 추론은 과정 이론(process theory)으로서 뉴런이 수행하는 계산을 이해하는 핵심 수단을 제공한다. 두뇌-마음-행동은 단순히 변분 자유 에너지를 최소화하는 과정으로 이해될 수 있다. 다시 말해, 천둥과 번개가 대기의 방전 현상에 대한 청각적, 시각적 일면이듯이, 두뇌-마음-행동은 변분 자유 에너지를 최소화하는 과정의 다양한 일면일 뿐이다. 현대 과학이 천둥을 번개로, 번개를 천둥으로 환원시키지 않고 대기의 방전 현상으로 환원시켜 이해하듯이, 두뇌, 마음, 행동의 관계가 지니는 미스터리를 떠나 자유 에너지의 최소화 현상으로 환원시켜 이해하는 것이 바람직하다.&lt;/p&gt;
-
-&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;이 책은 뇌와 행동을 첫 원칙에서 이해하는 가능성에 대한 질문으로 시작하여, 능동 추론을 그 해결책으로 제시했다. 능동 추론이 인식, 행동 선택, 감정 등 익숙한 심리학적 개념에 어떤 의미를 가지는지 탐구하면서, 관련 개념들을 재검토하고 앞으로의 연구 과제를 제시했다. 이론적 신경생물학의 중요한 실습을 통해 능동 추론을 실천해 볼 것을 권장하며, 일상 생활에서도 이를 적용할 수 있음을 강조했다. 궁극적으로, 능동 추론이 우리의 일상과 연구에 어떻게 기여할 수 있는지를 강조하며, 독자들이 이를 계속 추구할 것을 기대한다.&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
                 <pubDate>Sat, 29 Jun 2024 00:00:00 +0900</pubDate>
                 <link>http://localhost:4000/movement/NCSS-in-Yangjae-kr/</link>
@@ -1996,6 +1903,109 @@ Considering that the importance of predictive coding and un/self-supervised lear
                 <category>심리</category>
                 
                 <category>신경과학</category>
+                
+                
+                <category>Movement</category>
+                
+            </item>
+        
+            <item>
+                <title>Nonlinear and Complex Systems Symposium</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+
+  /* 새로 추가된 스타일 */
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+&lt;/style&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-29-NCSS in Yangjae/poster.JPG&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Symposium Poster.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Professor Seunghwan Kim of the Physics Department at POSTECH (Pohang University of Science and Technology) is the inaugural president of the Korean Society for Computational Neuroscience. Professor Kim has made significant contributions in modeling complex brain functions through mathematical and physical theories, and has mentored numerous scholars in the field. Personally, Professor Kim had a profound impact on my decision to pursue studies at POSTECH. In fact, it was after attending his classes that I decided to switch my major to mathematics after my third semester.&lt;/p&gt;
+
+&lt;p&gt;This year’s Nonlinear and Complex Systems Symposium was especially meaningful because it also served as a retirement celebration for Professor Kim. I was determined to attend, and I was fortunate enough to receive information about the event, allowing me to participate. I consider it a great honor to have been part of this event.&lt;/p&gt;
+
+&lt;p&gt;Additionally, the symposium saw the participation of the Korean Society for Econophysics, where I had the pleasure of meeting esteemed professors such as Woo-Sung Jung, Hawoong Jeong, and Jae-Sung Jeong. Engaging with these respected scholars was both inspiring and rewarding, providing me with new academic insights.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-29-NCSS in Yangjae/group_1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Group Photo 1.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-29-NCSS in Yangjae/group_2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Group Photo 2.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+</description>
+                <pubDate>Sat, 29 Jun 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/movement/NCSS-in-Yangjae-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/movement/NCSS-in-Yangjae-en/</guid>
+                
+                <category>Conference</category>
+                
+                <category>Mentor</category>
+                
+                <category>Symposium</category>
+                
+                <category>Physics</category>
+                
+                <category>Nonlinear</category>
+                
+                <category>Complex Systems</category>
+                
+                <category>Society</category>
+                
+                <category>Psychology</category>
+                
+                <category>Neuroscience</category>
                 
                 
                 <category>Movement</category>
@@ -4470,241 +4480,6 @@ Refer to Amaral Shunichi’s “Brain, Mind, Artificial Intelligence.” A compu
                 <category>심리철학</category>
                 
                 <category>인지과학</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>A History of Embodied Cognition</title>
-                <description>&lt;p&gt;&lt;strong&gt;What is Embodied Cognition?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;-&lt;/em&gt; Reference: [Phil, 1] &lt;a href=&quot;https://s-space.snu.ac.kr/bitstream/10371/75876/1/02.%20%EC%9D%B4%EC%A0%95%EB%AA%A8.pdf&quot;&gt;‘Embodied Cognition’ Approach and Interdisciplinary Convergence&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;1-cognitive-science-in-the-20th-century&quot;&gt;1. Cognitive Science in the 20th Century&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Continuing the philosophical inquiry into the mind”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;11-before-the-birth-of-cognitive-science&quot;&gt;1.1 Before the Birth of Cognitive Science&lt;/h3&gt;
-
-&lt;p&gt;Following the scientific revolution in Europe during the 16th and 17th centuries, various fields of science gradually branched out from philosophy. In the 19th century, some scholars began exploring the possibility of investigating the mind through objective, experimental, and empirical scientific methods rather than merely intuitive and logical analysis.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1870s - Wilhelm Wundt launched psychology as an independent empirical science, known as ‘experimental physiological psychology.’
-→ For about 30 years, psychology focused on analyzing consciousness as subjective experience.
-→ Emphasized systematizing methods for analyzing subjective reports of individual consciousness.
-→ Refined and systematized the traditional philosophical method of “introspective introspection” as a scientific approach to psychology.
-; &lt;strong&gt;Structuralism&lt;/strong&gt; + &lt;strong&gt;Introspective Methodology&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Early 20th century - John B. Watson criticized structuralism and introduced the framework of empiricist behaviorist psychology.
-→ Criticized structuralism for straying from the positivist framework of objective science.
-→ Strongly influenced by the logical positivism of philosophy, he sought to deal only with what can be objectively observed.
-→ Rejected mental concepts, focusing solely on behavior.
-→ Aimed to describe animal and human behavior through conditioning processes.
-→ B. F. Skinner attempted to extend this explanation to human language and thought.
-; &lt;strong&gt;Behaviorism&lt;/strong&gt; + &lt;strong&gt;Conditioning Methodology&lt;/strong&gt; (~1950)&lt;/li&gt;
-  &lt;li&gt;Late 1950s - The Cognitive Revolution (a.k.a. the Scientific Revolution of the 20th Century)
-→ Criticized behaviorism for excluding the concept of the mind from psychology.
-→ Introduced a new paradigm for understanding humans, animals, computers, and human cultural systems.
-; &lt;strong&gt;Classical Cognitivism&lt;/strong&gt; + &lt;strong&gt;Information Processing Approach&lt;/strong&gt; ← The birth of “Cognitive Science”
-    &lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-20-Embodied Cognition/1.png&quot; /&gt;
-  &lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;12-cognitivism-characteristics-and-significance-in-cognitive-science&quot;&gt;1.2 Cognitivism: Characteristics and Significance in Cognitive Science&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-20-Embodied Cognition/2.png&quot; /&gt; 
-&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Cognitivism Paradigm: ‘Mind’ $\sim$ ‘Computer’ $\sim$ ‘Information Processing System (IPS)’
-⇒ How do various forms of information processing occur in the minds of humans and animals, as well as in computers, and how do such processes enable and manifest intelligence?
-→ “Since cognition arises from the workings of the mind, cognitive science becomes the science of the mind.”
-    &lt;ol&gt;
-      &lt;li&gt;Mind, 2) Brain, 3) Computer, 4) Artifact
-&lt;strong&gt;Key Characteristics&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;‘Mind’ $\sim$ ‘Computer’ $\sim$ ‘Information Processing System (IPS)’&lt;/li&gt;
-      &lt;li&gt;The &lt;strong&gt;process&lt;/strong&gt; of the mind is viewed through the lens of &lt;strong&gt;computationalism&lt;/strong&gt;, which sees cognition as information processing and transformation.&lt;/li&gt;
-      &lt;li&gt;The &lt;strong&gt;content&lt;/strong&gt; of the mind is structured as representations of intentional objects, a view known as &lt;strong&gt;representationalism&lt;/strong&gt;.&lt;/li&gt;
-      &lt;li&gt;The mind is grounded in the neural states of the &lt;strong&gt;brain&lt;/strong&gt;, emphasizing the &lt;strong&gt;neuroscientific basis&lt;/strong&gt; (yet with a separation of hardware and software).&lt;/li&gt;
-      &lt;li&gt;The &lt;strong&gt;study&lt;/strong&gt; of the mind necessitates a &lt;strong&gt;convergent&lt;/strong&gt; approach, drawing on multiple disciplines.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;13-cognitive-science-and-interdisciplinary-connections&quot;&gt;1.3 Cognitive Science and Interdisciplinary Connections&lt;/h3&gt;
-
-&lt;p&gt;→ &lt;strong&gt;Artificial Intelligence, Cognitive Psychology, Philosophy, Linguistics, Cognitive Neuroscience&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-20-Embodied Cognition/3.png&quot; /&gt; 
-&lt;/p&gt;
-&lt;h2 id=&quot;2-the-evolution-of-cognitive-science&quot;&gt;2 The Evolution of Cognitive Science&lt;/h2&gt;
-
-&lt;p&gt;Since the mid-1980s, there has been a conceptual reorganization of how we understand the mind.&lt;/p&gt;
-
-&lt;h3 id=&quot;21-lee-jungmos-classification&quot;&gt;2.1 &lt;strong&gt;Lee Jungmo’s Classification&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Phase 1; 1950s to early 1980s
-    &lt;ul&gt;
-      &lt;li&gt;Moving away from behaviorism’s anti-mentalism, which had removed the mind from psychology.&lt;/li&gt;
-      &lt;li&gt;Conceptualized the mind as a &lt;strong&gt;Physical Symbol System&lt;/strong&gt;, modeled on digital computers.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Phase 2; Since the 1980s
-    &lt;ul&gt;
-      &lt;li&gt;Recognized the limitations of classical information processing approaches centered on computer metaphors.&lt;/li&gt;
-      &lt;li&gt;Proposed a &lt;strong&gt;neural network connectionist&lt;/strong&gt; approach centered on brain metaphors, presenting a subsymbolic computational system.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Phase 3; Since the 1990s
-    &lt;ul&gt;
-      &lt;li&gt;Rapid advancements in &lt;strong&gt;cognitive neuroscience&lt;/strong&gt; research techniques, such as brain imaging, rediscovered the importance of brain functions.&lt;/li&gt;
-      &lt;li&gt;Cognitive science aimed to approach the mind grounded in neuroscience.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Phase 4; Late 1980s to early 21st century
-    &lt;ul&gt;
-      &lt;li&gt;A &lt;strong&gt;paradigm shift emphasizing the role of the body and environmental context&lt;/strong&gt;.&lt;/li&gt;
-      &lt;li&gt;Cognition exists in physical and social contexts where the human mind is realized through bodily interactions within its environment.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;22-evan-thompsons-classification&quot;&gt;2.2 &lt;strong&gt;Evan Thompson’s Classification&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Phase 1 ← Cognitivism&lt;/li&gt;
-  &lt;li&gt;Phase 2 ← Connectionism (The shift from computers to the brain is characterized by a ‘downwards pull.’)&lt;/li&gt;
-  &lt;li&gt;Phase 3 ← Embodied Dynamicism (The shift from the brain to the body and environment is characterized by an ‘outwards pull.’)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;23-the-ultimate-stance-embodied-cognition&quot;&gt;2.3 The Ultimate Stance: &lt;strong&gt;Embodied Cognition&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Critically developed frameworks challenging Cartesian dualism, classical cognitivism, and reductionist materialism.&lt;/li&gt;
-  &lt;li&gt;Argued that none of these frameworks adequately explained the nature and properties of the mind, and reducing the mind solely to neural states within the brain was insufficient.&lt;/li&gt;
-  &lt;li&gt;Advocated for conceptualizing the mind as a phenomenon within an integrated system linking the brain, body, and world.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;3-approaches-to-embodied-cognitionmind&quot;&gt;3 Approaches to Embodied Cognition/Mind&lt;/h2&gt;
-
-&lt;h3 id=&quot;31-embodied-cognition-extended-mind&quot;&gt;3.1 Embodied Cognition, Extended Mind&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Moving away from the traditional Cartesian ontology/epistemology-based concept of the mind (Mind), towards a view of the mind as an emergent phenomenon realized through adaptive ‘actions’ within its environment, using a concrete body.&lt;/li&gt;
-  &lt;li&gt;Hypothesis of Extended Mind/Cognition (HEM/HEC: Hypothesis of Extended Mind/Cognition, Andy Clark &amp;amp; David Chalmers, 1998)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;→ This approach attempts to transcend the limitations of lower-level approaches like connectionism, which seeks to explain everything at the micro-level, neuro-level, or biological unit, as well as the higher-level, proposition-centered, logical systems of classical cognitivism.&lt;/p&gt;
-
-&lt;p&gt;→ Rather than cognitive representations or processes occurring independently within an individual’s mind, this approach explains the mind as an activity realized through actions in a cohesive system where the environment, body, and brain form an integrated unit.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The mind should be re-conceptualized as a phenomenon of action, not merely as neural states or processes within the brain. It is the integrated functioning of the brain’s neural structures, the body beyond the brain, and the environment, acting together as an inseparable unit.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;→ This approach is part of the post-Cartesian movement, aimed at breaking away from Cartesian dualism. Early influences include the 17th-century philosopher B. Spinoza, and later European phenomenological philosophers like Bergson and Merleau-Ponty, who discussed the possibility of psychological properties existing independently of the brain. They proposed that the body, mind, and environment form a unified system, where each physical action of the body, as it adapts to the world, constitutes the mind.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Cognitive psychologist M. Wilson: The mind and cognition are rooted in the body.&lt;/li&gt;
-  &lt;li&gt;Gomila, Calvo: Interactionism and dynamicism are more central than mere embodiment.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;aside&gt;
-💡 *Behaviorist psychology expelled the mind from psychology, classical cognitivism reintroduced the mind into cognitive science but neglected the role of the brain, cognitive neuropsychology reinstated the mind into the brain but ignored the role of the environment (context). Now, the third alternative perspective, ‘embodied cognition,’ seeks to reintegrate the brain into the body and the body into the environment.*
-
-&lt;/aside&gt;
-
-&lt;h3 id=&quot;32-embodied-mind-and-artifacts&quot;&gt;3.2 Embodied Mind and Artifacts&lt;/h3&gt;
-
-&lt;p&gt;→ If the mind is conceptualized as existing in dynamic activities where it extends spatially through the body into the environment, then the history of co-evolution between the human mind and artifacts, and the potential futures, must be considered.&lt;/p&gt;
-
-&lt;p&gt;As the boundaries between the human mind and artifacts blur and as human existence becomes increasingly redefined by interactions with artifacts, the philosophical framework of ‘embodied cognition’ could provide a crucial theoretical foundation for the conceptual restructuring of future scholarship and technology.&lt;/p&gt;
-
-&lt;h3 id=&quot;33-challenges-in-the-embodied-cognition-approach&quot;&gt;3.3 Challenges in the Embodied Cognition Approach&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Scientific Paradigm
-    &lt;ul&gt;
-      &lt;li&gt;How can the interactions between humans (bodies) and environments be objectified through empirical scientific inquiry?&lt;/li&gt;
-      &lt;li&gt;This approach must provide explanations and descriptions that are better and more systematic than those achieved by traditional cognitivist approaches.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Conceptual Issues
-    &lt;ul&gt;
-      &lt;li&gt;Must address theoretical criticisms posed by scholars like Adams &amp;amp; Aizawa (2008, 2010).
-        &lt;ol&gt;
-          &lt;li&gt;Equivalence Principle: Can the HEM/HEC truly make the environment an equivalent cognitive system to the brain?&lt;/li&gt;
-          &lt;li&gt;Coupling Argument: Material objects in the environment cannot form a unified system with the brain!
-↔ Critics argue that it fails to escape the traditional dualistic categories of material-mental, internal-external.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;aside&gt;
-  💡 The key to determining cognitive processes is not their location (inside or outside), nor the material similarity between the brain and artifacts, but rather the **functionality of the processes**.
-  “The embodied cognition approach strongly appeals for a paradigm shift away from traditional concepts, advocating a new perspective in exploring topics such as human existence, mind, body, environment (including artifacts), the role of representations, intentionality, cognitive systems, cognitive processes, causality, and human-artifact interactions.”
-  &lt;/aside&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;34-interdisciplinary-convergence-in-embodied-cognition&quot;&gt;3.4 Interdisciplinary Convergence in Embodied Cognition&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A conceptual shift demanding a new perspective that integrates body-mind-life into a unified framework.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;aside&gt;
-💡 How do the mind, cognition (or intelligence in the case of animals and robots), arise from physical activities where the body and environment blend as one?
-
-&lt;/aside&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Philosophy&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;[1] &lt;a href=&quot;https://s-space.snu.ac.kr/bitstream/10371/75876/1/02.%20%EC%9D%B4%EC%A0%95%EB%AA%A8.pdf&quot;&gt;‘Embodied Cognition’ Approach and Interdisciplinary Convergence&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Lee Jungmo (2010), ‘Embodied Cognition’ Approach and Interdisciplinary Convergence, Philosophy and Thought.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Robotics&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;[1] &lt;a href=&quot;https://arxiv.org/pdf/1801.04819.pdf&quot;&gt;Robots as Powerful Allies for the Study of Embodied Cognition from the Bottom Up&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Hoffmann, M. &amp;amp; Pfeifer, R. (2018), Robots as powerful allies for the study of embodied cognition from the bottom up, in A. Newen, L. de Bruin; &amp;amp; S. Gallagher, ed., ‘The Oxford Handbook 4e Cognition’, Oxford University Press, pp. 841-861.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;[2] &lt;a href=&quot;https://d1wqtxts1xzle7.cloudfront.net/64936166/Lara_et_al_2018_Embodied_Cognitive_Robotics_and_the_learning_of_sensorimotor_schemes-libre.pdf?1605383929=&amp;amp;response-content-disposition=inline%3B+filename%3DEmbodied_Cognitive_Robotics_and_the_lear.pdf&amp;amp;Expires=1703039325&amp;amp;Signature=bubgM3q5K1C4LL7Qqkt0xw7CK8RIVEC0gGMtmkuL5tKp3AqvgaScZ~8-5OzaU0aqarwlwQqQwMSfc05LAyxHYPTO5Trr0hDqFCRx~~RPdPQ1oDOghkAc6Qc-VzlaLiRX2cmiGzr3VroHdwOtlGEWFqJs5FCNhv4yVtsAOv7tu3yJa0Qj4ajJAdUyPPfUnNEq3AJ4ZZkOr~Y~6zqBSzKgw-djTlolXAgjBWHLYlG3Cd3ayiRAbqo9QdnJM4oiS1Csaw6lzjxTBAIwOZT553uIUrxlDnOSsoZWP~DH9zRYiSO9QTMoHS3qQszl1i6ooee87NBa0AU4d4jD4sSwGkDcNQ__&amp;amp;Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA&quot;&gt;Embodied Cognitive Robotics and the Learning of Sensorimotor Schemes&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Lara B, Astorga D, Mendoza-Bock E, Pardo M, Escobar E, Ciria A. Embodied Cognitive Robotics and the learning of sensorimotor schemes. &lt;em&gt;Adaptive Behavior&lt;/em&gt;. 2018;26(5):225-238. doi:&lt;a href=&quot;https://doi.org/10.1177/1059712318780679&quot;&gt;10.1177/1059712318780679&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;[3] &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10526461/pdf/brainsci-13-01316.pdf&quot;&gt;From Brain Models to Robotic Embodied Cognition: How Does Biological Plausibility Inform Neuromorphic Systems?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-                <pubDate>Wed, 20 Dec 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Embodied-Cognition-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Embodied-Cognition-en/</guid>
-                
-                <category>Philosophy of Mind</category>
-                
-                <category>Cognitive Science</category>
                 
                 
                 <category>Motivation</category>
