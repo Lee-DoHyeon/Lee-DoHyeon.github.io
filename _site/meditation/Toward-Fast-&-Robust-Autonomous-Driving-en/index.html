@@ -352,7 +352,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Toward Fast and Robust Autonomous Driving</h4></header>
-              <ul class="toc__menu"><li><a href="#1-the-origins-of-optimal-control-theory">1. The Origins of Optimal Control Theory</a><ul><li><a href="#11-richard-bellman-and-lev-pontryagin">1.1 Richard Bellman and Lev Pontryagin</a></li><li><a href="#12-discrete-time-optimal-control-problems">1.2 Discrete-Time Optimal Control Problems</a></li><li><a href="#13-연속-시간-최적-제어-문제">1.3 연속 시간 최적 제어 문제</a></li></ul></li><li><a href="#2-the-development-of-stochastic-optimal-control-theory">2. The Development of Stochastic Optimal Control Theory</a><ul><li><a href="#21-위너-프로세스">2.1 위너 프로세스</a></li><li><a href="#22-stochastic-optimal-control-problem">2.2 Stochastic Optimal Control Problem</a></li></ul></li><li><a href="#3-path-integral-framework">3. Path Integral Framework</a><ul><li><a href="#31-lq-문제로-축소">3.1 LQ 문제로 축소</a></li><li><a href="#32-log-transformation">3.2 Log Transformation</a></li><li><a href="#33-kolmogorov-backward-equation">3.3 Kolmogorov Backward Equation</a></li><li><a href="#34-connection-to-thermodynamics-and-reinforcement-learning">3.4 Connection to Thermodynamics and Reinforcement Learning</a></li></ul></li><li><a href="#4-information-theoretic-framework">4. Information-Theoretic Framework</a><ul><li><a href="#41-자유-에너지">4.1 자유 에너지</a></li><li><a href="#42-optimal-control-problem">4.2 Optimal Control Problem</a></li><li><a href="#43-derivation-of-the-shjb-equation">4.3 Derivation of the sHJB Equation</a></li></ul></li><li><a href="#reference">Reference</a></li></ul>
+              <ul class="toc__menu"><li><a href="#1-the-origins-of-optimal-control-theory">1. The Origins of Optimal Control Theory</a><ul><li><a href="#11-richard-bellman-and-lev-pontryagin">1.1 Richard Bellman and Lev Pontryagin</a></li><li><a href="#12-discrete-time-optimal-control-problems">1.2 Discrete-Time Optimal Control Problems</a></li><li><a href="#13-continuous-time-optimal-control-problem">1.3 Continuous-Time Optimal Control Problem</a></li></ul></li><li><a href="#2-the-development-of-stochastic-optimal-control-theory">2. The Development of Stochastic Optimal Control Theory</a><ul><li><a href="#21-wiener-process">2.1 Wiener Process</a></li><li><a href="#22-stochastic-optimal-control-problem">2.2 Stochastic Optimal Control Problem</a></li></ul></li><li><a href="#3-path-integral-framework">3. Path Integral Framework</a><ul><li><a href="#31-simplification-to-lq-problem">3.1 Simplification to LQ Problem</a></li><li><a href="#32-log-transformation">3.2 Log Transformation</a></li><li><a href="#33-kolmogorov-backward-equation">3.3 Kolmogorov Backward Equation</a></li><li><a href="#34-connection-to-thermodynamics-and-reinforcement-learning">3.4 Connection to Thermodynamics and Reinforcement Learning</a></li></ul></li><li><a href="#4-information-theoretic-framework">4. Information-Theoretic Framework</a><ul><li><a href="#41-the-free-energy">4.1 The Free Energy</a></li><li><a href="#42-optimal-control-problem">4.2 Optimal Control Problem</a></li><li><a href="#43-derivation-of-the-shjb-equation">4.3 Derivation of the sHJB Equation</a></li></ul></li><li><a href="#reference">Reference</a></li></ul>
 
             </nav>
           </aside>
@@ -467,7 +467,7 @@
 
 <p>Using this relationship, we can apply Bellman’s dynamic programming approach: starting from the desired final state at time $T$, where $J(T+1,x)=0$, we work backward in time to calculate the optimal control inputs.</p>
 
-<h2 id="13-연속-시간-최적-제어-문제">1.3 연속 시간 최적 제어 문제</h2>
+<h2 id="13-continuous-time-optimal-control-problem">1.3 Continuous-Time Optimal Control Problem</h2>
 
 <p>Just like the optimal control problem in discrete time described by equations (1), (2), (3), and (4), we can consider a system in continuous time with real variables $x$ and $u$. The elements of the problem can be expressed as follows, where $\phi(x(t_f))$ represents a terminal cost associated with the final state of the system:</p>
 
@@ -507,7 +507,7 @@
 
 <p>Kappen, a professor at Radboud University in the Netherlands, specializes in <strong>The Physics of Machine Learning</strong> within the field of biophysics. But what exactly is the noise that Kappen introduced?</p>
 
-<h2 id="21-위너-프로세스">2.1 위너 프로세스</h2>
+<h2 id="21-wiener-process">2.1 Wiener Process</h2>
 
 <div class="centered-container">
   <div class="two-fig-container">
@@ -566,7 +566,7 @@
 
 <p>The sHJB equation derived above is a nonlinear partial differential equation (PDE), making it challenging to obtain a general solution. Kappen proposed an approach that transforms the equation into a path integral form, allowing for approximation solutions through simulations. To convert this equation into a path integral form, we first need to introduce some assumptions.</p>
 
-<h2 id="31-lq-문제로-축소">3.1 LQ 문제로 축소</h2>
+<h2 id="31-simplification-to-lq-problem">3.1 Simplification to LQ Problem</h2>
 
 <p>To linearize the sHJB problem, we can make a few assumptions to reduce its complexity. The first assumption is the <strong>linearization</strong> of control inputs within the dynamical system, and the second is the <strong>quadratic</strong> form of the control input costs. These assumptions simplify the problem into what is known as a <strong>Linear Quadratic (LQ) problem</strong>.</p>
 
@@ -683,7 +683,7 @@ $R(x,u,t)$ in equation (12) can be split into (1) the part that is independent o
 
 <p>Hilbert Kappen developed the path integral framework, offering an effective method for solving optimal control problems. His approach evolved from classical optimal control theory into a form more suited for modern scientific computing. On the other hand, Evangelos Theodorou from Georgia Tech takes a reverse approach, deriving the HJB equation from the variational free energy in information theory. To understand this, we first need to grasp the basic concepts of probability and information theory.</p>
 
-<h2 id="41-자유-에너지">4.1 자유 에너지</h2>
+<h2 id="41-the-free-energy">4.1 The Free Energy</h2>
 
 <div class="centered-container">
   <figure>
