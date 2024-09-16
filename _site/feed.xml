@@ -5,8 +5,8 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 12 Sep 2024 16:39:43 +0900</pubDate>
-        <lastBuildDate>Thu, 12 Sep 2024 16:39:43 +0900</lastBuildDate>
+        <pubDate>Mon, 16 Sep 2024 16:34:27 +0900</pubDate>
+        <lastBuildDate>Mon, 16 Sep 2024 16:34:27 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
@@ -1900,10 +1900,6 @@ Considering that the importance of predictive coding and un/self-supervised lear
                 
                 <category>사회</category>
                 
-                <category>심리</category>
-                
-                <category>신경과학</category>
-                
                 
                 <category>Movement</category>
                 
@@ -2002,10 +1998,6 @@ Considering that the importance of predictive coding and un/self-supervised lear
                 <category>Complex Systems</category>
                 
                 <category>Society</category>
-                
-                <category>Psychology</category>
-                
-                <category>Neuroscience</category>
                 
                 
                 <category>Movement</category>
@@ -3315,7 +3307,7 @@ Considering that the importance of predictive coding and un/self-supervised lear
             </item>
         
             <item>
-                <title>Reflections on the Computational Neuroscience Winter School</title>
+                <title>Computational Neuroscience Winter School</title>
                 <description>&lt;style&gt;
   .centered-container {
       text-align: center;

@@ -7,7 +7,9 @@ header:
 #   overlay_filter: 0.5
 ---
 
-### Mathematical and Philosophical Foundation of AI
+<br>
+
+### _<span style="color:#000066;">Mathematical and Philosophical Foundation of AI</span>_
 
 <div style="margin-bottom: 40px;">
   <h2>Mathematics for AI (2021)</h2>
@@ -51,7 +53,9 @@ header:
   </div>
 </div>
 
-### Human and Machine: Mind, Behavior, and Brain
+<br>
+
+### _<span style="color:#000066;">Human and Machine: Mind, Behavior, and Brain</span>_
 
 <div style="margin-bottom: 40px;">
   <h2>Theoretical Neuroscience Club (2023-2024)</h2>
@@ -90,4 +94,22 @@ header:
       </a>
     </div>
     <div style="flex: 2; min-width: 300px;">
-      <p style="font-size:15px;">In January 2024, I organized and conducted a joint seminar between KACS and the Korean Society for Neurophilosophy. As a student representative, I gave a 1-hour presentation on AI, robots, and consciousness, analyzing the current state and historical development of AI technology. The seminar introduced discussions on AI and robot consciousness from the perspectives of cognitive science, neuroscience, and philosophy. It was a valuable opportunity to engage in in-depth discussions about future research directions and societal implications with professors from various fields, including psychiatry, neurology, neuroscience, and philosophy. Click on the image for presentation materials. Click here(<a href="http://lee-dohyeon.github.io/movement/KACS-x-KSCN-Meeting-en/"><strong>EN</strong></a>/<a href="http://lee-dohyeon.github.io/movement/KACS-x-KSCN-Meeting-kr/"><strong>KR</strong></a>) for more detailed record.
+      <p style="font-size:15px;">In January 2024, I organized and conducted a joint seminar between KACS and the Korean Society for Neurophilosophy. As a student representative, I gave a 1-hour presentation on AI, robots, and consciousness, analyzing the current state and historical development of AI technology. The seminar introduced discussions on AI and robot consciousness from the perspectives of cognitive science, neuroscience, and philosophy. It was a valuable opportunity to engage in in-depth discussions about future research directions and societal implications with professors from various fields, including psychiatry, neurology, neuroscience, and philosophy. Click on the image for presentation materials. Click here(<a href="http://lee-dohyeon.github.io/movement/KACS-x-KSCN-Meeting-en/"><strong>EN</strong></a>/<a href="http://lee-dohyeon.github.io/movement/KACS-x-KSCN-Meeting-kr/"><strong>KR</strong></a>) for more detailed record.</p>
+    </div>
+  </div>
+</div>
+
+<br>
+
+### _<span style="color:#000066;">Science and Technology Communication</span>_
+
+<div style="margin-bottom: 40px;">
+  <h2>Can Artificial Intelligence Have Consciousness? (2024)</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+    <div style="flex: 1; min-width: 200px;">
+      <a href="https://youtu.be/4LbD9b8L1qU?si=W2_0ThTqdy_psLPT">
+        <img src="/assets/images/Watch/Can AI.jpg" alt="ARC" style="width: 100%; height: auto;">
+      </a>
+    </div>
+    <div style="flex: 2; min-width: 300px;">
+      <p style="font-size:15px;">In September 2024, I collaborated with the science communication YouTube channel "<a href="https://www.youtube.com/@%EC%82%AC%EB%AC%BC%EA%B6%81%EC%9D%B4">Samulgoongi: Miscellaneous Knowledge,</a>" which has 1.56 million subscribers, to produce content on the topic "Can AI Have Consciousness?". The goal of the content was to address various public misconceptions about AI and to spark interest and curiosity about consciousness. This content was selected for the "Science in Everyday Life" series by the <a href="https://www.msit.go.kr/index.do">Korean Ministry of Science and ICT</a> and the <a href="https://www.kosac.re.kr/main">Korean Foundation for Science and Creativity</a>, receiving support from the Science and Technology Promotion Fund and the Lottery Fund. Through this opportunity, I was able to contribute to the development of science and technology in Korea, as well as to the welfare of low-income and marginalized groups. Click <a href="https://youtu.be/4LbD9b8L1qU?si=W2_0ThTqdy_psLPT"><strong>here</strong></a> for video.
