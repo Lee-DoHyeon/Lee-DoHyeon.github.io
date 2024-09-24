@@ -5,9 +5,259 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 19 Sep 2024 12:55:11 +0900</pubDate>
-        <lastBuildDate>Thu, 19 Sep 2024 12:55:11 +0900</lastBuildDate>
+        <pubDate>Tue, 24 Sep 2024 11:25:02 +0900</pubDate>
+        <lastBuildDate>Tue, 24 Sep 2024 11:25:02 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
+        
+            <item>
+                <title>에너지 기반 네트워크를 활용한 형상 최적화</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+
+  /* 새로 추가된 스타일 */
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+&lt;/style&gt;
+
+&lt;p&gt;오래 전 읽었던 &lt;a href=&quot;https://www.amazon.com/Life-3-0-Being-Artificial-Intelligence/dp/1101946598&quot;&gt;&lt;strong&gt;막스 테그마크의 Life 3.0&lt;/strong&gt;&lt;/a&gt;에서는 자신의 소프트웨어 뿐만 아니라 하드웨어까지 수정하는 최종 생명체의 유형이 제시된다. 그러다 최근 에너지 기반 네트워크, 특히 &lt;a href=&quot;https://en.wikipedia.org/wiki/Hopfield_network&quot;&gt;&lt;strong&gt;홉필드 네트워크&lt;/strong&gt;&lt;/a&gt;를 활용하여 활용하여 &lt;a href=&quot;https://en.wikipedia.org/wiki/Topology_optimization&quot;&gt;&lt;strong&gt;형상 최적화&lt;/strong&gt;&lt;/a&gt;를 수행할 수 있지 않을까 하는 아이디어가 떠올렸다. 홉필드 네트워크에서는 노드 간의 가중치가 시스템의 전체 에너지를 최소화하도록 조정된다. 만약 이 가중치가 &lt;strong&gt;물리적 의미&lt;/strong&gt;, 즉 &lt;em&gt;노드 간의 거리&lt;/em&gt;를 나타낸다면, 신경망이 에너지를 최소화하는 과정에서 최적의 물리적 형상을 찾아낼 수 있을 것이라고 생각했다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/Memory Retrieval in Hopfield Network .gif&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        홉필드 네트워크의 작동 방식에 대한 시각화, 출처: &lt;a href=&quot;https://towardsdatascience.com/visualizing-episodic-memory-with-hopfield-network-a6e8bde967cb&quot;&gt;Muhammad Abduh&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/Scheme for Hopfield Network.png&quot; style=&quot;width: 55%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        홉필드 네트워크의 에너지 랜드스케이프, 출처: &lt;a href=&quot;https://www.researchgate.net/figure/Illustration-of-a-Hopfield-network-with-transiently-chaotic-dynamics-A-Schematic-of-a_fig1_343660391&quot;&gt;Ke Yang et al(2020).&lt;/a&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;그러나 이 접근에는 몇 가지 문제가 존재한다. 완전히 연결된 홉필드 네트워크에서 모든 노드는 서로 연결되어 있으며, 각 가중치를 노드 간의 유클리드 거리로 해석하면, 모든 가중치 조합이 실제 2차원 또는 3차원 공간에서 구현 가능한 형상에 대응하지 않을 수 있다. 이는 주어진 거리들이 삼각 부등식 등 유클리드 공간의 기하학적 제약을 만족하지 않을 수 있기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 세 개의 노드가 있고 그들 사이의 거리가 $w_{1,2}=1, w_{1,3}=3, w_{2,3}=2$로 주어졌을 때, 이를 2차원 공간에서 위치를 결정할 수 있다. 그러나 네 번째 노드를 추가하여 $w_{1,4}=2, w_{2,4}=3, w_{3,4}=1$로 설정하면, 이 거리들을 모두 만족하는 네 번째 노드의 위치를 2차원 공간에서 찾는 것이 불가능해진다.&lt;/p&gt;
+
+&lt;p&gt;이를 해결하기 위해 다음과 같은 접근법을 고려할 수 있다:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;임베딩 차원의 증가: 3차원 형상을 결정하기 위해, 가중치 행렬(거리 행렬)의 양의 준정부호성을 체크해볼 수 있다. 이는 주어진 거리들이 유효한 유클리드 거리인지 확인하는 과정이다. 양의 준정부호성을 만족한다면, 더 높은 차원의 공간에서 노드들의 위치를 배치하여 주어진 거리 제약을 만족시킬 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;에너지 함수의 재설계: 에너지 함수를 재설계하여 물리적 제약 조건과 형상 구현 가능성을 반영할 수 있다. 이를 통해 신경망이 학습하는 과정에서 현실적인 형상이 도출되도록 할 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;거리의 조정 또는 오차 허용: 주어진 거리들을 약간 수정하거나, 거리와 실제 위치 간의 오차를 최소화하는 방향으로 접근할 수 있다. 이는 현실적인 형상을 얻기 위해 필요한 타협점이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;다차원 척도법(MDS) 활용: MDS를 사용하면 주어진 거리 데이터를 기반으로 저차원 공간에서 노드들의 위치를 찾을 수 있다. 이 방법은 거리와 위치 간의 불일치를 최소화하여 가장 적합한 형상을 제공한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;물리적 제약 조건의 통합: 에너지 함수에 물리적 제약 조건을 포함시켜, 신경망이 학습하는 과정에서 현실적인 형상이 도출되도록 할 수 있다. 이는 구조물의 물리적 특성을 반영하여 보다 실용적인 결과를 얻는 데 도움이 된다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;추가적인 고려 사항으로는 다음이 있다:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;물리적 에너지 함수의 재설계: 신경망의 에너지 함수에 실제 물리적 시스템의 에너지 표현식을 통합하여, 가중치 조정이 실제 형상 최적화와 직접 연관되도록 할 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;데이터 기반 접근법: 실제 형상과 그에 대응하는 가중치 데이터를 수집하여 지도 학습 방식으로 신경망을 학습시키면, 가중치와 형상 간의 복잡한 관계를 모델이 학습하도록 유도할 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;GPU 기반 병렬 처리 활용: 대규모 최적화 문제를 효율적으로 해결하기 위해 GPU의 병렬 처리 능력을 활용하면, 계산 속도를 크게 향상시킬 수 있다. 딥러닝 프레임워크인 TensorFlow나 PyTorch를 사용하여 이러한 작업을 수행할 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;결론적으로, 가중치를 물리적 거리로 해석하여 에너지 기반 인공 신경망을 형상 최적화에 적용하는 아이디어는 매우 흥미롭다. 그러나 실제 구현을 위해서는 가중치와 물리적 형상 간의 관계를 보다 정확하게 모델링하고, 기하학적 제약과 물리적 특성을 고려한 추가적인 접근이 필요하다. 이를 통해 형상 최적화 분야에서 신경망을 활용한 혁신적인 방법을 개발할 수 있을 것이다.&lt;/p&gt;
+
+&lt;p&gt;앞으로의 연구 방향으로는 다음과 같은 것들이 있다:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;토폴로지 최적화와 딥러닝의 융합 연구 조사: 기존에 진행된 연구들을 탐색하여 아이디어를 구체화하고, 새로운 접근법을 모색할 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;최적화 알고리즘 및 수학적 도구 학습: 비선형 최적화, 그래프 임베딩, 다차원 척도법 등 관련된 수학적 기법을 습득하여 모델의 정확도를 높일 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;물리 시뮬레이션과의 결합: 유한요소해석(FEA) 등의 물리 시뮬레이션 도구와 신경망을 결합하여, 예측 결과의 정확성을 검증하고 개선할 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;이러한 방향으로 연구를 진행한다면, 에너지 기반 신경망을 활용한 형상 최적화 분야에서 의미 있는 성과를 얻을 수 있지 않을까? 이외에도 &lt;a href=&quot;https://www.mdpi.com/2076-3417/13/5/2929&quot;&gt;&lt;strong&gt;세포 자동자(Cellular Automata)를 활용한 위상 최적화 연구&lt;/strong&gt;&lt;/a&gt;도 있었다. 이러한 접근을 통합적으로 고려하면 실제 도움이 되는 기술을 개발할 수 있지 않을까 싶다.&lt;/p&gt;
+</description>
+                <pubDate>Tue, 24 Sep 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/Energy-Based-Net-for-Top-Opt-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Energy-Based-Net-for-Top-Opt-kr/</guid>
+                
+                <category>아이디어</category>
+                
+                <category>형상 최적화</category>
+                
+                <category>최적 설계</category>
+                
+                <category>에너지 기반 네트워크</category>
+                
+                <category>홉필드 네트워크</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
+        
+            <item>
+                <title>Shape Optimization Using Energy-Based Networks</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+
+  /* 새로 추가된 스타일 */
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+&lt;/style&gt;
+
+&lt;p&gt;A while ago, I read &lt;a href=&quot;https://www.amazon.com/Life-3-0-Being-Artificial-Intelligence/dp/1101946598&quot;&gt;Max Tegmark’s Life 3.0&lt;/a&gt;, where he introduces the concept of an ultimate life form capable of modifying not only its software but also its hardware. More recently, I came across an idea: what if we could use energy-based networks, particularly the &lt;a href=&quot;https://en.wikipedia.org/wiki/Hopfield_network&quot;&gt;Hopfield Network&lt;/a&gt;, to perform &lt;a href=&quot;https://en.wikipedia.org/wiki/Topology_optimization&quot;&gt;shape/topology optimization&lt;/a&gt;? In Hopfield Networks, the weights between nodes are adjusted to minimize the system’s total energy. If these weights represent a &lt;strong&gt;physical meaning&lt;/strong&gt;, such as the &lt;em&gt;distance between nodes&lt;/em&gt;, then perhaps the process of minimizing energy in the network could help us discover the optimal physical shape.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/Memory Retrieval in Hopfield Network .gif&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        Visualization of How Hopfield Network Works, 출처: &lt;a href=&quot;https://towardsdatascience.com/visualizing-episodic-memory-with-hopfield-network-a6e8bde967cb&quot;&gt;Muhammad Abduh&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/Scheme for Hopfield Network.png&quot; style=&quot;width: 55%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        Energy landscape of a Hopfield Network, 출처: &lt;a href=&quot;https://www.researchgate.net/figure/Illustration-of-a-Hopfield-network-with-transiently-chaotic-dynamics-A-Schematic-of-a_fig1_343660391&quot;&gt;Ke Yang et al(2020).&lt;/a&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;However, there are a few challenges with this approach. In a fully connected Hopfield Network, all nodes are interconnected. If we interpret the weights as the Euclidean distances between nodes, not every combination of weights will correspond to a shape that can be realized in 2D or 3D space. This is because the given distances might not satisfy the geometric constraints of Euclidean space, such as the triangle inequality.&lt;/p&gt;
+
+&lt;p&gt;For example, let’s say we have three nodes with distances between them defined as $w_{1,2}=1$, $w_{1,3}=3$, and $w_{2,3}=2$. In this case, it’s possible to determine their positions in 2D space. But if we add a fourth node with distances $w_{1,4}=2$, $w_{2,4}=3$, and $w_{3,4}=1$, finding a position for this fourth node that satisfies all these distances in 2D becomes impossible.&lt;/p&gt;
+
+&lt;p&gt;To address this, several approaches can be considered:&lt;/p&gt;
+
+&lt;p&gt;Increasing the embedding dimension: One way to determine a 3D shape is by checking the positive semidefiniteness of the weight matrix (or distance matrix). This ensures that the given distances are valid in Euclidean space. If positive semidefiniteness is satisfied, we can position the nodes in a higher-dimensional space, allowing us to meet the distance constraints.&lt;/p&gt;
+
+&lt;p&gt;Redesigning the energy function: By redesigning the energy function, we can incorporate physical constraints and shape realizability, ensuring that the network learns to generate realistic shapes during the optimization process.&lt;/p&gt;
+
+&lt;p&gt;Adjusting distances or allowing for error: We could slightly modify the given distances or minimize the error between the distances and the actual positions of the nodes. This would introduce a necessary compromise to obtain a feasible shape.&lt;/p&gt;
+
+&lt;p&gt;Multidimensional Scaling (MDS): MDS can be used to find node positions based on the given distance data while minimizing discrepancies between the distances and their corresponding node positions.&lt;/p&gt;
+
+&lt;p&gt;Integrating physical constraints: By integrating physical constraints into the energy function, we can guide the network toward producing shapes that reflect the physical properties of the structure, leading to more practical results.&lt;/p&gt;
+
+&lt;p&gt;Additional considerations include:&lt;/p&gt;
+
+&lt;p&gt;Redesigning the physical energy function: The energy function can be adapted to incorporate actual physical system properties, allowing the network to adjust the weights in a way that directly relates to shape optimization.&lt;/p&gt;
+
+&lt;p&gt;Data-driven approaches: Collecting data on real-world shapes and their corresponding weights can allow the network to learn the complex relationships between weights and shape through supervised learning.&lt;/p&gt;
+
+&lt;p&gt;Utilizing GPU-based parallel processing: Solving large-scale optimization problems efficiently requires leveraging the parallel processing capabilities of GPUs. Frameworks like TensorFlow or PyTorch can be used to accelerate these tasks.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, interpreting weights as physical distances and applying energy-based neural networks to shape optimization is a fascinating idea. However, for practical implementation, it’s necessary to model the relationship between weights and physical shapes more accurately, taking into account the geometric constraints and physical properties. By doing so, innovative methods for shape optimization could be developed using neural networks.&lt;/p&gt;
+
+&lt;p&gt;Future research directions include:&lt;/p&gt;
+
+&lt;p&gt;Exploring the intersection of topology optimization and deep learning: Investigating existing research can help refine ideas and discover new approaches.&lt;/p&gt;
+
+&lt;p&gt;Studying optimization algorithms and mathematical tools: Learning about nonlinear optimization, graph embedding, and multidimensional scaling can improve the accuracy of models.&lt;/p&gt;
+
+&lt;p&gt;Combining physical simulation: Integrating finite element analysis (FEA) tools with neural networks can help verify and improve the accuracy of predictions.&lt;/p&gt;
+
+&lt;p&gt;Pursuing research in these directions could yield meaningful results in applying energy-based networks to shape optimization. Additionally, &lt;a href=&quot;https://www.mdpi.com/2076-3417/13/5/2929&quot;&gt;&lt;strong&gt;studies on topology optimization using Cellular Automata&lt;/strong&gt;&lt;/a&gt; have also emerged. Considering such approaches could lead to the development of practical technologies.&lt;/p&gt;
+</description>
+                <pubDate>Tue, 24 Sep 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/Energy-Based-Net-for-Top-Opt-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Energy-Based-Net-for-Top-Opt-en/</guid>
+                
+                <category>ideas</category>
+                
+                <category>shape optimization</category>
+                
+                <category>optimal design</category>
+                
+                <category>energy-based networks</category>
+                
+                <category>Hopfield network</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
         
             <item>
                 <title>능동추론 vs 기존 이론들</title>
@@ -4134,347 +4384,6 @@ _당시엔 에르빈 슈뢰딩거의 《생명이란 무엇인가?》, 자크 �
                 
                 
                 <category>Meditation</category>
-                
-            </item>
-        
-            <item>
-                <title>After Translating the Hidden Spring</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;After translating &lt;em&gt;The Hidden Spring&lt;/em&gt;, written by Mark Solms into Korean&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-28-Mathematician of Mind/TheHiddenSpring.jpeg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      Translated Book of &quot;the Hidden Spring&quot;
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Around the age of 9, my mother was quite shaken after a meeting with my homeroom teacher. She learned that I was showing clear symptoms of ADHD. Despite this, I felt somewhat special, perhaps because I hadn’t received much attention due to my parents’ busy work schedules. As a temporary solution, they sent me to a small Chinese character academy in our neighborhood. Spending most of my days there with the instructor, I would alleviate my loneliness late into the night. Thanks to that experience, I still remember the wise sayings from classics like “Mencius” and “Four Books and Five Classics.”&lt;/p&gt;
-
-&lt;p&gt;Upon entering high school, I began to obsess over perfection. The content in textbooks felt insufficient, and I relentlessly pursued various questions. One memory still stands out: during Earth Science class, I realized the textbook lacked a proof of Kepler’s laws and became determined. I resolved to prove these laws and explain them to my teacher and classmates someday. After several sleepless nights, I studied proofs starting with Newtonian mechanics, progressing to Lagrangian and Hamiltonian mechanics&lt;sup&gt;&lt;a href=&quot;#footnote_1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Eventually, I managed to prove all of Kepler’s laws in a single class period (though the chalkboard was beautifully filled, most of my classmates were asleep). Repeated experiences like this led me to crave knowledge beyond what school or academies could offer.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;There’s an event that stands out in my memory. It was when I persuaded my teacher and friends to plan a dissection experiment on a sheep’s brain. Convincing my busy academy friends, we carried out the dissection practice in the lab after school. We huddled together in silence, slicing through a sheep’s brain, which was even smaller than a clenched fist. It was nothing short of awe-inspiring. How could our logic and reason, intuition and emotions, joys and sorrows originate from such a small, damp object? I remember having numerous discussions and interviews with our life science teacher at the time. Far from finding answers, I often found myself sinking into deeper pits of inquiry. To broaden my limited perspective, I read books like Sigmund Freud’s “Die Traumdeutung,” Sylvia Nasar’s “A Beautiful Mind,” and Edward O. Wilson’s “Consilience.” Through Freud, I expanded the horizons of my analytical imagination regarding the mind; through Nasar, I glimpsed the tumultuous life of John Nash, a genius mathematician struggling with schizophrenia; and through Wilson, I found resonance with a materialistic approach&lt;sup&gt;&lt;a href=&quot;#footnote_2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;—embracing neuroscience, neurophysiology, artificial intelligence, and more.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;I was fortunate to enroll in a university that allowed me to decide on my major after three semesters. I found it challenging to determine whether I should explore my questions within the realm of physics or life sciences (or perhaps medicine). In my second semester, I interned at a bioinformatics lab, where I became captivated by statistical modeling and big data analysis. During this time, I had the opportunity to take a physics class&lt;sup&gt;&lt;a href=&quot;#footnote_3&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; that was offered for the first time in four years. The class was small, with around five students, and I was the only Korean undergraduate. Struggling with the intense physical concepts, I began to dream of new theories about the mind and consciousness. By the end of my one-and-a-half-year grace period, I had decided to major in mathematics.&lt;/p&gt;
-
-&lt;p&gt;The reason I chose to major in mathematics was simple. Above all, I believed my questions were closer to philosophy than to science. Therefore, I needed tools and a way of thinking to do science—to create it—rather than the scientific knowledge itself. Additionally, as numerous fields such as neuroscience, psychology, and artificial intelligence deal with the enigma of the mind, I deeply resonated with the necessity of having a fundamental mindset that could comprehend all of these aspects. Entering the mathematics department allowed me to deeply study mathematical thinking and the formal development of theory, while simultaneously equipping me with the qualifications to study the philosophy of the mind as a background for crafting the science of the mind. After studying mathematics, I was surprised to find that philosophical analytical texts felt remarkably comfortable and accessible to me. I became increasingly enchanted by the elegance and simplicity of various arguments in the philosophy of science and psychology. If asked what the most memorable experience during my undergraduate years was, without a doubt, it would be the public lectures I created to introduce the fundamental mathematical forms of the mind and artificial intelligence algorithms, and the philosophical discourse related to them, titled “Mathematics for Artificial Intelligence&lt;sup&gt;&lt;a href=&quot;#footnote_4&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;” and “Philosophy for Artificial Intelligence&lt;sup&gt;&lt;a href=&quot;#footnote_5&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;.” Meanwhile, my bachelor’s thesis was on “A Topological Analysis of the Learning Process in Artificial Neural Networks,” where I developed tools to capture the structural changes&lt;sup&gt;&lt;a href=&quot;#footnote_6&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; occurring in a virtual brain.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;As graduation approached, my interest expanded beyond the problems related to the human mind—consciousness, perception, emotion, memory, etc.—to the essential structure and practical applications of technologies based upon it—cybernetics, optimal control theory, decision theory, machine learning, artificial intelligence, and so on. Intriguingly, the deeper my understanding of mathematical forms and philosophical discourse became, the more acutely I felt the uncomfortable realities of technology and the importance of ethical decision-making. Especially in the field of artificial intelligence, where vigorous research is ongoing, I noticed that the majority of approaches not only clashed with the functioning of living organisms&lt;sup&gt;&lt;a href=&quot;#footnote_7&quot;&gt;7&lt;/a&gt;&lt;/sup&gt; but were also actually inefficient&lt;sup&gt;&lt;a href=&quot;#footnote_8&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;. Moreover, I realized that society’s interest lies far more in how these technologies can be meaningfully utilized on the battlefield to gain an advantage, or commercialized in the market to accelerate consumption, than in understanding their mechanisms and considering the ethical implications. This realization only fueled my determination. In seeking the answers to the workings of the mind, I began to analyze the fundamental composition of artificial intelligence and the principles of machine operation. The persistent questions from my youth, in their quest for ultimate understanding of the mind, became a driving force not just for comprehension but for contemplation of the ultimate direction technology should take, inspiring dreams of a better, more advanced humanity.&lt;/p&gt;
-
-&lt;p&gt;To seek the formal commonalities between theoretical neuroscience and artificial intelligence technology, I began to delve into the works of renowned professors from abroad. I started with Marcello Massimini’s “Nulla di piu grande” and Giulio Tononi’s “Phi,” moving on to Anil Seth’s “Being You,” Antonio Damasio’s “The Feeling &amp;amp; Knowing,” Nicholas Humphrey’s “The Sentience,” Amaral Shunichi’s “Brain, Mind, Artificial Intelligence,” and Max Tegmark’s “Life 3.0.” As I read through a plethora of books, I imagined the theory of the mind and the mind of the machine. In Korea, Kim Ju-Hwan’s “Inner Communication” and the “Hypnosis Bible” by Song Kang-Myun and An Min-Sook also proved to be of great help. Most of these books referred to Karl Friston’s Free Energy Principle or Active Inference in the field of theoretical neuroscience. Professor Friston was certainly a prominent figure in neuroscience/medicine, but, astonishingly, he was also well-versed in mathematics&lt;sup&gt;&lt;a href=&quot;#footnote_9&quot;&gt;9&lt;/a&gt;&lt;/sup&gt; and physics&lt;sup&gt;&lt;a href=&quot;#footnote_10&quot;&gt;10&lt;/a&gt;&lt;/sup&gt;, and furthermore, he possessed deep insights into various engineering&lt;sup&gt;&lt;a href=&quot;#footnote_11&quot;&gt;11&lt;/a&gt;&lt;/sup&gt; approaches. In fact, through several papers, I became convinced that his theory could serve as an elegant and clear foundational framework that analytically elucidates the relationship between body, mind, and action.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Dreaming of a systematic understanding of the mind and complete liberation from the questions that have followed me since childhood, and at the same time, envisioning the advent of more efficient and socially responsible machines, I am committed to realizing my beliefs. This work is part of that effort. By chance, I came into contact with Jang Hyun-woo, president of the Korean Association for the Consciousness Sciences(KACS), who is currently a doctoral student in neuroscience, and learned of new translation works&lt;sup&gt;&lt;a href=&quot;#footnote_12&quot;&gt;12&lt;/a&gt;&lt;/sup&gt;. Moreover, I was excited about the opportunity to participate in translating a work by Giulio Tononi, whose book “Phi” I had enjoyed in the past, especially since it was being translated by the psychiatrist Ryeo Won-gi, who I admired. Ultimately, I wanted to be involved because the book deals with the challenging and personally significant issue of consciousness from the perspective of active inference. Although I lack expertise in neurophysiology or clinical medicine, I am confident in my mathematical, physical, and computer science knowledge based on active inference, so I took a chance and asked for understanding, hoping it would not be presumptuous. Fortunately, they graciously accepted the co-translation offer, and I found it rewarding to help with the translation during my spare time after work and on weekends. As both doctors had already translated the draft so well, it was easy to make revisions, check for typos, and adjust the tone of the translation. I sincerely thank Ryeo Won-gi and Jang Hyun-woo for their greater passion and determination in response to my infrequent feedback and complicated answers. It was a happy time, allowing me to gain an unforgettable and valuable experience.&lt;/p&gt;
-
-&lt;p&gt;Meanwhile, I am currently creating and managing various cultures that dream of the future of consciousness science and artificial intelligence. Participating in an internship program at the Active Inference Institute, the largest community related to active inference, I became the first Korean to undertake the Ontology project, translating the core terms of the Free Energy Principle and Active Inference. Recently, I have corresponded with Professor Karl Friston in the fields of Neural Computation and Optimal Control Theory, which has seriously prompted me to prepare for the option of studying abroad. Additionally, through the Korean Association for the Consciousness Science, I planned the “Brain-Mind-Behavior” initiative, which carries the following manifesto. This initiative consists of three main activities: a book reading group, a theoretical consciousness science group, and a paper reading group. The theoretical consciousness science group aims to deeply study the theory of active inference. Through this, we aim to study the core themes of body, mind, and action, imagine the potential for development with other fields including artificial intelligence, and hope to initiate the driving force that dreams of a better humanity, deeply contemplating the ultimate direction that technology should take, centered in Korea.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;conscious activity are a key feature that allows us to distinguish ourselves from other species.
-However, the nature and mechanisms of consciousness remain an unresolved, complex mystery.
-Our goal is to solve this problem using scientific methods and to understand the essence of the mind-brain-behavior nexus.&lt;/p&gt;
-
-  &lt;p&gt;Our efforts are carried out through a multidisciplinary approach:
-scholars and experts from diverse fields such as mathematics/philosophy, physics/psychology, computer science/neuroscience come together to analyze and deconstruct the fundamental aspects of consciousness.
-The analyses produced are then related to the questions of biology and philosophy.&lt;/p&gt;
-
-  &lt;p&gt;We emphasize the importance of consciousness research and aim to expand our social impact through ongoing meetings and content sharing.
-Furthermore, in the process of achieving our goals, we aspire to contribute to scientific research and ethical issues related to hypnosis, augmented reality, future artificial intelligence, animal consciousness, and artificial sentient entities.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a name=&quot;footnote_1&quot;&gt;1&lt;/a&gt;: I only came to realize much later that it was part of the “Classical Mechanics” subject in the university physics curriculum.&lt;br /&gt;
-&lt;a name=&quot;footnote_2&quot;&gt;2&lt;/a&gt;: Edward O. Wilson’s “Consilience,” Chapter 6 “The Mind”.&lt;br /&gt;
-&lt;a name=&quot;footnote_3&quot;&gt;3&lt;/a&gt;: Professor Seung-Hwan Kim, the inaugural president of the Korean Computational Neuroscience Society, on “Nonlinear Dynamics and Chaos Theory.”
-I remember spending time reading Erwin Schrödinger’s “What is Life?” and Jacques Monod’s “Chance and Necessity.”&lt;br /&gt;
-&lt;a name=&quot;footnote_4&quot;&gt;4&lt;/a&gt;: &lt;a href=&quot;https://youtube.com/playlist?list=PLfWS6_PaCSutSAC7Vu8VHS2uc594cQigv&amp;amp;si=Q2cpP5ExvW84vQM2&quot;&gt;“Mathematics for AI” link&lt;/a&gt;&lt;br /&gt;
-&lt;a name=&quot;footnote_5&quot;&gt;5&lt;/a&gt;: &lt;a href=&quot;https://youtube.com/playlist?list=PLfWS6_PaCSusXxpOxUSs6ONTln3pHWALy&amp;amp;si=fidIXxTUlk5xvCXF&quot;&gt;“Philosophy for AI” link&lt;/a&gt;&lt;br /&gt;
-&lt;a name=&quot;footnote_6&quot;&gt;6&lt;/a&gt;: Here, “structure” refers to the macroscopic topological structure. Have you ever heard that a donut is homeomorphic to a mug?&lt;br /&gt;
-&lt;a name=&quot;footnote_7&quot;&gt;7&lt;/a&gt;: Of course, it is possible that the operating principles of living organisms and artificial intelligence algorithms do not necessarily need to be aligned. However, I want to emphasize that there are very few attempts to analyze the relationship between the two and to find a better direction. See Chapter 1 of Professor Geoffrey Hinton’s “The Forward-Forward Algorithm: Some Preliminary Investigations” for reference.&lt;br /&gt;
-&lt;a name=&quot;footnote_8&quot;&gt;8&lt;/a&gt;:
-Refer to Amaral Shunichi’s “Brain, Mind, Artificial Intelligence.” A computer consumes 175 watts per hour, a light bulb 60 watts, but the human brain uses only about 12 watts.&lt;br /&gt;
-&lt;a name=&quot;footnote_9&quot;&gt;9&lt;/a&gt;: Information theory, statistics, information geometry, and more.&lt;br /&gt;
-&lt;a name=&quot;footnote_10&quot;&gt;10&lt;/a&gt;: Classical mechanics, statistical mechanics and thermodynamics, and the arguments of E. T. Jaynes, among others.&lt;br /&gt;
-&lt;a name=&quot;footnote_11&quot;&gt;11&lt;/a&gt;: Statistical learning theory and reinforcement learning theory in the field of machine learning, along with cybernetics and optimal control theory, among others.&lt;br /&gt;
-&lt;a name=&quot;footnote_12&quot;&gt;12&lt;/a&gt;: President Jang Hyun-woo has previously translated Euan Squires’ “The Conscious Mind in the Physical World,” Antti Revonsuo’s “Foundations of Consciousness,” Gerald Edelman’s “A Universe of Consciousness,” and Susan Blackmore’s “Conversations on Consciousness.” I have read all of these works, and they have been immensely helpful in understanding the key themes related to consciousness.&lt;/p&gt;
-</description>
-                <pubDate>Thu, 28 Dec 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/meditation/Mathematician-of-Mind-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/meditation/Mathematician-of-Mind-en/</guid>
-                
-                <category>Translation</category>
-                
-                <category>Consciousness</category>
-                
-                <category>AI</category>
-                
-                <category>Beliefs</category>
-                
-                
-                <category>Meditation</category>
-                
-            </item>
-        
-            <item>
-                <title>체화된 인지의 역사</title>
-                <description>&lt;p&gt;&lt;strong&gt;체화된 인지란?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;-&lt;/em&gt; 참고자료: [Phil, 1] &lt;a href=&quot;https://s-space.snu.ac.kr/bitstream/10371/75876/1/02.%20%EC%9D%B4%EC%A0%95%EB%AA%A8.pdf&quot;&gt;‘체화된 인지(Embodied Cognition)’ 접근과 학문 간 융합&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;1-20세기의-인지과학&quot;&gt;1 20세기의 인지과학&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“마음에 대한 철학적 탐구 이어 받기”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;11-인지과학-탄생-이전&quot;&gt;1.1 인지과학 탄생 이전&lt;/h3&gt;
-
-&lt;p&gt;16, 17세기 유럽의 과학혁명 이후, 모학문인 철학으로부터 각기 독립하여 여러 과학 분야를 형성하게 되었다. 이러한 흐름을 이어 받아 19세기의 학자들 중에는 마음의 문제까지도 직관적 논리적 분석을 넘어 객관적 실험 중심의 경험 과학적 근거에 의하여 탐구할 수 있는 가능성을 모색하려는 이들이 있었다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1870년대 - 빌헬름 분트(Wilhelm Wundt), 심리학을 독립된 경험과학으로 출발; ‘실험 생리적 심리학’
-→ 약 30년 간 심리학은 마음의 주관적 체험으로써의 의식의 분석 측면을 강조함.
-→ 의식 내용에 대한 개인의 주관적 보고를 분석하는 방법의 체계화에 초점을 둠.
-→ 철학의 전통인 “직관적 내성법Introspection”을 과학적 심리학의 방법론으로 가다듬어 체계화함.
-; &lt;strong&gt;구조주의(구성주의)&lt;/strong&gt; + &lt;strong&gt;내성법의 방법론&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;20세기 초 - 왓슨(Watson, J. B.), 구조주의 비판 및 경험주의적 행동주의 심리학의 틀 출발
-→ 구조주의는 실증주의적 객관적 과학의 틀에서 벗어난 것이라고 비판함.
-→ 철학의 논리실증주의에 강하게 영향을 받아, 객관적으로 관찰 가능한 것만 다루고자 함.
-→ 심성적mental 개념들은 배척, 행동만을 대상으로 삼음.
-→ 조건형성(Conditioning) 과정으로 동물과 인간의 행동을 기술하려 함.
-→스키너(B. F. Skinner)는 인간 언어와 사고 영역까지 설명하려고 함.
-; &lt;strong&gt;행동주의&lt;/strong&gt; + &lt;strong&gt;조건형성의 방법론&lt;/strong&gt; (~1950)&lt;/li&gt;
-  &lt;li&gt;1950년대 후반 - 인지혁명cognitive revolution(a.k.a. 20세기의 과학혁명)
-→ 행동주의가 심리학에서 마음 개념을 축출한 것을 비판함.
-→ 인간 자신, 동물, 컴퓨터, 인간문화체계 등에 대한 새로운 패러다임
-; &lt;strong&gt;고전적 인지주의Cognitivism&lt;/strong&gt; + &lt;strong&gt;정보처리적 접근방식&lt;/strong&gt; ← “인지과학”의 발생
-    &lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-20-Embodied Cognition/1.png&quot; /&gt;
-  &lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;12-인지주의-인지과학의-특성과-의의&quot;&gt;1.2 인지주의, 인지과학의 특성과 의의&lt;/h3&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-20-Embodied Cognition/2.png&quot; /&gt; 
-&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;인지주의 패러다임: ‘마음’ $\sim$ ‘컴퓨터’ $\sim$ ‘정보처리 체계(Information Processing Paradigm: IPS)’
-⇒ 인간과 동물의 마음에서 그리고 컴퓨터에서 각종 정보처리가 어떻게 일어나며, 그러한 정보처리를 통해서 마음또는 지知(능)가 어떻게 가능하게 되고 구현되는가?
-→ “知란 마음의 작용에서 비롯되는 것이므로 인지과학은 마음의 과학(Science of Mind)이 된다.”
-    &lt;ol&gt;
-      &lt;li&gt;마음(Mind), 2) 두뇌(Brain), 3) 컴퓨터(Computer), 4) 인공물(Artifact)
-&lt;strong&gt;주요 특징들&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;‘마음’ $\sim$ ‘컴퓨터’ $\sim$ ‘정보처리 체계(Information Processing Paradigm: IPS)’&lt;/li&gt;
-      &lt;li&gt;마음의 &lt;strong&gt;과정&lt;/strong&gt;은 정보의 처리, 변환이라는 &lt;strong&gt;계산주의적 관점Computationalism&lt;/strong&gt;이다.&lt;/li&gt;
-      &lt;li&gt;마음의 &lt;strong&gt;내용&lt;/strong&gt;은 지향적 대상의 표상으로 이루어진다는 &lt;strong&gt;표상주의Representationalism&lt;/strong&gt;다.&lt;/li&gt;
-      &lt;li&gt;마음은 &lt;strong&gt;뇌&lt;/strong&gt;의 신경적 상태에 기초한다는 &lt;strong&gt;신경과학적 기반&lt;/strong&gt;의 강조이다. (그러나 HW/SW의 분리)&lt;/li&gt;
-      &lt;li&gt;마음의 &lt;strong&gt;탐구&lt;/strong&gt;는 여러 학문들의 수렴에 의하여 가능하다; &lt;strong&gt;수렴(융합)적&lt;/strong&gt; 접근의 강조이다.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;13-인지과학과-학문-간-연결-수렴-융합&quot;&gt;1.3 인지과학과 학문 간 연결, 수렴, 융합&lt;/h3&gt;
-
-&lt;p&gt;→ &lt;strong&gt;인공지능, 인지심리학, 철학, 언어학, 인지신경과학&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2023/Q4/2023-12-20-Embodied Cognition/3.png&quot; /&gt; 
-&lt;/p&gt;
-&lt;h2 id=&quot;2-인지과학-틀의-변천-역사&quot;&gt;2 인지과학 틀의 변천 역사&lt;/h2&gt;
-
-&lt;p&gt;1980년대 중반부터 ‘마음’에 대한 개념적 재구성 작업이 진행됨.&lt;/p&gt;
-
-&lt;h3 id=&quot;21-이정모의-분류&quot;&gt;2.1 &lt;strong&gt;이정모의 분류&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1단계; 1950년대~1980년대 전반
-    &lt;ul&gt;
-      &lt;li&gt;마음을 제거하였던 행동주의의 반심성주의(Anti-Mentalism)에서 탈피&lt;/li&gt;
-      &lt;li&gt;마음을 디지털 컴퓨터 유추에 바탕을 둔 &lt;strong&gt;물리적 기호 체계&lt;/strong&gt;(Physical Symbol System)로 개념화&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2단계; 1980년대 이래
-    &lt;ul&gt;
-      &lt;li&gt;컴퓨터 은유 중심의 고전적 정보처리 접근의 이론적 개념화에 한계를 느낌.&lt;/li&gt;
-      &lt;li&gt;뇌 은유 중심의 &lt;strong&gt;신경망 연결주의&lt;/strong&gt; 접근에 의하여 상징이하(Subsymbolic) 체계의 계산주의를 제시함.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;3단계; 1990년대 이후
-    &lt;ul&gt;
-      &lt;li&gt;뇌 영상 기법을 비롯한 &lt;strong&gt;인지신경과학&lt;/strong&gt; 연구기법의 급격한 발전으로 뇌 기능의 중요성을 재발견함.&lt;/li&gt;
-      &lt;li&gt;인지과학의 마음에 대한 접근을 신경과학의 기초 위에 놓으려고 했다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;4단계; 1980년대 후반, 21세기 초
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;몸과 환경 맥락의 역할을 강조하는 변혁&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;인간의 마음이 물리적, 사회적 환경 맥락에 적응하는 순간 순간적 상호작용 신체적 행위 활동 상에서 비로소 존재하게 되는 인지다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;22-evan-thompson의-분류&quot;&gt;2.2 &lt;strong&gt;Evan Thompson의 분류&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1단계 ← 인지주의(Cognitivism)&lt;/li&gt;
-  &lt;li&gt;2단계 ← 연결주의(Connectionism) (컴퓨터→뇌의 변화는 ‘아래로의 끌음downwards pull’에 해당)&lt;/li&gt;
-  &lt;li&gt;3단계 ← 체화된 동역학주의(Embodied Dynamicism) (뇌→몸과 환경의 변화는 ‘밖으로의 끌음outwards pull’에 해당)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;23-최후의-입장은-체화된-인지&quot;&gt;2.3 최후의 입장은? &lt;strong&gt;체화된 인지&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;데카르트적 심신 이원론, 고전적 인지주의, 환원주의적 유물론에 대해 비판적 설명 틀을 전개함.&lt;/li&gt;
-  &lt;li&gt;모두 마음의 본질과 특성을 제대로 설명할 수 없으며, 마음을 뇌 내부의 신경적 상태만으로 환원하는 것은 부족한 개념화라고 주장함.&lt;/li&gt;
-  &lt;li&gt;뇌-신체-세상이 연결된 통합체 상의 현상으로 개념화해야 적절하다고 주장함.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;3-체화된-인지마음embodied-cognitionmind-접근&quot;&gt;3 체화된 인지/마음(embodied cognition/mind) 접근&lt;/h2&gt;
-
-&lt;h3 id=&quot;31-체화된embodied-인지-연장된extended-마음&quot;&gt;3.1 체화된(Embodied) 인지, 연장된(Extended) 마음&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;전통적인 데카르트적 존재론/인식론에 기초한 마음(Mind)의 개념으로부터 탈피하여, 구체적인 몸이라는 실체를 가지고 환경과의 상호작용 속에서 출현하는 인간의 적응 ‘행위’로서의 ‘마음’의 관점으로 전환하는 움직임.&lt;/li&gt;
-  &lt;li&gt;연장된 마음 가설(HEM/HEC: Hypothesis of Extended Mind/Cognition, Andy Clark &amp;amp; David Chalmers 1998)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;→ 미시적, 신경적 또는 생물적 단위 수준에서 모든 것을 설명하려는 연결주의와 같은 낮은 설명 수준의 접근, 그보다 한 수준 위에서 명제 중심으로 논리적 체계에 의해 설명하려는 고전적 인지주의의 정보처리 접근이 지니는 제한점을 벗어나려 한다.&lt;/p&gt;
-
-&lt;p&gt;→ 환경과는 독립적으로 한 개인 마음 내부에서 일어나는 정보의 인지적 표상이나 처리가 아니라, 환경과 괴리될 수 없이 환경-몸-뇌가 하나의 통합적 단위를 이루는 바탕 위에서 행위를 통하여 구현되는 활동으로서의 마음을 설명하려고 한다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“마음은 뇌 속에서 일어나는 신경적 상태나 과정이라고 하기보다는 신경적 기능구조인 뇌, 뇌 이외의 몸, 그리고 환경의 3자가 괴리되지 않은 채 하나의 단위로 작용하는 통합체(Nexus) 상에서 이뤄지는 행위 중심으로 재개념화되어야 한다고 본다.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;→ 본질적으로 데카르트적 이원론에 바탕을 둔 존재론과 그에 따른 인식론으로부터 벗어나자는 탈 데카르트적 운동의 일환이라고 볼 수 있으며, 일찍이 17세기 B. Spinoza에 의해 이루어졌다. Spinoza 이후 몸에 대한 강조는 유럽의 현상학적 철학자들에 의하여 주로 이어져 왔다. 베르그송-메를로 퐁티 등의 논의에서는 뇌와 독립적으로 존재하는 심리적 속성의 가능성이 논의되고, 몸과 마음과 환경이 하나의 단위를 이룬다. 몸이 환경의 세상과 일체가 되어 적응하는 과정에서 몸의 행위 하나하나가 마음을 구성한다고 보는 것이다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;인지심리학자 M. Wilson: 마음, 인지가 몸에 근거하고 있다&lt;/li&gt;
-  &lt;li&gt;Gomila, Calvo: 체화보다는 상호작용성(interactivism)과 역동성(dynamicism)이 더 핵심이다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;aside&gt;
-💡 *행동주의심리학이 마음을 심리학에서 축출하였고, 고전적 인지주의가 그 마음을 인지과학에 되찾아주었지만 뇌의 역할을 무시하였고, 인지신경심리학이 마음을 다시 뇌 속으로 넣어주었지만 환경(맥락)의 역할을 무시하였다면, 이제 제3의 대안적 관점인 ‘체화된 인지’ 접근을 통하여 그 뇌를 몸으로, 그리고 다시 그 몸을 환경으로 통합시키는 작업을 하여야 한다고 볼 수 있다.*
-
-&lt;/aside&gt;
-
-&lt;h3 id=&quot;32-체화된-마음과-인공물&quot;&gt;3.2 체화된 마음과 인공물&lt;/h3&gt;
-
-&lt;p&gt;→ 몸과 괴리되지 않은 마음이 몸을 통하여 환경에 공간적 확장, 연장의 특성을 지닌 역동적인 활동에 존재하는 것으로 개념화한다면? 인간 마음과 각종 인공물의 공진화 역사와 미래의 가능성에 대한 고려이다.&lt;/p&gt;
-
-&lt;p&gt;인간 마음과 인공물 사이의 경계가 무너지고 인간과 인공물과의 상호작용 활동 특성을 중심으로 인간의 존재론적 재구성의 필요성이 절실하여지는 미래 시점에서, 인간의 마음, 몸, 활동, 환경 인공물 사이의 관계성을 묻는 철학의 ‘체화된 인지’ 틀은 미래 학문과 테크놀로지의 개념적 재구성에 중요한 이론적 바탕을 제공하리라 본다.&lt;/p&gt;
-
-&lt;h3 id=&quot;33-체화된-인지-접근의-문제점&quot;&gt;3.3 체화된 인지 접근의 문제점&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;과학적 패러다임의 측면
-    &lt;ul&gt;
-      &lt;li&gt;인간(몸)－환경의 상호작용 측면을 어떻게 경험과학적 탐구의 면면으로 객관화하는가?&lt;/li&gt;
-      &lt;li&gt;기존의 인지주의 접근이 성공한 설명적 측면보다 더 좋고 체계적인 기술과 설명을 제공하여야 한다는 과제도 남
-는다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;개념적 측면
-    &lt;ul&gt;
-      &lt;li&gt;Adams &amp;amp; Aizawa(2008, 2010) 등이 제기하는 이론적 비판의 문제점을 해결해야 하는 과제도 있다.
-        &lt;ol&gt;
-          &lt;li&gt;등가성 원리: HEM/HEC는 환경이 과연 뇌와 동등한 등가의 인지시스템이 될 수 있는가?&lt;/li&gt;
-          &lt;li&gt;결합 논변: 환경의 물질적 대상은 뇌와 하나의 결합체를 이룰 수 없다!
-↔ 전통적인 물질－정신, 안과 밖이라는 이분법적 범주적 생각을 벗어나지 못하고 있다고 비판도 있다.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;aside&gt;
-  💡 인지 과정 여부를 결정짓는 관건은 안과 밖의 위치(location)나, 뇌 대 인공물의 물질적 유사성 여부가 아니라, 바로 **과정의 기능성(functionality)**이다. …
-  “체화된 인지 접근은 인간 존재, 마음, 몸, 환경(인공물 포함)의 역할, 표상, 지향성, 인지시스템, 인지과정, 인과성, 인간－인공물의 상호작용 등의 여러 주제에 대한 탐구에서 전통적 개념을 벗어나는 발상의 전환이 이루어져야 함을 강하게 호소하고 있는 것이라고 본다.”
-  &lt;/aside&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;34-체화된-인지-접근과-학문-간-융합&quot;&gt;3.4 체화된 인지 접근과 학문 간 융합&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;몸-마음-생명에 대한 통합적 틀로의 발상의 전환이 이루어져야 함을 요구하는 개념적 전환.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;aside&gt;
-💡 인간(동물 또는 로봇)의 몸과 환경이 하나로 어우러진 신체적 활동에서
-마음, 인지(동물과 로봇의 경우에는 지능)가 어떻게 발생되는가?
-
-&lt;/aside&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;참고자료&quot;&gt;참고자료&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Philosophy&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;[1] &lt;a href=&quot;https://s-space.snu.ac.kr/bitstream/10371/75876/1/02.%20%EC%9D%B4%EC%A0%95%EB%AA%A8.pdf&quot;&gt;‘체화된 인지(Embodied Cognition)’ 접근과 학문 간 융합&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;이정모(2010), ‘체화된 인지(Embodied Cognition)’ 접근과 학문 간 융합, 철학사상.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Robotics&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;[1] &lt;a href=&quot;https://arxiv.org/pdf/1801.04819.pdf&quot;&gt;Robots as powerful allies for the study of embodied cognition from the bottom up&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Hoffmann, M. &amp;amp; Pfeifer, R. (2018), Robots as powerful allies for the study of embodied cognition from the bottom up, in A. Newen, L. de Bruin; &amp;amp; S. Gallagher, ed., ‘The Oxford Handbook 4e Cognition’, Oxford University Press, pp. 841-861.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;[2] &lt;a href=&quot;https://d1wqtxts1xzle7.cloudfront.net/64936166/Lara_et_al_2018_Embodied_Cognitive_Robotics_and_the_learning_of_sensorimotor_schemes-libre.pdf?1605383929=&amp;amp;response-content-disposition=inline%3B+filename%3DEmbodied_Cognitive_Robotics_and_the_lear.pdf&amp;amp;Expires=1703039325&amp;amp;Signature=bubgM3q5K1C4LL7Qqkt0xw7CK8RIVEC0gGMtmkuL5tKp3AqvgaScZ~8-5OzaU0aqarwlwQqQwMSfc05LAyxHYPTO5Trr0hDqFCRx~~RPdPQ1oDOghkAc6Qc-VzlaLiRX2cmiGzr3VroHdwOtlGEWFqJs5FCNhv4yVtsAOv7tu3yJa0Qj4ajJAdUyPPfUnNEq3AJ4ZZkOr~Y~6zqBSzKgw-djTlolXAgjBWHLYlG3Cd3ayiRAbqo9QdnJM4oiS1Csaw6lzjxTBAIwOZT553uIUrxlDnOSsoZWP~DH9zRYiSO9QTMoHS3qQszl1i6ooee87NBa0AU4d4jD4sSwGkDcNQ__&amp;amp;Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA&quot;&gt;Embodied Cognitive Robotics and the learning of sensorimotor schemes&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Lara B, Astorga D, Mendoza-Bock E, Pardo M, Escobar E, Ciria A. Embodied Cognitive Robotics and the learning of sensorimotor schemes. &lt;em&gt;Adaptive Behavior&lt;/em&gt;. 2018;26(5):225-238. doi:&lt;a href=&quot;https://doi.org/10.1177/1059712318780679&quot;&gt;10.1177/1059712318780679&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;[3] &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10526461/pdf/brainsci-13-01316.pdf&quot;&gt;From Brain Models to Robotic Embodied Cognition: How Does Biological Plausibility Inform Neuromorphic Systems?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-                <pubDate>Wed, 20 Dec 2023 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Embodied-Cognition-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Embodied-Cognition-kr/</guid>
-                
-                <category>심리철학</category>
-                
-                <category>인지과학</category>
-                
-                
-                <category>Motivation</category>
                 
             </item>
         

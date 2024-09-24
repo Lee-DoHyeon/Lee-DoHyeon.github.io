@@ -1,0 +1,816 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="us" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+
+<!-- begin _includes/seo.html --><title>Shape Optimization Using Energy-Based Networks  |  Do-Hyeon Lee</title>
+<meta name="description" content="">
+
+
+  <meta name="author" content="Do-Hyeon Lee">
+  
+  <meta property="article:author" content="Do-Hyeon Lee">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="us_EN">
+<meta property="og:site_name" content="Do-Hyeon Lee">
+<meta property="og:title" content="Shape Optimization Using Energy-Based Networks">
+<meta property="og:url" content="http://localhost:4000/meditation/Energy-Based-Net-for-Top-Opt-en/">
+
+
+  <meta property="og:description" content="">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/posts/2024/Q3/2024-09-24-Energy%20Based%20Net%20for%20Top%20Opt/TopOpt%20of%20a%20Compliance%20Prob.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2024-09-24T00:00:00+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/meditation/Energy-Based-Net-for-Top-Opt-en/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Do-Hyeon Lee",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+ 
+<link
+  href="/feed.xml"
+  type="application/atom+xml"
+  rel="alternate"
+  title="Do-Hyeon Lee Feed"
+/>
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<script>
+  document.documentElement.className =
+    document.documentElement.className.replace(/\bno-js\b/g, "") + " js ";
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css" />
+<link
+  rel="preload"
+  href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+/>
+<noscript
+  ><link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"
+/></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link
+  rel="apple-touch-icon"
+  sizes="152x152"
+  href="/favicon.io/apple-touch-icon.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="32x32"
+  href="/favicon.io/favicon-32x32.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="16x16"
+  href="/favicon.io/favicon-16x16.png"
+/>
+<link rel="manifest" href="/favicon.io/site.webmanifest" />
+<meta name="msapplication-TileColor" content="#da532c" />
+<meta name="theme-color" content="#ffffff" />
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Do-Hyeon Lee
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/research/">Research</a>
+            </li><li class="masthead__menu-item">
+              <a href="/watch/">Watch</a>
+            </li><li class="masthead__menu-item">
+              <a href="/read/">Read</a>
+            </li><li class="masthead__menu-item">
+              <a href="/outreach/">Outreach</a>
+            </li><li class="masthead__menu-item">
+              <a href="/cv/">CV</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/avatar.jpg" alt="Do-Hyeon Lee" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Do-Hyeon Lee</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Human and Machine Mind-Behavior-Brain Researcher</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://maps.app.goo.gl/fDF8TMFHnu1fHCBd9" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i><span class="label">Location</span></a></li>
+          
+        
+          
+            <li><a href="mailto:lead.o.hyeon@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://x.com/HumMachCoevol" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/dohyeon-lee-4793a6244" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">Linkedin</span></a></li>
+          
+        
+          
+            <li><a href="https://www.youtube.com/@leadh99" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i><span class="label">YouTube</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/Lee-DoHyeon" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Shape Optimization Using Energy-Based Networks">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="2024-09-24T00:00:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/meditation/Energy-Based-Net-for-Top-Opt-en/" class="u-url" itemprop="url">Shape Optimization Using Energy-Based Networks
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <style>
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: "Wanted Sans Variable", "Wanted Sans";
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+
+  /* 새로 추가된 스타일 */
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+</style>
+
+<p>A while ago, I read <a href="https://www.amazon.com/Life-3-0-Being-Artificial-Intelligence/dp/1101946598">Max Tegmark’s Life 3.0</a>, where he introduces the concept of an ultimate life form capable of modifying not only its software but also its hardware. More recently, I came across an idea: what if we could use energy-based networks, particularly the <a href="https://en.wikipedia.org/wiki/Hopfield_network">Hopfield Network</a>, to perform <a href="https://en.wikipedia.org/wiki/Topology_optimization">shape/topology optimization</a>? In Hopfield Networks, the weights between nodes are adjusted to minimize the system’s total energy. If these weights represent a <strong>physical meaning</strong>, such as the <em>distance between nodes</em>, then perhaps the process of minimizing energy in the network could help us discover the optimal physical shape.</p>
+
+<div class="centered-container">
+  <div class="two-fig-container">
+    <figure>
+      <img src="/assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/Memory Retrieval in Hopfield Network .gif" style="width: 60%; height: auto;" />
+      <figcaption>
+        Visualization of How Hopfield Network Works, 출처: <a href="https://towardsdatascience.com/visualizing-episodic-memory-with-hopfield-network-a6e8bde967cb">Muhammad Abduh</a>.
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="/assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/Scheme for Hopfield Network.png" style="width: 55%; height: auto;" />
+      <figcaption>
+        Energy landscape of a Hopfield Network, 출처: <a href="https://www.researchgate.net/figure/Illustration-of-a-Hopfield-network-with-transiently-chaotic-dynamics-A-Schematic-of-a_fig1_343660391">Ke Yang et al(2020).</a>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+<p>However, there are a few challenges with this approach. In a fully connected Hopfield Network, all nodes are interconnected. If we interpret the weights as the Euclidean distances between nodes, not every combination of weights will correspond to a shape that can be realized in 2D or 3D space. This is because the given distances might not satisfy the geometric constraints of Euclidean space, such as the triangle inequality.</p>
+
+<p>For example, let’s say we have three nodes with distances between them defined as $w_{1,2}=1$, $w_{1,3}=3$, and $w_{2,3}=2$. In this case, it’s possible to determine their positions in 2D space. But if we add a fourth node with distances $w_{1,4}=2$, $w_{2,4}=3$, and $w_{3,4}=1$, finding a position for this fourth node that satisfies all these distances in 2D becomes impossible.</p>
+
+<p>To address this, several approaches can be considered:</p>
+
+<p>Increasing the embedding dimension: One way to determine a 3D shape is by checking the positive semidefiniteness of the weight matrix (or distance matrix). This ensures that the given distances are valid in Euclidean space. If positive semidefiniteness is satisfied, we can position the nodes in a higher-dimensional space, allowing us to meet the distance constraints.</p>
+
+<p>Redesigning the energy function: By redesigning the energy function, we can incorporate physical constraints and shape realizability, ensuring that the network learns to generate realistic shapes during the optimization process.</p>
+
+<p>Adjusting distances or allowing for error: We could slightly modify the given distances or minimize the error between the distances and the actual positions of the nodes. This would introduce a necessary compromise to obtain a feasible shape.</p>
+
+<p>Multidimensional Scaling (MDS): MDS can be used to find node positions based on the given distance data while minimizing discrepancies between the distances and their corresponding node positions.</p>
+
+<p>Integrating physical constraints: By integrating physical constraints into the energy function, we can guide the network toward producing shapes that reflect the physical properties of the structure, leading to more practical results.</p>
+
+<p>Additional considerations include:</p>
+
+<p>Redesigning the physical energy function: The energy function can be adapted to incorporate actual physical system properties, allowing the network to adjust the weights in a way that directly relates to shape optimization.</p>
+
+<p>Data-driven approaches: Collecting data on real-world shapes and their corresponding weights can allow the network to learn the complex relationships between weights and shape through supervised learning.</p>
+
+<p>Utilizing GPU-based parallel processing: Solving large-scale optimization problems efficiently requires leveraging the parallel processing capabilities of GPUs. Frameworks like TensorFlow or PyTorch can be used to accelerate these tasks.</p>
+
+<p>In conclusion, interpreting weights as physical distances and applying energy-based neural networks to shape optimization is a fascinating idea. However, for practical implementation, it’s necessary to model the relationship between weights and physical shapes more accurately, taking into account the geometric constraints and physical properties. By doing so, innovative methods for shape optimization could be developed using neural networks.</p>
+
+<p>Future research directions include:</p>
+
+<p>Exploring the intersection of topology optimization and deep learning: Investigating existing research can help refine ideas and discover new approaches.</p>
+
+<p>Studying optimization algorithms and mathematical tools: Learning about nonlinear optimization, graph embedding, and multidimensional scaling can improve the accuracy of models.</p>
+
+<p>Combining physical simulation: Integrating finite element analysis (FEA) tools with neural networks can help verify and improve the accuracy of predictions.</p>
+
+<p>Pursuing research in these directions could yield meaningful results in applying energy-based networks to shape optimization. Additionally, <a href="https://www.mdpi.com/2076-3417/13/5/2929"><strong>studies on topology optimization using Cellular Automata</strong></a> have also emerged. Considering such approaches could lead to the development of practical technologies.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#energy-based-networks" class="page__taxonomy-item p-category" rel="tag">energy-based networks</a><span class="sep">, </span>
+    
+      <a href="/tags/#hopfield-network" class="page__taxonomy-item p-category" rel="tag">Hopfield network</a><span class="sep">, </span>
+    
+      <a href="/tags/#ideas" class="page__taxonomy-item p-category" rel="tag">ideas</a><span class="sep">, </span>
+    
+      <a href="/tags/#optimal-design" class="page__taxonomy-item p-category" rel="tag">optimal design</a><span class="sep">, </span>
+    
+      <a href="/tags/#shape-optimization" class="page__taxonomy-item p-category" rel="tag">shape optimization</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#meditation" class="page__taxonomy-item p-category" rel="tag">Meditation</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-09-24T00:00:00+09:00">September 24, 2024</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Shape+Optimization+Using+Energy-Based+Networks%20http%3A%2F%2Flocalhost%3A4000%2Fmeditation%2FEnergy-Based-Net-for-Top-Opt-en%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fmeditation%2FEnergy-Based-Net-for-Top-Opt-en%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fmeditation%2FEnergy-Based-Net-for-Top-Opt-en%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/motivation/Active-Inference-Beyond-Existing-Theories-kr/" class="pagination--pager" title="능동추론 vs 기존 이론들
+">Previous</a>
+    
+    
+      <a href="/meditation/Energy-Based-Net-for-Top-Opt-kr/" class="pagination--pager" title="에너지 기반 네트워크를 활용한 형상 최적화
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You May Also Enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/2024/Q3/2024-09-24-Energy%20Based%20Net%20for%20Top%20Opt/TopOpt%20of%20a%20Compliance%20Prob.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/meditation/Energy-Based-Net-for-Top-Opt-kr/" rel="permalink">에너지 기반 네트워크를 활용한 형상 최적화
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/2024/Q3/2024-08-03-Active%20Inference%20Beyond%20Existing%20Theories/0.webp" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/motivation/Active-Inference-Beyond-Existing-Theories-kr/" rel="permalink">능동추론 vs 기존 이론들
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          12 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/2024/Q3/2024-08-03-Active%20Inference%20Beyond%20Existing%20Theories/0.webp" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/motivation/Active-Inference-Beyond-Existing-Theories-en/" rel="permalink">Active Inference vs Existing Theories
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          13 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/2024/Q3/2024-08-01-Insights%20on%20Active%20Inference/AIF.jpeg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/motivation/Insights-on-Active-Inference-kr/" rel="permalink">능동추론이 주는 통찰
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://x.com/HumMachCoevol" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/dohyeon-lee-4793a6244" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/@leadh99" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+        
+      
+        
+          <li><a href="https://github.com/Lee-DoHyeon" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 Do-Hyeon Lee. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+<script src="/assets/js/main.min.js"></script>
+ 
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>  
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/meditation/Energy-Based-Net-for-Top-Opt-en/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/meditation/Energy Based Net for Top Opt/en"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://lee-dohyeon-github-io.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+ 
+
+<script type="text/x-mathjax-config">
+
+  MathJax.Hub.Config({
+
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+
+  });
+</script>
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"
+  async
+></script>
+
+
+  </body>
+</html>

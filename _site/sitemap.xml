@@ -4,6 +4,38 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://localhost:4000/meditation/Energy-Based-Net-for-Top-Opt-kr/</loc>
+        
+        <lastmod>2024-09-24T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/meditation/Energy-Based-Net-for-Top-Opt-en/</loc>
+        
+        <lastmod>2024-09-24T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/motivation/Active-Inference-Beyond-Existing-Theories-kr/</loc>
         
         <lastmod>2024-08-03T00:00:00+09:00</lastmod>
