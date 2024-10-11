@@ -5,8 +5,8 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 01 Oct 2024 12:12:26 +0900</pubDate>
-        <lastBuildDate>Tue, 01 Oct 2024 12:12:26 +0900</lastBuildDate>
+        <pubDate>Fri, 11 Oct 2024 18:03:55 +0900</pubDate>
+        <lastBuildDate>Fri, 11 Oct 2024 18:03:55 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
@@ -1861,7 +1861,7 @@ Considering that the importance of predictive coding and un/self-supervised lear
             </item>
         
             <item>
-                <title>의식과학연합학슬회 in Tokyo</title>
+                <title>도쿄에서의 의식과학연합학술회</title>
                 <description>&lt;style&gt;
   .centered-container {
       text-align: center;
@@ -1879,155 +1879,831 @@ Considering that the importance of predictive coding and un/self-supervised lear
       color: #555;
       margin-top: 5px;
   }
+
+  /* 새로 추가된 스타일 */
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+
+  /* 새로 추가된 스타일 */
+  .three-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .three-fig-container figure {
+      width: calc(33% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .three-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
 &lt;/style&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;이 글은 Thomas Parr, Giovanni Pezzulo의 교재 “&lt;a href=&quot;https://direct.mit.edu/books/oa-monograph/5299/Active-InferenceThe-Free-Energy-Principle-in-Mind&quot;&gt;Active Inference&lt;/a&gt;”의 마지막 장을 읽고 정리한 글임을 밝힙니다.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;h1 id=&quot;20240629&quot;&gt;2024/06/29&lt;/h1&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;출국&quot;&gt;출국&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        인천 공항 도착 후 찍은 첫 사진.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/1-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄로 가는 비행기 줄.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF_original.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
+      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/1-4.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;/video&gt;
     &lt;figcaption&gt;
-      토마스 파, 지오바니 페줄로, 칼 프리스턴의 능동 추론 교과서
+      공항 내에 설치된 조형물.
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;hr /&gt;
+&lt;h2 id=&quot;우에노의-밤&quot;&gt;우에노의 밤&lt;/h2&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/2-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        우에노 역 밑의 거리.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        사람이 엄청 많은 술집에서 시킨 안주.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;h1 id=&quot;1-인트로&quot;&gt;1. 인트로&lt;/h1&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/2-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        여행기간 동안 머무른 도미토리 시에스타.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/2-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        작지만 아늑한 침실.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;능동 추론(Active Inference)은 기존에 심리학과 신경과학 분야에서 독립적으로 존재하던 지각(Perception), 행동 선택(Action Selection), 주의집중(Attention), 감정 조절(Emotion Regulation) 등을 통합적으로 바라보는 새로운 관점을 제공한다. 더 나아가, 기존의 사이버네틱스(Cybernetics), 행동의 관념운동 이론(Ideomotor Theory of Action), 강화 학습(Reinforcement Learning), 최적 제어(Optimal Control)와도 긴밀히 연결된다. 능동 추론은 생물학적, 사회적, 기술적 주제로도 확장될 수 있다.&lt;/p&gt;
+&lt;h1 id=&quot;20240630&quot;&gt;2024/06/30&lt;/h1&gt;
 
-&lt;h2 id=&quot;아랫길low-road&quot;&gt;아랫길(Low Road)&lt;/h2&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄대학으로 가는 좁은 골목길.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/1-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄대학의 명물인 아카몬.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;위성-워크샵-1-의식에-대한-구조적-접근&quot;&gt;위성 워크샵 1: 의식에 대한 구조적 접근&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/1-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        주 학회장인 이토 홀.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/1-5.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        내부 양식이 굉장히 예술적이었다.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/0.gif&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/1-6.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
-        뱀의 공격을 예측하고 빠르게 대응하는 고양이, 출처: &lt;a href=&quot;forgifs.com/gallery/v/Animals/Cat-vs-snake.gif.html&quot;&gt;forgif&lt;/a&gt;
-      &lt;/figcaption&gt;
+      통합 정보 이론을 창시한 줄리오 토노니의 강연.
+    &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;p&gt;모든 감응력 있는(Sentient) 생명체는 환경과 행동-지각의 루프를 이루며 영속(persist)해 나간다. 능동 추론을 이해하는 한 방법은 두뇌를 세상에 대한 생성 모형(Generative Model)을 지닌 예측 기계(Prediction Machine)로 간주하는 것이다. 이는 헬름홀츠(Hermann von Helmholtz)의 아이디어로부터 시작하여 최근에는 베이지안 두뇌 가설(Bayesian Brain Hypothesis)로 발전되었다. 이 관점에 따르면, 정확한 추론은 불가능하기 때문에 근사(Approximation)를 수행하게 되며, 결과적으로 지각과 행동은 변분 자유 에너지(Variational Free Energy)를 최소화하는 과정으로 해석된다. 다시 말해, 행동과 지각은 독립된 개념이라기보다 한 목적을 달성하는 과정의 두 가지 모습으로 볼 수 있다. 미래의 사건에 대한 계획(Planning) 또한 기대 자유 에너지(Expected Free Energy)를 최소화하는 과정으로 해석될 수 있다.&lt;/p&gt;
+&lt;h2 id=&quot;이케부쿠로에서-맛있는-저녁&quot;&gt;이케부쿠로에서 맛있는 저녁&lt;/h2&gt;
 
-&lt;h2 id=&quot;윗길high-road&quot;&gt;윗길(High Road)&lt;/h2&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        이케부쿠로에 위치한 유명 규카츠 가게.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
+        &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/2-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+      &lt;/video&gt;
+      &lt;figcaption&gt;
+        규카츠 집에서 고기 굽는 장면.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;20240701&quot;&gt;2024/07/01&lt;/h1&gt;
+
+&lt;h2 id=&quot;위성-워크샵-2-지각적-메타인지&quot;&gt;위성 워크샵 2: 지각적 메타인지&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/1-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        인공지능과 인지 신경과학의 비교.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        즐겁게 본 발표 자료.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;인생-첫-신주쿠&quot;&gt;인생 첫 신주쿠&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        신주쿠역에서 내리자 마자 펼쳐진 풍경.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/2-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        조금 어두워지자 더 밝게 빛나는 거리.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/2-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        골든 가이.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/2-6.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        오모이데요코초.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;20240702&quot;&gt;2024/07/02&lt;/h1&gt;
+
+&lt;h2 id=&quot;첫-학회-일정&quot;&gt;첫 학회 일정&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        학회장 안내를 위한 표지판.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/1-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        학회장 안내를 위한 팸플렛.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        라멘집의 플레이리스트.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/2-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        검은 색의 라멘.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/2-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        구운 만두.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;우에노-공원-산책&quot;&gt;우에노 공원 산책&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/2-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        공원 산책 전 마신 코메다 커피.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        우에노 공원의 초석.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        공원 안에 있는 오래된 절.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        국립서양미술관에 설치된 생각하는 남자.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        국립서양미술관에 설치된 칼레의 시민.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-6.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        국립서양미술관에 설치된 지옥문.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-7.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄도립미술관에 설치된 조형물 1.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-8.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄도립미술관에 설치된 조형물 2.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-10.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄도립미술관에 설치된 조형물 3.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-12.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        학회장 안내를 위한 표지판.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-13.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        학회장 안내를 위한 팸플렛.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;오프닝-키노트-준-타니&quot;&gt;오프닝 키노트: 준 타니&lt;/h2&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/1.png&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/4-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
-        자유에너지에 대한 곡면 위에서 안정점(Stable Point)를 향해 이동하는 모습, 출처: &lt;a href=&quot;https://www.researchgate.net/publication/357198851_Permutation_Entropy_as_a_Universal_Disorder_Criterion_How_Disorders_at_Different_Scale_Levels_Are_Manifestations_of_the_Same_Underlying_Principle&quot;&gt;Permutation Entropy as a Universal Disorder Criterion: How Disorders at Different Scale Levels Are Manifestations of the Same Underlying Principle, Rutger Goekoop et al.&lt;/a&gt;.&lt;br /&gt;점의 상태가 시스템의 궤적을 이룬다.
-      &lt;/figcaption&gt;
+      준 타니 교수님의 오프닝 키노트.
+    &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;p&gt;능동 추론을 이해하는 또 다른 방법은, 생물학적 유기체가 신체를 유지하고 소멸을 막는 핵심 원리에서 시작한다. 마코프 블랭킷(Markov Blanket)은 통계학에서 흔히 사용하는 개념으로, 생명체의 내부와 외부를 구분하는 형식적 프레임워크이다. 마코프 블랭킷을 지닌 유기체는 외부 환경을 베이지안 관점으로 모형화한다고 볼 수 있다. 자율성은 유기체가 지닌 외부 환경의 모형이 존재론적 전제 조건들을 규정하면서도 편향되지 않기 때문에 보장된다. 이로써 지각과 행동을 통해 베이지안 모형 에비던스(Model Evidence)를 최대화하는 과정으로 최적 행동을 서술할 수 있다. 이는 변분 자유 에너지를 최소화하는 과정과 동일하며, 해밀턴의 최소 작용의 원리와 통계 역학의 원리들과도 일맥상통한다.&lt;/p&gt;
-
-&lt;h2 id=&quot;형식화formalization&quot;&gt;형식화(Formalization)&lt;/h2&gt;
+&lt;h2 id=&quot;긴자에서의-환영회&quot;&gt;긴자에서의 환영회&lt;/h2&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/2.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
+      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/5.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;/video&gt;
     &lt;figcaption&gt;
-        능동 추론 및 베이즈 역학, 출처: &lt;a href=&quot;https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2018.00021/full&quot;&gt;The Active Inference Approach to Ecological Perception: General Information Dynamics for Natural and Artificial Embodied Cognition, Adam Linson et al.&lt;/a&gt;.
-      &lt;/figcaption&gt;
+      저녁에 진행된 만찬회.
+    &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;p&gt;형식적 관점에서 자유 에너지는 변분 추론(Variational Inference)을 통해 가능하다. 모형이 나타내는 과정(Process)은 변수와 시간의 이산성/연속성에 상관없이 모형화될 수 있다.&lt;/p&gt;
+&lt;h1 id=&quot;20240703&quot;&gt;2024/07/03&lt;/h1&gt;
 
-&lt;h2 id=&quot;과정-이론process-theory&quot;&gt;과정 이론(Process Theory)&lt;/h2&gt;
+&lt;h2 id=&quot;도쿄대학교-산책하기&quot;&gt;도쿄대학교 산책하기&lt;/h2&gt;
 
-&lt;p&gt;능동 추론은 단순히 규범적 원리(Normative Theory)에서 그치는 것이 아니라, 실제로 이것들이 뇌에서 어떻게 구현되어 있는지 분석하는 과정 이론(Process Theory) 또한 제공한다. 해부학적 수준에서 시스템적 수준에 이르기까지, 뉴런들의 신경해부학적 회로(Neuroanatomical Circuitry)와 신경 조절(Neuromodulation)을 포함한 메시지 전달 과정(Neuronal Message Passing)을 설명한다.&lt;/p&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄대학의 풍경1.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄대학의 풍경2.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄대학의 풍경3.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;h2 id=&quot;모델-설계-방법론design-recipe&quot;&gt;모델 설계 방법론(Design Recipe)&lt;/h2&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄대학의 풍경4.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-5.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄대학의 풍경5.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-6.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄대학의 풍경6.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;모든 생명체는 변분 자유 에너지를 최소화하면서도 서로 다르게 행동한다. 이는 그들이 다른 생성 모형을 지녔기 때문이다. 가능한 생성 모형의 레퍼토리는 매우 풍부하며, 시대적 맥락(Context)과 생태적 지위(Niche)에 따라 다른 생물학적 구현체를 지니고 있을 것이다. 진화(Evolution)는 박테리아에서 영장류까지 풍부한 생태적 지위에 맞는 두뇌와 신체의 복잡한 형태를 발견해왔다. 모형을 설계할 때 이 과정을 역설계할 수 있으며, 관심 생물의 두뇌와 신체에 따라 이산/연속 변수를 취하거나 모형의 깊이를 설계할 수 있다.&lt;/p&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/3-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄대학 주변 거리의 조형물1.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/3-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄대학 주변 거리의 조형물2.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/3-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄도립미술관에 설치된 조형물6.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;h2 id=&quot;예시example&quot;&gt;예시(Example)&lt;/h2&gt;
+&lt;h2 id=&quot;학회-일정&quot;&gt;학회 일정&lt;/h2&gt;
 
-&lt;p&gt;능동 추론을 통해 지각적 추론, 목표 지향적 행동, 모형의 학습, 행동 선택 등을 모형화할 수 있다.&lt;/p&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/4-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        학회 발표장인 후쿠타케 빌딩.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/4-2.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        아는 대학원생 분의 발표.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/4-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        포스터 세션.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;h2 id=&quot;실험experiment&quot;&gt;실험(Experiment)&lt;/h2&gt;
+&lt;h2 id=&quot;대학-동기-만나기&quot;&gt;대학 동기 만나기&lt;/h2&gt;
 
-&lt;p&gt;능동 추론은 실험을 통해 수집한 데이터에 대해 모형 기반의 데이터 분석에 사용될 수 있으며, 개인의 생성 모형에 따라 파라미터를 역추적할 수도 있다. 이러한 계산적 형질화(Computational Phenotyping)는 타인의 주관적 모형에 대한 객관적 모형을 설계하고 평가하는 데 도움을 줄 수 있다.&lt;/p&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/5-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄대생들이 추천하는 술집 메뉴1.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/5-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄대생들이 추천하는 술집 메뉴2.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;20240704&quot;&gt;2024/07/04&lt;/h1&gt;
 
-&lt;h1 id=&quot;2-점-연결하기&quot;&gt;2. 점 연결하기&lt;/h1&gt;
+&lt;h2 id=&quot;학회-일정-1&quot;&gt;학회 일정&lt;/h2&gt;
 
-&lt;hr /&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        네드 블록 교수님의 발표.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/1-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        스티븐 플레밍 교수님의 발표.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/1-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        아닐 세스 교수님의 발표.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;h2 id=&quot;데닛의-비판dennetts-critique&quot;&gt;데닛의 비판(Dennett’s Critique)&lt;/h2&gt;
+&lt;h2 id=&quot;만찬회&quot;&gt;만찬회&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        호텔 오타니에서 열린 두번째 만찬회.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/2-3.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        학회장 입구에서의 사진.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
+        &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/2.2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+      &lt;/video&gt;
+      &lt;figcaption&gt;
+        호텔 만찬회의 전경.
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure&gt;
+    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
+      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/2.1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;/video&gt;
+    &lt;figcaption&gt;
+      만찬회의 열기.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;20240705&quot;&gt;2024/07/05&lt;/h1&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        가게 한켠에 걸린 우키요에.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/1-2.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        정말 맛있는 프렌치 토스트.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/1-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        신문을 참 많이 읽는 것 같다.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;한국인-연구자-모임&quot;&gt;한국인 연구자 모임&lt;/h2&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/3.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/2-1.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
     &lt;figcaption&gt;
-        2004년 경의 데니얼 데닛, 출처: &lt;a href=&quot;https://static01.nyt.com/images/2024/04/19/multimedia/19Dennett-2-mvpq/19Dennett-2-mvpq-superJumbo.jpg?quality=75&amp;amp;auto=webp&quot;&gt;Eamonn McCabe/Popperfoto, via Getty Images&lt;/a&gt;.
-      &lt;/figcaption&gt;
+     장현우 대학원생 분 덕분에 만난 한국인 연구자들.
+    &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;p&gt;수십 년 전, 철학자 대니얼 데닛(Daniel Dennett)은 인지 과학자들이 명확히 구분하기 어려운 독립된 하위 시스템(subsystem)을 모형화하는 데에 너무 많은 시간을 쓴다고 불평한 적 있다. 그는 오히려 다루고자 하는 환경적 지위를 잘 설정하여 전체적인 인지적 생명체(cognitive creature)를 모형화해야 한다고 제안했다.&lt;/p&gt;
+&lt;h2 id=&quot;산지로-연못-산책&quot;&gt;산지로 연못 산책&lt;/h2&gt;
 
-&lt;h2 id=&quot;통합적-관점integrative-perspective&quot;&gt;통합적 관점(Integrative Perspective)&lt;/h2&gt;
-
-&lt;p&gt;능동 추론(Active Inference)은 통합적인 관점을 제공한다. 지각과 행동은 생성 모형(generative model)에 대해 자증적(self-evidencing)이며, 변분 자유 에너지를 최소화하는 과정의 서로 다른 측면이다. 장기 기억(long-term memory)은 생성 모형의 매개변수를 학습하는 과정에서 발달하며, 작업 기억(working memory)은 과거와 미래의 외부 상태에 대한 믿음을 갱신(belief updating)하는 과정이다. 이때 주의 집중(attention)은 감각 입력의 신뢰도(precision)에 대한 믿음을 최적화(belief optimization)하는 과정이다. 계획(planning)과 지향성(intentionality)의 형태 또한 가능한 미래의 시나리오 중 하나를 선택하는 능력으로 개념화될 수 있으며, 이는 시간적으로 깊은 생성 모형(deep temporal model)을 요구한다. 시간적으로 깊은 생성 모형은 현재에 대한 믿음을 바탕으로 과거에 대한 믿음을 갱신하는 회상(retrospection)과 현재의 믿음을 바탕으로 미래에 대한 믿음을 도출하는 전망(prospection)이라는 복잡한 현상을 이해하는 데에도 도움을 준다. 마지막으로, 내수용적 조절(interoceptive regulation)과 감정(emotion) 또한 미래 사건의 이상성(allostatic) 결과를 예측하는 내부 생리 메커니즘의 생성 모형을 통해 개념화될 수 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;비전vision&quot;&gt;비전(Vision)&lt;/h2&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-2.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        산지로 연못의 풍경1.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-3.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        산지로 연못의 풍경2.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-4.jpg&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        산지로 연못의 풍경3.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/4.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
+    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
+      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;/video&gt;
     &lt;figcaption&gt;
-        1880년 경의 윌리엄 제임스, 출처: &lt;a href=&quot;https://www.loa.org/writers/29-william-james/&quot;&gt;Houghton Library at Harvard University; public domain via Wikimedia Commons&lt;/a&gt;.
-      &lt;/figcaption&gt;
+      산지로 연못의 평화로움.
+    &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;p&gt;데닛의 비판에 맞서, 능동 추론은 수많은 독립적으로 다뤄져 온 인지 및 행동 개념들에 대한 통합적인 관점을 제공한다. 이에 따라, 단순히 지각과 행동, 기억과 주의 집중들을 조합하는 것이 아니라, 생명체가 해결해야만 하는 최초 원리로부터 그들이 이끌어낸 다양한 인지 기능들을 분석하게 해준다. 이로써, 심리학과 신경과학에서 사용되어 온 윌리엄 제임스의 범주(Jamesian category)가 지닌 모호성을 벗어나 수학적 형식성과 구체성을 지닐 수 있게 된다.&lt;/p&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄대학의 건물1.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-5.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        도쿄대학의 건물2.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-6.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        건물 앞에 설치된 예술작품.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;h2 id=&quot;유사성identifying-analogies&quot;&gt;유사성(Identifying Analogies)&lt;/h2&gt;
+&lt;h2 id=&quot;시부야의-밤&quot;&gt;시부야의 밤&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/4-2.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        긴자의 바.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/4-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        정말 맛있게 먹은 칵테일1.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/4-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        정말 맛있게 먹은 칵테일2.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;20240706&quot;&gt;2024/07/06&lt;/h1&gt;
+
+&lt;h2 id=&quot;아사쿠사-탐방&quot;&gt;아사쿠사 탐방&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/1-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        긴자의 바.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/1-5.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        정말 맛있게 먹은 칵테일1.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/1-6.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        정말 맛있게 먹은 칵테일2.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/2-1.jpg&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        호텔 오타니에서 열린 두번째 만찬회.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/2-2.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        학회장 입구에서의 사진.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;긴자에서-쇼핑하기&quot;&gt;긴자에서 쇼핑하기&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/3-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        긴자에 있는 오래된 문구점.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/3-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        긴자에 있는 대중 문구점.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;장어-덮밥&quot;&gt;장어 덮밥&lt;/h2&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/4-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        오래된 장어덮밥집.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/4-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        장어덮밥 메뉴판.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/4-3.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;
+        정말 맛있게 먹은 장어덮밥.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/5.png&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
+    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
+      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/5.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;/video&gt;
     &lt;figcaption&gt;
-        의사결정에 있어 항상 등장하는 탐색-실행 딜레마(Exploration-Exploitation Dillema), 출처: &lt;a href=&quot;https://www.lakera.ai/blog/reinforcement-learning&quot;&gt;Lakera AI&lt;/a&gt;.
-      &lt;/figcaption&gt;
+      비가 그친 후 정말 아름다운 하늘의 풍경.
+    &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;p&gt;이러한 규범적 관점을 채택하는 것은 다른 분야에서 연구된 인지 현상 사이의 형식적인 유사성을 쉽게 식별하는 데 도움을 준다. 대표적으로 탐색과 활용의 딜레마(exploration-exploitation dilemma)나 제한된 자원에서의 검색과 숙고의 딜레마(search-deliberation dilemma)에 대한 연결성을 쉽게 이해하도록 도와준다&lt;/p&gt;
+&lt;h1 id=&quot;20240707&quot;&gt;2024/07/07&lt;/h1&gt;
 
-&lt;h2 id=&quot;오해풀기demystifying&quot;&gt;오해풀기(Demystifying)&lt;/h2&gt;
+&lt;h2 id=&quot;안녕-도쿄&quot;&gt;안녕 도쿄&lt;/h2&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/6.webp&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-        하트 모양 번개, 출처: &lt;a href=&quot;https://www.reddit.com/r/interestingasfuck/comments/9pjauj/a_heart_shaped_lightning_bolt_during_a/?rdt=40244&amp;amp;onetap_auto=true&amp;amp;one_tap=true&quot;&gt;Reddit&lt;/a&gt;.
+  &lt;div class=&quot;three-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
+        &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240707/1-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+      &lt;/video&gt;
+      &lt;figcaption&gt;
+        마지막 전철.
       &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;figure&gt;
+    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
+      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240707/1-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;/video&gt;
+    &lt;figcaption&gt;
+      나리타 공항으로 가는 길의 풍경.
+    &lt;/figcaption&gt;
   &lt;/figure&gt;
+  &lt;figure&gt;
+    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
+      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240707/1-3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;/video&gt;
+    &lt;figcaption&gt;
+      나리타 공항 옥상에서 보이는 활주로.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
-
-&lt;p&gt;결론적으로, 능동 추론은 과정 이론(process theory)으로서 뉴런이 수행하는 계산을 이해하는 핵심 수단을 제공한다. 두뇌-마음-행동은 단순히 변분 자유 에너지를 최소화하는 과정으로 이해될 수 있다. 다시 말해, 천둥과 번개가 대기의 방전 현상에 대한 청각적, 시각적 일면이듯이, 두뇌-마음-행동은 변분 자유 에너지를 최소화하는 과정의 다양한 일면일 뿐이다. 현대 과학이 천둥을 번개로, 번개를 천둥으로 환원시키지 않고 대기의 방전 현상으로 환원시켜 이해하듯이, 두뇌, 마음, 행동의 관계가 지니는 미스터리를 떠나 자유 에너지의 최소화 현상으로 환원시켜 이해하는 것이 바람직하다.&lt;/p&gt;
-
-&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;이 책은 뇌와 행동을 첫 원칙에서 이해하는 가능성에 대한 질문으로 시작하여, 능동 추론을 그 해결책으로 제시했다. 능동 추론이 인식, 행동 선택, 감정 등 익숙한 심리학적 개념에 어떤 의미를 가지는지 탐구하면서, 관련 개념들을 재검토하고 앞으로의 연구 과제를 제시했다. 이론적 신경생물학의 중요한 실습을 통해 능동 추론을 실천해 볼 것을 권장하며, 일상 생활에서도 이를 적용할 수 있음을 강조했다. 궁극적으로, 능동 추론이 우리의 일상과 연구에 어떻게 기여할 수 있는지를 강조하며, 독자들이 이를 계속 추구할 것을 기대한다.&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
                 <pubDate>Wed, 10 Jul 2024 00:00:00 +0900</pubDate>
                 <link>http://localhost:4000/movement/ASSC-in-Tokyo-kr/</link>
