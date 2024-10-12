@@ -5,8 +5,8 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 11 Oct 2024 18:03:55 +0900</pubDate>
-        <lastBuildDate>Fri, 11 Oct 2024 18:03:55 +0900</lastBuildDate>
+        <pubDate>Sat, 12 Oct 2024 21:19:01 +0900</pubDate>
+        <lastBuildDate>Sat, 12 Oct 2024 21:19:01 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
@@ -1921,9 +1921,15 @@ Considering that the importance of predictive coding and un/self-supervised lear
   }
 &lt;/style&gt;
 
+&lt;p&gt;어릴 적부터 나를 사로잡았던 의식과 인간의 심리적 경험에 대한 궁금증은 시간이 지나도 변하지 않았다. 포항공대에 진학해 생물학과 물리학을 거쳐 수학을 전공하게 된 것도 결국 그 질문의 연장선에 있었다. 사이버네틱스와 인지과학을 탐구하면서, 내가 품은 의문들이 기술과 사회의 발전 과정 속에서 깊이 연결되어 있다는 사실을 깨닫게 되었다. 이러한 깨달음은 나를 더 넓은 차원으로 이끌었고, 의식에 대한 논의를 보다 풍부하게 만들어가고자 한국의식과학학술회(KACS)에서 다양한 활동을 기획하고 운영했다. 하지만 학문적 탐구는 여기에 그치지 않았다. 나는 학계에서 과연 어떤 일들이 벌어지고 있는지, 의식에 대한 보다 과학적인 접근이 어떻게 이루어지고 있는지 궁금했다. 그래서 나는 제27회 의식과학연합학술회(ASSC)가 도쿄에서 열린다는 소식을 듣고 참석을 결심하게 되었다.&lt;/p&gt;
+
+&lt;p&gt;비록 나는 학생 신분이 아니기에 일반 회원으로 등록해야 했고, 그로 인한 경제적 부담이 만만치 않았다. 하지만 도쿄 여행까지 함께 계획하며 마음을 단단히 먹었다. 학생일 때의 혜택들이 그리워지기도 했지만, 한편으로는 교수님들이 학회 참가비와 여비까지 마련해야 하는 고충도 공감하게 되었다.&lt;/p&gt;
+
 &lt;h1 id=&quot;20240629&quot;&gt;2024/06/29&lt;/h1&gt;
 
 &lt;h2 id=&quot;출국&quot;&gt;출국&lt;/h2&gt;
+
+&lt;p&gt;항공편은 점심 후 이른 오후 출발이었다. 버스를 타고 인천공항에 도착하니, 공항은 참으로 깨끗하고 웅장했다. 새로 지어진 시설답게 잠시 쉴 수 있는 공간과 노트북을 사용할 수 있는 사무실까지 다양한 부대 시설이 마련되어 있었다. 비행기 줄에 서면서 보니, 한국에서 도쿄로 향하는 사람들 대부분은 일본인 여행객들이었다. 그들은 아마도 한국을 여행하고 귀국하는 길이겠지. 나는 내가 머무를 도쿄 우에노 역 주변에 대해 알고 싶어, 번역기를 이용해 가까운 커플에게 질문했다. 다행히 남자친구로 보이는 분이 친절하게 번역기를 돌려가며 여러 장소를 추천해 주었다. 고마운 마음에 인사를 한 후, 다시 출국 대기 줄에 섰다.&lt;/p&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
@@ -1942,9 +1948,11 @@ Considering that the importance of predictive coding and un/self-supervised lear
   &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;p&gt;공항을 돌아다니며 우연히 발견한 조형물이 있었다. 그 조형물은 내부가 전부 거울로 되어 있어, 빙글빙글 돌면 마치 무한한 공간 속을 움직이는 듯한 기분이 들었다.&lt;/p&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
+    &lt;video width=&quot;50%&quot; controls=&quot;&quot;&gt;
       &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/1-4.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     &lt;/video&gt;
     &lt;figcaption&gt;
@@ -1954,6 +1962,11 @@ Considering that the importance of predictive coding and un/self-supervised lear
 &lt;/div&gt;
 
 &lt;h2 id=&quot;우에노의-밤&quot;&gt;우에노의 밤&lt;/h2&gt;
+
+&lt;p&gt;몇 시간 지나지 않아, 저녁 무렵 도쿄 나리타 공항에 도착했다. 나리타 공항은 도쿄 시내에서 꽤 떨어져 있다는 점이 익히 알려져 있었기 때문에, 지하철을 잘못 타지 않을까 걱정이 컸다. 한두 시간쯤 지났을까, 마침내 우에노 역에 도착했다. 숙소에 짐을 간단히 풀고 나서 바로 역 아래에 있는 술집으로 향했다. 신선한 해산물 안주와 함께 맥주를 한잔하는 순간, 그동안의 갈증이 한꺼번에 풀리는 듯했다. 물 한 모금도 제대로 마시지 못한 채 일주일 치 짐을 옮겼던 터라, 그 맥주의 상쾌함은 잊을 수 없을 만큼 특별했다.&lt;/p&gt;
+
+&lt;p&gt;우에노 역 밑 번화가는 활기차면서도 묘한 운치가 있었다. 몇 분마다 머리 위로 전철이 지나가는 소리가 들렸고, 그 소음에 맞춰 사람들이 더 크게 말하는 듯한 분위기였다. 그 소란스러움 속에서도 묘한 편안함이 느껴졌다.&lt;/p&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
     &lt;figure&gt;
@@ -1970,6 +1983,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
     &lt;/figure&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+
+&lt;p&gt;내가 예약한 숙소는 도미토리였고, 10명 정도가 한 방에서 좁은 침대를 사용했다. 여행 경비를 아끼기 위해 선택한 곳이었지만, 7일간 머무르는 동안 불편함은 전혀 없었다. 화장실과 샤워실은 항상 깨끗이 유지되어 있어 만족스러웠다. 첫날 밤, 공항에서 시내로 이동한 피로와 맥주 한잔에 취해 금세 깊은 잠에 빠졌다.&lt;/p&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
@@ -1990,6 +2005,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
 
 &lt;h1 id=&quot;20240630&quot;&gt;2024/06/30&lt;/h1&gt;
 
+&lt;p&gt;도쿄대학으로 가는 길은 마치 신촌의 어느 대학가를 연상케 하는, 넓지 않지만 정돈된 느낌의 길이었다. 지친 얼굴의 학생들이 가방을 끌고 함께 내렸고, 길가에는 작은 회사들의 간판이 눈에 띄었다. 그들의 조화로운 배치가 묘하게 시선을 끌었다. 가는 길에 우연히 도쿄대학의 명물인 붉은 문, 아카몬을 마주했다. 일본에서는 입시를 앞두고 이 문 앞에서 기도하는 미신이 있다고 들었던 것 같다. 실제로 보니, 붉은색의 문이 주는 웅장함과 강렬함이 인상적이었다.&lt;/p&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
     &lt;figure&gt;
@@ -2009,6 +2026,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
 
 &lt;h2 id=&quot;위성-워크샵-1-의식에-대한-구조적-접근&quot;&gt;위성 워크샵 1: 의식에 대한 구조적 접근&lt;/h2&gt;
 
+&lt;p&gt;일요일 아침, 학회 시작 전 열리는 위성 학회에 참석하기 위해 서둘러 일어났다. 도쿄대학의 아카몬을 지나 경제학부 건물을 통과해 도착한 곳은 이토 홀. 이곳은 일반적으로 학생들에게조차 개방되지 않는다고 알려진 곳이었다. 실제로 보안이 꽤 철저했고, 내부 건물의 세부 양식은 정교하고 예술적이었다. 특히 천장의 기하학적 구조가 수학을 전공한 내 눈을 사로잡았다. 셀 수 없을 만큼 복잡한 다각형 패턴들이 매력적이었다.&lt;/p&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
     &lt;figure&gt;
@@ -2026,6 +2045,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
   &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;p&gt;오늘의 위성 학회 주제는 “의식에 대한 구조적 접근”이었고, 통합 정보 이론(IIT; Integrated Information Theory)에 관한 워크샵이 진행되었다. 최근 호주의 모나쉬 대학교에서 의식 연구에 많은 자금이 투입되면서, 일본의 저명한 의식 연구자들이 그곳에 임용된 사실을 알고 있었다. 오늘 발표는 모나쉬 대학의 나오 츠치야 교수의 강의로 시작하여, 워크샵은 통합 정보 이론의 창시자인 줄리오 토노니의 강연으로 마무리되었다. 새로운 연구 프로그램과 미래의 연구 방향에 대해 깊이 있게 논의할 수 있는 뜻깊은 시간이었다.&lt;/p&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
     &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/1-6.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
@@ -2037,6 +2058,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
 
 &lt;h2 id=&quot;이케부쿠로에서-맛있는-저녁&quot;&gt;이케부쿠로에서 맛있는 저녁&lt;/h2&gt;
 
+&lt;p&gt;학회가 끝나고 이케부쿠로로 이동해 주변 맛집을 찾았다. 원래는 조금 더 일찍 도착해 이케부쿠로 시내를 둘러볼 계획이었지만, 학회의 열기 속에 시간을 잊어 오후 8시가 가까운 시간에야 도착했다. 미리 알아둔 규카츠 맛집으로 급히 향해 약 20~30분 정도 대기했다. 주변을 둘러보니 한국인 여행자들이 앞뒤로 서 있었다. 나는 혼자였지만, 왠지 모르게 묘한 동질감과 애틋함이 느껴졌다. 규카츠는 한국에서 먹었던 것과는 확실히 달랐다. 오래된 개인 화로에서 직접 고기를 구워 먹는 방식과 고기의 부드러움이 인상적이었고, 잊을 수 없는 한 끼였다.&lt;/p&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
     &lt;figure&gt;
@@ -2046,7 +2069,7 @@ Considering that the importance of predictive coding and un/self-supervised lear
       &lt;/figcaption&gt;
     &lt;/figure&gt;
     &lt;figure&gt;
-      &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
+      &lt;video width=&quot;50%&quot; controls=&quot;&quot;&gt;
         &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/2-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
       &lt;/video&gt;
       &lt;figcaption&gt;
@@ -2059,6 +2082,10 @@ Considering that the importance of predictive coding and un/self-supervised lear
 &lt;h1 id=&quot;20240701&quot;&gt;2024/07/01&lt;/h1&gt;
 
 &lt;h2 id=&quot;위성-워크샵-2-지각적-메타인지&quot;&gt;위성 워크샵 2: 지각적 메타인지&lt;/h2&gt;
+
+&lt;p&gt;두 번째 위성 워크샵의 주제는 의식 이론 중 하나인 고차 사고 이론(HOT; Higher-Order Thought Theory)으로, 메타인지를 중심으로 진행되었다. 이번 학회는 도쿄대학이 아닌 와세다 대학에서 열렸으며, 번화가에 조금 더 가까운 위치에 있었다. 워크샵은 고차 사고 이론의 창시자인 하콴 라우의 강의로 시작되었다. 젊어 보이는 그는 특유의 재치 있는 입담으로 학회의 분위기를 한층 밝고 유쾌하게 이끌었다. 특히, 그가 올해 9월 한국의 기초과학연구원(IBS)에 디렉터로 온다는 이야기를 듣고, 잠시 그와 대화를 나눌 기회도 있었다.&lt;/p&gt;
+
+&lt;p&gt;인공지능과 관련된 일을 하고 있는 나로서는 기계의 의식에 대한 다양한 발표가 더욱 흥미로웠다. 특히, 인공지능과 인지 신경과학의 관심사와 차이점을 비교한 슬라이드가 인상 깊게 남았다. 이 발표들은 나에게 AI와 인간 의식 간의 복잡한 연결고리를 다시 한 번 생각하게 했고, 앞으로의 연구 방향에 대한 새로운 통찰을 제공해 주었다.&lt;/p&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
@@ -2079,6 +2106,10 @@ Considering that the importance of predictive coding and un/self-supervised lear
 
 &lt;h2 id=&quot;인생-첫-신주쿠&quot;&gt;인생 첫 신주쿠&lt;/h2&gt;
 
+&lt;p&gt;며칠 전, 친구에게 도쿄로 떠난다는 소식을 전했었다. 우연히도 친구는 자신의 지인 중 한 명이 도쿄와 오래된 인연이 있다며, 나에게 그녀를 만나보라고 권했다. 그렇게 신주쿠에서 그녀와 만나기로 했다. 신주쿠 역에서 내린 후, 마주보는 건물 앞에서 그녀를 기다리며 신호등이 몇 차례 바뀌고 수많은 사람들이 지나가는 풍경을 지켜보았다. 그 광경 속에서 묘한 편안함이 느껴졌다. 그녀도 신주쿠 같은 번화가는 자주 오지 않는다며, 나와 함께 여행을 하는 기분이 든다고 했다.&lt;/p&gt;
+
+&lt;p&gt;우리는 신주쿠에서 유명한 가부키초 거리를 걸었다. 한국으로 치면 홍대나 신촌과 비슷한 분위기의 거리였지만, 동시에 일본의 어두운 일면을 엿볼 수 있는 흥미로운 장소였다.&lt;/p&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
     &lt;figure&gt;
@@ -2095,6 +2126,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
     &lt;/figure&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+
+&lt;p&gt;가부키초 거리를 지나 뒷골목으로 조금 더 들어가니, 형형색색의 간판들이 반짝이는 화려한 골목이 펼쳐졌다. 이곳은 ‘골든 가이’라고 불리는데, 일본이 버블 경제를 겪기 직전의 행복하고 아름다운 청춘이 담겨 있는 공간이라고 했다. 간판과 건물들이 보석처럼 반짝이며 독특한 분위기를 자아냈다. 마지막으로 ‘오모이데요코초’라는 붐비는 거리를 지나 도쿄역으로 돌아왔고, 우리는 아쉬움을 뒤로 한 채 헤어졌다.&lt;/p&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
@@ -2117,6 +2150,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
 
 &lt;h2 id=&quot;첫-학회-일정&quot;&gt;첫 학회 일정&lt;/h2&gt;
 
+&lt;p&gt;첫 학회 일정은 화요일에 시작되었다. 이토 홀과 여러 건물에는 학회장을 안내하는 표지판이 걸려 있었다. 구름이 끼고 바람이 강하게 불던 날들과 달리, 이날은 해가 강하게 내리쬐었고 걷기만 해도 땀이 흘렀다.&lt;/p&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
     &lt;figure&gt;
@@ -2133,6 +2168,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
     &lt;/figure&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+
+&lt;p&gt;점심을 먹기 위해 구글 지도에서 평점이 좋은 라멘 가게를 찾아갔다. 친절한 설명과 함께 자리를 안내받았고, 이 라멘집은 재즈와 알앤비 음악을 무한재생하는 독특한 분위기를 가지고 있었다. 대표 메뉴인 쿠로 라멘은 한국에서도 쉽게 접할 수 있는 탄탄멘 스타일로, 적당히 매콤하면서도 깊은 맛을 주는 한 끼였다.&lt;/p&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;three-fig-container&quot;&gt;
@@ -2159,6 +2196,10 @@ Considering that the importance of predictive coding and un/self-supervised lear
 
 &lt;h2 id=&quot;우에노-공원-산책&quot;&gt;우에노 공원 산책&lt;/h2&gt;
 
+&lt;p&gt;시간이 잠시 비어서, 학교 근처에 위치한 우에노 공원을 찾았다. 공원으로 가는 길이 너무 더워 일본에서 유명한 코메다 커피에서 한잔하며 더위를 식혔다. 커피의 맛과 품질이 예상보다 훨씬 좋았다.&lt;/p&gt;
+
+&lt;p&gt;우에노 공원은 곳곳에 문화재와 문화 시설이 자리하고 있었다. 공원을 지나며 마주한 절은 고즈넉하고 운치 있는 분위기를 자아내며 나를 편안하게 만들어 주었다.&lt;/p&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;three-fig-container&quot;&gt;
     &lt;figure&gt;
@@ -2181,6 +2222,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
     &lt;/figure&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+
+&lt;p&gt;공원 안에는 국립서양미술관, 국립박물관, 도쿄도립미술관 같은 유명한 문화 시설들이 자리 잡고 있었다. 국립서양미술관은 프랑스의 유명 건축가 르 꼬르뷔지에가 설계한 것으로 유명했고, 그 외부는 추상적이면서도 공원과 조화를 이루고 있었다. 미술관 마당에는 로댕의 작품들이 전시되어 있었는데, 특히 ‘생각하는 남자’, ‘칼레의 시민’, ‘지옥문’ 같은 유명 작품들을 자유롭게 감상할 수 있었다. ‘지옥문’은 그 크기와 디테일로 인해 시간이 멈춘 듯한 압도적인 느낌을 주었다.&lt;/p&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;three-fig-container&quot;&gt;
@@ -2205,6 +2248,8 @@ Considering that the importance of predictive coding and un/self-supervised lear
   &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;p&gt;국립서양미술관이 전통적인 서양 미술의 계보를 잇는다면, 도쿄도립미술관은 현대미술을 지원하는 공간으로, 입구부터 다양한 형태의 설치 작품들이 시선을 사로잡았다. 여러 전시를 둘러보며 도쿄의 예술적 다양성을 깊이 있게 느낄 수 있었다.&lt;/p&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;three-fig-container&quot;&gt;
     &lt;figure&gt;
@@ -2228,24 +2273,28 @@ Considering that the importance of predictive coding and un/self-supervised lear
   &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;p&gt;여러 전시를 둘러본 후, 주변에 있는 절들을 방문했다. 절들은 세월의 흔적이 고스란히 느껴질 만큼 오래된 장소였고, 그 속에서 전통적인 분위기가 진하게 배어 나오는 것을 경험할 수 있었다. 고요하면서도 고즈넉한 그 공간은, 마치 시간의 흐름에서 벗어난 듯한 느낌을 주었다.&lt;/p&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
     &lt;figure&gt;
       &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-12.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
       &lt;figcaption&gt;
-        학회장 안내를 위한 표지판.
+        우에노 공원에 있는 절1.
       &lt;/figcaption&gt;
     &lt;/figure&gt;
     &lt;figure&gt;
       &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-13.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
       &lt;figcaption&gt;
-        학회장 안내를 위한 팸플렛.
+        우에노 공원에 있는 절2.
       &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&quot;오프닝-키노트-준-타니&quot;&gt;오프닝 키노트: 준 타니&lt;/h2&gt;
+
+&lt;p&gt;인지과학 기반의 로보틱스로 유명한 준 타니 교수님의 오프닝 키노트를 들으러 야스다 강당으로 향했다. 이 강당 또한 평상시에는 출입을 엄격하게 관리할 정도로 높은 강도의 보안으로 유지된다고 한다. 발표를 듣는 내내 예술적인 샹들리에와 벽화를 보며 감탄이 나왔던 것 같다. 데카르트에서 바렐라까지 철저한 철학적인 분석 아래 새로운 연구 패러다임을 만들고 정진한 교수님의 연구를 통해 굉장히 놀라웠다. 더 나아가 최근에는 정보 이론 기반의 능동 추론을 적용하는 바도 소개되어 굉장히 흥미로웠다.&lt;/p&gt;
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
@@ -2258,9 +2307,11 @@ Considering that the importance of predictive coding and un/self-supervised lear
 
 &lt;h2 id=&quot;긴자에서의-환영회&quot;&gt;긴자에서의 환영회&lt;/h2&gt;
 
+&lt;p&gt;첫 만찬회는 긴자에 있는 호텔 로비에서 진행되었다. 하루 종일 학회 일정으로 꽤나 바빴을텐데,&lt;/p&gt;
+
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
+    &lt;video width=&quot;50%&quot; controls=&quot;&quot;&gt;
       &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/5.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     &lt;/video&gt;
     &lt;figcaption&gt;
@@ -2516,7 +2567,7 @@ Considering that the importance of predictive coding and un/self-supervised lear
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
+    &lt;video width=&quot;50%&quot; controls=&quot;&quot;&gt;
       &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     &lt;/video&gt;
     &lt;figcaption&gt;
@@ -2663,7 +2714,7 @@ Considering that the importance of predictive coding and un/self-supervised lear
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;figure&gt;
-    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
+    &lt;video width=&quot;50%&quot; controls=&quot;&quot;&gt;
       &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/5.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     &lt;/video&gt;
     &lt;figcaption&gt;
