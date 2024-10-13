@@ -13,11 +13,11 @@ toc: true
 toc_sticky: true
 toc_label: "도쿄에서의 의식과학연합학술회"
 category: Movement
-tags: [의식, 과학, 신경과학, 정보과학, 물리학, 철학, 학회, 워크샵, 만남]
+tags: [의식, 학회, 워크샵, 만남, 네트워크]
 lang: kr
 header:
-  teaser: "/assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.jpeg"
-image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.jpeg
+  teaser: "/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/5.jpg"
+image: assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/5.jpg
 ---
 
 <style>
@@ -327,7 +327,7 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
   </div>
 </div>
 
-점심을 먹기 위해 구글 지도에서 평점이 좋은 라멘 가게를 찾아갔다. 친절한 설명과 함께 자리를 안내받았고, 이 라멘집은 재즈와 알앤비 음악을 무한재생하는 독특한 분위기를 가지고 있었다. 대표 메뉴인 쿠로 라멘은 한국에서도 쉽게 접할 수 있는 탄탄멘 스타일로, 적당히 매콤하면서도 깊은 맛을 주는 한 끼였다.
+점심을 먹기 위해 구글 지도에서 평점이 좋은 라멘 가게를 찾아갔다. 친절한 설명과 함께 자리를 안내받았고, 이 라멘집은 재즈와 알앤비 앨범 하나만 재생하는 독특한 분위기를 가지고 있었다. 대표 메뉴인 라멘은 한국에서도 쉽게 접할 수 있는 탄탄멘 스타일로, 적당히 매콤하면서도 깊은 맛을 주는 한 끼였다.
 
 <div class="centered-container">
   <div class="three-fig-container">
@@ -340,7 +340,7 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
     <figure>
       <img src="/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/2-2.jpg" style="width: 80%; height: auto;">
       <figcaption>
-        검은 색의 라멘.
+        맛있게 먹은 라멘.
       </figcaption>
     </figure>
     <figure>
@@ -465,7 +465,7 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
 
 ## 긴자에서의 환영회
 
-첫 만찬회는 긴자에 있는 호텔 로비에서 진행되었다. 하루 종일 학회 일정으로 꽤나 바빴을텐데,
+첫 만찬회는 긴자의 한 호텔 로비에서 열렸다. 하루 종일 학회 일정으로 바빴을 텐데도, 모두들 정신없이 새로 만난 사람들과 대화를 나누느라 분주했다. 나 역시 언젠가 이 커뮤니티 안에서 이름을 알리는 사람이 되기를 바라며, 다양한 사람들과 대화를 시도해 보았다. 그 중 옆자리에 앉아 계신 교수님은 CALTECH의 신스케 시모조 교수님이었다. KAIST에서 유명한 이상완 교수님의 지도 교수 중 한 분으로 알고 있었기에, 우연히 만나 뵙게 되어 반가움과 신기함이 교차했다.
 
 <div class="centered-container">
   <figure>
@@ -481,6 +481,8 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
 # 2024/07/03
 
 ## 도쿄대학교 산책하기
+
+바쁜 학회 일정 중 남는 시간이 생기면 나는 일단 걸었다. 새로운 학교의 풍경을 눈에 담고 이색적인 분위기를 만끽하고 싶었기 때문이다. 도쿄대학교의 건물들은 대부분 서양식 건축 양식을 따르고 있었으며, 특히 입구의 장식이 정말 매력적이었다. 건물과 가로수의 배치는 정교하게 설계된 느낌을 주었다.
 
 <div class="centered-container">
   <div class="three-fig-container">
@@ -505,6 +507,8 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
   </div>
 </div>
 
+건물들 사이사이의 작은 쉼터들조차 운치가 있었다. 산책을 하며 무거운 노트북이 내 어깨를 짓눌렀지만, 그만한 가치가 있는 산책이었다. 땡볕 아래 걸으며 땀을 흘리지 않을 수 없었지만, 학교 옆에 있는 메론 소다로 유명한 카페에 들러 잠시 더위를 식혔다. 가는 길에는 작은 신사도 있었는데, 오래된 건축물의 고요한 아름다움에 발걸음을 멈추고 한참을 바라보았다.
+
 <div class="centered-container">
   <div class="three-fig-container">
     <figure>
@@ -528,6 +532,8 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
   </div>
 </div>
 
+그렇다고 땡볕 아래에서 땀을 흘리지 않을 수는 없었다. 뚝뚝 떨어지는 땀을 식히기 위해, 학교 옆 메론 소다로 유명한 카페를 찾아갔다. 가는 길에 작은 신사가 있었는데, 오래된 건축물이 눈에 띄었다. 그 고풍스러운 모습에 발걸음을 멈추고 한참을 바라보았다. 마치 그 신사가 세월의 흐름을 그대로 간직한 채, 고요하게 나를 맞이하는 것 같았다.
+
 <div class="centered-container">
   <div class="three-fig-container">
     <figure>
@@ -545,13 +551,15 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
     <figure>
       <img src="/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/3-4.jpg" style="width: 80%; height: auto;">
       <figcaption>
-        도쿄도립미술관에 설치된 조형물6.
+        도쿄대학 주변 거리의 조형물3.
       </figcaption>
     </figure>
   </div>
 </div>
 
 ## 학회 일정
+
+꽤 오랫동안 알고 지낸 한국인 대학원생이 있었는데, 그 분의 발표를 듣고 사진도 찍어주기 위해 발표장에 방문했다. 발표장으로 운영된 후쿠타케 빌딩은 최근의 건축 양식으로 지어졌으며, 지하 3층부터 지상까지 한눈에 볼 수 있는 독특한 구조를 가지고 있었다. 층마다 이어지는 계단을 보니 마치 에셔의 상대성 작품이 떠오르고, 영화 인셉션의 장면들이 겹쳐졌다. 그 공간은 현실과 비현실이 뒤섞인 듯한 기묘한 분위기를 자아냈다.
 
 <div class="centered-container">
   <div class="three-fig-container">
@@ -578,6 +586,8 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
 
 ## 대학 동기 만나기
 
+학회 일정을 마친 후, 현재 도쿄대에서 유학 중인 대학 동기와 저녁을 함께 하기로 했다. 코로나 때문에 친구를 오랫동안 보지 못했는데, 오랜만에 만나 대화를 나눌 수 있어 정말 행복한 시간이었다. 저녁은 도쿄대 학생들에게 추천받은 곳에서 오코노미야키를 시켰다. 맛도 양도 만족스러웠고, 추가로 시킨 동파육도 입안에서 녹을 정도로 훌륭했다. 친구와 함께 과거의 추억을 되새기며, 미래의 계획과 꿈에 대해서도 깊이 있는 이야기를 나눴다. 코로나로 인해 이렇게 마음이 맞는 친구와 자주 만나지 못한 것이 더욱 아쉽게 느껴지는 순간이었다.
+
 <div class="centered-container">
   <div class="two-fig-container">
     <figure>
@@ -598,6 +608,10 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
 # 2024/07/04
 
 ## 학회 일정
+
+이 날은 학계에서 저명한 교수님들이 심리철학의 기능주의적 입장에 대해 논의하는 심포지엄이 있었다. 네드 블록 교수님의 재치 넘치는 발표로 시작해, 메타인지 연구로 유명한 스티븐 플레밍 교수님과 영국에서 의식에 대한 예측 코딩 이론을 연구하는 아닐 세스 교수님께서 자유롭게 논의를 이어갔다.
+
+평소에 나와 지인들이 즐겁게 나누던 주제들이 이렇게 심도 깊고 형식적으로 이루어지는 모습을 보니, 그 자리에 있는 것만으로도 뿌듯했다. 앞으로 이 학계에서 젊은 세대로서 중요한 역할을 할 수 있다면 얼마나 보람찰까 하는 생각과 함께, 내 미래에 대한 희망과 결심을 다시 한 번 다지게 되었다.
 
 <div class="centered-container">
   <div class="three-fig-container">
@@ -624,6 +638,8 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
 
 ## 만찬회
 
+두 번째 만찬회는 도쿄에서 가장 크고 유명한 오타니 호텔에서 열렸다. 이번 학회를 통해 많은 친구들과 친분을 쌓았고, 이번 만찬회에서 그 친구들의 친구들을 소개받고 새로운 인연을 만들 수 있을 거라는 기대를 안고 참석했다. 먼저 아직 대화해보지 못했던 한국인 연구자들과 인사를 나누었고, 도쿄대에서 석사 과정을 하고 있는 친구들과도 만날 수 있었다. 그중 한 친구와는 읽은 책의 순서까지 동일했다는 우연한 공통점에 서로 놀라워하며, 선 채로 30분 동안 대화를 나눴다.
+
 <div class="centered-container">
   <div class="two-fig-container">
     <figure>
@@ -640,6 +656,8 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
     </figure>
   </div>
 </div>
+
+만찬회장의 풍경도 매우 인상적이었다. 인공적으로 조성된 폭포와 호수가 어우러진 아름다운 절경이 눈길을 사로잡았다. 첫 번째 만찬회보다도 더 뜨거운 열기 속에서, 사람들 간의 유대감이 더욱 깊어지고 관계가 돈독해지는 시간이었던 것 같다.
 
 <div class="centered-container">
   <div class="two-fig-container">
@@ -663,6 +681,8 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
 </div>
 
 # 2024/07/05
+
+아침 일찍 일어나 주변에 유명한 브런치 집을 찾아갔다. 그곳은 정말로 일본 현지인들이 자주 찾는 가게였고, 안에는 출근 전 신문을 읽으며 담배를 피우는 직장인들로 가득했다. 나는 간단히 프렌치 토스트와 커피를 주문하고, 가게 내부의 인테리어와 장식들을 천천히 둘러보았다. 한쪽 벽에 걸려 있던 우키요에는 유럽식 아침과는 대조되면서도 일본 전통의 분위기를 물씬 풍겼다. 이 은근한 조화 속에서 즐거운 한 끼 식사를 마칠 수 있었다.
 
 <div class="centered-container">
   <div class="three-fig-container">
@@ -689,6 +709,8 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
 
 ## 한국인 연구자 모임
 
+전부터 알고 있던 대학원생이 한국인 참석자들을 모두 조사해 점심 시간을 마련해 주었다. 안타깝게도 모임을 기획한 분은 전날 있었던 발표 준비 때문인지 컨디션이 좋지 않아 참석하지 못했다. 대신 내가 모임을 주도해 예약한 식당으로 이동했다. 이번 모임에서 만난 한국 연구자들의 배경은 매우 다양했다. 물리학, 마취학, 철학, 신경과학, 심리학, 의학에 이르기까지 각기 다른 분야에서 활발히 활동 중인 분들이 많았고, 특히 해외에서 연구하는 이들이 꽤 많았다. 한국에서도 이렇게 많은 사람들이 인간의 마음과 의식에 대해 깊은 관심을 가지고 있다는 사실을 깨닫게 된 좋은 시간이었다. 앞으로도 인연이 이어지길 바라며 모임을 마무리했다.
+
 <div class="centered-container">
   <figure>
     <img src="/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/2-1.jpg" style="width: 60%; height: auto;">
@@ -699,6 +721,8 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
 </div>
 
 ## 산지로 연못 산책
+
+점심 식사 후, 시간이 남아 도쿄대학 내 산지로 연못을 산책했다. 이곳은 일본의 문학 거장 나쓰메 소세키가 자주 산책했던 장소이자, 그의 소설 산지로의 배경이 된 곳이기도 하다. 도쿄대학의 바쁜 중앙에 위치해 있음에도 불구하고, 산지로 연못은 놀라울 만큼 고요하고 평화로운 공간이었다. 잔잔한 수면을 보며 마치 시간이 멈춘 듯한 느낌이 들었고, 조용한 시간대라 혼자서 연못 주위를 천천히 둘러볼 수 있었다.
 
 <div class="centered-container">
   <div class="three-fig-container">
@@ -723,6 +747,8 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
   </div>
 </div>
 
+산책 중에 다리가 불편해 보이는 한 외국인 학생이 연못을 바라보며 깊은 사색에 잠겨 있는 모습을 보았다. 그 모습이 왠지 마음에 남아 신경이 쓰였다.
+
 <div class="centered-container">
   <figure>
     <video width="50%" controls>
@@ -733,6 +759,8 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
     </figcaption>
   </figure>
 </div>
+
+산지로 연못에서 나와 다시 도쿄대학의 건물들을 둘러보았다. 연못의 고요함과는 완전히 대조되는 서양식 건축물을 보니, 마치 연못이 꿈속에 있던 공간처럼 느껴졌다.
 
 <div class="centered-container">
   <div class="three-fig-container">
@@ -759,12 +787,14 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
 
 ## 시부야의 밤
 
+학회의 마지막 날, 학회 측에서 시부야에 있는 한 클럽을 뒷풀이 장소로 대관했다. 이른 시간에 도착해서인지 사람들은 테이블에 앉아 담소를 나누고 있었다. 도쿄에서 남은 시간을 좀 더 알차게 보내기 위해, 친구가 추천해 준 시부야의 한 바를 찾았다. 뒷풀이 장소에서 멀지 않은 곳에 위치한 이 바는 자수정처럼 돌 속에서 피어난 보석을 의미하는 이름을 가지고 있었다. 칵테일 두 잔을 마시니 취기가 올라왔고, 1시간도 채 되지 않아 숙소로 돌아갔다.
+
 <div class="centered-container">
   <div class="three-fig-container">
     <figure>
       <img src="/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/4-2.jpg" style="width: 100%; height: auto;">
       <figcaption>
-        긴자의 바.
+        시부야의 바.
       </figcaption>
     </figure>
     <figure>
@@ -786,47 +816,53 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
 
 ## 아사쿠사 탐방
 
+이 날은 자유시간이 주어진 유일한 날이었다. 일본인 지인과 함께 아사쿠사를 탐방했는데, 정말 많은 인파로 붐비고 있었다. 붉은색과 금색으로 칠해진 절은 강렬하면서도 아름다웠다. 본당에서는 사람들이 동전을 던져 기도를 하거나 사주가 적힌 종이를 뽑는 모습을 볼 수 있었다. 나는 길운이 나왔지만, 함께한 지인은 흉운이 나와 그 종이를 묶어두고 나왔다.
+
 <div class="centered-container">
   <div class="three-fig-container">
     <figure>
       <img src="/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/1-2.jpg" style="width: 80%; height: auto;">
       <figcaption>
-        긴자의 바.
+        아사쿠사의 정면 사진.
       </figcaption>
     </figure>
     <figure>
       <img src="/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/1-5.jpg" style="width: 80%; height: auto;">
       <figcaption>
-        정말 맛있게 먹은 칵테일1.
+        아사쿠사 내부에 있는 절.
       </figcaption>
     </figure>
     <figure>
       <img src="/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/1-6.jpg" style="width: 75%; height: auto;">
       <figcaption>
-        정말 맛있게 먹은 칵테일2.
+        핵심 건물.
       </figcaption>
     </figure>
   </div>
 </div>
+
+점심 식사 후에는 멀리 떨어지지 않은 곳에서 견우와 직녀 관련 축제가 열리고 있었다. 다양한 주방용품부터 칼, 커피 기구 등 여러 소품이 거래되는 시장이었고, 일본 특유의 아기자기한 소품들이 눈에 띄었다.
 
 <div class="centered-container">
   <div class="two-fig-container">
     <figure>
       <img src="/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/2-1.jpg" style="width: 70%; height: auto;">
       <figcaption>
-        호텔 오타니에서 열린 두번째 만찬회.
+        견우와 직녀 축제 사진1.
       </figcaption>
     </figure>
     <figure>
       <img src="/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/2-2.jpg" style="width: 75%; height: auto;">
       <figcaption>
-        학회장 입구에서의 사진.
+        견우와 직녀 축제 사진2.
       </figcaption>
     </figure>
   </div>
 </div>
 
 ## 긴자에서 쇼핑하기
+
+지인과 헤어진 후, 긴자에 있는 문구점을 찾았다. 처음 방문한 곳은 수제 상품들로 가득 찬 오래된 문구점이었다. 그러나 가격대가 높아 다른 곳으로 이동했다. 두 번째로 방문한 곳은 실용적이고 비교적 저렴한 문구류를 판매하는 곳이었으며, 건물 전체가 문구점으로 구성되어 있었다. 7~8층까지 다양한 문구류를 구경하며 간단한 스케치 용품을 구매하고 나왔다.
 
 <div class="centered-container">
   <div class="two-fig-container">
@@ -846,6 +882,8 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
 </div>
 
 ## 장어 덮밥
+
+저녁이 되자 장어 덮밥을 먹기 위해 오래된 간판이 눈에 띄는 백화점 뒤쪽의 식당을 찾았다. 오픈 시간이 다가오자 일본 현지인들도 내 뒤로 줄을 서기 시작했고, 10~20분 정도 기다린 후 입장할 수 있었다. 주 메뉴는 삶은 장어와 구운 장어를 얹은 덮밥이었다. 마지막 저녁인 만큼, 나는 둘 다 올라간 메뉴를 선택했다. 장어는 삶은 것과 구운 것 모두 부드럽고 따뜻해서 한 입 한 입이 입안에서 녹는 듯했다. 특히 장어 뼈를 우린 차와 함께 먹으니 진정으로 감탄할 맛이었다. 결제를 하면서도 사장님께 일본어로 "정말 잘 먹었습니다"라고 연신 감사의 인사를 전했다.
 
 <div class="centered-container">
   <div class="three-fig-container">
@@ -884,6 +922,8 @@ image: assets/images/posts/2024/Q3/2024-08-01-Insights on Active Inference/AIF.j
 # 2024/07/07
 
 ## 안녕 도쿄
+
+이른 아침, 숙소를 떠나 다시 나리타 공항으로 향했다. 워낙 우리나라와 가까운 거리라서 이번 여행이 크게 아쉽진 않을 것이라 생각했지만, 막상 공항에 도착하니 마음속에 애틋함과 아쉬움이 더 크게 밀려왔다. 바쁜 학회 일정 속에서 틈틈이 여행까지 하려다 보니 체력적으로는 많이 지쳤지만, 가족들과 친구들에게 선물할 것들을 준비하면서 마음은 더 풍족해졌다. 나리타 공항에 도착해 활주로를 바라보니 어느새 시간이 훌쩍 지나 있었고, 출국을 기다리며 이번 여정이 내게 남긴 경험들과 앞으로 펼쳐질 새로운 도전에 대한 기대감으로 가슴이 벅차올랐다.
 
 <div class="centered-container">
   <div class="three-fig-container">
