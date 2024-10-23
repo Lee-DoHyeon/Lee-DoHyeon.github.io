@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "확률과 정보에 대한 고찰"
 scope:
   type: posts
@@ -18,7 +18,7 @@ lang: kr
 header:
   teaser: "/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/5.jpg"
 image: assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/5.jpg
----
+--- -->
 
 # 베이즈 두뇌 가설과 확률적 추론
 
