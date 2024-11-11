@@ -5,9 +5,418 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 23 Oct 2024 21:12:07 +0900</pubDate>
-        <lastBuildDate>Wed, 23 Oct 2024 21:12:07 +0900</lastBuildDate>
+        <pubDate>Mon, 11 Nov 2024 17:18:30 +0900</pubDate>
+        <lastBuildDate>Mon, 11 Nov 2024 17:18:30 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
+        
+            <item>
+                <title>절쉬만 교수의 젊은 연구자를 위한 조언</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+
+  /* 새로 추가된 스타일 */
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+
+  /* 새로 추가된 스타일 */
+  .three-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .three-fig-container figure {
+      width: calc(33% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .three-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+&lt;/style&gt;
+
+&lt;p&gt;본 글은 하버드 심리학 교수인 사무엘 절쉬만의 “&lt;a href=&quot;https://gershmanlab.com/docs/advice_young_investigators.pdf&quot;&gt;&lt;strong&gt;Advice for young
+investigators&lt;/strong&gt;&lt;/a&gt;” 발표 자료를 번역한 것으로, 갓 입학한 대학원생들이 어떤 프로젝트를 시작해야 하는지에 대한 친절한 설명을 담고 있다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-11-Advices for young investigator/gershman.png&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      사무엘 절쉬만. 출처: &lt;a href=&quot;https://news.harvard.edu/gazette/story/newsplus/psychology-professor-samuel-j-gershman-wins-polymath-award/&quot;&gt;The Harvard Gazette&lt;/a&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;1-문제-고르기&quot;&gt;1. 문제 고르기&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-11-Advices for young investigator/1.webp&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;많은 학생들이 대학원 과정을 시작하며 적절한 연구 프로젝트를 찾는 데 어려움을 겪는다. 학부생들은 과학을 지적 ‘활동’이 아닌 ‘지식 그 자체’를 배운다. 그 결과, 학부생들은 특정 주제에 대한 관심만 가지고 졸업하게 되지만, 그 관심을 가지고 실제로 무엇을 해야 할지는 거의 생각하지 않는다. 그런데, 과학은 &lt;strong&gt;&lt;em&gt;문제 해결 활동&lt;/em&gt;&lt;/strong&gt; 이다. 연구자는 &lt;strong&gt;(1)기존 이론으로 충분히 설명되지 않는 현상을 찾아내거나&lt;/strong&gt;, &lt;strong&gt;(2)기존 이론을 도전할 수 있는 새로운 현상을 제안&lt;/strong&gt;할 필요가 있다. 갓 입학한 대학원생에게 좋은 문제란 사람들이 중요하게 여기는 동시에 &lt;em&gt;박사과정 동안 해결 가능성이 있는 문제&lt;/em&gt; 여야 한다.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;2-강력한-문제&quot;&gt;2. 강력한 문제&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-11-Advices for young investigator/2.webp&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;영향력 있는 논문에서 &lt;a href=&quot;https://www.science.org/doi/10.1126/science.146.3642.347&quot;&gt;&lt;strong&gt;플랫(1964)&lt;/strong&gt;&lt;/a&gt;은 특정 분야가 다른 분야보다 더 빠르게 발전하는 이유로 ‘&lt;strong&gt;강력한 추론(strong inference)&lt;/strong&gt;‘의 활용을 꼽는다. 강력한 추론이란 대안 가설을 구별하기 위한 실험 설계가 가능하다는 뜻이다. 이 개념은 직관적이고 명백해 보이지만, 많은 과학은 명확하고 뚜렷한 예측을 가능하게 하는 이론 없이 수행된다. 많은 과학자들은 “일단 무언가를 측정하고, 그 측정치로부터 이론을 만들어보자”는 식의 태도를 취하는 것처럼 보인다. 그러나 저자의 관점에서, 실험 공간에서 무작위로 비틀거리며 탐색하는 것은 희망이 없다. 강한 추론을 가능하게 하는 문제를 ‘&lt;strong&gt;강력한 문제(strong puzzles)&lt;/strong&gt;‘라고 한다면, 젊은 연구자는 강력한 문제를 선택해야 한다! 즉, 여러 이론을 구별할 수 있는 설명되지 않은 현상을 찾아야 한다.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;3-작은-문제와-큰-문제&quot;&gt;3. 작은 문제와 큰 문제&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-11-Advices for young investigator/3.webp&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;우리 대부분은 당연히 큰 문제를 풀고 싶어한다. 하지만 큰 문제를 불확실한 전망을 가지고 오랜 시간 동안 붙잡고 있는 것은 건강에 &lt;em&gt;매우 해롭다&lt;/em&gt;. 큰 문제를 위해 수 년간 고생하는 것은 사기를 저하시키는 최고의 방법이다. 그래서 저자는 학생들에게 두 가지 시간 규모를 동시에 설정하여 작업할 것을 권한다. 단기적으로는 (월 단위) 작은 문제를 다루고, 장기적으로는 (년 단위) 큰 문제를 다루는 것이다. 크기가 아무리 작더라도 지적 성과를 생산하는 것에서 오는 심리적 효과는 결코 과소평가할 수 없다. 다양한 시간 규모로 작업하는 것은 지루함과 좌절감을 완화하는 데에도 큰 도움이 된다.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;4-명확하지-않은-부분&quot;&gt;4. 명확하지 않은 부분&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;과학은 아이디어를 너무 일찍 정식화하는 경향이 있다. 어떤 아이디어는 표면을 조금만 긁어보지 않으면 명확하고 잘 확립된 것처럼 보인다. 그러나 중요한 문제는, 우리가 종종 이론적 아이디어에 미치는 측정 과정의 영향을 간과한다는 점이다.&lt;/p&gt;
+
+&lt;p&gt;예컨대, 뇌에 수많은 지형적 지도(topographic maps)가 존재하는 이유에 대해 두 가지 가능성이 제시된다. 첫째, 지도는 뇌의 기본 조직 원리로서 기능하며, 신경 연결을 최소화해 신호 전달을 효율적으로 하기 위한 구조적 특징일 수 있다. 둘째, 우리가 연구 과정에서 지도 형태를 쉽게 찾아낼 수 있기 때문에 이런 지도가 자주 발견되는 것일 수도 있다. 즉, 뇌가 지도를 실제로 조직 원리로 사용하고 있을 가능성과, 연구자의 관점과 방법이 이러한 지도를 발견하게 만드는 요인이 동시에 작용할 수 있다는 것이다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-11-Advices for young investigator/drunkard.jpeg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;주정뱅이 탐색(The Drunkard’s Search)은 문제 해결과 정보 탐색 과정에서 사람들의 비합리적이고 편향된 행동을 설명하는 비유로, &lt;strong&gt;가로등 아래에서 열쇠를 찾는 취객의 이야기&lt;/strong&gt;에서 유래한다. 취객은 어두운 곳에서 열쇠를 잃어버렸지만, 찾기 쉬운 밝은 가로등 아래에서만 열쇠를 찾으려 하며, 이는 &lt;strong&gt;사람들이 쉽고 편리한 방법을 선호하고 실제로 중요한 곳보다 접근하기 쉬운 장소나 방법에 의존하는 경향&lt;/strong&gt;을 나타낸다. 이러한 경향은 정보 검색, 데이터 분석, 문제 해결, 심지어 과학 연구에서도 나타날 수 있으며, 연구자가 측정하기 쉬운 데이터나 익숙한 분석 방법에 의존할 때 중요한 정보를 놓칠 위험을 내포한다. 따라서 주정뱅이 탐색은 과학적 문제 해결에서 &lt;strong&gt;“접근 가능성 편향”(availability bias)&lt;/strong&gt;을 상징하며, 우리가 진정으로 탐색해야 할 곳이 아닌, 찾기 쉬운 곳에서만 답을 찾으려 할 때 발생하는 오류를 지적한다.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;5-멋져-보이려고-하자-말자&quot;&gt;5. 멋져 보이려고 하자 말자&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-11-Advices for young investigator/5.webp&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;모두가 멋진 방법론을 사용하여 멋진 주제를 연구하고 싶어 한다. 하지만 이는 곧 그 주제와 방법론이 많은 사람들로 붐비게 됨을 의미한다. 경쟁 속에서 사람들은 더욱 관대하지 않기에, 다른 사람에게 밀려날까 걱정되기도 할 것이다. 사람들이 분명 관심은 있지만 아직 연구하지 않은 문제를 찾는 것은 어렵다. 한 가지 방법은, 이론적 아이디어가 아직 충분히 정립되지 않아 강한 추론을 적용하기 어려운 분야를 찾아보는 것이다. 잘 정립된 이론은 백만 번의 실험에 맞먹는 가치를 지닌다. 멋 부리지 않으려면 용기와 창의성이 필요하다. 자신의 전문 분야를 넘어서 다양한 분야의 책을 읽어보자. 시와 소설, 철학과 역사도 공부하고, 때때로 오랜 산책을 하거나, 세상 속 미친 사람들에게 말을 걸어보자.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;6-흥미롭지만-틀린-이론을-향해&quot;&gt;6. 흥미롭지만 틀린 이론을 향해&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-11-Advices for young investigator/6.webp&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;이론은 종종 틀렸다는 비판을 받는다. 그러나 옳고 그름은 이론화의 유일한 목표가 아니다. 과학이 문제 해결 활동이라는 점을 기억하자. 즉, 과학은 고정된 지식 체계가 아닌 인식론적 실천(epistemic practice)이다. 이론화의 중요한 역할은 문제에 명료함을 더해줄 관점을 형식화하는 데 있다. 비록 틀린 이론이라도, “자연의 연결점을 조각함으로써” 문제를 정의하는 데 기여할 수 있다. 특히 처음으로 이론을 제안할 때는, 가능한 한 단순하고 명확하게 제시하는 것이 중요하다. 목표는 맞는 답을 제시하는 것이 아니라, 청중에게 현상을 바라보는 독특한 관점을 제공하는 것이다. 이론은 생각의 도구(Tools for Thinking)다.&lt;/p&gt;
+</description>
+                <pubDate>Mon, 11 Nov 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/Advices-for-young-investigator-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Advices-for-young-investigator-kr/</guid>
+                
+                <category>연구</category>
+                
+                <category>과학</category>
+                
+                <category>철학</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>Professor Gershman’s Advice for Young Researchers</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+      flex-wrap: wrap;
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px);
+      box-sizing: border-box;
+  }
+
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%;
+      }
+  }
+
+  .three-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+      flex-wrap: wrap;
+  }
+  .three-fig-container figure {
+      width: calc(33% - 20px);
+      box-sizing: border-box;
+  }
+
+  @media (max-width: 768px) {
+      .three-fig-container figure {
+          width: 100%;
+      }
+  }
+&lt;/style&gt;
+
+&lt;p&gt;This post is a translation of Harvard psychology professor Samuel Gershman’s presentation titled “&lt;a href=&quot;https://gershmanlab.com/docs/advice_young_investigators.pdf&quot;&gt;&lt;strong&gt;Advice for Young Investigators&lt;/strong&gt;&lt;/a&gt;.” It provides thoughtful guidance to help new graduate students navigate the process of choosing and starting a research project.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-11-Advices for young investigator/gershman.png&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Samuel Gershman. Source: &lt;a href=&quot;https://news.harvard.edu/gazette/story/newsplus/psychology-professor-samuel-j-gershman-wins-polymath-award/&quot;&gt;The Harvard Gazette&lt;/a&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;1-choosing-a-problem&quot;&gt;1. Choosing a Problem&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-11-Advices for young investigator/1.webp&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Many students struggle to find a suitable research project when they start graduate school. Undergraduate students often learn science as a body of knowledge, not as a set of intellectual activities. As a result, they graduate with interests in specific topics but little understanding of what to do with those interests. But science is fundamentally a &lt;strong&gt;&lt;em&gt;problem-solving activity&lt;/em&gt;&lt;/strong&gt;. A researcher needs to either &lt;strong&gt;(1) identify phenomena that are not well-explained by existing theories&lt;/strong&gt;, or &lt;strong&gt;(2) propose new phenomena that challenge current theories&lt;/strong&gt;. A good research problem for new graduate students is one that others consider important but is also feasible within the time frame of a Ph.D. program.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;2-strong-problems&quot;&gt;2. Strong Problems&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-11-Advices for young investigator/2.webp&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;In an influential paper, &lt;a href=&quot;https://www.science.org/doi/10.1126/science.146.3642.347&quot;&gt;&lt;strong&gt;Platt (1964)&lt;/strong&gt;&lt;/a&gt; suggested that some fields advance faster than others because they make use of ‘&lt;strong&gt;strong inference&lt;/strong&gt;‘—a method of designing experiments that can distinguish between alternative hypotheses. Although this approach seems intuitive, many scientists operate without theories that generate clear, testable predictions. Some adopt a “measure first, theorize later” attitude, which often leads to a random walk through experimental space. A ‘strong problem’ is one that lends itself to strong inference, meaning that a young researcher should seek out unexplained phenomena that could differentiate between competing theories.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;3-little-problems-and-big-problems&quot;&gt;3. Little Problems and Big Problems&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-11-Advices for young investigator/3.webp&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Most of us naturally want to tackle big problems, but holding on to an ambitious problem with uncertain prospects for years can be &lt;em&gt;harmful to your well-being&lt;/em&gt;. Spending years on a daunting project with uncertain outcomes can be a recipe for demoralization. Therefore, Gershman suggests that students work on two different time scales: focus on small, short-term problems (months) while gradually making progress on larger, long-term problems (years). No matter how small the intellectual output may seem, its psychological benefits should not be underestimated. Working on problems of varying scales can also help alleviate feelings of boredom and frustration.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;4-embracing-uncertainty&quot;&gt;4. Embracing Uncertainty&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;Science often canonizes ideas prematurely. Certain theories may seem solid and well-established until you examine them closely. However, an important issue is that we sometimes overlook how the measurement process impacts our theoretical ideas.&lt;/p&gt;
+
+&lt;p&gt;For example, why does the brain have so many topographic maps? Two possible explanations emerge. First, maps may serve as an organizational principle, minimizing neural wiring for efficient signal transmission. Alternatively, we may find maps simply because we know how to look for them. In other words, the use of maps as an organizing principle and the bias in our measurement techniques could both play a role.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-11-Advices for young investigator/drunkard.jpeg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;The Drunkard’s Search is a metaphor for irrational and biased behavior in problem-solving. The term originates from the tale of a drunk man searching for his keys under a streetlight, even though he lost them in a dark area. This story illustrates how people often prefer easy, accessible methods over more difficult but important ones, a tendency known as &lt;strong&gt;availability bias&lt;/strong&gt;. This concept is relevant in scientific research when we risk missing crucial information by relying on easily accessible data or familiar methods.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;5-dont-try-to-be-cool&quot;&gt;5. Don’t Try to Be Cool&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-11-Advices for young investigator/5.webp&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Everyone wants to work on “cool” topics with “cool” methods, but this often leads to a crowded field. Competition can make people less generous, and you may worry about being scooped. Finding problems that people care about but aren’t yet working on can be challenging. One approach is to look for areas where theoretical ideas are underdeveloped, making strong inference difficult to apply. A well-formulated theory can be worth a million experiments. Avoiding the temptation to be cool requires courage and creativity. Read outside your specialty—explore poetry, novels, philosophy, history. Take long walks and talk to people with unique perspectives.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;6-pursue-interesting-but-wrong-theories&quot;&gt;6. Pursue Interesting but Wrong Theories&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-11-Advices for young investigator/6.webp&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Theories are often criticized for being wrong, but being correct is not the sole purpose of theorizing. Science is an epistemic practice, not a fixed body of knowledge. The role of theorizing is to formalize perspectives that add clarity to complex problems. Even incorrect theories can help by “carving nature at its joints,” defining the contours of a puzzle. When first presenting a theory, aim for simplicity and clarity—even if it’s wrong. The goal is not to provide the right answer but to give your audience a unique way of looking at a phenomenon. Theories are tools for thinking.&lt;/p&gt;
+</description>
+                <pubDate>Mon, 11 Nov 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/Advices-for-young-investigator-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Advices-for-young-investigator-en/</guid>
+                
+                <category>research</category>
+                
+                <category>science</category>
+                
+                <category>philosophy</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>스탠홉 AI의 신경과학기반 인공지능</title>
+                <description>&lt;p&gt;인지 및 계산 신경과학에서 저명한 학자인 &lt;strong&gt;로잘린 모란(Rosalyn Moran)&lt;/strong&gt;이 창업한 &lt;a href=&quot;https://www.stanhopeai.com/&quot;&gt;&lt;strong&gt;스탠홉 AI&lt;/strong&gt;&lt;/a&gt;는 올 초, 2300만 파운드(한화 약 40억 원)에 해당하는 시드머니 투자유치에 성공했다(&lt;a href=&quot;https://thenextweb.com/news/neuroscience-human-brain-ai-startup-drone-flying-decisions&quot;&gt;&lt;strong&gt;기사 1&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&quot;https://www.uktech.news/ai/stanhope-funding-ai-human-brains-20240320&quot;&gt;&lt;strong&gt;기사 2&lt;/strong&gt;&lt;/a&gt;). 그녀는 현재 &lt;a href=&quot;https://www.kcl.ac.uk/people/rosalyn-moran&quot;&gt;&lt;strong&gt;킹스 컬리지 런던(KCL)의 계산 신경과학 교수&lt;/strong&gt;&lt;/a&gt;이자, &lt;a href=&quot;https://www.kcl.ac.uk/ai&quot;&gt;&lt;strong&gt;인공지능 연구소&lt;/strong&gt;&lt;/a&gt;의 디렉터로 있다. 칼 프리스턴 교수의 자유에너지 원리와 능동추론을 바탕으로 계산 신경과학 및 계산 정신의학, 계산 신경학을 연구했던 그녀는, 현재 인공지능(심층 신경망), 베이즈 추론(변분 원리), 실험 신경생물학(뉴로이미징과 인지적 태스크)의 점접에 초점을 맞추고 있다.&lt;/p&gt;
+
+&lt;p&gt;스탠홉 AI는 뇌를 닮은 인공지능 제품을 만드는 것을 목표로 한다. 이들이 개발하는 인공지능의 핵심적인 특징은 “학습하지 않는다는 것”이다. 이들은 능동추론이 제안하듯이, 계층적 생성 모델을 디자인하고 세부 조정하는 방법론을 활용한다. 이를 통해 인공지능에서 나타나는 환각(Hallucination)의 위험도를 낮추고 비용을 줄일 수 있다고 주장한다. 이 회사가 풀어내고자 하는 문제와 궁금증은 다음과 같다:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;어떻게 하면 자율적 기계가 자신을 위한 데이터를 찾아나가게 할 수 있을까? (How Can An Autonomous Machine Find Its Own Data?)&lt;/li&gt;
+  &lt;li&gt;어떻게 하면 인공지능 에이전트가 행동을 위한 믿음과 계획을 설명하게 할 수 있을까? (How Should an AI Agent Explain Its Beliefs and Plans for Action?)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;회사의 연구진은 이 질문을 시작으로, &lt;a href=&quot;https://arxiv.org/pdf/2006.03531&quot;&gt;&lt;strong&gt;시각적 탐색(Visual Search)를 위한 능동 추론 모델을 개발&lt;/strong&gt;&lt;/a&gt;하고, &lt;a href=&quot;https://arxiv.org/pdf/2006.03531&quot;&gt;&lt;strong&gt;알고리즘이 환경과 상호작용하며 시행착오할 수 있는 패키지(Gym)를 개발&lt;/strong&gt;&lt;/a&gt;했다. 이에 더해, 두뇌에 있는 &lt;a href=&quot;https://en.wikipedia.org/wiki/Locus_coeruleus&quot;&gt;&lt;strong&gt;청반(Locus Coeruleus)&lt;/strong&gt;&lt;/a&gt;의 기능을 바탕으로 &lt;a href=&quot;https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006267&quot;&gt;&lt;strong&gt;에이전트가 세상에 대해 지니고 있는 월드 모델(World Model)을 어떻게 유연하게 업데이트하고 수정해 나가는지 연구를 수행&lt;/strong&gt;&lt;/a&gt;했다.&lt;/p&gt;
+
+&lt;p&gt;이러한 연구를 바탕으로 다양한 사업을 수행하고 있다. 먼저, 독일 연방의 파괴적 혁신처인 &lt;a href=&quot;https://www.sprind.org/en&quot;&gt;&lt;strong&gt;SPRIN-D&lt;/strong&gt;&lt;/a&gt;와 협업하여 기존에 경험하지 못한 환경에서 문제를 어떻게 해결할지 연구하고 있다. 또, 영국 해군과의 협력을 통해 드론 기반의 차세대 인공지능 기술을 선보였으며 제한된 데이터만으로 미지의 공간을 탐사해내는 데에 성공했다.&lt;/p&gt;
+
+&lt;p&gt;이들은 런던에 위치해 신경과학 및 로봇공학 전문가들로 구성되어 있다. 그들의 목표는 이론 신경과학의 모델을 공학적으로 적용하여 일반화 성능, 에너지 효율성과 튼튼함을 보여주어 시장에 빠르게 적응하는 것이다. 실제로, 창업자 중에는 영국 런던 대학(Univesity College London)의 이론 신경생물학 교수인 칼 프리스턴(Karl Friston), 엔지니어이자 이론 컴퓨터 과학자인 비스와 센굽타(Biswa Sengupta)도 함께 한다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;현재 여름 인턴도 모집하고 있다(&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSfwXDs8oBz0p8fj4emDWYY6a74qAB_c1Rlp6sbUh9nY2k3Gyg/viewform&quot;&gt;&lt;strong&gt;링크&lt;/strong&gt;&lt;/a&gt;)!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;신경과학의 이론 및 계산적 원리를 바탕으로 보다 인간 수준의 인공지능을 개발하려는 것은 나의 꿈 중 하나였다. 이러한 시도가 산업에 등장하여 변화를 주도하고 관련된 투자를 활성화한 데에는 정말 희망적이고 기대된다. 대신, 앞으로 내가 해야 할 분야는 무엇이 되어야 하는 걸까? 나는 이들이 놓칠만한 어떤 부분에 초점을 맞추고 연구해 나가야 하는 걸까? 많은 고민이 들기 시작한다.&lt;/p&gt;
+</description>
+                <pubDate>Thu, 24 Oct 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/Stanhope-AI-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Stanhope-AI-kr/</guid>
+                
+                <category>인공지능</category>
+                
+                <category>신경과학</category>
+                
+                <category>성공</category>
+                
+                <category>비즈니스</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>Neuroscience-Based AI at Stanhope AI</title>
+                <description>&lt;p&gt;Renowned cognitive and computational neuroscientist &lt;strong&gt;Rosalyn Moran&lt;/strong&gt; founded &lt;a href=&quot;https://www.stanhopeai.com/&quot;&gt;&lt;strong&gt;Stanhope AI&lt;/strong&gt;&lt;/a&gt;, which successfully raised £23 million in seed funding (approximately 40 billion KRW) earlier this year (&lt;a href=&quot;https://thenextweb.com/news/neuroscience-human-brain-ai-startup-drone-flying-decisions&quot;&gt;&lt;strong&gt;Article 1&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&quot;https://www.uktech.news/ai/stanhope-funding-ai-human-brains-20240320&quot;&gt;&lt;strong&gt;Article 2&lt;/strong&gt;&lt;/a&gt;). Currently, she is a professor of computational neuroscience at &lt;a href=&quot;https://www.kcl.ac.uk/people/rosalyn-moran&quot;&gt;&lt;strong&gt;King’s College London (KCL)&lt;/strong&gt;&lt;/a&gt; and the director of the &lt;a href=&quot;https://www.kcl.ac.uk/ai&quot;&gt;&lt;strong&gt;AI Institute&lt;/strong&gt;&lt;/a&gt; at KCL. Having previously worked with Professor Karl Friston on the free energy principle and active inference, her research focuses on computational neuroscience, computational psychiatry, and neurology. She is now particularly focused on the intersection of deep neural networks, Bayesian inference (variational principles), and experimental neurobiology (neuroimaging and cognitive tasks).&lt;/p&gt;
+
+&lt;p&gt;Stanhope AI aims to develop AI systems inspired by the human brain. Their AI’s defining feature is that it “does not learn” in the conventional sense. Instead, as proposed by active inference, they design and fine-tune hierarchical generative models. This approach aims to reduce hallucination risks in AI while cutting costs. The company’s research revolves around the following key questions:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;How can an autonomous machine find its own data?&lt;/li&gt;
+  &lt;li&gt;How can an AI agent explain its beliefs and plans for action?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In pursuit of these answers, the company has developed an &lt;a href=&quot;https://arxiv.org/pdf/2006.03531&quot;&gt;&lt;strong&gt;active inference model for visual search&lt;/strong&gt;&lt;/a&gt; and created a &lt;a href=&quot;https://arxiv.org/pdf/2006.03531&quot;&gt;&lt;strong&gt;Gym package&lt;/strong&gt;&lt;/a&gt; that allows algorithms to interact with their environment through trial and error. Additionally, they are exploring how the brain’s &lt;a href=&quot;https://en.wikipedia.org/wiki/Locus_coeruleus&quot;&gt;&lt;strong&gt;locus coeruleus&lt;/strong&gt;&lt;/a&gt; helps AI agents flexibly update and modify their &lt;a href=&quot;https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006267&quot;&gt;&lt;strong&gt;world models&lt;/strong&gt;&lt;/a&gt; in response to new experiences.&lt;/p&gt;
+
+&lt;p&gt;Based on this research, Stanhope AI has engaged in several projects. They are collaborating with the German government’s disruptive innovation agency, &lt;a href=&quot;https://www.sprind.org/en&quot;&gt;&lt;strong&gt;SPRIN-D&lt;/strong&gt;&lt;/a&gt;, to explore problem-solving in previously unencountered environments. In collaboration with the British Navy, they have successfully demonstrated next-generation AI technology for drones, allowing them to explore unknown territories with minimal data.&lt;/p&gt;
+
+&lt;p&gt;Located in London, Stanhope AI comprises experts in neuroscience and robotics. Their goal is to apply theoretical neuroscience models to engineering, demonstrating strong generalization performance, energy efficiency, and robustness to quickly adapt to market demands. The company’s founding team includes &lt;strong&gt;Karl Friston&lt;/strong&gt;, professor of theoretical neurobiology at University College London, and &lt;strong&gt;Biswa Sengupta&lt;/strong&gt;, an engineer and theoretical computer scientist.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Stanhope AI is currently recruiting summer interns! (&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSfwXDs8oBz0p8fj4emDWYY6a74qAB_c1Rlp6sbUh9nY2k3Gyg/viewform&quot;&gt;&lt;strong&gt;Link&lt;/strong&gt;&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Developing human-level AI based on neuroscience principles has always been one of my dreams. Seeing efforts like Stanhope AI actively driving change in the industry and securing significant investment is both exciting and promising. However, it raises questions: What areas should I focus on moving forward? Are there aspects that they might be overlooking? These thoughts bring new inspiration and a lot to consider as I think about the direction of my own research.&lt;/p&gt;
+</description>
+                <pubDate>Thu, 24 Oct 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/motivation/Stanhope-AI-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/motivation/Stanhope-AI-en/</guid>
+                
+                <category>AI</category>
+                
+                <category>Neuroscience</category>
+                
+                <category>Success</category>
+                
+                <category>Business</category>
+                
+                
+                <category>Motivation</category>
+                
+            </item>
         
             <item>
                 <title>&apos;이토록 뜻밖의 뇌과학&apos;을 읽고</title>
@@ -5088,829 +5497,6 @@ Considering that the importance of predictive coding and un/self-supervised lear
                 
                 
                 <category>Meditation</category>
-                
-            </item>
-        
-            <item>
-                <title>생각이 너무 많아</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-
-  /* 새로 추가된 스타일 */
-  .two-fig-container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px; /* 이미지 간의 간격 */
-      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
-  }
-  .two-fig-container figure {
-      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
-      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
-  }
-
-  /* 작은 화면에서 각 figure를 세로로 배치 */
-  @media (max-width: 768px) {
-      .two-fig-container figure {
-          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
-      }
-  }
-
-  /* 새로 추가된 스타일 */
-  .three-fig-container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px; /* 이미지 간의 간격 */
-      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
-  }
-  .three-fig-container figure {
-      width: calc(33% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
-      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
-  }
-
-  /* 작은 화면에서 각 figure를 세로로 배치 */
-  @media (max-width: 768px) {
-      .three-fig-container figure {
-          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
-      }
-  }
-&lt;/style&gt;
-
-&lt;p&gt;최근 진로와 관련된 여러 고민이 머릿속을 어지럽힌다. 내가 꿈꾸는 미래는 사실 아무도 가보지 않은 길이라, 많은 사람들이 선택하는 안정적인 직장이나 전문직 자격증을 준비하는 것이 더 나은 것인지 혼란스럽다. 오래전부터 내 나름의 결심을 굳혔지만, 혼자만의 힘으로 관심사를 공부하는 지금의 상황은 나를 더 고독하고 연약하게 만든다.&lt;/p&gt;
-
-&lt;p&gt;친한 선배나 동기들에게 자문을 구해봐도, 마음속 불안감은 여전하고 머릿속은 여전히 생각들로 가득하다. 아직 일어나지 않은 수많은 최악의 시나리오들이 현재의 나를 잠식하고 병약하게 만든다.&lt;/p&gt;
-
-&lt;p&gt;이런 고민과 문제를 나만 겪고 있는 건 아닐 것이다. 모두가 불안정한 사회 속에서 생존하며, 자신의 정체성을 찾기 위해 고군분투하고 있다. 특히 아직 자신의 정체성을 확립하지 못하고, 쉽게 대체될 수 있다는 본질적인 상실감과 불안감을 느낄 수밖에 없는 20대 초중반의 사람들에게 연민과 안타까움을 느낀다.&lt;/p&gt;
-
-&lt;p&gt;이러한 고민을 안고, 내가 있는 지역의 라운지에서 작은 공연을 준비해보았다. 라운지 대표님께 여러 차례 연락을 드린 끝에 다행히 허락을 받을 수 있었다. 나에게 주어진 시간은 약 2시간, 이 시간 동안 40분짜리 믹스를 총 세 개 준비했다. 이번 공연의 목적은 나와 비슷하게 진로와 미래에 대한 고민으로 머리가 복잡한 사람들에게 잠시라도 생각을 비우고 즐길 수 있는 시간을 제공하는 것이었다. 이를 위해 (1) Overthinking, (2) GroovyTwilight, (3) LoungeTechno라는 믹스를 만들었다. 행복을 강박적으로 추구하거나, 남들과의 비교로 인해 팍팍하게 살아가는 것이 전부가 아니라는 메시지를 전하고 싶었다. 아래는 이번 공연을 위해 제작한 홍보 영상이다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-05-11-Youve got a lot on your mind/marketing.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-    &lt;figcaption&gt;
-      직접 제작한 홍보 영상. 인스타그램 스토리 및 게시물을 통해 공유되었다.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;첫 번째 믹스인 Overthinking은 토론토에서 활동하는 실험적 아티스트들의 작품을 중심으로 구성했다. 서정적인 멜로디와 대조되는 중독적인 비트감이 특징이며, 가사에는 현실에 대한 고민과 자유를 향한 일탈이 담겨 있다. 이 플레이리스트의 전체적인 분위기를 대표하는 곡은 INNR CIRCLE의 “Thoughts of the Night”로, 느린 템포와 강조된 보컬이 많은 생각으로 잠 못 이루는 밤의 느낌을 잘 표현해준다. 이 믹스는 저녁 8시부터 8시 40분까지 디제잉했다.&lt;/p&gt;
-
-&lt;p&gt;두 번째 믹스인 GroovyTwilight은 그루비한 디스코와 테크노를 조화롭게 섞어 표현했다. 신나는 디스코 장르와 몽환적인 테크노 장르가 적절히 혼합된 것이 특징이다. 특히, 유명 DJ인 페기 구(Peggy Gou)의 “잊게 하네(It makes you forget)”가 이 플레이리스트를 대표하는 곡이다. 제목처럼 머릿속을 가득 채운 불안과 걱정을 잊자는 긍정적인 메시지를 전한다.&lt;/p&gt;
-
-&lt;p&gt;마지막으로, LoungeTechno는 밤 9시부터 10시까지 디제잉한 세션으로, 늦은 시간대에 어울리는 강한 비트와 몽환적인 분위기를 강조했다.&lt;/p&gt;
-
-&lt;div style=&quot;display: flex; justify-content: space-between; gap: 20px;&quot;&gt;
-    &lt;div style=&quot;flex: 1;&quot;&gt;
-        &lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/playlist/6C6WSWVH3zySob5220bsnB?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;352&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-    &lt;div style=&quot;flex: 1;&quot;&gt;
-        &lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/playlist/6zpscv2dQQD8MgOiMnXuue?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;352&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-    &lt;div style=&quot;flex: 1;&quot;&gt;
-        &lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/playlist/5HhS9AdprTr90vZDLrgQfu?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;352&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;중간중간 퍼포먼스를 하는 영상을 대표님께서 찍어주셨다. 이 라운지에는 아주 큰 디스플레이가 설치되어 있어, 공연 중에 미디어 아트도 함께 상영되었다. 비가 오는 날이었음에도 불구하고, 많은 사람들이 라운지를 찾아주어 정말 감사했다. 이번 공연은 초여름의 바쁜 일상에서 잠시 벗어나는 일탈이자, 나에게는 뿌듯하고 보람찬 경험이었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt;
-        &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-05-11-Youve got a lot on your mind/01.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-      &lt;/video&gt;
-      &lt;figcaption&gt;
-        영상 1: Overthinking(1)
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt; 
-        &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-05-11-Youve got a lot on your mind/02.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-      &lt;/video&gt;
-      &lt;figcaption&gt;
-        영상 2: Overthinking(2)
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt; 
-        &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-05-11-Youve got a lot on your mind/03.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-      &lt;/video&gt;
-      &lt;figcaption&gt;
-        영상 3: Groovy Disco
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;한편, 공연 전 디제잉했던 내용을 레코딩하여 사운드클라우드에 업로드했다. 직접 믹싱한 트랙을 아래에서 확인할 수 있다.&lt;/p&gt;
-
-&lt;div style=&quot;display: flex; justify-content: space-between; gap: 20px;&quot;&gt;
-    &lt;div style=&quot;flex: 1;&quot;&gt;
-        &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1813496844&amp;amp;color=%23ebebeb&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;&lt;div style=&quot;font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;&quot;&gt;&lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd&quot; title=&quot;ATOW&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;ATOW&lt;/a&gt; · &lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd/overthinking-2&quot; title=&quot;Overthinking&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;Overthinking&lt;/a&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div style=&quot;flex: 1;&quot;&gt;
-        &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1813226514&amp;amp;color=%23706b4f&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;&lt;div style=&quot;font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;&quot;&gt;&lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd&quot; title=&quot;ATOW&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;ATOW&lt;/a&gt; · &lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd/groovytwilight&quot; title=&quot;GroovyTwilight&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;GroovyTwilight&lt;/a&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div style=&quot;flex: 1;&quot;&gt;
-        &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1824831885&amp;amp;color=%23343434&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;&lt;div style=&quot;font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;&quot;&gt;&lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd&quot; title=&quot;ATOW&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;ATOW&lt;/a&gt; · &lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd/dreamily-techno&quot; title=&quot;Dreamily Techno&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;Dreamily Techno&lt;/a&gt;&lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-</description>
-                <pubDate>Sat, 11 May 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/movement/You've-got-a-lot-on-your-mind-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/movement/You've-got-a-lot-on-your-mind-kr/</guid>
-                
-                <category>성찰</category>
-                
-                <category>퍼포먼스</category>
-                
-                <category>예술</category>
-                
-                <category>디제잉</category>
-                
-                <category>파티</category>
-                
-                
-                <category>Movement</category>
-                
-            </item>
-        
-            <item>
-                <title>You&apos;ve got a lot on your mind</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-
-  .two-fig-container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px;
-      flex-wrap: wrap;
-  }
-  .two-fig-container figure {
-      width: calc(50% - 20px);
-      box-sizing: border-box;
-  }
-
-  @media (max-width: 768px) {
-      .two-fig-container figure {
-          width: 100%;
-      }
-  }
-
-  .three-fig-container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px;
-      flex-wrap: wrap;
-  }
-  .three-fig-container figure {
-      width: calc(33% - 20px);
-      box-sizing: border-box;
-  }
-
-  @media (max-width: 768px) {
-      .three-fig-container figure {
-          width: 100%;
-      }
-  }
-&lt;/style&gt;
-
-&lt;p&gt;Lately, my mind has been clouded with thoughts about my future. The path I envision is one that no one has truly ventured down, and I often find myself wondering if it would be wiser to pursue a more stable career or a professional certification like many others. Despite my resolve, the isolation of self-study and following my own interests has left me feeling more lonely and fragile.&lt;/p&gt;
-
-&lt;p&gt;Even after seeking advice from close seniors and peers, the anxiety lingers, and my mind remains overwhelmed with countless thoughts. Countless worst-case scenarios, which haven’t even occurred yet, haunt me and make me feel weakened and vulnerable.&lt;/p&gt;
-
-&lt;p&gt;I know I’m not alone in facing these struggles. Everyone is trying to survive in an unstable society, battling to find their identity. I feel deep empathy and sadness, especially for those in their early to mid-20s, who are still grappling with their identity and the fundamental fears of being replaceable.&lt;/p&gt;
-
-&lt;p&gt;With these thoughts weighing on me, I decided to organize a small performance at a local lounge. After several contacts with the lounge owner, I was finally able to secure a slot. I was given about 2 hours, during which I prepared three 40-minute mixes. The goal of this performance was to offer a brief escape to those who, like me, are overwhelmed by worries about their future and career. I created mixes titled (1) Overthinking, (2) GroovyTwilight, and (3) LoungeTechno, with the intention of sending a message that life is not just about the relentless pursuit of happiness or the constant comparison with others. Below is the promotional video I made for the event.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-05-11-Youve got a lot on your mind/marketing.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-    &lt;figcaption&gt;
-      Promotional video I made, shared via Instagram stories and posts.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The first mix, Overthinking, is composed mainly of works by experimental artists based in Toronto. It features addictive beats contrasting with lyrical melodies, and the lyrics reflect concerns about reality and the desire for freedom. The track that best represents the mood of this playlist is “Thoughts of the Night” by INNR CIRCLE, with its slow tempo and emphasized vocals perfectly capturing the feeling of sleepless nights filled with thoughts. I DJed this mix from 8:00 to 8:40 PM.&lt;/p&gt;
-
-&lt;p&gt;The second mix, GroovyTwilight, blends groovy disco and techno seamlessly. It’s characterized by the upbeat energy of disco mixed with the dreamy vibes of techno. The standout track for this playlist is “It Makes You Forget” by the renowned DJ Peggy Gou, conveying a positive message to let go of the anxieties and worries that fill our minds.&lt;/p&gt;
-
-&lt;p&gt;Lastly, LoungeTechno was the session I DJed from 9:00 to 10:00 PM, focusing on strong beats and a hypnotic atmosphere fitting for the late evening.&lt;/p&gt;
-
-&lt;div style=&quot;display: flex; justify-content: space-between; gap: 20px;&quot;&gt;
-    &lt;div style=&quot;flex: 1;&quot;&gt;
-        &lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/playlist/6C6WSWVH3zySob5220bsnB?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;352&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-    &lt;div style=&quot;flex: 1;&quot;&gt;
-        &lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/playlist/6zpscv2dQQD8MgOiMnXuue?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;352&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-    &lt;div style=&quot;flex: 1;&quot;&gt;
-        &lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/playlist/5HhS9AdprTr90vZDLrgQfu?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;352&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The lounge owner captured some video clips during my performance. The lounge was equipped with a large display screen, where media art was showcased during the performance. Despite the rainy weather, many people visited the lounge, and I am truly grateful for that. This event was a refreshing break from the busy early summer and a deeply fulfilling experience for me.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt;
-        &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-05-11-Youve got a lot on your mind/01.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-      &lt;/video&gt;
-      &lt;figcaption&gt;
-        Video 1: Overthinking (1)
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt; 
-        &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-05-11-Youve got a lot on your mind/02.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-      &lt;/video&gt;
-      &lt;figcaption&gt;
-        Video 2: Overthinking (2)
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt; 
-        &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-05-11-Youve got a lot on your mind/03.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-      &lt;/video&gt;
-      &lt;figcaption&gt;
-        Video 3: Groovy Disco
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Before the event, I recorded the DJ sets and uploaded them to SoundCloud. You can listen to the tracks I mixed below.&lt;/p&gt;
-
-&lt;div style=&quot;display: flex; justify-content: space-between; gap: 20px;&quot;&gt;
-    &lt;div style=&quot;flex: 1;&quot;&gt;
-        &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1813496844&amp;amp;color=%23ebebeb&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;&lt;div style=&quot;font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;&quot;&gt;&lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd&quot; title=&quot;ATOW&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;ATOW&lt;/a&gt; · &lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd/overthinking-2&quot; title=&quot;Overthinking&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;Overthinking&lt;/a&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div style=&quot;flex: 1;&quot;&gt;
-        &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1813226514&amp;amp;color=%23706b4f&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;&lt;div style=&quot;font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;&quot;&gt;&lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd&quot; title=&quot;ATOW&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;ATOW&lt;/a&gt; · &lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd/groovytwilight&quot; title=&quot;GroovyTwilight&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;GroovyTwilight&lt;/a&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div style=&quot;flex: 1;&quot;&gt;
-        &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1824831885&amp;amp;color=%23343434&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;&lt;div style=&quot;font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;&quot;&gt;&lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd&quot; title=&quot;ATOW&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;ATOW&lt;/a&gt; · &lt;a href=&quot;https://soundcloud.com/kf0k5shywcqd/dreamily-techno&quot; title=&quot;Dreamily Techno&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;Dreamily Techno&lt;/a&gt;&lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-</description>
-                <pubDate>Sat, 11 May 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/movement/You've-got-a-lot-on-your-mind-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/movement/You've-got-a-lot-on-your-mind-en/</guid>
-                
-                <category>Reflection</category>
-                
-                <category>Performance</category>
-                
-                <category>Art</category>
-                
-                <category>DJing</category>
-                
-                <category>Party</category>
-                
-                
-                <category>Movement</category>
-                
-            </item>
-        
-            <item>
-                <title>계산뇌과학 겨울학교를 마치며</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-
-  /* 새로 추가된 스타일 */
-  .two-fig-container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px; /* 이미지 간의 간격 */
-      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
-  }
-  .two-fig-container figure {
-      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
-      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
-  }
-
-  /* 작은 화면에서 각 figure를 세로로 배치 */
-  @media (max-width: 768px) {
-      .two-fig-container figure {
-          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
-      }
-  }
-
-  /* 새로 추가된 스타일 */
-  .three-fig-container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px; /* 이미지 간의 간격 */
-      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
-  }
-  .three-fig-container figure {
-      width: calc(33% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
-      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
-  }
-
-  /* 작은 화면에서 각 figure를 세로로 배치 */
-  @media (max-width: 768px) {
-      .three-fig-container figure {
-          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
-      }
-  }
-&lt;/style&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/poster.jpg&quot; style=&quot;width: 65%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        2024년 한국계산뇌과학 겨울학교 포스터.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/schedule.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        겨울학교 활동 스케줄.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;최근 카이스트에서 한국 계산뇌과학 겨울학교가 열린다는 소식을 듣고, 부리나케 찾아보았다. 한국 계산뇌과학회는 나의 은사님이신 포항공과대학교(POSTECH)의 김승환 교수님께서 창립하신 학술 조직으로, 오래전부터 계산뇌과학 겨울학교 프로그램을 운영하여 젊은 학생들과 대중들에게 뇌와 신경과학에 대한 관심을 널리 알려왔다. 첨단 인공지능 기술 개발에 도움이 되는 강연이기 때문에, 운 좋게도 회사의 재정 지원을 받아 겨울학교에 참석할 기회를 얻을 수 있었다.&lt;/p&gt;
-
-&lt;p&gt;겨울학교는 총 4일 동안 운영됐다. 카이스트의 정문술 빌딩 강당에서 진행되었으며, 한국의 유명한 신경과학 연구자들과 교수님들이 모여 다양한 배경의 참가자들에게 연구 동향을 소개해 주었다. 이번 겨울학교의 테마는 인공지능과의 연관성이었으며, 인간 및 동물을 대상으로 실험을 수행하는 교수님들도 있었지만, 주로 시뮬레이션과 모델링 기반의 연구가 소개되었다.&lt;/p&gt;
-
-&lt;p&gt;서울대학교 뇌인지과학과의 이상훈 교수님의 강연을 통해 신경, 계산, 정신 활동의 관계와 연구 계획들을 소개받을 수 있었다. 이후 정재승 교수님께서는 계산신경과학의 역사를 심도 깊게 다루어 주셨고, 백세범 교수님께서는 진화의 관점에서 두뇌의 생물학적 복잡성을 설명해 주셨다. 특히, 백세범 교수님의 강의에서 등장한 인공지능 및 기계학습 연구의 핵심 가정인 “백지 상태(Tabula Rasa)” 패러다임에 대한 비판이 인상 깊었다. 선천적인 것이냐, 후천적인 것이냐(Nature vs Nurture), 이 문제는 너무나도 중요하다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/06.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        이상완 교수님의 뇌기반 인공지능 연구 소개.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/07.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        신경과학-인공지능 융합연구센터.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;한편, 인공지능과 신경과학의 교집합에 초점을 둔 이상완 교수님의 강의도 매우 흥미로웠다. 사실, 이전에 면담 요청을 드렸고 흔쾌히 면담을 진행해 주신 바가 있다. 다만, 그때 내가 일부 무례한 질문을 했는지, 또는 충분히 준비되지 않은 상태에서 면담을 진행해 유의미한 대화가 오가지 못해 후회스러웠던 기억이 있다. 그럼에도 불구하고, 이상완 교수님은 내가 동의하는 매우 중요한 연구 방향으로 나아가고 계신 분이었다. 기회가 된다면 연구 지도를 받아보고 싶지만, 연구실에 이미 많은 학생이 있어 어려울 것 같아 아쉬움이 남는다.&lt;/p&gt;
-
-&lt;p&gt;신경과학과 인공지능을 융합적으로 연구하는 곳은 전 세계적으로도 유수한 연구 대학에 포진되어 있다. 교수님께서 소개해 주신 곳은 크게 CALTECH, MIT, Oxford, UCL, Columbia 대학교, 뉴욕 대학교, TU 베를린, Max Planck Intelligent Systems, University of Zurich, 그리고 KAIST의 Center for Neuroscience-Inspired Artificial Intelligence 등이 있었다. 이들 중 한 곳에서 석사 과정을 마친 후, 박사 학위를 준비하는 것도 훌륭한 계획이라 생각된다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/02.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        고양이를 활용한 실험. 특정 각도에서 발화하는 신경세포의 활동을 기록하는 장면.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/03.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        신경 활동으로부터 측정된 각도에 대한 선호도.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/04.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        조별 활동 문제. 10개의 뉴런에 대한 신경 활동의 시계열 데이터로부터 순서 맞추기.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;이번 겨울학교에서는 신청자의 배경에 따라 팀을 배정받아 조별 과제를 수행하게 되었다. 백세범 교수님께서 발표해 주신 문제는 두뇌에 있는 뉴런 중 특정 각도에 반응하는 세포들에 대한 시계열 데이터를 바탕으로 각 뉴런의 특성(Orientation Map)을 분석하는 것이 핵심이었다. 우리 팀은 신경과학 배경의 3명, 수학 배경의 나, 그리고 최연소 참가자인 고등학생 1명으로 구성되었다. 신경과학 배경의 대학원생이 팀장을 맡아 문제를 깊이 있게 탐구하기 시작했다.&lt;/p&gt;
-
-&lt;p&gt;문제의 정답을 맞추기보다는 명확한 논리를 세우는 것이 중요하다고 생각했다. 고등학생도 충분히 해결할 수 있는 문제라고 확신했기 때문에, 데이터를 통해 누구도 부정할 수 없는 사실을 찾아내려고 노력했다. 그 결과, 다음과 같은 주요 가정을 세우게 되었다:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;(주장 1) 각 뉴런은 &lt;strong&gt;평균적으로&lt;/strong&gt; 자극에 대해 반응하는 고유의 특성을 지닌다.&lt;/li&gt;
-  &lt;li&gt;(주장 2) 각 뉴런의 자극에 대한 고유의 평균적 특성은 &lt;strong&gt;주기성&lt;/strong&gt;을 띤다.&lt;/li&gt;
-  &lt;li&gt;(주장 3) 각 뉴런의 각도 자극에 따른 &lt;strong&gt;평균적인 발화 패턴&lt;/strong&gt;은 (1)선호하는 각도 $\theta_0$와 (2)자극에 대한 민감성 $I_0$, (3)오차항 $\text{offset}$으로 설명할 수 있다.&lt;/li&gt;
-  &lt;li&gt;(주장 4) 각 뉴런이 발화할 때까지 기다려야 하는 시간의 분포는 &lt;strong&gt;지수 분포&lt;/strong&gt;로 설명할 수 있으며, 그에 따라 (1)고유한 𝜆 파라미터를 지닌다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;이 가정들을 바탕으로, 탐색적 데이터 분석을 통해 V1 뉴런들이 자극에 반응하는 고유한 특성을 발견했다. 극좌표계에서 세포들의 자극 각도에 따른 평균 발화량을 분석한 결과, π의 주기성을 띠는 패턴이 나타났다. 이 특성을 반영하여 발화 패턴의 curve fitting을 위해 샘플 데이터 구간 [50-350]s와 테스트 데이터 구간 [400-700]s에서 각 뉴런의 발화 특성을 주기가 π인 삼각함수로 가정했다(주장 3). 모델링 수식은 다음과 같다($i$는 cell index):&lt;/p&gt;
-
-\[N^i_{during\ 300s}(t)=I^i_0\cdot \cos(2(\theta-\theta^i_0))+\text{offset}^i\]
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/10.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        첫날 밤 조별과제를 풀기 위해 모인 모습.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/09.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        조별과제 발표 직전 날 보고서 작성을 위해 모인 모습.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;우리 팀은 문제에 매우 흥미를 느꼈다. 우리는 각자 시간을 쏟아 문제 해결에 몰두했다. 특히 첫날 밤에는 자기 소개를 하며 아이스브레이킹 시간을 가졌고, 이후로도 매일 계획을 수정해가며 작업에 집중했다. 과제 발표를 앞두고는 오랜 시간을 할애해 준비했고, 이를 통해 Colab을 활용한 데이터 분석 가이드 페이지도 완성하게 되었다(&lt;strong&gt;&lt;a href=&quot;https://colab.research.google.com/drive/1s83DxcG1oilpJp6JVC2kzAjNdkRUXgm7?usp=sharing&quot;&gt;링크&lt;/a&gt;&lt;/strong&gt;).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/08.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      조별과제의 발표는 내가 맡게 되었다.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;드디어 겨울학교의 마지막 날이 되었다. 우리는 떨리는 마음을 가다듬고, 준비했던 내용을 차분하게 발표했다. 기초적인 논리와 비판력을 바탕으로 후회 없이 발표를 마쳤다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/13.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        운좋게도 조별활동에서 1등하여 상장을 수상했다!
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/12.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        수상 후 찍은 사진.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;놀랍게도, 교수님들께서 우리 팀의 발표와 조별과제 수행 내용을 가장 마음에 들어 하셨다! 우리는 운 좋게도 조별활동에서 1등을 차지하는 영예를 안았다. 좋은 성과를 내는 것보다는 팀원 한 명 한 명이 자신의 역할에 보람을 느끼고 잊지 못할 추억을 남기는 것을 목표로 삼았던 전략이 효과적이었던 것 같다. 좋은 성과는 올바른 방향으로 꾸준히 노력한 결과로 따라온 것이다. 우리 팀은 자부한다; 비록 1등하지 않았더라도 충분히 값진 시간이었을 것임을. 마지막으로, 이번 겨울학교의 최연소 참가자이자, 우리 팀에 활력을 불어넣어준 방희연 학생이 내게 써준 편지로 마무리한다:&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/11.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      유일한 고등학생 참가자이자, 우리 팀의 비타민 역할을 해 준 방희연 학생이 준 편지.&lt;br /&gt;희연 학생 수고 많았어요!
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-</description>
-                <pubDate>Thu, 01 Feb 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/movement/CompNeuroSci-Winter-School-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/movement/CompNeuroSci-Winter-School-kr/</guid>
-                
-                <category>대외활동</category>
-                
-                <category>뇌과학</category>
-                
-                <category>신경과학</category>
-                
-                <category>인지과학</category>
-                
-                <category>겨울학교</category>
-                
-                
-                <category>Movement</category>
-                
-            </item>
-        
-            <item>
-                <title>Computational Neuroscience Winter School</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-
-  /* Newly added styles */
-  .two-fig-container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px; /* Space between images */
-      flex-wrap: wrap; /* Wrap images vertically on narrower screens */
-  }
-  .two-fig-container figure {
-      width: calc(50% - 20px); /* Set each figure to take up half the width */
-      box-sizing: border-box; /* Include padding and borders in the width */
-  }
-
-  /* Stack figures vertically on smaller screens */
-  @media (max-width: 768px) {
-      .two-fig-container figure {
-          width: 100%; /* Full width for each figure on small screens */
-      }
-  }
-
-  /* Three figures layout */
-  .three-fig-container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px;
-      flex-wrap: wrap;
-  }
-  .three-fig-container figure {
-      width: calc(33% - 20px);
-      box-sizing: border-box;
-  }
-
-  @media (max-width: 768px) {
-      .three-fig-container figure {
-          width: 100%;
-      }
-  }
-&lt;/style&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/poster.jpg&quot; style=&quot;width: 65%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Poster for the 2024 Korean Computational Neuroscience Winter School.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/schedule.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Winter school schedule.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Recently, I came across news that the Korean Computational Neuroscience Winter School was being held at KAIST, and I immediately decided to look into it. The Korean Society for Computational Neuroscience, founded by my mentor, Professor Seung-Hwan Kim of POSTECH, has long been running this program to spark interest in the brain and neuroscience among young students and the general public. Given the relevance of these lectures to cutting-edge AI development, I was fortunate to receive financial support from my company to attend the winter school.&lt;/p&gt;
-
-&lt;p&gt;The winter school spanned four days and was held in the auditorium of the Jeong Mun-Sul Building at KAIST. Renowned Korean neuroscientists and professors gathered to introduce their research to participants from various backgrounds. The theme of this year’s winter school was closely tied to artificial intelligence, with a focus on simulation and modeling-based research, though there were also talks on human and animal experiments.&lt;/p&gt;
-
-&lt;p&gt;Through Professor Sang-Hoon Lee’s lecture from Seoul National University’s Brain and Cognitive Sciences department, I was introduced to the relationships between neural, computational, and mental activities, along with research plans in these areas. Following this, Professor Jaeseung Jeong provided an in-depth look at the history of computational neuroscience, and Professor Sae-Byul Baek discussed the biological complexity of the brain from an evolutionary perspective. A particularly memorable part of Professor Baek’s lecture was his critique of the “Tabula Rasa” paradigm—a core assumption in AI and machine learning research. The debate of nature versus nurture remains as crucial as ever.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/06.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Professor Sang-Wan Lee discussing brain-inspired AI research.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/07.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Neuroscience-AI Fusion Research Center.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;On another note, I found Professor Sang-Wan Lee’s lecture on the intersection of AI and neuroscience particularly fascinating. I had previously requested a meeting with him, which he graciously accepted, though I recall feeling somewhat regretful afterward—perhaps due to asking less prepared questions or not having a meaningful exchange. Despite this, Professor Lee’s research direction remains highly aligned with my own interests. I would love to receive his mentorship, though it may be challenging due to the many students already in his lab.&lt;/p&gt;
-
-&lt;p&gt;Neuroscience and AI fusion research is concentrated in some of the world’s top research universities. Professor Lee highlighted institutions such as CALTECH, MIT, Oxford, UCL, Columbia University, New York University, TU Berlin, Max Planck Institute for Intelligent Systems, University of Zurich, and KAIST’s Center for Neuroscience-Inspired Artificial Intelligence. Completing a master’s program at one of these institutions before pursuing a PhD seems like a solid plan.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/02.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Experiment using a cat, recording neural activity responding to specific angles.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/03.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Orientation preferences measured from neural activity.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/04.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Group activity: ordering time-series data from 10 neurons.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;During the winter school, participants were assigned to teams based on their backgrounds to work on group projects. The challenge presented by Professor Sae-Byul Baek involved analyzing the orientation preferences of neurons in the brain using time-series data. Our team consisted of three members with neuroscience backgrounds, myself with a mathematics background, and the youngest participant, a high school student. A graduate student with a neuroscience background led the team, diving deep into the problem.&lt;/p&gt;
-
-&lt;p&gt;Rather than focusing solely on finding the correct answer, we prioritized building a clear and logical argument. I was confident that even the high school student could contribute meaningfully, so we focused on identifying indisputable facts from the data. As a result, we established the following key assumptions:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;(Assertion 1) Each neuron has a unique, &lt;strong&gt;average&lt;/strong&gt; response to stimuli.&lt;/li&gt;
-  &lt;li&gt;(Assertion 2) The unique average response of each neuron exhibits &lt;strong&gt;periodicity&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;(Assertion 3) The &lt;strong&gt;average firing pattern&lt;/strong&gt; of each neuron in response to angular stimuli can be explained by (1) a preferred angle $\theta_0$, (2) sensitivity to the stimulus $I_0$, and (3) an error term $\text{offset}$.&lt;/li&gt;
-  &lt;li&gt;(Assertion 4) The distribution of time intervals until a neuron fires follows an &lt;strong&gt;exponential distribution&lt;/strong&gt; with a unique 𝜆 parameter.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Using these assumptions, we conducted exploratory data analysis and discovered that V1 neurons exhibit unique responses to stimuli. Analysis in polar coordinates revealed a pattern with a periodicity of π in the neurons’ average firing rates in response to angular stimuli. Reflecting this characteristic, we assumed that the firing patterns followed a trigonometric function with a period of π for curve fitting in the sample data interval [50-350]s and the test data interval [400-700]s (Assertion 3). The modeling equation is as follows ($i$ represents the cell index):&lt;/p&gt;
-
-\[N^i_{during\ 300s}(t)=I^i_0\cdot \cos(2(\theta-\theta^i_0))+\text{offset}^i\]
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/10.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Our team gathered on the first night to work on the group project.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/09.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Gathering the night before the group project presentation to finalize our report.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Our team found the problem highly engaging and spent significant time working on it. On the first night, we introduced ourselves and had an ice-breaking session before diving into the project, revising our plans daily. Before the presentation, we dedicated many hours to preparation, leading to the completion of a Colab-based data analysis guide (&lt;strong&gt;&lt;a href=&quot;https://colab.research.google.com/drive/1s83DxcG1oilpJp6JVC2kzAjNdkRUXgm7?usp=sharing&quot;&gt;link&lt;/a&gt;&lt;/strong&gt;).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/08.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      I was chosen to present our group project.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Finally, the last day of the winter school arrived. We steadied our nerves and calmly presented the content we had prepared, concluding our presentation with a sense of pride in the logical and critical approach we had taken.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/13.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        We were fortunate to win first place in the group activities!
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/12.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        A photo taken after receiving our award.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;To our surprise, the professors were most impressed with our team’s presentation and performance in the group project! We were honored to receive first place in the group activities. Our strategy of ensuring each team member felt fulfilled and created lasting memories seemed to pay off. Achieving good results was a byproduct of consistently working in the right direction. We proudly affirm that even if we hadn’t won first place, the experience would have been invaluable. I’ll end with a letter written to me by Heeyeon Bang, the youngest participant in the winter school and the vibrant spirit of our team:&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q1/2024-02-01-CompNeuroSci Winter School/11.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      A letter from Heeyeon Bang, the only high school participant and the “vitamin” of our team.&lt;br /&gt;Thank you for all your hard work, Heeyeon!
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-</description>
-                <pubDate>Thu, 01 Feb 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/movement/CompNeuroSci-Winter-School-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/movement/CompNeuroSci-Winter-School-en/</guid>
-                
-                <category>extracurricular</category>
-                
-                <category>neuroscience</category>
-                
-                <category>cognitive science</category>
-                
-                <category>winter school</category>
-                
-                
-                <category>Movement</category>
                 
             </item>
         
