@@ -14,8 +14,8 @@ category: Meditation
 tags: [Career, Research, Science, Philosophy]
 lang: en
 header:
-    teaser: "/assets/images/posts/2024/Q4/2024-11-11-Advices for young investigator/gershman.png"
-image: assets/images/posts/2024/Q4/2024-11-11-Advices for young investigator/gershman.png
+    teaser: "/assets/images/posts/2024/Q4/2024-11-21-A New Inflection Point/arrival.jpg"
+image: assets/images/posts/2024/Q4/2024-11-21-A New Inflection Point/arrival.jpg
 ---
 
 
