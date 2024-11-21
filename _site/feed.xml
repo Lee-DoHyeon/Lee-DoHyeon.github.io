@@ -5,9 +5,285 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 11 Nov 2024 17:18:30 +0900</pubDate>
-        <lastBuildDate>Mon, 11 Nov 2024 17:18:30 +0900</lastBuildDate>
+        <pubDate>Thu, 21 Nov 2024 10:31:12 +0900</pubDate>
+        <lastBuildDate>Thu, 21 Nov 2024 10:31:12 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
+        
+            <item>
+                <title>새로운 변곡점</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+
+  /* 새로 추가된 스타일 */
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+
+  /* 새로 추가된 스타일 */
+  .three-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .three-fig-container figure {
+      width: calc(33% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .three-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+&lt;/style&gt;
+
+&lt;p&gt;본 글은 “&lt;a href=&quot;https://lee-dohyeon.github.io/motivation/Advices-for-young-investigator-kr/&quot;&gt;절쉬만 교수의 젊은 연구자를 위한 조언&lt;/a&gt;“를 읽고 나서 나의 상황에 대해 작성한 짧은 글임을 밝힌다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;최근에 급속도로 건강이 악화되어 박사 유학이 아닌 국내 석사 혹은 인턴 과정을 알아보게 되었다. 무엇보다 건강을 회복하는 게 가장 중요하기 때문에 시간이 조금 흐르더라도 크게 개의치 않도록 마음먹었다. 물론 이 선택이 조금 더 불안하고 머리 아픈 점이 있기는 하다. 바로 박사 유학을 가는 것보다 더 오랜 시간이 걸리니, 무엇보다 한국 사회에서 중요시하는 “&lt;em&gt;빨리빨리&lt;/em&gt;” 정신과 상반된다. 더욱이 한국에서 낮은 대학원 월급을 바탕으로 어떻게 생존할 것인지도 중요한 문제일 것이다. 다른 대학 동기들은 사회생활을 시작한지 오랜데, 이제 대학원 과정을 힘겹게 시작하는게 나 스스로에게 얼마나 혹독한 시련일지… 쉽게 가늠이 되진 않는다.&lt;/p&gt;
+
+&lt;p&gt;그러나 이 선택에는 또 나름의 합당한 이유가 있다. 3학기 이후에 학과가 결정되는 대학교 정책과 더불어, 시기 좋게 터진 코로나로 인해 나의 대학생활은 절반이 &lt;strong&gt;방황&lt;/strong&gt;, 나머지 절반은 &lt;strong&gt;고립&lt;/strong&gt;이었다. 어찌보면 박사 유학에 가장 중요한 “추천서”와 더불어, 나의 관심사와 열정을 증명할 수 있는 “실적”을 만들기에는 최악의 환경이었다. 변명은 이쯤으로 하자. 반대로 생각해보면, 국내 석사 혹은 인턴 과정은 내가 강력한 &lt;strong&gt;(1)추천서&lt;/strong&gt;를 얻고 나를 증명할 &lt;strong&gt;(2)실적&lt;/strong&gt;을 만들기 위한 중요한 과정이 될 수 있다. 더욱이 좋은 장학 프로그램에 신청해 &lt;strong&gt;(3)장학금&lt;/strong&gt;을 확보할 수 있는 좋은 시간이기도 하다. 이 과정을 잘 끝내기 위해서는, 그 이후의 전반적인 생애 주기와 박사 과정까지 꿈꿔볼 필요가 있다. 속도보다는 방향성이 중요한 것이기에.. 나는 앞으로 철저한 계획과 돌발상황에 대한 대응책을 마련할 필요가 있다. &lt;em&gt;사무엘 절쉬만 교수님의 조언&lt;/em&gt; 을 바탕으로 내가 수행해야 할 프로젝트를 선정하고, 선택과 집중을 통해 나를 증명할 미래를 상상해야 한다.&lt;/p&gt;
+
+&lt;p&gt;연구소에 들어와 실적이 나오지 않는 가장 큰 이유는 바로 &lt;strong&gt;&lt;em&gt;나의 고집&lt;/em&gt;&lt;/strong&gt;  때문이었던 것 같다. 유년시절부터 관심있던 인간의 “의식” 현상에 심취하여, 의식과 무의식, 언어와 인간 사회에 큰 관심을 가져왔다. 이를 보다 “과학적” 관점에서 연구하기 위해 물리학, 생명과학, 컴퓨터 공학을 탐구하며 근간이 되는 과학의 언어인 수학을 전공하기로 결정했다. 이와 더불어, 비슷한 관심사를 가진 다양한 분야의 사람들과 학술회를 운영하며 철학과 인지과학을 공부했다. 연구소에서는 최첨단(?)의 인공지능 및 로봇공학 기술을 접했고, 공학의 세계에서 많은 것을 보고 배웠다. 하지만 너무나도 큰 꿈이었다. 인간의 의식 현상은 아직까지도 미스테리인 부분이 참 많으며, 인공지능 기술 또한 자신의 뿌리를 잃고 다양한 분야에서 배회하고 있다. 현재에 이르러, “인간의 의식 현상을 이해하기 위해 의식적인 인공지능”을 구현하려는 시도는 너무나도 어렵고, 추상적이며, 큰 꿈이다. 태양에 도달하기 위해 비행하다 추락해버린 이카루스(καρος)처럼, 나는 나의 꿈과 비전에 압도되어 한 번 고꾸라졌다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-21-A New Inflection Point/1.png&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      내가 했던 다양한 시도들.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;다시 일어나야 한다. 욕심을 내려놓아야 한다. 내가 완주해야 하는 종목은 단거리 스프린트가 아니라, 장거리 마라톤이지 않은가. 과학은 단순한 지식의 덩어리가 아닌, 수많은 과학자들의 활동으로 구성된 문화적 집합체이기에.. 수학이라는 이론 학문의 범주를 넘어서, 나는 &lt;em&gt;과학하는 법&lt;/em&gt; 을 배워야 한다. 폭발적인 연구 실적을 위해서는 “&lt;strong&gt;대안 가설을 구별하기 위한 실험 설계가 가능&lt;/strong&gt;”한 문제를 찾아야 한다. 의식과 여기서 비롯한 인간의 고차 인지 기능은 기존 이론으로 충분히 설명되지 않는 대표적 현상이며, 애초에 인류 역사상 풀린 적 없는 고유한 문제이기도 하다. 이에 더해, 현대 과학은 연구 수준에 맞는 적절한 투자와 인력의 배분이 중요하다. 혼자서 할 수 있는 연구는 거의 없으며, 협업할 수 있는 사람들을 찾아 모험을 떠나야 한다.&lt;/p&gt;
+
+&lt;p&gt;그렇다면 나만의 무기는 무엇인가? 나는 “&lt;strong&gt;초학제적(Transdisciplinarity)&lt;/strong&gt;”이다. 나는 인공지능 알고리즘을 이해할 수 있는 강력한 수학적, 철학적 배경과 더불어, 현대 공학의 기반이 되는 사이버네틱스의 중요성과 역사적 흐름에 많은 배경 지식을 지니고 있다. 뿐만 아니라, 인간 심리와 종교, 경제, 사회에 대한 깊은 인류학적 관심을 갖고 있고, 더 나아가 현대 의식 과학의 흐름과 현재 진행 중인 논의들에 대해 대해 깊이 이해하고 있다.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-21-A New Inflection Point/2.png&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      나의 배경과 무기들.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;이러한 무기를 활용해 내가 초점을 맞추는 주제는 “&lt;strong&gt;의식과 기계&lt;/strong&gt;”다. 리처드 파인만(Richard Feyman, 1988)의 말을 빌리자면, &lt;strong&gt;&lt;em&gt;관심 있는 현상을 창조해낼 수 없다면, 정확히 이해하지 못한 것이다&lt;/em&gt;&lt;/strong&gt;. 인간의 의식이라는 생명 현상을 명확히 이해하기 위해서는 그것을 재창조할 필요가 있다. 그런데, 임의의 의식적 에이전트를 구현한다고 해서 의식을 이해할 수 있는 것이 아니다. 토마스 네이글(Thomas Nagel, 1974)의 말을 빌리자면, &lt;strong&gt;&lt;em&gt;인간은 인간 이외의 의식에 대해서는 온전히 이해할 수 없다&lt;/em&gt;&lt;/strong&gt;. 우리의 출발점은 “&lt;strong&gt;인간과 유사한 의식의 메커니즘을 지닌 기계의 구현&lt;/strong&gt;”이다.&lt;/p&gt;
+
+&lt;div class=&quot;two-fig-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-21-A New Inflection Point/3.png&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      리처드 파인만의 판서 내용.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-21-A New Inflection Point/4.png&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      네이글의 &quot;박쥐가 된다는 것은 무엇인가?&quot;
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;그렇다면 인간과 유사한 의식의 메커니즘을 지닌 기계를 연구하려면 어떻게 해야 할까? 이에 대해서는 다양한 의견이 있다. 제프리 힌튼(&lt;a href=&quot;https://arxiv.org/pdf/2212.13345&quot;&gt;&lt;strong&gt;Geoffrey Hinton, 2022&lt;/strong&gt;&lt;/a&gt;)은 현대적인 “&lt;strong&gt;디지털 두뇌&lt;/strong&gt;”가 (1)&lt;em&gt;병렬 처리&lt;/em&gt; 와 (2)&lt;em&gt;역전파 학습 알고리즘&lt;/em&gt;을 지원하기 때문에, 소위 “&lt;strong&gt;아날로그 두뇌&lt;/strong&gt;”보다 본질적으로 뛰어날 수 있다고 주장했다. 이데 대한 비판과 반대 의견으로, 인간의 두뇌와 닮은 필멸(mortal)하지만 에너지 효율적인(energy-efficient) &lt;em&gt;아날로그 아키텍처&lt;/em&gt; 와 거기서 작동할 수 있는 &lt;em&gt;(역전파 알고리즘보다) 뛰어난 학습 알고리즘&lt;/em&gt; 을 찾아보자는 입장이 있다(&lt;a href=&quot;https://www.inference.vc/mortal-computation-hintons/&quot;&gt;&lt;strong&gt;Ferenc Huszár, 2023&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/abs/2311.09589&quot;&gt;&lt;strong&gt;Alexander Ororbia, 2024&lt;/strong&gt;&lt;/a&gt;). &lt;em&gt;디지털 두뇌 우월론&lt;/em&gt; 은 구축된 기술과 학문적 기반이 있어 실현 가능성이 높은 반면, &lt;em&gt;아날로그 두뇌 우월론&lt;/em&gt; 은 이론적 타당성이 있지만 구현을 위한 기술적 도전이 크고 시간이 필요하다.&lt;/p&gt;
+
+&lt;p&gt;박사과정 동안 해결 가능성이 있는 문제를 고른다면, 아무래도 &lt;strong&gt;“아날로그 두뇌 우월론”에 관심을 유지한 채로 “디지털 두뇌 우월론”의 입장을 취하는 것&lt;/strong&gt;이 타당하다. 이에 따라, “인간과 유사한 의식을 지닌 기계의 구현”이라는 첫 출발점은 “&lt;em&gt;인간의 의식 메커니즘을 구현하는 소프트웨어의 구현&lt;/em&gt;”과 동의어다. 인지 신경과학과 인지 심리학의 이론적 배경을 바탕으로 의식의 메커니즘이 구현된 고차 인지 기능을 지닌 인공지능을 만드는 것이야 말로 내가 도전하고자 하는 당장의 문제다. 그렇다면 인간의 의식에 대해서는 어떤 논의와 주장들이 있을까?&lt;/p&gt;
+
+&lt;p&gt;인지 신경과학과 인지 심리학에서 제안하는 의식의 이론은 정말 &lt;em&gt;다양하다&lt;/em&gt;(&lt;a href=&quot;https://www.nature.com/articles/s41583-022-00587-4&quot;&gt;&lt;strong&gt;Anil Seth &amp;amp; Tim Bayne, 2022&lt;/strong&gt;&lt;/a&gt;). 전역 신경 작업공간 이론(GNWT: Global Neuronal Workspace Theory)과 통합 정보 이론(IIT: Integrated Information Theory), 정동 기반 이론(Affect-based Theory), 메타인지와 고차 사고 이론(HOT: Higher-Order Thought Theory)은 의식의 인지 기능과 프로세스를 설명하는 대표적 이론이다. 각 이론들은 다양한 주장들을 펼치고 있는데, 이를 증명할 신경과학적 관점의 실험 결과는 아직 부족하다(&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2023.06.23.546249v1.full&quot;&gt;&lt;strong&gt;Cogitate Consortium, 2023&lt;/strong&gt;&lt;/a&gt;). 때문에 최근 각광받고 있는 이론 신경과학의 자유 에너지 원리와 능동 추론(Free Energy Principle &amp;amp; Active Inference)의 관점에서, 각 이론의 주장들을 확률론 및 정보이론의 관점에서 형식화할 필요성을 제안한다. 이 관점은 기계 학습(machine learning) 학계에서 다뤄져 온 확률적 그래프 모형(PGM; Probabilistic Graphical Model) 상의 변분 추론(Variational Inference) 및 월드 모델(World Model) 관점과도 &lt;em&gt;동일해&lt;/em&gt; 쉽게 확장가능하다. 강조하건데, &lt;em&gt;잘 정립된 이론은 백만 번의 실험에 맞먹는 가치를 지닌다.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;인공지능 학계에서 월드 모델이 이미 의식적이라는 주장이 있지만(&lt;a href=&quot;https://lee-dohyeon.github.io/motivation/Schmidhuber-and-Conscious-Machine-kr/&quot;&gt;&lt;strong&gt;Schmidhuber, 2016&lt;/strong&gt;&lt;/a&gt;), 그것이 인간 수준 만큼의 의식적 행동을 보이는지에 대해서는 논란이 있다. 의식을 주관적 경험(Subjective Experience)으로 해석하는 현대 의식 과학의 흐름에서, 우리는 인공지능 모델의 내적 표상(마음)-상호작용 양식(행동)-작동 원리(두뇌)를 해석할 유용한 관점이 필요하다. 인공지능은 인지과학의 주장과 흐름을 인간의 단편적/부분적 일면-예컨대, 내성적 보고(Introspective Report), 실험을 통한 행동(Experimental Behavioral), 신경 이미징(NeuroImage)-에서 벗어나 전일적인(hollistic) 시스템 분석의 관점에서 접근할 수 있다. 월드 모델과 같이 인간과 동일한 생태적 지위(Niche)에서 상호작용하는 인공적 시스템을 통해 인지 과학적 이론의 전일적 양상을 분석할 수 있을 것으로 기대한다. &lt;em&gt;새로운 사이버네틱스 운동이 태동하고 있는 걸까?&lt;/em&gt;&lt;/p&gt;
+</description>
+                <pubDate>Thu, 21 Nov 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/A-New-Inflection-Point-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/A-New-Inflection-Point-kr/</guid>
+                
+                <category>진로</category>
+                
+                <category>연구</category>
+                
+                <category>과학</category>
+                
+                <category>철학</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
+        
+            <item>
+                <title>A New Inflection Point</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+
+  /* 새로 추가된 스타일 */
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+
+  /* 새로 추가된 스타일 */
+  .three-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .three-fig-container figure {
+      width: calc(33% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .three-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+&lt;/style&gt;
+
+&lt;p&gt;This post reflects on my current situation after reading &lt;a href=&quot;https://lee-dohyeon.github.io/motivation/Advices-for-young-investigator-en/&quot;&gt;Professor Gershman’s Advice for Young Investigators&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Recently, my health has significantly deteriorated, leading me to explore options such as pursuing a master’s degree or an internship in Korea instead of a PhD abroad. Prioritizing recovery, I’ve resolved not to be overly concerned about taking more time. However, this decision comes with its challenges. It defies the fast-paced “ppalli-ppalli” (&lt;em&gt;hurry-up&lt;/em&gt;) mindset prevalent in Korean society and means I’ll take longer than directly pursuing a PhD. Additionally, living on the modest stipend of Korean graduate programs is a daunting prospect. Many of my peers have already been in the workforce for years, and I often wonder how grueling this late start in graduate school will be.&lt;/p&gt;
+
+&lt;p&gt;Nonetheless, there are valid reasons for this path. Due to a university policy that deferred departmental specialization until after three semesters, coupled with the disruptive onset of COVID-19, half of my college years were marked by &lt;strong&gt;uncertainty&lt;/strong&gt;, while the other half felt like &lt;strong&gt;isolation&lt;/strong&gt;. This left me in the worst possible environment to secure the critical &lt;strong&gt;(1) recommendations&lt;/strong&gt; and &lt;strong&gt;(2) achievements&lt;/strong&gt; needed to demonstrate my passion and focus for a PhD. Viewing this as an opportunity rather than an excuse, I believe pursuing a domestic master’s degree or internship could help me build a strong foundation for both. Furthermore, it provides time to apply for beneficial &lt;strong&gt;(3) scholarships&lt;/strong&gt;, which could alleviate financial stress. Planning this phase carefully will also allow me to strategize for my entire academic and professional journey, including the eventual pursuit of a PhD. With the right direction, speed becomes secondary. I must meticulously prepare for uncertainties and remain committed to thoughtful planning. Using &lt;em&gt;Professor Gershman’s advice&lt;/em&gt;, I will select impactful projects and focus my efforts to shape a meaningful future.&lt;/p&gt;
+
+&lt;p&gt;One of the main reasons I struggled to produce results at my research institute stems from &lt;strong&gt;&lt;em&gt;stubbornness&lt;/em&gt;&lt;/strong&gt;. Since childhood, I’ve been captivated by human consciousness—its interplay with the unconscious, language, and human society. To study these scientifically, I delved into physics, biology, and computer science, eventually majoring in mathematics as the universal language of science. I also collaborated with peers across disciplines to operate academic societies, studying philosophy and cognitive science. At my institute, I encountered cutting-edge AI and robotics technologies, gaining significant insights into the engineering world. However, my aspirations were overwhelming. Consciousness remains a profound mystery, and AI technology often seems directionless, wandering across various fields. My dream of creating “conscious AI” to understand human consciousness felt like chasing the sun—a vision too vast, abstract, and idealistic. Like Icarus who fell from the sky, I crashed under the weight of my ambition.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-21-A New Inflection Point/1.png&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      My various attempts.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s time to rise again and let go of my greed. My journey is not a sprint but a marathon. Science isn’t just a collection of knowledge but a cultural ecosystem shaped by the activities of countless scientists. Beyond theoretical mathematics, I must learn how to &lt;em&gt;practice science&lt;/em&gt;. To achieve breakthrough research results, I need to identify questions where &lt;strong&gt;alternative hypotheses can be tested through experimental design&lt;/strong&gt;. Phenomena like consciousness and human higher cognitive functions remain uniquely unexplained in history, defying existing theories. Furthermore, modern science demands appropriate resource allocation and collaboration. Research is rarely a solitary endeavor; finding partners for this journey is essential.&lt;/p&gt;
+
+&lt;p&gt;What is my unique strength? It lies in my &lt;strong&gt;transdisciplinary approach&lt;/strong&gt;. I possess a strong mathematical and philosophical background to understand AI algorithms, combined with a deep knowledge of the historical and conceptual underpinnings of cybernetics, which underlie modern engineering. Additionally, I maintain an anthropological interest in human psychology, religion, economics, and society, while staying attuned to contemporary discussions in consciousness studies.&lt;/p&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-21-A New Inflection Point/2.png&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      My background and strengths.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Building on this foundation, my focus is on &lt;strong&gt;“consciousness and machines.”&lt;/strong&gt; As Richard Feynman famously said, &lt;strong&gt;&lt;em&gt;“If we cannot recreate a phenomenon, we do not truly understand it.”&lt;/em&gt;&lt;/strong&gt; To clearly comprehend human consciousness as a biological phenomenon, we must attempt to recreate it. However, creating a conscious agent doesn’t automatically mean we understand consciousness. As Thomas Nagel stated in his seminal 1974 paper, &lt;strong&gt;&lt;em&gt;“We cannot fully understand a consciousness other than our own.”&lt;/em&gt;&lt;/strong&gt; Thus, our starting point is the &lt;strong&gt;implementation of machines that mirror human-like mechanisms of consciousness&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;two-fig-container&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-21-A New Inflection Point/3.png&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Richard Feynman’s lecture notes.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-11-21-A New Inflection Point/4.png&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+    &lt;figcaption&gt;
+      Thomas Nagel’s “What Is It Like to Be a Bat?”
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;How should we approach machines with human-like consciousness? Opinions vary. Geoffrey Hinton (&lt;a href=&quot;https://arxiv.org/pdf/2212.13345&quot;&gt;&lt;strong&gt;2022&lt;/strong&gt;&lt;/a&gt;) argues that modern &lt;strong&gt;“digital brains”&lt;/strong&gt; are inherently superior to &lt;strong&gt;“analog brains”&lt;/strong&gt; due to their support for (1) parallel processing and (2) backpropagation learning algorithms. Opposing views suggest exploring energy-efficient &lt;em&gt;analog architectures&lt;/em&gt; with superior algorithms (&lt;a href=&quot;https://www.inference.vc/mortal-computation-hintons/&quot;&gt;&lt;strong&gt;Ferenc Huszár, 2023&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/abs/2311.09589&quot;&gt;&lt;strong&gt;Alexander Ororbia, 2024&lt;/strong&gt;&lt;/a&gt;). While digital brain superiority has a practical edge due to existing technology, analog brain superiority faces technical hurdles requiring significant time and innovation.&lt;/p&gt;
+
+&lt;p&gt;For my PhD, a pragmatic path is to maintain interest in &lt;strong&gt;analog brain superiority&lt;/strong&gt; while working within the framework of &lt;strong&gt;digital brain superiority&lt;/strong&gt;. Hence, my starting point—&lt;strong&gt;“implementing human-like consciousness mechanisms in machines”&lt;/strong&gt;—aligns with developing &lt;strong&gt;software&lt;/strong&gt; that embodies these mechanisms. Drawing on theoretical foundations in cognitive neuroscience and psychology, my immediate challenge lies in creating AI systems with consciousness-based higher cognitive functions. What theories and arguments exist regarding human consciousness?&lt;/p&gt;
+
+&lt;p&gt;Theoretical approaches in cognitive neuroscience and psychology are highly diverse (&lt;a href=&quot;https://www.nature.com/articles/s41583-022-00587-4&quot;&gt;&lt;strong&gt;Anil Seth &amp;amp; Tim Bayne, 2022&lt;/strong&gt;&lt;/a&gt;). From the &lt;strong&gt;Global Neuronal Workspace Theory (GNWT)&lt;/strong&gt; to the &lt;strong&gt;Integrated Information Theory (IIT)&lt;/strong&gt;, affect-based theories, and &lt;strong&gt;Higher-Order Thought (HOT) theories&lt;/strong&gt;, these models attempt to explain the processes and functions of consciousness. However, neuroscience lacks experimental results that conclusively validate these models (&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2023.06.23.546249v1.full&quot;&gt;&lt;strong&gt;Cogitate Consortium, 2023&lt;/strong&gt;&lt;/a&gt;). This is where theoretical neuroscience, including the &lt;strong&gt;Free Energy Principle&lt;/strong&gt; and &lt;strong&gt;Active Inference&lt;/strong&gt;, provides a compelling framework. By formalizing these theories through probabilistic and information-theoretic models, we could bridge gaps between cognitive science and machine learning perspectives, such as &lt;strong&gt;probabilistic graphical models (PGMs)&lt;/strong&gt; and &lt;strong&gt;variational inference&lt;/strong&gt; in &lt;strong&gt;world models&lt;/strong&gt;. A well-founded theory, after all, is worth a million experiments.&lt;/p&gt;
+
+&lt;p&gt;While some claim world models in AI are already conscious (&lt;a href=&quot;https://lee-dohyeon.github.io/motivation/Schmidhuber-and-Conscious-Machine-kr/&quot;&gt;&lt;strong&gt;Schmidhuber, 2016&lt;/strong&gt;&lt;/a&gt;), debates persist about whether they exhibit human-level consciousness. As modern consciousness science interprets consciousness as subjective experience, we need a comprehensive framework to analyze an AI model’s internal representations (mind), interactions (behavior), and operational principles (brain). Beyond fragmented methods like introspective reporting, behavioral experiments, and neuroimaging, AI can enable holistic system-level analysis of cognitive theories. Could this herald the birth of a &lt;strong&gt;new cybernetics movement&lt;/strong&gt;?&lt;/p&gt;
+</description>
+                <pubDate>Thu, 21 Nov 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/A-New-Inflection-Point-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/A-New-Inflection-Point-en/</guid>
+                
+                <category>Career</category>
+                
+                <category>Research</category>
+                
+                <category>Science</category>
+                
+                <category>Philosophy</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
         
             <item>
                 <title>절쉬만 교수의 젊은 연구자를 위한 조언</title>
@@ -5289,214 +5565,6 @@ Considering that the importance of predictive coding and un/self-supervised lear
                 
                 
                 <category>Movement</category>
-                
-            </item>
-        
-            <item>
-                <title>유학 준비를 시작하며...</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-15-Starting Point/0.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      퇴근하던 중 하늘을 바라보며 사색에 잠겼다.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;-나는-어떤-무기를-갖고-연구해야-하는가&quot;&gt;💡 나는 어떤 무기를 갖고 연구해야 하는가?&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;강력한 철학적/수학적 텍스트 분석 능력, 수학적/물리학적 모델링 능력, 컴퓨터 프로그래밍 능력&lt;/li&gt;
-  &lt;li&gt;철학/사이버네틱스/인지과학/심리학/신경과학의 역사에 대한 많은 배경지식&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;다양한 네트워크와의 소통과 매체를 통해 깨달은 바를 표현&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;-내가-지원할-연구실이-만족해야-하는-필수-조건은-무엇인가&quot;&gt;💡 내가 지원할 연구실이 만족해야 하는 필수 조건은 무엇인가?&lt;/h1&gt;
-
-&lt;p&gt;⇒ 나의 연구는 &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;제한된 자원에서 생존하는 추론 기계&lt;/code&gt;&lt;/strong&gt; 에 대한 것.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;정보 이론, 정보 기하학, 계산 신경과학 등 &lt;strong&gt;이론적 프레임워크&lt;/strong&gt;에 대한 연구&lt;/li&gt;
-  &lt;li&gt;정보 물리학, 신경생리학, 인지 컴퓨팅 등 &lt;strong&gt;물리적 계산 장치&lt;/strong&gt;에 대한 연구&lt;/li&gt;
-  &lt;li&gt;심리학, 의식 현상, 정동 현상 등 &lt;strong&gt;심리 현상&lt;/strong&gt;에 대한 고려&lt;/li&gt;
-  &lt;li&gt;진화심리학, 계산 생물학 등 &lt;strong&gt;생물학적 복잡성&lt;/strong&gt;에 대한 고려&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;기술과 인간의 삶, 인류 미래와 &lt;strong&gt;지속 가능성&lt;/strong&gt;에 대한 이야기를 수행하고 있는가?&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;-내가-지원할-학교가-만족해야-하는-필수-조건은-무엇인가&quot;&gt;💡 내가 지원할 학교가 만족해야 하는 필수 조건은 무엇인가?&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;주변에 다양한 전시 및 &lt;strong&gt;문화 예술&lt;/strong&gt;을 향유할 수 있는 기반 시설이 존재하는가?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;과학과 예술, 기술&lt;/strong&gt;이 조화롭게 인정받는 사회적 분위기가 존재하는가?&lt;/li&gt;
-  &lt;li&gt;철학/예술 등 &lt;strong&gt;다양&lt;/strong&gt;한 분야의 학생들과 의사소통할 수 있는가?&lt;/li&gt;
-  &lt;li&gt;학생들이 &lt;strong&gt;책/소설, 예술 활동&lt;/strong&gt;하는 것을 장려하는가?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;더-나아가서&quot;&gt;더 나아가서&lt;/h1&gt;
-
-&lt;h2 id=&quot;-핵심-문구&quot;&gt;💡 핵심 문구&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“믿음은 생각이 되고, 생각은 말이 되며, 말은 행동이 되고, 행동은 습관이된다. 습관은 너의 성격과 가치를 결정하고 그것은 결국 너의 운명이 된다.” - 간디(미상)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;-연구-소개&quot;&gt;💡 연구 소개&lt;/h2&gt;
-
-&lt;p&gt;나의 연구는 인간과 동물의 마음, 두뇌, 행동에 대한 과학을 형성하기 위해, 다양한 정신적 현상을 설명하고 예측하며 제어하는 통합적인 형식적 프레임워크를 발견하는 것을 목표로 삼는다. 그 과정에서 설명하지 못했던 현상에 대한 새로운 이해를 도모하고, 이론 기반의 책임질 수 있는 인간 수준의 지적 기계를 구현하는 데에 기여한다. 이를 위해, 나는 (1)사이버네틱스 운동, 심리철학, 신경철학의 역사적 배경지식, (2)확률론 및 그래프 이론 기반의 수리과학적 데이터 분석, (3)통계 역학과 복잡계 물리학을 활용한 물리적 모델링, (4)인공지능과 로보틱스를 활용한 공학적 어플리케이션을 조합하여 사용한다.&lt;/p&gt;
-
-&lt;h2 id=&quot;-연구-주제&quot;&gt;💡 연구 주제&lt;/h2&gt;
-
-&lt;p&gt;나는 일생을 거쳐 풀고자 하는 여러 연구적 주제들을 포착해왔다. 기존에 제안된 마음-두뇌-행동을 설명하고자 하는 다양한 원리Principles들의 관계를 파악하고 환원하여, 그에 따라 분화된 동학Dynamics를 통일하고 역학Mechanics를 통합한다. 효과성을 검증하기 위해, 현대 과학이 설명해 내지 못했거나 비교적 최근에 설명되기 시작한 현상들에 대한 통합적인 이론을 제안한다. 뿐만 아니라, 인간과 동물에게서 포착된 주요 이론을 적용하여 인간/동물 수준의 안전하고 탁월한 기계 장치를 고안하여 사회에 이바지 한다.&lt;/p&gt;
-
-&lt;p&gt;(1) 몸-마음-행동의 통합적인 이론 체계: 자유 에너지 원리, 자유 에너지 원리, 귀납 편향 원리, 근사 원리, 데이터 압축 원리, 자원 한정 원리, 진화 원리 등 기존에 제안된 수많은 원리들의 관계를 분석하고 몸-마음-행동에 대한 통합적인 이론체계를 제공한다.&lt;/p&gt;
-
-&lt;p&gt;(1-1) 의식 현상: 광역신경공간 이론, 통합정보 이론, 예측코딩 이론, 주의집중 스키마 이론, 정동 기반 이론 등 의식에 대한 이론을 형식적으로 비교하여 형식적인 이론을 제안한다. 더 나아가 의식의 내용에 대한 시뮬레이션 모델 뿐만 아니라, 그것의 효과와 원리를 모사한 기계 장치를 구현한다.&lt;/p&gt;
-
-&lt;p&gt;(1-2) 최면 현상: 기존의 예측 코딩 이론 및 약물을 활용한 실험을 발전시키고 인간 언어의 효과와 원리에 대한 포괄한 형식적인 이론을 제안한다. 더 나아가 의식의 내용에 대한 시뮬레이션 모델 뿐만 아니라, 그것의 효과와 원리를 모사한 기계 장치를 이론적으로 제안한다.&lt;/p&gt;
-
-&lt;p&gt;(2) 이론 기반의 알고리즘 및 기계 장치 제안: 신경과학, 심리학, 인지과학 등의 이론들을 바탕으로 설명 가능하고, 생물학적 복잡성을 고려한 인간 수준의 인공지능 모델과 생물학에서 영감받은 기계 장치를 제안한다.&lt;/p&gt;
-
-&lt;p&gt;(2-1) 제한된 자원에서의 최적화: 어떻게 제한된 자원(시간, 에너지 등)에서 인간을 비롯한 동물들이 효과적으로 주의집중하고 의사결정하는지에 대한 이론을 기반으로, 효율적인 인공지능 모델을 모사하는 것뿐만 아니라, 효율적인 기계 장치에 대한 이론적 배경을 제안한다.&lt;/p&gt;
-
-&lt;p&gt;(2-2) 기호의 경계를 넘나들며: 어떻게 하위 기호적인 신경망에서 수학과 언어와 같은 기호적 체계가 발생할 수 있는지에 대한 이론을 기반으로, 효율적인 언어 모델을 모사한다. 더 나아가, 학습된 하위 기호적 신경망을 검증하고 분석하는 새로운 방법론을 발견하여 인공지능 모델의 안정성을 평가하는 이론적 배경을 제안한다.&lt;/p&gt;
-
-&lt;p&gt;(2-3) 생물학적 복잡성과 유용한 초기점: 어떻게 진화심리학적인 요인들이 세상을 인식하고 살아가는 데 도움을 주는지에 대한 이론을 기반으로, Tabula Rasa; 생물학적 복잡성에 대한 고려없이 학습을 통해 백지 상태에서 학습하는 패러다임에 도전하고, 효율적인 인공지능 모델에 대한 이론적 틀을 제안한다.&lt;/p&gt;
-</description>
-                <pubDate>Sat, 15 Jun 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/meditation/Starting-Point-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/meditation/Starting-Point-kr/</guid>
-                
-                <category>성찰</category>
-                
-                <category>유학</category>
-                
-                <category>돌아보기</category>
-                
-                
-                <category>Meditation</category>
-                
-            </item>
-        
-            <item>
-                <title>Starting My Journey to Study Abroad...</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-&lt;/style&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-15-Starting Point/0.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      Gazing at the sky in deep thought on my way home from work.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;-what-skills-should-i-arm-myself-with-for-research&quot;&gt;💡 What skills should I arm myself with for research?&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Strong analytical skills for philosophical/mathematical texts, capabilities in mathematical/physical modeling, and proficiency in computer programming.&lt;/li&gt;
-  &lt;li&gt;Extensive background knowledge in the history of philosophy, cybernetics, cognitive science, psychology, and neuroscience.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Ability to express insights through various networks and media.&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;-what-essential-criteria-must-the-lab-i-apply-to-meet&quot;&gt;💡 What essential criteria must the lab I apply to meet?&lt;/h1&gt;
-
-&lt;p&gt;⇒ My research focuses on &lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;inference machines that survive under limited resources.&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Research on &lt;strong&gt;theoretical frameworks&lt;/strong&gt; like information theory, information geometry, and computational neuroscience.&lt;/li&gt;
-  &lt;li&gt;Research on &lt;strong&gt;physical computational devices&lt;/strong&gt; like information physics, neurophysiology, and cognitive computing.&lt;/li&gt;
-  &lt;li&gt;Consideration of &lt;strong&gt;psychological phenomena&lt;/strong&gt; such as psychology, consciousness, and affective phenomena.&lt;/li&gt;
-  &lt;li&gt;Consideration of &lt;strong&gt;biological complexity&lt;/strong&gt; like evolutionary psychology and computational biology.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Does the lab engage in discussions on the sustainability of technology and human life, and the future of humanity?&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;-what-essential-criteria-must-the-school-i-apply-to-meet&quot;&gt;💡 What essential criteria must the school I apply to meet?&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Does it have a variety of facilities for enjoying &lt;strong&gt;cultural arts&lt;/strong&gt; and exhibitions?&lt;/li&gt;
-  &lt;li&gt;Is there a social atmosphere where &lt;strong&gt;science, art, and technology&lt;/strong&gt; are harmoniously recognized?&lt;/li&gt;
-  &lt;li&gt;Can I communicate with students from &lt;strong&gt;various&lt;/strong&gt; fields like philosophy and art?&lt;/li&gt;
-  &lt;li&gt;Does it encourage students to engage in &lt;strong&gt;reading/books, and artistic activities&lt;/strong&gt;?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;going-further&quot;&gt;Going Further&lt;/h1&gt;
-
-&lt;h2 id=&quot;-key-quote&quot;&gt;💡 Key Quote&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Your beliefs become your thoughts, your thoughts become your words, your words become your actions, your actions become your habits, your habits become your values, your values become your destiny.” - Gandhi (Unknown)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;-research-introduction&quot;&gt;💡 Research Introduction&lt;/h2&gt;
-
-&lt;p&gt;My research aims to discover a unified formal framework that explains, predicts, and controls various mental phenomena to form a scientific understanding of the human and animal mind, brain, and behavior. In the process, it seeks new understandings of previously unexplained phenomena and contributes to implementing theoretically responsible human-level intelligent machines. To achieve this, I combine (1) historical knowledge of the cybernetics movement, philosophy of mind, and neurophilosophy, (2) mathematical data analysis based on probability theory and graph theory, (3) physical modeling using statistical mechanics and complexity physics, and (4) engineering applications using artificial intelligence and robotics.&lt;/p&gt;
-
-&lt;h2 id=&quot;-research-topics&quot;&gt;💡 &lt;strong&gt;Research Topics&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;I have identified several research topics that I aim to tackle throughout my life. I seek to understand and integrate the relationships between various principles proposed to explain the mind-brain-behavior, thereby unifying the differentiated dynamics and integrating the mechanics. To verify effectiveness, I propose a unified theory of phenomena that modern science has yet to explain or has only recently begun to explain. Moreover, I design safe and advanced machines at the human/animal level by applying key theories observed in humans and animals, contributing to society.&lt;/p&gt;
-
-&lt;p&gt;(1) Integrated Theoretical System of Mind-Body-Behavior: I analyze the relationships between numerous existing principles—such as the Free Energy Principle, Inductive Bias Principle, Approximation Principle, Data Compression Principle, Resource Limitation Principle, and Evolutionary Principle—and provide an integrated theoretical system of mind-body-behavior.&lt;/p&gt;
-
-&lt;p&gt;(1-1) Consciousness Phenomenon: I formally compare theories of consciousness such as Global Neuronal Workspace Theory, Integrated Information Theory, Predictive Coding Theory, Attention Schema Theory, and Affective-Based Theories to propose a formal theory. I further propose simulation models of the content of consciousness and machine devices that mimic its effects and principles.&lt;/p&gt;
-
-&lt;p&gt;(1-2) Hypnosis Phenomenon: I advance existing predictive coding theory and drug-based experiments, proposing a comprehensive formal theory on the effects and principles of human language. Additionally, I theoretically propose machine devices that simulate not only the content of consciousness but also its effects and principles.&lt;/p&gt;
-
-&lt;p&gt;(2) Theory-Based Algorithms and Machine Design: I propose human-level AI models and bio-inspired machines that are explainable and consider biological complexity, based on theories from neuroscience, psychology, and cognitive science.&lt;/p&gt;
-
-&lt;p&gt;(2-1) Optimization with Limited Resources: Based on theories explaining how humans and animals effectively focus attention and make decisions with limited resources (time, energy, etc.), I propose not only efficient AI models but also the theoretical background for efficient machine devices.&lt;/p&gt;
-
-&lt;p&gt;(2-2) Crossing the Boundaries of Symbols: Based on theories explaining how symbolic systems like mathematics and language can emerge from sub-symbolic neural networks, I propose efficient language models. Moreover, I suggest a new methodology for verifying and analyzing trained sub-symbolic neural networks, proposing a theoretical background for evaluating the stability of AI models.&lt;/p&gt;
-
-&lt;p&gt;(2-3) Biological Complexity and Useful Starting Points: Based on theories of how evolutionary psychological factors help perceive the world and survive, I challenge the Tabula Rasa paradigm that ignores biological complexity in learning from a blank slate and propose a theoretical framework for efficient AI models.&lt;/p&gt;
-</description>
-                <pubDate>Sat, 15 Jun 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/meditation/Starting-Point-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/meditation/Starting-Point-en/</guid>
-                
-                <category>Reflection</category>
-                
-                <category>Study Abroad</category>
-                
-                <category>Looking Back</category>
-                
-                
-                <category>Meditation</category>
                 
             </item>
         
