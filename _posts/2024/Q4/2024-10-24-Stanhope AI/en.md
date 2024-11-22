@@ -16,15 +16,15 @@ category: Motivation
 tags: [AI, Neuroscience, Success, Business]
 lang: en
 header:
-    teaser: "/assets/images/posts/2023/Q4/2023-11-02-DeepMind/hassabis.webp"
-image: assets/images/posts/2023/Q4/2023-11-02-DeepMind/hassabis.webp
+  teaser: "/assets/images/posts/2024/Q4/2024-10-24-Stanhope AI/StanhopeAI.jpeg"
+image: assets/images/posts/2024/Q4/2024-10-24-Stanhope AI/StanhopeAI.jpeg
 ---
 
 Renowned cognitive and computational neuroscientist **Rosalyn Moran** founded [**Stanhope AI**](https://www.stanhopeai.com/), which successfully raised £23 million in seed funding (approximately 40 billion KRW) earlier this year ([**Article 1**](https://thenextweb.com/news/neuroscience-human-brain-ai-startup-drone-flying-decisions), [**Article 2**](https://www.uktech.news/ai/stanhope-funding-ai-human-brains-20240320)). Currently, she is a professor of computational neuroscience at [**King’s College London (KCL)**](https://www.kcl.ac.uk/people/rosalyn-moran) and the director of the [**AI Institute**](https://www.kcl.ac.uk/ai) at KCL. Having previously worked with Professor Karl Friston on the free energy principle and active inference, her research focuses on computational neuroscience, computational psychiatry, and neurology. She is now particularly focused on the intersection of deep neural networks, Bayesian inference (variational principles), and experimental neurobiology (neuroimaging and cognitive tasks).
 
 Stanhope AI aims to develop AI systems inspired by the human brain. Their AI’s defining feature is that it "does not learn" in the conventional sense. Instead, as proposed by active inference, they design and fine-tune hierarchical generative models. This approach aims to reduce hallucination risks in AI while cutting costs. The company's research revolves around the following key questions:
 
-1. How can an autonomous machine find its own data?  
+1. How can an autonomous machine find its own data?
 2. How can an AI agent explain its beliefs and plans for action?
 
 In pursuit of these answers, the company has developed an [**active inference model for visual search**](https://arxiv.org/pdf/2006.03531) and created a [**Gym package**](https://arxiv.org/pdf/2006.03531) that allows algorithms to interact with their environment through trial and error. Additionally, they are exploring how the brain’s [**locus coeruleus**](https://en.wikipedia.org/wiki/Locus_coeruleus) helps AI agents flexibly update and modify their [**world models**](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006267) in response to new experiences.

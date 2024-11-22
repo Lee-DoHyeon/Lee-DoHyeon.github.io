@@ -5,8 +5,8 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 22 Nov 2024 15:02:12 +0900</pubDate>
-        <lastBuildDate>Fri, 22 Nov 2024 15:02:12 +0900</lastBuildDate>
+        <pubDate>Fri, 22 Nov 2024 15:40:34 +0900</pubDate>
+        <lastBuildDate>Fri, 22 Nov 2024 15:40:34 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
@@ -607,6 +607,272 @@ investigators&lt;/strong&gt;&lt;/a&gt;” 발표 자료를 번역한 것으로, 
                 
                 
                 <category>Motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>한국뇌신경철학연구회에서 발표</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+
+  /* 새로 추가된 스타일 */
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+&lt;/style&gt;
+
+&lt;p&gt;올해 초 “&lt;a href=&quot;https://lee-dohyeon.github.io/movement/KACS-x-KSCN-Meeting-kr/&quot;&gt;&lt;strong&gt;한국의식과학학술회 X 한국뇌신경철학연구회 심포지엄&lt;/strong&gt;&lt;/a&gt;“에서 맺은 인연으로 &lt;a href=&quot;http://www.youmeacademy.org/index.html&quot;&gt;&lt;strong&gt;유미과학문화재단&lt;/strong&gt;&lt;/a&gt;의 후원을 받은 &lt;strong&gt;한국뇌신경철학연구회&lt;/strong&gt;에서 외부 강연을 할 기회를 얻었다. 다양한 분야에서 박사 학위를 갖고 계신 교수님들 앞에서 발표할 주제를 고심한 끝에, 내 배경을 살려 색다르면서도 흥미로운 주제를 선택하고자 했다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-10-26-Presentation in Korean Society for Neurophilosophy/240906_1.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;2024년 9월 6일. 1차 외부 강의 중 한 장면1.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-10-26-Presentation in Korean Society for Neurophilosophy/240906_2.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;2024년 9월 6일. 1차 외부 강의 중 한 장면2.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;내가 선택한 주제는 &lt;strong&gt;“인간과 기계의 마음, 행동, 그리고 두뇌”&lt;/strong&gt;로, 분량이 많아 9월 6일과 10월 4일 두 차례에 걸쳐 진행했다. 발표 자료를 바탕으로 주요 내용을 요약하자면 다음과 같다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;인간의 마음, 행동, 두뇌&lt;/strong&gt;&lt;br /&gt;
+인간의 마음과 행동은 두뇌와 어떤 관계에 있을까? 의식의 본질은 무엇이며, 지각, 학습, 감정 조절은 어떻게 작동할까? 이 질문들은 인간의 마음과 두뇌를 통합적으로 설명하는 과학적 접근의 가능성을 탐구하게 하며, 특히 계산 및 이론 신경과학에서 주목받고 있는 ‘능동추론’과 ‘자유에너지 원리’를 중심으로 다루었다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;기계의 마음, 행동, 두뇌&lt;/strong&gt;&lt;br /&gt;
+기계가 인간 수준의 지능과 감정을 가질 수 있을까? 인간의 두뇌만큼 효율적인 기계는 어떻게 구현할 수 있을까? 이번 발표에서는 기계의 지적 능력 구현 가능성과 그에 따른 이론적 접근 방법을 살펴보았으며, 특히 기계의 의식과 감정에 관한 철학적 논의와 인간 수준 인공지능, 신경 모방 컴퓨팅 장치 등 인간 두뇌와 유사하게 작동하는 기술들을 소개했다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;인간과 기계의 공존&lt;/strong&gt;&lt;br /&gt;
+인간 수준의 지능을 가진 기계가 사회에 미칠 영향은 무엇일까? 의식 있는 기계에게는 어떤 법적 권리와 책임을 부여할 수 있을까? 이 부분에서는 고도로 지적인 기계의 등장 가능성과 그로 인한 사회적 파급 효과를 다루며, 이러한 기계가 인류와 조화롭게 공존하기 위한 사회적 합의가 무엇인지 논의했다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;기술의 발전이 인류에게 미치는 영향을 충분히 고찰하려면, 논의의 배경을 2차 세계대전 이후 발달한 사이버네틱스 운동과 인지과학(Cognitive Science), 심리철학(Philosophy of Mind)에서 일어난 혁신적 사건에 두어야 한다고 생각했다. 오늘날 인공지능, 뇌-컴퓨터 인터페이스, 알고리즘 기반 플랫폼 등 다양한 기술들이 등장하며 인류와 기술의 관계를 다시 돌아보는 계기가 되길 바라는 마음으로 발표를 준비했다. 발표 준비의 목적과 이유는 다음과 같다:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“우리는 지금, 인간과 기계의 마음, 행동, 그리고 두뇌에 대한 연구가 그 어느 때보다 중요한 시대에 살고 있다. 인공지능과 신경과학의 비약적인 발전은 우리의 일상과 사회를 빠르게 변화시키고 있으며, 이러한 변화는 단지 기술적 혁신에 그치지 않고, 우리 존재의 본질, 사회적 구조, 그리고 윤리적 가치관에 깊숙이 영향을 미치고 있다.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“이번 발표는 과학기술의 발전이 단순히 삶을 윤택하게 하는 데 그치지 않고, 인간의 본질을 재정의하고, 우리의 미래를 근본적으로 바꿀 수 있는 잠재력을 가지고 있음을 인식하는 데 목적이 있다. 특히, 인간과 기계의 마음과 두뇌가 어떻게 연결되고 상호작용하며 진화할 수 있는지를 탐구함으로써 더 나은 미래를 설계할 수 있는 기초를 마련하고자 한다.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“지금 이 순간, 인공지능 기술은 사회의 여러 분야에 실질적인 영향을 미치고 있으며, 자율 무기 시스템(LAWs), 딥페이크 범죄, BCI 기술과 같은 혁신들은 긍정적 가능성만큼이나 심각한 위험도 내포하고 있다. 이러한 변화는 더 이상 먼 미래의 이야기가 아닌 오늘날 우리가 직면한 현실이다. 우리는 이 변화에 대한 깊이 있는 이해와 윤리적 기준을 확립할 필요가 있다.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“이 자리에 모인 여러분, 이공계 연구자들과 철학자, 인문학 연구자들이야말로 이러한 변화의 중심에 서 있는 사람들이다. 과학기술의 발전이 가져올 도전과 기회에 대해 가장 먼저 인식하고, 이에 대한 대처 방안을 모색할 책임이 있는 사람들이다. 오늘 이 자리에서 인간과 기계의 관계를 재조명하고, 미래를 대비하는 데 필요한 지식과 통찰을 공유함으로써, 모두가 더 나은 방향으로 나아갈 수 있는 첫걸음을 내딛고자 한다.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-10-26-Presentation in Korean Society for Neurophilosophy/241004_1.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;2024년 10월 4일. 2차 외부 강의 중 한 장면1.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-10-26-Presentation in Korean Society for Neurophilosophy/241004_2.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;2024년 10월 4일. 2차 외부 강의 중 한 장면2.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;외부 강의 이후 한 교수님께서 나를 “한국의 폰 노이만”이라 칭찬해 주셨다. 그 기대에 부응해 꼭 성공적인 다학제적 연구자가 되기를 다시 한번 꿈꾼다.&lt;/p&gt;
+</description>
+                <pubDate>Sat, 26 Oct 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/movement/Presentation-in-Korean-Society-for-Neurophilosophy-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/movement/Presentation-in-Korean-Society-for-Neurophilosophy-kr/</guid>
+                
+                <category>세미나</category>
+                
+                <category>철학</category>
+                
+                <category>과학</category>
+                
+                <category>발표</category>
+                
+                
+                <category>Movement</category>
+                
+            </item>
+        
+            <item>
+                <title>Presentation at KSNP</title>
+                <description>&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+
+  /* 새로 추가된 스타일 */
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+&lt;/style&gt;
+
+&lt;p&gt;Earlier this year, through connections made at the “&lt;a href=&quot;https://lee-dohyeon.github.io/movement/KACS-x-KSCN-Meeting-en/&quot;&gt;&lt;strong&gt;Korean Academy of Consciousness Studies X Korean Society for Neurophilosophy Symposium&lt;/strong&gt;&lt;/a&gt;,” I was invited to give an external lecture at the &lt;strong&gt;Korean Society for Neurophilosophy&lt;/strong&gt;, supported by the &lt;a href=&quot;http://www.youmeacademy.org/index.html&quot;&gt;&lt;strong&gt;YouMe Science and Culture Foundation&lt;/strong&gt;&lt;/a&gt;. Preparing to speak in front of professors with PhDs in various fields, I wanted to select a topic that would not only leverage my background but also offer something unique and engaging.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-10-26-Presentation in Korean Society for Neurophilosophy/240906_1.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;September 6, 2024: Scene from the first lecture.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-10-26-Presentation in Korean Society for Neurophilosophy/240906_2.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;September 6, 2024: Another scene from the first lecture.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The topic I chose was &lt;strong&gt;“The Mind, Behavior, and Brain of Humans and Machines”&lt;/strong&gt;, and because of the volume of material, I divided it across two sessions held on September 6 and October 4. Here is a brief overview of the main points covered:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;The Mind, Behavior, and Brain of Humans&lt;/strong&gt;&lt;br /&gt;
+What is the relationship between the mind, behavior, and the brain? What is the nature of consciousness? How do processes like perception, learning, emotion regulation, and attention function? These questions lead us to explore scientific approaches that aim to integrate our understanding of the human mind and brain, focusing particularly on the ‘Active Inference’ and ‘Free Energy Principle’ concepts, which are widely recognized in computational and theoretical neuroscience.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;The Mind, Behavior, and Brain of Machines&lt;/strong&gt;&lt;br /&gt;
+Could machines ever achieve human-level intelligence or experience emotions? How might we design machines to be as efficient as the human brain? In this section, I explored the theoretical frameworks and technological methods that might enable intelligent machines to emulate human cognitive functions. The discussion included the philosophy and science of machine consciousness, efforts to develop human-level AI, and neuromorphic computing devices inspired by the human brain.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Coexistence of Humans and Machines&lt;/strong&gt;&lt;br /&gt;
+What impact might machines with human-level intelligence have on society? Could conscious machines be granted legal rights or responsibilities? Here, I addressed the possibility of highly intelligent machines and the potential social ripple effects of their emergence, raising questions about the societal agreements needed for humans and machines to coexist harmoniously.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;To thoroughly consider the impact of technological advances on humanity, I believed it essential to ground the discussion in the historical context of the cybernetics movement and revolutionary developments in cognitive science and philosophy of mind that followed World War II. Today, the emergence of artificial intelligence, brain-computer interfaces, algorithm-based platforms, and similar technologies gives us cause to re-examine the relationship between humanity and technology. Here’s why I prepared this presentation:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Today, we live in a time where the study of the mind, behavior, and brain of humans and machines is more relevant than ever. The rapid advancement of AI and neuroscience is reshaping our daily lives and society, impacting not just technology but the very nature of our existence, social structures, and ethical values.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“This presentation aims to highlight how advancements in science and technology go beyond mere convenience, with the potential to redefine human nature and fundamentally alter our future. In particular, by exploring how the minds and brains of humans and machines can connect, interact, and evolve, I hope to lay a foundation for designing a better future.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Right now, AI technology is already having practical impacts across numerous fields, with innovations like lethal autonomous weapons (LAWs), deepfake crimes, and BCI technology posing significant risks alongside their promising potential. These changes are no longer hypothetical scenarios but realities our society faces today. We must develop a profound understanding of these shifts and establish ethical standards to guide them.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“You, as scientists, philosophers, and humanities scholars gathered here, stand at the center of these transformative times. You are among the first to recognize the challenges and opportunities these advancements bring, and it is your responsibility to seek proactive solutions. By re-examining the relationship between humans and machines and sharing the knowledge and insights needed to prepare for the future, I hope we can take the first step toward a more promising direction.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-10-26-Presentation in Korean Society for Neurophilosophy/241004_1.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;October 4, 2024: Scene from the second lecture.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q4/2024-10-26-Presentation in Korean Society for Neurophilosophy/241004_2.jpeg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
+      &lt;figcaption&gt;October 4, 2024: Another scene from the second lecture.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;After the lecture, a professor referred to me as “Korean von Neumann.” Inspired by this, I’m more determined than ever to become a successful interdisciplinary researcher.&lt;/p&gt;
+</description>
+                <pubDate>Sat, 26 Oct 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/movement/Presentation-in-Korean-Society-for-Neurophilosophy-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/movement/Presentation-in-Korean-Society-for-Neurophilosophy-en/</guid>
+                
+                <category>Seminar</category>
+                
+                <category>Philosophy</category>
+                
+                <category>Science</category>
+                
+                <category>Presentation</category>
+                
+                
+                <category>Movement</category>
                 
             </item>
         
@@ -5066,502 +5332,6 @@ Considering that the importance of predictive coding and un/self-supervised lear
                 <category>Complex Systems</category>
                 
                 <category>Society</category>
-                
-                
-                <category>Movement</category>
-                
-            </item>
-        
-            <item>
-                <title>제주에서의 여름</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-
-  /* 새로 추가된 스타일 */
-  .two-fig-container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px; /* 이미지 간의 간격 */
-      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
-  }
-  .two-fig-container figure {
-      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
-      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
-  }
-
-  /* 작은 화면에서 각 figure를 세로로 배치 */
-  @media (max-width: 768px) {
-      .two-fig-container figure {
-          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
-      }
-  }
-&lt;/style&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0.jpeg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      같이 학회에 참석한 과학기술전문사관 동기 및 후배들과 찍은 사진.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240612&quot;&gt;2024/06/12&lt;/h1&gt;
-
-&lt;h2 id=&quot;제주-공항-도착&quot;&gt;제주 공항 도착&lt;/h2&gt;
-
-&lt;p&gt;제주 공항에 도착하자마자, 예약해 둔 렌트카를 받아 바로 이동했다. 학회장까지의 거리가 꽤 있어서, 가는 길에 식사를 해결하기로 했다. 공항 근처에 있는 “먹돌”이라는 식당에서 제주 특산 음식인 고기국수와 육전을 맛보았는데, 기대했던 대로 모두 맛있게 먹었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-1-공항 도착 1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        제주 공항 도착 후 찍은 첫 사진.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-1-공항 도착 2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        공항 근처 식당에서 맛본 고기국수와 육전.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;오설록-티-뮤지엄&quot;&gt;오설록 티 뮤지엄&lt;/h2&gt;
-
-&lt;p&gt;오설록 티 뮤지엄은 제주 남서쪽, 시계로 치면 8시 방향쯤에 위치해 있다. 이곳은 국내 유명 차 브랜드인 오설록의 실제 차밭과 관련된 카페가 있는 곳이다. 내부에는 외국인 관광객들이 특히 많았는데, 거의 매시간마다 관광버스가 들어오는 듯했다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-2-오설록 티뮤지엄 1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        오설록 티 뮤지엄의 세련된 인테리어. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-2-오설록 티뮤지엄 2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        건물 중앙에 있는 작은 정원.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;무더운 날씨에도 불구하고, 밖에서 산책하는 사람들을 볼 수 있었다. 차밭은 6월의 햇살 아래 어린 찻잎들이 하늘과 어우러져 빛나는 모습이 인상적이었다. 저 멀리 수평선과 구름이 맞닿은 풍경을 보며, 선선한 바람에 몸을 맡기니 기분이 아주 상쾌했다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-2-오설록 티뮤지엄 3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        넓게 펼쳐진 오설록 차밭.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-2-오설록 티뮤지엄 4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        차밭과 하늘이 어우러진 풍경.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-2-오설록 티뮤지엄 5.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-       후배 준길이, 준영이와 함께. 
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;사계-해수욕장&quot;&gt;사계 해수욕장&lt;/h2&gt;
-
-&lt;p&gt;사계 해수욕장은 제주 남쪽에 위치한 곳으로, 강한 바람과 침식으로 인해 독특한 바위 절경이 펼쳐진다. 여름의 푸른 계절에 맞춰 해변 근처의 바위에는 이끼가 덮여 있어 더욱 인상적이었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-3-사계 1.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      제주 사계 해수욕장의 아름다운 풍경. 
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;모래사장을 걸으며 바람에 따라 끊임없이 변하는 모래의 음영에 넋을 잃었다. 각도와 위치에 따라 음영이 다르게 보여서 보는 재미가 있었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-3-사계 2.jpg&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        모래사장의 음영이 만들어내는 예술.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-3-사계 4.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        준길이, 준영이와 함께한 사진. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240613&quot;&gt;2024/06/13&lt;/h1&gt;
-
-&lt;h2 id=&quot;중문-해수욕장&quot;&gt;중문 해수욕장&lt;/h2&gt;
-
-&lt;p&gt;학회 시작 전 이른 아침, 중문 해수욕장을 찾았다. 이곳은 국내 서퍼들의 성지로도 알려져 있다. 남쪽에서 불어오는 강한 바람 덕분에 중문 해변의 파도는 언제나 높고 역동적이다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-0-중문 해수욕장 2.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      중문 해수욕장의 평온한 전경. 
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;서핑 스쿨에서 짧게 교육을 받고 바다로 나갔다. 파도가 부서지는 소리를 배경으로 서핑 코치가 사진을 찍어주었는데, 배경과 어우러진 멋진 사진이 남았다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-0-중문 해수욕장 1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        서핑 스쿨에서 교육받는 모습.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-0-중문 해수욕장 4.jpg&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        서핑 직전, 준길이, 준영이, 도현이와 함께.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-0-중문 해수욕장 5.jpg&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      바다를 배경으로 셀카 한 컷.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;학회장-전시&quot;&gt;학회장 전시&lt;/h2&gt;
-
-&lt;p&gt;이른 아침 서핑을 마치고, 간단히 식사를 한 후 학회장으로 향했다. 학회장은 서핑 장소와 가까운 제주 국제 컨벤션 센터에서 열렸고, 다양한 연구자들과 관계자들이 참여했다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-1-학회 1.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      학회장에서의 발표 모습.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;학회장에서 우연히 백남준의 “TV 첼로” 작품을 발견했다. 평소에도 백남준 아트센터를 자주 방문했기에, 이렇게 전세계적으로 몇 개밖에 없는 작품을 제주에서 직접 볼 수 있어 감동적이었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-1-학회 2.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        백남준의 대표작 &quot;TV 첼로&quot;. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-1-학회 3.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        백남준 작품에 대한 설명.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;작품 뒤쪽에서는 폴란드 사진작가 마르친 리체크의 사진전이 열리고 있었다. 순간의 절묘함을 포착한 그의 작품들은 굉장히 인상적이었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-1-학회 4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        마르친 리체크의 개인 사진전.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-1-학회 6.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        전시된 사진, 싸우는 흑백의 염소들의 순간을 포착한 작품.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;커피-오마카세&quot;&gt;커피 오마카세&lt;/h2&gt;
-&lt;p&gt;학회장 근처에 잠시 쉬어갈 수 있는 “중문 별장”이라는 카페가 있었다. 이곳은 커피 오마카세로 유명한데, 자체적으로 블렌딩한 원두로 다양한 커피를 제공했다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-2-별장 5.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      에스프레소를 활용한 커피 오마카세.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;카페 주위는 넓고 정돈된 공간이었고, 사장님의 친누님이 한국의 현대 미술가라는 이야기를 들었다. 카페 부지에 대한 여러 가지 계획에 대해 이야기를 나누고, 학회장으로 돌아왔다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-2-별장 7.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        주변의 작은 숲에 설치된 거울.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-2-별장 8.jpg&quot; style=&quot;width: 85%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        하늘과 야자수. 색감이 너무 아름다웠다.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-2-별장 9.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        천으로 만든 간단한 설치 작품.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-2-별장 10.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        작은 간이 집의 창문. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-2-별장_1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-    &lt;figcaption&gt;
-      별장에 있는 오래된 피아노를 치는 영상.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240614&quot;&gt;2024/06/14&lt;/h1&gt;
-
-&lt;h2 id=&quot;올레길-산책&quot;&gt;올레길 산책&lt;/h2&gt;
-&lt;p&gt;마지막 날 아침엔, 해 뜨기 전 올레길을 산책했다. 특히 주상절리와 중문 해수욕장을 걸쳐 있는 루트를 선택했는데, 후회없이 잘 돌아본 것 같다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0614-1-올레길 1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        제주 주상절리의 웅장한 모습.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0614-1-올레길 7.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        오름을 내려오며 찍은 사진. 숲과 바다가 어우러진 풍경.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;두 팀으로 나눠서 양 끝점에서 서로를 향해 걸어왔다. 그러던 중 중간 지점에서 다른 팀을 만나게 되었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0614-1-올레길 8.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      함께한 모든 이들과 기념 사진.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;이번 학회 방문을 통해 제주도의 아름다운 자연 경관을 만끽하며 마음속 깊은 힐링의 시간을 가질 수 있었다. 끝없이 펼쳐진 푸른 하늘과 바다, 싱그러운 차밭, 그리고 독특한 지형들이 어우러진 풍경 속에서 여유를 찾으며 새로운 에너지를 충전할 수 있었다. 무엇보다도 함께한 후배들과 동기들이 있어 더욱 특별한 여행이었다. 힘든 일정 속에서도 서로를 격려하고 웃으며 함께한 모든 순간이 소중했다. 이들과 함께한 시간이 앞으로도 오래도록 기억에 남을 것 같다. 너무나 행복하고 감사한 시간이었다.&lt;/p&gt;
-</description>
-                <pubDate>Tue, 18 Jun 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/movement/KIMST-in-Jeju-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/movement/KIMST-in-Jeju-kr/</guid>
-                
-                <category>학회</category>
-                
-                <category>발표</category>
-                
-                <category>여행</category>
-                
-                <category>힐링</category>
-                
-                
-                <category>Movement</category>
-                
-            </item>
-        
-            <item>
-                <title>A Summer in Jeju</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-
-  /* 새로 추가된 스타일 */
-  .two-fig-container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px; /* 이미지 간의 간격 */
-      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
-  }
-  .two-fig-container figure {
-      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
-      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
-  }
-
-  /* 작은 화면에서 각 figure를 세로로 배치 */
-  @media (max-width: 768px) {
-      .two-fig-container figure {
-          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
-      }
-  }
-&lt;/style&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0.jpeg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt; &lt;figcaption&gt; A photo with fellow Science and Technology Officer colleagues and juniors attending the conference together. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt;
-
-&lt;h1 id=&quot;20240612&quot;&gt;2024/06/12&lt;/h1&gt;
-
-&lt;h2 id=&quot;arrival-at-jeju-airport&quot;&gt;Arrival at Jeju Airport&lt;/h2&gt;
-
-&lt;p&gt;As soon as we landed at Jeju Airport, we picked up the rental car we had reserved in advance and set off. Since it was a bit of a drive to the conference venue, we decided to grab a meal on the way. We stopped at a nearby restaurant called “Meokdol,” known for its local specialties, Gogi Guksu (pork noodle soup) and Yukjeon (pan-fried beef). As expected, the food was delicious, and we all enjoyed it thoroughly.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt; &lt;div class=&quot;two-fig-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-1-공항 도착 1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt; &lt;figcaption&gt; The first photo taken right after arriving at Jeju Airport. &lt;/figcaption&gt; &lt;/figure&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-1-공항 도착 2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt; &lt;figcaption&gt; The delicious Gogi Guksu and Yukjeon we had near the airport. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt; &lt;/div&gt;
-
-&lt;h2 id=&quot;osulloc-tea-museum&quot;&gt;Osulloc Tea Museum&lt;/h2&gt;
-
-&lt;p&gt;Located in the southwest of Jeju, about the 8 o’clock direction on a clock, Osulloc Tea Museum is a popular destination where the famous Korean tea brand Osulloc displays its tea fields and offers a cafe experience. The place was packed with tourists, especially foreigners, with what seemed like tour buses arriving every hour.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt; &lt;div class=&quot;two-fig-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-2-오설록 티뮤지엄 1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt; &lt;figcaption&gt; The chic interior of Osulloc Tea Museum. &lt;/figcaption&gt; &lt;/figure&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-2-오설록 티뮤지엄 2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt; &lt;figcaption&gt; A small garden in the center of the building. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt; &lt;/div&gt;
-&lt;p&gt;Despite the hot weather, many people were enjoying a stroll outside. The tea fields, bathed in the June sunshine, were glowing with the fresh green color of young tea leaves, harmonizing beautifully with the clear blue sky. The view stretched to the horizon, where the sky met the clouds, and the gentle breeze made the moment feel refreshingly peaceful.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt; &lt;div class=&quot;two-fig-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-2-오설록 티뮤지엄 3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt; &lt;figcaption&gt; The vast tea fields owned by Osulloc. &lt;/figcaption&gt; &lt;/figure&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-2-오설록 티뮤지엄 4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt; &lt;figcaption&gt; The harmonious blend of sky and tea fields. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt; &lt;/div&gt;
-&lt;div class=&quot;centered-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-2-오설록 티뮤지엄 5.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt; &lt;figcaption&gt; A photo with juniors Jungil and Junyoung. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt;
-
-&lt;h2 id=&quot;sa-gye-beach&quot;&gt;Sa-Gye Beach&lt;/h2&gt;
-
-&lt;p&gt;Sagye Beach, located on the southern coast of Jeju, is renowned for its rugged cliffs carved by strong winds and erosion. The summer landscape was made even more striking by the moss-covered rocks along the shoreline.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-3-사계 1.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt; &lt;figcaption&gt; The stunning view of Sagye Beach, Jeju. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt;
-&lt;p&gt;As I walked along the sandy beach, I was mesmerized by the shifting shadows on the sand, created by the wind. The shadows constantly changed depending on the angle and position, offering a unique visual experience.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt; &lt;div class=&quot;two-fig-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-3-사계 2.jpg&quot; style=&quot;width: 70%; height: auto;&quot; /&gt; &lt;figcaption&gt; The artistic play of shadows on the sand. &lt;/figcaption&gt; &lt;/figure&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0612-3-사계 4.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt; &lt;figcaption&gt; A photo with juniors Jungil and Junyoung. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt; &lt;/div&gt;
-
-&lt;h1 id=&quot;20240613&quot;&gt;2024/06/13&lt;/h1&gt;
-
-&lt;h2 id=&quot;jung-moon-beach&quot;&gt;Jung-moon Beach&lt;/h2&gt;
-&lt;p&gt;Before the conference began, I visited Jungmun Beach at dawn. Known as a surfing hotspot in Korea, this beach is famous for its strong southern winds that create dynamic waves.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-0-중문 해수욕장 2.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt; &lt;figcaption&gt; The peaceful view of Jungmun Beach. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt;
-&lt;p&gt;After a short surfing lesson, we headed out to the ocean. With the crashing waves in the background, our surf instructor snapped some great photos, capturing the energy of the sea.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt; &lt;div class=&quot;two-fig-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-0-중문 해수욕장 1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt; &lt;figcaption&gt; Surfing lesson at the school. &lt;/figcaption&gt; &lt;/figure&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-0-중문 해수욕장 4.jpg&quot; style=&quot;width: 70%; height: auto;&quot; /&gt; &lt;figcaption&gt; Pre-surfing photo with Jungil, Junyoung, and Dohyun. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt; &lt;/div&gt;
-&lt;div class=&quot;centered-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-0-중문 해수욕장 5.jpg&quot; style=&quot;width: 70%; height: auto;&quot; /&gt; &lt;figcaption&gt; A selfie with the ocean in the background. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt;
-
-&lt;h2 id=&quot;conference-and-hall-exhibition&quot;&gt;Conference and Hall Exhibition&lt;/h2&gt;
-&lt;p&gt;After a quick breakfast following our early-morning surfing session, we made our way to the conference venue. The conference was held at Jeju International Convention Center, not far from the beach, and was attended by various researchers and stakeholders from the field.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-1-학회 1.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt; &lt;figcaption&gt; A snapshot of the conference presentation. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt;
-&lt;p&gt;At the conference, I stumbled upon Nam June Paik’s famous work, “TV Cello.” Being a frequent visitor of the Nam June Paik Art Center, it was an emotional moment to see one of his rare works on display here in Jeju.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt; &lt;div class=&quot;two-fig-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-1-학회 2.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt; &lt;figcaption&gt; Nam June Paik&apos;s iconic &quot;TV Cello.&quot; &lt;/figcaption&gt; &lt;/figure&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-1-학회 3.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt; &lt;figcaption&gt; The description of Paik&apos;s work. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt; &lt;/div&gt;
-&lt;p&gt;Right behind the artwork, a small photo exhibition by Polish photographer Marcin Ryczek was being held. His ability to capture fleeting moments with such precision was truly impressive.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt; &lt;div class=&quot;two-fig-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-1-학회 4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt; &lt;figcaption&gt; Marcin Ryczek’s solo photo exhibition. &lt;/figcaption&gt; &lt;/figure&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-1-학회 6.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt; &lt;figcaption&gt; One of his displayed works: A striking black-and-white photo of two goats fighting. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt; &lt;/div&gt;
-
-&lt;h2 id=&quot;coffee-omakase&quot;&gt;Coffee Omakase&lt;/h2&gt;
-&lt;p&gt;Near the conference venue, we took a break at a place called “Jungmun Villa,” which is famous for its Coffee Omakase. They served a variety of coffees using their own blend of beans, with flavors that highlighted the rich and diverse characteristics of the beans.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-2-별장 5.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt; &lt;figcaption&gt; Coffee Omakase featuring an espresso. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt;
-&lt;p&gt;The surrounding area was vast and neatly arranged, and it turned out that the owner’s sister is a renowned contemporary artist in Korea. After discussing some ideas about future plans for the site, we returned to the conference.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt; &lt;div class=&quot;two-fig-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-2-별장 7.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt; &lt;figcaption&gt; A mirror installation in a small forest near the villa. &lt;/figcaption&gt; &lt;/figure&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-2-별장 8.jpg&quot; style=&quot;width: 85%; height: auto;&quot; /&gt; &lt;figcaption&gt; The stunning colors of the sky and palm trees. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt; &lt;/div&gt;
-&lt;div class=&quot;centered-container&quot;&gt; &lt;div class=&quot;two-fig-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-2-별장 9.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt; &lt;figcaption&gt; A simple fabric installation. &lt;/figcaption&gt; &lt;/figure&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-2-별장 10.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt; &lt;figcaption&gt; The window of a small, makeshift house. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt; &lt;/div&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt; &lt;figure&gt; &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt; &lt;source src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0613-2-별장_1.mp4&quot; type=&quot;video/mp4&quot; /&gt; &lt;/video&gt; &lt;figcaption&gt; A video of playing an old piano at the villa. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt;
-
-&lt;h1 id=&quot;20240614&quot;&gt;2024/06/14&lt;/h1&gt;
-&lt;h2 id=&quot;olle-trail-hike&quot;&gt;Olle Trail Hike&lt;/h2&gt;
-&lt;p&gt;On the final morning, I took an early hike along the Olle Trail, choosing a route that covered both the Jusangjeolli Cliffs and Jungmun Beach. It turned out to be a fantastic choice, and I thoroughly enjoyed the scenic walk.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt; &lt;div class=&quot;two-fig-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0614-1-올레길 1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt; &lt;figcaption&gt; The magnificent Jusangjeolli Cliffs. &lt;/figcaption&gt; &lt;/figure&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0614-1-올레길 7.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt; &lt;figcaption&gt; A photo taken as we descended from the hill, capturing the forest and sea perfectly combined. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt; &lt;/div&gt;
-&lt;p&gt;We split into two teams, starting from opposite ends of the trail and walking towards each other. Halfway through, we met the other group, creating a fun and memorable moment.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt; &lt;figure&gt; &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-18-KIMST in Jeju/0614-1-올레길 8.jpg&quot; style=&quot;width: 50%; height: auto;&quot; /&gt; &lt;figcaption&gt; A group photo with everyone. &lt;/figcaption&gt; &lt;/figure&gt; &lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;This conference trip gave me the chance to immerse myself in Jeju’s breathtaking natural landscapes and find inner peace. The endless blue sky and sea, the vibrant green tea fields, and the island’s unique geological formations all helped me recharge and find balance. Above all, sharing this experience with my juniors and colleagues made the journey even more special. Despite the demanding schedule, every moment was filled with laughter, support, and camaraderie. This trip will remain a cherished memory for years to come. I’m so grateful and happy to have been part of it.&lt;/p&gt;
-</description>
-                <pubDate>Tue, 18 Jun 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/movement/KIMST-in-Jeju-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/movement/KIMST-in-Jeju-en/</guid>
-                
-                <category>Conference</category>
-                
-                <category>Presentation</category>
-                
-                <category>Trip</category>
-                
-                <category>Healing</category>
                 
                 
                 <category>Movement</category>
