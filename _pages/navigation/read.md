@@ -13,7 +13,7 @@ author_profile: false
 #   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 # excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
 intro:
-  - excerpt: '"Thoughts become perception, perception becomes reality. Alter your thoughts, alter your reality."  Attributed to *William James*'
+  - excerpt: '"Thoughts become perception, perception becomes reality. Alter your thoughts, alter your reality."<br><span style="display: block; text-align: center;">Attributed to <em>William James</em></span>'
 feature_row:
   - image_path: assets/images/Read/meditation.jpg
     alt: "Meditation"
