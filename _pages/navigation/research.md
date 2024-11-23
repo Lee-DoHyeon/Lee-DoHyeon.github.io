@@ -34,7 +34,7 @@ excerpt: "I believe that fostering a dynamic synergy between human and machine i
 <body>
     <div style="text-align: center; margin-bottom: 20px;">
         <img src="/assets/images/Research/vision.png" alt="Vision Blueprint" style="max-width:85%; height: auto;">
-        <p style="font-style: italic; color: #555;">The Blue Print I Envision.</p>
+        <p style="font-style: italic; color: #555; font-size: 12px;">The Blueprint I Envision.</p>
     </div>
     <p><span class="first-word">My</span> research incorporates: <br>&nbsp;&nbsp;(1)<strong>Theoretical Foundations</strong> | Drawing on the history of cybernetics and philosophy of mind, I establish a strong conceptual basis for understanding intelligence and cognition.<br>&nbsp;&nbsp;(2)<strong>Mathematical and Computational Tools</strong> | I employ methods such as probabilistic inference, graph theory, and statistical mechanics to model complex systems and uncover their underlying principles.<br>&nbsp;&nbsp;(3)<strong>Practical Applications</strong> | Through reinforcement learning, world models, and robotics, I bridge theoretical insights with real-world implementations, advancing the design of intelligent machines.</p>
     <p><span class="first-word">In conclusion,</span> my work aims to bridge the gap between theoretical principles and practical applications, advancing the development of intelligent systems capable of human-level cognition and behavior. By addressing unresolved phenomena and proposing innovative solutions, I seek to contribute to a deeper understanding of the mind, behavior, and brain, while fostering progress in AI and cognitive science.</p>
