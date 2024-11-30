@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Starting My Journey to Study Abroad..."
 scope:
   type: posts
@@ -97,4 +97,4 @@ I have identified several research topics that I aim to tackle throughout my lif
 
 (2-2) Crossing the Boundaries of Symbols: Based on theories explaining how symbolic systems like mathematics and language can emerge from sub-symbolic neural networks, I propose efficient language models. Moreover, I suggest a new methodology for verifying and analyzing trained sub-symbolic neural networks, proposing a theoretical background for evaluating the stability of AI models.
 
-(2-3) Biological Complexity and Useful Starting Points: Based on theories of how evolutionary psychological factors help perceive the world and survive, I challenge the Tabula Rasa paradigm that ignores biological complexity in learning from a blank slate and propose a theoretical framework for efficient AI models.
+(2-3) Biological Complexity and Useful Starting Points: Based on theories of how evolutionary psychological factors help perceive the world and survive, I challenge the Tabula Rasa paradigm that ignores biological complexity in learning from a blank slate and propose a theoretical framework for efficient AI models. -->

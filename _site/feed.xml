@@ -5,8 +5,8 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 23 Nov 2024 15:13:50 +0900</pubDate>
-        <lastBuildDate>Sat, 23 Nov 2024 15:13:50 +0900</lastBuildDate>
+        <pubDate>Sat, 30 Nov 2024 18:49:59 +0900</pubDate>
+        <lastBuildDate>Sat, 30 Nov 2024 18:49:59 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
         
             <item>
@@ -1380,134 +1380,109 @@ image: assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/5.jpg
             </item>
         
             <item>
-                <title>에너지 기반 네트워크를 활용한 형상 최적화</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
+                <title>예술과 글쓰기가 과학자로서의 커리어에 공존할 수 있을까?</title>
+                <description>&lt;h2 id=&quot;예술과-글쓰기가-과학자로서의-커리어에-공존할-수-있을까&quot;&gt;예술과 글쓰기가 과학자로서의 커리어에 공존할 수 있을까?&lt;/h2&gt;
 
-  /* 새로 추가된 스타일 */
-  .two-fig-container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px; /* 이미지 간의 간격 */
-      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
-  }
-  .two-fig-container figure {
-      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
-      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
-  }
+&lt;h3 id=&quot;배경&quot;&gt;배경&lt;/h3&gt;
 
-  /* 작은 화면에서 각 figure를 세로로 배치 */
-  @media (max-width: 768px) {
-      .two-fig-container figure {
-          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
-      }
-  }
-&lt;/style&gt;
+&lt;p&gt;나는 과학자가 되는 것이 꿈이다. 현재 학부를 졸업한 직후, 한국에서 군 복무 의무를 이행하고 있다. 궁극적으로는 인간 수준의 인공지능 연구에 기여하기 위해 정보공학이나 사이버네틱스와 같은 분야의 연구자가 되고자 한다.&lt;/p&gt;
 
-&lt;p&gt;오래 전 읽었던 &lt;a href=&quot;https://www.amazon.com/Life-3-0-Being-Artificial-Intelligence/dp/1101946598&quot;&gt;&lt;strong&gt;막스 테그마크의 Life 3.0&lt;/strong&gt;&lt;/a&gt;에서는 자신의 소프트웨어 뿐만 아니라 하드웨어까지 수정하는 최종 생명체의 유형이 제시된다. 그러다 최근 에너지 기반 네트워크, 특히 &lt;a href=&quot;https://en.wikipedia.org/wiki/Hopfield_network&quot;&gt;&lt;strong&gt;홉필드 네트워크&lt;/strong&gt;&lt;/a&gt;를 활용하여 활용하여 &lt;a href=&quot;https://en.wikipedia.org/wiki/Topology_optimization&quot;&gt;&lt;strong&gt;형상 최적화&lt;/strong&gt;&lt;/a&gt;를 수행할 수 있지 않을까 하는 아이디어가 떠올렸다. 홉필드 네트워크에서는 노드 간의 가중치가 시스템의 전체 에너지를 최소화하도록 조정된다. 만약 이 가중치가 &lt;strong&gt;물리적 의미&lt;/strong&gt;, 즉 &lt;em&gt;노드 간의 거리&lt;/em&gt;를 나타낸다면, 신경망이 에너지를 최소화하는 과정에서 최적의 물리적 형상을 찾아낼 수 있을 것이라고 생각했다.&lt;/p&gt;
+&lt;p&gt;그런데 과학적 커리어를 본격적으로 시작하기 전에 예술 활동이나 글쓰기를 경험해보고 싶다는 마음이 있다. 하지만 그러한 활동이 커리어에 부정적인 영향을 미치지는 않을까 염려도 된다. 내가 가진 열정과 관심사를 알리고 공감을 이끌어내는 일이야말로 나의 목표와도 맞닿아 있기 때문에, 예술과 글쓰기는 단순히 여가 활동이 아니라 나에게 중요한 의식적 선택이다.&lt;/p&gt;
 
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/Memory Retrieval in Hopfield Network .gif&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        홉필드 네트워크의 작동 방식에 대한 시각화, 출처: &lt;a href=&quot;https://towardsdatascience.com/visualizing-episodic-memory-with-hopfield-network-a6e8bde967cb&quot;&gt;Muhammad Abduh&lt;/a&gt;.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/Scheme for Hopfield Network.png&quot; style=&quot;width: 55%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        홉필드 네트워크의 에너지 랜드스케이프, 출처: &lt;a href=&quot;https://www.researchgate.net/figure/Illustration-of-a-Hopfield-network-with-transiently-chaotic-dynamics-A-Schematic-of-a_fig1_343660391&quot;&gt;Ke Yang et al(2020).&lt;/a&gt;
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;이 대화를 통해, OpenAI의 ChatGPT와 이러한 고민을 나누고 조언을 구해보았다. ChatGPT는 나의 상황과 목표를 바탕으로 예술과 글쓰기가 과학적 커리어와 어떻게 상호 보완적일 수 있는지 제안했다.&lt;/p&gt;
 
-&lt;p&gt;그러나 이 접근에는 몇 가지 문제가 존재한다. 완전히 연결된 홉필드 네트워크에서 모든 노드는 서로 연결되어 있으며, 각 가중치를 노드 간의 유클리드 거리로 해석하면, 모든 가중치 조합이 실제 2차원 또는 3차원 공간에서 구현 가능한 형상에 대응하지 않을 수 있다. 이는 주어진 거리들이 삼각 부등식 등 유클리드 공간의 기하학적 제약을 만족하지 않을 수 있기 때문이다.&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;예를 들어, 세 개의 노드가 있고 그들 사이의 거리가 $w_{1,2}=1, w_{1,3}=3, w_{2,3}=2$로 주어졌을 때, 이를 2차원 공간에서 위치를 결정할 수 있다. 그러나 네 번째 노드를 추가하여 $w_{1,4}=2, w_{2,4}=3, w_{3,4}=1$로 설정하면, 이 거리들을 모두 만족하는 네 번째 노드의 위치를 2차원 공간에서 찾는 것이 불가능해진다.&lt;/p&gt;
+&lt;h3 id=&quot;chatgpt의-답변&quot;&gt;ChatGPT의 답변&lt;/h3&gt;
 
-&lt;p&gt;이를 해결하기 위해 다음과 같은 접근법을 고려할 수 있다:&lt;/p&gt;
+&lt;p&gt;예술과 글쓰기는 과학적 연구와 상충하기보다 상호 보완적인 관계를 형성할 수 있다. 다음은 ChatGPT가 제시한 몇 가지 관점이다.&lt;/p&gt;
+
+&lt;h4 id=&quot;예술과-글쓰기가-과학적-커리어에-미치는-긍정적-효과&quot;&gt;예술과 글쓰기가 과학적 커리어에 미치는 긍정적 효과&lt;/h4&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;임베딩 차원의 증가: 3차원 형상을 결정하기 위해, 가중치 행렬(거리 행렬)의 양의 준정부호성을 체크해볼 수 있다. 이는 주어진 거리들이 유효한 유클리드 거리인지 확인하는 과정이다. 양의 준정부호성을 만족한다면, 더 높은 차원의 공간에서 노드들의 위치를 배치하여 주어진 거리 제약을 만족시킬 수 있다.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;창의력 향상&lt;/strong&gt;&lt;br /&gt;
+예술 활동은 창의력을 증진시키는 데 중요한 역할을 한다. 그림 그리기, 음악 작곡, 글쓰기 등은 문제 해결 능력을 향상시키고 새로운 아이디어를 떠올리는 능력을 키운다. 이는 과학적 연구에서도 필수적인 요소이다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;에너지 함수의 재설계: 에너지 함수를 재설계하여 물리적 제약 조건과 형상 구현 가능성을 반영할 수 있다. 이를 통해 신경망이 학습하는 과정에서 현실적인 형상이 도출되도록 할 수 있다.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;소통 능력 강화&lt;/strong&gt;&lt;br /&gt;
+글쓰기는 복잡한 아이디어를 명확히 표현하고 전달하는 데 도움을 준다. 이는 논문 작성, 연구 결과 발표, 대중과의 소통에서도 중요한 기술이다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;거리의 조정 또는 오차 허용: 주어진 거리들을 약간 수정하거나, 거리와 실제 위치 간의 오차를 최소화하는 방향으로 접근할 수 있다. 이는 현실적인 형상을 얻기 위해 필요한 타협점이다.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;다양한 시각 확보&lt;/strong&gt;&lt;br /&gt;
+예술과 철학은 세상을 바라보는 새로운 시각을 제공한다. 이러한 시각은 과학적 문제를 접근하는 방식을 다양화하고, 복잡한 주제를 새로운 관점에서 바라볼 기회를 준다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;다차원 척도법(MDS) 활용: MDS를 사용하면 주어진 거리 데이터를 기반으로 저차원 공간에서 노드들의 위치를 찾을 수 있다. 이 방법은 거리와 위치 간의 불일치를 최소화하여 가장 적합한 형상을 제공한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;물리적 제약 조건의 통합: 에너지 함수에 물리적 제약 조건을 포함시켜, 신경망이 학습하는 과정에서 현실적인 형상이 도출되도록 할 수 있다. 이는 구조물의 물리적 특성을 반영하여 보다 실용적인 결과를 얻는 데 도움이 된다.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;심리적 안정감 제공&lt;/strong&gt;&lt;br /&gt;
+연구자의 삶은 종종 스트레스가 많다. 예술 활동은 스트레스를 해소하고 정서적 안정을 유지하는 데 도움을 준다.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;추가적인 고려 사항으로는 다음이 있다:&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;커리어에-미치는-영향&quot;&gt;커리어에 미치는 영향&lt;/h4&gt;
+
+&lt;p&gt;ChatGPT는 예술과 글쓰기가 커리어에 부정적인 영향을 미칠 가능성이 낮으며, 오히려 커리어를 강화할 수 있다고 강조했다.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;물리적 에너지 함수의 재설계: 신경망의 에너지 함수에 실제 물리적 시스템의 에너지 표현식을 통합하여, 가중치 조정이 실제 형상 최적화와 직접 연관되도록 할 수 있다.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;다양한 기술 세트 보유&lt;/strong&gt;&lt;br /&gt;
+예술적, 문학적 배경은 연구 환경에서 귀중한 자산이 될 수 있다. 협업 프로젝트나 외부 협력에서도 두각을 나타낼 수 있다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;데이터 기반 접근법: 실제 형상과 그에 대응하는 가중치 데이터를 수집하여 지도 학습 방식으로 신경망을 학습시키면, 가중치와 형상 간의 복잡한 관계를 모델이 학습하도록 유도할 수 있다.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;네트워크 확장&lt;/strong&gt;&lt;br /&gt;
+예술과 글쓰기는 다양한 사람들과의 교류를 가능하게 한다. 이는 새로운 협력 연구나 프로젝트 기회를 가져올 수 있다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;GPU 기반 병렬 처리 활용: 대규모 최적화 문제를 효율적으로 해결하기 위해 GPU의 병렬 처리 능력을 활용하면, 계산 속도를 크게 향상시킬 수 있다. 딥러닝 프레임워크인 TensorFlow나 PyTorch를 사용하여 이러한 작업을 수행할 수 있다.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;독창성 강조&lt;/strong&gt;&lt;br /&gt;
+과학 연구에서 독창성은 필수적이다. 예술적 배경은 창의적 접근법을 부각시키고, 연구자로서의 차별성을 강조할 수 있다.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;결론적으로, 가중치를 물리적 거리로 해석하여 에너지 기반 인공 신경망을 형상 최적화에 적용하는 아이디어는 매우 흥미롭다. 그러나 실제 구현을 위해서는 가중치와 물리적 형상 간의 관계를 보다 정확하게 모델링하고, 기하학적 제약과 물리적 특성을 고려한 추가적인 접근이 필요하다. 이를 통해 형상 최적화 분야에서 신경망을 활용한 혁신적인 방법을 개발할 수 있을 것이다.&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;앞으로의 연구 방향으로는 다음과 같은 것들이 있다:&lt;/p&gt;
+&lt;h3 id=&quot;추천-활동&quot;&gt;추천 활동&lt;/h3&gt;
+
+&lt;p&gt;ChatGPT는 예술과 글쓰기를 커리어와 연결하기 위한 몇 가지 구체적인 제안을 했다.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;토폴로지 최적화와 딥러닝의 융합 연구 조사: 기존에 진행된 연구들을 탐색하여 아이디어를 구체화하고, 새로운 접근법을 모색할 수 있다.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;블로그 운영&lt;/strong&gt;&lt;br /&gt;
+과학과 예술을 결합한 블로그를 운영해 보라. 이를 통해 대중과 소통하고, 자신의 연구와 관심사를 알릴 수 있다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;최적화 알고리즘 및 수학적 도구 학습: 비선형 최적화, 그래프 임베딩, 다차원 척도법 등 관련된 수학적 기법을 습득하여 모델의 정확도를 높일 수 있다.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;과학 에세이 작성&lt;/strong&gt;&lt;br /&gt;
+과학적 주제를 예술적이거나 철학적인 시각에서 접근한 에세이를 작성해 보라. 이는 과학적 아이디어를 더 넓은 맥락에서 탐구할 기회를 제공한다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;물리 시뮬레이션과의 결합: 유한요소해석(FEA) 등의 물리 시뮬레이션 도구와 신경망을 결합하여, 예측 결과의 정확성을 검증하고 개선할 수 있다.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;예술 프로젝트 참여&lt;/strong&gt;&lt;br /&gt;
+예술 관련 프로젝트에 참여하거나, 스스로 소규모 프로젝트를 시작해 보라. 이를 통해 창의력을 발휘하고 새로운 영감을 얻을 수 있다.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;이러한 방향으로 연구를 진행한다면, 에너지 기반 신경망을 활용한 형상 최적화 분야에서 의미 있는 성과를 얻을 수 있지 않을까? 이외에도 &lt;a href=&quot;https://www.mdpi.com/2076-3417/13/5/2929&quot;&gt;&lt;strong&gt;세포 자동자(Cellular Automata)를 활용한 위상 최적화 연구&lt;/strong&gt;&lt;/a&gt;도 있었다. 이러한 접근을 통합적으로 고려하면 실제 도움이 되는 기술을 개발할 수 있지 않을까 싶다.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;결론&quot;&gt;결론&lt;/h3&gt;
+
+&lt;p&gt;ChatGPT는 현대 과학과 기술이 예술 및 철학과 깊이 연결되어 있다고 강조하며, 예술적 및 글쓰기 활동이 당신을 더 창의적이고 다재다능한 연구자로 만들어 줄 것이라고 조언했다.&lt;/p&gt;
+
+&lt;p&gt;이 대화를 통해 얻은 통찰이 나뿐만 아니라 비슷한 고민을 가진 다른 사람들에게도 영감을 줄 수 있기를 바란다.&lt;/p&gt;
 </description>
-                <pubDate>Tue, 24 Sep 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/meditation/Energy-Based-Net-for-Top-Opt-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/meditation/Energy-Based-Net-for-Top-Opt-kr/</guid>
+                <pubDate>Fri, 27 Sep 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/Art-and-Writing-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Art-and-Writing-kr/</guid>
                 
-                <category>아이디어</category>
+                <category>과학</category>
                 
-                <category>형상 최적화</category>
+                <category>예술</category>
                 
-                <category>최적 설계</category>
+                <category>글쓰기</category>
                 
-                <category>에너지 기반 네트워크</category>
+                <category>진로</category>
                 
-                <category>홉필드 네트워크</category>
+                <category>철학</category>
+                
+                <category>창의성</category>
                 
                 
                 <category>Meditation</category>
@@ -1515,8 +1490,136 @@ image: assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/5.jpg
             </item>
         
             <item>
-                <title>Shape Optimization Using Energy-Based Networks</title>
-                <description>&lt;style&gt;
+                <title>Can Art and Writing Coexist with a Career as a Scientist?</title>
+                <description>&lt;h2 id=&quot;can-art-and-writing-coexist-with-a-career-as-a-scientist&quot;&gt;Can Art and Writing Coexist with a Career as a Scientist?&lt;/h2&gt;
+
+&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
+
+&lt;p&gt;I dream of becoming a scientist. Currently, I’m fulfilling my mandatory military service in South Korea after earning my bachelor’s degree. My ultimate goal is to contribute to the development of human-level artificial intelligence by pursuing research in fields like information engineering or cybernetics.&lt;/p&gt;
+
+&lt;p&gt;Before committing fully to this scientific path, I’ve been pondering whether I could explore artistic and writing endeavors—two activities I’ve always wanted to try. At the same time, I can’t help but wonder: would these pursuits harm my career prospects? To me, they’re not just hobbies; they represent ways to share my passion and vision with others, helping them connect with and understand my ideas.&lt;/p&gt;
+
+&lt;p&gt;To gain clarity, I had a thought-provoking conversation with OpenAI’s ChatGPT. I wanted to know how art and writing might complement my scientific ambitions and whether they could become integral parts of my journey as a researcher.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;chatgpts-insights&quot;&gt;ChatGPT’s Insights&lt;/h3&gt;
+
+&lt;p&gt;Art and writing aren’t obstacles to a scientific career—they can be valuable assets. Here’s what ChatGPT shared about the potential benefits of these pursuits.&lt;/p&gt;
+
+&lt;h4 id=&quot;positive-impacts-of-art-and-writing-on-a-scientific-career&quot;&gt;Positive Impacts of Art and Writing on a Scientific Career&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Enhancing Creativity&lt;/strong&gt;&lt;br /&gt;
+Activities like drawing, writing, or composing music enhance creativity, a skill crucial for tackling scientific challenges and generating innovative ideas.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Improving Communication Skills&lt;/strong&gt;&lt;br /&gt;
+Writing sharpens your ability to articulate complex concepts clearly and effectively. This skill is invaluable when drafting academic papers, presenting research, or engaging with a non-specialist audience.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Broadening Perspectives&lt;/strong&gt;&lt;br /&gt;
+Art and philosophy provide fresh perspectives, allowing you to approach scientific questions from diverse angles and uncover unique solutions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Providing Emotional Stability&lt;/strong&gt;&lt;br /&gt;
+The pressures of research can be intense. Artistic activities serve as an outlet for stress and help maintain emotional balance, contributing to a healthier, more sustainable career.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;how-it-impacts-your-career&quot;&gt;How It Impacts Your Career&lt;/h4&gt;
+
+&lt;p&gt;According to ChatGPT, pursuing art and writing is unlikely to negatively impact your career. Instead, it can elevate your work in meaningful ways:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Diversified Skill Set&lt;/strong&gt;&lt;br /&gt;
+Being skilled in art or writing makes you a more versatile researcher. These abilities can also enhance teamwork and external collaborations.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Expanded Networks&lt;/strong&gt;&lt;br /&gt;
+Artistic and writing endeavors open doors to broader connections, fostering partnerships that might lead to unexpected opportunities.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Emphasizing Originality&lt;/strong&gt;&lt;br /&gt;
+Creativity and originality are essential for impactful research. Artistic pursuits highlight these traits, helping you stand out among your peers.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;suggestions-for-combining-art-and-science&quot;&gt;Suggestions for Combining Art and Science&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Start a Blog&lt;/strong&gt;&lt;br /&gt;
+Create a blog where you blend scientific topics with artistic expression. Sharing your ideas in this format can engage a wider audience while refining your communication skills.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Write Science Essays&lt;/strong&gt;&lt;br /&gt;
+Approach scientific concepts through artistic or philosophical lenses. Essays like these provide a unique way to explore and present your ideas.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Participate in Art Projects&lt;/strong&gt;&lt;br /&gt;
+Collaborate on or initiate art projects, even on a small scale. These experiences can inspire new ideas for your scientific work.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;ChatGPT’s advice resonated with Yuk Hui’s philosophy of technology, which highlights the deep connections between modern science, technology, art, and philosophy. Pursuing art and writing alongside scientific research isn’t a distraction; it’s a way to enrich both personal and professional growth.&lt;/p&gt;
+
+&lt;p&gt;I hope this reflection inspires others who, like me, are navigating the intersection of creative and scientific aspirations. Let’s explore these passions without hesitation—they might lead to surprising and rewarding discoveries.&lt;/p&gt;
+</description>
+                <pubDate>Fri, 27 Sep 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/Art-and-Writing-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Art-and-Writing-en/</guid>
+                
+                <category>science</category>
+                
+                <category>art</category>
+                
+                <category>writing</category>
+                
+                <category>career</category>
+                
+                <category>philosophy</category>
+                
+                <category>creativity</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
+        
+            <item>
+                <title>Energy based net for top opt/kr</title>
+                <description>&lt;!-- ---
+title: &quot;에너지 기반 네트워크를 활용한 형상 최적화&quot;
+scope:
+  type: posts
+values:
+  layout: single
+  author_profile: true
+  read_time: true
+  comments: true
+  share: true
+  related: true
+toc: false
+category: Meditation
+tags: [아이디어, 형상 최적화, 최적 설계, 에너지 기반 네트워크, 홉필드 네트워크]
+lang: kr
+header:
+  teaser: &quot;/assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/TopOpt of a Compliance Prob.png&quot;
+image: /assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/TopOpt of a Compliance Prob.png
+---
+
+&lt;style&gt;
   .centered-container {
       text-align: center;
   }
@@ -1555,18 +1658,147 @@ image: assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/5.jpg
   }
 &lt;/style&gt;
 
-&lt;p&gt;A while ago, I read &lt;a href=&quot;https://www.amazon.com/Life-3-0-Being-Artificial-Intelligence/dp/1101946598&quot;&gt;Max Tegmark’s Life 3.0&lt;/a&gt;, where he introduces the concept of an ultimate life form capable of modifying not only its software but also its hardware. More recently, I came across an idea: what if we could use energy-based networks, particularly the &lt;a href=&quot;https://en.wikipedia.org/wiki/Hopfield_network&quot;&gt;Hopfield Network&lt;/a&gt;, to perform &lt;a href=&quot;https://en.wikipedia.org/wiki/Topology_optimization&quot;&gt;shape/topology optimization&lt;/a&gt;? In Hopfield Networks, the weights between nodes are adjusted to minimize the system’s total energy. If these weights represent a &lt;strong&gt;physical meaning&lt;/strong&gt;, such as the &lt;em&gt;distance between nodes&lt;/em&gt;, then perhaps the process of minimizing energy in the network could help us discover the optimal physical shape.&lt;/p&gt;
+
+오래 전 읽었던 [**막스 테그마크의 Life 3.0**](https://www.amazon.com/Life-3-0-Being-Artificial-Intelligence/dp/1101946598)에서는 자신의 소프트웨어 뿐만 아니라 하드웨어까지 수정하는 최종 생명체의 유형이 제시된다. 그러다 최근 에너지 기반 네트워크, 특히 [**홉필드 네트워크**](https://en.wikipedia.org/wiki/Hopfield_network)를 활용하여 활용하여 [**형상 최적화**](https://en.wikipedia.org/wiki/Topology_optimization)를 수행할 수 있지 않을까 하는 아이디어가 떠올렸다. 홉필드 네트워크에서는 노드 간의 가중치가 시스템의 전체 에너지를 최소화하도록 조정된다. 만약 이 가중치가 **물리적 의미**, 즉 *노드 간의 거리*를 나타낸다면, 신경망이 에너지를 최소화하는 과정에서 최적의 물리적 형상을 찾아낼 수 있을 것이라고 생각했다.
+
 
 &lt;div class=&quot;centered-container&quot;&gt;
   &lt;div class=&quot;two-fig-container&quot;&gt;
     &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/Memory Retrieval in Hopfield Network .gif&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/Memory Retrieval in Hopfield Network .gif&quot; style=&quot;width: 60%; height: auto;&quot;&gt;
+      &lt;figcaption&gt;
+        홉필드 네트워크의 작동 방식에 대한 시각화, 출처: &lt;a href=&quot;https://towardsdatascience.com/visualizing-episodic-memory-with-hopfield-network-a6e8bde967cb&quot;&gt;Muhammad Abduh&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/Scheme for Hopfield Network.png&quot; style=&quot;width: 55%; height: auto;&quot;&gt;
+      &lt;figcaption&gt;
+        홉필드 네트워크의 에너지 랜드스케이프, 출처: &lt;a href=&quot;https://www.researchgate.net/figure/Illustration-of-a-Hopfield-network-with-transiently-chaotic-dynamics-A-Schematic-of-a_fig1_343660391&quot;&gt;Ke Yang et al(2020).&lt;/a&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+그러나 이 접근에는 몇 가지 문제가 존재한다. 완전히 연결된 홉필드 네트워크에서 모든 노드는 서로 연결되어 있으며, 각 가중치를 노드 간의 유클리드 거리로 해석하면, 모든 가중치 조합이 실제 2차원 또는 3차원 공간에서 구현 가능한 형상에 대응하지 않을 수 있다. 이는 주어진 거리들이 삼각 부등식 등 유클리드 공간의 기하학적 제약을 만족하지 않을 수 있기 때문이다.
+
+예를 들어, 세 개의 노드가 있고 그들 사이의 거리가 $w_{1,2}=1, w_{1,3}=3, w_{2,3}=2$로 주어졌을 때, 이를 2차원 공간에서 위치를 결정할 수 있다. 그러나 네 번째 노드를 추가하여 $w_{1,4}=2, w_{2,4}=3, w_{3,4}=1$로 설정하면, 이 거리들을 모두 만족하는 네 번째 노드의 위치를 2차원 공간에서 찾는 것이 불가능해진다.
+
+
+이를 해결하기 위해 다음과 같은 접근법을 고려할 수 있다:
+
+1. 임베딩 차원의 증가: 3차원 형상을 결정하기 위해, 가중치 행렬(거리 행렬)의 양의 준정부호성을 체크해볼 수 있다. 이는 주어진 거리들이 유효한 유클리드 거리인지 확인하는 과정이다. 양의 준정부호성을 만족한다면, 더 높은 차원의 공간에서 노드들의 위치를 배치하여 주어진 거리 제약을 만족시킬 수 있다.
+
+2. 에너지 함수의 재설계: 에너지 함수를 재설계하여 물리적 제약 조건과 형상 구현 가능성을 반영할 수 있다. 이를 통해 신경망이 학습하는 과정에서 현실적인 형상이 도출되도록 할 수 있다.
+
+3. 거리의 조정 또는 오차 허용: 주어진 거리들을 약간 수정하거나, 거리와 실제 위치 간의 오차를 최소화하는 방향으로 접근할 수 있다. 이는 현실적인 형상을 얻기 위해 필요한 타협점이다.
+
+4. 다차원 척도법(MDS) 활용: MDS를 사용하면 주어진 거리 데이터를 기반으로 저차원 공간에서 노드들의 위치를 찾을 수 있다. 이 방법은 거리와 위치 간의 불일치를 최소화하여 가장 적합한 형상을 제공한다.
+
+5. 물리적 제약 조건의 통합: 에너지 함수에 물리적 제약 조건을 포함시켜, 신경망이 학습하는 과정에서 현실적인 형상이 도출되도록 할 수 있다. 이는 구조물의 물리적 특성을 반영하여 보다 실용적인 결과를 얻는 데 도움이 된다.
+
+추가적인 고려 사항으로는 다음이 있다:
+
+1. 물리적 에너지 함수의 재설계: 신경망의 에너지 함수에 실제 물리적 시스템의 에너지 표현식을 통합하여, 가중치 조정이 실제 형상 최적화와 직접 연관되도록 할 수 있다.
+
+2. 데이터 기반 접근법: 실제 형상과 그에 대응하는 가중치 데이터를 수집하여 지도 학습 방식으로 신경망을 학습시키면, 가중치와 형상 간의 복잡한 관계를 모델이 학습하도록 유도할 수 있다.
+
+3. GPU 기반 병렬 처리 활용: 대규모 최적화 문제를 효율적으로 해결하기 위해 GPU의 병렬 처리 능력을 활용하면, 계산 속도를 크게 향상시킬 수 있다. 딥러닝 프레임워크인 TensorFlow나 PyTorch를 사용하여 이러한 작업을 수행할 수 있다.
+
+결론적으로, 가중치를 물리적 거리로 해석하여 에너지 기반 인공 신경망을 형상 최적화에 적용하는 아이디어는 매우 흥미롭다. 그러나 실제 구현을 위해서는 가중치와 물리적 형상 간의 관계를 보다 정확하게 모델링하고, 기하학적 제약과 물리적 특성을 고려한 추가적인 접근이 필요하다. 이를 통해 형상 최적화 분야에서 신경망을 활용한 혁신적인 방법을 개발할 수 있을 것이다.
+
+앞으로의 연구 방향으로는 다음과 같은 것들이 있다:
+
+1. 토폴로지 최적화와 딥러닝의 융합 연구 조사: 기존에 진행된 연구들을 탐색하여 아이디어를 구체화하고, 새로운 접근법을 모색할 수 있다.
+
+2. 최적화 알고리즘 및 수학적 도구 학습: 비선형 최적화, 그래프 임베딩, 다차원 척도법 등 관련된 수학적 기법을 습득하여 모델의 정확도를 높일 수 있다.
+
+3. 물리 시뮬레이션과의 결합: 유한요소해석(FEA) 등의 물리 시뮬레이션 도구와 신경망을 결합하여, 예측 결과의 정확성을 검증하고 개선할 수 있다.
+
+이러한 방향으로 연구를 진행한다면, 에너지 기반 신경망을 활용한 형상 최적화 분야에서 의미 있는 성과를 얻을 수 있지 않을까? 이외에도 [**세포 자동자(Cellular Automata)를 활용한 위상 최적화 연구**](https://www.mdpi.com/2076-3417/13/5/2929)도 있었다. 이러한 접근을 통합적으로 고려하면 실제 도움이 되는 기술을 개발할 수 있지 않을까 싶다. --&gt;
+</description>
+                <pubDate>Tue, 24 Sep 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/Energy-Based-Net-for-Top-Opt-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/Energy-Based-Net-for-Top-Opt-kr/</guid>
+                
+                
+            </item>
+        
+            <item>
+                <title>Energy based net for top opt/en</title>
+                <description>&lt;!-- ---
+title: &quot;Shape Optimization Using Energy-Based Networks&quot;
+scope:
+  type: posts
+values:
+  layout: single
+  author_profile: true
+  read_time: true
+  comments: true
+  share: true
+  related: true
+toc: false
+category: Meditation
+tags: [ideas, shape optimization, optimal design, energy-based networks, Hopfield network]
+lang: en
+header:
+  teaser: &quot;/assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/TopOpt of a Compliance Prob.png&quot;
+image: /assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/TopOpt of a Compliance Prob.png
+---
+
+&lt;style&gt;
+  .centered-container {
+      text-align: center;
+  }
+  figure {
+      display: inline-block;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+  }
+  figcaption {
+      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
+      font-size: 12px;
+      color: #555;
+      margin-top: 5px;
+  }
+
+  /* 새로 추가된 스타일 */
+  .two-fig-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px; /* 이미지 간의 간격 */
+      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
+  }
+  .two-fig-container figure {
+      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
+      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
+  }
+
+  /* 작은 화면에서 각 figure를 세로로 배치 */
+  @media (max-width: 768px) {
+      .two-fig-container figure {
+          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
+      }
+  }
+&lt;/style&gt;
+
+
+A while ago, I read [Max Tegmark&apos;s Life 3.0](https://www.amazon.com/Life-3-0-Being-Artificial-Intelligence/dp/1101946598), where he introduces the concept of an ultimate life form capable of modifying not only its software but also its hardware. More recently, I came across an idea: what if we could use energy-based networks, particularly the [Hopfield Network](https://en.wikipedia.org/wiki/Hopfield_network), to perform [shape/topology optimization](https://en.wikipedia.org/wiki/Topology_optimization)? In Hopfield Networks, the weights between nodes are adjusted to minimize the system’s total energy. If these weights represent a **physical meaning**, such as the *distance between nodes*, then perhaps the process of minimizing energy in the network could help us discover the optimal physical shape.
+
+
+
+&lt;div class=&quot;centered-container&quot;&gt;
+  &lt;div class=&quot;two-fig-container&quot;&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/Memory Retrieval in Hopfield Network .gif&quot; style=&quot;width: 60%; height: auto;&quot;&gt;
       &lt;figcaption&gt;
         Visualization of How Hopfield Network Works, 출처: &lt;a href=&quot;https://towardsdatascience.com/visualizing-episodic-memory-with-hopfield-network-a6e8bde967cb&quot;&gt;Muhammad Abduh&lt;/a&gt;.
       &lt;/figcaption&gt;
     &lt;/figure&gt;
     &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/Scheme for Hopfield Network.png&quot; style=&quot;width: 55%; height: auto;&quot; /&gt;
+      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-09-24-Energy Based Net for Top Opt/Scheme for Hopfield Network.png&quot; style=&quot;width: 55%; height: auto;&quot;&gt;
       &lt;figcaption&gt;
         Energy landscape of a Hopfield Network, 출처: &lt;a href=&quot;https://www.researchgate.net/figure/Illustration-of-a-Hopfield-network-with-transiently-chaotic-dynamics-A-Schematic-of-a_fig1_343660391&quot;&gt;Ke Yang et al(2020).&lt;/a&gt;
       &lt;/figcaption&gt;
@@ -1574,55 +1806,215 @@ image: assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/5.jpg
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;However, there are a few challenges with this approach. In a fully connected Hopfield Network, all nodes are interconnected. If we interpret the weights as the Euclidean distances between nodes, not every combination of weights will correspond to a shape that can be realized in 2D or 3D space. This is because the given distances might not satisfy the geometric constraints of Euclidean space, such as the triangle inequality.&lt;/p&gt;
+However, there are a few challenges with this approach. In a fully connected Hopfield Network, all nodes are interconnected. If we interpret the weights as the Euclidean distances between nodes, not every combination of weights will correspond to a shape that can be realized in 2D or 3D space. This is because the given distances might not satisfy the geometric constraints of Euclidean space, such as the triangle inequality.
 
-&lt;p&gt;For example, let’s say we have three nodes with distances between them defined as $w_{1,2}=1$, $w_{1,3}=3$, and $w_{2,3}=2$. In this case, it’s possible to determine their positions in 2D space. But if we add a fourth node with distances $w_{1,4}=2$, $w_{2,4}=3$, and $w_{3,4}=1$, finding a position for this fourth node that satisfies all these distances in 2D becomes impossible.&lt;/p&gt;
+For example, let’s say we have three nodes with distances between them defined as $w_{1,2}=1$, $w_{1,3}=3$, and $w_{2,3}=2$. In this case, it’s possible to determine their positions in 2D space. But if we add a fourth node with distances $w_{1,4}=2$, $w_{2,4}=3$, and $w_{3,4}=1$, finding a position for this fourth node that satisfies all these distances in 2D becomes impossible.
 
-&lt;p&gt;To address this, several approaches can be considered:&lt;/p&gt;
+To address this, several approaches can be considered:
 
-&lt;p&gt;Increasing the embedding dimension: One way to determine a 3D shape is by checking the positive semidefiniteness of the weight matrix (or distance matrix). This ensures that the given distances are valid in Euclidean space. If positive semidefiniteness is satisfied, we can position the nodes in a higher-dimensional space, allowing us to meet the distance constraints.&lt;/p&gt;
+Increasing the embedding dimension: One way to determine a 3D shape is by checking the positive semidefiniteness of the weight matrix (or distance matrix). This ensures that the given distances are valid in Euclidean space. If positive semidefiniteness is satisfied, we can position the nodes in a higher-dimensional space, allowing us to meet the distance constraints.
 
-&lt;p&gt;Redesigning the energy function: By redesigning the energy function, we can incorporate physical constraints and shape realizability, ensuring that the network learns to generate realistic shapes during the optimization process.&lt;/p&gt;
+Redesigning the energy function: By redesigning the energy function, we can incorporate physical constraints and shape realizability, ensuring that the network learns to generate realistic shapes during the optimization process.
 
-&lt;p&gt;Adjusting distances or allowing for error: We could slightly modify the given distances or minimize the error between the distances and the actual positions of the nodes. This would introduce a necessary compromise to obtain a feasible shape.&lt;/p&gt;
+Adjusting distances or allowing for error: We could slightly modify the given distances or minimize the error between the distances and the actual positions of the nodes. This would introduce a necessary compromise to obtain a feasible shape.
 
-&lt;p&gt;Multidimensional Scaling (MDS): MDS can be used to find node positions based on the given distance data while minimizing discrepancies between the distances and their corresponding node positions.&lt;/p&gt;
+Multidimensional Scaling (MDS): MDS can be used to find node positions based on the given distance data while minimizing discrepancies between the distances and their corresponding node positions.
 
-&lt;p&gt;Integrating physical constraints: By integrating physical constraints into the energy function, we can guide the network toward producing shapes that reflect the physical properties of the structure, leading to more practical results.&lt;/p&gt;
+Integrating physical constraints: By integrating physical constraints into the energy function, we can guide the network toward producing shapes that reflect the physical properties of the structure, leading to more practical results.
 
-&lt;p&gt;Additional considerations include:&lt;/p&gt;
+Additional considerations include:
 
-&lt;p&gt;Redesigning the physical energy function: The energy function can be adapted to incorporate actual physical system properties, allowing the network to adjust the weights in a way that directly relates to shape optimization.&lt;/p&gt;
+Redesigning the physical energy function: The energy function can be adapted to incorporate actual physical system properties, allowing the network to adjust the weights in a way that directly relates to shape optimization.
 
-&lt;p&gt;Data-driven approaches: Collecting data on real-world shapes and their corresponding weights can allow the network to learn the complex relationships between weights and shape through supervised learning.&lt;/p&gt;
+Data-driven approaches: Collecting data on real-world shapes and their corresponding weights can allow the network to learn the complex relationships between weights and shape through supervised learning.
 
-&lt;p&gt;Utilizing GPU-based parallel processing: Solving large-scale optimization problems efficiently requires leveraging the parallel processing capabilities of GPUs. Frameworks like TensorFlow or PyTorch can be used to accelerate these tasks.&lt;/p&gt;
+Utilizing GPU-based parallel processing: Solving large-scale optimization problems efficiently requires leveraging the parallel processing capabilities of GPUs. Frameworks like TensorFlow or PyTorch can be used to accelerate these tasks.
 
-&lt;p&gt;In conclusion, interpreting weights as physical distances and applying energy-based neural networks to shape optimization is a fascinating idea. However, for practical implementation, it’s necessary to model the relationship between weights and physical shapes more accurately, taking into account the geometric constraints and physical properties. By doing so, innovative methods for shape optimization could be developed using neural networks.&lt;/p&gt;
+In conclusion, interpreting weights as physical distances and applying energy-based neural networks to shape optimization is a fascinating idea. However, for practical implementation, it’s necessary to model the relationship between weights and physical shapes more accurately, taking into account the geometric constraints and physical properties. By doing so, innovative methods for shape optimization could be developed using neural networks.
 
-&lt;p&gt;Future research directions include:&lt;/p&gt;
+Future research directions include:
 
-&lt;p&gt;Exploring the intersection of topology optimization and deep learning: Investigating existing research can help refine ideas and discover new approaches.&lt;/p&gt;
+Exploring the intersection of topology optimization and deep learning: Investigating existing research can help refine ideas and discover new approaches.
 
-&lt;p&gt;Studying optimization algorithms and mathematical tools: Learning about nonlinear optimization, graph embedding, and multidimensional scaling can improve the accuracy of models.&lt;/p&gt;
+Studying optimization algorithms and mathematical tools: Learning about nonlinear optimization, graph embedding, and multidimensional scaling can improve the accuracy of models.
 
-&lt;p&gt;Combining physical simulation: Integrating finite element analysis (FEA) tools with neural networks can help verify and improve the accuracy of predictions.&lt;/p&gt;
+Combining physical simulation: Integrating finite element analysis (FEA) tools with neural networks can help verify and improve the accuracy of predictions.
 
-&lt;p&gt;Pursuing research in these directions could yield meaningful results in applying energy-based networks to shape optimization. Additionally, &lt;a href=&quot;https://www.mdpi.com/2076-3417/13/5/2929&quot;&gt;&lt;strong&gt;studies on topology optimization using Cellular Automata&lt;/strong&gt;&lt;/a&gt; have also emerged. Considering such approaches could lead to the development of practical technologies.&lt;/p&gt;
+Pursuing research in these directions could yield meaningful results in applying energy-based networks to shape optimization. Additionally, [**studies on topology optimization using Cellular Automata**](https://www.mdpi.com/2076-3417/13/5/2929) have also emerged. Considering such approaches could lead to the development of practical technologies. --&gt;
 </description>
                 <pubDate>Tue, 24 Sep 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/meditation/Energy-Based-Net-for-Top-Opt-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/meditation/Energy-Based-Net-for-Top-Opt-en/</guid>
+                <link>http://localhost:4000/Energy-Based-Net-for-Top-Opt-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/Energy-Based-Net-for-Top-Opt-en/</guid>
                 
-                <category>ideas</category>
                 
-                <category>shape optimization</category>
+            </item>
+        
+            <item>
+                <title>나는 왜 이걸 좋아할까?</title>
+                <description>&lt;h2 id=&quot;나는-왜-철학-수학-물리학-사이버네틱스-정보과학-신경과학을-공부하는가&quot;&gt;나는 왜 철학-수학-물리학-사이버네틱스-정보과학-신경과학을 공부하는가?&lt;/h2&gt;
+
+&lt;p&gt;질적 차이는 양적 차이인가? 질적 분석은 어디에서 기인하는가?&lt;/p&gt;
+
+&lt;p&gt;정보는 물리적인가? 물리는 정보적인가?&lt;/p&gt;
+
+&lt;p&gt;수학적 형식과 물리학적 구현체의 경계는 무엇이며 어떻게 발생하는가?&lt;/p&gt;
+
+&lt;p&gt;모형은 무엇인가? 모형과 현상의 경계는 어디에 있는가?&lt;/p&gt;
+
+&lt;p&gt;사이버네티션들의 이상과 목표는 무엇이었으며, 현실적인 제약사항과 밝혀진 불가능성은 무엇인가?&lt;/p&gt;
+
+&lt;p&gt;인간은 어떻게 대량의 정보 속에서 빠른 시간 내에 필요한 정보만을 집중하여 처리할 수 있는가?&lt;/p&gt;
+
+&lt;p&gt;인간은 부분적인 정보만으로 어떻게 합리적(이성적) 추론을 통해 합리적 결론에 도달할 수 있는가?&lt;/p&gt;
+
+&lt;p&gt;정보 과학의 관점에서 인공지능과 인공생명의 미래는 무엇인가?&lt;/p&gt;
+
+&lt;p&gt;인간의 마음을 기계화하는 것인가? 아니면 기계를 인간화하는 것인가?&lt;/p&gt;
+
+&lt;p&gt;물질과 사물, 인류와 동물, 사회와 구성 요소 사이의 거대한 상호작용은 어떻게 변화할 것인가?&lt;/p&gt;
+
+&lt;p&gt;우리 주변의 사물들은 생명체와 같은 생애 주기를 지녀야 하는가?&lt;/p&gt;
+
+&lt;p&gt;불멸의 사물에서 필멸의 사물로 전환해야 하는가?&lt;/p&gt;
+
+&lt;h2 id=&quot;나는-왜-인간의-인식론적-한계를-탐구하고-그것의-파급효과를-분석하여-알리고자-하는가&quot;&gt;나는 왜 인간의 인식론적 한계를 탐구하고 그것의 파급효과를 분석하여 알리고자 하는가?&lt;/h2&gt;
+
+&lt;p&gt;시공간적 규모-관점-관측-감각-상호작용-자아-언어-사회&lt;/p&gt;
+
+&lt;p&gt;인간의 인식론적 한계에 대한 탐구&lt;/p&gt;
+
+&lt;p&gt;상상가능한 경험과 시공간의 한계를 뛰어넘는 경험&lt;/p&gt;
+
+&lt;p&gt;인간 인식의 한계는 어디까지인가?&lt;/p&gt;
+
+&lt;p&gt;인간의 마음-신체-행동의 관계는 어떻게 구성되는가?&lt;/p&gt;
+
+&lt;p&gt;자아와 의식의 본질은 어디에 있는가?&lt;/p&gt;
+
+&lt;p&gt;감정과 정동현상의 원리는 무엇이며 어디서 생성되는가?&lt;/p&gt;
+
+&lt;p&gt;최면과 환각, 착시 현상의 원리는 무엇이며 우리 삶에 어떤 영향을 미치는가?&lt;/p&gt;
+
+&lt;p&gt;인간의 자유의지와 자유는 어디에서 파생되는가?&lt;/p&gt;
+
+&lt;p&gt;현실과 꿈/상상, 실재와 가상의 경계는 어디에 있는가?&lt;/p&gt;
+
+&lt;p&gt;기계 속의 영혼과 생명체 속의 영혼, 그 차이와 생태적 지위엔 어떤 차이가 있는가?&lt;/p&gt;
+
+&lt;p&gt;인공적인 지능과 인공적인 생명의 세상 속에서 자연적 지능, 자연적 생명의 지위는 어떻게 변화할 것인가?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;시스템, 유기체, 등 임의의 현상에서 흘러나오는 수많은 정보와 상호작용&lt;/p&gt;
+
+&lt;p&gt;폭풍우 속에서 자신에게 떨어지는 빗물을 분석하고 연구하고 밝혀내는 과정에는 정보 수집의 한계가 있다.&lt;/p&gt;
+
+&lt;p&gt;나의 무기는 어디에 있고, 또 어디에서 찾아야 하는가?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;이 글을 통해, 나와 같은 질문을 가진 사람들이 함께 사유하고 대화를 이어가기를 바란다.&lt;/p&gt;
+</description>
+                <pubDate>Sat, 14 Sep 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/Why-Do-I-Like-This-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Why-Do-I-Like-This-kr/</guid>
                 
-                <category>optimal design</category>
+                <category>철학</category>
                 
-                <category>energy-based networks</category>
+                <category>수학</category>
                 
-                <category>Hopfield network</category>
+                <category>신경과학</category>
+                
+                <category>사이버네틱스</category>
+                
+                <category>정보과학</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
+        
+            <item>
+                <title>Why Do I Like This?</title>
+                <description>&lt;h2 id=&quot;why-do-i-study-philosophy-mathematics-physics-cybernetics-information-science-and-neuroscience&quot;&gt;Why Do I Study Philosophy, Mathematics, Physics, Cybernetics, Information Science, and Neuroscience?&lt;/h2&gt;
+
+&lt;p&gt;Is a qualitative difference merely a quantitative one? Where does qualitative analysis originate?&lt;/p&gt;
+
+&lt;p&gt;Is information physical, or is physics informational?&lt;/p&gt;
+
+&lt;p&gt;Where do the boundaries between mathematical form and physical implementation lie, and how do they arise?&lt;/p&gt;
+
+&lt;p&gt;What is a model? Where is the boundary between a model and a phenomenon?&lt;/p&gt;
+
+&lt;p&gt;What were the ideals and goals of cyberneticians, and what were the practical constraints and impossibilities they uncovered?&lt;/p&gt;
+
+&lt;p&gt;How can humans process large amounts of information and focus only on what is essential in a short period?&lt;/p&gt;
+
+&lt;p&gt;How do humans arrive at reasonable conclusions through rational inference based on incomplete information?&lt;/p&gt;
+
+&lt;p&gt;From the perspective of information science, what is the future of artificial intelligence and artificial life?&lt;/p&gt;
+
+&lt;p&gt;Are we mechanizing the human mind, or humanizing machines?&lt;/p&gt;
+
+&lt;p&gt;How will the vast interactions among matter, objects, humanity, animals, societies, and their components evolve?&lt;/p&gt;
+
+&lt;p&gt;Should the objects around us have life cycles similar to living beings?&lt;/p&gt;
+
+&lt;p&gt;Should we transition from immortal objects to mortal ones?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;why-do-i-explore-the-epistemological-limits-of-humans-and-analyze-their-implications&quot;&gt;Why Do I Explore the Epistemological Limits of Humans and Analyze Their Implications?&lt;/h2&gt;
+
+&lt;p&gt;Scale, perspective, observation, perception, interaction, selfhood, language, society.&lt;/p&gt;
+
+&lt;p&gt;An inquiry into the epistemological limits of human understanding.&lt;/p&gt;
+
+&lt;p&gt;Experiences that go beyond the imaginable and the boundaries of space and time.&lt;/p&gt;
+
+&lt;p&gt;Where are the limits of human perception?&lt;/p&gt;
+
+&lt;p&gt;How are the relationships among the mind, body, and behavior structured?&lt;/p&gt;
+
+&lt;p&gt;What is the essence of the self and consciousness?&lt;/p&gt;
+
+&lt;p&gt;What are the principles of emotion and affective phenomena, and where do they originate?&lt;/p&gt;
+
+&lt;p&gt;What are the mechanisms of hypnosis, hallucinations, and illusions, and how do they influence our lives?&lt;/p&gt;
+
+&lt;p&gt;Where do free will and freedom stem from?&lt;/p&gt;
+
+&lt;p&gt;Where is the boundary between reality and dreams/imagination, and between the real and the virtual?&lt;/p&gt;
+
+&lt;p&gt;What distinguishes the soul in a machine from that in a living organism, and how do their ecological roles differ?&lt;/p&gt;
+
+&lt;p&gt;In a world of artificial intelligence and artificial life, how will the status of natural intelligence and natural life change?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Systems, organisms, and the countless flows of information and interactions they generate.&lt;/p&gt;
+
+&lt;p&gt;Analyzing and understanding the raindrops that fall on oneself in a storm demonstrates the inherent limits of information collection.&lt;/p&gt;
+
+&lt;p&gt;Where is my weapon, and where should I search for it?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Through this writing, I hope to engage with others who share these questions and foster a dialogue that extends our collective reflection.&lt;/p&gt;
+</description>
+                <pubDate>Sat, 14 Sep 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/Why-Do-I-Like-This-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Why-Do-I-Like-This-en/</guid>
+                
+                <category>philosophy</category>
+                
+                <category>mathematics</category>
+                
+                <category>neuroscience</category>
+                
+                <category>cybernetics</category>
+                
+                <category>information science</category>
                 
                 
                 <category>Meditation</category>
@@ -3227,2114 +3619,6 @@ Considering that the importance of predictive coding and un/self-supervised lear
                 
                 
                 <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>도쿄에서의 의식과학연합학술회</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-
-  /* 새로 추가된 스타일 */
-  .two-fig-container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px; /* 이미지 간의 간격 */
-      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
-  }
-  .two-fig-container figure {
-      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
-      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
-  }
-
-  /* 작은 화면에서 각 figure를 세로로 배치 */
-  @media (max-width: 768px) {
-      .two-fig-container figure {
-          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
-      }
-  }
-
-  /* 새로 추가된 스타일 */
-  .three-fig-container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px; /* 이미지 간의 간격 */
-      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
-  }
-  .three-fig-container figure {
-      width: calc(33% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
-      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
-  }
-
-  /* 작은 화면에서 각 figure를 세로로 배치 */
-  @media (max-width: 768px) {
-      .three-fig-container figure {
-          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
-      }
-  }
-&lt;/style&gt;
-
-&lt;p&gt;어릴 적부터 나를 사로잡았던 의식과 인간의 심리적 경험에 대한 궁금증은 시간이 지나도 변하지 않았다. 포항공대에 진학해 생물학과 물리학을 거쳐 수학을 전공하게 된 것도 결국 그 질문의 연장선에 있었다. 사이버네틱스와 인지과학을 탐구하면서, 내가 품은 의문들이 기술과 사회의 발전 과정 속에서 깊이 연결되어 있다는 사실을 깨닫게 되었다. 이러한 깨달음은 나를 더 넓은 차원으로 이끌었고, 의식에 대한 논의를 보다 풍부하게 만들어가고자 한국의식과학학술회(KACS)에서 다양한 활동을 기획하고 운영했다. 하지만 학문적 탐구는 여기에 그치지 않았다. 나는 학계에서 과연 어떤 일들이 벌어지고 있는지, 의식에 대한 보다 과학적인 접근이 어떻게 이루어지고 있는지 궁금했다. 그래서 나는 제27회 의식과학연합학술회(ASSC)가 도쿄에서 열린다는 소식을 듣고 참석을 결심하게 되었다.&lt;/p&gt;
-
-&lt;p&gt;비록 나는 학생 신분이 아니기에 일반 회원으로 등록해야 했고, 그로 인한 경제적 부담이 만만치 않았다. 하지만 도쿄 여행까지 함께 계획하며 마음을 단단히 먹었다. 학생일 때의 혜택들이 그리워지기도 했지만, 한편으로는 교수님들이 학회 참가비와 여비까지 마련해야 하는 고충도 공감하게 되었다.&lt;/p&gt;
-
-&lt;h1 id=&quot;20240629&quot;&gt;2024/06/29&lt;/h1&gt;
-
-&lt;h2 id=&quot;출국&quot;&gt;출국&lt;/h2&gt;
-
-&lt;p&gt;항공편은 점심 후 이른 오후 출발이었다. 버스를 타고 인천공항에 도착하니, 공항은 참으로 깨끗하고 웅장했다. 새로 지어진 시설답게 잠시 쉴 수 있는 공간과 노트북을 사용할 수 있는 사무실까지 다양한 부대 시설이 마련되어 있었다. 비행기 줄에 서면서 보니, 한국에서 도쿄로 향하는 사람들 대부분은 일본인 여행객들이었다. 그들은 아마도 한국을 여행하고 귀국하는 길이겠지. 나는 내가 머무를 도쿄 우에노 역 주변에 대해 알고 싶어, 번역기를 이용해 가까운 커플에게 질문했다. 다행히 남자친구로 보이는 분이 친절하게 번역기를 돌려가며 여러 장소를 추천해 주었다. 고마운 마음에 인사를 한 후, 다시 출국 대기 줄에 섰다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        인천 공항 도착 후 찍은 첫 사진.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/1-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄로 가는 비행기 줄.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;공항을 돌아다니며 우연히 발견한 조형물이 있었다. 그 조형물은 내부가 전부 거울로 되어 있어, 빙글빙글 돌면 마치 무한한 공간 속을 움직이는 듯한 기분이 들었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;video width=&quot;50%&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/1-4.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-    &lt;figcaption&gt;
-      공항 내에 설치된 조형물.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;우에노의-밤&quot;&gt;우에노의 밤&lt;/h2&gt;
-
-&lt;p&gt;몇 시간 지나지 않아, 저녁 무렵 도쿄 나리타 공항에 도착했다. 나리타 공항은 도쿄 시내에서 꽤 떨어져 있다는 점이 익히 알려져 있었기 때문에, 지하철을 잘못 타지 않을까 걱정이 컸다. 한두 시간쯤 지났을까, 마침내 우에노 역에 도착했다. 숙소에 짐을 간단히 풀고 나서 바로 역 아래에 있는 술집으로 향했다. 신선한 해산물 안주와 함께 맥주를 한잔하는 순간, 그동안의 갈증이 한꺼번에 풀리는 듯했다. 물 한 모금도 제대로 마시지 못한 채 일주일 치 짐을 옮겼던 터라, 그 맥주의 상쾌함은 잊을 수 없을 만큼 특별했다.&lt;/p&gt;
-
-&lt;p&gt;우에노 역 밑 번화가는 활기차면서도 묘한 운치가 있었다. 몇 분마다 머리 위로 전철이 지나가는 소리가 들렸고, 그 소음에 맞춰 사람들이 더 크게 말하는 듯한 분위기였다. 그 소란스러움 속에서도 묘한 편안함이 느껴졌다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/2-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        우에노 역 밑의 거리.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        사람이 엄청 많은 술집에서 시킨 안주.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;내가 예약한 숙소는 도미토리였고, 10명 정도가 한 방에서 좁은 침대를 사용했다. 여행 경비를 아끼기 위해 선택한 곳이었지만, 7일간 머무르는 동안 불편함은 전혀 없었다. 화장실과 샤워실은 항상 깨끗이 유지되어 있어 만족스러웠다. 첫날 밤, 공항에서 시내로 이동한 피로와 맥주 한잔에 취해 금세 깊은 잠에 빠졌다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/2-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        여행기간 동안 머무른 도미토리 시에스타.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/2-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        작지만 아늑한 침실.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240630&quot;&gt;2024/06/30&lt;/h1&gt;
-
-&lt;p&gt;도쿄대학으로 가는 길은 마치 신촌의 어느 대학가를 연상케 하는, 넓지 않지만 정돈된 느낌의 길이었다. 지친 얼굴의 학생들이 가방을 끌고 함께 내렸고, 길가에는 작은 회사들의 간판이 눈에 띄었다. 그들의 조화로운 배치가 묘하게 시선을 끌었다. 가는 길에 우연히 도쿄대학의 명물인 붉은 문, 아카몬을 마주했다. 일본에서는 입시를 앞두고 이 문 앞에서 기도하는 미신이 있다고 들었던 것 같다. 실제로 보니, 붉은색의 문이 주는 웅장함과 강렬함이 인상적이었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄대학으로 가는 좁은 골목길.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/1-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄대학의 명물인 아카몬.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;위성-워크샵-1-의식에-대한-구조적-접근&quot;&gt;위성 워크샵 1: 의식에 대한 구조적 접근&lt;/h2&gt;
-
-&lt;p&gt;일요일 아침, 학회 시작 전 열리는 위성 학회에 참석하기 위해 서둘러 일어났다. 도쿄대학의 아카몬을 지나 경제학부 건물을 통과해 도착한 곳은 이토 홀. 이곳은 일반적으로 학생들에게조차 개방되지 않는다고 알려진 곳이었다. 실제로 보안이 꽤 철저했고, 내부 건물의 세부 양식은 정교하고 예술적이었다. 특히 천장의 기하학적 구조가 수학을 전공한 내 눈을 사로잡았다. 셀 수 없을 만큼 복잡한 다각형 패턴들이 매력적이었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/1-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        주 학회장인 이토 홀.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/1-5.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        내부 양식이 굉장히 예술적이었다.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;오늘의 위성 학회 주제는 “의식에 대한 구조적 접근”이었고, 통합 정보 이론(IIT; Integrated Information Theory)에 관한 워크샵이 진행되었다. 최근 호주의 모나쉬 대학교에서 의식 연구에 많은 자금이 투입되면서, 일본의 저명한 의식 연구자들이 그곳에 임용된 사실을 알고 있었다. 오늘 발표는 모나쉬 대학의 나오 츠치야 교수의 강의로 시작하여, 워크샵은 통합 정보 이론의 창시자인 줄리오 토노니의 강연으로 마무리되었다. 새로운 연구 프로그램과 미래의 연구 방향에 대해 깊이 있게 논의할 수 있는 뜻깊은 시간이었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/1-6.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      통합 정보 이론을 창시한 줄리오 토노니의 강연.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;이케부쿠로에서-맛있는-저녁&quot;&gt;이케부쿠로에서 맛있는 저녁&lt;/h2&gt;
-
-&lt;p&gt;학회가 끝나고 이케부쿠로로 이동해 주변 맛집을 찾았다. 원래는 조금 더 일찍 도착해 이케부쿠로 시내를 둘러볼 계획이었지만, 학회의 열기 속에 시간을 잊어 오후 8시가 가까운 시간에야 도착했다. 미리 알아둔 규카츠 맛집으로 급히 향해 약 20~30분 정도 대기했다. 주변을 둘러보니 한국인 여행자들이 앞뒤로 서 있었다. 나는 혼자였지만, 왠지 모르게 묘한 동질감과 애틋함이 느껴졌다. 규카츠는 한국에서 먹었던 것과는 확실히 달랐다. 오래된 개인 화로에서 직접 고기를 구워 먹는 방식과 고기의 부드러움이 인상적이었고, 잊을 수 없는 한 끼였다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        이케부쿠로에 위치한 유명 규카츠 가게.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;video width=&quot;50%&quot; controls=&quot;&quot;&gt;
-        &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/2-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-      &lt;/video&gt;
-      &lt;figcaption&gt;
-        규카츠 집에서 고기 굽는 장면.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240701&quot;&gt;2024/07/01&lt;/h1&gt;
-
-&lt;h2 id=&quot;위성-워크샵-2-지각적-메타인지&quot;&gt;위성 워크샵 2: 지각적 메타인지&lt;/h2&gt;
-
-&lt;p&gt;두 번째 위성 워크샵의 주제는 의식 이론 중 하나인 고차 사고 이론(HOT; Higher-Order Thought Theory)으로, 메타인지를 중심으로 진행되었다. 이번 학회는 도쿄대학이 아닌 와세다 대학에서 열렸으며, 번화가에 조금 더 가까운 위치에 있었다. 워크샵은 고차 사고 이론의 창시자인 하콴 라우의 강의로 시작되었다. 젊어 보이는 그는 특유의 재치 있는 입담으로 학회의 분위기를 한층 밝고 유쾌하게 이끌었다. 특히, 그가 올해 9월 한국의 기초과학연구원(IBS)에 디렉터로 온다는 이야기를 듣고, 잠시 그와 대화를 나눌 기회도 있었다.&lt;/p&gt;
-
-&lt;p&gt;인공지능과 관련된 일을 하고 있는 나로서는 기계의 의식에 대한 다양한 발표가 더욱 흥미로웠다. 특히, 인공지능과 인지 신경과학의 관심사와 차이점을 비교한 슬라이드가 인상 깊게 남았다. 이 발표들은 나에게 AI와 인간 의식 간의 복잡한 연결고리를 다시 한 번 생각하게 했고, 앞으로의 연구 방향에 대한 새로운 통찰을 제공해 주었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/1-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        인공지능과 인지 신경과학의 비교.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        즐겁게 본 발표 자료.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;인생-첫-신주쿠&quot;&gt;인생 첫 신주쿠&lt;/h2&gt;
-
-&lt;p&gt;며칠 전, 친구에게 도쿄로 떠난다는 소식을 전했었다. 우연히도 친구는 자신의 지인 중 한 명이 도쿄와 오래된 인연이 있다며, 나에게 그녀를 만나보라고 권했다. 그렇게 신주쿠에서 그녀와 만나기로 했다. 신주쿠 역에서 내린 후, 마주보는 건물 앞에서 그녀를 기다리며 신호등이 몇 차례 바뀌고 수많은 사람들이 지나가는 풍경을 지켜보았다. 그 광경 속에서 묘한 편안함이 느껴졌다. 그녀도 신주쿠 같은 번화가는 자주 오지 않는다며, 나와 함께 여행을 하는 기분이 든다고 했다.&lt;/p&gt;
-
-&lt;p&gt;우리는 신주쿠에서 유명한 가부키초 거리를 걸었다. 한국으로 치면 홍대나 신촌과 비슷한 분위기의 거리였지만, 동시에 일본의 어두운 일면을 엿볼 수 있는 흥미로운 장소였다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        신주쿠역에서 내리자 마자 펼쳐진 풍경.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/2-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        조금 어두워지자 더 밝게 빛나는 거리.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;가부키초 거리를 지나 뒷골목으로 조금 더 들어가니, 형형색색의 간판들이 반짝이는 화려한 골목이 펼쳐졌다. 이곳은 ‘골든 가이’라고 불리는데, 일본이 버블 경제를 겪기 직전의 행복하고 아름다운 청춘이 담겨 있는 공간이라고 했다. 간판과 건물들이 보석처럼 반짝이며 독특한 분위기를 자아냈다. 마지막으로 ‘오모이데요코초’라는 붐비는 거리를 지나 도쿄역으로 돌아왔고, 우리는 아쉬움을 뒤로 한 채 헤어졌다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/2-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        골든 가이.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/2-6.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        오모이데요코초.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240702&quot;&gt;2024/07/02&lt;/h1&gt;
-
-&lt;h2 id=&quot;첫-학회-일정&quot;&gt;첫 학회 일정&lt;/h2&gt;
-
-&lt;p&gt;첫 학회 일정은 화요일에 시작되었다. 이토 홀과 여러 건물에는 학회장을 안내하는 표지판이 걸려 있었다. 구름이 끼고 바람이 강하게 불던 날들과 달리, 이날은 해가 강하게 내리쬐었고 걷기만 해도 땀이 흘렀다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        학회장 안내를 위한 표지판.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/1-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        학회장 안내를 위한 팸플렛.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;점심을 먹기 위해 구글 지도에서 평점이 좋은 라멘 가게를 찾아갔다. 친절한 설명과 함께 자리를 안내받았고, 이 라멘집은 재즈와 알앤비 앨범 하나만 재생하는 독특한 분위기를 가지고 있었다. 대표 메뉴인 라멘은 한국에서도 쉽게 접할 수 있는 탄탄멘 스타일로, 적당히 매콤하면서도 깊은 맛을 주는 한 끼였다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        라멘집의 플레이리스트.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/2-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        맛있게 먹은 라멘.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/2-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        구운 만두.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;우에노-공원-산책&quot;&gt;우에노 공원 산책&lt;/h2&gt;
-
-&lt;p&gt;시간이 잠시 비어서, 학교 근처에 위치한 우에노 공원을 찾았다. 공원으로 가는 길이 너무 더워 일본에서 유명한 코메다 커피에서 한잔하며 더위를 식혔다. 커피의 맛과 품질이 예상보다 훨씬 좋았다.&lt;/p&gt;
-
-&lt;p&gt;우에노 공원은 곳곳에 문화재와 문화 시설이 자리하고 있었다. 공원을 지나며 마주한 절은 고즈넉하고 운치 있는 분위기를 자아내며 나를 편안하게 만들어 주었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/2-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        공원 산책 전 마신 코메다 커피.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        우에노 공원의 초석.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        공원 안에 있는 오래된 절.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;공원 안에는 국립서양미술관, 국립박물관, 도쿄도립미술관 같은 유명한 문화 시설들이 자리 잡고 있었다. 국립서양미술관은 프랑스의 유명 건축가 르 꼬르뷔지에가 설계한 것으로 유명했고, 그 외부는 추상적이면서도 공원과 조화를 이루고 있었다. 미술관 마당에는 로댕의 작품들이 전시되어 있었는데, 특히 ‘생각하는 남자’, ‘칼레의 시민’, ‘지옥문’ 같은 유명 작품들을 자유롭게 감상할 수 있었다. ‘지옥문’은 그 크기와 디테일로 인해 시간이 멈춘 듯한 압도적인 느낌을 주었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        국립서양미술관에 설치된 생각하는 남자.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        국립서양미술관에 설치된 칼레의 시민.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-6.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        국립서양미술관에 설치된 지옥문.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;국립서양미술관이 전통적인 서양 미술의 계보를 잇는다면, 도쿄도립미술관은 현대미술을 지원하는 공간으로, 입구부터 다양한 형태의 설치 작품들이 시선을 사로잡았다. 여러 전시를 둘러보며 도쿄의 예술적 다양성을 깊이 있게 느낄 수 있었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-7.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄도립미술관에 설치된 조형물 1.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-8.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄도립미술관에 설치된 조형물 2.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-10.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄도립미술관에 설치된 조형물 3.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;여러 전시를 둘러본 후, 주변에 있는 절들을 방문했다. 절들은 세월의 흔적이 고스란히 느껴질 만큼 오래된 장소였고, 그 속에서 전통적인 분위기가 진하게 배어 나오는 것을 경험할 수 있었다. 고요하면서도 고즈넉한 그 공간은, 마치 시간의 흐름에서 벗어난 듯한 느낌을 주었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-12.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        우에노 공원에 있는 절1.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-13.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        우에노 공원에 있는 절2.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;오프닝-키노트-준-타니&quot;&gt;오프닝 키노트: 준 타니&lt;/h2&gt;
-
-&lt;p&gt;인지과학 기반의 로보틱스로 유명한 준 타니 교수님의 오프닝 키노트를 들으러 야스다 강당으로 향했다. 이 강당 또한 평상시에는 출입을 엄격하게 관리할 정도로 높은 강도의 보안으로 유지된다고 한다. 발표를 듣는 내내 예술적인 샹들리에와 벽화를 보며 감탄이 나왔던 것 같다. 데카르트에서 바렐라까지 철저한 철학적인 분석 아래 새로운 연구 패러다임을 만들고 정진한 교수님의 연구를 통해 굉장히 놀라웠다. 더 나아가 최근에는 정보 이론 기반의 능동 추론을 적용하는 바도 소개되어 굉장히 흥미로웠다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/4-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      준 타니 교수님의 오프닝 키노트.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;긴자에서의-환영회&quot;&gt;긴자에서의 환영회&lt;/h2&gt;
-
-&lt;p&gt;첫 만찬회는 긴자의 한 호텔 로비에서 열렸다. 하루 종일 학회 일정으로 바빴을 텐데도, 모두들 정신없이 새로 만난 사람들과 대화를 나누느라 분주했다. 나 역시 언젠가 이 커뮤니티 안에서 이름을 알리는 사람이 되기를 바라며, 다양한 사람들과 대화를 시도해 보았다. 그 중 옆자리에 앉아 계신 교수님은 CALTECH의 신스케 시모조 교수님이었다. KAIST에서 유명한 이상완 교수님의 지도 교수 중 한 분으로 알고 있었기에, 우연히 만나 뵙게 되어 반가움과 신기함이 교차했다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;video width=&quot;50%&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/5.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-    &lt;figcaption&gt;
-      저녁에 진행된 만찬회.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240703&quot;&gt;2024/07/03&lt;/h1&gt;
-
-&lt;h2 id=&quot;도쿄대학교-산책하기&quot;&gt;도쿄대학교 산책하기&lt;/h2&gt;
-
-&lt;p&gt;바쁜 학회 일정 중 남는 시간이 생기면 나는 일단 걸었다. 새로운 학교의 풍경을 눈에 담고 이색적인 분위기를 만끽하고 싶었기 때문이다. 도쿄대학교의 건물들은 대부분 서양식 건축 양식을 따르고 있었으며, 특히 입구의 장식이 정말 매력적이었다. 건물과 가로수의 배치는 정교하게 설계된 느낌을 주었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄대학의 풍경1.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄대학의 풍경2.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄대학의 풍경3.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;건물들 사이사이의 작은 쉼터들조차 운치가 있었다. 산책을 하며 무거운 노트북이 내 어깨를 짓눌렀지만, 그만한 가치가 있는 산책이었다. 땡볕 아래 걸으며 땀을 흘리지 않을 수 없었지만, 학교 옆에 있는 메론 소다로 유명한 카페에 들러 잠시 더위를 식혔다. 가는 길에는 작은 신사도 있었는데, 오래된 건축물의 고요한 아름다움에 발걸음을 멈추고 한참을 바라보았다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄대학의 풍경4.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-5.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄대학의 풍경5.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-6.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄대학의 풍경6.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;그렇다고 땡볕 아래에서 땀을 흘리지 않을 수는 없었다. 뚝뚝 떨어지는 땀을 식히기 위해, 학교 옆 메론 소다로 유명한 카페를 찾아갔다. 가는 길에 작은 신사가 있었는데, 오래된 건축물이 눈에 띄었다. 그 고풍스러운 모습에 발걸음을 멈추고 한참을 바라보았다. 마치 그 신사가 세월의 흐름을 그대로 간직한 채, 고요하게 나를 맞이하는 것 같았다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/3-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄대학 주변 거리의 조형물1.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/3-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄대학 주변 거리의 조형물2.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/3-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄대학 주변 거리의 조형물3.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;학회-일정&quot;&gt;학회 일정&lt;/h2&gt;
-
-&lt;p&gt;꽤 오랫동안 알고 지낸 한국인 대학원생이 있었는데, 그 분의 발표를 듣고 사진도 찍어주기 위해 발표장에 방문했다. 발표장으로 운영된 후쿠타케 빌딩은 최근의 건축 양식으로 지어졌으며, 지하 3층부터 지상까지 한눈에 볼 수 있는 독특한 구조를 가지고 있었다. 층마다 이어지는 계단을 보니 마치 에셔의 상대성 작품이 떠오르고, 영화 인셉션의 장면들이 겹쳐졌다. 그 공간은 현실과 비현실이 뒤섞인 듯한 기묘한 분위기를 자아냈다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/4-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        학회 발표장인 후쿠타케 빌딩.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/4-2.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        아는 대학원생 분의 발표.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/4-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        포스터 세션.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;대학-동기-만나기&quot;&gt;대학 동기 만나기&lt;/h2&gt;
-
-&lt;p&gt;학회 일정을 마친 후, 현재 도쿄대에서 유학 중인 대학 동기와 저녁을 함께 하기로 했다. 코로나 때문에 친구를 오랫동안 보지 못했는데, 오랜만에 만나 대화를 나눌 수 있어 정말 행복한 시간이었다. 저녁은 도쿄대 학생들에게 추천받은 곳에서 오코노미야키를 시켰다. 맛도 양도 만족스러웠고, 추가로 시킨 동파육도 입안에서 녹을 정도로 훌륭했다. 친구와 함께 과거의 추억을 되새기며, 미래의 계획과 꿈에 대해서도 깊이 있는 이야기를 나눴다. 코로나로 인해 이렇게 마음이 맞는 친구와 자주 만나지 못한 것이 더욱 아쉽게 느껴지는 순간이었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/5-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄대생들이 추천하는 술집 메뉴1.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/5-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄대생들이 추천하는 술집 메뉴2.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240704&quot;&gt;2024/07/04&lt;/h1&gt;
-
-&lt;h2 id=&quot;학회-일정-1&quot;&gt;학회 일정&lt;/h2&gt;
-
-&lt;p&gt;이 날은 학계에서 저명한 교수님들이 심리철학의 기능주의적 입장에 대해 논의하는 심포지엄이 있었다. 네드 블록 교수님의 재치 넘치는 발표로 시작해, 메타인지 연구로 유명한 스티븐 플레밍 교수님과 영국에서 의식에 대한 예측 코딩 이론을 연구하는 아닐 세스 교수님께서 자유롭게 논의를 이어갔다.&lt;/p&gt;
-
-&lt;p&gt;평소에 나와 지인들이 즐겁게 나누던 주제들이 이렇게 심도 깊고 형식적으로 이루어지는 모습을 보니, 그 자리에 있는 것만으로도 뿌듯했다. 앞으로 이 학계에서 젊은 세대로서 중요한 역할을 할 수 있다면 얼마나 보람찰까 하는 생각과 함께, 내 미래에 대한 희망과 결심을 다시 한 번 다지게 되었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        네드 블록 교수님의 발표.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/1-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        스티븐 플레밍 교수님의 발표.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/1-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        아닐 세스 교수님의 발표.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;만찬회&quot;&gt;만찬회&lt;/h2&gt;
-
-&lt;p&gt;두 번째 만찬회는 도쿄에서 가장 크고 유명한 오타니 호텔에서 열렸다. 이번 학회를 통해 많은 친구들과 친분을 쌓았고, 이번 만찬회에서 그 친구들의 친구들을 소개받고 새로운 인연을 만들 수 있을 거라는 기대를 안고 참석했다. 먼저 아직 대화해보지 못했던 한국인 연구자들과 인사를 나누었고, 도쿄대에서 석사 과정을 하고 있는 친구들과도 만날 수 있었다. 그중 한 친구와는 읽은 책의 순서까지 동일했다는 우연한 공통점에 서로 놀라워하며, 선 채로 30분 동안 대화를 나눴다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        호텔 오타니에서 열린 두번째 만찬회.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/2-3.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        학회장 입구에서의 사진.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;만찬회장의 풍경도 매우 인상적이었다. 인공적으로 조성된 폭포와 호수가 어우러진 아름다운 절경이 눈길을 사로잡았다. 첫 번째 만찬회보다도 더 뜨거운 열기 속에서, 사람들 간의 유대감이 더욱 깊어지고 관계가 돈독해지는 시간이었던 것 같다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
-        &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/2.2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-      &lt;/video&gt;
-      &lt;figcaption&gt;
-        호텔 만찬회의 전경.
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-  &lt;figure&gt;
-    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/2.1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-    &lt;figcaption&gt;
-      만찬회의 열기.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240705&quot;&gt;2024/07/05&lt;/h1&gt;
-
-&lt;p&gt;아침 일찍 일어나 주변에 유명한 브런치 집을 찾아갔다. 그곳은 정말로 일본 현지인들이 자주 찾는 가게였고, 안에는 출근 전 신문을 읽으며 담배를 피우는 직장인들로 가득했다. 나는 간단히 프렌치 토스트와 커피를 주문하고, 가게 내부의 인테리어와 장식들을 천천히 둘러보았다. 한쪽 벽에 걸려 있던 우키요에는 유럽식 아침과는 대조되면서도 일본 전통의 분위기를 물씬 풍겼다. 이 은근한 조화 속에서 즐거운 한 끼 식사를 마칠 수 있었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        가게 한켠에 걸린 우키요에.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/1-2.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        정말 맛있는 프렌치 토스트.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/1-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        신문을 참 많이 읽는 것 같다.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;한국인-연구자-모임&quot;&gt;한국인 연구자 모임&lt;/h2&gt;
-
-&lt;p&gt;전부터 알고 있던 대학원생이 한국인 참석자들을 모두 조사해 점심 시간을 마련해 주었다. 안타깝게도 모임을 기획한 분은 전날 있었던 발표 준비 때문인지 컨디션이 좋지 않아 참석하지 못했다. 대신 내가 모임을 주도해 예약한 식당으로 이동했다. 이번 모임에서 만난 한국 연구자들의 배경은 매우 다양했다. 물리학, 마취학, 철학, 신경과학, 심리학, 의학에 이르기까지 각기 다른 분야에서 활발히 활동 중인 분들이 많았고, 특히 해외에서 연구하는 이들이 꽤 많았다. 한국에서도 이렇게 많은 사람들이 인간의 마음과 의식에 대해 깊은 관심을 가지고 있다는 사실을 깨닫게 된 좋은 시간이었다. 앞으로도 인연이 이어지길 바라며 모임을 마무리했다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/2-1.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-     장현우 대학원생 분 덕분에 만난 한국인 연구자들.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;산지로-연못-산책&quot;&gt;산지로 연못 산책&lt;/h2&gt;
-
-&lt;p&gt;점심 식사 후, 시간이 남아 도쿄대학 내 산지로 연못을 산책했다. 이곳은 일본의 문학 거장 나쓰메 소세키가 자주 산책했던 장소이자, 그의 소설 산지로의 배경이 된 곳이기도 하다. 도쿄대학의 바쁜 중앙에 위치해 있음에도 불구하고, 산지로 연못은 놀라울 만큼 고요하고 평화로운 공간이었다. 잔잔한 수면을 보며 마치 시간이 멈춘 듯한 느낌이 들었고, 조용한 시간대라 혼자서 연못 주위를 천천히 둘러볼 수 있었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-2.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        산지로 연못의 풍경1.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-3.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        산지로 연못의 풍경2.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-4.jpg&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        산지로 연못의 풍경3.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;산책 중에 다리가 불편해 보이는 한 외국인 학생이 연못을 바라보며 깊은 사색에 잠겨 있는 모습을 보았다. 그 모습이 왠지 마음에 남아 신경이 쓰였다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;video width=&quot;50%&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-    &lt;figcaption&gt;
-      산지로 연못의 평화로움.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;산지로 연못에서 나와 다시 도쿄대학의 건물들을 둘러보았다. 연못의 고요함과는 완전히 대조되는 서양식 건축물을 보니, 마치 연못이 꿈속에 있던 공간처럼 느껴졌다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄대학의 건물1.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-5.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        도쿄대학의 건물2.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-6.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        건물 앞에 설치된 예술작품.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;시부야의-밤&quot;&gt;시부야의 밤&lt;/h2&gt;
-
-&lt;p&gt;학회의 마지막 날, 학회 측에서 시부야에 있는 한 클럽을 뒷풀이 장소로 대관했다. 이른 시간에 도착해서인지 사람들은 테이블에 앉아 담소를 나누고 있었다. 도쿄에서 남은 시간을 좀 더 알차게 보내기 위해, 친구가 추천해 준 시부야의 한 바를 찾았다. 뒷풀이 장소에서 멀지 않은 곳에 위치한 이 바는 자수정처럼 돌 속에서 피어난 보석을 의미하는 이름을 가지고 있었다. 칵테일 두 잔을 마시니 취기가 올라왔고, 1시간도 채 되지 않아 숙소로 돌아갔다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/4-2.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        시부야의 바.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/4-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        정말 맛있게 먹은 칵테일1.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/4-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        정말 맛있게 먹은 칵테일2.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240706&quot;&gt;2024/07/06&lt;/h1&gt;
-
-&lt;h2 id=&quot;아사쿠사-탐방&quot;&gt;아사쿠사 탐방&lt;/h2&gt;
-
-&lt;p&gt;이 날은 자유시간이 주어진 유일한 날이었다. 일본인 지인과 함께 아사쿠사를 탐방했는데, 정말 많은 인파로 붐비고 있었다. 붉은색과 금색으로 칠해진 절은 강렬하면서도 아름다웠다. 본당에서는 사람들이 동전을 던져 기도를 하거나 사주가 적힌 종이를 뽑는 모습을 볼 수 있었다. 나는 길운이 나왔지만, 함께한 지인은 흉운이 나와 그 종이를 묶어두고 나왔다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/1-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        아사쿠사의 정면 사진.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/1-5.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        아사쿠사 내부에 있는 절.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/1-6.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        핵심 건물.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;점심 식사 후에는 멀리 떨어지지 않은 곳에서 견우와 직녀 관련 축제가 열리고 있었다. 다양한 주방용품부터 칼, 커피 기구 등 여러 소품이 거래되는 시장이었고, 일본 특유의 아기자기한 소품들이 눈에 띄었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/2-1.jpg&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        견우와 직녀 축제 사진1.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/2-2.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        견우와 직녀 축제 사진2.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;긴자에서-쇼핑하기&quot;&gt;긴자에서 쇼핑하기&lt;/h2&gt;
-
-&lt;p&gt;지인과 헤어진 후, 긴자에 있는 문구점을 찾았다. 처음 방문한 곳은 수제 상품들로 가득 찬 오래된 문구점이었다. 그러나 가격대가 높아 다른 곳으로 이동했다. 두 번째로 방문한 곳은 실용적이고 비교적 저렴한 문구류를 판매하는 곳이었으며, 건물 전체가 문구점으로 구성되어 있었다. 7~8층까지 다양한 문구류를 구경하며 간단한 스케치 용품을 구매하고 나왔다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/3-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        긴자에 있는 오래된 문구점.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/3-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        긴자에 있는 대중 문구점.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;장어-덮밥&quot;&gt;장어 덮밥&lt;/h2&gt;
-
-&lt;p&gt;저녁이 되자 장어 덮밥을 먹기 위해 오래된 간판이 눈에 띄는 백화점 뒤쪽의 식당을 찾았다. 오픈 시간이 다가오자 일본 현지인들도 내 뒤로 줄을 서기 시작했고, 10~20분 정도 기다린 후 입장할 수 있었다. 주 메뉴는 삶은 장어와 구운 장어를 얹은 덮밥이었다. 마지막 저녁인 만큼, 나는 둘 다 올라간 메뉴를 선택했다. 장어는 삶은 것과 구운 것 모두 부드럽고 따뜻해서 한 입 한 입이 입안에서 녹는 듯했다. 특히 장어 뼈를 우린 차와 함께 먹으니 진정으로 감탄할 맛이었다. 결제를 하면서도 사장님께 일본어로 “정말 잘 먹었습니다”라고 연신 감사의 인사를 전했다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/4-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        오래된 장어덮밥집.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/4-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        장어덮밥 메뉴판.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/4-3.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        정말 맛있게 먹은 장어덮밥.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;video width=&quot;50%&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/5.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-    &lt;figcaption&gt;
-      비가 그친 후 정말 아름다운 하늘의 풍경.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240707&quot;&gt;2024/07/07&lt;/h1&gt;
-
-&lt;h2 id=&quot;안녕-도쿄&quot;&gt;안녕 도쿄&lt;/h2&gt;
-
-&lt;p&gt;이른 아침, 숙소를 떠나 다시 나리타 공항으로 향했다. 워낙 우리나라와 가까운 거리라서 이번 여행이 크게 아쉽진 않을 것이라 생각했지만, 막상 공항에 도착하니 마음속에 애틋함과 아쉬움이 더 크게 밀려왔다. 바쁜 학회 일정 속에서 틈틈이 여행까지 하려다 보니 체력적으로는 많이 지쳤지만, 가족들과 친구들에게 선물할 것들을 준비하면서 마음은 더 풍족해졌다. 나리타 공항에 도착해 활주로를 바라보니 어느새 시간이 훌쩍 지나 있었고, 출국을 기다리며 이번 여정이 내게 남긴 경험들과 앞으로 펼쳐질 새로운 도전에 대한 기대감으로 가슴이 벅차올랐다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
-        &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240707/1-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-      &lt;/video&gt;
-      &lt;figcaption&gt;
-        마지막 전철.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;figure&gt;
-    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240707/1-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-    &lt;figcaption&gt;
-      나리타 공항으로 가는 길의 풍경.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-  &lt;figure&gt;
-    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240707/1-3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-    &lt;figcaption&gt;
-      나리타 공항 옥상에서 보이는 활주로.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-                <pubDate>Wed, 10 Jul 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/movement/ASSC-in-Tokyo-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/movement/ASSC-in-Tokyo-kr/</guid>
-                
-                <category>의식</category>
-                
-                <category>학회</category>
-                
-                <category>워크샵</category>
-                
-                <category>만남</category>
-                
-                <category>네트워크</category>
-                
-                
-                <category>Movement</category>
-                
-            </item>
-        
-            <item>
-                <title>ASSC Conference in Tokyo</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-
-  /* 새로 추가된 스타일 */
-  .two-fig-container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px; /* 이미지 간의 간격 */
-      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
-  }
-  .two-fig-container figure {
-      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
-      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
-  }
-
-  /* 작은 화면에서 각 figure를 세로로 배치 */
-  @media (max-width: 768px) {
-      .two-fig-container figure {
-          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
-      }
-  }
-
-  /* 새로 추가된 스타일 */
-  .three-fig-container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px; /* 이미지 간의 간격 */
-      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
-  }
-  .three-fig-container figure {
-      width: calc(33% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
-      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
-  }
-
-  /* 작은 화면에서 각 figure를 세로로 배치 */
-  @media (max-width: 768px) {
-      .three-fig-container figure {
-          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
-      }
-  }
-&lt;/style&gt;
-
-&lt;p&gt;Since childhood, I’ve been fascinated by questions surrounding consciousness and the nature of human psychological experience, a curiosity that has persisted through time. My decision to major in mathematics at POSTECH, after exploring biology and physics, was a continuation of these questions. As I delved deeper into cybernetics and cognitive science, I realized how intricately my questions were tied to the evolution of technology and society. This realization led me to engage more broadly, organizing and managing various activities at the Korean Association for Consciousness Sciences (KACS) to enrich discussions on consciousness. However, my academic exploration did not stop there—I wanted to understand how consciousness was being scientifically approached in academia. Upon hearing that the 27th Annual Conference of the Association for the Scientific Study of Consciousness (ASSC) would be held in Tokyo, I knew I had to attend.&lt;/p&gt;
-
-&lt;p&gt;Not being a student anymore, I had to register as a regular attendee, which was quite expensive. However, I decided to take the plunge, thinking I could pair the conference with a trip to Tokyo. While I did miss the perks of student life, I also came to empathize with professors who bear the costs of attending such events for themselves and their students.&lt;/p&gt;
-
-&lt;h1 id=&quot;20240629&quot;&gt;2024/06/29&lt;/h1&gt;
-
-&lt;h2 id=&quot;departure&quot;&gt;Departure&lt;/h2&gt;
-
-&lt;p&gt;My flight was scheduled for early afternoon, not long after lunch. Upon arriving at Incheon Airport by bus, I was struck by the modern, clean, and expansive facilities. As a recently built airport, it offered various amenities, including quiet spaces to nap or work. In line for my flight, I noticed that most of the passengers traveling to Tokyo were Japanese tourists, likely heading home after a trip to Korea. Curious about the area around Ueno Station, where I’d be staying, I asked a young couple for some recommendations using a translation app. The man kindly listed a few spots, and I thanked them as I rejoined the queue.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        First photo upon arriving at Incheon Airport.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/1-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        The line for the flight to Tokyo.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;While wandering the airport, I came across an art installation, a structure covered entirely in mirrors. Walking inside felt like moving through an infinite space, a curious experience just before my flight.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;video width=&quot;50%&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/1-4.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-    &lt;figcaption&gt;
-      Art installation at Incheon Airport.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;evening-in-ueno&quot;&gt;Evening in Ueno&lt;/h2&gt;
-
-&lt;p&gt;After a few hours, I arrived at Narita Airport in the early evening. Known for its distance from central Tokyo, I was concerned about navigating the trains and not getting lost. After about two hours, I finally reached Ueno Station. I quickly dropped my bags at my accommodation and headed straight for a nearby izakaya for a refreshing beer and some fresh seafood. Given how thirsty I was after moving my luggage all day without much to drink, that first sip of beer felt incredibly crisp and revitalizing.&lt;/p&gt;
-
-&lt;p&gt;The atmosphere beneath Ueno Station was lively yet somehow nostalgic. Every few minutes, the rumble of trains passing overhead seemed to make everyone speak louder, but there was a certain comfort in the noise.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/2-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        The streets beneath Ueno Station.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Dishes at the crowded izakaya.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;My accommodation was a dormitory shared with about ten others. Since I was traveling on my own dime, I wanted to keep accommodation costs low. Over the seven days I stayed there, it was surprisingly comfortable. The bathrooms and showers were always clean, which I appreciated. The first night, exhausted from traveling and slightly tipsy from the beer, I fell asleep quickly.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/2-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        The dormitory &quot;Siesta&quot; where I stayed during the trip.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240629/2-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        A small but cozy bedroom.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240630&quot;&gt;2024/06/30&lt;/h1&gt;
-
-&lt;p&gt;The road to Tokyo University was reminiscent of the student streets in Sinchon, Seoul—narrow yet well-organized. Tired-looking students dragging their bags got off the train with me, and the small company signs lining the streets caught my eye with their harmonious layout. On my way, I stumbled upon the famous red gate of Tokyo University, Akamon. I had heard there was a superstition among Japanese students about praying in front of this gate before their entrance exams. Seeing it in person, the grandeur and intensity of the red gate left a lasting impression.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        The narrow alley leading to Tokyo University.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/1-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        The famous red gate of Tokyo University, Akamon.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;satellite-workshop-1-structural-approaches-to-consciousness&quot;&gt;Satellite Workshop 1: Structural Approaches to Consciousness&lt;/h2&gt;
-
-&lt;p&gt;On Sunday morning, I got up early to attend the satellite workshop held before the main conference. After passing through Akamon and the economics department, I arrived at Ito Hall, a venue known for being off-limits to students under normal circumstances. The security was strict, and the architectural details inside were intricate and artistic. The geometric structure of the ceiling, in particular, caught my eye—it was a fascinating display of complex polygonal patterns that appealed to me as a math major.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/1-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Ito Hall, the main venue for the conference.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/1-5.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        The hall’s artistic and detailed interior.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The theme of the satellite workshop was “Structural Approaches to Consciousness,” and it focused on Integrated Information Theory (IIT). I knew that due to the influx of funding for consciousness research at Monash University in Australia, several prominent Japanese consciousness researchers had been appointed there. The workshop started with a lecture by Naotsugu Tsuchiya from Monash University and ended with a talk by Giulio Tononi, the creator of IIT at the University of Wisconsin-Madison. It was a meaningful time to discuss new research programs and the future directions of consciousness studies.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/1-6.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      Giulio Tononi giving his lecture on Integrated Information Theory (IIT).
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;dinner-in-ikebukuro&quot;&gt;Dinner in Ikebukuro&lt;/h2&gt;
-
-&lt;p&gt;After the workshop, I headed to Ikebukuro to find a place for dinner. I had planned to arrive earlier and explore the area, but the energy of the workshop made it hard to leave, so I arrived closer to 8 p.m. I went to a famous gyukatsu (beef cutlet) restaurant that I had found during my research and waited for 20–30 minutes in line. As I waited, I noticed that both in front of and behind me were Korean tourists. Though I was alone, I felt a strange sense of kinship with them. The gyukatsu was unlike anything I had tasted in Korea—the personal grill where I cooked the beef and the tenderness of the meat made it an unforgettable meal.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        A famous gyukatsu restaurant in Ikebukuro.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;video width=&quot;50%&quot; controls=&quot;&quot;&gt;
-        &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240630/2-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-      &lt;/video&gt;
-      &lt;figcaption&gt;
-        Grilling the beef at the restaurant.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240701&quot;&gt;2024/07/01&lt;/h1&gt;
-
-&lt;h2 id=&quot;satellite-workshop-2-perceptual-metacognition&quot;&gt;Satellite Workshop 2: Perceptual Metacognition&lt;/h2&gt;
-
-&lt;p&gt;The second satellite workshop focused on Higher-Order Thought Theory (HOT), one of the theories of consciousness, with a special emphasis on metacognition. Unlike the previous day’s workshop, this one was held at Waseda University, which is located closer to Tokyo’s bustling areas. The workshop kicked off with a lecture by Hakwan Lau, the creator of HOT. Despite his youthful appearance, he effortlessly lightened the mood with his witty and charming delivery. I was particularly excited to learn that he would be moving to Korea in September to become a director at the Institute for Basic Science (IBS). I even had a brief chat with him afterward.&lt;/p&gt;
-
-&lt;p&gt;As someone working in AI, I was especially intrigued by the talks on machine consciousness. One presentation, in particular, compared the concerns of AI and cognitive neuroscience, and its slides left a lasting impression on me. These presentations made me think more deeply about the complex connections between AI and human consciousness and provided fresh insights into the direction of my research.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/1-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Comparison between AI and cognitive neuroscience.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Enjoying the presentation.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;my-first-time-in-shinjuku&quot;&gt;My First Time in Shinjuku&lt;/h2&gt;
-
-&lt;p&gt;A few days earlier, I had told a friend about my trip to Tokyo. Coincidentally, that friend had an acquaintance with longstanding ties to the city, and she suggested I meet this acquaintance. So, we arranged to meet in Shinjuku. After getting off at Shinjuku Station, I waited for her outside one of the large buildings. As I stood there watching the traffic lights change and countless people passing by, I felt a strange sense of calm. She, too, mentioned that she didn’t often visit such busy areas, so it felt like we were both tourists together.&lt;/p&gt;
-
-&lt;p&gt;We walked through Kabukicho, one of Shinjuku’s most famous areas. It reminded me of Hongdae or Sinchon in Seoul, but it also gave me a glimpse into Japan’s darker side, making for a fascinating experience.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        First view after arriving at Shinjuku Station.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/2-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        The streets lit up as night fell.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;We continued past Kabukicho and walked into the Golden Gai, a vibrant alley filled with colorful signs. She told me that this area, known as “Golden Gai,” was a space filled with the happiness and youthful spirit of Japan’s economy before the bubble burst. The signs and buildings sparkled like jewels, giving the area a unique atmosphere. Finally, we passed through Omoide Yokocho, a bustling street filled with people, before returning to Tokyo Station and saying our goodbyes.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/2-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        The lively Golden Gai.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240701/2-6.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Omoide Yokocho.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240702&quot;&gt;2024/07/02&lt;/h1&gt;
-
-&lt;h2 id=&quot;first-day-of-the-conference&quot;&gt;First Day of the Conference&lt;/h2&gt;
-
-&lt;p&gt;The official conference started on Tuesday. Signs guiding participants to the conference were posted all over Ito Hall and other buildings. After a string of cloudy, windy days, the sun was shining brightly, making it impossible to walk without breaking into a sweat.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Signs pointing to the conference hall.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/1-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Conference pamphlets. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;For lunch, I used Google Maps to find a ramen shop nearby with good reviews. The staff was friendly, and the place had a unique vibe, playing jazz and R&amp;amp;B on repeat. The ramen was a spicy, rich dish that would likely appeal to most Korean tastes—a satisfying and flavorful meal.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        The ramen shop’s playlist. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/2-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        The delicious ramen. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/2-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Grilled dumplings.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;stroll-through-ueno-park&quot;&gt;Stroll Through Ueno Park&lt;/h2&gt;
-
-&lt;p&gt;In between sessions, I had a bit of free time, so I decided to visit Ueno Park, which was located near the university. It was a scorching day, so I stopped at a famous coffee shop, Komeda Coffee, to cool down. The quality of the coffee was unexpectedly good, a pleasant surprise.&lt;/p&gt;
-
-&lt;p&gt;Ueno Park had significant cultural landmarks scattered throughout. Passing through the park, I came across an old temple, its quiet and serene atmosphere instantly calming me.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/2-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        A refreshing coffee at Komeda before the walk. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        The foundation stone of Ueno Park.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        An old temple in the park. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Inside the park, there were renowned cultural facilities such as the National Museum of Western Art, the National Museum, and the Tokyo Metropolitan Art Museum. The National Museum of Western Art was famously designed by the French architect Le Corbusier, and its exterior displayed an abstract yet harmonious blend with the surrounding park. In the courtyard of the museum, Rodin’s sculptures were exhibited, including notable works like ‘The Thinker’, ‘The Burghers of Calais’, and ‘The Gates of Hell’. The Gates of Hell, in particular, left a profound impression due to its massive scale and intricate details, making it feel as though time had frozen around it.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        &apos;The Thinker&apos; at the National Museum of Western Art.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        &apos;The Burghers of Calais&apos; at the National Museum of Western Art.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-6.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        &apos;The Gates of Hell&apos; at the National Museum of Western Art.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;While the National Museum of Western Art showcases traditional Western art, the Tokyo Metropolitan Art Museum supports contemporary art, with various installation pieces catching the eye right from the entrance. Walking through the exhibitions, I gained a deep appreciation for the artistic diversity that Tokyo has to offer.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-7.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Installation piece 1 at the Tokyo Metropolitan Art Museum.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-8.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Installation piece 2 at the Tokyo Metropolitan Art Museum.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-10.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Installation piece 3 at the Tokyo Metropolitan Art Museum.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;After exploring the exhibitions, I visited nearby temples. These temples bore the clear marks of time, and within them, I experienced a deep sense of tradition. The serenity and peacefulness of these spaces felt as if they existed outside the flow of time itself.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-12.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Temple 1 in Ueno Park. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/3-13.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Temple 2 in Ueno Park.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;opening-keynote-jun-tani&quot;&gt;Opening Keynote: Jun Tani&lt;/h2&gt;
-
-&lt;p&gt;I headed to Yasuda Auditorium to attend the opening keynote by Professor Jun Tani, renowned for his work in cognitive science-based robotics. This auditorium is usually off-limits due to its strict security measures, so I felt fortunate to be inside. Throughout the presentation, I found myself mesmerized by the artistic chandeliers and murals adorning the hall. Professor Tani’s research, which spanned from Descartes to Varela with rigorous philosophical analysis, was truly impressive. Furthermore, his recent work applying information theory to active inference was particularly fascinating, offering a fresh paradigm in the field.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/4-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      Professor Jun Tani’s Opening Keynote.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;welcome-reception-in-ginza&quot;&gt;Welcome Reception in Ginza&lt;/h2&gt;
-
-&lt;p&gt;The first dinner reception was held at a hotel lobby in Ginza. Despite the full day of conference activities, everyone was busily engaged in conversations, eagerly meeting new people. I, too, hoped that one day I would make a name for myself within this community, and so I tried to strike up conversations with as many attendees as possible. One of the professors I met was Shinsuke Shimojo from CALTECH. As I knew he had once mentored Professor Sang-Wan Lee from KAIST, whom I greatly admired, I was thrilled to have the chance to meet him by pure coincidence.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;video width=&quot;50%&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240702/5.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-    &lt;figcaption&gt;
-      The evening dinner reception.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240703&quot;&gt;2024/07/03&lt;/h1&gt;
-
-&lt;h2 id=&quot;strolling-around-the-university-of-tokyo&quot;&gt;Strolling Around the University of Tokyo&lt;/h2&gt;
-
-&lt;p&gt;Whenever I found a break in the busy conference schedule, I took the opportunity to walk around. I wanted to take in the sights of the new campus and soak in the unique atmosphere. The buildings at the University of Tokyo followed mostly Western architectural styles, with especially captivating decorations at the entrances. The layout of the buildings and trees felt meticulously designed, adding to the campus’s charm.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Scenic view 1 of the University of Tokyo. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Scenic view 2 of the University of Tokyo. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Scenic view 3 of the University of Tokyo.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Even the small resting spots between the buildings had a certain charm. While my heavy laptop weighed down on my shoulders, the walk was well worth it. Although I couldn’t avoid sweating in the scorching heat, I found relief in a café famous for melon soda located near the campus. On the way there, I stumbled upon a small shrine with an old, quiet beauty that made me stop in my tracks to take it all in.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Scenic view 4 of the University of Tokyo.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-5.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Scenic view 5 of the University of Tokyo.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/2-6.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Scenic view 6 of the University of Tokyo.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;As the heat bore down on me, I had no choice but to stop sweating and take a break. I visited the café known for its melon soda, right next to the campus. On my way, I passed by a small shrine with an old, timeless charm. Its serene appearance made me pause for a long while, feeling as if the shrine had stood still in time, quietly welcoming me.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/3-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Street sculpture near the University of Tokyo 1. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/3-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Street sculpture near the University of Tokyo 2. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/3-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Street sculpture near the University of Tokyo 3. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;conference-schedule&quot;&gt;Conference Schedule&lt;/h2&gt;
-
-&lt;p&gt;I visited the presentation hall to support a Korean graduate student I’ve known for quite some time. I took photos of their presentation as well. The Fukutake Building, where the presentation was held, boasted a modern architectural style with a unique structure that spanned from the basement to the upper floors, all visible at a glance. The stairs connecting each floor reminded me of Escher’s Relativity and the layered scenes from the movie Inception, creating a surreal and dreamlike atmosphere that blurred the lines between reality and illusion.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/4-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Fukutake Building, the conference venue.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/4-2.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Presentation by a Korean graduate student. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/4-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Poster session at the conference.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;meeting-a-college-friend&quot;&gt;Meeting a College Friend&lt;/h2&gt;
-
-&lt;p&gt;After wrapping up the conference schedule for the day, I arranged to meet a college friend who is currently studying abroad at the University of Tokyo. It had been a long time since we last met due to the pandemic, so it was a joy to finally catch up in person. We decided to eat at a place recommended by Tokyo University students and ordered okonomiyaki. Both the taste and portion were satisfying, and the additional dongpo pork we ordered was so tender that it practically melted in our mouths. While reminiscing about old memories, we also had a deep conversation about our future plans and dreams. The pandemic had prevented us from meeting as often as we would have liked, making this reunion all the more bittersweet.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/5-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Menu recommended by Tokyo University students 1.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240703/5-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Menu recommended by Tokyo University students 2. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240704&quot;&gt;2024/07/04&lt;/h1&gt;
-
-&lt;h2 id=&quot;conference-schedule-1&quot;&gt;Conference Schedule&lt;/h2&gt;
-
-&lt;p&gt;This day featured a symposium where renowned scholars discussed functionalism in the philosophy of mind. It began with a witty presentation by Professor Ned Block, followed by discussions led by Professor Stephen Fleming, known for his work in metacognition, and Professor Anil Seth from the UK, who focuses on predictive coding theories related to consciousness.&lt;/p&gt;
-
-&lt;p&gt;Seeing these topics, which my friends and I often discussed informally, being addressed so deeply and formally made me feel proud to be there. It also filled me with hope for the future, as I reflected on how rewarding it would be to play a key role in this academic field as a young scholar. The experience reinvigorated my aspirations and determination to contribute meaningfully to the field.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Professor Ned Block&apos;s presentation.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/1-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Professor Stephen Fleming&apos;s presentation.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/1-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Professor Anil Seth&apos;s presentation.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;gala-dinner&quot;&gt;Gala Dinner&lt;/h2&gt;
-
-&lt;p&gt;The gala dinner was held at the prestigious Otani Hotel in Tokyo, the largest and most famous hotel in the city. By this point in the conference, I had already made several friends, and I attended the dinner with the hope of meeting their friends and forging new connections. I first introduced myself to some Korean researchers whom I hadn’t spoken to yet and also had the chance to meet friends who were pursuing their master’s degrees at the University of Tokyo. One friend and I were surprised to find that we had read the same books in the exact same order—an unexpected and delightful coincidence that kept us chatting for 30 minutes while standing.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/2-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        The gala dinner at the Otani Hotel. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/2-3.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Photo at the entrance of the conference venue. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The setting of the dinner was also quite impressive. The venue featured a man-made waterfall and a lake that added to the scenic beauty of the hotel grounds. The atmosphere was even more lively than at the first dinner, and I could feel the bonds between people growing stronger as the night went on.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
-        &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/2.2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-      &lt;/video&gt;
-      &lt;figcaption&gt;
-        Overview of the hotel gala dinner.
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-  &lt;figure&gt;
-    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240704/2.1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-    &lt;figcaption&gt;
-      The lively atmosphere at the gala dinner. 
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240705&quot;&gt;2024/07/05&lt;/h1&gt;
-
-&lt;p&gt;I woke up early in the morning and sought out a well-known brunch spot in the area. It was a place frequented by locals, filled with office workers reading newspapers and smoking cigarettes before heading to work. I ordered a simple French toast and coffee, taking my time to observe the shop’s interior and decorations. On one wall hung a ukiyo-e print, contrasting with the European-style breakfast I was enjoying, yet evoking a strong sense of traditional Japan. This subtle harmony made for a delightful meal.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/1-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        A ukiyo-e print hanging on the wall.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/1-2.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Delicious French toast.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/1-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        A lot of people reading newspapers.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;gathering-of-korean-researchers&quot;&gt;Gathering of Korean Researchers&lt;/h2&gt;
-
-&lt;p&gt;A Korean graduate student I’ve known for some time had arranged a lunch gathering for all the Korean participants. Unfortunately, they were unable to attend due to fatigue from the previous day’s presentation preparations. I took over leading the group and moved us to the restaurant I had booked. The backgrounds of the Korean researchers I met were incredibly diverse, spanning fields such as physics, anesthesiology, philosophy, neuroscience, psychology, and medicine. Many of them were active abroad, which made me realize just how many people, even in Korea, are deeply interested in the study of the human mind and consciousness. We concluded the gathering with hopes of staying connected in the future.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/2-1.jpg&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-     Korean researchers gathered thanks to graduate student Jang Hyun-woo.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;a-walk-around-the-sanshiro-pond&quot;&gt;A Walk Around the Sanshiro Pond&lt;/h2&gt;
-
-&lt;p&gt;After lunch, with some time to spare, I took a walk around Sanshiro Pond on the University of Tokyo campus. This is a place where the renowned Japanese author Natsume Soseki often strolled, and it also served as the setting for his novel Sanshiro. Despite being in the busy center of the University of Tokyo, Sanshiro Pond was astonishingly quiet and peaceful. The stillness of the water made it feel as if time had stopped, and since it was a quiet hour, I was able to explore the area alone at a leisurely pace.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-2.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Scenic view of Sanshiro Pond 1.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-3.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Scenic view of Sanshiro Pond 2.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-4.jpg&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Scenic view of Sanshiro Pond 3.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;During the walk, I noticed a foreign student with a limp, gazing deeply into the water, lost in thought. Something about the scene lingered in my mind and stirred a sense of empathy.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;video width=&quot;50%&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-    &lt;figcaption&gt;
-      The tranquility of Sanshiro Pond.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;After leaving Sanshiro Pond, I wandered around the University of Tokyo’s buildings again. In stark contrast to the pond’s tranquility, the Western-style architecture of the buildings made it feel as though the pond belonged to a dream world.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        A building at the University of Tokyo 1. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-5.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        A building at the University of Tokyo 2. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/3-6.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        An art installation in front of the building.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;shibuya-night&quot;&gt;Shibuya Night&lt;/h2&gt;
-
-&lt;p&gt;On the last night of the conference, the organizers rented a club in Shibuya for the after-party. Since I arrived early, people were still sitting around the tables, chatting. To make the most of my remaining time in Tokyo, I decided to visit a bar in Shibuya recommended by a friend. The bar, located not far from the after-party venue, had a name that symbolized a gem blossoming within a stone, much like an amethyst. After two cocktails, I was feeling a bit tipsy and headed back to my accommodation within an hour.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/4-2.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        A bar in Shibuya.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/4-3.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Delicious cocktail 1.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240705/4-4.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Delicious cocktail 2.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240706&quot;&gt;2024/07/06&lt;/h1&gt;
-
-&lt;h2 id=&quot;exploring-asakusa&quot;&gt;Exploring Asakusa&lt;/h2&gt;
-
-&lt;p&gt;This was the only day with free time on the itinerary. I explored Asakusa with a Japanese friend, and it was packed with people. The temple, painted in vivid red and gold, was both striking and beautiful. In the main hall, people were tossing coins to make prayers or drawing fortunes from paper slips. I drew a lucky fortune, while my friend got an unlucky one and tied it up at the designated area to leave it behind.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/1-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        The front view of Asakusa. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/1-5.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Inside the temple at Asakusa.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/1-6.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        The main hall.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;After lunch, we visited a festival celebrating the story of the Weaver and the Cowherd, not far from the temple. The market was bustling with a variety of items, from kitchenware to knives and coffee brewing equipment. Many of the small, delicate items had the distinct charm of Japanese craftsmanship.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/2-1.jpg&quot; style=&quot;width: 70%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Festival for the Weaver and the Cowherd 1.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/2-2.jpg&quot; style=&quot;width: 75%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Festival for the Weaver and the Cowherd 2.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;shopping-in-ginza&quot;&gt;Shopping in Ginza&lt;/h2&gt;
-
-&lt;p&gt;After parting ways with my friend, I headed to a stationery store in Ginza. The first store I visited was an old shop filled with handcrafted items, but the prices were quite high, so I moved on to another place. The second store offered more practical and reasonably priced stationery, and the entire building was dedicated to stationery items. I wandered through the various floors, from the 7th to the 8th, browsing a wide selection of items before finally purchasing some simple sketching supplies.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;two-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/3-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        An old stationery store in Ginza.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/3-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        A more accessible stationery store in Ginza.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;grilled-eel-donburi&quot;&gt;Grilled Eel Donburi&lt;/h2&gt;
-
-&lt;p&gt;As evening approached, I found a restaurant serving grilled eel donburi behind an old department store with a prominent vintage sign. By the time the restaurant was about to open, locals had lined up behind me, and after waiting for about 10-20 minutes, I was able to enter. The main dish was grilled or steamed eel served over rice, and for my last dinner in Tokyo, I chose both. The eel, whether grilled or steamed, was soft and warm, melting in my mouth with every bite. What truly amazed me was eating it with a tea brewed from eel bones, which elevated the experience to a new level. Even as I was paying, I kept thanking the owner in Japanese, expressing how delicious the meal was.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/4-1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        The old eel donburi restaurant. 
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/4-2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        Eel donburi menu.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure&gt;
-      &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/4-3.jpg&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
-      &lt;figcaption&gt;
-        A truly satisfying grilled eel donburi.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;video width=&quot;50%&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240706/5.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-    &lt;figcaption&gt;
-       The beautiful sky after the rain.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;20240707&quot;&gt;2024/07/07&lt;/h1&gt;
-
-&lt;h2 id=&quot;goodbye-tokyo&quot;&gt;Goodbye, Tokyo&lt;/h2&gt;
-
-&lt;p&gt;Early in the morning, I left my accommodation and headed to Narita Airport once again. Given how close Japan is to Korea, I hadn’t expected to feel much regret, but as I arrived at the airport, a sense of longing and nostalgia grew stronger. The busy conference schedule and the effort to squeeze in some travel had left me physically exhausted, but my heart felt full, especially as I had prepared gifts for my family and friends. As I watched the runway from Narita Airport, I realized how quickly time had flown by. Waiting to board my flight, my heart was filled with a mix of memories from this journey and excitement for the new challenges that lay ahead.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;div class=&quot;three-fig-container&quot;&gt;
-    &lt;figure&gt;
-      &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
-        &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240707/1-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-      &lt;/video&gt;
-      &lt;figcaption&gt;
-        The last subway ride.
-      &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;figure&gt;
-    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240707/1-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-    &lt;figcaption&gt;
-      The scenery on the way to Narita Airport.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-  &lt;figure&gt;
-    &lt;video width=&quot;80%&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;/assets/images/posts/2024/Q3/2024-07-10-ASSC in Tokyo/240707/1-3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-    &lt;figcaption&gt;
-      The runway view from Narita Airport rooftop.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-                <pubDate>Wed, 10 Jul 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/movement/ASSC-in-Tokyo-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/movement/ASSC-in-Tokyo-en/</guid>
-                
-                <category>Consciousness</category>
-                
-                <category>Conference</category>
-                
-                <category>Workshop</category>
-                
-                <category>Meeting</category>
-                
-                <category>Network</category>
-                
-                
-                <category>Movement</category>
-                
-            </item>
-        
-            <item>
-                <title>비선형 및 복잡계 심포지움</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-
-  /* 새로 추가된 스타일 */
-  .two-fig-container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px; /* 이미지 간의 간격 */
-      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
-  }
-  .two-fig-container figure {
-      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
-      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
-  }
-
-  /* 작은 화면에서 각 figure를 세로로 배치 */
-  @media (max-width: 768px) {
-      .two-fig-container figure {
-          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
-      }
-  }
-&lt;/style&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-29-NCSS in Yangjae/poster.JPG&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      심포지움 포스터.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;한국 계산 뇌과학회의 초대 회장은 포항공과대학교(POSTECH) 물리학과의 김승환 교수님이다. 김승환 교수님은 수학적, 물리학적 이론을 통해 인간 두뇌의 복잡한 문제를 풀어내는 모델링 기법으로 다양한 연구 성과를 이루셨고, 관련 분야에서 많은 후학을 양성하셨다. 나 역시 포스텍 진학을 결정하는 데 김승환 교수님의 영향이 매우 컸으며, 특히 3학기 이후 수학과로 전공을 결정하게 된 계기도 교수님의 수업을 듣고 나서였다.&lt;/p&gt;
-
-&lt;p&gt;이번 비선형 및 복잡계 심포지움은 김승환 교수님의 정년 퇴임 기념 행사와 함께 진행되었기에, 꼭 참석하고 싶었다. 운 좋게도 관련 정보를 접하게 되어 참석할 수 있었고, 이를 매우 영광스럽게 생각한다.&lt;/p&gt;
-
-&lt;p&gt;더불어, 이번 행사에는 한국 경제사회물리학회도 함께 참여하여 정우성 교수님, 정하웅 교수님, 정재승 교수님 등 존경하는 교수님들을 직접 뵐 수 있었다. 교수님들과 뜻깊은 이야기를 나누며, 학문적으로도 많은 영감을 받을 수 있는 시간이 되었다.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-29-NCSS in Yangjae/group_1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      단체 사진 1.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-29-NCSS in Yangjae/group_2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      단체 사진 2.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-</description>
-                <pubDate>Sat, 29 Jun 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/movement/NCSS-in-Yangjae-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/movement/NCSS-in-Yangjae-kr/</guid>
-                
-                <category>학회</category>
-                
-                <category>은사</category>
-                
-                <category>심포지움</category>
-                
-                <category>물리학</category>
-                
-                <category>비선형</category>
-                
-                <category>복잡계</category>
-                
-                <category>사회</category>
-                
-                
-                <category>Movement</category>
-                
-            </item>
-        
-            <item>
-                <title>Nonlinear and Complex Systems Symposium</title>
-                <description>&lt;style&gt;
-  .centered-container {
-      text-align: center;
-  }
-  figure {
-      display: inline-block;
-      margin: auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #fff;
-  }
-  figcaption {
-      font-family: &quot;Wanted Sans Variable&quot;, &quot;Wanted Sans&quot;;
-      font-size: 12px;
-      color: #555;
-      margin-top: 5px;
-  }
-
-  /* 새로 추가된 스타일 */
-  .two-fig-container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px; /* 이미지 간의 간격 */
-      flex-wrap: wrap; /* 화면이 좁아질 때 이미지를 세로로 배치 */
-  }
-  .two-fig-container figure {
-      width: calc(50% - 20px); /* 두 개의 figure가 나란히 배치되도록 설정 */
-      box-sizing: border-box; /* 패딩과 보더를 포함하여 너비 계산 */
-  }
-
-  /* 작은 화면에서 각 figure를 세로로 배치 */
-  @media (max-width: 768px) {
-      .two-fig-container figure {
-          width: 100%; /* 작은 화면에서는 figure가 전체 너비를 차지 */
-      }
-  }
-&lt;/style&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-29-NCSS in Yangjae/poster.JPG&quot; style=&quot;width: 60%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      Symposium Poster.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Professor Seunghwan Kim of the Physics Department at POSTECH (Pohang University of Science and Technology) is the inaugural president of the Korean Society for Computational Neuroscience. Professor Kim has made significant contributions in modeling complex brain functions through mathematical and physical theories, and has mentored numerous scholars in the field. Personally, Professor Kim had a profound impact on my decision to pursue studies at POSTECH. In fact, it was after attending his classes that I decided to switch my major to mathematics after my third semester.&lt;/p&gt;
-
-&lt;p&gt;This year’s Nonlinear and Complex Systems Symposium was especially meaningful because it also served as a retirement celebration for Professor Kim. I was determined to attend, and I was fortunate enough to receive information about the event, allowing me to participate. I consider it a great honor to have been part of this event.&lt;/p&gt;
-
-&lt;p&gt;Additionally, the symposium saw the participation of the Korean Society for Econophysics, where I had the pleasure of meeting esteemed professors such as Woo-Sung Jung, Hawoong Jeong, and Jae-Sung Jeong. Engaging with these respected scholars was both inspiring and rewarding, providing me with new academic insights.&lt;/p&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-29-NCSS in Yangjae/group_1.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      Group Photo 1.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;centered-container&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q2/2024-06-29-NCSS in Yangjae/group_2.jpg&quot; style=&quot;width: 80%; height: auto;&quot; /&gt;
-    &lt;figcaption&gt;
-      Group Photo 2.
-    &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-</description>
-                <pubDate>Sat, 29 Jun 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/movement/NCSS-in-Yangjae-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/movement/NCSS-in-Yangjae-en/</guid>
-                
-                <category>Conference</category>
-                
-                <category>Mentor</category>
-                
-                <category>Symposium</category>
-                
-                <category>Physics</category>
-                
-                <category>Nonlinear</category>
-                
-                <category>Complex Systems</category>
-                
-                <category>Society</category>
-                
-                
-                <category>Movement</category>
                 
             </item>
         

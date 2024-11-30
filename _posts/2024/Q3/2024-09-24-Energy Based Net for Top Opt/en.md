@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Shape Optimization Using Energy-Based Networks"
 scope:
   type: posts
@@ -113,4 +113,4 @@ Studying optimization algorithms and mathematical tools: Learning about nonlinea
 
 Combining physical simulation: Integrating finite element analysis (FEA) tools with neural networks can help verify and improve the accuracy of predictions.
 
-Pursuing research in these directions could yield meaningful results in applying energy-based networks to shape optimization. Additionally, [**studies on topology optimization using Cellular Automata**](https://www.mdpi.com/2076-3417/13/5/2929) have also emerged. Considering such approaches could lead to the development of practical technologies.
+Pursuing research in these directions could yield meaningful results in applying energy-based networks to shape optimization. Additionally, [**studies on topology optimization using Cellular Automata**](https://www.mdpi.com/2076-3417/13/5/2929) have also emerged. Considering such approaches could lead to the development of practical technologies. -->

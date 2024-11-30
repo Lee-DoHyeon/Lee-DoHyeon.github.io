@@ -196,7 +196,39 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/meditation/Energy-Based-Net-for-Top-Opt-kr/</loc>
+        <loc>http://localhost:4000/meditation/Art-and-Writing-kr/</loc>
+        
+        <lastmod>2024-09-27T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/meditation/Art-and-Writing-en/</loc>
+        
+        <lastmod>2024-09-27T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/Energy-Based-Net-for-Top-Opt-kr/</loc>
         
         <lastmod>2024-09-24T00:00:00+09:00</lastmod>
         
@@ -212,9 +244,41 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/meditation/Energy-Based-Net-for-Top-Opt-en/</loc>
+        <loc>http://localhost:4000/Energy-Based-Net-for-Top-Opt-en/</loc>
         
         <lastmod>2024-09-24T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/meditation/Why-Do-I-Like-This-kr/</loc>
+        
+        <lastmod>2024-09-14T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/meditation/Why-Do-I-Like-This-en/</loc>
+        
+        <lastmod>2024-09-14T00:00:00+09:00</lastmod>
         
 
         
@@ -516,7 +580,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/meditation/Starting-Point-kr/</loc>
+        <loc>http://localhost:4000/Starting-Point-kr/</loc>
         
         <lastmod>2024-06-15T00:00:00+09:00</lastmod>
         
@@ -532,7 +596,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/meditation/Starting-Point-en/</loc>
+        <loc>http://localhost:4000/Starting-Point-en/</loc>
         
         <lastmod>2024-06-15T00:00:00+09:00</lastmod>
         
