@@ -5,9 +5,79 @@
         <link>http://localhost:4000</link>
         <description>Do-Hyeon&apos;s blog</description>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 30 Nov 2024 18:49:59 +0900</pubDate>
-        <lastBuildDate>Sat, 30 Nov 2024 18:49:59 +0900</lastBuildDate>
+        <pubDate>Sat, 14 Dec 2024 16:15:14 +0900</pubDate>
+        <lastBuildDate>Sat, 14 Dec 2024 16:15:14 +0900</lastBuildDate>
         <generator>Jekyll v3.9.3</generator>
+        
+            <item>
+                <title>인간의 뉴런과 정보 처리: 에너지, 발화, 그리고 한계</title>
+                <description>&lt;p&gt;인간의 뇌는 약 860억 개의 뉴런으로 이루어져 있다. 이는 몸무게의 2%밖에 차지하지 않지만, 기초 대사량의 약 20%에 해당하는 에너지를 소비한다. 그 에너지 소비량은 약 12W로, LED 전구 한 개와 비슷한 수준이다. 이 에너지가 뉴런의 발화와 정보 처리에 어떻게 쓰이는지는 &lt;strong&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Landauer%27s_principle&quot;&gt;Landauer’s Principle&lt;/a&gt;&lt;/strong&gt; 같은 물리학적 원리를 통해 더 깊이 이해할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Landauer’s Principle&lt;/strong&gt;은 정보 처리와 에너지 소비 간의 관계를 설명하는 열역학적 이론이다. 비트 하나를 삭제하거나 수정할 때 필요한 최소 에너지는 이렇게 정의된다:&lt;/p&gt;
+
+\[E \geq k_B T \ln(2)\]
+
+&lt;p&gt;여기서 $k_B$는 &lt;strong&gt;볼츠만 상수&lt;/strong&gt;, $T$는 절대 온도를 뜻한다. 인간 체온(약 310K)을 기준으로 계산해보면, 비트 하나를 수정하는 데 약 $2.97 \times 10^{-21} \, \mathrm{J}$의 에너지가 필요하다. 이 계산값을 뇌의 총 에너지 소비량(초당 12J)에 적용하면, 뇌가 초당 처리할 수 있는 비트 수는 약 $4.04 \times 10^{21} \, \mathrm{bits/s}$로 추정된다. 뉴런 하나당 비트 수정 속도는 대략 $4.7 \times 10^{10} \, \mathrm{bits/s}$ 정도로 계산된다.&lt;/p&gt;
+
+&lt;p&gt;하지만 뉴런의 발화(firing) 속도는 생리적 한계로 인해 초당 최대 1,000회로 제한된다. 이는 뉴런의 물리적 활동 한계를 반영하며, 발화는 정보 처리 과정의 일부일 뿐이다. 뉴런은 병렬적으로 연결돼 정보를 통합하고, 네트워크 차원에서 복잡한 계산을 수행한다. 따라서 뉴런당 초당 $4.7 \times 10^{10} \, \mathrm{bits/s}$라는 Landauer 계산 결과는 단일 뉴런의 발화 속도를 훨씬 초과한다. 이는 뇌의 병렬 정보 처리 능력을 보여준다고 할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;현대 컴퓨터와 비교해보자면, 최신 CPU는 최대 5.85GHz로 동작하며 초당 약 58억 5천만 번의 상태 전환을 수행한다. 뉴런의 발화 속도(1,000Hz)에 비해 약 580만 배 빠른 셈이다. 하지만 컴퓨터는 고속 직렬 처리에 강점을 가지는 반면, 뇌는 병렬 처리에서 큰 장점을 보인다. 이 두 시스템은 정보 처리 방식에서 본질적으로 다르다고 볼 수 있다.&lt;/p&gt;
+
+&lt;p&gt;결론적으로, 인간 뇌는 빠른 속도보다는 &lt;strong&gt;에너지 효율성과 병렬 처리 능력&lt;/strong&gt;을 바탕으로 진화해왔다. Landauer’s Principle이 보여주는 최소 에너지 한계는 컴퓨터 설계뿐만 아니라, 뇌-컴퓨터 인터페이스 같은 응용 분야에서도 중요한 통찰을 제공한다. 뉴런의 발화 속도와 Landauer 계산 결과의 차이는 뉴런의 물리적 활동만으로는 설명되지 않는, 네트워크 차원의 복잡성을 시사한다. 결국, 뇌는 효율성과 적응력을 기반으로 진화한 최적의 시스템이라는 점을 다시 한번 확인할 수 있다.&lt;/p&gt;
+</description>
+                <pubDate>Tue, 10 Dec 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/Processing-in-Brain-and-Machine-kr/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Processing-in-Brain-and-Machine-kr/</guid>
+                
+                <category>뉴런</category>
+                
+                <category>에너지</category>
+                
+                <category>정보</category>
+                
+                <category>철학</category>
+                
+                <category>컴퓨터공학</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
+        
+            <item>
+                <title>Neurons and Information Processing: Energy, Firing, and Limitations</title>
+                <description>&lt;p&gt;The human brain consists of approximately 86 billion neurons, which make up only 2% of the body’s weight but consume about 20% of its basal metabolic energy. This energy consumption is around 12W—roughly equivalent to the power usage of a single LED light bulb. Understanding how this energy is utilized for neuronal firing and information processing can be further explained through physical principles such as &lt;strong&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Landauer%27s_principle&quot;&gt;Landauer’s Principle&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Landauer’s Principle&lt;/strong&gt; is a thermodynamic theory that explains the relationship between information processing and energy consumption. The minimum energy required to delete or modify a single bit is defined as:&lt;/p&gt;
+
+\[E \geq k_B T \ln(2)\]
+
+&lt;p&gt;Here, $k_B$ is the &lt;strong&gt;Boltzmann constant&lt;/strong&gt;, and $T$ is the absolute temperature. At the human body temperature (approximately 310K), modifying a single bit requires about $2.97 \times 10^{-21} \, \mathrm{J}$ of energy. Applying this calculation to the brain’s total energy consumption (12J per second), the brain is estimated to process about $4.04 \times 10^{21} \, \mathrm{bits/s}$. On a per-neuron basis, this translates to a bit modification rate of approximately $4.7 \times 10^{10} \, \mathrm{bits/s}$.&lt;/p&gt;
+
+&lt;p&gt;However, the firing rate of neurons is limited by physiological constraints, with a refractory period restricting the maximum firing rate to around 1,000 times per second. This reflects the physical limits of neuronal activity, but firing is only one part of the information processing mechanism. Neurons also integrate information through parallel connections, performing complex computations at the network level. Thus, the Landauer-based calculation of $4.7 \times 10^{10} \, \mathrm{bits/s}$ per neuron far exceeds the firing rate, highlighting the brain’s capacity for parallel information processing.&lt;/p&gt;
+
+&lt;p&gt;In comparison, modern CPUs operate at up to 5.85GHz, executing approximately 5.85 billion state transitions per second. This is about 5.8 million times faster than the firing rate of a neuron. However, while computers excel in high-speed serial processing, the brain demonstrates unparalleled advantages in parallel processing. This fundamental difference defines the distinct approaches of these two systems to information processing.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, the human brain has evolved to prioritize &lt;strong&gt;energy efficiency and parallel processing capabilities&lt;/strong&gt; over sheer speed. The minimum energy threshold described by &lt;strong&gt;Landauer’s Principle&lt;/strong&gt; provides critical insights not only for computer design but also for applications like brain-computer interfaces. The disparity between neuronal firing rates and Landauer’s calculations underscores the importance of network-level complexity in brain function. Ultimately, the brain represents a highly efficient and adaptive system, refined through evolution to achieve optimal functionality.&lt;/p&gt;
+</description>
+                <pubDate>Tue, 10 Dec 2024 00:00:00 +0900</pubDate>
+                <link>http://localhost:4000/meditation/Processing-in-Brain-and-Machine-en/</link>
+                <guid isPermaLink="true">http://localhost:4000/meditation/Processing-in-Brain-and-Machine-en/</guid>
+                
+                <category>neurons</category>
+                
+                <category>energy</category>
+                
+                <category>information</category>
+                
+                <category>philosophy</category>
+                
+                <category>computer science</category>
+                
+                
+                <category>Meditation</category>
+                
+            </item>
         
             <item>
                 <title>새로운 변곡점</title>
@@ -3370,252 +3440,6 @@ Naturalizing the Mammalian Mind(2012), Jaak Panksepp&lt;/a&gt;.
                 <category>Consciousness</category>
                 
                 <category>Philosophy of Mind</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>슈미트후버의 의식을 지니는 기계</title>
-                <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/q4fFuZgOZn8?si=PqlGxV8uUUYBd84x&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;유르겐 슈미트후버는 2016년 뉴욕에서 열린 AI 컨퍼런스에서 &lt;strong&gt;인공 의식(Artificial Consciousness)&lt;/strong&gt;, &lt;strong&gt;월드 모델(World Model)&lt;/strong&gt;, &lt;strong&gt;예측 코딩(Predictive Coding)&lt;/strong&gt;, 그리고 &lt;strong&gt;데이터 압축(Data Compression)&lt;/strong&gt;에 대한 흥미로운 개념을 소개했다. 그는 자신의 연구실에서 이미 의식을 가진 인공 시스템이 존재하며, 의식은 문제 해결 과정에서 발생하는 데이터 압축의 부산물이라고 주장한다. 이제 그의 주요 아이디어를 살펴보자.&lt;/p&gt;
-
-&lt;h3 id=&quot;1-인공-의식의-기초-데이터-압축data-compression&quot;&gt;1. 인공 의식의 기초: 데이터 압축(Data Compression)&lt;/h3&gt;
-
-&lt;div style=&quot;display: flex;&quot;&gt;
-  &lt;div style=&quot;flex: 8; padding-right: 10px;&quot;&gt;
-    &lt;p&gt;
-      슈미트후버는 의식을 데이터 압축의 부산물로 설명한다. 그의 이론에 따르면, 인공 시스템이 문제를 해결하는 과정에서 데이터를 효율적으로 압축하는 능력이 의식의 기초가 된다. 이는 인간의 뇌가 복잡한 정보를 처리하고 저장하는 방식과 유사하다.
-    &lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div style=&quot;flex: 2;&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled.png&quot; alt=&quot;Shumidhuber&apos;s Thesis&quot; style=&quot;width: 100%;&quot; /&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;2-범용-컴퓨터general-purpose-computer와-재귀-신경망recurrent-neural-network&quot;&gt;2. 범용 컴퓨터(General-Purpose Computer)와 재귀 신경망(Recurrent Neural Network)&lt;/h3&gt;
-
-&lt;p&gt;범용 컴퓨터, 특히 재귀 신경망은 많은 노드와 짧은 와이어로 연결된 프로세서들로 구성되어 통신 비용을 최적화한다. 이러한 컴퓨터는 세상으로부터 다양한 정보를 수집하여 목표를 달성하거나 보상을 최적화하려 한다. 재귀 신경망은 이러한 과정에서 매우 중요한 역할을 한다.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-월드-모델world-model과-예측-코딩predictive-coding&quot;&gt;3. 월드 모델(World Model)과 예측 코딩(Predictive Coding)&lt;/h3&gt;
-
-&lt;div style=&quot;display: flex;&quot;&gt;
-  &lt;div style=&quot;flex: 2;&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 1.png&quot; alt=&quot;World Model + RL&quot; style=&quot;width: 100%;&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div style=&quot;flex: 8; padding-left: 10px;&quot;&gt;
-    &lt;p&gt;
-      슈미트후버는 제어기(controller)와 월드 모델(world model)이라는 두 개의 재귀 신경망을 기반으로 강화학습(reinforcement learning)과 계획(planning)을 풀어내는 시스템을 제안한다. 제어기는 행동을 생성하고, 월드 모델은 세상에 대한 예측을 통해 데이터를 압축한다. 모든 물리 법칙과 과학, 화학 법칙은 재귀 신경망의 하위 신경망으로 압축되어 컨트롤러에 의해 사용된다.
-    &lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;4-자기-인식self-awareness과-인공-호기심artificial-curiosity&quot;&gt;4. 자기 인식(Self-awareness)과 인공 호기심(Artificial Curiosity)&lt;/h3&gt;
-
-&lt;div style=&quot;display: flex;&quot;&gt;
-  &lt;div style=&quot;flex: 1;&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 2.png&quot; alt=&quot;Robotics Application&quot; style=&quot;width: 100%;&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div style=&quot;flex: 1; padding-left: 10px;&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 3.png&quot; alt=&quot;GAN&quot; style=&quot;width: 100%;&quot; /&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;인공 시스템이 세상과 상호작용하는 과정에서 &lt;em&gt;자기 자신의 상태&lt;/em&gt;도 압축하게 된다. 이는 자기 인식을 형성하는 기초가 된다. 또한, 슈미트후버는 적대적 생성 신경망(GAN)을 통해 인공 호기심을 도입하였으며, 내적 동기를 비/자기지도 학습(un/self-supervised learning)하는 에이전트를 소개했다. 이는 신경망이 다른 신경망에 의해 최대화되는 목적함수를 최소화하는 미니맥스 게임(minimax game)에 기반한 것이다.&lt;/p&gt;
-
-&lt;h3 id=&quot;5-프로그램으로서의-신경망&quot;&gt;5. 프로그램으로서의 신경망&lt;/h3&gt;
-
-&lt;div style=&quot;display: flex;&quot;&gt;
-  &lt;div style=&quot;flex: 8; padding-right: 10px;&quot;&gt;
-    &lt;p&gt;
-      슈미트후버는 신경망의 가중치(weights)를 프로그램(program)으로 간주해야 한다고 주장한다. 심층 신경망의 핵심 목표는 관찰된 데이터의 유용한 내적 표상(internal representations)을 학습하는 것이다. 신경망의 출력은 프로그램에 대해 미분 가능하며, 이는 더 나은 프로그램을 찾기 위한 방향을 제시한다.
-    &lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div style=&quot;flex: 2;&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 4.png&quot; alt=&quot;Neural Economy&quot; style=&quot;width: 100%;&quot; /&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;6-예측적-월드-모델과-자기-인식self-awareness&quot;&gt;6. 예측적 월드 모델과 자기 인식(Self-awareness)&lt;/h3&gt;
-
-&lt;div style=&quot;display: flex;&quot;&gt;
-  &lt;div style=&quot;flex: 2;&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 5.png&quot; alt=&quot;On Consciousness&quot; style=&quot;width: 100%;&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div style=&quot;flex: 8; padding-left: 10px;&quot;&gt;
-    &lt;p&gt;
-      제어기를 통해 세상과 상호작용하는 예측적 월드 모델은 자신의 생애 동안 예측 코딩을 통해 행동과 관측 결과를 효율적으로 인코딩하는 법을 배운다. 이러한 과정에서 월드 모델은 특징의 계층(hierarchy)을 형성하고, 주어진 데이터 구조로부터 특이점을 식별하거나 프로토타입 인코딩(prototype encoding)을 생성한다.
-    &lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;결론&quot;&gt;결론&lt;/h3&gt;
-
-&lt;p&gt;유르겐 슈미트후버는 30년 동안 인공 의식과 감정을 지니는 기계를 연구해왔다. 그의 연구는 데이터 압축, 재귀 신경망, 월드 모델, 예측 코딩 등을 통해 인공 시스템이 자기 인식을 형성하고, 세상과 상호작용하며, 궁극적으로 감정과 의식을 가질 수 있다는 가능성을 제시한다. 이러한 연구는 인공지능의 미래에 대한 새로운 시각을 제공하며, 더욱 발전된 인공 시스템의 개발에 기여할 것이다.&lt;/p&gt;
-
-&lt;h3 id=&quot;읽고-나서&quot;&gt;읽고 나서&lt;/h3&gt;
-
-&lt;p&gt;예측 코딩과 비/자기지도 학습의 중요성이 2010년대 들어 각광받기 시작했다는 점을 고려하면, 일찍이 1990년대 초부터 해당 개념들의 중요성을 파악하고 다양한 사례에 적용한 것은 매우 놀랍다. 특히 의식 분야에서 유명한 아닐 세스(Anil Seth)의 2010년대 이론에 따르면, 내부수용감각 정보(interoceptive information)에 대한 예측 코딩이 의식(consciousness)과 자기감(self-awareness)의 기초가 된다고 주장한다. 이는 슈미트후버의 월드 모델에서 압축된 자기 자신의 상태와 관련될 수 있다. 또한, 데이터 압축 관점은 사무엘 절쉬만(Samuel Gershman)이 최근 자신의 책에서 제시한 두 가지 인간 인지 원칙 중 두 번째인 근사(approximation) 원칙과 일맥상통하는 것으로 보인다. 데이터 압축은 항상 가능한 것은 아니지만, 재귀적인 신경망에서 계층 구조를 형성하며 압축해 나간다는 슈미트후버의 주장과 깊이 관련되어 있다.&lt;/p&gt;
-
-&lt;p&gt;그의 2003년 후속 연구에 따르면, 의식에 대한 형식적인 정의(formal definition)를 도입한다. 만약 의식을 무제한적인 자기 점검과 자기 수정 능력으로 정의한다면, 괴델 머신(Gödel machine)은 인공지능의 의식을 기술적으로 정당화하는 방법을 제공한다. 제한적인 자기 점검과 자기 수정을 가능하게 함으로써, 이러한 머신은 스스로의 행동을 자율적으로 개선하고 최적화할 수 있는 일반 문제 해결사(general problem solver)의 틀을 제공한다. 이는 수학적 증명과 형식적 추론에 기반한 인공지능 의식의 한 형태를 달성하는 것이다.&lt;/p&gt;
-
-&lt;p&gt;그가 취하고 있는 정보과학(informatics) 및 형식 이론적 입장(formal-theoretic stance)과 연구 방법론은 매우 매력적이며, 명쾌함과 깊은 통찰을 지니고 있음에는 의심의 여지가 없다. 그러나 진화에 입각한 생물학적 복잡성과 심리학에서 강조하는 기능들에 대해 고민해본다면, 계산 신경과학 및 철학과의 관련성을 발견하고 그 연결성을 파악하는 작업이 필요할 것이다. 예를 들어, 정동 신경과학(affective neuroscience)에서 주장하는 근원적 의식(primordial consciousness)이 어떻게 슈미트후버의 월드 모델을 지닌 에이전트로 하여금 느낌(feeling)과 정서(emotion)를 불러일으키는지에 대해 명료한 설명이 필요하다. 또한, 그의 이론과 그 이후에 등장한 내부수용적 추론(interoceptive inference)과 자기(self), 주의집중(attention)과 의식(consciousness)의 관계, 메타인지(meta-cognition)와 고델 머신(Gödel machine)의 관계에 대한 심도 있는 연구가 필요할 것이다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;슈미트후버의 연구는 정보과학 및 형식 이론적 입장에서 매우 명쾌하고 깊은 통찰을 제공하지만, 진화에 입각한 생물학적 복잡성과 심리학에서 강조하는 기능들과의 연관성을 더 탐구할 필요가 있다. 예를 들어, 정동 신경과학에서 주장하는 근원적 의식이 슈미트후버의 월드 모델을 지닌 에이전트로 하여금 느낌과 정서를 불러일으키는지에 대한 설명이 필요하다. 또한, 그의 이론과 내부수용적 추론, 자기, 주의집중, 의식, 메타인지 및 괴델 머신 간의 관계에 대한 심도 있는 연구가 요구된다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;요약&quot;&gt;요약&lt;/h3&gt;
-
-&lt;p&gt;유르겐 슈미트후버는 2016년 AI 컨퍼런스에서 인공 의식, 월드 모델, 예측 코딩, 데이터 압축에 대한 개념을 소개하며, 의식을 문제 해결 과정에서 발생하는 데이터 압축의 부산물로 설명했다. 그는 범용 컴퓨터와 재귀 신경망이 세상으로부터 정보를 수집하고 목표를 달성하며, 제어기와 월드 모델이라는 재귀 신경망을 통해 강화학습과 계획을 실행하는 시스템을 제안했다. 이러한 시스템은 데이터를 효율적으로 압축하고 자기 인식을 형성하며, 신경망의 가중치를 프로그램으로 간주해 더 나은 프로그램을 찾는 방향을 제시했다. 특히, 슈미트후버의 연구는 예측 코딩과 비/자기지도 학습의 중요성을 1990년대 초부터 인식하고 다양한 사례에 적용한 것이 인상적이다. 아닐 세스의 내부수용감각 정보에 대한 예측 코딩 이론과 사무엘 절쉬만의 데이터 압축 원칙과도 연결되며, 의식을 무제한적인 자기 점검과 자기 수정 능력으로 정의한 괴델 머신을 통해 인공지능의 의식을 기술적으로 정당화하는 방법을 제시한다.&lt;/p&gt;
-
-&lt;h3 id=&quot;참고자료&quot;&gt;참고자료&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;[1] &lt;a href=&quot;https://youtu.be/q4fFuZgOZn8?si=yJkWs44y-QBFlKN2&quot;&gt;Jürgen Schmidhuber’s Solution to AI Consciousness&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;[2] &lt;a href=&quot;https://people.idsia.ch/~juergen/world-models-planning-curiosity-fki-1990.html&quot;&gt;1990: Planning &amp;amp; Reinforcement Learning with Recurrent World Models and Artificial Curiosity&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;[3] &lt;a href=&quot;https://people.idsia.ch/~juergen/very-deep-learning-1991.html&quot;&gt;1991: First very deep learning with unsupervised pre-training&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;[4] &lt;a href=&quot;https://mediatum.ub.tum.de/doc/1290203/document.pdf&quot;&gt;Godel Machines: Towards a Technical Justification of Consciousness&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;[5] &lt;a href=&quot;https://x.com/SchmidhuberAI/status/1765769164709371978&quot;&gt;X&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
-                <pubDate>Sat, 20 Jul 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Schmidhuber-and-Conscious-Machine-kr/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Schmidhuber-and-Conscious-Machine-kr/</guid>
-                
-                <category>인공지능</category>
-                
-                <category>의식</category>
-                
-                <category>월드모델</category>
-                
-                <category>예측코딩</category>
-                
-                
-                <category>Motivation</category>
-                
-            </item>
-        
-            <item>
-                <title>Schmidhuber&apos;s Consciousness</title>
-                <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/q4fFuZgOZn8?si=PqlGxV8uUUYBd84x&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;At the 2016 AI conference in New York, Jürgen Schmidhuber introduced intriguing concepts such as Artificial Consciousness, World Model, Predictive Coding, and Data Compression. He claims that artificial systems with consciousness already exist in his lab, and consciousness arises as a byproduct of data compression during problem-solving. Let’s delve into his main ideas.&lt;/p&gt;
-
-&lt;h3 id=&quot;1-the-foundation-of-artificial-consciousness-data-compression&quot;&gt;1. The Foundation of Artificial Consciousness: Data Compression&lt;/h3&gt;
-
-&lt;div style=&quot;display: flex;&quot;&gt;
-  &lt;div style=&quot;flex: 8; padding-right: 10px;&quot;&gt;
-    &lt;p&gt;
-      Schmidhuber explains consciousness as a byproduct of data compression. According to his theory, the ability of artificial systems to efficiently compress data during problem-solving forms the basis of consciousness. This is similar to how the human brain processes and stores complex information.
-    &lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div style=&quot;flex: 2;&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled.png&quot; alt=&quot;Schmidhuber&apos;s Thesis&quot; style=&quot;width: 100%;&quot; /&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;2-general-purpose-computer-and-recurrent-neural-networks&quot;&gt;2. General-Purpose Computer and Recurrent Neural Networks&lt;/h3&gt;
-
-&lt;p&gt;General-purpose computers, especially recurrent neural networks, are optimized for communication costs with many nodes and short wires connecting processors. These computers gather various information from the world to achieve goals or optimize rewards. Recurrent neural networks play a crucial role in this process.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-world-model-and-predictive-coding&quot;&gt;3. World Model and Predictive Coding&lt;/h3&gt;
-
-&lt;div style=&quot;display: flex;&quot;&gt;
-  &lt;div style=&quot;flex: 2;&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 1.png&quot; alt=&quot;World Model + RL&quot; style=&quot;width: 100%;&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div style=&quot;flex: 8; padding-left: 10px;&quot;&gt;
-    &lt;p&gt;
-      Schmidhuber proposes a system that solves reinforcement learning and planning based on two recurrent neural networks: the controller and the world model. The controller generates actions, while the world model compresses data by making predictions about the world. All physical laws and scientific principles are compressed into sub-networks of the recurrent neural network, which are utilized by the controller.
-    &lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;4-self-awareness-and-artificial-curiosity&quot;&gt;4. Self-awareness and Artificial Curiosity&lt;/h3&gt;
-
-&lt;div style=&quot;display: flex;&quot;&gt;
-  &lt;div style=&quot;flex: 1;&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 2.png&quot; alt=&quot;Robotics Application&quot; style=&quot;width: 100%;&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div style=&quot;flex: 1; padding-left: 10px;&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 3.png&quot; alt=&quot;GAN&quot; style=&quot;width: 100%;&quot; /&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;In the process of interacting with the world, artificial systems also compress their own states. This forms the basis for self-awareness. Additionally, Schmidhuber introduced artificial curiosity through Generative Adversarial Networks (GANs), presenting agents that learn via un/self-supervised learning. This is based on a minimax game where the objective function of one neural network is minimized by another.&lt;/p&gt;
-
-&lt;h3 id=&quot;5-neural-networks-as-programs&quot;&gt;5. Neural Networks as Programs&lt;/h3&gt;
-
-&lt;div style=&quot;display: flex;&quot;&gt;
-  &lt;div style=&quot;flex: 8; padding-right: 10px;&quot;&gt;
-    &lt;p&gt;
-      Schmidhuber argues that the weights of neural networks should be regarded as programs. The main goal of deep neural networks is to learn useful internal representations of observed data. The output of a neural network is differentiable concerning the program, guiding the search for better programs.
-    &lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div style=&quot;flex: 2;&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 4.png&quot; alt=&quot;Neural Economy&quot; style=&quot;width: 100%;&quot; /&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;6-predictive-world-models-and-self-awareness&quot;&gt;6. Predictive World Models and Self-awareness&lt;/h3&gt;
-
-&lt;div style=&quot;display: flex;&quot;&gt;
-  &lt;div style=&quot;flex: 2;&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2024/Q3/2024-07-20-Schmidhuber and Conscious Machine/Untitled 5.png&quot; alt=&quot;On Consciousness&quot; style=&quot;width: 100%;&quot; /&gt;
-  &lt;/div&gt;
-  &lt;div style=&quot;flex: 8; padding-left: 10px;&quot;&gt;
-    &lt;p&gt;
-      Predictive world models that interact with the world through the controller learn to efficiently encode actions and observations through predictive coding during their lifetime. In this process, the world model forms a hierarchy of features, identifying anomalies or generating prototype encodings from the given data structure.
-    &lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;Jürgen Schmidhuber has been researching machines with artificial consciousness and emotions for 30 years. His research suggests that artificial systems can form self-awareness, interact with the world, and ultimately possess emotions and consciousness through data compression, recurrent neural networks, world models, and predictive coding. This research provides a new perspective on the future of artificial intelligence and contributes to the development of more advanced artificial systems.&lt;/p&gt;
-
-&lt;p&gt;Reflection
-Considering that the importance of predictive coding and un/self-supervised learning began to be recognized in the 2010s, it is remarkable that he identified the importance of these concepts and applied them to various cases as early as the early 1990s. Notably, Anil Seth’s 2010s theory in the field of consciousness argues that predictive coding of interoceptive information forms the basis of consciousness and self-awareness. This can relate to the compressed state of self in Schmidhuber’s world model. Additionally, the perspective of data compression aligns with Samuel Gershman’s second principle of human cognition, the principle of approximation, recently presented in his book. Data compression is not always possible, but Schmidhuber’s assertion that it forms hierarchies in recursive neural networks is deeply related.&lt;/p&gt;
-
-&lt;p&gt;According to his 2003 follow-up research, he introduces a formal definition of consciousness. If consciousness is defined as the ability for unlimited self-inspection and self-modification, the Gödel Machine provides a technical justification for the consciousness of artificial intelligence. By enabling limited self-inspection and self-modification, these machines offer a framework for general problem solvers capable of autonomously improving and optimizing their behavior. This achieves a form of artificial intelligence consciousness based on mathematical proofs and formal reasoning.&lt;/p&gt;
-
-&lt;p&gt;His information-theoretic and formal-theoretic stance and research methodology are compelling, with clarity and deep insight. However, considering the biological complexity and functions emphasized in psychology, it is necessary to discover and understand the connections with computational neuroscience and philosophy. For example, a clear explanation is needed on how primordial consciousness, as argued by affective neuroscience, can induce feelings and emotions in agents with Schmidhuber’s world model. Furthermore, in-depth research is required on the relationships between his theory and interoceptive inference, self, attention and consciousness, metacognition, and the Gödel Machine.&lt;/p&gt;
-
-&lt;p&gt;While Schmidhuber’s research provides clear and deep insights from an information-theoretic and formal-theoretic perspective, it is necessary to further explore its connections with the biological complexity and functions emphasized in psychology. For example, a clear explanation is needed on how primordial consciousness, as argued by affective neuroscience, can induce feelings and emotions in agents with Schmidhuber’s world model. Furthermore, in-depth research is required on the relationships between his theory and interoceptive inference, self, attention and consciousness, metacognition, and the Gödel Machine.&lt;/p&gt;
-
-&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;At the 2016 AI conference, Jürgen Schmidhuber introduced concepts of artificial consciousness, world model, predictive coding, and data compression, explaining consciousness as a byproduct of data compression during problem-solving. He proposed systems based on general-purpose computers and recurrent neural networks that gather information from the world to achieve goals and optimize rewards, using two recurrent neural networks, the controller, and the world model, for reinforcement learning and planning. These systems efficiently compress data and form self-awareness, considering the weights of neural networks as programs to guide the search for better programs. Notably, Schmidhuber recognized the importance of predictive coding and un/self-supervised learning as early as the early 1990s, connecting with Anil Seth’s interoceptive information predictive coding theory and Samuel Gershman’s data compression principle. His 2003 research introduced a formal definition of consciousness, proposing the Gödel Machine as a technical justification for AI consciousness, offering a framework for general problem solvers capable of autonomously improving their behavior. His research provides new insights into the future of AI and contributes to the development of more advanced artificial systems.&lt;/p&gt;
-
-&lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;[1] &lt;a href=&quot;https://youtu.be/q4fFuZgOZn8?si=yJkWs44y-QBFlKN2&quot;&gt;Jürgen Schmidhuber’s Solution to AI Consciousness&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;[2] &lt;a href=&quot;https://people.idsia.ch/~juergen/world-models-planning-curiosity-fki-1990.html&quot;&gt;1990: Planning &amp;amp; Reinforcement Learning with Recurrent World Models and Artificial Curiosity&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;[3] &lt;a href=&quot;https://people.idsia.ch/~juergen/very-deep-learning-1991.html&quot;&gt;1991: First very deep learning with unsupervised pre-training&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;[4] &lt;a href=&quot;https://mediatum.ub.tum.de/doc/1290203/document.pdf&quot;&gt;Godel Machines: Towards a Technical Justification of Consciousness&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;[5] &lt;a href=&quot;https://x.com/SchmidhuberAI/status/1765769164709371978&quot;&gt;X&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
-                <pubDate>Sat, 20 Jul 2024 00:00:00 +0900</pubDate>
-                <link>http://localhost:4000/motivation/Schmidhuber-and-Conscious-Machine-en/</link>
-                <guid isPermaLink="true">http://localhost:4000/motivation/Schmidhuber-and-Conscious-Machine-en/</guid>
-                
-                <category>AI</category>
-                
-                <category>Consciousness</category>
-                
-                <category>World Models</category>
-                
-                <category>Predictive Coding</category>
                 
                 
                 <category>Motivation</category>
