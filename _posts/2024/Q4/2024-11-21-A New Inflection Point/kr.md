@@ -1,4 +1,4 @@
----
+<!-- ---
 title: 새로운 변곡점 
 scope:
   type: posts
@@ -136,4 +136,4 @@ image: assets/images/posts/2024/Q4/2024-11-21-A New Inflection Point/arrival.jpg
 
 인지 신경과학과 인지 심리학에서 제안하는 의식의 이론은 정말 *다양하다*([**Anil Seth & Tim Bayne, 2022**](https://www.nature.com/articles/s41583-022-00587-4)). 전역 신경 작업공간 이론(GNWT: Global Neuronal Workspace Theory)과 통합 정보 이론(IIT: Integrated Information Theory), 정동 기반 이론(Affect-based Theory), 메타인지와 고차 사고 이론(HOT: Higher-Order Thought Theory)은 의식의 인지 기능과 프로세스를 설명하는 대표적 이론이다. 각 이론들은 다양한 주장들을 펼치고 있는데, 이를 증명할 신경과학적 관점의 실험 결과는 아직 부족하다([**Cogitate Consortium, 2023**](https://www.biorxiv.org/content/10.1101/2023.06.23.546249v1.full)). 때문에 최근 각광받고 있는 이론 신경과학의 자유 에너지 원리와 능동 추론(Free Energy Principle & Active Inference)의 관점에서, 각 이론의 주장들을 확률론 및 정보이론의 관점에서 형식화할 필요성을 제안한다. 이 관점은 기계 학습(machine learning) 학계에서 다뤄져 온 확률적 그래프 모형(PGM; Probabilistic Graphical Model) 상의 변분 추론(Variational Inference) 및 월드 모델(World Model) 관점과도 *동일해* 쉽게 확장가능하다. 강조하건데, *잘 정립된 이론은 백만 번의 실험에 맞먹는 가치를 지닌다.*
 
-인공지능 학계에서 월드 모델이 이미 의식적이라는 주장이 있지만([**Schmidhuber, 2016**](https://lee-dohyeon.github.io/motivation/Schmidhuber-and-Conscious-Machine-kr/)), 그것이 인간 수준 만큼의 의식적 행동을 보이는지에 대해서는 논란이 있다. 의식을 주관적 경험(Subjective Experience)으로 해석하는 현대 의식 과학의 흐름에서, 우리는 인공지능 모델의 내적 표상(마음)-상호작용 양식(행동)-작동 원리(두뇌)를 해석할 유용한 관점이 필요하다. 인공지능은 인지과학의 주장과 흐름을 인간의 단편적/부분적 일면-예컨대, 내성적 보고(Introspective Report), 실험을 통한 행동(Experimental Behavioral), 신경 이미징(NeuroImage)-에서 벗어나 전일적인(hollistic) 시스템 분석의 관점에서 접근할 수 있다. 월드 모델과 같이 인간과 동일한 생태적 지위(Niche)에서 상호작용하는 인공적 시스템을 통해 인지 과학적 이론의 전일적 양상을 분석할 수 있을 것으로 기대한다. *새로운 사이버네틱스 운동이 태동하고 있는 걸까?*
+인공지능 학계에서 월드 모델이 이미 의식적이라는 주장이 있지만([**Schmidhuber, 2016**](https://lee-dohyeon.github.io/motivation/Schmidhuber-and-Conscious-Machine-kr/)), 그것이 인간 수준 만큼의 의식적 행동을 보이는지에 대해서는 논란이 있다. 의식을 주관적 경험(Subjective Experience)으로 해석하는 현대 의식 과학의 흐름에서, 우리는 인공지능 모델의 내적 표상(마음)-상호작용 양식(행동)-작동 원리(두뇌)를 해석할 유용한 관점이 필요하다. 인공지능은 인지과학의 주장과 흐름을 인간의 단편적/부분적 일면-예컨대, 내성적 보고(Introspective Report), 실험을 통한 행동(Experimental Behavioral), 신경 이미징(NeuroImage)-에서 벗어나 전일적인(hollistic) 시스템 분석의 관점에서 접근할 수 있다. 월드 모델과 같이 인간과 동일한 생태적 지위(Niche)에서 상호작용하는 인공적 시스템을 통해 인지 과학적 이론의 전일적 양상을 분석할 수 있을 것으로 기대한다. *새로운 사이버네틱스 운동이 태동하고 있는 걸까?* -->
