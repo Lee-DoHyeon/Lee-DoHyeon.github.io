@@ -20,11 +20,9 @@ tags:
   - 인지심리학
 lang: kr
 header:
-  teaser: "/Users/leadtheworld/Lee-DoHyeon.github.io/assets/images/posts/2025/Q2/2024-12-10-The TENETS/0.webp"
-image: "/Users/leadtheworld/Lee-DoHyeon.github.io/assets/images/posts/2025/Q2/2024-12-10-The TENETS/0.webp"
+  teaser: "/Users/leadtheworld/Lee-DoHyeon.github.io/assets/images/posts/2025/Q2/2024-12-10-The TENETS/0.png"
+image: /Users/leadtheworld/Lee-DoHyeon.github.io/assets/images/posts/2025/Q2/2024-12-10-The TENETS/0.png
 ---
-
-# 사이버네틱스, 인지과학에서의 유용한 교리들
 
 다음은 내가 인간 수준의 인공지능을 연구하고, 사이버네틱스, 인지과학을 기계 학습으로 풀어낼 때 필요한 철학과 원리, 가설들이다.
 

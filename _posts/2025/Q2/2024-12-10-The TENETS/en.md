@@ -20,11 +20,9 @@ tags:
   - Cognitive Psychology
 lang: en
 header:
-  teaser: "/Users/leadtheworld/Lee-DoHyeon.github.io/assets/images/posts/2025/Q2/2024-12-10-The TENETS/0.webp"
-image: /Users/leadtheworld/Lee-DoHyeon.github.io/assets/images/posts/2025/Q2/2024-12-10-The TENETS/0.webp
+  teaser: "/Users/leadtheworld/Lee-DoHyeon.github.io/assets/images/posts/2025/Q2/2024-12-10-The TENETS/0.png"
+image: /Users/leadtheworld/Lee-DoHyeon.github.io/assets/images/posts/2025/Q2/2024-12-10-The TENETS/0.png
 ---
-
-# Useful Doctrines from Cybernetics and Cognitive Science
 
 Below are the philosophies, principles, and hypotheses I find essential when researching human-level AI and translating cybernetics and cognitive science into machine learning.
 
